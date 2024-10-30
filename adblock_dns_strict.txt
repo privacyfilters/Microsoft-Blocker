@@ -1,11 +1,11 @@
 ! Title: Microsoft Blocker Strict
-! Description: This blocklist will block all traffic to Microsoft. Nothing will be whitelisted, Eveything related to Microsoft will be blocked.
+! Description: This blocklist aims to block all traffic to Microsoft. Nothing will be whitelisted, Eveything related to Microsoft will be blocked.
 ! Homepage: https://github.com/privacyfilters/Microsoft-Blocker/
 ! Source: https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/refs/heads/main/adblock_dns_strict.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 30 Oct 2024
-! Version: 1.01
+! Version: 1.02
 ! Syntax: Adblock
 ! Number of entries: 26
 !
