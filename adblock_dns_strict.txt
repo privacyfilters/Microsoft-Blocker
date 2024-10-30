@@ -1,7 +1,7 @@
-! Title: Microsoft Blocker Proper
-! Description: This blocklist will block almost all traffic to microsoft. Only some essential urls are allowed for windows update and winget package manager to work.
+! Title: Microsoft Blocker Strict
+! Description: This blocklist will block all traffic to Microsoft. Nothing will be whitelisted, Eveything related to Microsoft will be blocked.
 ! Homepage: https://github.com/privacyfilters/Microsoft-Blocker/
-! Source: https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/refs/heads/main/adblock_dns_proper.txt
+! Source: https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/refs/heads/main/adblock_dns_strict.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 30 Oct 2024
@@ -31,9 +31,9 @@
 ||appcenter.ms^
 !
 !!! Windows Update related Urls
-@@||update.microsoft.com^$important
-@@||delivery.mp.microsoft.com^$important
-@@||windowsupdate.com^$important
+||update.microsoft.com^$important
+||delivery.mp.microsoft.com^$important
+||windowsupdate.com^$important
 ||msftconnecttest.com^$important
 ||login.live.com^$important
 ||prod.do.dsp.mp.microsoft.com^$important
@@ -42,13 +42,13 @@
 !
 !!! Windows package related urls
 !!Winget, unigetui etc
-@@||cdn.winget.microsoft.com^$important
+||cdn.winget.microsoft.com^$important
 !!Vscode and extensions
-@@||download.visualstudio.microsoft.com^$important
-@@||openvsxorg.blob.core.windows.net^$important
+||download.visualstudio.microsoft.com^$important
+||openvsxorg.blob.core.windows.net^$important
 !
 !!! Microsoft Support and resource related Urls
-@@||learn.microsoft.com^$important
+||learn.microsoft.com^$important
 !
 !!! Oter Urls
 ||catalog.sf.dl.delivery.mp.microsoft.com^$important
