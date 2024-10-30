@@ -5,15 +5,15 @@
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 30 Oct 2024
-! Version: 1.00
+! Version: 1.01
 ! Syntax: Adblock
-! Number of entries: 67
+! Number of entries: 26
 !
-!!! Microsoft top level domains for blanket blocking
+!!! Microsoft Main top level domains for blanket blocking
 ||microsoft.com^
+||microsoft.net^
 ||windows.com^
 ||windows.net^
-||copilot.*microsoft.com^
 ||bing.com*^
 ||skype.com^
 ||live.com^
@@ -25,68 +25,18 @@
 ||microsoftapp.net^
 ||msn*.com^
 ||msn-net.ru^
-||trafficmanager.net^
 ||msads.net^
 ||*msedge.net^
+!
+!!! Microsoft Other top level domains
+||windowsupdate.com^
+||trafficmanager.net^
+||msftconnecttest.com^
 ||appcenter.ms^
-!
-!!! Windows Update related Urls
-||update.microsoft.com^$important
-||delivery.mp.microsoft.com^$important
-||windowsupdate.com^$important
-||msftconnecttest.com^$important
-||login.live.com^$important
-||prod.do.dsp.mp.microsoft.com^$important
 ||windowslatest.com^$important
-||client.wns.windows.com^$important
+||msftncsi.com^
+||microsoftonline.com^
 !
-!!! Windows package related urls
-!!Winget, unigetui etc
-||cdn.winget.microsoft.com^$important
-!!Vscode and extensions
-||download.visualstudio.microsoft.com^$important
-||openvsxorg.blob.core.windows.net^$important
-!
-!!! Microsoft Support and resource related Urls
-||learn.microsoft.com^$important
-!
-!!! Oter Urls
-||catalog.sf.dl.delivery.mp.microsoft.com^$important
-||graph.microsoft.com^$important
-||storeedgefd.dsx.mp.microsoft.com^$important
-||arc.msn.com^$important
-||r4.res.office365.com^$important
-||www.msftconnecttest.com^$important
-||login.microsoftonline.com^$important
-||dns.msftncsi.com^$important
-||time.windows.com^$important
-||answers.microsoft.com^$important
-||support.microsoft.com^$important
-||officeclient.microsoft.com^
-||smartscreen.microsoft.com^
-||go.microsoft.com^$important
-||fs.microsoft.com^$important
-||assets.msn.com^$important
-||licensing.mp.microsoft.com^$important
-||geo.prod.do.dsp.mp.microsoft.com^
-||licensing.mp.microsoft.com^$important
-||nav.smartscreen.microsoft.com^
-||nav-edge.smartscreen.microsoft.com^
-||cxcs.microsoft.net
-||settings-win.data.microsoft.com^
-||fd.api.iris.microsoft.com^
-||inputsuggestions.msdxcdn.microsoft.com^
-||edge.microsoft.com^
-||config.edge.skype.com^
-||displaycatalog.mp.microsoft.com^
-||geover.prod.do.dsp.mp.microsoft.com^
-||windows.msn.com^
-||staticview.msn.com^
-||edgeservices.bing.com^
-||fpt.dfp.microsoft.com^
-||tsfe.trafficshaping.dsp.mp.microsoft.com^
-||prod.client.wosc.services.microsoft.com^
-||dcg.microsoft.com^
+!!! Other Links
 ||img-s-msn-com.akamaized.net^
 ||bing.comms-appx-web^
-||events.data.microsoft.com^
