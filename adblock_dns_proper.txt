@@ -4,8 +4,8 @@
 ! Source: https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/refs/heads/main/adblock_dns_proper.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 30 Oct 2024
-! Version: 1.00
+! Last modified: 02 Nov 2024
+! Version: 1.01
 ! Syntax: Adblock
 ! Number of entries: 67
 !
