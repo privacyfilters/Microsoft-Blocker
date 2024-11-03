@@ -4,10 +4,10 @@
 ! Source: https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/refs/heads/main/adblock_dns_nomicrosoft.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 31 Oct 2024
-! Version: 1.03
+! Last modified: 04 Nov 2024
+! Version: 1.04
 ! Syntax: Adblock
-! Number of entries: 26
+! Number of entries:
 !
 !!! Microsoft Main top level domains for blanket blocking
 ||microsoft.com^
@@ -36,6 +36,7 @@
 ||windowslatest.com^$important
 ||msftncsi.com^
 ||microsoftonline.com^
+||microsoftaik.azure.net^
 !
 !!! Other Links
 ||img-s-msn-com.akamaized.net^
