@@ -5,9 +5,9 @@
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 04 Nov 2024
-! Version: 1.05
+! Version: 1.06
 ! Syntax: Adblock
-! Number of entries: 67
+! Number of entries:
 !
 !!! Microsoft top level domains for blanket blocking
 ||*microsoft*.com^
@@ -56,8 +56,7 @@
 @@||learn.microsoft.com^$important
 !
 !!! Oter Urls
-@@||sdx.microsoft.com
-@@||smartscreen.microsoft.com^
+@@||sdx.microsoft.com^$important
 @@||fs.microsoft.com^$important
 @@||go.microsoft.com^$important
 ||catalog.sf.dl.delivery.mp.microsoft.com^$important
@@ -76,8 +75,7 @@
 ||licensing.mp.microsoft.com^
 ||geo.prod.do.dsp.mp.microsoft.com^
 ||licensing.mp.microsoft.com^
-||nav.smartscreen.microsoft.com^
-||nav-edge.smartscreen.microsoft.com^
+||smartscreen.microsoft.com^
 ||cxcs.microsoft.net
 ||settings-win.data.microsoft.com^
 ||fd.api.iris.microsoft.com^
