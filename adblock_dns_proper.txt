@@ -5,16 +5,19 @@
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 04 Nov 2024
-! Version: 1.04
+! Version: 1.05
 ! Syntax: Adblock
 ! Number of entries: 67
 !
 !!! Microsoft top level domains for blanket blocking
-||microsoft.com^
+||*microsoft*.com^
+||microsoft.net^
+||microsoft.us^
 ||windows.com^
 ||windows.net^
 ||copilot.*microsoft.com^
 ||bing.com*^
+||bing.net^
 ||skype.com^
 ||live.com^
 ||xboxlive.com^
@@ -23,12 +26,13 @@
 ||office.net
 ||office.com^
 ||microsoftapp.net^
-||msn*.com^
+||*msn*.com^
 ||msn-net.ru^
 ||trafficmanager.net^
 ||msads.net^
 ||*msedge.net^
 ||appcenter.ms^
+||cortana.ai^
 !
 !!! Windows Update related Urls
 @@||update.microsoft.com^$important
@@ -92,3 +96,24 @@
 ||img-s-msn-com.akamaized.net^
 ||bing.comms-appx-web^
 ||events.data.microsoft.com^
+||adnexus.net^
+||adnxs.com^
+||atdmt.com^
+||adtech.de^
+||microsoft.com.akadns.net^
+||microsoft.com.nsatc.net^
+||msads.net^
+||serving-sys.com^
+||llnw.net^
+||v0cdn.net^
+||serving-sys.com^
+||footprintpredict.com^
+||flashtalking.com^
+||windowsazure.com^
+||virtualearth.net^
+||s-msn.com^
+||hotmail.com^
+||microsoft.com.edgesuite.net^
+||sfx.ms^
+||cognitiveservices.azure.com^
+||2mdn.net^
