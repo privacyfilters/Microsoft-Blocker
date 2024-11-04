@@ -5,7 +5,7 @@
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 04 Nov 2024
-! Version: 1.02
+! Version: 1.03
 ! Syntax: Adblock
 ! Number of entries: 67
 !
