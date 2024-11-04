@@ -5,7 +5,7 @@
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 04 Nov 2024
-! Version: 1.03
+! Version: 1.04
 ! Syntax: Adblock
 ! Number of entries: 67
 !
@@ -44,6 +44,7 @@
 !!Winget, unigetui etc
 @@||cdn.winget.microsoft.com^$important
 !!Vscode and extensions
+@@||visualstudio.com^$important
 @@||download.visualstudio.microsoft.com^$important
 @@||openvsxorg.blob.core.windows.net^$important
 !
@@ -54,8 +55,8 @@
 @@||sdx.microsoft.com
 @@||smartscreen.microsoft.com^
 @@||fs.microsoft.com^$important
+@@||go.microsoft.com^$important
 ||catalog.sf.dl.delivery.mp.microsoft.com^$important
-||go.microsoft.com^$important
 ||graph.microsoft.com^
 ||storeedgefd.dsx.mp.microsoft.com^
 ||microsoftaik.azure.net^
