@@ -4,8 +4,8 @@
 ! Source: https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/refs/heads/main/adblock_dns_proper.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 04 Nov 2024
-! Version: 1.06
+! Last modified: 06 Nov 2024
+! Version: 1.07
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -44,13 +44,16 @@
 ||windowslatest.com^
 ||client.wns.windows.com^
 !
-!!! Windows package related urls
+!!! Windows packages, runtimes and developer related urls
 !!Winget, unigetui etc
 @@||cdn.winget.microsoft.com^$important
 !!Vscode and extensions
-@@||visualstudio.com^$important
+@@||code.visualstudio.com^$important
 @@||download.visualstudio.microsoft.com^$important
 @@||openvsxorg.blob.core.windows.net^$important
+||dc.services.visualstudio.com^
+!!! Runtime
+@@||dotnet.microsoft.com^$important
 !
 !!! Microsoft Support and resource related Urls
 @@||learn.microsoft.com^$important
@@ -115,3 +118,4 @@
 ||sfx.ms^
 ||cognitiveservices.azure.com^
 ||2mdn.net^
+||consentdeliveryfd.azurefd.net^
