@@ -4,8 +4,8 @@
 ! Source: https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/refs/heads/main/adblock_dns_nomicrosoft.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 04 Nov 2024
-! Version: 1.07
+! Last modified: 08 Nov 2024
+! Version: 1.08
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -49,7 +49,7 @@
 ||msads.net^
 ||serving-sys.com^
 ||llnw.net^
-||v0cdn.net^
+!Not Blcoked - other services are related to it!||v0cdn.net^
 ||serving-sys.com^
 ||footprintpredict.com^
 ||flashtalking.com^
