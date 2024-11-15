@@ -1,7 +1,7 @@
 ! Title: Microsoft Blocker Proper
 ! Description: This blocklist will block almost all traffic to microsoft. Only some essential urls are allowed for windows update and winget package manager to work.
 ! Homepage: https://github.com/privacyfilters/Microsoft-Blocker/
-! Source: 
+! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 06 Nov 2024

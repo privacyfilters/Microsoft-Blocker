@@ -1,7 +1,7 @@
 ! Title: Microsoft Blocker - No Microsoft
 ! Description: This blocklist aims to block all traffic to Microsoft. Nothing will be whitelisted, Eveything related to Microsoft will be blocked.
 ! Homepage: https://github.com/privacyfilters/Microsoft-Blocker/
-! Source: 
+! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 08 Nov 2024
