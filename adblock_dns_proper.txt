@@ -1,0 +1,121 @@
+! Title: Microsoft Blocker Proper
+! Description: This blocklist will block almost all traffic to microsoft. Only some essential urls are allowed for windows update and winget package manager to work.
+! Homepage: https://github.com/privacyfilters/Microsoft-Blocker/
+! Source: 
+! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
+! Expires: 1 day
+! Last modified: 06 Nov 2024
+! Version: 1.07
+! Syntax: Adblock
+! Number of entries:
+!
+!!! Microsoft top level domains for blanket blocking
+||*microsoft*.com^
+||microsoft.net^
+||microsoft.us^
+||windows.com^
+||windows.net^
+||copilot.*microsoft.com^
+||bing.com*^
+||bing.net^
+||skype.com^
+||live.com^
+||xboxlive.com^
+||xboxservices.com^
+||office365.com^
+||office.net
+||office.com^
+||microsoftapp.net^
+||*msn*.com^
+||msn-net.ru^
+||trafficmanager.net^
+||msads.net^
+||*msedge.net^
+||appcenter.ms^
+||cortana.ai^
+!
+!!! Windows Update related Urls
+@@||update.microsoft.com^$important
+@@||delivery.mp.microsoft.com^$important
+@@||windowsupdate.com^$important
+@@||msftconnecttest.com^$important
+||login.live.com^
+||prod.do.dsp.mp.microsoft.com^
+||windowslatest.com^
+||client.wns.windows.com^
+!
+!!! Windows packages, runtimes and developer related urls
+!!Winget, unigetui etc
+@@||cdn.winget.microsoft.com^$important
+!!Vscode and extensions
+@@||code.visualstudio.com^$important
+@@||download.visualstudio.microsoft.com^$important
+@@||openvsxorg.blob.core.windows.net^$important
+||dc.services.visualstudio.com^
+!!! Runtime
+@@||dotnet.microsoft.com^$important
+!
+!!! Microsoft Support and resource related Urls
+@@||learn.microsoft.com^$important
+!
+!!! Oter Urls
+@@||sdx.microsoft.com^$important
+@@||fs.microsoft.com^$important
+@@||go.microsoft.com^$important
+||catalog.sf.dl.delivery.mp.microsoft.com^$important
+||graph.microsoft.com^
+||storeedgefd.dsx.mp.microsoft.com^
+||microsoftaik.azure.net^
+||arc.msn.com^
+||r4.res.office365.com^
+||login.microsoftonline.com^
+||dns.msftncsi.com^
+||time.windows.com^
+||answers.microsoft.com^
+||support.microsoft.com^
+||officeclient.microsoft.com^
+||assets.msn.com^$important
+||licensing.mp.microsoft.com^
+||geo.prod.do.dsp.mp.microsoft.com^
+||licensing.mp.microsoft.com^
+||smartscreen.microsoft.com^
+||cxcs.microsoft.net
+||settings-win.data.microsoft.com^
+||fd.api.iris.microsoft.com^
+||inputsuggestions.msdxcdn.microsoft.com^
+||edge.microsoft.com^
+||config.edge.skype.com^
+||displaycatalog.mp.microsoft.com^
+||geover.prod.do.dsp.mp.microsoft.com^
+||windows.msn.com^
+||staticview.msn.com^
+||edgeservices.bing.com^
+||fpt.dfp.microsoft.com^
+||tsfe.trafficshaping.dsp.mp.microsoft.com^
+||prod.client.wosc.services.microsoft.com^
+||dcg.microsoft.com^
+||img-s-msn-com.akamaized.net^
+||bing.comms-appx-web^
+||events.data.microsoft.com^
+||adnexus.net^
+||adnxs.com^
+||atdmt.com^
+||adtech.de^
+||microsoft.com.akadns.net^
+||microsoft.com.nsatc.net^
+||msads.net^
+||serving-sys.com^
+||llnw.net^
+||v0cdn.net^
+||serving-sys.com^
+||footprintpredict.com^
+||flashtalking.com^
+||windowsazure.com^
+||virtualearth.net^
+||s-msn.com^
+||hotmail.com^
+||microsoft.com.edgesuite.net^
+||sfx.ms^
+||cognitiveservices.azure.com^
+||2mdn.net^
+||consentdeliveryfd.azurefd.net^

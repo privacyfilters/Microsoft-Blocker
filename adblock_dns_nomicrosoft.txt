@@ -1,0 +1,67 @@
+! Title: Microsoft Blocker - No Microsoft
+! Description: This blocklist aims to block all traffic to Microsoft. Nothing will be whitelisted, Eveything related to Microsoft will be blocked.
+! Homepage: https://github.com/privacyfilters/Microsoft-Blocker/
+! Source: 
+! License: https://github.com/privacyfilters/Microsoft-Blocker/blob/main/LICENSE
+! Expires: 1 day
+! Last modified: 08 Nov 2024
+! Version: 1.08
+! Syntax: Adblock
+! Number of entries:
+!
+!!! Microsoft Main top level domains for blanket blocking
+||*microsoft*.com^
+||microsoft.net^
+||microsoft.us^
+||windows.com^
+||windows.net^
+||bing.com*^
+||bing.net^
+||skype.com^
+||live.com^
+||xboxlive.com^
+||xboxservices.com^
+||office365.com^
+||office.net
+||office.com^
+||microsoftapp.net^
+||*msn*.com^
+||msn-net.ru^
+||msads.net^
+||*msedge.net^
+||cortana.ai^
+!
+!!! Microsoft Other top level domains
+||windowsupdate.com^
+||trafficmanager.net^
+||msftconnecttest.com^
+||appcenter.ms^
+||windowslatest.com^$important
+||msftncsi.com^
+||microsoftonline.com^
+||microsoftaik.azure.net^
+||adnexus.net^
+||adnxs.com^
+||atdmt.com^
+||adtech.de^
+||microsoft.com.akadns.net^
+||microsoft.com.nsatc.net^
+||msads.net^
+||serving-sys.com^
+||llnw.net^
+!Not Blcoked - other services are related to it!||v0cdn.net^
+||serving-sys.com^
+||footprintpredict.com^
+||flashtalking.com^
+||windowsazure.com^
+||virtualearth.net^
+||s-msn.com^
+||hotmail.com^
+||microsoft.com.edgesuite.net^
+||sfx.ms^
+||cognitiveservices.azure.com^
+||2mdn.net^
+!
+!!! Other Links
+||img-s-msn-com.akamaized.net^
+||bing.comms-appx-web^
