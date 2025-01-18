@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 06 Nov 2024
-! Version: 1.07
+! Last modified: 18 January 2025
+! Version: 1.10
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -25,6 +25,8 @@
 ||office365.com^
 ||office.net
 ||office.com^
+||onedrive.com^
+||onenote.net^
 ||microsoftapp.net^
 ||*msn*.com^
 ||msn-net.ru^
@@ -39,10 +41,11 @@
 @@||delivery.mp.microsoft.com^$important
 @@||windowsupdate.com^$important
 @@||msftconnecttest.com^$important
+||client.wns.windows.com^
 ||login.live.com^
 ||prod.do.dsp.mp.microsoft.com^
 ||windowslatest.com^
-||client.wns.windows.com^
+
 !
 !!! Windows packages, runtimes and developer related urls
 !!Winget, unigetui etc
@@ -59,63 +62,68 @@
 @@||learn.microsoft.com^$important
 !
 !!! Oter Urls
-@@||sdx.microsoft.com^$important
 @@||fs.microsoft.com^$important
 @@||go.microsoft.com^$important
-||catalog.sf.dl.delivery.mp.microsoft.com^$important
-||graph.microsoft.com^
-||storeedgefd.dsx.mp.microsoft.com^
-||microsoftaik.azure.net^
-||arc.msn.com^
-||r4.res.office365.com^
-||login.microsoftonline.com^
-||dns.msftncsi.com^
-||time.windows.com^
-||answers.microsoft.com^
-||support.microsoft.com^
-||officeclient.microsoft.com^
-||assets.msn.com^$important
-||licensing.mp.microsoft.com^
-||geo.prod.do.dsp.mp.microsoft.com^
-||licensing.mp.microsoft.com^
-||smartscreen.microsoft.com^
-||cxcs.microsoft.net
-||settings-win.data.microsoft.com^
-||fd.api.iris.microsoft.com^
-||inputsuggestions.msdxcdn.microsoft.com^
-||edge.microsoft.com^
-||config.edge.skype.com^
-||displaycatalog.mp.microsoft.com^
-||geover.prod.do.dsp.mp.microsoft.com^
-||windows.msn.com^
-||staticview.msn.com^
-||edgeservices.bing.com^
-||fpt.dfp.microsoft.com^
-||tsfe.trafficshaping.dsp.mp.microsoft.com^
-||prod.client.wosc.services.microsoft.com^
-||dcg.microsoft.com^
-||img-s-msn-com.akamaized.net^
-||bing.comms-appx-web^
-||events.data.microsoft.com^
+@@||sdx.microsoft.com^$important
+||2mdn.net^
 ||adnexus.net^
 ||adnxs.com^
-||atdmt.com^
 ||adtech.de^
-||microsoft.com.akadns.net^
-||microsoft.com.nsatc.net^
-||msads.net^
-||serving-sys.com^
-||llnw.net^
-||v0cdn.net^
-||serving-sys.com^
-||footprintpredict.com^
-||flashtalking.com^
-||windowsazure.com^
-||virtualearth.net^
-||s-msn.com^
-||hotmail.com^
-||microsoft.com.edgesuite.net^
-||sfx.ms^
+||answers.microsoft.com^
+||arc.msn.com^
+||assets.msn.com^$important
+||atdmt.com^
+||bing.comms-appx-web^
+||bingforbusiness.com^
+||candycrushsoda.king.com^
+||candycrushsoda.king.com^
+||catalog.sf.dl.delivery.mp.microsoft.com^$important
 ||cognitiveservices.azure.com^
-||2mdn.net^
+||config.edge.skype.com^
 ||consentdeliveryfd.azurefd.net^
+||cxcs.microsoft.net
+||dcg.microsoft.com^
+||displaycatalog.mp.microsoft.com^
+||dns.msftncsi.com^
+||edge.microsoft.com^
+||edgeservices.bing.com^
+||events.data.microsoft.com^
+||fd.api.iris.microsoft.com^
+||flashtalking.com^
+||footprintpredict.com^
+||fpt.dfp.microsoft.com^
+||geo.prod.do.dsp.mp.microsoft.com^
+||geover.prod.do.dsp.mp.microsoft.com^
+||gfx.ms^
+||graph.microsoft.com^
+||hotmail.com^
+||img-s-msn-com.akamaized.net^
+||inputsuggestions.msdxcdn.microsoft.com^
+||licensing.mp.microsoft.com^
+||licensing.mp.microsoft.com^
+||login.microsoftonline.com^
+||microsoft-hohm.com^
+||microsoft.com.akadns.net^
+||microsoft.com.edgesuite.net^
+||microsoft.com.nsatc.net^
+||microsoftaik.azure.net^
+||msecnd.net^
+||msads.net^
+||officeclient.microsoft.com^
+||prod.client.wosc.services.microsoft.com^
+||r4.res.office365.com^
+||s-msn.com^
+||settings-win.data.microsoft.com^
+||sfx.ms^
+||smartscreen.microsoft.com^
+||staticview.msn.com^
+||storeedgefd.dsx.mp.microsoft.com^
+||support.microsoft.com^
+||time.windows.com^
+||tsfe.trafficshaping.dsp.mp.microsoft.com^
+||v0cdn.net^
+||virtualearth.net^
+||virtualearth.net^
+||windows.msn.com^
+||windowsazure.com^
+!
