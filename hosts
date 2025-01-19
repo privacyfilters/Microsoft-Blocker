@@ -846,8 +846,6 @@
 0.0.0.0 crl3.digicert.com
 0.0.0.0 crl4.digicert.com
 0.0.0.0 cs.dds.microsoft.com
-0.0.0.0 cs1.wpc.v0cdn.net
-0.0.0.0 cs11.wpc.v0cdn.net
 0.0.0.0 ctest.microsoft.com
 0.0.0.0 cu1pehnswad01.servicebus.windows.net
 0.0.0.0 cu1pehnswss01.servicebus.windows.net
