@@ -1,8 +1,11 @@
-# Microsoft-Blocker - Block all Microsoft Spying
-## Block almost all network traffic to Microsoft while using Microsoft products.
+# Microsoft-Blocker: Block all Microsoft Spying
+## Block all network traffic to Microsoft while using Microsoft products.
 
-## Direct Filter Urls -
+## Direct DNS filters and host files links:
 
-### Blocker Proper - Blocks Store but Allows windows update, winget and vscode extension store -https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
-
-### Blocker No Microsoft Edition - Blocks Eveything Related to Microsoft - https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
+### Microsoft Blocker Proper: Only Allows windows update, winget and vscode extension store 
+#### Adblock & DNS Filter Version- https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
+#### Hosts version - https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
+### Microsoft Blocker - No Microsoft Edition: Blocks Eveything from and related to Microsoft 
+#### Adblock & DNS Filter Version - https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
+#### Hosts version - https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
