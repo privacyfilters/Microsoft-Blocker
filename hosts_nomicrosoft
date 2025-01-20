@@ -429,7 +429,6 @@
 0.0.0.0 a-9999.a-dc-msedge.net
 0.0.0.0 a-9999.a-msedge.net
 0.0.0.0 a-msedge.net
-0.0.0.0 a-radar.sourceforge.io
 0.0.0.0 a-ring-fallback.msedge.net
 0.0.0.0 a-ring.a-9999.a-msedge.net
 0.0.0.0 a-ring.msedge.net
@@ -563,7 +562,6 @@
 0.0.0.0 alertonfailure.com
 0.0.0.0 alertops.com
 0.0.0.0 alerts.microsoft.com
-0.0.0.0 alive.github.com
 0.0.0.0 allterco.com
 0.0.0.0 alpha.telemetry.microsoft.com
 0.0.0.0 am2prdapp01-canary.netmon.azure.com
@@ -575,7 +573,6 @@
 0.0.0.0 americas1.notify.windows.com.akadns.net
 0.0.0.0 americas2.notify.windows.com.akadns.net
 0.0.0.0 amidaware.com
-0.0.0.0 amidaware.github.io
 0.0.0.0 ammyy-admin.findmysoft.com
 0.0.0.0 ammyy.com
 0.0.0.0 amp.azure.net
@@ -608,7 +605,6 @@
 0.0.0.0 anydesk.help
 0.0.0.0 anyplace-control.com
 0.0.0.0 anyviewer.com
-0.0.0.0 anywherets.sourceforge.io
 0.0.0.0 apac.events.data.microsoft.com
 0.0.0.0 apac1.notify.windows.com.akadns.net
 0.0.0.0 apcom-web.trafficmanager.net
@@ -745,14 +741,12 @@
 0.0.0.0 ars.smartscreen.microsoft.com
 0.0.0.0 asf-ris-prod-eus2-azsc.eastus2.cloudapp.azure.com
 0.0.0.0 asf-ris-prod-scus-azsc.southcentralus.cloudapp.azure.com
-0.0.0.0 asgxenserverconnector.sourceforge.io
 0.0.0.0 asia.microsoft.com
 0.0.0.0 asia.smartscreen-prod.microsoft.com
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 asimov.settings.data.microsoft.com.akadns.net
 0.0.0.0 asm-api-prod-version-skype.trafficmanager.net
 0.0.0.0 asm-skype-com.s-0006.s-msedge.net
-0.0.0.0 asmodathellopca.sourceforge.io
 0.0.0.0 aspnetcdn.com
 0.0.0.0 assets-yammer.com
 0.0.0.0 assets.activity.windows.com
@@ -769,7 +763,6 @@
 0.0.0.0 atm-settingsfe-prod-geo.trafficmanager.net
 0.0.0.0 atm-settingsfe-prod-geo2.trafficmanager.net
 0.0.0.0 atm.trafficmanager.net
-0.0.0.0 atpard.sourceforge.net
 0.0.0.0 attachments.office.net
 0.0.0.0 attest.azure.net
 0.0.0.0 attestation.xboxlive.com
@@ -948,7 +941,6 @@
 0.0.0.0 blogs.msdn.microsoft.com
 0.0.0.0 blogs.technet.microsoft.com
 0.0.0.0 blueboxit.ca
-0.0.0.0 blueride.sourceforge.io
 0.0.0.0 blumetra.com
 0.0.0.0 blz22prdapp02-canary.eastus.cloudapp.azure.com
 0.0.0.0 blz22prdapp02-canary.netmon.azure.com
@@ -1037,7 +1029,6 @@
 0.0.0.0 business.bing.com
 0.0.0.0 business.linkedin.com
 0.0.0.0 business.microsoft.com
-0.0.0.0 buttons.github.io
 0.0.0.0 buyeasyspy.com
 0.0.0.0 by1prdapp01-canary.cloudapp.net
 0.0.0.0 by1prdapp01-canary.netmon.azure.com
@@ -1213,7 +1204,6 @@
 0.0.0.0 cds868.lon.llnw.net
 0.0.0.0 cds869.lon.llnw.net
 0.0.0.0 cedric-coste.com
-0.0.0.0 cedrozor.github.io
 0.0.0.0 cell-track.com
 0.0.0.0 celltracker.io
 0.0.0.0 cendio.com
@@ -1270,14 +1260,12 @@
 0.0.0.0 cloudapp.net
 0.0.0.0 cloudbrowser.microsoft.com
 0.0.0.0 clouddrive.com
-0.0.0.0 cloudpower2.sourceforge.io
 0.0.0.0 cloudsmith.com
 0.0.0.0 cloudsmith.io
 0.0.0.0 cmt.research.microsoft.com
 0.0.0.0 cmt2.research.microsoft.com
 0.0.0.0 cmt3.research.microsoft.com
 0.0.0.0 cn.bing.com
-0.0.0.0 cnatural.sourceforge.io
 0.0.0.0 co2.sls.microsoft.com
 0.0.0.0 co4.telecommand.telemetry.microsoft.com.akadns.net
 0.0.0.0 cobblestonegps.com
@@ -1288,14 +1276,9 @@
 0.0.0.0 codeproof.com
 0.0.0.0 codeproof.us3.list-manage.com
 0.0.0.0 codesnippet.research.microsoft.com
-0.0.0.0 collectd.github.io
 0.0.0.0 collectd.org
 0.0.0.0 collections.mp.microsoft.com
-0.0.0.0 collectl.sourceforge.net
-0.0.0.0 collector-cdn.github.com
 0.0.0.0 collector.azure.eaglex.ic.gov
-0.0.0.0 collector.github.com
-0.0.0.0 collector.githubapp.com
 0.0.0.0 com.mk
 0.0.0.0 com.tn
 0.0.0.0 commcarehq.org
@@ -1305,7 +1288,6 @@
 0.0.0.0 community.microsoft.com
 0.0.0.0 companymanager.microsoftonline.com
 0.0.0.0 companymanager.mso.msidentity.com
-0.0.0.0 compassrd.sourceforge.io
 0.0.0.0 compatexchange.cloudapp.net
 0.0.0.0 compatexchange1.trafficmanager.net
 0.0.0.0 compliance.apps.mil
@@ -1341,7 +1323,6 @@
 0.0.0.0 copilot.microsoft.com
 0.0.0.0 copilot.microsoft.com.edgekey.net
 0.0.0.0 copilotpromptlibrary-ccm-prod-b5bxarg0bca5hngp.z01.azurefd.net
-0.0.0.0 cord.sourceforge.net
 0.0.0.0 core.bdec.microsoft.com
 0.0.0.0 corp.sts.microsoft.com
 0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
@@ -1390,7 +1371,6 @@
 0.0.0.0 dataservice.protection.outlook.com
 0.0.0.0 datashyft.com
 0.0.0.0 datto.com
-0.0.0.0 dayonhome.sourceforge.net
 0.0.0.0 db3pap004.storage.live.com
 0.0.0.0 db3wns2011111.wns.windows.com
 0.0.0.0 db5-dspcdn.tlu.dl.delivery.mp.microsoft.com
@@ -1695,8 +1675,6 @@
 0.0.0.0 demos.microsoft.com
 0.0.0.0 design-intelligence.com
 0.0.0.0 deskcenter.com
-0.0.0.0 deskcontrol.sourceforge.io
-0.0.0.0 desktopstreamer.sourceforge.io
 0.0.0.0 detectportal.prod.mozaws.net
 0.0.0.0 dev-adt.skype.net
 0.0.0.0 dev.microsoft.com
@@ -1718,7 +1696,6 @@
 0.0.0.0 devicesupport.microsoft.com
 0.0.0.0 devolutions.com
 0.0.0.0 devolutions.net
-0.0.0.0 dezos.sourceforge.io
 0.0.0.0 df.csa.teams.live.com
 0.0.0.0 df.telemetry.microsoft.com
 0.0.0.0 dgps.support.microsoft.com
@@ -1772,7 +1749,6 @@
 0.0.0.0 dsadata.intel.com
 0.0.0.0 dsadata.intel.com.edgesuite.net
 0.0.0.0 dual-s-ring.msedge.net
-0.0.0.0 duordp.sourceforge.io
 0.0.0.0 durcal.com
 0.0.0.0 dyanmicslive.org
 0.0.0.0 dyknow.com
@@ -1890,7 +1866,6 @@
 0.0.0.0 easyvista.com
 0.0.0.0 eaus2watcab01.blob.core.windows.net
 0.0.0.0 eaus2watcab02.blob.core.windows.net
-0.0.0.0 echovnc.sourceforge.net
 0.0.0.0 ecn.dev.virtualearth.net
 0.0.0.0 ecs-communication.trafficmanager.net
 0.0.0.0 ecs.communication.microsoft.com
@@ -1924,7 +1899,6 @@
 0.0.0.0 eds.xboxlive.com
 0.0.0.0 education.microsoft.com
 0.0.0.0 efrcmsstoragep.blob.core.windows.net
-0.0.0.0 ehizo.sourceforge.io
 0.0.0.0 eic.service.lgtvcommon.com
 0.0.0.0 email.microsoft.com
 0.0.0.0 email.office.com
@@ -2075,7 +2049,6 @@
 0.0.0.0 frc-excel.officeapps.live.com
 0.0.0.0 freepowerpoint.com
 0.0.0.0 freerdp.com
-0.0.0.0 freerdp.github.io
 0.0.0.0 freshworks.com
 0.0.0.0 friend-tracker.com
 0.0.0.0 fs.microsoft.com
@@ -2094,7 +2067,6 @@
 0.0.0.0 g00.msn.com
 0.0.0.0 g3.microsoft.com
 0.0.0.0 gaggle.net
-0.0.0.0 galinettecendree.sourceforge.io
 0.0.0.0 gallery.microsoft.com
 0.0.0.0 games.microsoft.com
 0.0.0.0 gammacdn.net
@@ -2150,11 +2122,8 @@
 0.0.0.0 graph.windows.net
 0.0.0.0 graphon.com
 0.0.0.0 gravesoft.dev
-0.0.0.0 grdc.sourceforge.net
-0.0.0.0 gremotedesktop.sourceforge.net
 0.0.0.0 grs-dbankcloud-com-drcn.wec.dbankedge.cn
 0.0.0.0 guacamole.apache.org
-0.0.0.0 guacamoleinstallscript.sourceforge.io
 0.0.0.0 guestspy.com
 0.0.0.0 guestspy.tumblr.com
 0.0.0.0 h.config.skype.com
@@ -2169,13 +2138,11 @@
 0.0.0.0 help.bingads.microsoft.com
 0.0.0.0 help.ui.xboxlive.com
 0.0.0.0 hexnode.com
-0.0.0.0 hiclass.sourceforge.net
 0.0.0.0 highstermobi.com
 0.0.0.0 highstermobile.co
 0.0.0.0 highstermobile.com
 0.0.0.0 highstermobiles.com
 0.0.0.0 highsterspyapp.com
-0.0.0.0 hjdesktop.sourceforge.io
 0.0.0.0 hk2.settings.data.microsoft.com.akadns.net
 0.0.0.0 hk2.wns.windows.com
 0.0.0.0 hk2sch130020721.wns.windows.com
@@ -2336,7 +2303,6 @@
 0.0.0.0 insitez.blob.core.windows.net
 0.0.0.0 intellishift.com
 0.0.0.0 interguardsoftware.com
-0.0.0.0 internetos.sourceforge.io
 0.0.0.0 intranav.com
 0.0.0.0 intune.microsoft.com
 0.0.0.0 intunecdnpeasd.azureedge.net
@@ -2352,7 +2318,6 @@
 0.0.0.0 isgemail.blob.core.windows.net
 0.0.0.0 isharingsoft.com
 0.0.0.0 ispyoo.com
-0.0.0.0 it-remote-service-tools.sourceforge.io
 0.0.0.0 iteactive-pra.msedge.net
 0.0.0.0 itopia.com
 0.0.0.0 ivanti.com
@@ -2360,18 +2325,13 @@
 0.0.0.0 j.config.skype.com
 0.0.0.0 jamf.com
 0.0.0.0 java.microsoft.com
-0.0.0.0 javardp.sourceforge.io
-0.0.0.0 jfrdp.sourceforge.net
-0.0.0.0 jimmy201602.github.io
 0.0.0.0 jjspy.com
 0.0.0.0 join.microsoft.com
 0.0.0.0 jopenray.com
 0.0.0.0 jp-v10.events.data.microsoft.com
 0.0.0.0 jp-v20.events.data.microsoft.com
-0.0.0.0 jrdesktop.sourceforge.net
 0.0.0.0 js.monitor.azure.com
 0.0.0.0 jumpcloud.com
-0.0.0.0 jvnclite.sourceforge.net
 0.0.0.0 k-ring.msedge.net
 0.0.0.0 k.config.skype.com
 0.0.0.0 kandji-2022.netlify.app
@@ -2397,26 +2357,18 @@
 0.0.0.0 kmwatsonc.events.data.microsoft.com
 0.0.0.0 knowmax.ai
 0.0.0.0 kocharsoft.com
-0.0.0.0 krdesktop.sourceforge.net
-0.0.0.0 krdm.sourceforge.net
-0.0.0.0 kro.sourceforge.io
-0.0.0.0 kurd.sourceforge.net
 0.0.0.0 kv601.prod.do.dsp.mp.microsoft.com
 0.0.0.0 kv701-prod.do.dsp.mp.microsoft.com.edgekey.net
 0.0.0.0 kv801.prod.do.dsp.mp.microsoft.com
 0.0.0.0 l-0009.l-msedge.net
 0.0.0.0 l-ring.msedge.net
 0.0.0.0 l.config.skype.com
-0.0.0.0 l360.app.box.com
-0.0.0.0 l360.box.com
 0.0.0.0 lan.sdk.linkedin.com
-0.0.0.0 lancore.sourceforge.net
 0.0.0.0 lb1.www.ms.akadns.net
 0.0.0.0 leapmax.ai
 0.0.0.0 learn.microsoft.com
 0.0.0.0 legacywatson.trafficmanager.net
 0.0.0.0 lfghub-anonymous.xboxlive.com
-0.0.0.0 libvnc.github.io
 0.0.0.0 licensing.mp.microsoft.com
 0.0.0.0 licensing.xboxlive.com
 0.0.0.0 licensingphone.md.mp.microsoft.com
@@ -2428,7 +2380,6 @@
 0.0.0.0 lifesaver-app.com
 0.0.0.0 lightspeedsystems.app
 0.0.0.0 lightspeedsystems.com
-0.0.0.0 lightvnc.sourceforge.io
 0.0.0.0 linewize.com
 0.0.0.0 linewize.io
 0.0.0.0 linewize.net
@@ -2440,10 +2391,7 @@
 0.0.0.0 live-appnexus.pantheonsite.io
 0.0.0.0 live.com
 0.0.0.0 live.com.akadns.net
-0.0.0.0 live.github.com
 0.0.0.0 live.rads.msn.com
-0.0.0.0 livecdoffice.sourceforge.net
-0.0.0.0 livescreen.sourceforge.net
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com.edgekey.net
 0.0.0.0 livetileedge.xbetservices.akadns.net
@@ -2476,7 +2424,6 @@
 0.0.0.0 logmeinrescue.com
 0.0.0.0 logskit.com
 0.0.0.0 loki.delve.office.com
-0.0.0.0 lthouse.sourceforge.net
 0.0.0.0 lumos.com
 0.0.0.0 m.config.skype.com
 0.0.0.0 m.hotmail.com
@@ -2493,7 +2440,6 @@
 0.0.0.0 mail3.microsoft.com
 0.0.0.0 mail4.microsoft.com
 0.0.0.0 mail5.microsoft.com
-0.0.0.0 mailip.sourceforge.io
 0.0.0.0 mamboemm.com
 0.0.0.0 manage-pe.trafficmanager.net
 0.0.0.0 manage.devcenter.microsoft.com
@@ -2755,7 +2701,6 @@
 0.0.0.0 mmguardian.com
 0.0.0.0 mobi-connect.net
 0.0.0.0 mobicip.com
-0.0.0.0 mobile-rd.sourceforge.io
 0.0.0.0 mobile-tracker-free.com
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.microsoft.com
@@ -2764,10 +2709,8 @@
 0.0.0.0 mobilebeta.microsoft.com
 0.0.0.0 mobilecoinww.com
 0.0.0.0 mobileconfig.net
-0.0.0.0 mobiledesktop.sourceforge.net
 0.0.0.0 mobileinnova.com
 0.0.0.0 mobilepcpartners.com
-0.0.0.0 mobileremotedes.sourceforge.net
 0.0.0.0 mobilespy.io
 0.0.0.0 mobilespy.net
 0.0.0.0 mobistealth.com
@@ -2878,8 +2821,6 @@
 0.0.0.0 mspchealth.com
 0.0.0.0 msportal.blob.core.windows.net
 0.0.0.0 mspy.com
-0.0.0.0 msracon.sourceforge.io
-0.0.0.0 msraconsole.sourceforge.io
 0.0.0.0 msretech.com
 0.0.0.0 msrewardspme.afd.azureedge.net
 0.0.0.0 msrewardspme.azureedge.net
@@ -2910,7 +2851,6 @@
 0.0.0.0 myki.watch
 0.0.0.0 mykifamily.com
 0.0.0.0 mymobilewatchdog.com
-0.0.0.0 mynetworkremote.sourceforge.io
 0.0.0.0 mypeakmobile.com
 0.0.0.0 myrpinstall.com
 0.0.0.0 mysecurity.microsoft.com
@@ -2922,7 +2862,6 @@
 0.0.0.0 n.config.skype.com
 0.0.0.0 nagios.org
 0.0.0.0 napster.com
-0.0.0.0 naturalserver.sourceforge.io
 0.0.0.0 nav.smartscreen.microsoft.com
 0.0.0.0 navisite.com
 0.0.0.0 navita.com.br
@@ -2934,7 +2873,6 @@
 0.0.0.0 nel-wus2.binguxlivesite.net
 0.0.0.0 nelreports.net
 0.0.0.0 nelreports.net.trafficmanager.net
-0.0.0.0 nemesis-remote.sourceforge.io
 0.0.0.0 net-ref.com
 0.0.0.0 net.edgekey.net
 0.0.0.0 net.edgesuite.net
@@ -2947,8 +2885,6 @@
 0.0.0.0 netsupportschool.com
 0.0.0.0 netsupportservicedesk.com
 0.0.0.0 netsupportsoftware.com
-0.0.0.0 nettoolkit.sourceforge.io
-0.0.0.0 nettunnel-rdp.sourceforge.io
 0.0.0.0 netviewer.com
 0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 0.0.0.0 neu.notifications.skype.com
@@ -2977,7 +2913,6 @@
 0.0.0.0 nsx.np.dl.playstation.net
 0.0.0.0 nsx.np.dl.playstation.net.edgekey.net
 0.0.0.0 ntp.msn.com
-0.0.0.0 nts-vnc.sourceforge.io
 0.0.0.0 nuget.org
 0.0.0.0 nuovopay.com
 0.0.0.0 nutanix.com
@@ -3123,11 +3058,7 @@
 0.0.0.0 onstar.com
 0.0.0.0 onstarguardiandemo.com
 0.0.0.0 op.app.link
-0.0.0.0 openadmintools.sourceforge.io
-0.0.0.0 opengraph.githubassets.com
 0.0.0.0 opennx.net
-0.0.0.0 opennx.sourceforge.net
-0.0.0.0 openssi-webview.sourceforge.io
 0.0.0.0 openvsxorg.blob.core.windows.net
 0.0.0.0 opinsights.azure.com
 0.0.0.0 optanon.blob.core.windows.net
@@ -3152,7 +3083,6 @@
 0.0.0.0 outlookdiagnostics.azureedge.net
 0.0.0.0 outlookdiagnostics.ec.azureedge.net
 0.0.0.0 outlookmobile-office365-tas.msedge.net
-0.0.0.0 ovdc-arch.sourceforge.io
 0.0.0.0 ow1.res.office365.com
 0.0.0.0 owa.microsoft.com
 0.0.0.0 ownspy.com
@@ -3162,7 +3092,6 @@
 0.0.0.0 pagerduty.com
 0.0.0.0 pagerduty.com.cdn.cloudflare.net
 0.0.0.0 pagerduty.org
-0.0.0.0 palantirrdp.sourceforge.io
 0.0.0.0 par02p.wns.windows.com
 0.0.0.0 parallels.com
 0.0.0.0 parallels.com.cdn.cloudflare.net
@@ -3233,11 +3162,9 @@
 0.0.0.0 prod.roaming1.live.com.akadns.net
 0.0.0.0 prodmg2.blob.core.windows.net
 0.0.0.0 productiv.com
-0.0.0.0 productivito.sourceforge.io
 0.0.0.0 profile.microsoft.com
 0.0.0.0 profile.xboxlive.com
 0.0.0.0 proopti.com
-0.0.0.0 properjavardp.sourceforge.net
 0.0.0.0 prospybubble.com
 0.0.0.0 protection.office.com
 0.0.0.0 protection.outlook.com
@@ -3261,7 +3188,6 @@
 0.0.0.0 query.prod.cms.rt.microsoft.com
 0.0.0.0 query.prod.cms.rt.microsoft.com.edgekey.net
 0.0.0.0 quest.com
-0.0.0.0 quickrdp.sourceforge.net
 0.0.0.0 qustodio.com
 0.0.0.0 r.bing.com
 0.0.0.0 r.config.skype.com
@@ -3277,17 +3203,8 @@
 0.0.0.0 radix-int.com
 0.0.0.0 rads.msn.com
 0.0.0.0 rcr.blob.core.windows.net
-0.0.0.0 rdcactivex.sourceforge.io
-0.0.0.0 rdesktop.github.io
 0.0.0.0 rdesktop.org
-0.0.0.0 rdesktopguibinn.sourceforge.io
 0.0.0.0 rdg.microsoft.com
-0.0.0.0 rdisplay.sourceforge.io
-0.0.0.0 rdomp.sourceforge.io
-0.0.0.0 rdpex10.sourceforge.io
-0.0.0.0 rdpmanager.sourceforge.net
-0.0.0.0 rdsc.sourceforge.io
-0.0.0.0 rdserver.sourceforge.io
 0.0.0.0 reactiveassistanceinstance.cognitiveservices.azure.com
 0.0.0.0 realvnc.com
 0.0.0.0 realvnc.help
@@ -3301,11 +3218,9 @@
 0.0.0.0 relution.io
 0.0.0.0 remmina.gitlab.io
 0.0.0.0 remmina.org
-0.0.0.0 remmina.sourceforge.net
 0.0.0.0 remote.microsoft.com
 0.0.0.0 remoteassistanceprodacs.communication.azure.com
 0.0.0.0 remotedesktop.com
-0.0.0.0 remotedesktopad.sourceforge.io
 0.0.0.0 remotehelp.microsoft.com
 0.0.0.0 remotehelp.microsoft.com.edgekey.net
 0.0.0.0 remotemonitor.sf.net
@@ -3319,14 +3234,12 @@
 0.0.0.0 res-2.cdn.office.net
 0.0.0.0 res.cdn.office.net
 0.0.0.0 research.microsoft.com
-0.0.0.0 retgal.github.io
 0.0.0.0 rewards-bing-com.dual-a-0034.a-msedge.net
 0.0.0.0 rewards-microsoft-com.a-0016.a-msedge.net
 0.0.0.0 rewards.bing.com
 0.0.0.0 rewards.microsoft.com
 0.0.0.0 rewardsplatform.microsoft.com
 0.0.0.0 rewardsprod.trafficmanager.net
-0.0.0.0 rgmscremdskt.sourceforge.io
 0.0.0.0 rippling.com
 0.0.0.0 ris-prod.trafficmanager.net
 0.0.0.0 ris.api.iris.microsoft.com
@@ -3339,7 +3252,6 @@
 0.0.0.0 romeccs.microsoft.com
 0.0.0.0 route4me.com
 0.0.0.0 route4me.io
-0.0.0.0 rsrdp.sourceforge.net
 0.0.0.0 rss.microsoft.com
 0.0.0.0 rto.microsoft.com
 0.0.0.0 s-0001.s-msedge.net
@@ -3361,7 +3273,6 @@
 0.0.0.0 sailpoint.com.cdn.cloudflare.net
 0.0.0.0 sakon.com
 0.0.0.0 samsara.com
-0.0.0.0 satan-anywhere.sourceforge.io
 0.0.0.0 savelocationgps.com
 0.0.0.0 scalefusion.com
 0.0.0.0 scannero.io
@@ -3372,7 +3283,6 @@
 0.0.0.0 scus-breeziest-in.cloudapp.net
 0.0.0.0 sdx.microsoft.com
 0.0.0.0 search.msn.com
-0.0.0.0 seb.sourceforge.net
 0.0.0.0 secrata.com
 0.0.0.0 secure.flashtalking.com
 0.0.0.0 securefamilymigration.com
@@ -3410,7 +3320,6 @@
 0.0.0.0 sg2p.wns.notify.trafficmanager.net
 0.0.0.0 sg2p.wns.windows.com
 0.0.0.0 sgtlabs.com
-0.0.0.0 share-windows-server-2012-rdp.sourceforge.io
 0.0.0.0 share.microsoft.com
 0.0.0.0 share.microsoft.com.edgekey.net
 0.0.0.0 shared.officeapps.live.com
@@ -3454,7 +3363,6 @@
 0.0.0.0 spappmonitoring.com
 0.0.0.0 spclient.wg.spotify.com
 0.0.0.0 spice-space.org
-0.0.0.0 spice-space.sourceforge.net
 0.0.0.0 splashtop.com
 0.0.0.0 splunk.com
 0.0.0.0 spo-ring-fallback.msedge.net
@@ -3605,7 +3513,6 @@
 0.0.0.0 thinlinc.com
 0.0.0.0 tibco.com
 0.0.0.0 tigervnc.org
-0.0.0.0 tight-vnc2.sourceforge.io
 0.0.0.0 tightprojector.com
 0.0.0.0 tightvnc.com
 0.0.0.0 tile-service.weather.microsoft.com
@@ -3633,7 +3540,6 @@
 0.0.0.0 trackview.net
 0.0.0.0 trakkitgps.com
 0.0.0.0 troubleshooting.microsoft.com
-0.0.0.0 tscm.sourceforge.net
 0.0.0.0 tse1.mm.bing.net
 0.0.0.0 tsfe.trafficmanager.net
 0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
@@ -3702,7 +3608,6 @@
 0.0.0.0 vip5.afdorigin-prod-am02.afdogw.com
 0.0.0.0 virtualearth.net
 0.0.0.0 virtualizationworks.com
-0.0.0.0 visitpc.sourceforge.io
 0.0.0.0 visomdm.com
 0.0.0.0 visualstudio.com
 0.0.0.0 visualstudio.microsoft.com
@@ -3711,7 +3616,6 @@
 0.0.0.0 vm.skype.com
 0.0.0.0 vmox.com
 0.0.0.0 vmoxroadtomobilevictory.buzzsprout.com
-0.0.0.0 vncbr.sourceforge.io
 0.0.0.0 vo.msecnd.net
 0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
 0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
@@ -3754,12 +3658,10 @@
 0.0.0.0 watson111.watson.microsoft.com
 0.0.0.0 watson112.watson.microsoft.com
 0.0.0.0 watson115.watson.microsoft.com
-0.0.0.0 wayqonlan.sourceforge.io
 0.0.0.0 wazamdm.com
 0.0.0.0 wbads.vo.llnwd.net
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 wcpstatic.microsoft.com
-0.0.0.0 wcremote.sourceforge.io
 0.0.0.0 wdcp.microsoft.com
 0.0.0.0 wdcp.microsoft.com # Windows defender
 0.0.0.0 wdcpalt.microsoft.com
@@ -3771,7 +3673,6 @@
 0.0.0.0 web.vortex-sandbox.data.msn.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 web.vortex.data.msn.com
-0.0.0.0 webmindesktop.sourceforge.io
 0.0.0.0 webscaleworks.com
 0.0.0.0 webshell.suite.office.com
 0.0.0.0 webwatcher.com
@@ -3918,7 +3819,6 @@
 0.0.0.0 y.config.skype.com
 0.0.0.0 yammer.com
 0.0.0.0 yammerusercontent.com
-0.0.0.0 yardmanager.sourceforge.io
 0.0.0.0 yourinventit.com
 0.0.0.0 z.config.skype.com
 0.0.0.0 zabbix.com
@@ -3926,7 +3826,6 @@
 0.0.0.0 zluri-web-v2.netlify.app
 0.0.0.0 zluri.com
 0.0.0.0 zoneminder.com
-0.0.0.0 zoneminder.github.io
 0.0.0.0 ztd.dds.microsoft.com
 0.0.0.0 zylo.com
 :: 00001b-1.l.windowsupdate.com
