@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 20 January 2025
-! Version: 1.23
+! Version: 1.24
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -30,6 +30,10 @@
 ||7p-solutions-consulting.com^
 ||I-ring.msedge.net^
 ||a-ring-fallback.msedge.net^
+||a.adnxs.com^
+||a.ads1.msn.com^
+||a.ads2.msads.net^
+||a.ads2.msn.com^
 ||aaa.com^
 ||aadconnecthealth.azure.com^
 ||aadconnecthealth.microsoftazure.us^
@@ -38,9 +42,11 @@
 ||accesscontrol.windows.net^
 ||activedirectory.windowsazure.com^
 ||activity-consumer.trafficmanager.net^
+||activity.windows.com # brake Authenticator backup function^
 ||activity.windows.com^
 ||activity.windows.us^
 ||ad.linkedin.com^
+||adcenter.microsoft.com^
 ||addigy.com^
 ||adhybridhealth.azure.com^
 ||admin-portal.office.com^
@@ -72,11 +78,14 @@
 ||adsyndication.msn.com.nsatc.net^
 ||adsyndication.msn.com^
 ||adtech.de^
+||advertise.bingads.microsoft.com^
 ||advertiseonbing.azurewebsites.net^
 ||advertising.linkedin.com^
 ||advertising.microsoft.com^
 ||adzok.com^
+||aefd.nelreports.net^
 ||aeris.com^
+||agfstorage.blob.core.windows.net^
 ||airdroid.cn^
 ||airdroid.com^
 ||aispyer.com^
@@ -117,6 +126,7 @@
 ||apcom-web.trafficmanager.net^
 ||api.cortana.ai^
 ||api.edgeoffer.microsoft.com^
+||api.monitor.azure.com^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appaloosa-store.com^
 ||appaloosa.io^
@@ -150,21 +160,26 @@
 ||armyeitaas.sharepoint-mil.us^
 ||asf-ris-prod-eus2-azsc.eastus2.cloudapp.azure.com^
 ||asimov-win.settings.data.microsoft.com.akadns.net^
+||assets.activity.windows.com^
 ||assets.msn.com.edgekey.net^
 ||assets.msn.com^
 ||assets.msn.com^$important
 ||atdmt.com^
 ||atera.com^
 ||atlassolutions.com^
+||atm-settingsfe-prod-geo2.trafficmanager.net^
 ||attest.azure.net^
+||attestation.xboxlive.com^
 ||atwola.com^
 ||au-v10.events.data.microsoft.com^
 ||au-v20.events.data.microsoft.com^
+||au.v4.download.windowsupdate.com^
 ||au.vortex-win.data.microsoft.com^
 ||auc-visio-telemetry.officeapps.live.com^
 ||aura.com^
 ||aurainc.sjv.io^
 ||auto-forward.com^
+||auto.search.msn.com^
 ||autologon.microsoft.us^
 ||avepoint.com^
 ||awarenesstech.com^
@@ -255,6 +270,7 @@
 ||bn4sch101123202.wns.windows.com^
 ||bn4sch102110124.wns.windows.com^
 ||boomerangparentalcontrol.medium.com^
+||browser.events.data.microsoft.com^
 ||browser.pipe.aria.microsoft.com^
 ||bruin.com^
 ||bs.serving-sys.com^
@@ -275,6 +291,7 @@
 ||cache.datamart.windows.com^
 ||campus.barracuda.com^
 ||campus.cudaops.com^
+||canary.activity.windows.com^
 ||candycrushsoda.king.com^
 ||canopy.us^
 ||capasystems.atlassian.net^
@@ -466,6 +483,7 @@
 ||creativecdn.com^
 ||cs-geo-dds.trafficmanager.net^
 ||cs1.wpc.v0cdn.net^
+||csspeechstorage.blob.core.windows.net^
 ||ctldl.windowsupdate.com^
 ||cubilock.com^
 ||customervoice-prod.forms.office.com.akadns.net^
@@ -496,6 +514,7 @@
 ||dellupdater.dell.com.edgekey.net^
 ||dellupdater.dell.com^
 ||deskcenter.com^
+||detectportal.prod.mozaws.net^
 ||device.login.microsoftonline.com^
 ||device.login.microsoftonline.us^
 ||device.login.mso.msidentity.com^
@@ -540,7 +559,9 @@
 ||eaus2watcab02.blob.core.windows.net^
 ||ecs-communication.trafficmanager.net^
 ||ecs.communication.microsoft.com^
+||edge-enterprise.activity.windows.com^
 ||edge-management-azure-com.arm-0001.arm-msedge.net^
+||edge.activity.windows.com^
 ||edge.microsoft.com^
 ||edge.skype.com.trafficmanager.net^
 ||edge.skype.com^
@@ -559,6 +580,8 @@
 ||emmconsole.com^
 ||emteria.com^
 ||ensighten.com^
+||enterprise-eudb.activity.windows.com^
+||enterprise.activity.windows.com^
 ||enterprise.comodo.com^
 ||enterpriseregistration.microsoftonline.us^
 ||enterpriseregistration.windows.net^
@@ -800,6 +823,7 @@
 ||insideruser.microsoft.com^
 ||insideruser.trafficmanager.net^
 ||insights.cloud.microsoft^
+||insitez.blob.core.windows.net^
 ||intellishift.com^
 ||interguardsoftware.com^
 ||intranav.com^
@@ -885,6 +909,7 @@
 ||localize.mobi^
 ||location.live.net^
 ||locations.app^
+||loganalytics.io^
 ||logicmonitor.com^
 ||login.live.com^
 ||login.microsoftonline.com^
@@ -1187,6 +1212,7 @@
 ||opengraph.githubassets.com^
 ||opennx.net^
 ||opinsights.azure.com^
+||optanon.blob.core.windows.net^
 ||optelcon.com^
 ||opti-tune.com^
 ||optim.co.jp^
@@ -1241,6 +1267,7 @@
 ||popup.msn.com^
 ||portal.azure.com.trafficmanager.net^
 ||portal.azure.com^
+||ppe.activity.windows.com^
 ||pre.footprintpredict.com^
 ||presence.teams.live.com^
 ||preview.msn.com^
@@ -1251,6 +1278,7 @@
 ||prod.client.wosc.services.microsoft.com^
 ||prod.do.dsp.mp.microsoft.com^
 ||prod.nexusrules.live.com.akadns.net^
+||prodmg2.blob.core.windows.net^
 ||productiv.com^
 ||proopti.com^
 ||prospybubble.com^
@@ -1338,18 +1366,23 @@
 ||secureteen.com^
 ||securly.com^
 ||self-events-data.trafficmanager.net^
+||self.events.data.microsoft.com^
 ||sentrypc.com^
 ||sentrypcbusiness.com^
 ||sentrypconline.com^
 ||servicebus.usgovcloudapi.net^
 ||servicebus.windows.net^
+||services.bingapis.com^
 ||serving-sys.com^
 ||set.me^
 ||setme.net^
 ||settings-sandbox.data.microsoft.com^
 ||settings-win-ppe.data.microsoft.com^
 ||settings-win.data.microsoft.com^
+||settings.data.microsoft.com^
 ||settingsfd-geo.trafficmanager.net^
+||settingsfd-ppe.trafficmanager.net^
+||settingsfd-sandbox.trafficmanager.net^
 ||sfx.ms^
 ||sg2p.wns.windows.com^
 ||sgtlabs.com^
@@ -1375,6 +1408,7 @@
 ||socifind.net^
 ||softwareone.com^
 ||solarwinds.com^
+||sonfiles.blob.core.windows.net^
 ||sophia.team^
 ||soti.net^
 ||soul-apps.com^
@@ -1433,6 +1467,7 @@
 ||statsfe2.ws.microsoft.com^
 ||statsupdate.microsoft.com^
 ||status-connect-backdrop-c-e979e5dd-34ca-4e1e-a99f-2b9a9c1f51e6.saas.atlassian.com^
+||stcoredevelop.blob.core.windows.net^
 ||storeedgefd.dsx.mp.microsoft.com^
 ||substly.com^
 ||sumologic.com^
@@ -1572,17 +1607,46 @@
 ||vpn.net^
 ||vxl.net^
 ||vxlsoftware.com^
+||wat8.ppe.telemetry.microsoft.com^
+||watson.alpha.telemetry.microsoft.com^
+||watson.df.telemetry.microsoft.com^
 ||watson.live.com^
 ||watson.microsoft.com^
+||watson.officeint.microsoft.com^
+||watson.ppe.telemetry.microsoft.com^
 ||watson.telemetry.microsoft.com^
+||watson1.officeint.microsoft.com^
+||watson1.watson.microsoft.com^
+||watson101.watson.microsoft.com^
+||watson102.watson.microsoft.com^
+||watson103.watson.microsoft.com^
+||watson104.watson.microsoft.com^
+||watson105.watson.microsoft.com^
+||watson106.watson.microsoft.com^
+||watson107.watson.microsoft.com^
+||watson108.watson.microsoft.com^
+||watson109.watson.microsoft.com^
+||watson110.watson.microsoft.com^
+||watson111.watson.microsoft.com^
+||watson112.watson.microsoft.com^
+||watson115.watson.microsoft.com^
 ||wazamdm.com^
+||wbads.vo.llnwd.net^
+||wc-tracking.lavasoft.com^
 ||wcpstatic.microsoft.com^
+||wdcp.microsoft.com # Windows defender^
+||wdcpalt.microsoft.com # https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-network-connections-windows-defender-antivirus^
+||wdcpalt.microsoft.com^
+||wdig.vo.llnwd.net^
 ||weather.microsoft.com.edgekey.net^
 ||weather.microsoft.com^
 ||weathermapdata.blob.core.windows.net^
+||web.vortex.data.microsoft.com^
+||web.vortex.data.msn.com^
 ||webscaleworks.com^
 ||webwatcher.com^
 ||weguard.com^
+||wes.df.telemetry.microsoft.com^
 ||weus2watcab01.blob.core.windows.net^
 ||weus2watcab02.blob.core.windows.net^
 ||wezift.com^
@@ -1608,10 +1672,17 @@
 ||workspot.com^
 ||wpc.9be8f.omegacdn.net^
 ||wureporting.prod.dcat.dsp.trafficmanager.net^
+||www.adcenter.microsoft.com^
+||www.bing.com^
+||www.bingapis.com^
+||www.xing.com.gtm4p-xing.com.akadns.net^
 ||x2go.org^
 ||xandr.com.cdn.cloudflare.net^
 ||xandr.com^
 ||xblgdvrassets3010.blob.core.windows.net^
+||xbox.com^
+||xbox.ipv6.microsoft.com^
+||xboxexperiencesprod.experimentation.xboxlive.com^
 ||xboxlive.com^
 ||xboxservices.com^
 ||xmatters.com^
