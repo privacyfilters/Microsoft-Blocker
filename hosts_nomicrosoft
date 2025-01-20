@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 20 January 2025
-# Version: 1.01
+# Version: 1.02
 # Syntax: host
 # Number of entries:
 #
@@ -521,6 +521,7 @@
 0.0.0.0 ads.microsoft.com
 0.0.0.0 ads.msads.net
 0.0.0.0 ads.msn.com
+0.0.0.0 ads.prod.webservices.mozgcp.net
 0.0.0.0 ads1.msads.net
 0.0.0.0 ads1.msn.com
 0.0.0.0 ads2.msn.com
@@ -774,6 +775,7 @@
 0.0.0.0 au.download.windowsupdate.com.edgesuite.net
 0.0.0.0 au.v4.download.windowsupdate.com
 0.0.0.0 au.vortex-win.data.microsoft.com
+0.0.0.0 auc-visio-telemetry.officeapps.live.com
 0.0.0.0 audownload.windowsupdate.nsatc.net
 0.0.0.0 augloop.office.com
 0.0.0.0 auh20prdapp01-canary-opaph.netmon.azure.com
@@ -2137,6 +2139,7 @@
 0.0.0.0 gravesoft.dev
 0.0.0.0 grdc.sourceforge.net
 0.0.0.0 gremotedesktop.sourceforge.net
+0.0.0.0 grs-dbankcloud-com-drcn.wec.dbankedge.cn
 0.0.0.0 guacamole.apache.org
 0.0.0.0 guacamoleinstallscript.sourceforge.io
 0.0.0.0 guestspy.com
@@ -2298,6 +2301,7 @@
 0.0.0.0 imperosoftware.co.uk
 0.0.0.0 imperosoftware.com
 0.0.0.0 in-prod-pme-eastus2-ingestion-66ddb56a.trafficmanager.net
+0.0.0.0 in.appcenter.ms
 0.0.0.0 in1-gw2-02-3d6c3051.eastus2.cloudapp.azure.com
 0.0.0.0 inference-location-livenet.trafficmanager.net
 0.0.0.0 inference.location.live.net
@@ -2315,6 +2319,7 @@
 0.0.0.0 insiderservice.microsoft.com
 0.0.0.0 insideruser.microsoft.com
 0.0.0.0 insideruser.trafficmanager.net
+0.0.0.0 insights.cloud.microsoft
 0.0.0.0 intellishift.com
 0.0.0.0 interguardsoftware.com
 0.0.0.0 internetos.sourceforge.io
@@ -3646,6 +3651,7 @@
 0.0.0.0 us5-v20.events.data.microsoft.com
 0.0.0.0 useboomerang.com
 0.0.0.0 user.auth.xboxlive.com
+0.0.0.0 userpresence.xboxlive.com
 0.0.0.0 usseu1northprod.blob.core.windows.net
 0.0.0.0 uvnc.com
 0.0.0.0 v.config.skype.com
@@ -4808,4 +4814,4 @@
 :: www.windowssearch.com
 :: www.xboxab.com
 :: x.urs.microsoft.com
-:: xml.login.live.com 
+:: xml.login.live.com
