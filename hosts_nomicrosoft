@@ -547,10 +547,8 @@
 0.0.0.0 ags.privatelink.msidentity.com
 0.0.0.0 aijscdn2.afd.azureedge.net
 0.0.0.0 aijscdn2.azureedge.net
-0.0.0.0 airdroid-desktop.en.softonic.com
 0.0.0.0 airdroid.cn
 0.0.0.0 airdroid.com
-0.0.0.0 airdroid.en.uptodown.com
 0.0.0.0 aispyer.com
 0.0.0.0 ajax.aspnetcdn.com
 0.0.0.0 ak.privatelink.msidentity.com
@@ -572,7 +570,6 @@
 0.0.0.0 americas2.notify.windows.com.akadns.net
 0.0.0.0 amidaware.com
 0.0.0.0 amidaware.github.io
-0.0.0.0 ammyy-admin.en.softonic.com
 0.0.0.0 ammyy-admin.findmysoft.com
 0.0.0.0 ammyy.com
 0.0.0.0 amp.azure.net
@@ -599,16 +596,11 @@
 0.0.0.0 anti-spamtools.org
 0.0.0.0 any.edge.bing.com
 0.0.0.0 anycontrol.app
-0.0.0.0 anycontrol.en.uptodown.com
 0.0.0.0 anycontrol.net
 0.0.0.0 anydesk.com
 0.0.0.0 anydesk.com.cn
-0.0.0.0 anydesk.en.softonic.com
-0.0.0.0 anydesk.en.uptodown.com
 0.0.0.0 anydesk.help
 0.0.0.0 anyplace-control.com
-0.0.0.0 anyplace-control.en.softonic.com
-0.0.0.0 anyplace-control.en.uptodown.com
 0.0.0.0 anyviewer.com
 0.0.0.0 anywherets.sourceforge.io
 0.0.0.0 apac.events.data.microsoft.com
@@ -871,9 +863,6 @@
 0.0.0.0 bcentral.com
 0.0.0.0 bcentral.net
 0.0.0.0 bd1873a9f65d049311e5181840288bdb.clo.footprintdns.com
-0.0.0.0 be-closer.en.aptoide.com
-0.0.0.0 be-closer.en.softonic.com
-0.0.0.0 be-closer.en.uptodown.com
 0.0.0.0 be-legal.ru
 0.0.0.0 be4df8acbf67fac1310b8c6bb2c7d2cc.nrb.footprintdns.com
 0.0.0.0 beachheadsolutions.com
@@ -1026,7 +1015,6 @@
 0.0.0.0 bnsch020022361.wns.windows.com
 0.0.0.0 boomerangparentalcontrol.medium.com
 0.0.0.0 boost.microsoft.com
-0.0.0.0 bravurasoftware.com
 0.0.0.0 broadcast.skype.com
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 browser.events.data.msn.com
@@ -1381,7 +1369,6 @@
 0.0.0.0 d.config.skype.com
 0.0.0.0 d.docs.live.net
 0.0.0.0 da.xboxservices.com
-0.0.0.0 data-backup.en.uptodown.com
 0.0.0.0 data-edge.smartscreen.microsoft.com
 0.0.0.0 data.microsoft.com
 0.0.0.0 data.microsoft.com.akadns.net
@@ -2003,13 +1990,9 @@
 0.0.0.0 fa000000091.resources.office.net
 0.0.0.0 fa000000105.resources.office.net
 0.0.0.0 facultyconnection.com
-0.0.0.0 fakespot.com
-0.0.0.0 fakespot.io
 0.0.0.0 familo.net
 0.0.0.0 family-locator.com
-0.0.0.0 family.norton.com
 0.0.0.0 family1st.io
-0.0.0.0 family360.en.aptoide.com
 0.0.0.0 family360locator.com
 0.0.0.0 familycore-qa-app-service-ui.azurewebsites.net
 0.0.0.0 familyorbit.app
@@ -2047,7 +2030,6 @@
 0.0.0.0 findmykids.org
 0.0.0.0 firstpartyapps.oaspapps.com
 0.0.0.0 fixme.it
-0.0.0.0 flashget-parental-control.en.uptodown.com
 0.0.0.0 flashget.kids
 0.0.0.0 fleet-azuga.helpscoutdocs.com
 0.0.0.0 fleetdm.com
@@ -2058,11 +2040,9 @@
 0.0.0.0 flexispy.com
 0.0.0.0 flexispy.postaffiliatepro.com
 0.0.0.0 flows.microsoft.com
-0.0.0.0 followmee-gps-tracker.en.uptodown.com
 0.0.0.0 followmee.com
 0.0.0.0 fonemonitor.co
 0.0.0.0 fonemonitor.en.download.it
-0.0.0.0 fonemonitor.en.softonic.com
 0.0.0.0 foodanddrink.tile.appex.bing.com
 0.0.0.0 footprint.net
 0.0.0.0 footprintpredict.com
@@ -2129,9 +2109,6 @@
 0.0.0.0 get.activated.win
 0.0.0.0 gethapn.com
 0.0.0.0 getnerdio.com
-0.0.0.0 getpocket-cdn.prod.mozaws.net
-0.0.0.0 getpocket.cdn.mozilla.net
-0.0.0.0 getpocket.com
 0.0.0.0 getwsone.com
 0.0.0.0 git.activated.win
 0.0.0.0 glassagram.com
@@ -2152,7 +2129,6 @@
 0.0.0.0 gotomypc.com
 0.0.0.0 goverlan.com
 0.0.0.0 government.hp.com
-0.0.0.0 gps-tracker-by-followmee.en.softonic.com
 0.0.0.0 gpsinsight.com
 0.0.0.0 gpswox.com
 0.0.0.0 grafana.com
@@ -2180,7 +2156,6 @@
 0.0.0.0 help.ui.xboxlive.com
 0.0.0.0 hexnode.com
 0.0.0.0 hiclass.sourceforge.net
-0.0.0.0 highster-mobile.en.softonic.com
 0.0.0.0 highstermobi.com
 0.0.0.0 highstermobile.co
 0.0.0.0 highstermobile.com
@@ -2317,7 +2292,6 @@
 0.0.0.0 igzy.com
 0.0.0.0 ikeymonitor.com
 0.0.0.0 ilfmobileapps.com
-0.0.0.0 img-getpocket.cdn.mozilla.net
 0.0.0.0 img-prod-cms-rt-microsoft-com.akamaized.net
 0.0.0.0 img-s-msn-com.akamaized.net
 0.0.0.0 img.microsoft.com
@@ -2359,8 +2333,6 @@
 0.0.0.0 iriscoremetadataprod.blob.core.windows.net
 0.0.0.0 isec7.com
 0.0.0.0 isgemail.blob.core.windows.net
-0.0.0.0 isharing.en.aptoide.com
-0.0.0.0 isharing.en.uptodown.com
 0.0.0.0 isharingsoft.com
 0.0.0.0 ispyoo.com
 0.0.0.0 it-remote-service-tools.sourceforge.io
@@ -2401,9 +2373,7 @@
 0.0.0.0 kidsecurity.org
 0.0.0.0 kidsecurity.ru
 0.0.0.0 kidslox.com
-0.0.0.0 kidslox.en.aptoide.com
 0.0.0.0 kidstracker.pro
-0.0.0.0 kidswatch-parental-computer-control.en.softonic.com
 0.0.0.0 kitewire.com
 0.0.0.0 kiwi.blob.core.windows.net
 0.0.0.0 kmwatson.events.data.microsoft.com
@@ -2438,7 +2408,6 @@
 0.0.0.0 life360.pxf.io
 0.0.0.0 lifelock.com
 0.0.0.0 lifelock.com.edgekey.net
-0.0.0.0 lifelock.norton.com
 0.0.0.0 lifesaver-app.com
 0.0.0.0 lightspeedsystems.app
 0.0.0.0 lightspeedsystems.com
@@ -2467,7 +2436,6 @@
 0.0.0.0 localize.mobi
 0.0.0.0 location-inference-westus.cloudapp.net
 0.0.0.0 location.live.net
-0.0.0.0 location.services.mozilla.com
 0.0.0.0 locations.app
 0.0.0.0 logicmonitor.com
 0.0.0.0 login-us.microsoftonline.com
@@ -2490,7 +2458,6 @@
 0.0.0.0 logmeinrescue.com
 0.0.0.0 logskit.com
 0.0.0.0 loki.delve.office.com
-0.0.0.0 lost-android.en.uptodown.com
 0.0.0.0 lthouse.sourceforge.net
 0.0.0.0 lumos.com
 0.0.0.0 m.config.skype.com
@@ -2790,13 +2757,10 @@
 0.0.0.0 modern.watson.data.microsoft.com.akadns.net
 0.0.0.0 moneycentral.com
 0.0.0.0 monitor.azure.com
-0.0.0.0 monitor.firefox.com
-0.0.0.0 monitor.mozilla.org
 0.0.0.0 monitorix.org
 0.0.0.0 moonport.com
 0.0.0.0 mosyle.com
 0.0.0.0 movielink.com
-0.0.0.0 mozilla-ohttp-fakespot.fastly-edge.com
 0.0.0.0 mran.microsoft.com
 0.0.0.0 mrodevicemgr.officeapps.live.com
 0.0.0.0 ms-courseware.com
@@ -2917,7 +2881,6 @@
 0.0.0.0 mva.microsoft.com
 0.0.0.0 mvp.microsoft.com
 0.0.0.0 mw-rmm.barracudamsp.com
-0.0.0.0 my-mobile-watchdog.en.uptodown.com
 0.0.0.0 my.microsoft.com
 0.0.0.0 myanalytics.gcc.microsoft.com
 0.0.0.0 myanalytics.microsoft.com
@@ -2986,8 +2949,6 @@
 0.0.0.0 nleditor.osi.office.net
 0.0.0.0 nomachine.com
 0.0.0.0 nontlu.graystore.au-msedge.net
-0.0.0.0 nortonlifelock.com
-0.0.0.0 nortonlifelock.com.edgekey.net
 0.0.0.0 notify.xboxlive.com
 0.0.0.0 nps.onyx.azure.net
 0.0.0.0 ns1-39.azure-dns.com
@@ -3225,8 +3186,6 @@
 0.0.0.0 pipe.skype.com
 0.0.0.0 places.app
 0.0.0.0 platform.linkedin.com
-0.0.0.0 pocket-image-cache.com
-0.0.0.0 pocket.prod.cloudops.mozgcp.net
 0.0.0.0 policykeyservice.aadcdi.azure.us
 0.0.0.0 policykeyservice.dc.ad.msft.net
 0.0.0.0 ponf.linkedin.com
@@ -3317,7 +3276,6 @@
 0.0.0.0 referencesourcetest.microsoft.com
 0.0.0.0 reflex.microsoft.com
 0.0.0.0 refog.com
-0.0.0.0 refogkeylogger.en.softonic.com
 0.0.0.0 register.cdpcs.microsoft.com
 0.0.0.0 register.microsoft.com
 0.0.0.0 relution.io
@@ -3364,9 +3322,6 @@
 0.0.0.0 rsrdp.sourceforge.net
 0.0.0.0 rss.microsoft.com
 0.0.0.0 rto.microsoft.com
-0.0.0.0 rustdesk.com
-0.0.0.0 rustdesk.en.download.it
-0.0.0.0 rustdesk.en.softonic.com
 0.0.0.0 s-0001.s-msedge.net
 0.0.0.0 s-microsoft.com
 0.0.0.0 s-msft.com
@@ -3386,8 +3341,6 @@
 0.0.0.0 sailpoint.com.cdn.cloudflare.net
 0.0.0.0 sakon.com
 0.0.0.0 samsara.com
-0.0.0.0 samsungcast.com
-0.0.0.0 samsungknox.com
 0.0.0.0 satan-anywhere.sourceforge.io
 0.0.0.0 savelocationgps.com
 0.0.0.0 scalefusion.com
@@ -3468,7 +3421,6 @@
 0.0.0.0 social.microsoft.com
 0.0.0.0 social.microsoft.com.nsatc.net
 0.0.0.0 socialmobile.com
-0.0.0.0 socifind-family-safety.en.softonic.com
 0.0.0.0 socifind.net
 0.0.0.0 softwareone.com
 0.0.0.0 solarwinds.com
@@ -3499,7 +3451,6 @@
 0.0.0.0 spyera.com
 0.0.0.0 spyhuman.com
 0.0.0.0 spyic.com
-0.0.0.0 spyic.en.uptodown.com
 0.0.0.0 spyic.pro
 0.0.0.0 spyier.com
 0.0.0.0 spyine.com
@@ -3573,7 +3524,6 @@
 0.0.0.0 sydney-sydney-bing-com.trafficmanager.net
 0.0.0.0 sydney.bing.com
 0.0.0.0 sydney.bing.com.edgekey.net
-0.0.0.0 symantec-pcanywhere.informer.com
 0.0.0.0 syncdog.com
 0.0.0.0 systancia.com
 0.0.0.0 t-ring-fallback.msedge.net
@@ -3594,8 +3544,6 @@
 0.0.0.0 teams.events.data.microsoft.com
 0.0.0.0 teams.live.com
 0.0.0.0 teamviewer.com
-0.0.0.0 teamviewer.en.softonic.com
-0.0.0.0 teamviewer.en.uptodown.com
 0.0.0.0 techinline.com
 0.0.0.0 technet.microsoft.com
 0.0.0.0 techstep.io
@@ -3638,7 +3586,6 @@
 0.0.0.0 tile-service.weather.microsoft.com
 0.0.0.0 tile.appex.bing.com
 0.0.0.0 tile.com
-0.0.0.0 timbuktu-pro.en.softonic.com
 0.0.0.0 timbuktu-pro.software.informer.com
 0.0.0.0 time.windows.com
 0.0.0.0 tinymdm.fr

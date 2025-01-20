@@ -95,10 +95,8 @@
 ||advertising.microsoft.com^
 ||adzok.com^
 ||aeris.com^
-||airdroid-desktop.en.softonic.com^
 ||airdroid.cn^
 ||airdroid.com^
-||airdroid.en.uptodown.com^
 ||aispyer.com^
 ||aka-cdn-ns.adtech.de^
 ||akamaiedge.net^
@@ -110,7 +108,6 @@
 ||alpha.telemetry.microsoft.com^
 ||amidaware.com^
 ||amidaware.github.io^
-||ammyy-admin.en.softonic.com^
 ||ammyy-admin.findmysoft.com^
 ||ammyy.com^
 ||amp.dev^
@@ -129,16 +126,11 @@
 ||anko.solutions^
 ||answers.microsoft.com^
 ||anycontrol.app^
-||anycontrol.en.uptodown.com^
 ||anycontrol.net^
 ||anydesk.com.cn^
 ||anydesk.com^
-||anydesk.en.softonic.com^
-||anydesk.en.uptodown.com^
 ||anydesk.help^
 ||anyplace-control.com^
-||anyplace-control.en.softonic.com^
-||anyplace-control.en.uptodown.com^
 ||anyviewer.com^
 ||apcom-web.trafficmanager.net^
 ||api.cortana.ai^
@@ -215,9 +207,6 @@
 ||bat.r.msn.com^
 ||bba800-anchor.microsoftonline.com^
 ||bba900-anchor.microsoftonline.com^
-||be-closer.en.aptoide.com^
-||be-closer.en.softonic.com^
-||be-closer.en.uptodown.com^
 ||beachheadsolutions.com^
 ||better-it.slack.com^
 ||bettercloud.com^
@@ -283,7 +272,6 @@
 ||bn4sch101123202.wns.windows.com^
 ||bn4sch102110124.wns.windows.com^
 ||boomerangparentalcontrol.medium.com^
-||bravurasoftware.com^
 ||browser.pipe.aria.microsoft.com^
 ||bruin.com^
 ||bs.serving-sys.com^
@@ -501,7 +489,6 @@
 ||customervoice.microsoft.com^
 ||cxcs.microsoft.net
 ||cy2.vortex.data.microsoft.com.akadns.net^
-||data-backup.en.uptodown.com^
 ||data.microsoft.com.akadns.net^
 ||data.microsoft.com^
 ||data.msn.com^
@@ -610,13 +597,9 @@
 ||experimental-api.asm.skype.com^
 ||expreem.com^
 ||eyezy.com^
-||fakespot.com^
-||fakespot.io^
 ||familo.net^
 ||family-locator.com^
-||family.norton.com^
 ||family1st.io^
-||family360.en.aptoide.com^
 ||family360locator.com^
 ||familycore-qa-app-service-ui.azurewebsites.net^
 ||familyorbit.app^
@@ -639,7 +622,6 @@
 ||find360app.com^
 ||findmykids.org^
 ||fixme.it^
-||flashget-parental-control.en.uptodown.com^
 ||flashget.kids^
 ||flashtalking.com^
 ||fleet-azuga.helpscoutdocs.com^
@@ -650,11 +632,9 @@
 ||flexera.com^
 ||flexispy.com^
 ||flexispy.postaffiliatepro.com^
-||followmee-gps-tracker.en.uptodown.com^
 ||followmee.com^
 ||fonemonitor.co^
 ||fonemonitor.en.download.it^
-||fonemonitor.en.softonic.com^
 ||footprint.net^
 ||footprintdns.com^
 ||footprintpredict.com^
@@ -690,9 +670,6 @@
 ||get.activated.win^
 ||gethapn.com^
 ||getnerdio.com^
-||getpocket-cdn.prod.mozaws.net^
-||getpocket.cdn.mozilla.net^
-||getpocket.com^
 ||getwsone.com^
 ||gfx.ms^
 ||git.activated.win^
@@ -710,7 +687,6 @@
 ||gotomypc.com^
 ||goverlan.com^
 ||government.hp.com^
-||gps-tracker-by-followmee.en.softonic.com^
 ||gpsinsight.com^
 ||gpswox.com^
 ||grafana.com^
@@ -729,7 +705,6 @@
 ||haqerra.com^
 ||here.com^
 ||hexnode.com^
-||highster-mobile.en.softonic.com^
 ||highstermobi.com^
 ||highstermobile.co^
 ||highstermobile.com^
@@ -825,7 +800,6 @@
 ||igzy.com^
 ||ikeymonitor.com^
 ||ilfmobileapps.com^
-||img-getpocket.cdn.mozilla.net^
 ||img-s-msn-com.akamaized.net^
 ||imintouch.com^
 ||imperosoftware.co.uk^
@@ -854,8 +828,6 @@
 ||iprofiles.v.aaplimg.com^
 ||iriscoremetadataprod.blob.core.windows.net^
 ||isec7.com^
-||isharing.en.aptoide.com^
-||isharing.en.uptodown.com^
 ||isharingsoft.com^
 ||ispyoo.com^
 ||itopia.com^
@@ -884,9 +856,7 @@
 ||kidsecurity.org^
 ||kidsecurity.ru^
 ||kidslox.com^
-||kidslox.en.aptoide.com^
 ||kidstracker.pro^
-||kidswatch-parental-computer-control.en.softonic.com^
 ||king.com^
 ||kitewire.com^
 ||kmwatson.events.data.microsoft.com^
@@ -906,7 +876,6 @@
 ||life360.pxf.io^
 ||lifelock.com.edgekey.net^
 ||lifelock.com^
-||lifelock.norton.com^
 ||lifesaver-app.com^
 ||lightspeedsystems.app^
 ||lightspeedsystems.com^
@@ -929,7 +898,6 @@
 ||ln-ring.msedge.net^
 ||localize.mobi^
 ||location.live.net^
-||location.services.mozilla.com^
 ||locations.app^
 ||logicmonitor.com^
 ||login.live.com^
@@ -1126,11 +1094,8 @@
 ||mobivisor.de^
 ||modern.watson.data.microsoft.com.akadns.net^
 ||monitor.azure.com^
-||monitor.firefox.com^
-||monitor.mozilla.org^
 ||monitorix.org^
 ||mosyle.com^
-||mozilla-ohttp-fakespot.fastly-edge.com^
 ||ms365insider-czdafrdzb5h6e4av.z01.azurefd.net^
 ||msads.net^
 ||msauth.net^
@@ -1151,7 +1116,6 @@
 ||mucp.api.account.microsoft.com^
 ||munki.org^
 ||mw-rmm.barracudamsp.com^
-||my-mobile-watchdog.en.uptodown.com^
 ||myconnector.ru^
 ||mycortado.com^
 ||myki.watch^
@@ -1191,8 +1155,6 @@
 ||ninjaone.com^
 ||ninjarmm.com^
 ||nomachine.com^
-||nortonlifelock.com.edgekey.net^
-||nortonlifelock.com^
 ||nsx-e.np.dl.playstation.net^
 ||nsx.np.dl.playstation.net.edgekey.net^
 ||nsx.np.dl.playstation.net^
@@ -1286,8 +1248,6 @@
 ||pimcore.com^
 ||places.app^
 ||platform.linkedin.com^
-||pocket-image-cache.com^
-||pocket.prod.cloudops.mozgcp.net^
 ||policykeyservice.aadcdi.azure.us^
 ||policykeyservice.dc.ad.msft.net^
 ||ponf.linkedin.com^
@@ -1336,7 +1296,6 @@
 ||realvnc.help^
 ||redir.metaservices.microsoft.com^
 ||refog.com^
-||refogkeylogger.en.softonic.com^
 ||relution.io^
 ||remmina.gitlab.io^
 ||remmina.org^
@@ -1367,9 +1326,6 @@
 ||romeccs.microsoft.com^
 ||route4me.com^
 ||route4me.io^
-||rustdesk.com^
-||rustdesk.en.download.it^
-||rustdesk.en.softonic.com^
 ||s-msn.com^
 ||s-ring.msedge.net^
 ||safeandfound.sprint.com^
@@ -1381,8 +1337,6 @@
 ||sailpoint.com^
 ||sakon.com^
 ||samsara.com^
-||samsungcast.com^
-||samsungknox.com^
 ||savelocationgps.com^
 ||scalefusion.com^
 ||scannero.io^
@@ -1431,7 +1385,6 @@
 ||social.microsoft.com.nsatc.net^
 ||social.microsoft.com^
 ||socialmobile.com^
-||socifind-family-safety.en.softonic.com^
 ||socifind.net^
 ||softwareone.com^
 ||solarwinds.com^
@@ -1457,7 +1410,6 @@
 ||spyera.com^
 ||spyhuman.com^
 ||spyic.com^
-||spyic.en.uptodown.com^
 ||spyic.pro^
 ||spyier.com^
 ||spyine.com^
@@ -1509,7 +1461,6 @@
 ||sydney-sydney-bing-com.trafficmanager.net^
 ||sydney.bing.com.edgekey.net^
 ||sydney.bing.com^
-||symantec-pcanywhere.informer.com^
 ||syncdog.com^
 ||systancia.com^
 ||t-ring-fdv2.msedge.net^
@@ -1521,8 +1472,6 @@
 ||teacherdashboard.com^
 ||teams.live.com^
 ||teamviewer.com^
-||teamviewer.en.softonic.com^
-||teamviewer.en.uptodown.com^
 ||techinline.com^
 ||techstep.io^
 ||teensafe.net^
@@ -1556,7 +1505,6 @@
 ||tightprojector.com^
 ||tightvnc.com^
 ||tile.com^
-||timbuktu-pro.en.softonic.com^
 ||timbuktu-pro.software.informer.com^
 ||time.windows.com^
 ||tinymdm.fr^
