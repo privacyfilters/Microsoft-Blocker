@@ -638,8 +638,6 @@
 ||footprint.net^
 ||footprintdns.com^
 ||footprintpredict.com^
-||fortinet.com^
-||fortiwebcloud.net^
 ||fp.msedge.net^
 ||fpt.dfp.microsoft.com^
 ||freerdp.com^
