@@ -5,12 +5,12 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 22 January 2025
-! Version: 1.29
+! Version: 1.31
 ! Syntax: Adblock
 ! Number of entries:
 !
 !!! Allowlist: Allow critical urls !!!
-@@||v0cdn.net^$important
+!Rule_Not_Applied!@@||v0cdn.net^$important
 !
 !
 !!!!!!!!! Blocklist !!!!!!!!!
@@ -26,6 +26,7 @@
 ||2mdn.net^
 ||a-dc-msedge.net^
 ||a-msedge.net^
+||aadg.akadns.net^
 ||accessvb.com^
 ||acompli.com^
 ||activated.win^
@@ -36,12 +37,12 @@
 ||akadns6.net^
 ||akamaiedge.net^
 ||amp.dev^
-||ampproject.com^
 ||ampproject.com.cn^
-||ampproject.net^
+||ampproject.com^
 ||ampproject.net.cn^
-||ampproject.org^
+||ampproject.net^
 ||ampproject.org.cn^
+||ampproject.org^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appcenter.ms^
 ||applicationinsights.io^
@@ -55,6 +56,7 @@
 ||atwola.com^
 ||au-msedge.net^
 ||avatar-service-prod-b-eus2.cloudapp.net^
+||azure-api.cn^
 ||azure-devices-provisioning.net^
 ||azure-devices.net^
 ||azure-dns.com^
@@ -90,6 +92,7 @@
 ||cbecloud.com^
 ||cdnsvc.com^
 ||cedexis.net^
+||chinacloudapi.cn^
 ||cinemania.com^
 ||cinemanow.com^
 ||clarity.ms^
@@ -105,12 +108,18 @@
 ||compatexchange.cloudapp.net^
 ||cortana.ai^
 ||cus-prod-msgsearch.cloudapp.net^
+||dbankedge.cn^
 ||dc-msedge.net^
 ||discoverbing.com^
 ||dkyprod.akadns.net^
 ||dot.net^
+||dscb.akamaiedge.net^
+||dscg.akamaiedge.net^
 ||dscg3.akamai.net^
+||dscx.akamaiedge.net^
 ||dsp.mp^
+||dspb.akamaiedge.net^
+||dspg.akamaiedge.net^
 ||dsx.mp^
 ||dyanmicslive.org^
 ||dynamics-int.com^
@@ -158,6 +167,7 @@
 ||edgesuite.net^
 ||edgewelcome-west3.azurewebsites.net^
 ||eus1-authgw.cloudapp.net^
+||exp-tas.com^
 ||explore.ms^
 ||fdv2-t-msedge.net^
 ||flightingserviceweurope.cloudapp.net^
@@ -166,6 +176,7 @@
 ||footprintdns.com^
 ||footprintpredict.com^
 ||freepowerpoint.com^
+||g.akamaiedge.net^
 ||gamepass.com^
 ||generalaudittool.com^
 ||getmicrosoftkey.com^
@@ -176,6 +187,7 @@
 ||hotmail.es^
 ||hoverwatch.com^
 ||ic-live.com^
+||ic.gov^
 ||img-prod-cms-rt-microsoft-com.akamaized.net^
 ||img-s-msn-com.akamaized.net^
 ||insiderppe.cloudapp.net^
@@ -186,6 +198,8 @@
 ||live.net^
 ||livegeteastus.cloudapp.net^
 ||livenet.akadns.net^
+||liveperson.net^
+||livepersonk.akadns.net^
 ||llnwd.net^
 ||lo1prdapp01-canary.cloudapp.net^
 ||location-inference-eastus.cloudapp.net^
@@ -233,10 +247,10 @@
 ||microsoft.cn^
 ||microsoft.co.il^
 ||microsoft.co.uk^
-||microsoft.com^
 ||microsoft.com.au^
 ||microsoft.com.br^
 ||microsoft.com.tw^
+||microsoft.com^
 ||microsoft.cr^
 ||microsoft.cz^
 ||microsoft.de^
@@ -355,6 +369,7 @@
 ||microsoftdynamicslive.org^
 ||microsofteai.com.br^
 ||microsoftelearning.com^
+||microsoftemail.com^
 ||microsoftencarta.net^
 ||microsoftencarta.org^
 ||microsoftequipt.com^
@@ -390,8 +405,8 @@
 ||microsoftphotosynth.com.br^
 ||microsoftplayfx.com.br^
 ||microsoftportal.net^
-||microsoftstore.com^
 ||microsoftstore.com.cn^
+||microsoftstore.com^
 ||microsoftstore.it^
 ||microsoftstore.me^
 ||microsoftsupplychain.com^
@@ -425,6 +440,7 @@
 ||msftncsi.com^
 ||msftstatic.com^
 ||msgamestudios.com^
+||mshome.net^
 ||msidentity.com^
 ||msn.be^
 ||msn.ca^
@@ -434,13 +450,13 @@
 ||msn.co.kr^
 ||msn.co.th^
 ||msn.co.uk^
-||msn.com^
 ||msn.com.cn^
 ||msn.com.hk^
 ||msn.com.my^
 ||msn.com.ph^
 ||msn.com.sg^
 ||msn.com.tw^
+||msn.com^
 ||msn.de^
 ||msn.es^
 ||msn.fr^
@@ -462,6 +478,7 @@
 ||net.akamaized.net^
 ||net.edgekey.net^
 ||net.edgesuite.net^
+||netdna-cdn.com^
 ||nsatc.net^
 ||nstac.net^
 ||nuget.org^
@@ -474,8 +491,10 @@
 ||office365.com^
 ||office365.us^
 ||officeci.azurewebsites.net^
+||officeplus.cn^
 ||officeppe.com^
 ||officewebapps.cn^
+||onecollector.akadns.net^
 ||onedrive.akadns.net^
 ||onedrive.com^
 ||onenote.net^
@@ -488,6 +507,8 @@
 ||outlook.cn^
 ||outlook.com^
 ||passport.net^
+||pcmactivity.azurewebsites.net^
+||pcmanagerconfig.azurewebsites.net^
 ||people-prod-b-usce.cloudapp.net^
 ||places.app^
 ||powerappsportals.com^
@@ -505,12 +526,17 @@
 ||skype.com^
 ||skype.net^
 ||skypeassets.com^
+||skypedataprdcolcus03.cloudapp.net^
+||skypedataprdcoleus01.cloudapp.net^
+||skypedataprdcoleus13.cloudapp.net^
+||skypedataprdcoleus16.cloudapp.net^
 ||skypeecs-prod-usw-0.cloudapp.net^
 ||skyprod.akadns.net^
 ||spoprod-a.akamaihd.net^
 ||staffhub.ms^
 ||statics-marketingsites-eus-ms-com.akamaized.net^
 ||statics-marketingsites-wcus-ms-com.akamaized.net^
+||svc.ms^
 ||sway-cdn.com^
 ||sway-extensions.com^
 ||sway.com^
@@ -521,21 +547,24 @@
 ||tribalfusion.com^
 ||usgovcloudapi.net^
 ||usgovtrafficmanager.net^
-||v0cdn.net^
 ||virtualearth.net^
 ||visualstudio.com^
 ||vsgallery.com^
 ||wbd.ms^
 ||westus.cloudapp.net^
+||weu016-breeziest-in.cloudapp.net^
 ||whiteboard.ms^
 ||windows-ppe.net^
+||windows.com.akadns.net^
 ||windows.com^
 ||windows.net^
 ||windows.us^
 ||windowsazure.com^
 ||windowssearch.com^
 ||windowsupdate.com^
+||wpc.v0cdn.net^
 ||wus-wsapi.cloudapp.net^
+||xainfrontendprodeuwe.azurewebsites.net^
 ||xbetservices.akadns.net^
 ||xblcqosteredo-wus-10-0-10586-1195-1.cloudapp.net^
 ||xblcqosteredo-wus-10-0-10586-1195-2.cloudapp.net^
