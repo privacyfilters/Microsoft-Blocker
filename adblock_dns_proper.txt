@@ -5,11 +5,11 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 22 January 2025
-! Version: 1.29
+! Version: 1.30
 ! Syntax: Adblock
 ! Number of entries:
 !
-!!!!!!!!! Allowlist: windows update, winget and vscode !!!!!!!!!
+!!!!!!!!! Allowlist: windows update, defender, winget and vscode !!!!!!!!!
 !!! windows Update related Urls !!!
 @@||update.microsoft.com^$important
 @@||delivery.mp.microsoft.com^$important
@@ -17,6 +17,9 @@
 @@||msftconnecttest.com^$important
 !!! winget, unigetui etc !!!
 @@||cdn.winget.microsoft.com^$important
+||| windows defender |||
+@@||wdcp.microsoft.com^$important
+@@||wdcpalt.microsoft.com^$important
 !!! vscode and extensions !!!
 @@||code.visualstudio.com^$important
 @@||download.visualstudio.microsoft.com^$important
