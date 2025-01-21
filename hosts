@@ -3,13 +3,15 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 21 January 2025
-# Version: 1.06
+# Last modified: 22 January 2025
+# Version: 1.07
 # Syntax: host
 # Number of entries:
 #
 #
 ##### Allowlist #####
+### Critical cnd urls ###
+#0.0.0.0 v0cdn.net
 ### Windows Update related Urls
 #0.0.0.0 update.microsoft.com
 #0.0.0.0 delivery.mp.microsoft.com
@@ -2582,7 +2584,6 @@
 0.0.0.0 user.auth.xboxlive.com
 0.0.0.0 userpresence.xboxlive.com
 0.0.0.0 usseu1northprod.blob.core.windows.net
-0.0.0.0 v0cdn.net
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 v10.events.data.microsoft.com
 0.0.0.0 v10.vortex-win.data.metron.live.com.nsatc.net
