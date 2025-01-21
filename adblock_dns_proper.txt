@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 21 January 2025
-! Version: 1.27
+! Version: 1.28
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -911,7 +911,6 @@
 ||storeedgefd.dsx.mp.microsoft.com^
 ||support.microsoft.com^
 ||support.services.microsoft.com^
-||survey.watson.microsoft.com^
 ||sway-cdn.com^
 ||sway-extensions.com^
 ||sway.com^
@@ -992,20 +991,6 @@
 ||watson.ppe.telemetry.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||watson1.officeint.microsoft.com^
-||watson1.watson.microsoft.com^
-||watson101.watson.microsoft.com^
-||watson102.watson.microsoft.com^
-||watson103.watson.microsoft.com^
-||watson104.watson.microsoft.com^
-||watson105.watson.microsoft.com^
-||watson106.watson.microsoft.com^
-||watson107.watson.microsoft.com^
-||watson108.watson.microsoft.com^
-||watson109.watson.microsoft.com^
-||watson110.watson.microsoft.com^
-||watson111.watson.microsoft.com^
-||watson112.watson.microsoft.com^
-||watson115.watson.microsoft.com^
 ||wbd.ms^
 ||wcpstatic.microsoft.com^
 ||wdcp.microsoft.com^
