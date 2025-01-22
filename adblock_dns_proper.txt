@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 22 January 2025
-! Version: 1.31
+! Last modified: 23 January 2025
+! Version: 1.32
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -56,9 +56,6 @@
 ||adtech.de^
 ||advertiseonbing.azurewebsites.net^
 ||aka.ms^
-||akadns.net^
-||akadns6.net^
-||akamaiedge.net^
 ||amp.dev^
 ||ampproject.com.cn^
 ||ampproject.com^
@@ -99,6 +96,7 @@
 ||betaoneservices.com^
 ||bigpanda.io^
 ||bing-int.com^
+||bing.com.akadns.net^
 ||bing.com^
 ||bing.net^
 ||bingadsedgeextension-prod-eastus.azurewebsites.net^
@@ -123,11 +121,6 @@
 ||cloud.microsoft^
 ||cloudapp.net^
 ||clouddrive.com^
-||com-c.edgekey.net^
-||com-san.edgekey.net^
-||com.akadns.net^
-||com.edgekey.net^
-||com.edgesuite.net^
 ||compatexchange.cloudapp.net^
 ||cortana.ai^
 ||cus-prod-msgsearch.cloudapp.net^
@@ -187,7 +180,6 @@
 ||dynamicsview.biz^
 ||dynamicsview.info^
 ||e-msedge.net^
-||edgesuite.net^
 ||edgewelcome-west3.azurewebsites.net^
 ||eus1-authgw.cloudapp.net^
 ||exp-tas.com^
@@ -217,6 +209,7 @@
 ||king.com^
 ||l-msedge.net^
 ||linkedin.com^
+||live.com.akadns.net^
 ||live.com^
 ||live.net^
 ||livegeteastus.cloudapp.net^
@@ -270,6 +263,8 @@
 ||microsoft.cn^
 ||microsoft.co.il^
 ||microsoft.co.uk^
+||microsoft.com-c.edgekey.net^
+||microsoft.com.akadns.net^
 ||microsoft.com.au^
 ||microsoft.com.br^
 ||microsoft.com.tw^
@@ -449,6 +444,7 @@
 ||mozgcp.net^
 ||ms.akadns.net^
 ||ms.edgekey.net^
+||msa.akadns6.net^
 ||msads.net^
 ||msauth.net^
 ||msdn.com^
@@ -473,6 +469,7 @@
 ||msn.co.kr^
 ||msn.co.th^
 ||msn.co.uk^
+||msn.com.akadns.net^
 ||msn.com.cn^
 ||msn.com.hk^
 ||msn.com.my^
@@ -498,9 +495,6 @@
 ||mywindowsmobile.com^
 ||mywindowsmobile.de^
 ||nelreports.net^
-||net.akamaized.net^
-||net.edgekey.net^
-||net.edgesuite.net^
 ||netdna-cdn.com^
 ||nsatc.net^
 ||nstac.net^
@@ -509,6 +503,8 @@
 ||oaspapps.com^
 ||office.akadns.net^
 ||office.com^
+||office.net-c.edgekey.net^
+||office.net.akadns.net^
 ||office.net^
 ||office365.cn^
 ||office365.com^
@@ -519,6 +515,7 @@
 ||officewebapps.cn^
 ||onecollector.akadns.net^
 ||onedrive.akadns.net^
+||onedrive.com.akadns.net^
 ||onedrive.com^
 ||onenote.net^
 ||onestore.ms^
@@ -546,6 +543,8 @@
 ||sfx.ms^
 ||sgmetrics.cloudapp.net^
 ||sgtlabs.com^
+||skype-registar.akadns.net^
+||skype.com.akadns.net^
 ||skype.com^
 ||skype.net^
 ||skypeassets.com^
@@ -591,8 +590,10 @@
 ||xbetservices.akadns.net^
 ||xblcqosteredo-wus-10-0-10586-1195-1.cloudapp.net^
 ||xblcqosteredo-wus-10-0-10586-1195-2.cloudapp.net^
+||xbox.com.akadns.net^
 ||xbox.com^
 ||xboxab.com^
+||xboxlive.com-c.edgekey.net^
 ||xboxlive.com^
 ||xboxservices.com^
 ||yammer.com^

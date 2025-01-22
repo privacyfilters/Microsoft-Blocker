@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 23 January 2025
-# Version: 1.09
+# Version: 1.10
 # Syntax: host
 # Number of entries:
 #
@@ -546,8 +546,6 @@
 0.0.0.0 ak.privatelink.msidentity.com
 0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 aka.ms
-0.0.0.0 akadns.net
-0.0.0.0 akamaiedge.net
 0.0.0.0 alebgnkhbz.mshome.net
 0.0.0.0 alerts.microsoft.com
 0.0.0.0 alpha.telemetry.microsoft.com
@@ -1660,7 +1658,6 @@
 0.0.0.0 edgeservices.bing.com
 0.0.0.0 edgeshoppingstatic.afd.azureedge.net
 0.0.0.0 edgeshoppingstatic.azureedge.net
-0.0.0.0 edgesuite.net
 0.0.0.0 edgesync.microsoft.com
 0.0.0.0 edgetippingservice.webxtsvc.microsoft.com
 0.0.0.0 edgetipscdn.microsoft.com
@@ -2474,8 +2471,6 @@
 0.0.0.0 nel-wus2.binguxlivesite.net
 0.0.0.0 nelreports.net
 0.0.0.0 nelreports.net.trafficmanager.net
-0.0.0.0 net.edgekey.net #Note: This domain is used by Akamai for CDN services but is relevant to Microsoft content distribution
-0.0.0.0 net.edgesuite.net #Note: Similar to above, used for CDN but related to Microsoft
 0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 0.0.0.0 neu.notifications.skype.com
 0.0.0.0 news.microsoft.com
