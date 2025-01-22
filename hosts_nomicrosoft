@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 23 January 2025
-# Version: 1.10
+# Version: 1.11
 # Syntax: host
 # Number of entries:
 #
@@ -1573,6 +1573,7 @@
 0.0.0.0 dynamics.biz
 0.0.0.0 dynamics.eu
 0.0.0.0 dynamics.info
+0.0.0.0 dynamics.microsoft.com
 0.0.0.0 dynamicscontinuum.biz
 0.0.0.0 dynamicscontinuum.info
 0.0.0.0 dynamicscsplus.biz
@@ -2740,6 +2741,7 @@
 0.0.0.0 places.app
 0.0.0.0 platform.bing.com
 0.0.0.0 platform.linkedin.com # LinkedIn is a Microsoft subsidiary
+0.0.0.0 powerplatform.microsoft.com
 0.0.0.0 policykeyservice.aadcdi.azure.us
 0.0.0.0 policykeyservice.dc.ad.msft.net
 0.0.0.0 ponf.linkedin.com # LinkedIn is a Microsoft subsidiary
