@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 23 January 2025
-! Version: 1.32
+! Version: 1.33
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -38,11 +38,26 @@
 !
 !!!!!!!!! Blocklist !!!!!!!!!
 !!! Wildcard rules !!!
-||bing.com*^
-||copilot.*microsoft.com^
 ||*microsoft*.com^
 ||*msedge.net^
 ||*msn*.com^
+||bing.com*^
+||copilot.*microsoft.com^
+!
+!!! External domains & subdomains !!!
+||amp.dev^
+||ampproject.com.cn^
+||ampproject.com^
+||ampproject.net.cn^
+||ampproject.net^
+||ampproject.org.cn^
+||ampproject.org^
+||cdx.cedexis.net^
+||cedexis-test.com^
+||openmix.cedexis.com^
+||radar.cedexis.net^
+||rpt.cedexis.com^
+||sonar.cedexis.com^
 !
 !!!!!!!!! General Blocklist !!!!!!!!!
 ||1drv.com^
@@ -56,13 +71,6 @@
 ||adtech.de^
 ||advertiseonbing.azurewebsites.net^
 ||aka.ms^
-||amp.dev^
-||ampproject.com.cn^
-||ampproject.com^
-||ampproject.net.cn^
-||ampproject.net^
-||ampproject.org.cn^
-||ampproject.org^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appcenter.ms^
 ||applicationinsights.io^
@@ -94,7 +102,6 @@
 ||bcentral.com^
 ||bcentral.net^
 ||betaoneservices.com^
-||bigpanda.io^
 ||bing-int.com^
 ||bing.com.akadns.net^
 ||bing.com^
@@ -112,7 +119,6 @@
 ||casualgameswebproduswest.azurewebsites.net^
 ||cbecloud.com^
 ||cdnsvc.com^
-||cedexis.net^
 ||chinacloudapi.cn^
 ||cinemania.com^
 ||cinemanow.com^
@@ -197,7 +203,6 @@
 ||getmicrosoftkey.com^
 ||gfx.ms^
 ||globalredir.akadns.net^
-||here.com^
 ||hotmail.com^
 ||hotmail.es^
 ||hoverwatch.com^
@@ -441,7 +446,6 @@
 ||microsoftword.com.br^
 ||micrososft.com^
 ||micrsoftsmartcar.co.uk^
-||mozgcp.net^
 ||ms.akadns.net^
 ||ms.edgekey.net^
 ||msa.akadns6.net^

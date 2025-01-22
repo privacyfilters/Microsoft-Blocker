@@ -668,7 +668,6 @@
 0.0.0.0 bg5.v4.a.dl.ws.microsoft.com
 0.0.0.0 bg5.v4.emdl.ws.microsoft.com
 0.0.0.0 biajrmprpcaf.mshome.net
-0.0.0.0 bigpanda.io
 0.0.0.0 billing.microsoft.com
 0.0.0.0 binaries.templates.cdn.office.net
 0.0.0.0 bing-int.com
@@ -891,6 +890,8 @@
 0.0.0.0 cdn.support.services.microsoft.com
 0.0.0.0 cdn.uci.officeapps.live.com
 0.0.0.0 cdnprod.myanalytics.microsoft.com
+0.0.0.0 cdx.cedexis.net
+0.0.0.0 cedexis-test.com
 0.0.0.0 cert.mgt.xboxlive.com
 0.0.0.0 cert.mgt.xboxlive.com.akadns.net
 0.0.0.0 cgbzbrapg.mshome.net
@@ -909,7 +910,6 @@
 0.0.0.0 clarity.microsoft.com
 0.0.0.0 clarity.ms
 0.0.0.0 claritystatic.azureedge.net
-0.0.0.0 classify-client.prod.webservices.mozgcp.net
 0.0.0.0 click.email.microsoftemail.com
 0.0.0.0 client-office365-tas.msedge.net
 0.0.0.0 client-s.gateway.messenger.live.com
@@ -2476,6 +2476,7 @@
 0.0.0.0 onesettings-hk2.metron.live.com.nsatc.net
 0.0.0.0 online.microsoft.com
 0.0.0.0 onpremeur3.ipv6.microsoft.com.akadns.net
+0.0.0.0 openmix.cedexis.com
 0.0.0.0 opinsights.azure.com
 0.0.0.0 opsjheoy.mshome.net
 0.0.0.0 optanon.blob.core.windows.net
@@ -2629,6 +2630,7 @@
 0.0.0.0 rad.live.com
 0.0.0.0 rad.microsoft.com
 0.0.0.0 rad.msn.com
+0.0.0.0 radar.cedexis.net
 0.0.0.0 radarmaps.weather.microsoft.com
 0.0.0.0 rads.msn.com
 0.0.0.0 rcr.blob.core.windows.net
@@ -2674,6 +2676,7 @@
 0.0.0.0 root.skype-edf.akadns.net
 0.0.0.0 root.skype.edf.akadns.net
 0.0.0.0 roxy.azurefd.net
+0.0.0.0 rpt.cedexis.com
 0.0.0.0 rr.office.microsoft.com
 0.0.0.0 rss.microsoft.com
 0.0.0.0 rta.xboxlive.com.akadns.net
@@ -2775,6 +2778,7 @@
 0.0.0.0 social.microsoft.com.nsatc.net
 0.0.0.0 solitaireevents.microsoftcasualgames.com
 0.0.0.0 solitaireprod.maelstrom.xboxlive.com
+0.0.0.0 sonar.cedexis.com
 0.0.0.0 sonfiles.blob.core.windows.net
 0.0.0.0 soorwxgvfhmwvzd.mshome.net
 0.0.0.0 sparkcdneus2.azureedge.net
@@ -3553,7 +3557,6 @@
 :: v20.events.data.microsoft.com
 :: validation-v2.sls.microsoft.com
 :: validation.sls.microsoft.com
-:: version.hybrid.api.here.com # Microsoft has a partnership with Here Technologies
 :: videomd.blob.core.windows.net
 :: vortex-win-sandbox.data.microsoft.com
 :: vortex-win.data.microsoft.com
