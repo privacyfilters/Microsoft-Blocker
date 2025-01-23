@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 24 January 2025
-! Version: 1.35
+! Version: 1.36
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -44,7 +44,20 @@
 ||bing.com*^
 ||copilot.*microsoft.com^
 !
-!!! External domains & subdomains !!!
+!!! Other and External domains & subdomains !!!
+! Official Minecraft game site
+!Not-Blocked!||minecraft.net^
+! Product Information Management
+!Not-Blocked!||modpim.com^
+! StackPath CDN service (formerly NetDNA)
+!Not-Blocked!||netdna-cdn.com^
+! .NET package manager
+!Not-Blocked!||nuget.org^
+! Developer of Candy Crush and other games
+!Not-Blocked!||king.com^
+! Professional networking site
+!Not-Blocked!||linkedin.com^
+! AMP Project related domains
 ||amp.dev^
 ||amp-test.com^
 ||ampproject.com.cn^
@@ -53,17 +66,37 @@
 ||ampproject.net^
 ||ampproject.org.cn^
 ||ampproject.org^
+! Cedexis services
 ||cdx.cedexis.net^
 ||cedexis-test.com^
 ||openmix.cedexis.com^
 ||radar.cedexis.net^
 ||rpt.cedexis.com^
 ||sonar.cedexis.com^
+! Google DoubleClick ad network
+||2mdn.net^
+! Advertising technology services
+||adtech.de^
+! Atlas Solutions for ad serving
+||atwola.com^
+! Monitoring/spy software for devices
+||hoverwatch.com^
+! U.S. Intelligence Community official site
+||ic.gov^
+! Limelight Networks CDN service
+||llnw.net^
+! Limelight Networks CDN service
+||llnwd.net^
+! Sizmek ad serving solutions
+||serving-sys.com^
+! Tag management for advertising
+||tagdelivery.com^
+! Digital advertising and media distribution
+||tribalfusion.com^
 !
 !!!!!!!!! General Blocklist !!!!!!!!!
 ||1drv.com^
 ||1drv.ms^
-||2mdn.net^
 ||a-dc-msedge.net^
 ||a-msedge.net^
 ||aadg.akadns.net^
@@ -85,7 +118,6 @@
 ||aspnetcdn.com^
 ||assets-yammer.com^
 ||atdmt.com^
-||atwola.com^
 ||au-msedge.net^
 ||avatar-service-prod-b-eus2.cloudapp.net^
 ||azure-api.cn^
@@ -220,9 +252,7 @@
 ||hipipv6-eu1-prod.cloudapp.net^
 ||hotmail.com^
 ||hotmail.es^
-||hoverwatch.com^
 ||ic-live.com^
-||ic.gov^
 ||img-prod-cms-rt-microsoft-com.akamaized.net^
 ||img-s-msn-com.akamaized.net^
 ||imvendorportal.com^
@@ -241,8 +271,6 @@
 ||liveperson.net^
 ||livepersonk.akadns.net^
 ||livetile.hulu.com^
-||llnw.net^
-||llnwd.net^
 ||lo1prdapp01-canary.cloudapp.net^
 ||location-inference-eastus.cloudapp.net^
 ||location-inference-westus.cloudapp.net^
@@ -588,7 +616,6 @@
 ||s-msn.com^
 ||scus-breeziest-in.cloudapp.net^
 ||se1prdapp01-canary.cloudapp.net^
-||serving-sys.com^
 ||sfbassets.com^
 ||sfx.ms^
 ||sgmetrics.cloudapp.net^
