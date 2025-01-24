@@ -44,6 +44,13 @@
 #0.0.0.0 slscr.update.microsoft.com
 #:: definitionupdates.microsoft.com
 #fe2.update.microsoft.com.akadns.net
+#0.0.0.0 business.linkedin.com # LinkedIn is a Microsoft subsidiary
+#0.0.0.0 king.com
+#0.0.0.0 lan.sdk.linkedin.com # LinkedIn is a Microsoft subsidiary
+#0.0.0.0 modpim.com
+#0.0.0.0 platform.linkedin.com # LinkedIn is a Microsoft subsidiary
+#0.0.0.0 ponf.linkedin.com # LinkedIn is a Microsoft subsidiary
+#0.0.0.0 www.nuget.org
 #
 #
 ######## Blocklist ########
@@ -854,7 +861,6 @@
 0.0.0.0 build.microsoft.com
 0.0.0.0 business-bing-com.b-0005.b-msedge.net
 0.0.0.0 business.bing.com
-0.0.0.0 business.linkedin.com #LinkedIn is a Microsoft subsidiary
 0.0.0.0 business.microsoft.com
 0.0.0.0 by1prdapp01-canary.cloudapp.net
 0.0.0.0 by1prdapp01-canary.netmon.azure.com
@@ -2047,7 +2053,6 @@
 0.0.0.0 k-ring.msedge.net
 0.0.0.0 k.config.skype.com
 0.0.0.0 kfyxkiqwvzxwh.mshome.net
-0.0.0.0 king.com
 0.0.0.0 kiwi.blob.core.windows.net
 0.0.0.0 kmdvwnxuiqxku.mshome.net
 0.0.0.0 kmwatson.events.data.microsoft.com
@@ -2081,7 +2086,6 @@
 0.0.0.0 l-0015.l-msedge.net
 0.0.0.0 l-ring.msedge.net
 0.0.0.0 l.config.skype.com
-0.0.0.0 lan.sdk.linkedin.com #LinkedIn is a Microsoft subsidiary
 0.0.0.0 lb1.www.ms.akadns.net
 0.0.0.0 lbcakkjpo.mshome.net
 0.0.0.0 learn.microsoft.com.edgekey.net.globalredir.akadns.net
@@ -2423,7 +2427,6 @@
 0.0.0.0 mobilebeta.microsoft.com
 0.0.0.0 modern.watson.data.microsoft.com.akadns.net
 0.0.0.0 modernb.akamai.odsp.cdn.office.net
-0.0.0.0 modpim.com
 0.0.0.0 monitor.azure.com
 0.0.0.0 mran.microsoft.com
 0.0.0.0 mrodevicemgr.officeapps.live.com
@@ -2908,13 +2911,11 @@
 0.0.0.0 pipe.skype.com
 0.0.0.0 places.app
 0.0.0.0 platform.bing.com
-0.0.0.0 platform.linkedin.com # LinkedIn is a Microsoft subsidiary
 0.0.0.0 playfabapi.com
 0.0.0.0 playready.microsoft.com
 0.0.0.0 pnv.skype.com
 0.0.0.0 policykeyservice.aadcdi.azure.us
 0.0.0.0 policykeyservice.dc.ad.msft.net
-0.0.0.0 ponf.linkedin.com # LinkedIn is a Microsoft subsidiary
 0.0.0.0 popup.msn.com
 0.0.0.0 portal.azure.com
 0.0.0.0 portal.azure.com.trafficmanager.net
@@ -3608,7 +3609,6 @@
 0.0.0.0 www.msedge.net
 0.0.0.0 www.msftncsi.com
 0.0.0.0 www.msn.com
-0.0.0.0 www.nuget.org
 0.0.0.0 www.office.com
 0.0.0.0 www.onedrive.com
 0.0.0.0 www.outlook.com

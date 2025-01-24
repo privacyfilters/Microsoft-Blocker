@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 24 January 2025
-! Version: 1.36
+! Version: 1.37
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -51,10 +51,12 @@
 !Not-Blocked!||modpim.com^
 ! StackPath CDN service (formerly NetDNA)
 !Not-Blocked!||netdna-cdn.com^
+||crl.uzto.netdna-cdn.com^
 ! .NET package manager
 !Not-Blocked!||nuget.org^
 ! Developer of Candy Crush and other games
 !Not-Blocked!||king.com^
+||candycrushsoda.king.com^
 ! Professional networking site
 !Not-Blocked!||linkedin.com^
 ! AMP Project related domains
