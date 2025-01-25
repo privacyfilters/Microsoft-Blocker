@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 25 January 2025
-! Version: 1.38
+! Version: 1.39
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -38,11 +38,14 @@
 !
 !!!!!!!!! Blocklist !!!!!!!!!
 !!! Wildcard rules !!!
-||*microsoft*.com^
+||*microsoft*.com*^
 ||*msedge.net^
-||*msn*.com^
+||*msn*.com*^
 ||bing.com*^
 ||copilot.*microsoft.com^
+||live.com*^
+||msftconnecttest.com*^
+
 !
 !!! Other and External domains & subdomains !!!
 ! Official Minecraft game site
