@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 24 January 2025
-! Version: 1.37
+! Last modified: 25 January 2025
+! Version: 1.38
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -87,6 +87,7 @@
 ||adtech.de^
 ||advertiseonbing.azurewebsites.net^
 ||aka.ms^
+||akadns.net^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appcenter.ms^
 ||applicationinsights.io^
@@ -616,6 +617,7 @@
 ||skypeecs-prod-usw-0.cloudapp.net^
 ||skypeforbusiness.com^
 ||skyprod.akadns.net^
+||smartscreen.microsoft.com^
 ||spo-msedge.net^
 ||spoppe.com^
 ||spoprod-a.akamaihd.net^
