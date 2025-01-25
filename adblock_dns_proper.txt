@@ -5,13 +5,14 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 January 2025
-! Version: 1.43
+! Version: 1.44
 ! Syntax: Adblock
 ! Number of entries:
 !
 !!!!!!!!! Custom Allow & Blocklist: windows update, defender, security, winget and vscode !!!!!!!!!
 !!! critical url !!!
-!Rule_Not_Applied!@@||v0cdn.net^$important
+!Rule_Not_Applied!@@||v0cdn.net^
+!Not_Applied!@@||msecnd.net^
 !!! windows Update related Urls !!!
 @@||update.microsoft.com^ 
 @@||delivery.mp.microsoft.com^
@@ -111,6 +112,7 @@
 ||tagdelivery.com^
 ! Digital advertising and media distribution
 ||tribalfusion.com^
+! Other
 !
 !!!!!!!!! General Blocklist !!!!!!!!!
 ||1drv.com^
@@ -118,11 +120,14 @@
 ||a-dc-msedge.net^
 ||a-msedge.net^
 ||aadg.akadns.net^
+||aadrm.cn^
 ||aadrm.com^
+||aadrm.de^
 ||accessvb.com^
 ||acompli.com^
 ||acompli.net^
 ||activated.win^
+||activity.windows.com^
 ||adtech.de^
 ||advertiseonbing.azurewebsites.net^
 ||aka.ms^
@@ -152,6 +157,7 @@
 ||azureedge.net^
 ||azurefd.net^
 ||azurefd.us^
+||azureserviceprofiler.net^
 ||b-dc-msedge.net^
 ||b-msedge.net^
 ||bcentral.com^
@@ -170,6 +176,7 @@
 ||binginternal.com^
 ||binguxlivesite.net^
 ||bingviz.com^
+||blob.core.windows.net^
 ||by1prdapp01-canary.cloudapp.net^
 ||c-msedge.net^
 ||casualgameswebproduswest.azurewebsites.net^
@@ -184,6 +191,7 @@
 ||clarity.ms^
 ||clipchamp.com^
 ||cloud.microsoft^
+||cloudapp.azure.com^
 ||compatexchange.cloudapp.net^
 ||contoso.com^
 ||copilot.microsoft.com^
@@ -193,7 +201,9 @@
 ||data.microsoft.com^
 ||dbankedge.cn^
 ||dc-msedge.net^
+||delivery.mp.microsoft.com^
 ||dgps-eus2.cloudapp.net^
+||diagnostics.office.com^
 ||discoverbing.com^
 ||dkyprod.akadns.net^
 ||dot.net^
@@ -201,6 +211,7 @@
 ||dscg.akamaiedge.net^
 ||dscg3.akamai.net^
 ||dscx.akamaiedge.net^
+||dsp.mp.microsoft.com^
 ||dsp.mp^
 ||dspb.akamaiedge.net^
 ||dspg.akamaiedge.net^
@@ -276,6 +287,7 @@
 ||img-prod-cms-rt-microsoft-com.akamaized.net^
 ||img-s-msn-com.akamaized.net^
 ||imvendorportal.com^
+||infoemails.microsoft.com^
 ||insiderppe.cloudapp.net^
 ||internetexplorer.com^
 ||k-msedge.net^
@@ -294,6 +306,7 @@
 ||location-inference-eastus.cloudapp.net^
 ||location-inference-westus.cloudapp.net^
 ||locations.app^
+||loganalytics.azure.com^
 ||loganalytics.io^
 ||lxcvc.com^
 ||lync.cn^
@@ -390,6 +403,7 @@
 ||microsoft.lv^
 ||microsoft.ly^
 ||microsoft.ma^
+||microsoft.map.fastly.net^
 ||microsoft.md^
 ||microsoft.mn^
 ||microsoft.mp^
@@ -524,6 +538,7 @@
 ||micrososft.com^
 ||micrsoftsmartcar.co.uk^
 ||minecraft.net^
+||monitor.azure.com^
 ||ms.akadns.net^
 ||ms.edgekey.net^
 ||msa.akadns6.net^
@@ -610,6 +625,7 @@
 ||onenote.com^
 ||onenote.net^
 ||onestore.ms^
+||online-metrix.net^
 ||onmicrosoft.com^
 ||optionsservice-prod-southeastasia-a.cloudapp.net^
 ||orantest.azurewebsites.net^
@@ -628,6 +644,7 @@
 ||powerappsportals.com^
 ||redir1.cloudapp.net^
 ||remotedesktop.com^
+||rewardsplatform.microsoft.com^
 ||rs-mcas.ms^
 ||s-dc-msedge.net^
 ||s-microsoft.com^
@@ -666,6 +683,7 @@
 ||statics-marketingsites-eus-ms-com.akamaized.net^
 ||statics-marketingsites-neu-ms-com.akamaized.net^
 ||statics-marketingsites-wcus-ms-com.akamaized.net^
+||support.services.microsoft.com^
 ||svc.ms^
 ||sway-cdn.com^
 ||sway-extensions.com^
@@ -676,6 +694,7 @@
 ||telecommand.azurewebsites.net^
 ||trafficmanager.net^
 ||tribalfusion.com^
+||urs.microsoft.com^
 ||usgovcloudapi.net^
 ||usgovtrafficmanager.net^
 ||virtualearth.net^
