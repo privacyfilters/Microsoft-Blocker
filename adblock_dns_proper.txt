@@ -5,11 +5,11 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 January 2025
-! Version: 1.40
+! Version: 1.42
 ! Syntax: Adblock
 ! Number of entries:
 !
-!!!!!!!!! Allowlist: windows update, defender, winget and vscode !!!!!!!!!
+!!!!!!!!! Custom Allow & Blocklist: windows update, defender, security, winget and vscode !!!!!!!!!
 !!! critical url !!!
 !Rule_Not_Applied!@@||v0cdn.net^$important
 !!! windows Update related Urls !!!
@@ -19,9 +19,17 @@
 @@||msftconnecttest.com^$important
 !!! winget, unigetui etc !!!
 @@||cdn.winget.microsoft.com^$important
-||| windows defender |||
+||| windows defender and security |||
+@@||definitionupdates.microsoft.com.edgekey.net^$important
+@@||definitionupdates.microsoft.com^$important
+@@||oneocsp.microsoft.com^$important
+@@||smartscreen.microsoft.com^$important
+@@||update.microsoft.com.akadns.net^$important
 @@||wdcp.microsoft.com^$important
 @@||wdcpalt.microsoft.com^$important
+@@||crl.microsoft.com^^$important
+||data-edge.smartscreen.microsoft.com^$important
+||telem-edge.smartscreen.microsoft.com^$important
 !!! vscode and extensions !!!
 @@||code.visualstudio.com^$important
 @@||download.visualstudio.microsoft.com^$important
@@ -109,10 +117,14 @@
 ||acompli.com^
 ||acompli.net^
 ||activated.win^
+||ad.linkedin.com^
+||ads.linkedin.com^
 ||adtech.de^
 ||advertiseonbing.azurewebsites.net^
+||advertising.linkedin.com^
 ||aka.ms^
 ||akadns.net^
+||analytics.pointdrive.linkedin.com^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appcenter.ms^
 ||applicationinsights.io^
@@ -267,7 +279,6 @@
 ||k-msedge.net^
 ||king.com^
 ||l-msedge.net^
-||linkedin.com^
 ||live.com.akadns.net^
 ||live.com^
 ||live.net^
@@ -284,6 +295,7 @@
 ||loganalytics.io^
 ||lxcvc.com^
 ||lync.cn^
+||marketing.linkedin.com^
 ||mcas-gov.ms^
 ||mcas-gov.us^
 ||mcas.ms^
@@ -614,6 +626,7 @@
 ||places.app^
 ||playfabapi.com^
 ||powerappsportals.com^
+||px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net^
 ||redir1.cloudapp.net^
 ||remotedesktop.com^
 ||rs-mcas.ms^
@@ -645,7 +658,6 @@
 ||skypeecs-prod-usw-0.cloudapp.net^
 ||skypeforbusiness.com^
 ||skyprod.akadns.net^
-||smartscreen.microsoft.com^
 ||spo-msedge.net^
 ||spoppe.com^
 ||spoprod-a.akamaihd.net^

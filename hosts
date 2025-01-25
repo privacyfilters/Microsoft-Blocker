@@ -4,57 +4,74 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 26 January 2025
-# Version: 1.13
+# Version: 1.15
 # Syntax: host
 # Number of entries:
 #
 #
-##### Allowlist #####
-### Critical cnd urls ###
-#0.0.0.0 v0cdn.net
-### Windows Update related Urls
-#0.0.0.0 update.microsoft.com
-#0.0.0.0 delivery.mp.microsoft.com
-#0.0.0.0 windowsupdate.com
-#0.0.0.0 msftconnecttest.com
-### Windows packages, runtimes and developer related urls
-## Winget, unigetui etc
-#0.0.0.0 cdn.winget.microsoft.com
-## Vscode and extensions
-#0.0.0.0 code.visualstudio.com
-#0.0.0.0 download.visualstudio.microsoft.com
-#0.0.0.0 openvsxorg.blob.core.windows.net
-## Runtime
-#0.0.0.0 dotnet.microsoft.com
-## Microsoft Support and resource related Urls
-#0.0.0.0 learn.microsoft.com
-### Oter Urls
-#0.0.0.0 fs.microsoft.com
-#0.0.0.0 go.microsoft.com
-#0.0.0.0 sdx.microsoft.com
-#0.0.0.0 wdcp.microsoft.com # Windows defender
-#0.0.0.0 wdcpalt.microsoft.com # https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-network-connections-windows-defender-antivirus
-#0.0.0.0 definitionupdates.microsoft.com
-#0.0.0.0 definitionupdates.microsoft.com.edgekey.net
-#0.0.0.0 fe2.update.microsoft.com.akadns.net
-#0.0.0.0 www.fe2.update.microsoft.com.akadns.net
-#0.0.0.0 sls.emea.update.microsoft.com.akadns.net
-#0.0.0.0 sls.update.microsoft.com.akadns.net
-#0.0.0.0 sls.update.microsoft.com.nsatc.net
-#0.0.0.0 slscr.update.microsoft.com
-#:: definitionupdates.microsoft.com
-#fe2.update.microsoft.com.akadns.net
-#0.0.0.0 business.linkedin.com # LinkedIn is a Microsoft subsidiary
-#0.0.0.0 king.com
-#0.0.0.0 lan.sdk.linkedin.com # LinkedIn is a Microsoft subsidiary
-#0.0.0.0 modpim.com
-#0.0.0.0 platform.linkedin.com # LinkedIn is a Microsoft subsidiary
-#0.0.0.0 ponf.linkedin.com # LinkedIn is a Microsoft subsidiary
-#0.0.0.0 www.nuget.org
+##### Custom Allow & Blocklist #####
+#0.0.0.0 ars.smartscreen.microsoft.com   # SmartScreen application reputation service
+#0.0.0.0 asia.smartscreen-prod.microsoft.com   # SmartScreen for Asia region
+#0.0.0.0 bf.smartscreen.microsoft.com   # Browser Filter for SmartScreen
+#0.0.0.0 brazil.smartscreen-prod.microsoft.com   # SmartScreen for Brazil region
+#0.0.0.0 business.linkedin.com   # LinkedIn is a Microsoft subsidiary
+#0.0.0.0 cdn.winget.microsoft.com   # Winget package manager CDN
+#0.0.0.0 code.visualstudio.com   # Visual Studio Code website
+#0.0.0.0 crl.microsoft.com   # Certificate Revocation List for security
+#0.0.0.0 definitionupdates.microsoft.com   # Windows Defender definition updates
+#0.0.0.0 definitionupdates.microsoft.com.edgekey.net   # CDN for Windows Defender definitions
+#0.0.0.0 delivery.mp.microsoft.com   # Content delivery for Microsoft products
+#0.0.0.0 dotnet.microsoft.com   # .NET framework and tools
+#0.0.0.0 download.visualstudio.microsoft.com   # Visual Studio downloads
+#0.0.0.0 europe.smartscreen-prod.microsoft.com   # SmartScreen for Europe region
+#0.0.0.0 fe2.update.microsoft.com.akadns.net   # Windows Update server
+#0.0.0.0 fs.microsoft.com   # File system related services
+#0.0.0.0 go.microsoft.com   # Microsoft's redirect service
+#0.0.0.0 king.com   # King Digital Entertainment, a Microsoft subsidiary
+#0.0.0.0 lan.sdk.linkedin.com   # LinkedIn SDK, a Microsoft subsidiary
+#0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
+#0.0.0.0 modpim.com   # Likely related to Microsoft's product information management
+#0.0.0.0 msftconnecttest.com   # Microsoft connectivity test service
+#0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
+#0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen (duplicate)
+#0.0.0.0 nf.smartscreen.microsoft.com   # Network filter for SmartScreen
+#0.0.0.0 oneocsp.microsoft.com   # Online Certificate Status Protocol for certificate validation
+#0.0.0.0 openvsxorg.blob.core.windows.net   # Open VSX registry for VS Code extensions
+#0.0.0.0 platform.linkedin.com   # LinkedIn platform, a Microsoft subsidiary
+#0.0.0.0 ponf.linkedin.com   # LinkedIn platform, a Microsoft subsidiary
+#0.0.0.0 sdx.microsoft.com   # Microsoft Software Developer Experience portal
+#0.0.0.0 sls.emea.update.microsoft.com.akadns.net   # Software Licensing Service for EMEA
+#0.0.0.0 sls.update.microsoft.com.akadns.net   # Software Licensing Service
+#0.0.0.0 sls.update.microsoft.com.nsatc.net   # Software Licensing Service (network specific)
+#0.0.0.0 slscr.update.microsoft.com   # Software Licensing Service check
+#0.0.0.0 smartscreen-prod.microsoft.com   # Production SmartScreen service
+#0.0.0.0 smartscreen.microsoft.com   # SmartScreen service
+#0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com   # SmartScreen for UK region
+#0.0.0.0 unitedstates.smartscreen-prod.microsoft.com   # SmartScreen for US region
+#0.0.0.0 update.microsoft.com   # Windows Update service
+#0.0.0.0 urs.smartscreen.microsoft.com   # URL Reputation Service for SmartScreen
+#0.0.0.0 v0cdn.net   # Microsoft's CDN for various services
+#0.0.0.0 w.apprep.smartscreen.microsoft.com   # Application reputation checks for SmartScreen
+#0.0.0.0 wdcp.microsoft.com   # Windows Defender CDN portal
+#0.0.0.0 wdcpalt.microsoft.com   # Alternate Windows Defender CDN portal
+#0.0.0.0 windowsupdate.com   # Windows Update service
+#0.0.0.0 www.fe2.update.microsoft.com.akadns.net   # Windows Update server (web interface)
+#0.0.0.0 www.nuget.org   # NuGet package manager
+#:: ars.smartscreen.microsoft.com   # SmartScreen application reputation service
+#:: crl.microsoft.com   # Certificate Revocation List for security
+#:: definitionupdates.microsoft.com   # Windows Defender definition updates
+#:: europe.smartscreen-prod.microsoft.com   # SmartScreen for Europe region
+#:: mscrl.microsoft.com   # Microsoft Certificate Revocation List
+#:: nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
+#:: smartscreen-prod.microsoft.com   # Production SmartScreen service
+#:: urs.smartscreen.microsoft.com   # URL Reputation Service for SmartScreen
+#:: w.apprep.smartscreen.microsoft.com   # Application reputation checks for SmartScreen
+#fe2.update.microsoft.com.akadns.net   # Windows Update server
+0.0.0.0 data-edge.smartscreen.microsoft.com   # Edge browser SmartScreen data collection
+0.0.0.0 telem-edge.smartscreen.microsoft.com   # Telemetry for Edge's SmartScreen
 #
 #
-######## Blocklist ########
-
+######## General Blocklist ########
 0.0.0.0 000793a1230c5dd560dd7422229eb7d0.clo.footprintdns.com
 0.0.0.0 001a2b1a8b23efa4e27b1eea164e9b11.azr.footprintdns.com
 0.0.0.0 0025c88a4001282b0cb47ed806de765c.clo.footprintdns.com
@@ -491,7 +508,6 @@
 0.0.0.0 apimgmttmr17ij3jt5dneg64srod9jevcuajxaoube4brtu9cq.trafficmanager.net
 0.0.0.0 apis.live.net
 0.0.0.0 app-bingstats-frontend-eus.azurewebsites.net
-0.0.0.0 app.clipchamp.com
 0.0.0.0 app.clipchamp.com # Clipchamp is a Microsoft subsidiary since its acquisition in 2021
 0.0.0.0 app.vssps.visualstudio.com
 0.0.0.0 app.whiteboard.microsoft.com
@@ -600,11 +616,9 @@
 0.0.0.0 array812.prod.do.dsp.mp.microsoft.com
 0.0.0.0 array813.prod.do.dsp.mp.microsoft.com
 0.0.0.0 array815.prod.do.dsp.mp.microsoft.com
-0.0.0.0 ars.smartscreen.microsoft.com
 0.0.0.0 asf-ris-prod-eus2-azsc.eastus2.cloudapp.azure.com
 0.0.0.0 asf-ris-prod-scus-azsc.southcentralus.cloudapp.azure.com
 0.0.0.0 asia.microsoft.com
-0.0.0.0 asia.smartscreen-prod.microsoft.com
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 asimov.settings.data.microsoft.com.akadns.net
 0.0.0.0 asimov.vortex.data.trafficmanager.net
@@ -707,7 +721,6 @@
 0.0.0.0 beta.gateway.messenger.live.com
 0.0.0.0 beta.microsoft.com
 0.0.0.0 betaoneservices.com
-0.0.0.0 bf.smartscreen.microsoft.com
 0.0.0.0 bg.v4.a.dl.ws.microsoft.com
 0.0.0.0 bg.v4.emdl.ws.microsoft.com
 0.0.0.0 bg1.v4.a.dl.ws.microsoft.com
@@ -853,12 +866,10 @@
 0.0.0.0 boost.microsoft.com
 0.0.0.0 bot-framework.azureedge.net
 0.0.0.0 bqoalplst.mshome.net
-0.0.0.0 brazil.smartscreen-prod.microsoft.com
 0.0.0.0 brazilsouth.api.cognitive.microsoft.com
 0.0.0.0 brc-visio-telemetry.officeapps.live.com
 0.0.0.0 brnqjniwe.mshome.net
 0.0.0.0 broadcast.skype.com
-0.0.0.0 browser.events.data.m # Partial URL, likely related to browser.events.data.microsoft.com
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 browser.events.data.msn.com
 0.0.0.0 browser.events.data.trafficmanager.net
@@ -1113,7 +1124,7 @@
 0.0.0.0 cp701-prod.do.dsp.mp.microsoft.com.edgekey.net
 0.0.0.0 cp801.prod.do.dsp.mp.microsoft.com
 0.0.0.0 cqusecpfzduxe.mshome.net
-0.0.0.0 crl.microsoft.com
+
 0.0.0.0 crl.uzto.netdna-cdn.com
 0.0.0.0 cs-geo-dds.trafficmanager.net
 0.0.0.0 cs.dds.microsoft.com
@@ -1150,7 +1161,6 @@
 0.0.0.0 d.config.skype.com
 0.0.0.0 d.docs.live.net
 0.0.0.0 da.xboxservices.com
-0.0.0.0 data-edge.smartscreen.microsoft.com
 0.0.0.0 data.microsoft.com
 0.0.0.0 data.microsoft.com.akadns.net
 0.0.0.0 data.msn.com
@@ -1684,7 +1694,6 @@
 0.0.0.0 eurffc-word-telemetry.officeapps.live.com
 0.0.0.0 europe.cp.wd.microsoft.com
 0.0.0.0 europe.ocws1.live.com.akadns.net
-0.0.0.0 europe.smartscreen-prod.microsoft.com
 0.0.0.0 eurppc-excel-telemetry.officeapps.live.com
 0.0.0.0 eus-www.sway-cdn.com
 0.0.0.0 eus-www.sway-extensions.com
@@ -2472,7 +2481,6 @@
 0.0.0.0 msantispy.com
 0.0.0.0 msappproxy.net
 0.0.0.0 msauth.net
-0.0.0.0 mscrl.microsoft.com
 0.0.0.0 msdl.microsoft.com
 0.0.0.0 msdn-social.microsoft.com
 0.0.0.0 msdn.com
@@ -2551,8 +2559,6 @@
 0.0.0.0 mywindowsmobile.de
 0.0.0.0 n.config.skype.com
 0.0.0.0 nam.loki.delve.office.com
-0.0.0.0 nav.smartscreen.microsoft.com
-0.0.0.0 nav.smartscreen.microsoft.com # /windows/browser/edge/telemetry
 0.0.0.0 nbiaydhnfcxkbh.mshome.net
 0.0.0.0 ne-we.cp.wd.microsoft.com
 0.0.0.0 ne.cp.wd.microsoft.com
@@ -2575,7 +2581,6 @@
 0.0.0.0 nexusrules.live.com
 0.0.0.0 nexusrules.live.com.akadns.net
 0.0.0.0 nexusrules.officeapps.live.com
-0.0.0.0 nf.smartscreen.microsoft.com # /network/filter/telemetry
 0.0.0.0 nhkpwuiyvnkq.mshome.net
 0.0.0.0 nhuquckrshp.mshome.net
 0.0.0.0 nldinhvzk.mshome.net
@@ -2850,7 +2855,6 @@
 0.0.0.0 onenote.com
 0.0.0.0 onenote.net
 0.0.0.0 onenote.officeapps.live.com
-0.0.0.0 oneocsp.microsoft.com
 0.0.0.0 onerm.olsvc.com
 0.0.0.0 onesettings-bn2.metron.live.com.nsatc.net
 0.0.0.0 onesettings-cy2.metron.live.com.nsatc.net
@@ -3226,8 +3230,6 @@
 0.0.0.0 skypeecs-prod-usw-0.cloudapp.net
 0.0.0.0 skyprod.akadns.net
 0.0.0.0 slecjadpqhxfhk.mshome.net
-0.0.0.0 smartscreen-prod.microsoft.com
-0.0.0.0 smartscreen.microsoft.com
 0.0.0.0 sn3301-c.1drv.com
 0.0.0.0 sn3301-e.1drv.com
 0.0.0.0 sn3301-g.1drv.com
@@ -3357,8 +3359,6 @@
 0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
 0.0.0.0 telecommandstorageprod.blob.core.windows.net
 0.0.0.0 telecommandsvc.microsoft.com
-0.0.0.0 telem-edge.smartscreen.microsoft.com
-0.0.0.0 telem-edge.smartscreen.microsoft.com # /windows/shell/telemetry
 0.0.0.0 telemetry.appex.bing.net
 0.0.0.0 telemetry.appex.search.prod.ms.akadns.net
 0.0.0.0 telemetry.microsoft.com
@@ -3418,7 +3418,6 @@
 0.0.0.0 udc.msn.com
 0.0.0.0 ugcorigin.s-microsoft.com
 0.0.0.0 ugzxfjbri.mshome.net
-0.0.0.0 uhf.microsoft.com
 0.0.0.0 uhf.microsoft.com # Logs
 0.0.0.0 ui.skype.akadns.net
 0.0.0.0 ui.skype.com
@@ -3433,14 +3432,11 @@
 0.0.0.0 umwatson.trafficmanager.net
 0.0.0.0 umwatsonc.events.data.microsoft.com
 0.0.0.0 umwatsonc.telemetry.microsoft.us
-0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com
-0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
 0.0.0.0 universalstore.streaming.mediaservices.windows.net
 0.0.0.0 upbezxcnmyllvh.mshome.net
 0.0.0.0 updatepc.xboxlive.com
 0.0.0.0 urlappmapping.sfp.microsoft.com
 0.0.0.0 urs.microsoft.com
-0.0.0.0 urs.smartscreen.microsoft.com
 0.0.0.0 us-api.asm.skype.com
 0.0.0.0 us-mobile.events.data.microsoft.com#
 0.0.0.0 us-v10.events.data.microsoft.com
@@ -3505,7 +3501,6 @@
 0.0.0.0 vscxumwmwk.mshome.net
 0.0.0.0 vsgallery.com
 0.0.0.0 vswzbthapt.mshome.net
-0.0.0.0 w.apprep.smartscreen.microsoft.com
 0.0.0.0 wa104381125.resources.office.net
 0.0.0.0 waconatm.officeapps.live.com
 0.0.0.0 wallet.microsoft.com
@@ -3822,7 +3817,7 @@
 :: array811.prod.do.dsp.mp.microsoft.com
 :: array813.prod.do.dsp.mp.microsoft.com
 :: array815.prod.do.dsp.mp.microsoft.com
-:: ars.smartscreen.microsoft.com
+
 :: assets.msn.com
 :: assuritystorage.blob.core.windows.net
 :: auth.gfx.ms
@@ -3892,7 +3887,6 @@
 :: config.edge.skype.com
 :: config.teams.microsoft.com
 :: continuum.dds.microsoft.com
-:: crl.microsoft.com
 :: cs.dds.microsoft.com
 :: cy2.settings.data.microsoft.com.akadns.net
 :: da.xboxservices.com
@@ -3925,7 +3919,6 @@
 :: eu.vortex-win.data.microsoft.com
 :: eu.vortex.data.microsoft.com
 :: europe.cp.wd.microsoft.com
-:: europe.smartscreen-prod.microsoft.com
 :: events.data.microsoft.com
 :: evoke-windowsservices-tas.msedge.net
 :: exo.nel.measure.office.net
@@ -3978,13 +3971,11 @@
 :: mobile.events.data.microsoft.com
 :: mrodevicemgr.officeapps.live.com
 :: msagfx.live.com
-:: mscrl.microsoft.com
 :: msedge.api.cdp.microsoft.com
 :: msftncsi.com
 :: msgapi.teams.live.com
 :: msportal.blob.core.windows.net
 :: mucp.api.account.microsoft.com
-:: nav.smartscreen.microsoft.com
 :: ne-we.cp.wd.microsoft.com
 :: ne.cp.wd.microsoft.com
 :: neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
@@ -4044,7 +4035,6 @@
 :: skyapi.live.net
 :: skydrive.wns.windows.com
 :: skydrivesync.policies.live.net
-:: smartscreen-prod.microsoft.com
 :: sn3301-c.1drv.com # and all similar sn entries
 :: spo-ring.msedge.net
 :: staging.to-do.microsoft.com
@@ -4082,7 +4072,6 @@
 :: uhf.microsoft.com
 :: ui.skype.com
 :: urs.microsoft.com
-:: urs.smartscreen.microsoft.com
 :: us-v10.events.data.microsoft.com
 :: us-v20.events.data.microsoft.com
 :: us.vortex-win.data.microsoft.com
@@ -4094,7 +4083,6 @@
 :: videomd.blob.core.windows.net
 :: vortex-win-sandbox.data.microsoft.com
 :: vortex-win.data.microsoft.com
-:: w.apprep.smartscreen.microsoft.com
 :: wallet.microsoft.com
 :: wdcp.microsoft.com
 :: wdcpalt.microsoft.com
