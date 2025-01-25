@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 25 January 2025
-! Version: 1.39
+! Last modified: 26 January 2025
+! Version: 1.40
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -153,6 +153,7 @@
 ||cortana.ai^
 ||cus-prod-msgsearch.cloudapp.net^
 ||customsearch.ai^
+||data.microsoft.com^
 ||dbankedge.cn^
 ||dc-msedge.net^
 ||dgps-eus2.cloudapp.net^
@@ -560,7 +561,9 @@
 ||office365.com^
 ||office365.us^
 ||officeaka.cloudapp.net^
+||officeapps.live.com^
 ||officeci.azurewebsites.net^
+||officeint.microsoft.com^
 ||officeplus.cn^
 ||officeppe.com^
 ||officewebapps.cn^

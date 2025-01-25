@@ -3,8 +3,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 25 January 2025
-# Version: 1.12
+# Last modified: 26 January 2025
+# Version: 1.13
 # Syntax: host
 # Number of entries:
 #
@@ -54,6 +54,7 @@
 #
 #
 ######## Blocklist ########
+
 0.0.0.0 000793a1230c5dd560dd7422229eb7d0.clo.footprintdns.com
 0.0.0.0 001a2b1a8b23efa4e27b1eea164e9b11.azr.footprintdns.com
 0.0.0.0 0025c88a4001282b0cb47ed806de765c.clo.footprintdns.com
@@ -1756,6 +1757,8 @@
 0.0.0.0 feedbackstorage.blob.core.chinacloudapi.cn
 0.0.0.0 feeds.microsoft.com
 0.0.0.0 fevoke-windowsservices-tas.msedge.net
+0.0.0.0 ffc-excel-telemetry.officeapps.live.com
+0.0.0.0 ffc-word-telemetry.officeapps.live.com
 0.0.0.0 fffwkmouvup.mshome.net
 0.0.0.0 fflgcjvguwa.mshome.net
 0.0.0.0 filestore.community.answers.ms.akadns.net
@@ -1788,6 +1791,7 @@
 0.0.0.0 fr-fr.appex-rf.msn.com
 0.0.0.0 francecentral.api.cognitive.microsoft.com
 0.0.0.0 frc-excel.officeapps.live.com
+0.0.0.0 frc-visio-telemetry.officeapps.live.com
 0.0.0.0 freepowerpoint.com
 0.0.0.0 fs-wildcard.microsoft.com.edgekey.net
 0.0.0.0 fs-wildcard.microsoft.com.edgekey.net.globalredir.akadns.net
@@ -2017,6 +2021,7 @@
 0.0.0.0 in-prod-pme-eastus2-ingestion-66ddb56a.trafficmanager.net
 0.0.0.0 in.appcenter.ms
 0.0.0.0 in1-gw2-02-3d6c3051.eastus2.cloudapp.azure.com
+0.0.0.0 inc-visio-telemetry.officeapps.live.com
 0.0.0.0 incidents.diagnostics.office.com
 0.0.0.0 inference-location-livenet.trafficmanager.net
 0.0.0.0 inference.location.live.net
@@ -2577,6 +2582,7 @@
 0.0.0.0 nleditor.osi.office.net
 0.0.0.0 nltbksrgm.mshome.net
 0.0.0.0 noam.cc.skype.com
+0.0.0.0 noc-visio-telemetry.officeapps.live.com
 0.0.0.0 nontlu.graystore.au-msedge.net
 0.0.0.0 northcentralus.api.cognitive.microsoft.com
 0.0.0.0 northeurope.api.cognitive.microsoft.com
@@ -2932,7 +2938,13 @@
 0.0.0.0 pf2am3.activity.windows.com.akadns.net
 0.0.0.0 pggdqwsmekbvxl.mshome.net
 0.0.0.0 pgskdksrqvznxoc.mshome.net
+0.0.0.0 pgtus2-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus2-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus2-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus4-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus4-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus4-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus5-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus5-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus5-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus6-excel-telemetry-vip.officeapps.live.com
@@ -3367,6 +3379,7 @@
 0.0.0.0 thor.aesir.office.com
 0.0.0.0 tile-service.weather.microsoft.com
 0.0.0.0 tile.appex.bing.com
+0.0.0.0 time.microsoft.com
 0.0.0.0 time.windows.com
 0.0.0.0 title.auth.xboxlive.com
 0.0.0.0 title.mgt.xboxlive.com
