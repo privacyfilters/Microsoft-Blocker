@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 January 2025
-! Version: 1.42
+! Version: 1.43
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -13,21 +13,21 @@
 !!! critical url !!!
 !Rule_Not_Applied!@@||v0cdn.net^$important
 !!! windows Update related Urls !!!
-@@||update.microsoft.com^$important
-@@||delivery.mp.microsoft.com^$important
-@@||windowsupdate.com^$important
-@@||msftconnecttest.com^$important
+@@||update.microsoft.com^ 
+@@||delivery.mp.microsoft.com^
+@@||windowsupdate.com^
+@@||msftconnecttest.com^ 
 !!! winget, unigetui etc !!!
-@@||cdn.winget.microsoft.com^$important
+@@||cdn.winget.microsoft.com^
 ||| windows defender and security |||
-@@||definitionupdates.microsoft.com.edgekey.net^$important
-@@||definitionupdates.microsoft.com^$important
-@@||oneocsp.microsoft.com^$important
-@@||smartscreen.microsoft.com^$important
-@@||update.microsoft.com.akadns.net^$important
-@@||wdcp.microsoft.com^$important
-@@||wdcpalt.microsoft.com^$important
-@@||crl.microsoft.com^^$important
+@@||definitionupdates.microsoft.com.edgekey.net^
+@@||definitionupdates.microsoft.com^
+@@||oneocsp.microsoft.com^
+@@||smartscreen.microsoft.com^
+@@||update.microsoft.com.akadns.net^
+@@||wdcp.microsoft.com^
+@@||wdcpalt.microsoft.com^
+@@||crl.microsoft.com^
 ||data-edge.smartscreen.microsoft.com^$important
 ||telem-edge.smartscreen.microsoft.com^$important
 !!! vscode and extensions !!!
@@ -69,6 +69,12 @@
 ||candycrushsoda.king.com^
 ! Professional networking site
 !Not-Blocked!||linkedin.com^
+||ad.linkedin.com^
+||ads.linkedin.com^
+||advertising.linkedin.com^
+||analytics.pointdrive.linkedin.com^
+||marketing.linkedin.com^
+||px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net^
 ! AMP Project related domains
 ||amp.dev^
 ||amp-test.com^
@@ -117,14 +123,10 @@
 ||acompli.com^
 ||acompli.net^
 ||activated.win^
-||ad.linkedin.com^
-||ads.linkedin.com^
 ||adtech.de^
 ||advertiseonbing.azurewebsites.net^
-||advertising.linkedin.com^
 ||aka.ms^
 ||akadns.net^
-||analytics.pointdrive.linkedin.com^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appcenter.ms^
 ||applicationinsights.io^
@@ -295,7 +297,6 @@
 ||loganalytics.io^
 ||lxcvc.com^
 ||lync.cn^
-||marketing.linkedin.com^
 ||mcas-gov.ms^
 ||mcas-gov.us^
 ||mcas.ms^
@@ -519,7 +520,6 @@
 ||microsoftvirtualacademy.com^
 ||microsoftvolumelicensing.com^
 ||microsoftwildcat.com^
-||microsoftwindowsupdate.net^
 ||microsoftword.com.br^
 ||micrososft.com^
 ||micrsoftsmartcar.co.uk^
@@ -626,7 +626,6 @@
 ||places.app^
 ||playfabapi.com^
 ||powerappsportals.com^
-||px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net^
 ||redir1.cloudapp.net^
 ||remotedesktop.com^
 ||rs-mcas.ms^
@@ -696,7 +695,6 @@
 ||windowsphone.com^
 ||windowsphone.net^
 ||windowssearch.com^
-||windowsupdate.com^
 ||woodgrovebank.com^
 ||wpc.v0cdn.net^
 ||wus-streaming-video-rt-microsoft-com.akamaized.net^
