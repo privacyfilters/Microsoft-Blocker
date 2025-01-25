@@ -1841,8 +1841,6 @@
 0.0.0.0 global.asimov.events.data.trafficmanager.net
 0.0.0.0 global.sam.msn.com
 0.0.0.0 go.microsoft.akadns.net
-0.0.0.0 go.microsoft.com
-0.0.0.0 go.microsoft.com.edgekey.net
 0.0.0.0 go2.microsoft.com
 0.0.0.0 graph.microsoft.com
 0.0.0.0 graph.print.microsoft.com
@@ -3255,6 +3253,8 @@
 0.0.0.0 srqanayq.mshome.net
 0.0.0.0 srtb.msn.com
 0.0.0.0 srubwrfbfjad.mshome.net
+0.0.0.0 ssl.ak.dynamic.tiles.virtualearth.net
+0.0.0.0 ssl.ak.tiles.virtualearth.net
 0.0.0.0 ssl.bing.com
 0.0.0.0 ssl.bingadsedgeextension-prod.azurewebsites.net
 0.0.0.0 ssl.casualgameswebproduswest.azurewebsites.net
