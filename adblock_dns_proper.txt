@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 January 2025
-! Version: 1.44
+! Version: 1.45
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -32,17 +32,17 @@
 ||data-edge.smartscreen.microsoft.com^$important
 ||telem-edge.smartscreen.microsoft.com^$important
 !!! vscode and extensions !!!
-@@||code.visualstudio.com^$important
-@@||download.visualstudio.microsoft.com^$important
-@@||openvsxorg.blob.core.windows.net^$important
+@@||code.visualstudio.com^
+@@||download.visualstudio.microsoft.com^
+@@||openvsxorg.blob.core.windows.net^
 !!! windows Runtime !!!
-@@||dotnet.microsoft.com^$important
+@@||dotnet.microsoft.com^
 !!! Microsoft Support and information !!!
-@@||learn.microsoft.com^$important
+@@||learn.microsoft.com^
 !!! Oter Urls !!!
-@@||fs.microsoft.com^$important
-@@||go.microsoft.com^$important
-@@||sdx.microsoft.com^$important
+@@||fs.microsoft.com^
+@@||go.microsoft.com^
+@@||sdx.microsoft.com^
 !
 !
 !!!!!!!!! Blocklist !!!!!!!!!
