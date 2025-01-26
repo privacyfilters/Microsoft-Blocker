@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 26 January 2025
-# Version: 1.16
+# Version: 1.17
 # Syntax: host
 # Number of entries:
 #
@@ -35,6 +35,7 @@
 #0.0.0.0 king.com   # King Digital Entertainment, a Microsoft subsidiary
 #0.0.0.0 lan.sdk.linkedin.com   # LinkedIn SDK, a Microsoft subsidiary
 #0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
+#0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
 #0.0.0.0 modpim.com   # Likely related to Microsoft's product information management
 #0.0.0.0 msecnd.net   # Microsoft's CDN operated by Akamai
 #0.0.0.0 msftconnecttest.com   # Microsoft connectivity test service
@@ -69,6 +70,7 @@
 #:: crl.microsoft.com   # Certificate Revocation List for security
 #:: definitionupdates.microsoft.com   # Windows Defender definition updates
 #:: europe.smartscreen-prod.microsoft.com   # SmartScreen for Europe region
+#:: login.microsoftonline.com   # Microsoft's online login service
 #:: mscrl.microsoft.com   # Microsoft Certificate Revocation List
 #:: nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
 #:: smartscreen-prod.microsoft.com   # Production SmartScreen service
@@ -2213,7 +2215,6 @@
 0.0.0.0 login.live.com.nsatc.net
 0.0.0.0 login.microsoft.com
 0.0.0.0 login.microsoftonline-p.com
-0.0.0.0 login.microsoftonline.com
 0.0.0.0 login.microsoftonline.us
 0.0.0.0 login.msa.akadns6.net
 0.0.0.0 login.msa.msidentity.com
@@ -4016,7 +4017,6 @@
 :: licensingphone.md.mp.microsoft.com
 :: location-inference-westus.cloudapp.net
 :: login.live.com
-:: login.microsoftonline.com
 :: login.msa.akadns6.net
 :: login.msa.msidentity.com
 :: login.windows.net

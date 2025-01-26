@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 January 2025
-! Version: 1.45
+! Version: 1.46
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -43,6 +43,8 @@
 @@||fs.microsoft.com^
 @@||go.microsoft.com^
 @@||sdx.microsoft.com^
+@@||graph.microsoft.com^
+@@||login.microsoftonline.com^
 !
 !
 !!!!!!!!! Blocklist !!!!!!!!!
