@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 26 January 2025
-# Version: 1.17
+# Version: 1.18
 # Syntax: host
 # Number of entries:
 #
@@ -29,18 +29,13 @@
 #0.0.0.0 fs.microsoft.com   # File system related services
 #0.0.0.0 globalcdn.nuget.org   # NuGet package manager
 #0.0.0.0 go.microsoft.com   # Microsoft's redirect service
-#0.0.0.0 graph.microsoft.com   # Microsoft Graph API
-#0.0.0.0 graph.print.microsoft.com   # Microsoft Graph API for print management
-#0.0.0.0 graph.windows.net            # Azure AD Graph API
 #0.0.0.0 king.com   # King Digital Entertainment, a Microsoft subsidiary
 #0.0.0.0 lan.sdk.linkedin.com   # LinkedIn SDK, a Microsoft subsidiary
 #0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
-#0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
 #0.0.0.0 modpim.com   # Likely related to Microsoft's product information management
 #0.0.0.0 msecnd.net   # Microsoft's CDN operated by Akamai
 #0.0.0.0 msftconnecttest.com   # Microsoft connectivity test service
 #0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
-#0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen (duplicate)
 #0.0.0.0 nf.smartscreen.microsoft.com   # Network filter for SmartScreen
 #0.0.0.0 nuget.rog   # NuGet package manager
 #0.0.0.0 oneocsp.microsoft.com   # Online Certificate Status Protocol for certificate validation
@@ -70,7 +65,6 @@
 #:: crl.microsoft.com   # Certificate Revocation List for security
 #:: definitionupdates.microsoft.com   # Windows Defender definition updates
 #:: europe.smartscreen-prod.microsoft.com   # SmartScreen for Europe region
-#:: login.microsoftonline.com   # Microsoft's online login service
 #:: mscrl.microsoft.com   # Microsoft Certificate Revocation List
 #:: nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
 #:: smartscreen-prod.microsoft.com   # Production SmartScreen service
@@ -78,7 +72,12 @@
 #:: w.apprep.smartscreen.microsoft.com   # Application reputation checks for SmartScreen
 #fe2.update.microsoft.com.akadns.net   # Windows Update server
 0.0.0.0 data-edge.smartscreen.microsoft.com   # Edge browser SmartScreen data collection
+0.0.0.0 graph.microsoft.com   # Microsoft Graph API
+0.0.0.0 graph.print.microsoft.com   # Microsoft Graph API for print management
+0.0.0.0 graph.windows.net            # Azure AD Graph API
+0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
 0.0.0.0 telem-edge.smartscreen.microsoft.com   # Telemetry for Edge's SmartScreen
+:: login.microsoftonline.com   # Microsoft's online login service
 #
 #
 ######## General Blocklist ########

@@ -5,14 +5,14 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 January 2025
-! Version: 1.46
+! Version: 1.47
 ! Syntax: Adblock
 ! Number of entries:
 !
 !!!!!!!!! Custom Allow & Blocklist: windows update, defender, security, winget and vscode !!!!!!!!!
 !!! critical url !!!
 !Rule_Not_Applied!@@||v0cdn.net^
-!Not_Applied!@@||msecnd.net^
+!Rule_Not_Applied!@@||msecnd.net^
 !!! windows Update related Urls !!!
 @@||update.microsoft.com^ 
 @@||delivery.mp.microsoft.com^
@@ -43,8 +43,8 @@
 @@||fs.microsoft.com^
 @@||go.microsoft.com^
 @@||sdx.microsoft.com^
-@@||graph.microsoft.com^
-@@||login.microsoftonline.com^
+||graph.microsoft.com^
+||login.microsoftonline.com^
 !
 !
 !!!!!!!!! Blocklist !!!!!!!!!
