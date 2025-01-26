@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 27 January 2025
-# Version: 1.20
+# Version: 1.21
 # Syntax: host
 # Number of entries:
 #
@@ -38,6 +38,9 @@
 #0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
 #0.0.0.0 nf.smartscreen.microsoft.com   # Network filter for SmartScreen
 #0.0.0.0 nuget.rog   # NuGet package manager
+#0.0.0.0 ocs.microsoft.com   # Microsoft's Online Certificate Status Protocol server
+#0.0.0.0 ocsp.digicert.com   # DigiCert's OCSP server for certificate revocation status
+#0.0.0.0 ocsp.microsoft.com  # Microsoft's OCSP server for certificate status checks
 #0.0.0.0 oneocsp.microsoft.com   # Online Certificate Status Protocol for certificate validation
 #0.0.0.0 openvsxorg.blob.core.windows.net   # Open VSX registry for VS Code extensions
 #0.0.0.0 packages.nuget.org   # NuGet package manager
@@ -2839,9 +2842,6 @@
 0.0.0.0 oca.telemetry.microsoft.us
 0.0.0.0 ockngtnpjrukz.mshome.net
 0.0.0.0 ocos-office365-s2s.msedge.net
-0.0.0.0 ocs.microsoft.com
-0.0.0.0 ocsp.digicert.com
-0.0.0.0 ocsp.microsoft.com
 0.0.0.0 ocws.officeapps.live.com
 0.0.0.0 odc-common-us-meta.onedrive.akadns.net
 0.0.0.0 odc-web-brs.onedrive.akadns.net

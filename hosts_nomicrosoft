@@ -5,14 +5,15 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 27 January 2025
-# Version: 1.18
+# Version: 1.19
 # Syntax: host
 # Number of entries:
 #
 #
 ##### Allowlist: Allow critical urls #####
+#0.0.0.0 ocsp.digicert.com   # DigiCert's OCSP server for certificate revocation status
+#0.0.0.0 msecnd.net   # Microsoft's CDN operated by Akamai
 #0.0.0.0 v0cdn.net   # Microsoft's CDN for various services
-##0.0.0.0 msecnd.net   # Microsoft's CDN operated by Akamai
 #
 #
 ##### Strict Blocklist #####
@@ -3022,7 +3023,6 @@
 0.0.0.0 ockngtnpjrukz.mshome.net
 0.0.0.0 ocos-office365-s2s.msedge.net
 0.0.0.0 ocs.microsoft.com
-0.0.0.0 ocsp.digicert.com
 0.0.0.0 ocsp.microsoft.com
 0.0.0.0 ocws.officeapps.live.com
 0.0.0.0 odc-common-us-meta.onedrive.akadns.net
