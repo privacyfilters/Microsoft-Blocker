@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 January 2025
-! Version: 1.47
+! Version: 1.48
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -114,6 +114,10 @@
 ||tagdelivery.com^
 ! Digital advertising and media distribution
 ||tribalfusion.com^
+! Adnxs - Advertising network
+||adnxs.com^
+! Flashtalking - Ad serving platform
+||flashtalking.com^
 ! Other
 !
 !!!!!!!!! General Blocklist !!!!!!!!!

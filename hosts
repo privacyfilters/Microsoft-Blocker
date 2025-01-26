@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 26 January 2025
-# Version: 1.18
+# Version: 1.19
 # Syntax: host
 # Number of entries:
 #
@@ -81,7 +81,6 @@
 #
 #
 ######## General Blocklist ########
-
 0.0.0.0 000793a1230c5dd560dd7422229eb7d0.clo.footprintdns.com
 0.0.0.0 001a2b1a8b23efa4e27b1eea164e9b11.azr.footprintdns.com
 0.0.0.0 0025c88a4001282b0cb47ed806de765c.clo.footprintdns.com
@@ -407,6 +406,8 @@
 0.0.0.0 admin.onedrive.com
 0.0.0.0 adminwebservice.microsoftonline.com
 0.0.0.0 adminwebservice.mso.msidentity.com
+0.0.0.0 adnexus.net
+0.0.0.0 adnxs.com
 0.0.0.0 ads.arcct.msn.com
 0.0.0.0 ads.bing.com
 0.0.0.0 ads.eu.msn.com
@@ -442,6 +443,7 @@
 0.0.0.0 agent.microsoft.com
 0.0.0.0 agfstorage.blob.core.windows.net
 0.0.0.0 ags.privatelink.msidentity.com
+0.0.0.0 aidps.atdmt.com
 0.0.0.0 aigs1.aisvc.visualstudio.com
 0.0.0.0 aijscdn2.afd.azureedge.net
 0.0.0.0 aijscdn2.azureedge.net
@@ -727,6 +729,7 @@
 0.0.0.0 b-msedge.net
 0.0.0.0 b-ring.b-9999.b-msedge.net
 0.0.0.0 b-ring.msedge.net
+0.0.0.0 b.ads1.msn.com
 0.0.0.0 b.ads2.msads.net
 0.0.0.0 b.c2r.ts.cdn.office.net
 0.0.0.0 b.config.skype.com
@@ -901,6 +904,7 @@
 0.0.0.0 browser.events.data.trafficmanager.net
 0.0.0.0 browser.pipe.aria.microsoft.com
 0.0.0.0 browserdefaults.microsoft.com
+0.0.0.0 bs.serving-sys.com
 0.0.0.0 btpdjqwivqhtbgy.mshome.net
 0.0.0.0 build.microsoft.com
 0.0.0.0 business-bing-com.b-0005.b-msedge.net
@@ -948,6 +952,7 @@
 0.0.0.0 c-s.cms.ms.akadns.net
 0.0.0.0 c.ar.msn.com
 0.0.0.0 c.at.msn.com
+0.0.0.0 c.atdmt.com
 0.0.0.0 c.be.msn.com
 0.0.0.0 c.bing.com
 0.0.0.0 c.bing.net
@@ -998,6 +1003,7 @@
 0.0.0.0 cdf-anon.xboxlive.com
 0.0.0.0 cdf-anon.xboxlive.com.edgekey.net
 0.0.0.0 cdn-dynmedia-1.microsoft.com
+0.0.0.0 cdn.atdmt.com
 0.0.0.0 cdn.content.prod.cms.msn.com
 0.0.0.0 cdn.edgeoffer.microsoft.com
 0.0.0.0 cdn.fluidpreview.office.net
@@ -1009,22 +1015,107 @@
 0.0.0.0 cdn.techcommunity.microsoft.com
 0.0.0.0 cdn.uci.officeapps.live.com
 0.0.0.0 cdnprod.myanalytics.microsoft.com
+0.0.0.0 cds1.stn.llnw.net
+0.0.0.0 cds10.stn.llnw.net
+0.0.0.0 cds1203.lon.llnw.net
 0.0.0.0 cds1204.lon.llnw.net
+0.0.0.0 cds1209.lon.llnw.net
+0.0.0.0 cds1219.lon.llnw.net
+0.0.0.0 cds1228.lon.llnw.net
+0.0.0.0 cds1244.lon.llnw.net
+0.0.0.0 cds1257.lon.llnw.net
+0.0.0.0 cds1265.lon.llnw.net
+0.0.0.0 cds1269.lon.llnw.net
+0.0.0.0 cds1273.lon.llnw.net
+0.0.0.0 cds1285.lon.llnw.net
+0.0.0.0 cds1287.lon.llnw.net
 0.0.0.0 cds1289.lon.llnw.net
 0.0.0.0 cds1293.lon.llnw.net
+0.0.0.0 cds1307.lon.llnw.net
+0.0.0.0 cds1310.lon.llnw.net
+0.0.0.0 cds1325.lon.llnw.net
 0.0.0.0 cds1327.lon.llnw.net
+0.0.0.0 cds177.dus.llnw.net
+0.0.0.0 cds20005.stn.llnw.net
+0.0.0.0 cds20404.lcy.llnw.net
+0.0.0.0 cds20411.lcy.llnw.net
+0.0.0.0 cds20415.lcy.llnw.net
+0.0.0.0 cds20416.lcy.llnw.net
 0.0.0.0 cds20417.lcy.llnw.net
+0.0.0.0 cds20424.lcy.llnw.net
+0.0.0.0 cds20425.lcy.llnw.net
 0.0.0.0 cds20431.lcy.llnw.net
+0.0.0.0 cds20435.lcy.llnw.net
+0.0.0.0 cds20440.lcy.llnw.net
+0.0.0.0 cds20443.lcy.llnw.net
+0.0.0.0 cds20445.lcy.llnw.net
 0.0.0.0 cds20450.lcy.llnw.net
+0.0.0.0 cds20452.lcy.llnw.net
 0.0.0.0 cds20457.lcy.llnw.net
+0.0.0.0 cds20461.lcy.llnw.net
+0.0.0.0 cds20469.lcy.llnw.net
 0.0.0.0 cds20475.lcy.llnw.net
+0.0.0.0 cds20482.lcy.llnw.net
+0.0.0.0 cds20485.lcy.llnw.net
+0.0.0.0 cds20495.lcy.llnw.net
+0.0.0.0 cds21205.lon.llnw.net
+0.0.0.0 cds21207.lon.llnw.net
+0.0.0.0 cds21225.lon.llnw.net
+0.0.0.0 cds21229.lon.llnw.net
+0.0.0.0 cds21233.lon.llnw.net
+0.0.0.0 cds21238.lon.llnw.net
 0.0.0.0 cds21244.lon.llnw.net
+0.0.0.0 cds21249.lon.llnw.net
+0.0.0.0 cds21256.lon.llnw.net
+0.0.0.0 cds21257.lon.llnw.net
+0.0.0.0 cds21258.lon.llnw.net
+0.0.0.0 cds21261.lon.llnw.net
+0.0.0.0 cds21267.lon.llnw.net
+0.0.0.0 cds21278.lon.llnw.net
+0.0.0.0 cds21281.lon.llnw.net
+0.0.0.0 cds21293.lon.llnw.net
+0.0.0.0 cds21309.lon.llnw.net
+0.0.0.0 cds21313.lon.llnw.net
+0.0.0.0 cds21321.lon.llnw.net
 0.0.0.0 cds26.ams9.msecn.net
+0.0.0.0 cds27.ory.llnw.net
 0.0.0.0 cds299.lcy.llnw.net
+0.0.0.0 cds30027.stn.llnw.net
+0.0.0.0 cds308.lcy.llnw.net
+0.0.0.0 cds310.lcy.llnw.net
+0.0.0.0 cds38.ory.llnw.net
 0.0.0.0 cds405.lcy.llnw.net
+0.0.0.0 cds406.lcy.llnw.net
+0.0.0.0 cds407.fra.llnw.net
+0.0.0.0 cds416.lcy.llnw.net
+0.0.0.0 cds421.lcy.llnw.net
+0.0.0.0 cds422.lcy.llnw.net
 0.0.0.0 cds425.lcy.llnw.net
+0.0.0.0 cds426.lcy.llnw.net
+0.0.0.0 cds447.lcy.llnw.net
+0.0.0.0 cds458.lcy.llnw.net
 0.0.0.0 cds459.lcy.llnw.net
+0.0.0.0 cds46.ory.llnw.net
+0.0.0.0 cds461.lcy.llnw.net
+0.0.0.0 cds468.lcy.llnw.net
+0.0.0.0 cds469.lcy.llnw.net
+0.0.0.0 cds471.lcy.llnw.net
+0.0.0.0 cds483.lcy.llnw.net
+0.0.0.0 cds484.lcy.llnw.net
+0.0.0.0 cds489.lcy.llnw.net
+0.0.0.0 cds493.lcy.llnw.net
 0.0.0.0 cds494.lcy.llnw.net
+0.0.0.0 cds54.ory.llnw.net
+0.0.0.0 cds812.lon.llnw.net
+0.0.0.0 cds815.lon.llnw.net
+0.0.0.0 cds818.lon.llnw.net
+0.0.0.0 cds832.lon.llnw.net
+0.0.0.0 cds836.lon.llnw.net
+0.0.0.0 cds840.lon.llnw.net
+0.0.0.0 cds843.lon.llnw.net
+0.0.0.0 cds857.lon.llnw.net
+0.0.0.0 cds868.lon.llnw.net
+0.0.0.0 cds869.lon.llnw.net
 0.0.0.0 cds965.lon.llnw.net
 0.0.0.0 cdx.cedexis.net
 0.0.0.0 cedexis-test.com
@@ -1195,6 +1286,7 @@
 0.0.0.0 data.xboxlive.com
 0.0.0.0 dataplane.diagnosticservices.azure.com
 0.0.0.0 dataservice.protection.outlook.com
+0.0.0.0 db3aqu.atdmt.com
 0.0.0.0 db3pap004.storage.live.com
 0.0.0.0 db3wns2011111.wns.windows.com
 0.0.0.0 db5-eap.settings-win.data.microsoft.com.akadns.net
@@ -1650,6 +1742,7 @@
 0.0.0.0 eastus2.api.cognitive.microsoft.com
 0.0.0.0 eaus2watcab01.blob.core.windows.net
 0.0.0.0 eaus2watcab02.blob.core.windows.net
+0.0.0.0 ec.atdmt.com
 0.0.0.0 ecn-us.dev.virtualearth.net
 0.0.0.0 ecn-us.dev.virtualearth.net.edgekey.net
 0.0.0.0 ecn.api.tiles.virtualearth.net
@@ -2025,6 +2118,7 @@
 0.0.0.0 i-db3p-cor003.api.p001.1drv.com
 0.0.0.0 i-db3p-cor004.api.p001.1drv.com
 0.0.0.0 i-db3p-cor005.api.p001.1drv.com
+0.0.0.0 i-ring.msedge.net
 0.0.0.0 i-sn2-cor001.api.p001.1drv.com
 0.0.0.0 i-sn2-cor002.api.p001.1drv.com
 0.0.0.0 i-sn3p-cor001.api.p001.1drv.com
@@ -2036,6 +2130,7 @@
 0.0.0.0 i.s1.social.ms.akadns.net
 0.0.0.0 i1.services.social.microsoft.com
 0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 i1.services.social.microsoft.comv10.vortex-win.data.microsoft.com
 0.0.0.0 i1.social.s-msft.com
 0.0.0.0 i2-technet.sec.s-msft.com
 0.0.0.0 i2.microsoft.com
@@ -2230,6 +2325,7 @@
 0.0.0.0 lxneyrxjlnwboo.mshome.net
 0.0.0.0 lyh-efz.ms-acdc.office.com
 0.0.0.0 lync.com
+0.0.0.0 m.adnxs.com
 0.0.0.0 m.config.skype.com
 0.0.0.0 m.hotmail.com
 0.0.0.0 m.microsoft.com
@@ -2571,6 +2667,7 @@
 0.0.0.0 msn.net
 0.0.0.0 msn.nl
 0.0.0.0 msn.se
+0.0.0.0 msnbot-65-55-108-23.search.msn.com
 0.0.0.0 msncompanion.com
 0.0.0.0 msnhome.org
 0.0.0.0 msnmessenger.com
@@ -2950,6 +3047,7 @@
 0.0.0.0 packages.dmd.metaservices.microsoft.com
 0.0.0.0 padpmnrtupt.mshome.net
 0.0.0.0 pages.store.office.com
+0.0.0.0 par02p.wns.windows.com
 0.0.0.0 part-0014.t-0009.fdv2-t-msedge.net
 0.0.0.0 part-0014.t-0009.t-s1-msedge.net
 0.0.0.0 part-0033.t-0009.fdv2-t-msedge.net
@@ -3025,6 +3123,7 @@
 0.0.0.0 premier.microsoft.com
 0.0.0.0 presence.teams.live.com
 0.0.0.0 preview.msn.com
+0.0.0.0 pricelist.skype.com
 0.0.0.0 privacy.microsoft.com
 0.0.0.0 privacy.microsoft.com.edgekey.net
 0.0.0.0 privacy.xboxlive.com
@@ -3202,6 +3301,8 @@
 0.0.0.0 search.yupimsn.com
 0.0.0.0 searchclient.live.net
 0.0.0.0 secure.aadcdn.microsoftonline-p.com
+0.0.0.0 secure.adnxs.com
+0.0.0.0 secure.flashtalking.com
 0.0.0.0 security.microsoft.com
 0.0.0.0 segments-s.msedge.net
 0.0.0.0 self-events-data.trafficmanager.net
@@ -3529,6 +3630,7 @@
 0.0.0.0 validation.sls.microsoft.com
 0.0.0.0 verweist auf dp5.wns.*
 0.0.0.0 videoplayercdn.osi.office.net
+0.0.0.0 view.atdmt.com
 0.0.0.0 virtualearth.net
 0.0.0.0 visualstudio.com
 0.0.0.0 visualstudio.microsoft.com
@@ -3758,6 +3860,7 @@
 0.0.0.0 xbet-afd-prod-hkc2bwaka7a8gfeq.z01.azurefd.net
 0.0.0.0 xblcqosteredo-wus-10-0-10586-1195-1.cloudapp.net
 0.0.0.0 xblcqosteredo-wus-10-0-10586-1195-2.cloudapp.net
+0.0.0.0 xblgdvrassets3010.blob.core.windows.net
 0.0.0.0 xblmessaging.xboxlive.com.akadns.net
 0.0.0.0 xbox.com
 0.0.0.0 xbox.ipv6.microsoft.com
