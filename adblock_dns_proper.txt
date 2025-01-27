@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 January 2025
-! Version: 1.53
+! Version: 1.54
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -75,6 +75,7 @@
 !Rule_not_Applied!||mcg-frontdoor-main.azurewebsites.net^
 !Rule_not_Applied!||redir1.cloudapp.net^
 ! Official Minecraft game site
+@@||minecraft-services.net^
 !Rule_not_Applied!||minecraft.net^
 ! Product Information Management
 !Rule_not_Applied!||modpim.com^
