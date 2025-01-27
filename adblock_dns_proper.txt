@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 January 2025
-! Version: 1.50
+! Version: 1.51
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -72,6 +72,7 @@
 ||candycrushsoda.king.com^
 ! Professional networking site
 @@||linkedin.com^
+@@||static.licdn.com^
 ||ad.linkedin.com^$important
 ||ads.linkedin.com^$important
 ||advertising.linkedin.com^$important

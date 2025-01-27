@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 27 January 2025
-# Version: 1.22
+# Version: 1.23
 # Syntax: host
 # Number of entries:
 #
@@ -31,6 +31,8 @@
 #0.0.0.0 go.microsoft.com   # Microsoft's redirect service
 #0.0.0.0 ipv6.msftconnecttest.com   # Microsoft connectivity test service
 #0.0.0.0 king.com   # King Digital Entertainment, a Microsoft subsidiary
+#0.0.0.0 l-0005.l-msedge.net # LInkendin Related
+#0.0.0.0 l-msedge.net   # Linkedin Related
 #0.0.0.0 lan.sdk.linkedin.com   # LinkedIn SDK, a Microsoft subsidiary
 #0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
 #0.0.0.0 modpim.com   # Likely related to Microsoft's product information management
@@ -54,6 +56,7 @@
 #0.0.0.0 slscr.update.microsoft.com   # Software Licensing Service check
 #0.0.0.0 smartscreen-prod.microsoft.com   # Production SmartScreen service
 #0.0.0.0 smartscreen.microsoft.com   # SmartScreen service
+#0.0.0.0 static.licdn.com   # Linkedin Cdn
 #0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com   # SmartScreen for UK region
 #0.0.0.0 unitedstates.smartscreen-prod.microsoft.com   # SmartScreen for US region
 #0.0.0.0 update.microsoft.com   # Windows Update service
