@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 27 January 2025
-# Version: 1.22
+# Version: 1.23
 # Syntax: host
 # Number of entries:
 #
@@ -231,6 +231,7 @@
 0.0.0.0 1oavsblobprodcus350.blob.core.windows.net
 0.0.0.0 1storecatalogrevocation.storequality.microsoft.com
 0.0.0.0 1storecatelogrevocation.storequality.microsoft.com
+0.0.0.0 2-01-2c3e-003d.cdx.cedexis.net
 0.0.0.0 2-01-3cf7-0009.cdx.cedexis.net
 0.0.0.0 2.au.download.windowsupdate.com
 0.0.0.0 2.dl.delivery.mp.microsoft.com
@@ -446,6 +447,7 @@
 0.0.0.0 a0001.a-msedge.net
 0.0.0.0 a13a6c354d99f8f26ff6cdd11dea9561.clo.footprintdns.com
 0.0.0.0 a1856.g2.akamai.net
+0.0.0.0 a1916.dscg2.akamai.net
 0.0.0.0 a194f36460c3ac6663710c0bc5c223cf.clo.footprintdns.com
 0.0.0.0 a22896bb6d6b3dd452a6d7412964cfff.clo.footprintdns.com
 0.0.0.0 a24d1080fc7ab84439ca6f5c49d1558a.clo.footprintdns.com
@@ -548,6 +550,7 @@
 0.0.0.0 advertising.microsoft.com
 0.0.0.0 aefd.nelreports.net
 0.0.0.0 afd-a-acdc-direct.office.com
+0.0.0.0 afd-cf.www.linkedin.com
 0.0.0.0 afd.msedge.azure.us
 0.0.0.0 afdap.au.au-msedge.net
 0.0.0.0 afdxtest.z01.azurefd.net
@@ -3035,6 +3038,7 @@
 0.0.0.0 ocs.microsoft.com
 0.0.0.0 ocsp.microsoft.com
 0.0.0.0 ocws.officeapps.live.com
+0.0.0.0 od.linkedin.edgesuite.net
 0.0.0.0 odc-common-us-meta.onedrive.akadns.net
 0.0.0.0 odc-web-brs.onedrive.akadns.net
 0.0.0.0 odc-web-geo.onedrive.akadns.net
@@ -3743,6 +3747,7 @@
 0.0.0.0 static.2mdn.net # Microsoft uses this for advertising purposes
 0.0.0.0 static.2mdn.net # Note: This is related to DoubleClick by Google, but Microsoft uses this for advertising
 0.0.0.0 static.edge.microsoftapp.net
+0.0.0.0 static.licdn.com
 0.0.0.0 static.skypeassets.com
 0.0.0.0 static2.sharepointonline.com
 0.0.0.0 statics-marketingsites-eus-ms-com.akamaized.net
@@ -4186,6 +4191,7 @@
 0.0.0.0 wus2s2c-displaycatalog.frontdoor.bigcatalog.commerce.microsoft.com
 0.0.0.0 wusofficehome.msocdn.com
 0.0.0.0 wwjqmpoqjhrid.mshome.net
+0.0.0.0 www-linkedin-com.l-0005.l-msedge.net
 0.0.0.0 www-live.com
 0.0.0.0 www.a-msedge.net
 0.0.0.0 www.a.ads1.msn.com

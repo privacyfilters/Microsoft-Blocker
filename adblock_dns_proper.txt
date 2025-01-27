@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 January 2025
-! Version: 1.51
+! Version: 1.52
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -89,12 +89,9 @@
 ||ampproject.org.cn^
 ||ampproject.org^
 ! Cedexis services
-||cdx.cedexis.net^
+||cedexis.net^
 ||cedexis-test.com^
-||openmix.cedexis.com^
-||radar.cedexis.net^
-||rpt.cedexis.com^
-||sonar.cedexis.com^
+||cedexis.com^
 ! Google DoubleClick ad network
 ||2mdn.net^
 ! Advertising technology services

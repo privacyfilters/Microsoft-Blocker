@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 January 2025
-! Version: 1.49
+! Version: 1.50
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -26,12 +26,9 @@
 !
 !!! Other and External domains & subdomains !!!
 ! Official Minecraft game site
-!Not-Blocked!||minecraft.net^
+||minecraft.net^
 ! Product Information Management
-!Not-Blocked!||modpim.com^
-! StackPath CDN service (formerly NetDNA)
-!Not-Blocked!||netdna-cdn.com^
-||crl.uzto.netdna-cdn.com^
+||modpim.com^
 ! .NET package manager
 !Not-Blocked!||nuget.org^
 ! Developer of Candy Crush and other games
@@ -39,6 +36,7 @@
 ||candycrushsoda.king.com^
 ! Professional networking site
 ||linkedin.com^
+||licdn.com^
 ! AMP Project related domains
 ||amp.dev^
 ||amp-test.com^
@@ -49,12 +47,9 @@
 ||ampproject.org.cn^
 ||ampproject.org^
 ! Cedexis services
-||cdx.cedexis.net^
+||cedexis.net^
 ||cedexis-test.com^
-||openmix.cedexis.com^
-||radar.cedexis.net^
-||rpt.cedexis.com^
-||sonar.cedexis.com^
+||cedexis.com^
 ! Google DoubleClick ad network
 ||2mdn.net^
 ! Advertising technology services
@@ -81,7 +76,6 @@
 ||flashtalking.com^
 !
 !!!!!!!!! General Blocklist !!!!!!!!!
-
 ||1drv.com^
 ||1drv.ms^
 ||a-dc-msedge.net^
@@ -167,8 +161,6 @@
 ||cloud.microsoft^
 ||cloudapp.azure.com^
 ||com-c.edgekey.net^
-||com.akadns.net^
-||com.edgesuite.net^
 ||compatexchange.cloudapp.net^
 ||contoso.com^
 ||copilot.microsoft.com^
@@ -284,6 +276,7 @@
 ||k-msedge.net^
 ||king.com^
 ||l-msedge.net^
+||linkedin.edgesuite.net^
 ||live-partner.com^
 ||live-ppe.com^
 ||live-str.com^
@@ -292,6 +285,7 @@
 ||live.ca^
 ||live.com.akadns.net^
 ||live.com^
+||live.edgesuite.net^
 ||live.net^
 ||live365.com^
 ||liveatedu-ppe.com^
@@ -380,6 +374,7 @@
 ||microsoft.com.br^
 ||microsoft.com.edgekey.net.globalredir.akadns.net^
 ||microsoft.com.edgekey.net^
+||microsoft.com.edgesuite.net^
 ||microsoft.com.tw^
 ||microsoft.com^
 ||microsoft.cr^
