@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 January 2025
-! Version: 1.49
+! Version: 1.50
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -71,13 +71,13 @@
 !Not-Blocked!||king.com^
 ||candycrushsoda.king.com^
 ! Professional networking site
-!Not-Blocked!||linkedin.com^
-||ad.linkedin.com^
-||ads.linkedin.com^
-||advertising.linkedin.com^
-||analytics.pointdrive.linkedin.com^
-||marketing.linkedin.com^
-||px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net^
+@@||linkedin.com^
+||ad.linkedin.com^$important
+||ads.linkedin.com^$important
+||advertising.linkedin.com^$important
+||analytics.pointdrive.linkedin.com^$important
+||marketing.linkedin.com^$important
+||px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net^$important
 ! AMP Project related domains
 ||amp.dev^
 ||amp-test.com^
@@ -598,7 +598,6 @@
 ||microsoftword.com.br^
 ||micrososft.com^
 ||micrsoftsmartcar.co.uk^
-||minecraft.net^
 ||mobileconfig.net^
 ||monitor.azure.com^
 ||ms.akadns.net^
