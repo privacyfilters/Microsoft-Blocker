@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 January 2025
-! Version: 1.50
+! Version: 1.51
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -25,6 +25,22 @@
 ||msftconnecttest.com*^
 !
 !!! Other and External domains & subdomains !!!
+!! Microsoft Cloud and Azure related urls
+||azure-test.net^
+!Rule_not_Applied!||azure-api.cn^
+!Rule_not_Applied!||azure-devices.net^
+!Rule_not_Applied!||azure-dns.com^
+!Rule_not_Applied!||azure.cn^
+!Rule_not_Applied!||azure.com^
+!Rule_not_Applied!||azure.net^
+!Rule_not_Applied!||azure.us^
+!Rule_not_Applied!||azuredns-cloud.net^
+!Rule_not_Applied!||azureedge.net^
+!Rule_not_Applied!||azurefd.net^
+!Rule_not_Applied!||azurefd.us^
+!Rule_not_Applied!||cloudapp.azure.com^
+!Rule_not_Applied!||mcg-frontdoor-main.azurewebsites.net^
+!Rule_not_Applied!||redir1.cloudapp.net^
 ! Official Minecraft game site
 ||minecraft.net^
 ! Product Information Management
@@ -112,19 +128,7 @@
 ||atdmt.com^
 ||au-msedge.net^
 ||avatar-service-prod-b-eus2.cloudapp.net^
-||azure-api.cn^
 ||azure-devices-provisioning.net^
-||azure-devices.net^
-||azure-dns.com^
-||azure-test.net^
-||azure.cn^
-||azure.com^
-||azure.net^
-||azure.us^
-||azuredns-cloud.net^
-||azureedge.net^
-||azurefd.net^
-||azurefd.us^
 ||azureserviceprofiler.net^
 ||b-dc-msedge.net^
 ||b-msedge.net^
@@ -159,7 +163,6 @@
 ||clarity.ms^
 ||clipchamp.com^
 ||cloud.microsoft^
-||cloudapp.azure.com^
 ||com-c.edgekey.net^
 ||compatexchange.cloudapp.net^
 ||contoso.com^
@@ -317,7 +320,6 @@
 ||mcas-gov.ms^
 ||mcas-gov.us^
 ||mcas.ms^
-||mcg-frontdoor-main.azurewebsites.net^
 ||mdc.akamaized.net^
 ||mesh-int.com^
 ||mesh-ri.com^

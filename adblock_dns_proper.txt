@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 January 2025
-! Version: 1.52
+! Version: 1.53
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -58,17 +58,33 @@
 ||msftconnecttest.com*^
 !
 !!! Other and External domains & subdomains !!!
+!! Microsoft Cloud and Azure related urls
+||azure-test.net^
+!Rule_not_Applied!||azure-api.cn^
+!Rule_not_Applied!||azure-devices.net^
+!Rule_not_Applied!||azure-dns.com^
+!Rule_not_Applied!||azure.cn^
+!Rule_not_Applied!||azure.com^
+!Rule_not_Applied!||azure.net^
+!Rule_not_Applied!||azure.us^
+!Rule_not_Applied!||azuredns-cloud.net^
+!Rule_not_Applied!||azureedge.net^
+!Rule_not_Applied!||azurefd.net^
+!Rule_not_Applied!||azurefd.us^
+!Rule_not_Applied!||cloudapp.azure.com^
+!Rule_not_Applied!||mcg-frontdoor-main.azurewebsites.net^
+!Rule_not_Applied!||redir1.cloudapp.net^
 ! Official Minecraft game site
-!Not-Blocked!||minecraft.net^
+!Rule_not_Applied!||minecraft.net^
 ! Product Information Management
-!Not-Blocked!||modpim.com^
+!Rule_not_Applied!||modpim.com^
 ! StackPath CDN service (formerly NetDNA)
-!Not-Blocked!||netdna-cdn.com^
+!Rule_not_Applied!||netdna-cdn.com^
 ||crl.uzto.netdna-cdn.com^
 ! .NET package manager
-!Not-Blocked!||nuget.org^
+!Rule_not_Applied!||nuget.org^
 ! Developer of Candy Crush and other games
-!Not-Blocked!||king.com^
+!Rule_not_Applied!||king.com^
 ||candycrushsoda.king.com^
 ! Professional networking site
 @@||linkedin.com^
@@ -151,19 +167,7 @@
 ||atdmt.com^
 ||au-msedge.net^
 ||avatar-service-prod-b-eus2.cloudapp.net^
-||azure-api.cn^
 ||azure-devices-provisioning.net^
-||azure-devices.net^
-||azure-dns.com^
-||azure-test.net^
-||azure.cn^
-||azure.com^
-||azure.net^
-||azure.us^
-||azuredns-cloud.net^
-||azureedge.net^
-||azurefd.net^
-||azurefd.us^
 ||azureserviceprofiler.net^
 ||b-dc-msedge.net^
 ||b-msedge.net^
@@ -198,7 +202,6 @@
 ||clarity.ms^
 ||clipchamp.com^
 ||cloud.microsoft^
-||cloudapp.azure.com^
 ||com-c.edgekey.net^
 ||com.akadns.net^
 ||com.edgesuite.net^
@@ -355,7 +358,6 @@
 ||mcas-gov.ms^
 ||mcas-gov.us^
 ||mcas.ms^
-||mcg-frontdoor-main.azurewebsites.net^
 ||mdc.akamaized.net^
 ||mesh-int.com^
 ||mesh-ri.com^
@@ -716,7 +718,6 @@
 ||places.app^
 ||playfabapi.com^
 ||powerappsportals.com^
-||redir1.cloudapp.net^
 ||remotedesktop.com^
 ||rewardsplatform.microsoft.com^
 ||rs-mcas.ms^
