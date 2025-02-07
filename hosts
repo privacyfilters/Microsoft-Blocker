@@ -3,7 +3,7 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 06 February 2025
+# Last modified: 07 February 2025
 # Version: 1.27
 # Syntax: host
 # Number of entries:
@@ -304,6 +304,11 @@
 0.0.0.0 HHN-efz.ms-acdc.office.com
 0.0.0.0 I-ring.msedge.net
 0.0.0.0 _ldap._tcp.dc._msdcs.mshome.net
+0.0.0.0 _spf-a.microsoft.com
+0.0.0.0 _spf-b.microsoft.com
+0.0.0.0 _spf-c.microsoft.com
+0.0.0.0 _spf-ssg-a.microsoft.com
+0.0.0.0 _spf1-meo.microsoft.com
 0.0.0.0 a-0001.a-afdentry.net.trafficmanager.net
 0.0.0.0 a-0001.a-msedge.net
 0.0.0.0 a-0001.dc-msedge.net
@@ -481,6 +486,7 @@
 0.0.0.0 amcdnmsftuswe.afd.azureedge.net
 0.0.0.0 amcdnmsftuswe.azureedge.net
 0.0.0.0 amd-keyid-578c545f796951421221a4a578acdb5f682f89c8.microsoftaik.azure.net
+0.0.0.0 amer.ng.msg.teams.microsoft.com
 0.0.0.0 americas1.notify.windows.com.akadns.net
 0.0.0.0 americas2.notify.windows.com.akadns.net
 0.0.0.0 amp-test.com
@@ -518,6 +524,7 @@
 0.0.0.0 api.aadrm.com
 0.0.0.0 api.aadrm.de
 0.0.0.0 api.addins.omex.office.net
+0.0.0.0 api.advantage.microsoft.com
 0.0.0.0 api.ai.microsoft.com
 0.0.0.0 api.applicationinsights.io
 0.0.0.0 api.aps.skype.com
@@ -532,7 +539,9 @@
 0.0.0.0 api.diagnostics.office.com
 0.0.0.0 api.edgeoffer.microsoft.com
 0.0.0.0 api.flightproxy.skype.com
+0.0.0.0 api.flightproxy.teams.microsoft.com
 0.0.0.0 api.gateway.microsoft.com
+0.0.0.0 api.iris.microsoft.com
 0.0.0.0 api.loganalytics.azure.com
 0.0.0.0 api.loganalytics.io
 0.0.0.0 api.microsoft.com
@@ -551,6 +560,7 @@
 0.0.0.0 api.passwordreset.microsoftonline.com
 0.0.0.0 api.powerbi.com
 0.0.0.0 api.push.svc.ms
+0.0.0.0 api.satellite.office.net
 0.0.0.0 api.skype.com
 0.0.0.0 api.teams.microsoft.com
 0.0.0.0 api.userstore.skype.com
@@ -574,6 +584,7 @@
 0.0.0.0 app.copilot.microsoft.com
 0.0.0.0 app.skype.com
 0.0.0.0 app.v.microsoft.com
+0.0.0.0 app.vssps.io
 0.0.0.0 app.vssps.visualstudio.com
 0.0.0.0 app.whiteboard.microsoft.com
 0.0.0.0 appcenter.ms
@@ -702,11 +713,14 @@
 0.0.0.0 assets.onestore.ms.akadns.net
 0.0.0.0 assets.onestore.ms.edgekey.net
 0.0.0.0 assuritystorage.blob.core.windows.net
+0.0.0.0 asyncgw.teams.microsoft.com
 0.0.0.0 atdmt.com
 0.0.0.0 atm-fp-direct.office.com
 0.0.0.0 atm-settingsfe-prod-geo.trafficmanager.net
 0.0.0.0 atm-settingsfe-prod-geo2.trafficmanager.net
 0.0.0.0 atm.trafficmanager.net
+0.0.0.0 attachment.outlook.office.net
+0.0.0.0 attachment.outlook.officeppe.net
 0.0.0.0 attachments.office.net
 0.0.0.0 attest.azure.net
 0.0.0.0 attestation.xboxlive.com
@@ -1033,6 +1047,7 @@
 0.0.0.0 ca.telemetry.microsoft.com
 0.0.0.0 cac-visio-telemetry.officeapps.live.com
 0.0.0.0 cache.datamart.windows.com
+0.0.0.0 calendar.live.com
 0.0.0.0 canadacentral.api.cognitive.microsoft.com
 0.0.0.0 canary.activity.windows.com
 0.0.0.0 candycrushsoda.king.com
@@ -1048,6 +1063,7 @@
 0.0.0.0 cbjrhswm.mshome.net
 0.0.0.0 ccs-pe-us1.cloudapp.net
 0.0.0.0 ccs.login.microsoftonline.com
+0.0.0.0 cdc.trafficmanager.net
 0.0.0.0 cdf-anon.gtm.xboxlive.com
 0.0.0.0 cdf-anon.xboxlive.com
 0.0.0.0 cdf-anon.xboxlive.com.edgekey.net
@@ -1669,6 +1685,7 @@
 0.0.0.0 default.exp-tas.com # ClientID, ImpressionID, DeviceID
 0.0.0.0 defender.microsoft.com
 0.0.0.0 deff.nelreports.net
+0.0.0.0 delivery.mp.microsoft.com
 0.0.0.0 delivery.msn.com
 0.0.0.0 dell15.msn.com
 0.0.0.0 demo.microsoft.com
@@ -1705,6 +1722,7 @@
 0.0.0.0 dgps-eus2.cloudapp.net
 0.0.0.0 dgps.support.microsoft.com
 0.0.0.0 dhvlrvrzd.mshome.net
+0.0.0.0 diagnostics.microsoft.com
 0.0.0.0 diagnostics.office.com
 0.0.0.0 diagnostics.support.microsoft.akadns.net
 0.0.0.0 diagnostics.support.microsoft.com
@@ -1746,6 +1764,7 @@
 0.0.0.0 docs.microsoft.com
 0.0.0.0 docs.microsoft.com-c.edgekey.net
 0.0.0.0 dot.net
+0.0.0.0 dotnet.microsoft.com
 0.0.0.0 download-ssl.msgamestudios.com
 0.0.0.0 download-ssl.msgamestudios.com-san.edgekey.net
 0.0.0.0 download-ssl.msgamestudios.com.edgekey.net
@@ -1757,6 +1776,8 @@
 0.0.0.0 drmlicense.one.microsoft.com
 0.0.0.0 ds.microsoft.com
 0.0.0.0 dsn10.skype-dsn.akadns.net
+0.0.0.0 dsp.mp.microsoft.com
+0.0.0.0 dsx.mp.microsoft.com
 0.0.0.0 dual-a-0036.a-msedge.net
 0.0.0.0 dual-s-ring.msedge.net
 0.0.0.0 dyanmicslive.org
@@ -2016,6 +2037,7 @@
 0.0.0.0 flex.msn.com
 0.0.0.0 flightingserviceweurope.cloudapp.net
 0.0.0.0 flightingservicewus.cloudapp.net
+0.0.0.0 flightproxy.teams.microsoft.com
 0.0.0.0 flights.msn.com
 0.0.0.0 flows.microsoft.com
 0.0.0.0 fluidpreview.office.net
@@ -2322,6 +2344,7 @@
 0.0.0.0 int1.msn.com
 0.0.0.0 interest.microsoft.com
 0.0.0.0 internetexplorer.com
+0.0.0.0 intune.com
 0.0.0.0 intune.microsoft.com
 0.0.0.0 intunecdnpeasd.azureedge.net
 0.0.0.0 intunecdnpeasd.ec.azureedge.net
@@ -2337,6 +2360,7 @@
 0.0.0.0 ipvhsessjsmqdxw.mshome.net
 0.0.0.0 iris-de-prod-azsc-v2-frc.francecentral.cloudapp.azure.com
 0.0.0.0 iris-de-prod-azsc-v2-neu-b.northeurope.cloudapp.azure.com
+0.0.0.0 iris.microsoft.com
 0.0.0.0 iriscoremetadataprod.blob.core.windows.net
 0.0.0.0 isgemail.blob.core.windows.net
 0.0.0.0 iteactive-pra.msedge.net
@@ -2495,6 +2519,7 @@
 0.0.0.0 macrovision.com
 0.0.0.0 mactopia.net
 0.0.0.0 mahjong.microsoft.com
+0.0.0.0 mail.live.com
 0.0.0.0 mail.microsoft.com
 0.0.0.0 mail.protection.outlook.com
 0.0.0.0 mail1.microsoft.com
@@ -2807,6 +2832,7 @@
 0.0.0.0 modern.watson.data.microsoft.com.akadns.net
 0.0.0.0 modernb.akamai.odsp.cdn.office.net
 0.0.0.0 monitor.azure.com
+0.0.0.0 mp.microsoft.com
 0.0.0.0 mran.microsoft.com
 0.0.0.0 mrodevicemgr.officeapps.live.com
 0.0.0.0 mrrcountries.cdn.skype.com
@@ -2814,6 +2840,7 @@
 0.0.0.0 ms-services.download.windows.com
 0.0.0.0 ms.akadns.net
 0.0.0.0 ms.co.nz
+0.0.0.0 ms.com
 0.0.0.0 ms365insider-czdafrdzb5h6e4av.z01.azurefd.net
 0.0.0.0 msa.diagnostics.office.com
 0.0.0.0 msads.net
@@ -2854,6 +2881,7 @@
 0.0.0.0 msftoffers.com
 0.0.0.0 msftspeechmodelsprod.azureedge.net
 0.0.0.0 msftsrvcs.vo.llnwd.net
+0.0.0.0 msg.teams.microsoft.com
 0.0.0.0 msgapi.teams.live.com
 0.0.0.0 msgsearch.skype.com
 0.0.0.0 mslearn.microsoft.com
@@ -2886,6 +2914,7 @@
 0.0.0.0 msnbot-65-55-108-23.search.msn.com
 0.0.0.0 msncompanion.com
 0.0.0.0 msnhome.org
+0.0.0.0 msnhst.microsoft.com
 0.0.0.0 msnmessenger.com
 0.0.0.0 msnmobile.in
 0.0.0.0 msntest.serving-sys.com
@@ -2945,6 +2974,7 @@
 0.0.0.0 nexusrules.live.com
 0.0.0.0 nexusrules.live.com.akadns.net
 0.0.0.0 nexusrules.officeapps.live.com
+0.0.0.0 ng.msg.teams.microsoft.com
 0.0.0.0 nhkpwuiyvnkq.mshome.net
 0.0.0.0 nhuquckrshp.mshome.net
 0.0.0.0 nldinhvzk.mshome.net
@@ -2959,6 +2989,7 @@
 0.0.0.0 notice.xbox.com.nsatc.net
 0.0.0.0 notificationinbox.xboxlive.com
 0.0.0.0 notificationinbox.xboxlive.com.akadns.net
+0.0.0.0 notifications.teams.microsoft.com
 0.0.0.0 notify.xboxlive.com
 0.0.0.0 nps.onyx.azure.net
 0.0.0.0 ns1-39.azure-dns.com
@@ -3263,6 +3294,7 @@
 0.0.0.0 outlook-ca-emeawest2.office365.com
 0.0.0.0 outlook-emeawest2.office365.com
 0.0.0.0 outlook-exo.trafficmanager.net
+0.0.0.0 outlook-sdf.live.com
 0.0.0.0 outlook.com
 0.0.0.0 outlook.ha.office365.com
 0.0.0.0 outlook.live.com
@@ -3355,6 +3387,7 @@
 0.0.0.0 portal.office.com
 0.0.0.0 portal.office365.com
 0.0.0.0 powerapps.microsoft.com
+0.0.0.0 powerbi.com
 0.0.0.0 powerbi.microsoft.com
 0.0.0.0 powerplatform.microsoft.com
 0.0.0.0 powerpoint.office.com
@@ -3365,6 +3398,7 @@
 0.0.0.0 pre.footprintpredict.com
 0.0.0.0 premier.microsoft.com
 0.0.0.0 presence.teams.live.com
+0.0.0.0 presence.teams.microsoft.com
 0.0.0.0 preview.microsoft.com
 0.0.0.0 preview.msn.com
 0.0.0.0 pricelist.skype.com
@@ -3479,6 +3513,7 @@
 0.0.0.0 reports-dodvir-production-byoip.usdodeast.cloudapp.usgovcloudapi.net
 0.0.0.0 reports.apps.mil
 0.0.0.0 reports.apps.mil.usgovtrafficmanager.net
+0.0.0.0 reports.watson.microsoft.com
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
 0.0.0.0 res-1.cdn.office.net
 0.0.0.0 res-1.cdn.office.net-c.edgekey.net.globalredir.akadns.net
@@ -3679,6 +3714,8 @@
 0.0.0.0 sparkcdneus2.azureedge.net
 0.0.0.0 spclient.wg.spotify.com
 0.0.0.0 speech.microsoft.com
+0.0.0.0 spf-a.hotmail.com
+0.0.0.0 spf.protection.outlook.com
 0.0.0.0 spo-msedge.net
 0.0.0.0 spo-ring-fallback.msedge.net
 0.0.0.0 spo-ring.msedge.net
@@ -3754,6 +3791,7 @@
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com.edgekey.net.globalredir.akadns.net
 0.0.0.0 storeedgefd.xbetservices.akadns.net
+0.0.0.0 storequality.microsoft.com
 0.0.0.0 stores.microsoft.com
 0.0.0.0 storesdk.dsx.mp # Partial URL, likely storesdk.dsx.mp.microsoft.com
 0.0.0.0 storesdk.dsx.mp.microsoft.com
@@ -3826,8 +3864,11 @@
 0.0.0.0 telemetry.microsoft.com
 0.0.0.0 telemetry.microsoft.com.nsatc.net
 0.0.0.0 telemetry.mstelemetry.net
+0.0.0.0 telemetry.osi.microsoft.com
 0.0.0.0 telemetry.privacy.microsoft.com
 0.0.0.0 telemetry.remoteapp.windowsazure.com
+0.0.0.0 telemetry.services.microsoft.com
+0.0.0.0 telemetry.teams.microsoft.com
 0.0.0.0 telemetry.traffic.microsoft.com
 0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 telemetry.windows.com
@@ -3873,6 +3914,7 @@
 0.0.0.0 trdocentralusrs4vmss.ipv6.microsoft.com.akadns.net
 0.0.0.0 troubleshooting.microsoft.com
 0.0.0.0 trouter-azsc-ukwe-0-b.trouter.skype.com
+0.0.0.0 trouter.teams.microsoft.com
 0.0.0.0 trustwave.blob.core.windows.net
 0.0.0.0 ts.microsoft.com
 0.0.0.0 tse1.mm.bing.net
