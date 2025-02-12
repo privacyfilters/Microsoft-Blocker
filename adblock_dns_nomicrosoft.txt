@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 27 January 2025
-! Version: 1.51
+! Last modified: 12 February 2025
+! Version: 1.52
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -118,6 +118,7 @@
 ||analytics.pointdrive.linkedin.com^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appcenter.ms^
+||applicationinsights.azure.com^
 ||applicationinsights.io^
 ||apps.mil^
 ||arc-msedge.net^
@@ -128,6 +129,7 @@
 ||atdmt.com^
 ||au-msedge.net^
 ||avatar-service-prod-b-eus2.cloudapp.net^
+||azure.eaglex.ic.gov^
 ||azure-devices-provisioning.net^
 ||azureserviceprofiler.net^
 ||b-dc-msedge.net^
@@ -456,6 +458,7 @@
 ||microsoft.ru^
 ||microsoft.rw^
 ||microsoft.sc^
+||microsoft.scloud^
 ||microsoft.se^
 ||microsoft.si^
 ||microsoft.sk^
