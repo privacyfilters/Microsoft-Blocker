@@ -3,8 +3,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 12 February 2025
-# Version: 1.30
+# Last modified: 16 February 2025
+# Version: 1.31
 # Syntax: host
 # Number of entries:
 #
@@ -34,7 +34,6 @@
 #0.0.0.0 ipv6.msftconnecttest.com   # Microsoft connectivity test service
 #0.0.0.0 king.com   # King Digital Entertainment, a Microsoft subsidiary
 #0.0.0.0 lan.sdk.linkedin.com   # LinkedIn SDK, a Microsoft subsidiary
-#0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
 #0.0.0.0 modpim.com   # Likely related to Microsoft's product information management
 #0.0.0.0 msecnd.net   # Microsoft's CDN operated by Akamai
 #0.0.0.0 msftconnecttest.com   # Microsoft connectivity test service
@@ -83,6 +82,7 @@
 0.0.0.0 graph.microsoft.com   # Microsoft Graph API
 0.0.0.0 graph.print.microsoft.com   # Microsoft Graph API for print management
 0.0.0.0 graph.windows.net            # Azure AD Graph API
+0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
 0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
 0.0.0.0 telem-edge.smartscreen.microsoft.com   # Telemetry for Edge's SmartScreen
 :: login.microsoftonline.com   # Microsoft's online login service
