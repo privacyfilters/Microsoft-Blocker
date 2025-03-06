@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 16 February 2025
-! Version: 1.58
+! Last modified: 03 March 2025
+! Version: 1.59
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -157,6 +157,7 @@
 ||aka.ms^
 ||akadns.net^
 ||akadns6.net^
+||answers.microsoft.com^
 ||app-bingstats-frontend-eus.azurewebsites.net^
 ||appcenter.ms^
 ||applicationinsights.azure.com^
@@ -170,15 +171,25 @@
 ||atdmt.com^
 ||au-msedge.net^
 ||avatar-service-prod-b-eus2.cloudapp.net^
-||azure.eaglex.ic.gov^
+||azure-api.net^
 ||azure-devices-provisioning.net^
+||azure-mobile.net^
+||azure.com^
+||azure.eaglex.ic.gov^
+||azurecontainer.io^
+||azurecr.io^
+||azureedge.net^
+||azurefd.net^
 ||azureserviceprofiler.net^
+||azurewebsites.net^
 ||b-dc-msedge.net^
 ||b-msedge.net^
+||bastion.azure.com^
 ||bcentral.com^
 ||bcentral.net^
 ||betaoneservices.com^
 ||bing-int.com^
+||bing.ai^
 ||bing.com.akadns.net^
 ||bing.com^
 ||bing.net^
@@ -191,6 +202,7 @@
 ||binginternal.com^
 ||binguxlivesite.net^
 ||bingviz.com^
+||biztalk.windows.net^
 ||blob.core.windows.net^
 ||by1prdapp01-canary.cloudapp.net^
 ||c-msedge.net^
@@ -206,13 +218,18 @@
 ||clarity.ms^
 ||clipchamp.com^
 ||cloud.microsoft^
+||cloudapp.azure.com^
+||cloudapp.net^
 ||com-c.edgekey.net^
 ||com.akadns.net^
 ||com.edgesuite.net^
 ||compatexchange.cloudapp.net^
 ||contoso.com^
 ||copilot.microsoft.com^
+||core.windows.net^
 ||cortana.ai^
+||create.microsoft.com^
+||cris.ai^
 ||crmlive-int.com^
 ||crmlive-ppe.com^
 ||crmlive.net^
@@ -221,6 +238,7 @@
 ||cus-prod-msgsearch.cloudapp.net^
 ||customsearch.ai^
 ||data.microsoft.com^
+||database.windows.net^
 ||dbankedge.cn^
 ||dc-msedge.net^
 ||delivery.mp.microsoft.com^
@@ -232,7 +250,6 @@
 ||dscb.akamaiedge.net^
 ||dscg.akamaiedge.net^
 ||dscg3.akamai.net^
-||e6913.dscx.akamaiedge.net^
 ||dsp.mp.microsoft.com^
 ||dsp.mp^
 ||dspb.akamaiedge.net^
@@ -285,6 +302,7 @@
 ||dynamicsview.biz^
 ||dynamicsview.info^
 ||e-msedge.net^
+||e6913.dscx.akamaiedge.net^
 ||edgesv.net^
 ||edgewelcome-west3.azurewebsites.net^
 ||eus1-api-skype.cloudapp.net^
@@ -296,18 +314,21 @@
 ||fdv2-t-msedge.net^
 ||fedtest-int.com^
 ||fedtest.com^
+||file.core.windows.net^
 ||flightingserviceweurope.cloudapp.net^
 ||flightingservicewus.cloudapp.net^
 ||footprint.net^
 ||footprintdns.com^
 ||footprintpredict.com^
 ||freepowerpoint.com^
+||fwlink.ms^
 ||g.akamaiedge.net^
 ||gamepass.com^
 ||generalaudittool.com^
 ||getmicrosoftkey.com^
 ||gfx.ms^
 ||globalredir.akadns.net^
+||groove.microsoft.com^
 ||healthvolt.net^
 ||hipipv6-eu1-prod.cloudapp.net^
 ||hockeyapp.net^
@@ -319,8 +340,10 @@
 ||img-s-msn-com.akamaized.net^
 ||imvendorportal.com^
 ||infoemails.microsoft.com^
+||insiderhub.microsoft.com^
 ||insiderppe.cloudapp.net^
 ||internetexplorer.com^
+||intune.microsoft.com^
 ||k-msedge.net^
 ||king.com^
 ||l-msedge.net^
@@ -355,14 +378,17 @@
 ||loganalytics.io^
 ||lxcvc.com^
 ||lync.cn^
+||lync.com^
 ||m1-msedge.net^
 ||macrosoft.com.br^
 ||macrovision.com^
 ||mactopia.net^
+||management.azure.com^
 ||mcas-gov.ms^
 ||mcas-gov.us^
 ||mcas.ms^
 ||mdc.akamaized.net^
+||mediaservices.windows.net^
 ||mesh-int.com^
 ||mesh-ri.com^
 ||mesh.com^
@@ -376,6 +402,7 @@
 ||microsoft-hohm.com^
 ||microsoft-int.com^
 ||microsoft-jdp.net^
+||microsoft-my.sharepoint-df.com^
 ||microsoft-news.com^
 ||microsoft-office-excel.com^
 ||microsoft-office.fr^
@@ -499,6 +526,7 @@
 ||microsoft.sc^
 ||microsoft.scloud^
 ||microsoft.se^
+||microsoft.sharepoint-df.com^
 ||microsoft.si^
 ||microsoft.sk^
 ||microsoft.sl^
@@ -549,6 +577,7 @@
 ||microsoftdynamicslive.org^
 ||microsofteai.com.br^
 ||microsoftedge.com^
+||microsoftedgeinsider.com^
 ||microsoftelearning.com^
 ||microsoftemail.com^
 ||microsoftencarta.net^
@@ -600,10 +629,13 @@
 ||microsoftvirtualacademy.com^
 ||microsoftvolumelicensing.com^
 ||microsoftwildcat.com^
+||microsoftwindowsupdate.net^
 ||microsoftword.com.br^
 ||micrososft.com^
 ||micrsoftsmartcar.co.uk^
+||mktplpulse.microsoft.com^
 ||mobileconfig.net^
+||modpim.com^
 ||monitor.azure.com^
 ||ms.akadns.net^
 ||ms.co.nz^
@@ -635,6 +667,7 @@
 ||msidentity.com^
 ||msn-int.com^
 ||msn-ppe.com^
+||msn.ai^
 ||msn.be^
 ||msn.ca^
 ||msn.ch^
@@ -666,6 +699,7 @@
 ||msnusers.com^
 ||msocdn.com^
 ||msocsp.com^
+||msppe.com^
 ||msteams.com^
 ||myhomemsn.com^
 ||mywindowsmobile.co.uk^
@@ -722,7 +756,10 @@
 ||pfx.ms^
 ||places.app^
 ||playfabapi.com^
+||playready.microsoft.com^
+||portal.azure.com^
 ||powerappsportals.com^
+||queue.core.windows.net^
 ||remotedesktop.com^
 ||rewardsplatform.microsoft.com^
 ||rs-mcas.ms^
@@ -757,6 +794,7 @@
 ||skypeecs-prod-usw-0.cloudapp.net^
 ||skypeforbusiness.com^
 ||skyprod.akadns.net^
+||smartscreen.microsoft.com^
 ||software.net^
 ||softwarewow.com^
 ||spo-msedge.net^
@@ -779,9 +817,17 @@
 ||sway.com^
 ||t-msedge.net^
 ||t-s1-msedge.net^
+||table.core.windows.net^
 ||tagdelivery.com^
+||tar.microsoft.com^
+||target.microsoft.com^
 ||taskmarket.com^
+||teams.live.com^
+||teams.microsoft.com^
+||teams.microsoft.us^
+||techcommunity.microsoft.com^
 ||telecommand.azurewebsites.net^
+||to-do.microsoft.com^
 ||trafficmanager.net^
 ||tribalfusion.com^
 ||unistore.akadns.net^
@@ -790,9 +836,12 @@
 ||usgovtrafficmanager.net^
 ||virtualearth.net^
 ||visualstudio.com^
+||vo.msecnd.net^
 ||vsgallery.com^
+||wallet.microsoft.com^
 ||waws-prod-blu-059.cloudapp.net^
 ||wbd.ms^
+||weather.microsoft.com^
 ||westus.cloudapp.net^
 ||weu016-breeziest-in.cloudapp.net^
 ||whiteboard.ms^
@@ -861,11 +910,14 @@
 ||windowsupdate.com^
 ||windowsvissa.com^
 ||windowsvista.kz^
+||windowupdate.org^
 ||windwosphone.com^
+||winupdate.org^
 ||woodgrovebank.com^
 ||wpc.v0cdn.net^
 ||wus-streaming-video-rt-microsoft-com.akamaized.net^
 ||wus-wsapi.cloudapp.net^
+||wustat.microsoft.com^
 ||www-live.com^
 ||xainfrontendprodeuwe.azurewebsites.net^
 ||xbetservices.akadns.net^
