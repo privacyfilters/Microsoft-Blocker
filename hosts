@@ -3,14 +3,14 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 12 April 2025
-# Version: 1.35
+# Last modified: 29 May 2025
+# Version: 1.36
 # Syntax: host
 # Number of entries: 5974
 #
 #
 ##### Custom Allow & Blocklist #####
-#0.0.0.0 0.0.0.0 api.azure.com
+#0.0.0.0 api.azure.com
 #0.0.0.0 api.nuget.org   # NuGet package manager
 #0.0.0.0 ars.smartscreen.microsoft.com   # SmartScreen application reputation service
 #0.0.0.0 asia.smartscreen-prod.microsoft.com   # SmartScreen for Asia region
@@ -79,9 +79,9 @@
 #:: w.apprep.smartscreen.microsoft.com   # Application reputation checks for SmartScreen
 #fe2.update.microsoft.com.akadns.net   # Windows Update server
 0.0.0.0 data-edge.smartscreen.microsoft.com   # Edge browser SmartScreen data collection
-0.0.0.0 graph.microsoft.com   # Microsoft Graph API
+#0.0.0.0 graph.microsoft.com   # Microsoft Graph API
 0.0.0.0 graph.print.microsoft.com   # Microsoft Graph API for print management
-0.0.0.0 graph.windows.net            # Azure AD Graph API
+#0.0.0.0 graph.windows.net            # Azure AD Graph API
 0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
 0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
 0.0.0.0 telem-edge.smartscreen.microsoft.com   # Telemetry for Edge's SmartScreen
@@ -2553,8 +2553,6 @@
 0.0.0.0 go2.microsoft.com
 0.0.0.0 goto.microsoft.com
 0.0.0.0 graph-next.fp.measure.office.com
-0.0.0.0 graph.microsoft.com
-0.0.0.0 graph.print.microsoft.com
 0.0.0.0 graph.windows.net
 0.0.0.0 graphics.microsoft.com
 0.0.0.0 greenid-prod.westus2.cloudapp.azure.com
@@ -2902,7 +2900,6 @@
 0.0.0.0 lb1.www.ms.akadns.net
 0.0.0.0 lbcakkjpo.mshome.net
 0.0.0.0 lcs.microsoft.com
-0.0.0.0 learn.microsoft.com
 0.0.0.0 learn.microsoft.com.edgekey.net.globalredir.akadns.net
 0.0.0.0 learninglab.about.ads.microsoft.com
 0.0.0.0 learninglab.ads.microsoft.com
@@ -4447,7 +4444,6 @@
 0.0.0.0 slecjadpqhxfhk.mshome.net
 0.0.0.0 sls.microsoft.com
 0.0.0.0 smartpartnermarketing.microsoft.com
-0.0.0.0 smartscreen.microsoft.com
 0.0.0.0 smetric.ads.microsoft.com
 0.0.0.0 smtp.microsoft.com
 0.0.0.0 smtp.office365.com
