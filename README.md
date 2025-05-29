@@ -1,6 +1,7 @@
 # Microsoft-Blocker: Block all Microsoft Spying
-### Block all network traffic to Microsoft while using Microsoft products. 
-### [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker) is the main regularly updated repository for Microsoft Blocker. <br>Available both on [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker) and [Github](https://github.com/privacyfilters/Microsoft-Blocker).
+### Block all network traffic to Microsoft while using Microsoft products.
+#### Because how microsoft uses many of the same urls for many of their services, including their telemetry and tracking, the proper version can cause some microsoft services not to work properly. I do not use any microsoft products anymore other than vscode, so I don't get to test the microsoft blocker filters. Feel free to open a issue if the regular filter is too aggressive, or some essential services are not working. 
+### [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker) is the home of Microsoft Blocker. Its mirrored at github for backup and availability. Use only one filter source. <br>Available both on [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker) and [Github](https://github.com/privacyfilters/Microsoft-Blocker).
 
 # Most effective with Network wide firewalls, router adblockers and DNS Sinkholes. Windows can ignore host entries related to Microsoft.
 
