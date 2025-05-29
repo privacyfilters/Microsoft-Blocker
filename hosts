@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 29 May 2025
-# Version: 1.36
+# Version: 1.37
 # Syntax: host
 # Number of entries: 5974
 #
@@ -2389,7 +2389,6 @@
 0.0.0.0 fbs1-t-msedge.net
 0.0.0.0 fcvxddsrmcwkfq.mshome.net
 0.0.0.0 fd-api-iris.trafficmanager.net
-0.0.0.0 fd.api.iris.microsoft.com
 0.0.0.0 fd.api.iris.microsoft.com # Campaigns Tracking
 0.0.0.0 fd.bingads.microsoft.com
 0.0.0.0 fdv2-t-msedge.net
