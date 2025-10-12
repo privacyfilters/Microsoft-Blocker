@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 27 March 2025
-# Version: 1.35
+# Last modified: 12 Oct 2025
+# Version: 1.36
 # Syntax: host
-# Number of entries: 6500
+# Number of entries: 6499
 #
 #
 ##### Allowlist: Allow critical urls #####
@@ -3270,7 +3270,6 @@
 0.0.0.0 messaging.microsoft.com
 0.0.0.0 messaging.office.com
 0.0.0.0 messaging.windows.com
-0.0.0.0 messenger.com
 0.0.0.0 messenger.live.com
 0.0.0.0 messenger.microsoft.com
 0.0.0.0 messenger.msn.com

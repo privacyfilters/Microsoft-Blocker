@@ -3,10 +3,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 May 2025
-# Version: 1.37
+# Last modified: 12 Oct 2025
+# Version: 1.38
 # Syntax: host
-# Number of entries: 5974
+# Number of entries: 5973
 #
 #
 ##### Custom Allow & Blocklist #####
@@ -3080,7 +3080,6 @@
 0.0.0.0 messaging.microsoft.com
 0.0.0.0 messaging.office.com
 0.0.0.0 messaging.windows.com
-0.0.0.0 messenger.com
 0.0.0.0 messenger.live.com
 0.0.0.0 messenger.microsoft.com
 0.0.0.0 messenger.msn.com
