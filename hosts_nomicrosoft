@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 Octobeer 2025
-# Version: 1.40
+# Version: 1.41
 # Syntax: host
 # Number of entries: 6499
 #
@@ -2226,6 +2226,7 @@
 0.0.0.0 download-ssl.msgamestudios.com.edgekey.net
 0.0.0.0 download-ssl.msgamestudios.com.nsatc.net
 0.0.0.0 download.microsoft.com
+0.0.0.0 download.prss.microsoft.com
 0.0.0.0 download.skype.com
 0.0.0.0 download.visualstudio.microsoft.com
 0.0.0.0 download.windowsupdate.com
@@ -4347,6 +4348,7 @@
 0.0.0.0 protection.outlook.com
 0.0.0.0 provisioningapi.microsoftonline.com
 0.0.0.0 provisioningapi.mso.msidentity.com
+0.0.0.0 prss.microsoft.com
 0.0.0.0 ps.azurewaf.microsoft.com
 0.0.0.0 pstrgqp01.blob.core.windows.net
 0.0.0.0 pti.store.microsoft.com
@@ -4826,6 +4828,7 @@
 0.0.0.0 subscribenet.com
 0.0.0.0 substrate.office.com
 0.0.0.0 suite.office.net
+0.0.0.0 sundry-fg-geo-nocn.trafficmanager.net
 0.0.0.0 sup.directory.live.com
 0.0.0.0 support-test.microsoft.com
 0.0.0.0 support.content.office.net

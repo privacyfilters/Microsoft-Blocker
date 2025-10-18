@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 07 March 2025
-! Version: 1.59
+! Last modified: 19 October 2025
+! Version: 1.61
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -23,6 +23,7 @@
 ||copilot.*microsoft.com^
 ||live.com*^
 ||msftconnecttest.com*^
+||trafficmanager.net^
 !
 !!! Other and External domains & subdomains !!!
 !! Microsoft Cloud and Azure related urls
@@ -271,6 +272,7 @@
 ||fdv2-t-msedge.net^
 ||fedtest-int.com^
 ||fedtest.com^
+||fg.microsoft.map.fastly.net^
 ||file.core.windows.net^
 ||flightingserviceweurope.cloudapp.net^
 ||flightingservicewus.cloudapp.net^
@@ -721,6 +723,7 @@
 ||playready.microsoft.com^
 ||portal.azure.com^
 ||powerappsportals.com^
+||prss.microsoft.com^
 ||px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net^
 ||queue.core.windows.net^
 ||redir1.cloudapp.net^
@@ -760,6 +763,7 @@
 ||skyprod.akadns.net^
 ||smartscreen.microsoft.com^
 ||software.net^
+||software-static.download.prss.microsoft.com^
 ||softwarewow.com^
 ||spo-msedge.net^
 ||spohealth.com^
@@ -774,6 +778,7 @@
 ||statics-marketingsites-neu-ms-com.akamaized.net^
 ||statics-marketingsites-wcus-ms-com.akamaized.net^
 ||subscribenet.com^
+||sundry-fg-geo-nocn.trafficmanager.net^
 ||support.services.microsoft.com^
 ||svc.ms^
 ||sway-cdn.com^
