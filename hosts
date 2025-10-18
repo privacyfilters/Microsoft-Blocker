@@ -3,8 +3,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 12 Oct 2025
-# Version: 1.38
+# Last modified: 19 October 2025
+# Version: 1.39
 # Syntax: host
 # Number of entries: 5973
 #
@@ -20,6 +20,7 @@
 #0.0.0.0 cdn.winget.microsoft.com   # Winget package manager CDN
 #0.0.0.0 code.visualstudio.com   # Visual Studio Code website
 #0.0.0.0 crl.microsoft.com   # Certificate Revocation List for security
+#0.0.0.0 ctldl.windowsupdate.com    # Widnows Update services
 #0.0.0.0 definitionupdates.microsoft.com   # Windows Defender definition updates
 #0.0.0.0 definitionupdates.microsoft.com.edgekey.net   # CDN for Windows Defender definitions
 #0.0.0.0 delivery.activated.win   # windows iso download
@@ -55,6 +56,7 @@
 #0.0.0.0 slscr.update.microsoft.com   # Software Licensing Service check
 #0.0.0.0 smartscreen-prod.microsoft.com   # Production SmartScreen service
 #0.0.0.0 smartscreen.microsoft.com   # SmartScreen service
+#0.0.0.0 tlu.dl.delivery.mp.microsoft.com   # Widnows Update delivery
 #0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com   # SmartScreen for UK region
 #0.0.0.0 unitedstates.smartscreen-prod.microsoft.com   # SmartScreen for US region
 #0.0.0.0 update.microsoft.com   # Windows Update service
@@ -1607,7 +1609,6 @@
 0.0.0.0 csp.microsoft.com
 0.0.0.0 csspeechstorage.blob.core.windows.net
 0.0.0.0 ctest.microsoft.com
-0.0.0.0 ctldl.windowsupdate.com
 0.0.0.0 ctldl.windowsuvxlate.com
 0.0.0.0 cu1pehnswad01.servicebus.windows.net
 0.0.0.0 cu1pehnswss01.servicebus.windows.net
@@ -4715,7 +4716,6 @@
 0.0.0.0 title.mgt.xboxlive.com.akadns.net
 0.0.0.0 tk2.plt.msn.com
 0.0.0.0 tls.microsoft.com
-0.0.0.0 tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 tm-analytics-pr.trafficmanager.net
 0.0.0.0 tm-bingstats-frontend.trafficmanager.net
 0.0.0.0 tm-enrollment-telemetry-datacore.trafficmanager.net
