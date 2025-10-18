@@ -4081,8 +4081,11 @@
 0.0.0.0 privacy.xboxlive.com
 0.0.0.0 privacy.xboxlive.com.akadns.net
 0.0.0.0 pro-wip-web.azurefd.net
+0.0.0 prod-agic-je-1.japaneast.cloudapp.azure.com  # samrtscreen nf & nav
+0.0.0.0 prod-agic-sa-3.southeastasia.cloudapp.azure.com  # samrtscreen nf & nav
 0.0.0.0 prod-api-community.windows.com
 0.0.0.0 prod-api.acompli.net
+0.0.0.0 prod-atm-wds-np.trafficmanager.net  # samrtscreen nf & nav
 0.0.0.0 prod-azurecdn-akamai-iris.azureedge.net
 0.0.0.0 prod-azurecdn-akamai-iris.ec.azureedge.net
 0.0.0.0 prod-campaignaggregator.omexexternallfb.office.net.akadns.net

@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 19 October 2025
-! Version: 1.61
+! Version: 1.63
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -24,6 +24,8 @@
 ||live.com*^
 ||msftconnecttest.com*^
 ||trafficmanager.net^
+||prod-agic-*-*.*.cloudapp.azure.com^
+||prod-atm-*-*.trafficmanager.net^
 !
 !!! Other and External domains & subdomains !!!
 !! Microsoft Cloud and Azure related urls
@@ -92,7 +94,7 @@
 ! Flashtalking - Ad serving platform
 ||flashtalking.com^
 !
-!!!!!!!!! General Blocklist !!!!!!!!!
+!!!!!!!!! Strict Blocklist !!!!!!!!!
 ||1drv.com^
 ||1drv.ms^
 ||a-dc-msedge.net^
@@ -175,6 +177,7 @@
 ||chinacloudapi.cn^
 ||cinemania.com^
 ||cinemanow.com^
+||cl-glcb907925.gcdn.co^
 ||clarity.ms^
 ||clipchamp.com^
 ||cloud.microsoft^
@@ -193,6 +196,7 @@
 ||crmlive.net^
 ||crmliveperf.com^
 ||crmlivetie2.com^
+||ctldl.windowsupdate.com.delivery.microsoft.com^
 ||cus-prod-msgsearch.cloudapp.net^
 ||customsearch.ai^
 ||data.microsoft.com^
@@ -270,6 +274,7 @@
 ||f-msedge.net^
 ||fbs1-t-msedge.net^
 ||fdv2-t-msedge.net^
+||fe2cr.update.msft.com.trafficmanager.net^
 ||fedtest-int.com^
 ||fedtest.com^
 ||fg.microsoft.map.fastly.net^
@@ -286,6 +291,7 @@
 ||generalaudittool.com^
 ||getmicrosoftkey.com^
 ||gfx.ms^
+||glb.sls.prod.dcat.dsp.trafficmanager.net^
 ||globalredir.akadns.net^
 ||groove.microsoft.com^
 ||healthvolt.net^
@@ -761,9 +767,10 @@
 ||skypeecs-prod-usw-0.cloudapp.net^
 ||skypeforbusiness.com^
 ||skyprod.akadns.net^
+||sls.update.microsoft.com^
 ||smartscreen.microsoft.com^
-||software.net^
 ||software-static.download.prss.microsoft.com^
+||software.net^
 ||softwarewow.com^
 ||spo-msedge.net^
 ||spohealth.com^
@@ -884,6 +891,7 @@
 ||winupdate.org^
 ||woodgrovebank.com^
 ||wpc.v0cdn.net^
+||wu-b-net.trafficmanager.net^
 ||wus-streaming-video-rt-microsoft-com.akamaized.net^
 ||wus-wsapi.cloudapp.net^
 ||wustat.microsoft.com^

@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 Octobeer 2025
-# Version: 1.41
+# Version: 1.42
 # Syntax: host
 # Number of entries: 6499
 #
@@ -1567,6 +1567,7 @@
 0.0.0.0 ciwkobmgd.mshome.net
 0.0.0.0 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net
 0.0.0.0 cjs.diagnostics.office.com
+0.0.0.0 cl-glcb907925.gcdn.co
 0.0.0.0 clarity-microsoft-com.b-0005.b-msedge.net
 0.0.0.0 clarity.azurefd.net
 0.0.0.0 clarity.microsoft.com
@@ -1759,6 +1760,7 @@
 0.0.0.0 csx.azure.com
 0.0.0.0 ctest.microsoft.com
 0.0.0.0 ctldl.windowsupdate.com
+0.0.0.0 ctldl.windowsupdate.com.delivery.microsoft.com
 0.0.0.0 ctldl.windowsuvxlate.com
 0.0.0.0 cu1pehnswad01.servicebus.windows.net
 0.0.0.0 cu1pehnswss01.servicebus.windows.net
@@ -2567,6 +2569,7 @@
 0.0.0.0 fe2.wq.microsoft.com
 0.0.0.0 fe2.ws.microsoft.com
 0.0.0.0 fe2cr.update.microsoft.com
+0.0.0.0 fe2cr.update.msft.com.trafficmanager.net
 0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 0.0.0.0 fe3.delivery.mp.microsoft.com
 0.0.0.0 fe3.update.microsoft.com
@@ -2720,6 +2723,7 @@
 0.0.0.0 git.activated.win
 0.0.0.0 glance-analytics.trafficmanager.net
 0.0.0.0 glb.api.prod.dcat.dsp.trafficmanager.net
+0.0.0.0 glb.sls.prod.dcat.dsp.trafficmanager.net
 0.0.0.0 glbdns2.microsoft.com
 0.0.0.0 global.aria.events.data.trafficmanager.net
 0.0.0.0 global.asimov.events.data.trafficmanager.net
@@ -4303,8 +4307,11 @@
 0.0.0.0 privacy.xboxlive.com
 0.0.0.0 privacy.xboxlive.com.akadns.net
 0.0.0.0 pro-wip-web.azurefd.net
+0.0.0.0 prod-agic-je-1.japaneast.cloudapp.azure.com   # samrtscreen nf & nav
+0.0.0.0 prod-agic-sa-3.southeastasia.cloudapp.azure.com   # samrtscreen nf & nav
 0.0.0.0 prod-api-community.windows.com
 0.0.0.0 prod-api.acompli.net
+0.0.0.0 prod-atm-wds-np.trafficmanager.net    # samrtscreen nf & nav
 0.0.0.0 prod-azurecdn-akamai-iris.azureedge.net
 0.0.0.0 prod-azurecdn-akamai-iris.ec.azureedge.net
 0.0.0.0 prod-campaignaggregator.omexexternallfb.office.net.akadns.net
@@ -4691,8 +4698,8 @@
 0.0.0.0 social.microsoft.com
 0.0.0.0 social.microsoft.com.nsatc.net
 0.0.0.0 socks.microsoft.com
-0.0.0.0 software.net
 0.0.0.0 software-static.download.prss.microsoft.com
+0.0.0.0 software.net
 0.0.0.0 softwarewow.com
 0.0.0.0 solitaire.service.microsoft.com
 0.0.0.0 solitaireevents.microsoftcasualgames.com
@@ -5426,6 +5433,7 @@
 0.0.0.0 wscont1.apps.microsoft.com
 0.0.0.0 wscont2.apps.microsoft.com
 0.0.0.0 wterr.windows.com
+0.0.0.0 wu-b-net.trafficmanager.net
 0.0.0.0 wureporting.prod.dcat.dsp.trafficmanager.net
 0.0.0.0 wus-firstpartyapps.oaspapps.com
 0.0.0.0 wus-streaming-video-rt-microsoft-com.akamaized.net
