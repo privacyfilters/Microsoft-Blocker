@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 October 2025
-# Version: 1.39
+# Version: 1.41
 # Syntax: host
 # Number of entries: 5973
 #
@@ -29,6 +29,7 @@
 #0.0.0.0 download.visualstudio.microsoft.com   # Visual Studio downloads
 #0.0.0.0 europe.smartscreen-prod.microsoft.com   # SmartScreen for Europe region
 #0.0.0.0 fe2.update.microsoft.com.akadns.net   # Windows Update server
+#0.0.0.0 fg.microsoft.map.fastly.net    # Windows Iso download cdn from massgrave.dev
 #0.0.0.0 fs.microsoft.com   # File system related services
 #0.0.0.0 globalcdn.nuget.org   # NuGet package manager
 #0.0.0.0 go.microsoft.com   # Microsoft's redirect service
@@ -50,6 +51,7 @@
 #0.0.0.0 platform.linkedin.com   # LinkedIn platform, a Microsoft subsidiary
 #0.0.0.0 ponf.linkedin.com   # LinkedIn platform, a Microsoft subsidiary
 #0.0.0.0 sdx.microsoft.com   # Microsoft Software Developer Experience portal
+#0.0.0.0 software-static.download.prss.microsoft.com    # Microsoft Windows Iso downlaod source
 #0.0.0.0 sls.emea.update.microsoft.com.akadns.net   # Software Licensing Service for EMEA
 #0.0.0.0 sls.update.microsoft.com.akadns.net   # Software Licensing Service
 #0.0.0.0 sls.update.microsoft.com.nsatc.net   # Software Licensing Service (network specific)
@@ -2421,7 +2423,6 @@
 0.0.0.0 fffwkmouvup.mshome.net
 0.0.0.0 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
 0.0.0.0 fflgcjvguwa.mshome.net
-0.0.0.0 fg.microsoft.map.fastly.net
 0.0.0.0 fhir.microsoft.com
 0.0.0.0 fig.microsoft.com
 0.0.0.0 file.core.windows.net

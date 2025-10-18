@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 29 May 2025
-! Version: 1.60
+! Last modified: 19 October 2025
+! Version: 1.61
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -13,14 +13,21 @@
 !!! critical url !!!
 !Rule_Not_Applied!@@||v0cdn.net^
 !Rule_Not_Applied!@@||msecnd.net^
+!
+!!! Widnows Iso download from massgrave.dev
+@@||software-static.download.prss.microsoft.com^
+@@||fg.microsoft.map.fastly.net^
+!
 !!! windows Update related Urls !!!
 @@||update.microsoft.com^ 
 @@||delivery.mp.microsoft.com^
 @@||windowsupdate.com^
 @@||msftconnecttest.com^ 
+!
 !!! winget, unigetui etc !!!
 @@||cdn.winget.microsoft.com^
-||| windows defender and security |||
+!
+!!! windows defender and security !!!
 @@||definitionupdates.microsoft.com.edgekey.net^
 @@||definitionupdates.microsoft.com^
 @@||oneocsp.microsoft.com^
@@ -31,14 +38,18 @@
 @@||crl.microsoft.com^
 ||data-edge.smartscreen.microsoft.com^$important
 ||telem-edge.smartscreen.microsoft.com^$important
+!
 !!! vscode and extensions !!!
 @@||code.visualstudio.com^
 @@||download.visualstudio.microsoft.com^
 @@||openvsxorg.blob.core.windows.net^
+!
 !!! windows Runtime !!!
 @@||dotnet.microsoft.com^
+!
 !!! Microsoft Support and information !!!
 !Rule_Not_Applied!@@||learn.microsoft.com^
+!
 !!! Oter Urls !!!
 @@||fs.microsoft.com^
 @@||go.microsoft.com^
@@ -759,6 +770,7 @@
 ||playready.microsoft.com^
 ||portal.azure.com^
 ||powerappsportals.com^
+||prss.microsoft.com^
 ||queue.core.windows.net^
 ||remotedesktop.com^
 ||rewardsplatform.microsoft.com^
