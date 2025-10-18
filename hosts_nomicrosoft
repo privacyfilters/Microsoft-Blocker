@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 12 Oct 2025
-# Version: 1.36
+# Last modified: 19 Octobeer 2025
+# Version: 1.40
 # Syntax: host
 # Number of entries: 6499
 #
@@ -4691,6 +4691,7 @@
 0.0.0.0 social.microsoft.com.nsatc.net
 0.0.0.0 socks.microsoft.com
 0.0.0.0 software.net
+0.0.0.0 software-static.download.prss.microsoft.com
 0.0.0.0 softwarewow.com
 0.0.0.0 solitaire.service.microsoft.com
 0.0.0.0 solitaireevents.microsoftcasualgames.com
