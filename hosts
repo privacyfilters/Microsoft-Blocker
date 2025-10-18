@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 October 2025
-# Version: 1.41
+# Version: 1.42
 # Syntax: host
 # Number of entries: 5973
 #
@@ -39,8 +39,6 @@
 #0.0.0.0 modpim.com   # Likely related to Microsoft's product information management
 #0.0.0.0 msecnd.net   # Microsoft's CDN operated by Akamai
 #0.0.0.0 msftconnecttest.com   # Microsoft connectivity test service
-#0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
-#0.0.0.0 nf.smartscreen.microsoft.com   # Network filter for SmartScreen
 #0.0.0.0 nuget.rog   # NuGet package manager
 #0.0.0.0 ocs.microsoft.com   # Microsoft's Online Certificate Status Protocol server
 #0.0.0.0 ocsp.digicert.com   # DigiCert's OCSP server for certificate revocation status
@@ -77,7 +75,6 @@
 #:: definitionupdates.microsoft.com   # Windows Defender definition updates
 #:: europe.smartscreen-prod.microsoft.com   # SmartScreen for Europe region
 #:: mscrl.microsoft.com   # Microsoft Certificate Revocation List
-#:: nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
 #:: smartscreen-prod.microsoft.com   # Production SmartScreen service
 #:: urs.smartscreen.microsoft.com   # URL Reputation Service for SmartScreen
 #:: w.apprep.smartscreen.microsoft.com   # Application reputation checks for SmartScreen
@@ -88,8 +85,12 @@
 #0.0.0.0 graph.windows.net            # Azure AD Graph API
 0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
 0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
+0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
+0.0.0.0 nf.smartscreen.microsoft.com   # Network filter for SmartScreen
 0.0.0.0 telem-edge.smartscreen.microsoft.com   # Telemetry for Edge's SmartScreen
 :: login.microsoftonline.com   # Microsoft's online login service
+:: nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
+:: nf.smartscreen.microsoft.com   # Network filter for SmartScreen
 #
 #
 ######## General Blocklist ########
