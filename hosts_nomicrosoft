@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 19 Octobeer 2025
-# Version: 1.42
+# Last modified: 20 Octobeer 2025
+# Version: 1.43
 # Syntax: host
 # Number of entries: 6499
 #
@@ -4150,6 +4150,7 @@
 0.0.0.0 p.pfx.ms
 0.0.0.0 p.sfx.ms
 0.0.0.0 packages.dmd.metaservices.microsoft.com
+0.0.0.0 packages.microsoft.com
 0.0.0.0 packages.nuget.org
 0.0.0.0 padpmnrtupt.mshome.net
 0.0.0.0 pages.store.office.com
