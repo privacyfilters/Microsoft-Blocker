@@ -85,6 +85,7 @@
 #0.0.0.0 graph.windows.net            # Azure AD Graph API
 0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
 0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
+0.0.0.0 msedge.b.tlu.dl.delivery.mp.microsoft.com   # Microsoft Edge updates
 0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
 0.0.0.0 nf.smartscreen.microsoft.com   # Network filter for SmartScreen
 0.0.0.0 telem-edge.smartscreen.microsoft.com   # Telemetry for Edge's SmartScreen
