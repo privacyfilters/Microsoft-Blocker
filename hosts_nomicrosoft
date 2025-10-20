@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 20 Octobeer 2025
-# Version: 1.45
+# Version: 1.46
 # Syntax: host
 # Number of entries: 6499
 #
@@ -2309,6 +2309,7 @@
 0.0.0.0 e11290.dspg.akamaiedge.net
 0.0.0.0 e12564.dspb.akamaiedge.net
 0.0.0.0 e13678.dspb.akamaiedge.net
+0.0.0.0 e13678.dscb.akamaiedge.net
 0.0.0.0 e15275.g.akamaiedge.net
 0.0.0.0 e16646.dscg.akamaiedge.net # Microsoft DesktopAppInstaller
 0.0.0.0 e16646.g.akamaiedge.net
