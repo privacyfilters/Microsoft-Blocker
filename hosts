@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 October 2025
-# Version: 1.49
+# Version: 1.50
 # Syntax: host
 # Number of entries: 5973
 #
@@ -88,6 +88,7 @@
 0.0.0.0 login.microsoftonline.com   # Microsoft's online login service
 0.0.0.0 msedge.b.tlu.dl.delivery.mp.microsoft.com   # Microsoft Edge updates
 0.0.0.0 nav.smartscreen.microsoft.com   # Navigation checks for SmartScreen
+0.0.0.0 nav-edge.smartscreen.microsoft.com  # Navigation checks for SmartScreen
 0.0.0.0 nf.smartscreen.microsoft.com   # Network filter for SmartScreen
 0.0.0.0 telem-edge.smartscreen.microsoft.com   # Telemetry for Edge's SmartScreen
 :: login.microsoftonline.com   # Microsoft's online login service

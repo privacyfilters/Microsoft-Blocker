@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 20 October 2025
-! Version: 1.67
+! Version: 1.68
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -31,6 +31,7 @@
 !! smartscreen
 @@||smartscreen.microsoft.com^
 ||nav.smartscreen.microsoft.com^$important
+||nav-edge.smartscreen.microsoft.com^$important
 ||nf.smartscreen.microsoft.com^$important
 ||prod-agic-*-*.*.cloudapp.azure.com^
 ||prod-atm-*-*.trafficmanager.net^
