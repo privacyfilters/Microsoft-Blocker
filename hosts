@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 October 2025
-# Version: 1.52
+# Version: 1.53
 # Syntax: host
 # Number of entries: 5973
 #
@@ -797,9 +797,19 @@
 0.0.0.0 assets.onestore.ms
 0.0.0.0 assets.onestore.ms.akadns.net
 0.0.0.0 assets.onestore.ms.edgekey.net
+0.0.0.0 assets0.msn.com
+0.0.0.0 assets1.msn.com
 0.0.0.0 assets1.xboxlive.com
+0.0.0.0 assets2.msn.com
 0.0.0.0 assets2.xboxlive.com
+0.0.0.0 assets3.msn.com
 0.0.0.0 assets3.xboxlive.com
+0.0.0.0 assets4.msn.com
+0.0.0.0 assets5.msn.com
+0.0.0.0 assets6.msn.com
+0.0.0.0 assets7.msn.com
+0.0.0.0 assets8.msn.com
+0.0.0.0 assets9.msn.com
 0.0.0.0 assuritystorage.blob.core.windows.net
 0.0.0.0 asyncgw.teams.microsoft.com
 0.0.0.0 atdmt.com
@@ -2150,8 +2160,8 @@
 0.0.0.0 e10583.dspg.akamaiedge.net
 0.0.0.0 e11290.dspg.akamaiedge.net
 0.0.0.0 e12564.dspb.akamaiedge.net
-0.0.0.0 e13678.dspb.akamaiedge.net
 0.0.0.0 e13678.dscb.akamaiedge.net
+0.0.0.0 e13678.dspb.akamaiedge.net
 0.0.0.0 e15275.g.akamaiedge.net
 0.0.0.0 e16646.dscg.akamaiedge.net # Microsoft DesktopAppInstaller
 0.0.0.0 e16646.g.akamaiedge.net
@@ -4088,7 +4098,7 @@
 0.0.0.0 privacy.xboxlive.com
 0.0.0.0 privacy.xboxlive.com.akadns.net
 0.0.0.0 pro-wip-web.azurefd.net
-0.0.0 prod-agic-je-1.japaneast.cloudapp.azure.com  # samrtscreen nf & nav
+0.0.0.0 prod-agic-je-1.japaneast.cloudapp.azure.com  # samrtscreen nf & nav
 0.0.0.0 prod-agic-sa-3.southeastasia.cloudapp.azure.com  # samrtscreen nf & nav
 0.0.0.0 prod-api-community.windows.com
 0.0.0.0 prod-api.acompli.net
@@ -5317,6 +5327,7 @@
 0.0.0.0 xpay-edgetipping-api-atm-prod.trafficmanager.net
 0.0.0.0 xpay-edgetipping-gateway.centralus.cloudapp.azure.com
 0.0.0.0 xpay-int.microsoft.com
+0.0.0.0 xpaywalletcdn-prod.azureedge.net
 0.0.0.0 xrm.microsoft.com
 0.0.0.0 xsts.auth.xboxlive.com
 0.0.0.0 xsts.auth.xboxlive.com.akadns.net

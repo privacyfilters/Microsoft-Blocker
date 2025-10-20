@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 20 October 2025
-! Version: 1.68
+! Version: 1.69
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -73,6 +73,7 @@
 !
 !!!!!!!!! Blocklist !!!!!!!!!
 !!! Wildcard rules !!!
+||assets*.msn.com^
 ||*microsoft*.com*^
 ||*msedge.net^
 ||*msn*.com*^
@@ -961,6 +962,7 @@
 ||xboxlive.com^
 ||xboxrc.com^
 ||xboxservices.com^
+||xpaywalletcdn-prod.azureedge.net^
 ||yahoobingnetwork.com^
 ||yammer.com^
 ||yammerusercontent.com
