@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 October 2025
-# Version: 1.45
+# Version: 1.49
 # Syntax: host
 # Number of entries: 5973
 #
@@ -81,6 +81,7 @@
 #fe2.update.microsoft.com.akadns.net   # Windows Update server
 0.0.0.0 data-edge.smartscreen.microsoft.com   # Edge browser SmartScreen data collection
 #0.0.0.0 graph.microsoft.com   # Microsoft Graph API
+0.0.0.0 edge-cloud-resource-static.azureedge.net    # Microsoft Edge connection
 0.0.0.0 graph.print.microsoft.com   # Microsoft Graph API for print management
 #0.0.0.0 graph.windows.net            # Azure AD Graph API
 0.0.0.0 learn.microsoft.com   # Microsoft Learn for educational content
@@ -363,6 +364,7 @@
 0.0.0.0 a2fd1692ef8e80fa71f1ce0da1c1ae20.clo.footprintdns.com
 0.0.0.0 a32868cabb2dfcdcd2d70d08d4320f5a.clo.footprintdns.com
 0.0.0.0 a4.bing.com
+0.0.0.0 a434.dscr.akamai.net
 0.0.0.0 a56ca0ee739b62a3cb023f6a38669daa.clo.footprintdns.com
 0.0.0.0 a5935048907f23e6994226ccb7ce5c0a.clo.footprintdns.com
 0.0.0.0 a5b7099a50523b927cea07ad3ff3d656.clo.footprintdns.com
@@ -2156,6 +2158,7 @@
 0.0.0.0 e2.xboxlive.com
 0.0.0.0 e3.xboxlive.com
 0.0.0.0 e6913.dscx.akamaiedge.net
+0.0.0.0 e86303.dscx.akamaiedge.net
 0.0.0.0 e87.dscb.akamaiedge.net
 0.0.0.0 e87.dspg.akamaiedge.net
 0.0.0.0 e87.dspg.akamaiedge.net # Avatar
