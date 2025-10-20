@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 20 Octobeer 2025
-# Version: 1.46
+# Version: 1.47
 # Syntax: host
 # Number of entries: 6499
 #
@@ -2382,6 +2382,7 @@
 0.0.0.0 edgeassetservice.afd.azureedge.net
 0.0.0.0 edgeassetservice.azureedge.net
 0.0.0.0 edgebooks.rec.mp.microsoft.com
+0.0.0.0 edgecdn-embza6g8cacagcbn.z01.azurefd.net
 0.0.0.0 edgemarketing.azure.com
 0.0.0.0 edgemicroservices.loadbalancer.net
 0.0.0.0 edgeoffer.microsoft.com
