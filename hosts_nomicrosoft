@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 20 Octobeer 2025
-# Version: 1.44
+# Version: 1.45
 # Syntax: host
 # Number of entries: 6499
 #
@@ -4157,6 +4157,7 @@
 0.0.0.0 par02p.wns.windows.com
 0.0.0.0 part-0014.t-0009.fdv2-t-msedge.net
 0.0.0.0 part-0014.t-0009.t-s1-msedge.net
+0.0.0.0 part-0031.t-0009.fb-t-msedge.net
 0.0.0.0 part-0031.t-0009.t-msedge.net
 0.0.0.0 part-0033.t-0009.fdv2-t-msedge.net
 0.0.0.0 partner-all.outlook.cn
