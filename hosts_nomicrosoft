@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 20 Octobeer 2025
-# Version: 1.50
+# Version: 1.51
 # Syntax: host
 # Number of entries: 6499
 #
@@ -961,6 +961,7 @@
 0.0.0.0 avatar.microsoft.com
 0.0.0.0 avwhubio.mshome.net
 0.0.0.0 axis.microsoft.com
+0.0.0.0 ax-0002.ax-msedge.net
 0.0.0.0 az15297.vo.msecnd.net
 0.0.0.0 az158878.vo.msecnd.net
 0.0.0.0 az361816.vo.msecnd.net
