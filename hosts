@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 19 October 2025
-# Version: 1.51
+# Version: 1.52
 # Syntax: host
 # Number of entries: 5973
 #
@@ -2487,7 +2487,6 @@
 0.0.0.0 fs.microsoft.com
 0.0.0.0 fsad.trafficmanager.net
 0.0.0.0 ftp.microsoft.com
-0.0.0.0 functional.events.data. microsoft.com
 0.0.0.0 functional.events.data.microsoft.com
 0.0.0.0 fuse.microsoft.com
 0.0.0.0 futuredecoded.microsoft.com
