@@ -3,6 +3,8 @@
 #### Because how microsoft uses many of the same urls for many of their services, including their telemetry and tracking, the proper version can cause some microsoft services not to work properly. I do not use any microsoft products anymore other than vscode, so I don't get to test the microsoft blocker filters. Feel free to open an issue if the regular filter is too aggressive, or some essential services are not working. 
 ### [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker) is the home of Microsoft Blocker. Its mirrored at github for backup and availability. Use only one filter source. <br>Available both on [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker) and [Github](https://github.com/privacyfilters/Microsoft-Blocker)(mirror).
 
+## Microsoft Blocker filters is focused on blocking all Microsoft Spying. If you only need minimal tracking protection, you should use [Hegezi](https://github.com/hagezi/dns-blocklists)'s [Native Trackers:Microsoft](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#native) and [celenity](https://codeberg.org/celenity/)'s [Badblock Microsoft individual list](https://codeberg.org/celenity/BadBlock#individual-lists).
+
 # Most effective with Network wide firewalls, router adblockers and DNS Sinkholes. Windows can ignore host entries related to Microsoft.
 
 ## Direct DNS filters and host files links:
