@@ -4,7 +4,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 21 October 2025
-# Version: 1.54
+# Version: 1.55
 # Syntax: host
 # Number of entries: 5973
 #
@@ -2766,6 +2766,8 @@
 0.0.0.0 imap.office365.com
 0.0.0.0 img-prod-cms-rt-microsoft-com.akamaized.net
 0.0.0.0 img-s-msn-com.akamaized.net
+0.0.0.0 img-s.msn.cn
+0.0.0.0 img-s.msn.cn.eo.dnse4.com
 0.0.0.0 img.microsoft.com
 0.0.0.0 img.stb.s-msn.com
 0.0.0.0 imvendorportal.com
@@ -3866,9 +3868,98 @@
 0.0.0.0 onedsblobprdeus15.eastus.cloudapp.azure.com
 0.0.0.0 onedsblobprdeus17.eastus.cloudapp.azure.com
 0.0.0.0 onedscolprdcus01.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus02.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus03.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus04.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus05.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus06.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus07.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus08.centralus.cloudapp.azure.com
 0.0.0.0 onedscolprdcus09.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus10.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus11.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus12.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus13.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus14.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus15.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus16.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus17.centralus.cloudapp.azure.com
 0.0.0.0 onedscolprdcus18.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus19.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus20.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus21.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus22.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus23.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus24.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus25.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus26.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus27.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus28.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus29.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus30.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus31.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus32.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus33.centralus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus01.eastus.cloudapp.azure.com
 0.0.0.0 onedscolprdeus02.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus03.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus04.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus05.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus06.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus07.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus08.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus09.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus10.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus11.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus12.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus13.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus14.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus15.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus16.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus17.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus18.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus19.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus20.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus21.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus22.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus23.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus24.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus25.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus26.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus27.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus28.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdeus30.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus01.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus02.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus03.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus04.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus05.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus06.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus07.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus08.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus09.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus10.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus11.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus12.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus13.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus14.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus15.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus16.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus17.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus18.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus19.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus20.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus22.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus23.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus24.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus25.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus26.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus27.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus28.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus29.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus30.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus31.westus.cloudapp.azure.com
+0.0.0.0 onedscolprdwus32.westus.cloudapp.azure.com
 0.0.0.0 onenote.com
 0.0.0.0 onenote.net
 0.0.0.0 onenote.officeapps.live.com
