@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 21 Octobeer 2025
-# Version: 1.59
+# Version: 1.60
 # Syntax: host
 # Number of entries: 6748
 #
@@ -470,6 +470,7 @@
 0.0.0.0 a0001.a-msedge.net
 0.0.0.0 a13a6c354d99f8f26ff6cdd11dea9561.clo.footprintdns.com
 0.0.0.0 a1856.g2.akamai.net
+0.0.0.0 a1834.dscg2.akamai.net
 0.0.0.0 a1916.dscg2.akamai.net
 0.0.0.0 a194f36460c3ac6663710c0bc5c223cf.clo.footprintdns.com
 0.0.0.0 a22896bb6d6b3dd452a6d7412964cfff.clo.footprintdns.com
