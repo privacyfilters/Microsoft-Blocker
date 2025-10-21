@@ -5,7 +5,7 @@
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 21 October 2025
-! Version: 1.70
+! Version: 1.71
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -25,6 +25,9 @@
 ||*msn*.in*^
 ||onedscolprd*.*.cloudapp.azure.com^
 ||bing.com*^
+||bing.cn*^
+||bing.jp*^
+||bing.in*^
 ||copilot.*microsoft.com^
 ||edge*.azureedge.net^
 ||edgecdn*.azurefd.net^
@@ -33,6 +36,7 @@
 ||trafficmanager.net^
 ||prod-agic-*-*.*.cloudapp.azure.com^
 ||prod-atm-*-*.trafficmanager.net^
+||xpay*.azureedge.net^
 !
 !!! Other and External domains & subdomains !!!
 !! Microsoft Cloud and Azure related urls

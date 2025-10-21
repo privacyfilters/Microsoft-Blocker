@@ -5,7 +5,7 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 21 Octobeer 2025
-# Version: 1.57
+# Version: 1.58
 # Syntax: host
 # Number of entries: 6499
 #
@@ -5785,6 +5785,7 @@
 0.0.0.0 xnotify.xboxlive.com
 0.0.0.0 xnotify.xboxlive.com.nsatc.net
 0.0.0.0 xpay-aks-int-eus.eastus.cloudapp.azure.com
+0.0.0.0 xpaycdn-prod.azureedge.net
 0.0.0.0 xpay-edgetipping-api-atm-prod.trafficmanager.net
 0.0.0.0 xpay-edgetipping-gateway.centralus.cloudapp.azure.com
 0.0.0.0 xpay-int.microsoft.com
