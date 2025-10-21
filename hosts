@@ -4,9 +4,9 @@
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 21 October 2025
-# Version: 1.58
+# Version: 1.59
 # Syntax: host
-# Number of entries: 5973
+# Number of entries: 6218
 #
 #
 ##### Custom Allow & Blocklist #####
@@ -880,7 +880,15 @@
 0.0.0.0 avatar-service-prod-b-eus2.cloudapp.net
 0.0.0.0 avatar.microsoft.com
 0.0.0.0 avwhubio.mshome.net
+0.0.0.0 ax-0001.ax-msedge.net
 0.0.0.0 ax-0002.ax-msedge.net
+0.0.0.0 ax-0003.ax-msedge.net
+0.0.0.0 ax-0004.ax-msedge.net
+0.0.0.0 ax-0005.ax-msedge.net
+0.0.0.0 ax-0006.ax-msedge.net
+0.0.0.0 ax-0007.ax-msedge.net
+0.0.0.0 ax-0008.ax-msedge.net
+0.0.0.0 ax-0009.ax-msedge.net
 0.0.0.0 axis.microsoft.com
 0.0.0.0 az15297.vo.msecnd.net
 0.0.0.0 az158878.vo.msecnd.net
@@ -2782,6 +2790,7 @@
 0.0.0.0 i.s1.social.ms.akadns.net
 0.0.0.0 i1.services.social.microsoft.com
 0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 i1.services.social.microsoft.com.v10.vortex-win.data.microsoft.com
 0.0.0.0 i1.services.social.microsoft.comv10.vortex-win.data.microsoft.com
 0.0.0.0 i1.social.s-msft.com
 0.0.0.0 i2-technet.sec.s-msft.com
@@ -4005,6 +4014,36 @@
 0.0.0.0 onedscolprdeus27.eastus.cloudapp.azure.com
 0.0.0.0 onedscolprdeus28.eastus.cloudapp.azure.com
 0.0.0.0 onedscolprdeus30.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdweu01.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu02.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu03.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu04.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu05.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu06.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu07.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu08.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu09.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu10.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu11.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu12.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu13.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu14.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu15.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu16.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu17.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu18.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu19.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu20.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu21.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu22.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu23.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu24.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu25.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu26.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu27.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu28.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu29.westeurope.cloudapp.azure.com  
+0.0.0.0 onedscolprdweu30.westeurope.cloudapp.azure.com
 0.0.0.0 onedscolprdwus01.westus.cloudapp.azure.com
 0.0.0.0 onedscolprdwus02.westus.cloudapp.azure.com
 0.0.0.0 onedscolprdwus03.westus.cloudapp.azure.com
@@ -5518,10 +5557,10 @@
 0.0.0.0 xnotify.xboxlive.com
 0.0.0.0 xnotify.xboxlive.com.nsatc.net
 0.0.0.0 xpay-aks-int-eus.eastus.cloudapp.azure.com
-0.0.0.0 xpaycdn-prod.azureedge.net
 0.0.0.0 xpay-edgetipping-api-atm-prod.trafficmanager.net
 0.0.0.0 xpay-edgetipping-gateway.centralus.cloudapp.azure.com
 0.0.0.0 xpay-int.microsoft.com
+0.0.0.0 xpaycdn-prod.azureedge.net
 0.0.0.0 xpaywalletcdn-prod.azureedge.net
 0.0.0.0 xrm.microsoft.com
 0.0.0.0 xsts.auth.xboxlive.com
