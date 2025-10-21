@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 Octobeer 2025
-# Version: 1.53
+# Last modified: 21 Octobeer 2025
+# Version: 1.54
 # Syntax: host
 # Number of entries: 6499
 #
@@ -527,7 +527,6 @@
 0.0.0.0 activity-consumer.trafficmanager.net
 0.0.0.0 activity.microsoft.com
 0.0.0.0 activity.windows.com
-0.0.0.0 activity.windows.com # brake Authenticator backup function
 0.0.0.0 activity.windows.us
 0.0.0.0 ad.atdmt.com
 0.0.0.0 ad.linkedin.com
@@ -559,7 +558,7 @@
 0.0.0.0 ads.bingads.microsoft.com
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.jp.msn.com
-0.0.0.0 ads.linkedin.com #LinkedIn is a Microsoft subsidiary
+0.0.0.0 ads.linkedin.com
 0.0.0.0 ads.microsoft.com
 0.0.0.0 ads.microsoft.com.ssl.sc.omtrdc.net
 0.0.0.0 ads.msads.net
@@ -589,7 +588,7 @@
 0.0.0.0 advertise.microsoft.com
 0.0.0.0 advertiseonbing.azurewebsites.net
 0.0.0.0 advertising.jp.msn.com
-0.0.0.0 advertising.linkedin.com #LinkedIn is a Microsoft subsidiary
+0.0.0.0 advertising.linkedin.com
 0.0.0.0 advertising.microsoft.com
 0.0.0.0 aefd.nelreports.net
 0.0.0.0 afd-a-acdc-direct.office.com
@@ -656,7 +655,7 @@
 0.0.0.0 analytics.msn.com
 0.0.0.0 analytics.msn.com.nsatc.net
 0.0.0.0 analytics.msnbc.msn.com
-0.0.0.0 analytics.pointdrive.linkedin.com #LinkedIn is a Microsoft subsidiary
+0.0.0.0 analytics.pointdrive.linkedin.com
 0.0.0.0 analytics.pstnhub.microsoft.com
 0.0.0.0 analytics.traffic.microsoft.com
 0.0.0.0 analytics.trafficmanager.net
@@ -692,7 +691,7 @@
 0.0.0.0 api.bing.microsoft.com
 0.0.0.0 api.bingads.microsoft.com
 0.0.0.0 api.cdn.microsoft.net
-0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net # Microsoft Edge Update
+0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net
 0.0.0.0 api.cdp.microsoft.com
 0.0.0.0 api.cognitive.microsoft.com
 0.0.0.0 api.copilot.microsoft.com
@@ -754,7 +753,6 @@
 0.0.0.0 app.analytics.microsoft.com
 0.0.0.0 app.api.microsoft.com
 0.0.0.0 app.clipchamp.com
-0.0.0.0 app.clipchamp.com # Clipchamp is a Microsoft subsidiary since its acquisition in 2021
 0.0.0.0 app.content.microsoft.com
 0.0.0.0 app.copilot.microsoft.com
 0.0.0.0 app.microsoft.com
@@ -897,7 +895,7 @@
 0.0.0.0 asm-skype-com.s-0006.s-msedge.net
 0.0.0.0 aspnetcdn.com
 0.0.0.0 assessment.microsoft.com
-0.0.0.0 assets-yammer.com #Yammer is a Microsoft subsidiary
+0.0.0.0 assets-yammer.com
 0.0.0.0 assets.activity.windows.com
 0.0.0.0 assets.microsoft.com
 0.0.0.0 assets.msn.com
@@ -1234,7 +1232,7 @@
 0.0.0.0 brnqjniwe.mshome.net
 0.0.0.0 broadcast.skype.com
 0.0.0.0 broker.microsoft.com
-0.0.0.0 browser.events.data.m # Partial URL, likely related to browser.events.data.microsoft.com
+0.0.0.0 browser.events.data.m
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 browser.events.data.msn.cn
 0.0.0.0 browser.events.data.msn.com
@@ -1253,7 +1251,7 @@
 0.0.0.0 business-bing-com.b-0005.b-msedge.net
 0.0.0.0 business.app.microsoft.com
 0.0.0.0 business.bing.com
-0.0.0.0 business.linkedin.com #LinkedIn is a Microsoft subsidiary
+0.0.0.0 business.linkedin.com
 0.0.0.0 business.microsoft.com
 0.0.0.0 business.office.com
 0.0.0.0 business.skype.com
@@ -1674,7 +1672,6 @@
 0.0.0.0 config.azure.com
 0.0.0.0 config.edge.microsoft.com
 0.0.0.0 config.edge.skype.com
-0.0.0.0 config.edge.skype.com # Office Telemetrie
 0.0.0.0 config.fp.measure.office.com
 0.0.0.0 config.messenger.msn.com
 0.0.0.0 config.microsoft.com
@@ -1704,9 +1701,9 @@
 0.0.0.0 contact.microsoft.com
 0.0.0.0 contacts.msn.com
 0.0.0.0 container.msi.microsoft.com
-0.0.0.0 content-repo.clipchamp.com # Clipchamp is a Microsoft subsidiary
+0.0.0.0 content-repo.clipchamp.com
 0.0.0.0 content.assist.gameservices.xboxlive.com
-0.0.0.0 content.clipchamp.com # Clipchamp is a Microsoft subsidiary
+0.0.0.0 content.clipchamp.com
 0.0.0.0 content.lifecycle.office.net
 0.0.0.0 content.microsoft.com
 0.0.0.0 content.xboxlive.com
@@ -2124,7 +2121,7 @@
 0.0.0.0 dec-visio-telemetry.officeapps.live.com
 0.0.0.0 decsitefinitycdn.blob.core.windows.net
 0.0.0.0 def-vef.xboxlive.com
-0.0.0.0 default.exp-tas.com # ClientID, ImpressionID, DeviceID
+0.0.0.0 default.exp-tas.com
 0.0.0.0 defender.microsoft.com
 0.0.0.0 deff.nelreports.net
 0.0.0.0 definitionupdates.microsoft.com
@@ -2323,7 +2320,7 @@
 0.0.0.0 e13678.dscb.akamaiedge.net
 0.0.0.0 e13678.dspb.akamaiedge.net
 0.0.0.0 e15275.g.akamaiedge.net
-0.0.0.0 e16646.dscg.akamaiedge.net # Microsoft DesktopAppInstaller
+0.0.0.0 e16646.dscg.akamaiedge.net
 0.0.0.0 e16646.g.akamaiedge.net
 0.0.0.0 e1822.dspg.akamaiedge.net
 0.0.0.0 e1898.dspg.akamaiedge.net
@@ -2333,7 +2330,6 @@
 0.0.0.0 e86303.dscx.akamaiedge.net
 0.0.0.0 e87.dscb.akamaiedge.net
 0.0.0.0 e87.dspg.akamaiedge.net
-0.0.0.0 e87.dspg.akamaiedge.net # Avatar
 0.0.0.0 eadtfrsfvn.mshome.net
 0.0.0.0 earn.microsoft.com
 0.0.0.0 eastasia-0.in.applicationinsights.azure.com
@@ -2574,7 +2570,7 @@
 0.0.0.0 fbs1-t-msedge.net
 0.0.0.0 fcvxddsrmcwkfq.mshome.net
 0.0.0.0 fd-api-iris.trafficmanager.net
-0.0.0.0 fd.api.iris.microsoft.com # Campaigns Tracking
+0.0.0.0 fd.api.iris.microsoft.com
 0.0.0.0 fd.bingads.microsoft.com
 0.0.0.0 fdv2-t-msedge.net
 0.0.0.0 fdvueulxkbs.mshome.net
@@ -2941,7 +2937,7 @@
 0.0.0.0 ihczpvtnacvkobb.mshome.net
 0.0.0.0 iiegvkmvaors.mshome.net
 0.0.0.0 imagelibrary.microsoft.com
-0.0.0.0 images-eds-ssl.xboxlive.com # Avatar
+0.0.0.0 images-eds-ssl.xboxlive.com
 0.0.0.0 images-ppe.adsyndication.msn.com
 0.0.0.0 images.adsyndication.msn.com
 0.0.0.0 images.microsoft.com
@@ -3097,7 +3093,7 @@
 0.0.0.0 l.config.skype.com
 0.0.0.0 l4.tb.events.data.trafficmanager.net
 0.0.0.0 l5.pf.events.data.trafficmanager.net
-0.0.0.0 lan.sdk.linkedin.com #LinkedIn is a Microsoft subsidiary
+0.0.0.0 lan.sdk.linkedin.com
 0.0.0.0 language.microsoft.com
 0.0.0.0 launch.microsoft.com
 0.0.0.0 launcher.microsoft.com
@@ -3149,7 +3145,7 @@
 0.0.0.0 livestats.com
 0.0.0.0 livestats.net
 0.0.0.0 livetile.hulu.com
-0.0.0.0 livetileedge.dsx.mp # Partial URL, likely livetileedge.dsx.mp.microsoft.com
+0.0.0.0 livetileedge.dsx.mp
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com.edgekey.net
 0.0.0.0 livetileedge.xbetservices.akadns.net
@@ -3243,7 +3239,6 @@
 0.0.0.0 maps.microsoft.com
 0.0.0.0 maps.windows.com
 0.0.0.0 marketing.linkedin.com
-0.0.0.0 marketing.linkedin.com #LinkedIn is a Microsoft subsidiary
 0.0.0.0 marketing.microsoft.com
 0.0.0.0 marketplace.azure.com
 0.0.0.0 marketplace.microsoft.com
@@ -3564,7 +3559,6 @@
 0.0.0.0 mobile.events.data.trafficmanager.net
 0.0.0.0 mobile.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
-0.0.0.0 mobile.pipe.aria.microsoft.com # Analytics
 0.0.0.0 mobileads.msn.com
 0.0.0.0 mobilebeta.microsoft.com
 0.0.0.0 mobileconfig.net
@@ -3733,7 +3727,7 @@
 0.0.0.0 n.config.skype.com
 0.0.0.0 nam.loki.delve.office.com
 0.0.0.0 nav-edge.smartscreen.microsoft.com
-0.0.0.0 nav.smartscreen.microsoft.com # windows browser edge telemetry
+0.0.0.0 nav.smartscreen.microsoft.com
 0.0.0.0 nbiaydhnfcxkbh.mshome.net
 0.0.0.0 ne-we.cp.wd.microsoft.com
 0.0.0.0 ne.cp.wd.microsoft.com
@@ -3760,12 +3754,11 @@
 0.0.0.0 nexus.live.com.akadns.net
 0.0.0.0 nexus.microsoftonline-p.com
 0.0.0.0 nexus.officeapps.live.com
-0.0.0.0 nexus.officeapps.live.com # Telemetrie
 0.0.0.0 nexusrules.live.com
 0.0.0.0 nexusrules.live.com.akadns.net
 0.0.0.0 nexusrules.officeapps.live.com
 0.0.0.0 nexxtv-events.servicebus.windows.net
-0.0.0.0 nf.smartscreen.microsoft.com # network filter telemetry
+0.0.0.0 nf.smartscreen.microsoft.com
 0.0.0.0 ng.msg.teams.microsoft.com
 0.0.0.0 nhkpwuiyvnkq.mshome.net
 0.0.0.0 nhuquckrshp.mshome.net
@@ -3884,7 +3877,6 @@
 0.0.0.0 officeonline.com
 0.0.0.0 officepreviewredir.microsoft.com
 0.0.0.0 officeredir.microsoft.com
-0.0.0.0 officeredir.microsoft.com # Activation
 0.0.0.0 officespeech.platform.bing.com
 0.0.0.0 officeupdates.microsoft.com
 0.0.0.0 ogma.osi.office.net
@@ -4270,14 +4262,14 @@
 0.0.0.0 places.app
 0.0.0.0 plan.microsoft.com
 0.0.0.0 platform.bing.com
-0.0.0.0 platform.linkedin.com # LinkedIn is a Microsoft subsidiary
+0.0.0.0 platform.linkedin.com
 0.0.0.0 play.microsoft.com
 0.0.0.0 playfabapi.com
 0.0.0.0 playready.microsoft.com
 0.0.0.0 pnv.skype.com
 0.0.0.0 policykeyservice.aadcdi.azure.us
 0.0.0.0 policykeyservice.dc.ad.msft.net
-0.0.0.0 ponf.linkedin.com # LinkedIn is a Microsoft subsidiary
+0.0.0.0 ponf.linkedin.com
 0.0.0.0 popup.msn.com
 0.0.0.0 portal.azure.com
 0.0.0.0 portal.azure.com.trafficmanager.net
@@ -4326,11 +4318,11 @@
 0.0.0.0 privacy.xboxlive.com
 0.0.0.0 privacy.xboxlive.com.akadns.net
 0.0.0.0 pro-wip-web.azurefd.net
-0.0.0.0 prod-agic-je-1.japaneast.cloudapp.azure.com   # samrtscreen nf & nav
-0.0.0.0 prod-agic-sa-3.southeastasia.cloudapp.azure.com   # samrtscreen nf & nav
+0.0.0.0 prod-agic-je-1.japaneast.cloudapp.azure.com
+0.0.0.0 prod-agic-sa-3.southeastasia.cloudapp.azure.com
 0.0.0.0 prod-api-community.windows.com
 0.0.0.0 prod-api.acompli.net
-0.0.0.0 prod-atm-wds-np.trafficmanager.net    # samrtscreen nf & nav
+0.0.0.0 prod-atm-wds-np.trafficmanager.net
 0.0.0.0 prod-azurecdn-akamai-iris.azureedge.net
 0.0.0.0 prod-azurecdn-akamai-iris.ec.azureedge.net
 0.0.0.0 prod-campaignaggregator.omexexternallfb.office.net.akadns.net
@@ -4345,7 +4337,7 @@
 0.0.0.0 prod.client.wosc.services.microsoft.com
 0.0.0.0 prod.configsvc.live.com.akadns.net
 0.0.0.0 prod.configsvc1.live.com.akadns.net
-0.0.0.0 prod.do.dsp.mp # Partial URL, likely prod.do.dsp.mp.microsoft.com
+0.0.0.0 prod.do.dsp.mp
 0.0.0.0 prod.do.dsp.mp.microsoft.com
 0.0.0.0 prod.firstpartyapps.oaspapps.com.akadns.net
 0.0.0.0 prod.fs.microsoft.com.akadns.net
@@ -4391,7 +4383,7 @@
 0.0.0.0 pus8-collabhubrtc.officeapps.live.com
 0.0.0.0 puxrsgqtg.mshome.net
 0.0.0.0 pvocqahwaylh.mshome.net
-0.0.0.0 px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net # LinkedIn is a Microsoft subsidiary
+0.0.0.0 px4-ads-linkedin-com.ipv4.l-0005.l-msedge.net
 0.0.0.0 pxflwhwnqaalet.mshome.net
 0.0.0.0 q-ring.msedge.net
 0.0.0.0 q.config.skype.com
@@ -4555,7 +4547,7 @@
 0.0.0.0 sci2-1.am.microsoft.com
 0.0.0.0 sci2-2.am.microsoft.com
 0.0.0.0 sconsentit9.trafficmanager.net
-0.0.0.0 scu.client.hip.live.com # Captcha, Gifs
+0.0.0.0 scu.client.hip.live.com
 0.0.0.0 scus-breeziest-in.cloudapp.net
 0.0.0.0 sdwan.measure.office.com
 0.0.0.0 sdx.microsoft.com
@@ -4793,8 +4785,6 @@
 0.0.0.0 statesfe1.ws.microsoft.com.nsatc.net
 0.0.0.0 static-spartan-eus-s-msn-com.akamaized.net
 0.0.0.0 static.2mdn.net
-0.0.0.0 static.2mdn.net # Microsoft uses this for advertising purposes
-0.0.0.0 static.2mdn.net # Note: This is related to DoubleClick by Google, but Microsoft uses this for advertising
 0.0.0.0 static.edge.microsoftapp.net
 0.0.0.0 static.licdn.com
 0.0.0.0 static.skypeassets.com
@@ -4802,7 +4792,7 @@
 0.0.0.0 statics-marketingsites-eus-ms-com.akamaized.net
 0.0.0.0 statics-marketingsites-neu-ms-com.akamaized.net
 0.0.0.0 statics-marketingsites-wcus-ms-com.akamaized.net
-0.0.0.0 statics-neu.onestore.ms # CSS & Javascript
+0.0.0.0 statics-neu.onestore.ms
 0.0.0.0 statics.teams.cdn.live.net
 0.0.0.0 statics.teams.cdn.office.net
 0.0.0.0 staticskype.s.llnwi.net
@@ -4840,13 +4830,13 @@
 0.0.0.0 store.microsoft.com
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com
 0.0.0.0 storecatelogrevocation.storequality.microsoft.com
-0.0.0.0 storeedgefd.dsx.mp # Partial URL, likely storeedgefd.dsx.mp.microsoft.com
+0.0.0.0 storeedgefd.dsx.mp
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com.edgekey.net.globalredir.akadns.net
 0.0.0.0 storeedgefd.xbetservices.akadns.net
 0.0.0.0 storequality.microsoft.com
 0.0.0.0 stores.microsoft.com
-0.0.0.0 storesdk.dsx.mp # Partial URL, likely storesdk.dsx.mp.microsoft.com
+0.0.0.0 storesdk.dsx.mp
 0.0.0.0 storesdk.dsx.mp.microsoft.com
 0.0.0.0 sts.advertising.microsoft.com
 0.0.0.0 studytree2.blob.core.windows.net
@@ -4928,7 +4918,6 @@
 0.0.0.0 telecommandstorageprod.blob.core.windows.net
 0.0.0.0 telecommandsvc.microsoft.com
 0.0.0.0 telem-edge.smartscreen.microsoft.com
-0.0.0.0 telem-edge.smartscreen.microsoft.com # windows shell telemetry
 0.0.0.0 telemetri.microsoft.com
 0.0.0.0 telemetria.azure.com
 0.0.0.0 telemetry-lcp.trafficmanager.net
@@ -5027,7 +5016,7 @@
 0.0.0.0 ts.microsoft.com
 0.0.0.0 tse1.mm.bing.net
 0.0.0.0 tsfe.trafficmanager.net
-0.0.0.0 tsfe.trafficshaping.dsp.mp # Partial URL, likely tsfe.trafficshaping.dsp.mp.microsoft.com
+0.0.0.0 tsfe.trafficshaping.dsp.mp
 0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
 0.0.0.0 ttdjedszfyimdv.mshome.net
 0.0.0.0 ttkvwkupz.mshome.net
@@ -5047,7 +5036,6 @@
 0.0.0.0 ugcorigin.s-microsoft.com
 0.0.0.0 ugzxfjbri.mshome.net
 0.0.0.0 uhf.microsoft.com
-0.0.0.0 uhf.microsoft.com # Logs
 0.0.0.0 ui.ads.microsoft.com
 0.0.0.0 ui.bcp.bingads.microsoft.com
 0.0.0.0 ui.bingads.microsoft.com
@@ -5098,7 +5086,6 @@
 0.0.0.0 us-api.asm.skype.com
 0.0.0.0 us-mesh.events.data.microsoft.com
 0.0.0.0 us-mobile.events.data.microsoft.com
-0.0.0.0 us-mobile.events.data.microsoft.com#
 0.0.0.0 us-teams.events.data.microsoft.com
 0.0.0.0 us-v10.events.data.microsoft.com
 0.0.0.0 us-v10c.events.data.microsoft.com
@@ -5197,7 +5184,6 @@
 0.0.0.0 vortex.data.glbdns2.microsoft.com
 0.0.0.0 vortex.data.metron.live.com.nsatc.net
 0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 vortex.data.microsoft.com # OneDrive
 0.0.0.0 vortex.data.microsoft.com.akadns.net
 0.0.0.0 vortex.data.trafficmanager.net
 0.0.0.0 vortex.microsoft.com
@@ -5250,7 +5236,6 @@
 0.0.0.0 waws-prod-blu-059.cloudapp.net
 0.0.0.0 wayfinderanalytics.servicebus.windows.net
 0.0.0.0 wbd.ms
-0.0.0.0 wbd.ms # This is Microsoft's URL for Windows Business Directory
 0.0.0.0 wcdnsqex.mshome.net
 0.0.0.0 wcpstatic.microsoft.com
 0.0.0.0 wd-prod-ss-au-east-1-fe.australiaeast.cloudapp.azure.com
@@ -5475,7 +5460,7 @@
 0.0.0.0 www.a.ads2.msn.com
 0.0.0.0 www.a.rad.msn.com
 0.0.0.0 www.ac3.msn.com
-0.0.0.0 www.acompli.com # Note: Acompli was acquired by Microsoft and rebranded to Outlook Mobile
+0.0.0.0 www.acompli.com
 0.0.0.0 www.adcenter.microsoft.com
 0.0.0.0 www.ads.msn.com
 0.0.0.0 www.ads1.msads.net
@@ -5542,7 +5527,6 @@
 0.0.0.0 www.sway.com
 0.0.0.0 www.telecommandsvc.microsoft.com
 0.0.0.0 www.tm.a.prd.aadg.akadns.net
-0.0.0.0 www.tm.a.prd.aadg.akadns.net # Login.live.com
 0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
 0.0.0.0 www.tm.ak.prd.aadg.akadns.net
 0.0.0.0 www.tm.lg.prod.aadmsa.akadns.net
@@ -5986,7 +5970,7 @@
 :: c1.microsoft.com
 :: ca.telemetry.microsoft.com
 :: cache.datamart.windows.com
-:: candycrushsoda.king.com # King is a Microsoft subsidiary since its acquisition in 2016
+:: candycrushsoda.king.com
 :: cdn.atdmt.com
 :: cdn.content.prod.cms.msn.com
 :: cdn.onenote.net
@@ -6135,7 +6119,7 @@
 :: db5.wns.windows.com
 :: db5p.wns.notify.windows.com.akadns.net
 :: db5p.wns.windows.com
-:: db5sch101100122.wns.windows.com # and all similar db5sch entries
+:: db5sch101100122.wns.windows.com
 :: decsitefinitycdn.blob.core.windows.net
 :: definitionupdates.microsoft.com
 :: dev.virtualearth.net
@@ -6280,7 +6264,7 @@
 :: hk2wns1.wns.windows.com
 :: hk2wns1b.wns.windows.com
 :: hubstordev3sstor1.blob.core.windows.net
-:: i-am3p-cor001.api.p001.1drv.com # and all similar i-* entries
+:: i-am3p-cor001.api.p001.1drv.com
 :: i-ring.msedge.net
 :: i1.services.social.microsoft.com
 :: i1.services.social.microsoft.com.nsatc.net
@@ -6359,7 +6343,7 @@
 :: oneclient.sfx.ms
 :: onecollector.cloudapp.aria.akadns.net
 :: onedrive.live.com
-:: onedriveclubprodbn20051.blob.core.windows.net # and all similar onedrive entries
+:: onedriveclubprodbn20051.blob.core.windows.net
 :: oneocsp.microsoft.com
 :: optanon.blob.core.windows.net
 :: otf.msn.com
@@ -6397,7 +6381,7 @@
 :: romeccs.microsoft.com
 :: s-ring.msedge.net
 :: s.gateway.messenger.live.com
-:: s0.2mdn.net # Microsoft uses this for advertising purposes
+:: s0.2mdn.net
 :: s2s.config.skype.com
 :: schemas.microsoft.akadns.net
 :: search.msn.com
@@ -6425,7 +6409,7 @@
 :: sls.update.microsoft.com
 :: slscr.update.microsoft.com
 :: smartscreen-prod.microsoft.com
-:: sn3301-c.1drv.com # and all similar sn entries
+:: sn3301-c.1drv.com
 :: spo-ring.msedge.net
 :: spynet2.microsoft.com
 :: spynetalt.microsoft.com
@@ -6436,7 +6420,7 @@
 :: ssw.live.com
 :: staging.to-do.microsoft.com
 :: staging.to-do.officeppe.com
-:: static.2mdn.net # Microsoft uses this for advertising purposes
+:: static.2mdn.net
 :: statics.teams.cdn.live.net
 :: statics.teams.cdn.office.net
 :: statsfe1.ws.microsoft.com
