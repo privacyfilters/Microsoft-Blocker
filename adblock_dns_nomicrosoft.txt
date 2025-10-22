@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 21 October 2025
-! Version: 1.72
+! Last modified: 22 October 2025
+! Version: 1.73
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -17,8 +17,6 @@
 !!!!!!!!! Blocklist !!!!!!!!!
 !!! Wildcard rules !!!
 ||assets*.msn.com^
-||dsc*.akamai.net^
-||dsc*.akamaiedge.net^
 ||*microsoft*.com*^
 ||*msedge.net^
 ||*msn*.com*^
@@ -39,6 +37,8 @@
 ||prod-agic-*-*.*.cloudapp.azure.com^
 ||prod-atm-*-*.trafficmanager.net^
 ||xpay*.azureedge.net^
+!Not Blocked, many external services use it!|dsc*.akamai.net^
+!Not Blocked, many external services use it!||dsc*.akamaiedge.net^
 !
 !!! Other and External domains & subdomains !!!
 !! Microsoft Cloud and Azure related urls
