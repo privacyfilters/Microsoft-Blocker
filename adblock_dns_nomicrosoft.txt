@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 22 October 2025
-! Version: 1.73
+! Last modified: 02 November 2025
+! Version: 1.75
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -16,26 +16,31 @@
 !
 !!!!!!!!! Blocklist !!!!!!!!!
 !!! Wildcard rules !!!
-||assets*.msn.com^
 ||*microsoft*.com*^
 ||*msedge.net^
-||*msn*.com*^
 ||*msn*.cn*^
-||*msn*.jp*^
+||*msn*.com*^
 ||*msn*.in*^
-||onedscolprd*.*.cloudapp.azure.com^
-||bing.com*^
+||*msn*.jp*^
+||assets*.msn.com^
 ||bing.cn*^
-||bing.jp*^
+||bing.com*^
 ||bing.in*^
+||bing.jp*^
 ||copilot.*microsoft.com^
 ||edge*.azureedge.net^
 ||edgecdn*.azurefd.net^
 ||live.com*^
 ||msftconnecttest.com*^
-||trafficmanager.net^
+||onedscolprd*.*.cloudapp.azure.com^
 ||prod-agic-*-*.*.cloudapp.azure.com^
 ||prod-atm-*-*.trafficmanager.net^
+||trafficmanager.net^
+||xbox-mbr*.akadns.net^
+||xbox-mbr*.akamaized.net^
+||xbox-mbr*.xboxlive.com*^
+||xboxlive.*^
+||xboxlive.com*^
 ||xpay*.azureedge.net^
 !Not Blocked, many external services use it!|dsc*.akamai.net^
 !Not Blocked, many external services use it!||dsc*.akamaiedge.net^
@@ -192,6 +197,7 @@
 ||cinemanow.com^
 ||cl-glcb907925.gcdn.co^
 ||clarity.ms^
+||clientconfig.passport.net^
 ||clipchamp.com^
 ||cloud.microsoft^
 ||cloudapp.azure.com^
@@ -222,16 +228,15 @@
 ||discoverbing.com^
 ||dkyprod.akadns.net^
 ||dot.net^
-||dscr.akamai.net^
 ||dscb.akamaiedge.net^
 ||dscg.akamaiedge.net^
 ||dscg3.akamai.net^
+||dscr.akamai.net^
 ||dscx.akamaiedge.net^
 ||dsp.mp.microsoft.com^
 ||dsp.mp^
 ||dspb.akamaiedge.net^
 ||dspg.akamaiedge.net^
-||dscx.akamaiedge.net^
 ||dsx.mp^
 ||dyanmicslive.org^
 ||dynamics-int.com^
@@ -375,6 +380,7 @@
 ||mesh-int.com^
 ||mesh-ri.com^
 ||mesh.com^
+||messenger.live.com^
 ||mgslivetiles.cloudapp.net^
 ||microsft.akadns.net^
 ||microsoft-antipiracy.com^
@@ -639,6 +645,7 @@
 ||msecnd.com^
 ||msecnd.net^
 ||msedge.net^
+||msedgedl.azureedge.net^
 ||msencarta.net^
 ||msft.com^
 ||msft.net^
@@ -922,11 +929,14 @@
 ||xbox360nextgennow.com^
 ||xboxab.com^
 ||xboxcanada.ca^
+||xboxlive.akadns.net^
+||xboxlive.akamaized.net^
 ||xboxlive.com-c.edgekey.net^
 ||xboxlive.com.br^
 ||xboxlive.com.edgekey.net^
 ||xboxlive.com^
 ||xboxrc.com^
+||xboxservices.com*^
 ||xboxservices.com^
 ||xpaywalletcdn-prod.azureedge.net^
 ||yahoobingnetwork.com^
