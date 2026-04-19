@@ -1,11 +1,11 @@
 # Title: Microsoft Blocker Proper hosts - No Microsoft
-# Description: This blocklist will block all traffic to microsoft. Only some essential urls are allowed for windows update and winget package manager to work.
+# Description: This blocklist will block all traffic to microsoft. Nothing will be whitelisted, Eveything related to Microsoft will be blocked.
 # Homepage: https://codeberg.org/privacyfilters/Microsoft-Blocker
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 02 November 2025
-# Version: 1.61
+# Last modified: 20 December 2026
+# Version: 1.62
 # Syntax: host
 # Number of entries: 6748
 #
@@ -15,6 +15,11 @@
 #0.0.0.0 msecnd.net   # Microsoft's CDN operated by Akamai
 #0.0.0.0 v0cdn.net   # Microsoft's CDN for various services
 #
+# # Microsoft Edge and extension store
+0.0.0.0 microsoftedge.microsoft.com
+0.0.0.0 edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net
+0.0.0.0 ratingsedge.rnr.microsoft.com
+0.0.0.0 rnr-prod.eastasia.cloudapp.azure.com
 #
 ##### Strict Blocklist #####
 0.0.0.0 00001b-1.l.windowsupdate.com

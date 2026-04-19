@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 02 November 2025
-! Version: 1.75
+! Last modified: 20 December 2026
+! Version: 1.76
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -19,10 +19,10 @@
 @@||fg.microsoft.map.fastly.net^
 !
 !!! windows Update related Urls !!!
-@@||update.microsoft.com^ 
+@@||update.microsoft.com^
 @@||delivery.mp.microsoft.com^
 @@||windowsupdate.com^
-@@||msftconnecttest.com^ 
+@@||msftconnecttest.com^
 !
 !!! winget, unigetui etc !!!
 @@||cdn.winget.microsoft.com^
@@ -51,6 +51,10 @@
 ||msedge.b.tlu.dl.delivery.mp.microsoft.com^$important
 ||edgecdn*.azurefd.net^
 ||edge*.azureedge.net^
+||microsoftedge.microsoft.com^
+||edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net^
+||ratingsedge.rnr.microsoft.com^
+||rnr-prod.eastasia.cloudapp.azure.com^
 !
 !!! vscode and extensions !!!
 @@||code.visualstudio.com^
