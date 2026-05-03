@@ -18,6 +18,7 @@
 Only Allows windows iso downlaod from [Massgrave.dev](https://massgrave.dev/genuine-installation-media), windows updates, winget package manager, vscode extension store and some azure related urls. Usage of Microsoft Edge is not recommended as any connection from edge is blocked. This blocks all tracking connection from edge, which edge makes as much as an entire windows os(even on linux!). But blocking edge conneciton will make it less secure.
 
 ### Adblock & DNS Filter Version- [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_proper.txt)
+### Domains - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains.txt)
 ### hosts - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts)
 ### hosts-clean - identical cleaner hosts file with a differen name wihtout extra comments - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts-clean)
 ## Microsoft Blocker - No Microsoft Edition: Aims to Strictly block Eveything from and related to Microsoft.
