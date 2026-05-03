@@ -6,82 +6,82 @@
 # Expires: 1 day
 # Last modified: 03 May 2026 00:30:01 UTC
 # Version: 1.64
-# Syntax: hosts (including possible subdomains)
+# Syntax: host (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
 # Number of entries: 5856
 #
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 api.azure.com
-#0.0.0.0 api.nuget.org # NuGet package manager
-#0.0.0.0 ars.smartscreen.microsoft.com # SmartScreen application reputation service
-#0.0.0.0 asia.smartscreen-prod.microsoft.com # SmartScreen for Asia region
-#0.0.0.0 bf.smartscreen.microsoft.com # Browser Filter for SmartScreen
-#0.0.0.0 brazil.smartscreen-prod.microsoft.com # SmartScreen for Brazil region
-#0.0.0.0 business.linkedin.com # LinkedIn is a Microsoft subsidiary
-#0.0.0.0 cdn.winget.microsoft.com # Winget package manager CDN
-#0.0.0.0 code.visualstudio.com # Visual Studio Code website
-#0.0.0.0 crl.microsoft.com # Certificate Revocation List for security
-#0.0.0.0 ctldl.windowsupdate.com # Widnows Update services
-#0.0.0.0 definitionupdates.microsoft.com # Windows Defender definition updates
-#0.0.0.0 definitionupdates.microsoft.com.edgekey.net # CDN for Windows Defender definitions
-#0.0.0.0 delivery.activated.win # windows iso download
-#0.0.0.0 delivery.mp.microsoft.com # Content delivery for Microsoft products
-#0.0.0.0 dotnet.microsoft.com # .NET framework and tools
-#0.0.0.0 download.visualstudio.microsoft.com # Visual Studio downloads
-#0.0.0.0 europe.smartscreen-prod.microsoft.com # SmartScreen for Europe region
-#0.0.0.0 fe2.update.microsoft.com.akadns.net # Windows Update server
-#0.0.0.0 fg.microsoft.map.fastly.net # Windows Iso download cdn from massgrave.dev
-#0.0.0.0 fs.microsoft.com # File system related services
-#0.0.0.0 globalcdn.nuget.org # NuGet package manager
-#0.0.0.0 go.microsoft.com # Microsoft's redirect service
-#0.0.0.0 ipv6.msftconnecttest.com # Microsoft connectivity test service
-#0.0.0.0 king.com # King Digital Entertainment, a Microsoft subsidiary
-#0.0.0.0 lan.sdk.linkedin.com # LinkedIn SDK, a Microsoft subsidiary
-#0.0.0.0 modpim.com # Likely related to Microsoft's product information management
-#0.0.0.0 msecnd.net # Microsoft's CDN operated by Akamai
-#0.0.0.0 msftconnecttest.com # Microsoft connectivity test service
-#0.0.0.0 nuget.rog # NuGet package manager
-#0.0.0.0 ocs.microsoft.com # Microsoft's Online Certificate Status Protocol server
-#0.0.0.0 ocsp.digicert.com # DigiCert's OCSP server for certificate revocation status
-#0.0.0.0 ocsp.microsoft.com # Microsoft's OCSP server for certificate status checks
-#0.0.0.0 oneocsp.microsoft.com # Online Certificate Status Protocol for certificate validation
-#0.0.0.0 openvsxorg.blob.core.windows.net # Open VSX registry for VS Code extensions
-#0.0.0.0 packages.nuget.org # NuGet package manager
-#0.0.0.0 platform.linkedin.com # LinkedIn platform, a Microsoft subsidiary
-#0.0.0.0 ponf.linkedin.com # LinkedIn platform, a Microsoft subsidiary
-#0.0.0.0 sdx.microsoft.com # Microsoft Software Developer Experience portal
-#0.0.0.0 software-static.download.prss.microsoft.com # Microsoft Windows Iso downlaod source
-#0.0.0.0 sls.emea.update.microsoft.com.akadns.net # Software Licensing Service for EMEA
-#0.0.0.0 sls.update.microsoft.com.akadns.net # Software Licensing Service
-#0.0.0.0 sls.update.microsoft.com.nsatc.net # Software Licensing Service (network specific)
-#0.0.0.0 slscr.update.microsoft.com # Software Licensing Service check
-#0.0.0.0 smartscreen-prod.microsoft.com # Production SmartScreen service
-#0.0.0.0 smartscreen.microsoft.com # SmartScreen service
-#0.0.0.0 tlu.dl.delivery.mp.microsoft.com # Widnows Update delivery
-#0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com # SmartScreen for UK region
-#0.0.0.0 unitedstates.smartscreen-prod.microsoft.com # SmartScreen for US region
-#0.0.0.0 update.microsoft.com # Windows Update service
-#0.0.0.0 urs.smartscreen.microsoft.com # URL Reputation Service for SmartScreen
-#0.0.0.0 v0cdn.net # Microsoft's CDN for various services
-#0.0.0.0 w.apprep.smartscreen.microsoft.com # Application reputation checks for SmartScreen
-#0.0.0.0 warw.msftconnecttest.com # Microsoft connectivity test service
-#0.0.0.0 wdcp.microsoft.com # Windows Defender CDN portal
-#0.0.0.0 wdcpalt.microsoft.com # Alternate Windows Defender CDN portal
-#0.0.0.0 windowsupdate.com # Windows Update service
-#0.0.0.0 www.fe2.update.microsoft.com.akadns.net # Windows Update server (web interface)
-#0.0.0.0 www.msftconnecttest.com # Microsoft connectivity test service
-#0.0.0.0 www.nuget.org # NuGet package manager
-#0.0.0.0 ars.smartscreen.microsoft.com # SmartScreen application reputation service
-#0.0.0.0 crl.microsoft.com # Certificate Revocation List for security
-#0.0.0.0 definitionupdates.microsoft.com # Windows Defender definition updates
-#0.0.0.0 europe.smartscreen-prod.microsoft.com # SmartScreen for Europe region
-#0.0.0.0 mscrl.microsoft.com # Microsoft Certificate Revocation List
-#0.0.0.0 smartscreen-prod.microsoft.com # Production SmartScreen service
-#0.0.0.0 urs.smartscreen.microsoft.com # URL Reputation Service for SmartScreen
-#0.0.0.0 w.apprep.smartscreen.microsoft.com # Application reputation checks for SmartScreen
-#0.0.0.0 fe2.update.microsoft.com.akadns.net # Windows Update server
-#0.0.0.0 graph.microsoft.com # Microsoft Graph API
-#0.0.0.0 graph.windows.net # Azure AD Graph API
+#0.0.0.0 api.nuget.org
+#0.0.0.0 ars.smartscreen.microsoft.com
+#0.0.0.0 asia.smartscreen-prod.microsoft.com
+#0.0.0.0 bf.smartscreen.microsoft.com
+#0.0.0.0 brazil.smartscreen-prod.microsoft.com
+#0.0.0.0 business.linkedin.com
+#0.0.0.0 cdn.winget.microsoft.com
+#0.0.0.0 code.visualstudio.com
+#0.0.0.0 crl.microsoft.com
+#0.0.0.0 ctldl.windowsupdate.com
+#0.0.0.0 definitionupdates.microsoft.com
+#0.0.0.0 definitionupdates.microsoft.com.edgekey.net
+#0.0.0.0 delivery.activated.win
+#0.0.0.0 delivery.mp.microsoft.com
+#0.0.0.0 dotnet.microsoft.com
+#0.0.0.0 download.visualstudio.microsoft.com
+#0.0.0.0 europe.smartscreen-prod.microsoft.com
+#0.0.0.0 fe2.update.microsoft.com.akadns.net
+#0.0.0.0 fg.microsoft.map.fastly.net
+#0.0.0.0 fs.microsoft.com
+#0.0.0.0 globalcdn.nuget.org
+#0.0.0.0 go.microsoft.com
+#0.0.0.0 ipv6.msftconnecttest.com
+#0.0.0.0 king.com
+#0.0.0.0 lan.sdk.linkedin.com
+#0.0.0.0 modpim.com
+#0.0.0.0 msecnd.net
+#0.0.0.0 msftconnecttest.com
+#0.0.0.0 nuget.rog
+#0.0.0.0 ocs.microsoft.com
+#0.0.0.0 ocsp.digicert.com
+#0.0.0.0 ocsp.microsoft.com
+#0.0.0.0 oneocsp.microsoft.com
+#0.0.0.0 openvsxorg.blob.core.windows.net
+#0.0.0.0 packages.nuget.org
+#0.0.0.0 platform.linkedin.com
+#0.0.0.0 ponf.linkedin.com
+#0.0.0.0 sdx.microsoft.com
+#0.0.0.0 software-static.download.prss.microsoft.com
+#0.0.0.0 sls.emea.update.microsoft.com.akadns.net
+#0.0.0.0 sls.update.microsoft.com.akadns.net
+#0.0.0.0 sls.update.microsoft.com.nsatc.net
+#0.0.0.0 slscr.update.microsoft.com
+#0.0.0.0 smartscreen-prod.microsoft.com
+#0.0.0.0 smartscreen.microsoft.com
+#0.0.0.0 tlu.dl.delivery.mp.microsoft.com
+#0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com
+#0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
+#0.0.0.0 update.microsoft.com
+#0.0.0.0 urs.smartscreen.microsoft.com
+#0.0.0.0 v0cdn.net
+#0.0.0.0 w.apprep.smartscreen.microsoft.com
+#0.0.0.0 warw.msftconnecttest.com
+#0.0.0.0 wdcp.microsoft.com
+#0.0.0.0 wdcpalt.microsoft.com
+#0.0.0.0 windowsupdate.com
+#0.0.0.0 www.fe2.update.microsoft.com.akadns.net
+#0.0.0.0 www.msftconnecttest.com
+#0.0.0.0 www.nuget.org
+#0.0.0.0 ars.smartscreen.microsoft.com
+#0.0.0.0 crl.microsoft.com
+#0.0.0.0 definitionupdates.microsoft.com
+#0.0.0.0 europe.smartscreen-prod.microsoft.com
+#0.0.0.0 mscrl.microsoft.com
+#0.0.0.0 smartscreen-prod.microsoft.com
+#0.0.0.0 urs.smartscreen.microsoft.com
+#0.0.0.0 w.apprep.smartscreen.microsoft.com
+#0.0.0.0 fe2.update.microsoft.com.akadns.net
+#0.0.0.0 graph.microsoft.com
+#0.0.0.0 graph.windows.net
 0.0.0.0 data-edge.smartscreen.microsoft.com
 0.0.0.0 edge-cloud-resource-static.azureedge.net
 0.0.0.0 graph.print.microsoft.com
