@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 13 May 2026 18:02:59 UTC
-! Version: 1.78
+! Last modified: 14 May 2026 21:37:43 UTC
+! Version: 1.79
 ! Syntax: Adblock
-! Number of entries: 1261
+! Number of entries: 1262
 !
 ! ! Allowlist: Allow critical urls ! !
 !Rule_Not_Applied!@@||v0cdn.net^
@@ -398,6 +398,7 @@
 ||edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net^
 ||edgesv.net^
 ||edgewelcome-west3.azurewebsites.net^
+||editor.svc.cloud.microsoft^
 ||eus1-api-skype.cloudapp.net^
 ||eus1-authgw.cloudapp.net^
 ||exp-tas.com^
