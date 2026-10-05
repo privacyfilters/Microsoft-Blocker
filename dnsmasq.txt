@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 18:56:24 UTC
-# Version: 1.81
+# Last modified: 05 October 2026 13:14:32 UTC
+# Version: 1.82
 # Syntax: DNSMasq
-# Number of entries: 1739
+# Number of entries: 1749
 #
 # # Custom Allow & Blocklist # #
 server=/ctldl.windowsupdate.com/
@@ -75,9 +75,12 @@ server=/sdx.microsoft.com/
 server=/software-static.download.prss.microsoft.com/
 server=/minecraft-services.net/
 # # Microsoft Edge and extension store
+local=/edgecast-logs.licdn.com/
 local=/edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net/
 local=/editor.svc.cloud.microsoft/
 local=/login.microsoftonline.com/
+local=/ltx1-uc-edge02as.corp.linkedin.com/
+local=/nsg7-uc-edge01k.corp.linkedin.com/
 local=/storecatalogrevocation.storequality.microsoft.com.edgekey.net/
 local=/storeedgefd.dsx.mp.microsoft.com.edgekey.net/
 # # Advertising and external domains
@@ -87,6 +90,7 @@ local=/adnexus.net/
 local=/adnxs-simple.com/
 local=/adnxs.com/
 local=/adnxs.net/
+local=/ads.licdn.com/
 local=/adtech.de/
 local=/appnexus.com/
 local=/apxns.com/
@@ -114,7 +118,13 @@ local=/azure-devices-provisioning.net/
 local=/azure-devices.net/
 local=/azure-test.net/
 local=/azuredns-cloud.net/
+local=/azuresearch-ea.nuget.org/
+local=/azuresearch-usnc.nuget.org/
+local=/azuresearch-usnci.nuget.org/
+local=/azuresearch-ussc.nuget.org/
+local=/azuresearch-usscg.nuget.org/
 local=/azureserviceprofiler.net/
+local=/www.1.gungnir-midtier.azureei1.itd.azure.linkedin.com/
 # # General Blocklist # #
 local=/000793a1230c5dd560dd7422229eb7d0.clo.footprintdns.com/
 local=/001a2b1a8b23efa4e27b1eea164e9b11.azr.footprintdns.com/

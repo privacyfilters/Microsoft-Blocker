@@ -4,12 +4,13 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 18:56:24 UTC
-# Version: 1.81
+# Last modified: 05 October 2026 13:14:32 UTC
+# Version: 1.82
 # Syntax: DNSMasq
-# Number of entries: 1765
+# Number of entries: 1767
 #
 # # Microsoft Edge and extension store
+local=/edgecast-logs.licdn.com/
 local=/edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net/
 local=/editor.svc.cloud.microsoft/
 local=/login.microsoftonline.com/
@@ -22,6 +23,7 @@ local=/adnexus.net/
 local=/adnxs-simple.com/
 local=/adnxs.com/
 local=/adnxs.net/
+local=/ads.licdn.com/
 local=/adtech.de/
 local=/appnexus.com/
 local=/apxns.com/
