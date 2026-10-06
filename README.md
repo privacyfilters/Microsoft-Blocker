@@ -18,7 +18,7 @@
 
 ### Adblock & DNS Filter Version- [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_lite.txt)
 ### Domains - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_lite.txt)
-### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_lite.txt)
+### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_lite.txt)
 ### hosts - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_lite)
 
 ## Microsoft Blocker Proper: Aims to allow minimum connections to keep windows usage functional. Allows windows iso downoad from [Massgrave.dev](https://massgrave.dev/genuine-installation-media).
@@ -26,11 +26,11 @@ Only Allows windows iso downlaod from [Massgrave.dev](https://massgrave.dev/genu
 
 ### Adblock & DNS Filter Version- [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_proper.txt)
 ### Domains - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains.txt)
-### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt)
+### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt)
 ### hosts - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts)
 ### hosts-clean - identical cleaner hosts file with a differen name wihtout extra comments - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts-clean)
 ## Microsoft Blocker - No Microsoft Edition: Aims to Strictly block Eveything from and related to Microsoft.
 Some Azure urls may not be blocked for now as they may render external services disfunctional.Since many services other than microsoft uses azure cloud.
 ### Adblock & DNS Filter Version - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_nomicrosoft.txt)
-### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt)
+### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt)
 ### hosts - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_nomicrosoft)
