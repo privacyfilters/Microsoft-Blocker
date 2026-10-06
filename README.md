@@ -21,7 +21,7 @@
 ### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_lite.txt)
 ### hosts - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_lite)
 
-## Microsoft Blocker: Aims to allow minimum connections to keep windows usage functional. Allows windows iso downoad from [Massgrave.dev](https://massgrave.dev/genuine-installation-media).
+## Microsoft Blocker Proper: Aims to allow minimum connections to keep windows usage functional. Allows windows iso downoad from [Massgrave.dev](https://massgrave.dev/genuine-installation-media).
 Only Allows windows iso downlaod from [Massgrave.dev](https://massgrave.dev/genuine-installation-media), windows updates, winget package manager, vscode extension store and some azure related urls. Usage of Microsoft Edge is not recommended as any connection from edge is blocked. This blocks all tracking connection from edge, which edge makes as much as an entire windows os(even on linux!). But blocking edge conneciton will make it less secure.
 
 ### Adblock & DNS Filter Version- [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_proper.txt)
