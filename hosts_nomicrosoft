@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 06 October 2026 23:38:19 UTC
-# Version: 1.89.0
+# Last modified: 07 October 2026 00:55:46 UTC
+# Version: 1.91.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 11856
+# Number of entries: 11859
 #
 0.0.0.0 ctldl.windowsupdate.com
 0.0.0.0 delivery.mp.microsoft.com
@@ -7135,6 +7135,7 @@
 0.0.0.0 adnxs-simple.com
 0.0.0.0 adnxs.com
 0.0.0.0 adnxs.net
+0.0.0.0 ads-doubleclick.net
 0.0.0.0 ads-inmobi-comtm.trafficmanager.net
 0.0.0.0 ads.bing.com
 0.0.0.0 ads.licdn.com
@@ -7198,6 +7199,7 @@
 0.0.0.0 autodiscover.ads.visualstudio.com
 0.0.0.0 azure.bcp.bingads.trafficmanager.net
 0.0.0.0 azure.tip.bingads.trafficmanager.net
+0.0.0.0 azureedge.net^^
 0.0.0.0 b.adnxs-simple.com
 0.0.0.0 b.adnxs.com
 0.0.0.0 b.ads1.msads.net
@@ -7259,6 +7261,7 @@
 0.0.0.0 eu-west-1.profile-api.ads.linkedin.com
 0.0.0.0 eu.bingads.microsoft.com
 0.0.0.0 eu.si.bingads.microsoft.com
+0.0.0.0 example.com
 0.0.0.0 exp-zne1-ib.adnxs.com
 0.0.0.0 fastprodownloadsq.visualstudio.com
 0.0.0.0 fim.adnxs.com

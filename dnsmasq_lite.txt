@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 06 October 2026 23:38:19 UTC
-# Version: 1.89.0
+# Last modified: 07 October 2026 00:55:46 UTC
+# Version: 1.91.0
 # Syntax: DNSMasq
-# Number of entries: 1056
+# Number of entries: 1059
 #
 # # Custom Allow & Blocklist # #
 server=/ctldl.windowsupdate.com/
@@ -1010,6 +1010,7 @@ local=/xboxtoolsuat.parttest.extranettest.microsoft.com/
 local=/adnxs-simple.com/
 local=/adnxs.com/
 local=/adnxs.net/
+local=/ads-doubleclick.net/
 local=/ads-inmobi-comtm.trafficmanager.net/
 local=/ads.licdn.com/
 local=/ads.mcafee.com/
@@ -1028,6 +1029,7 @@ local=/advertising.microsoft.com/
 local=/appnexus.com/
 local=/atdmt.com/
 local=/atlassolutions.com/
+local=/azureedge.net^^/
 local=/bimobile-coffeeandteads.msappproxy.net/
 local=/bing-ads-display-ads-cdn.afd.azureedge.net/
 local=/ccpadsdevhyp994.redmond.corp.microsoft.com/
@@ -1039,6 +1041,7 @@ local=/downloads.channel8.msdn.com/
 local=/downloads.linkedin.com/
 local=/downloads.powerbi.com/
 local=/email.ads.linkedin.com/
+local=/example.com/
 local=/fastprodownloadsq.visualstudio.com/
 local=/iadsdk.apple.com.akadns.net/
 local=/iadsdk.apple.com.edgekey.net/

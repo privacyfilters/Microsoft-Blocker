@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 06 October 2026 23:38:19 UTC
-# Version: 1.89.0
+# Last modified: 07 October 2026 00:55:46 UTC
+# Version: 1.91.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 7113
+# Number of entries: 7116
 #
 # # Custom Allow & Blocklist # #
 #ctldl.windowsupdate.com
@@ -6895,6 +6895,7 @@ admeld.adnxs.com
 adnxs-simple.com
 adnxs.com
 adnxs.net
+ads-doubleclick.net
 ads-inmobi-comtm.trafficmanager.net
 ads.bing.com
 ads.licdn.com
@@ -6958,6 +6959,7 @@ atlassolutions.com
 autodiscover.ads.visualstudio.com
 azure.bcp.bingads.trafficmanager.net
 azure.tip.bingads.trafficmanager.net
+azureedge.net^^
 b.adnxs-simple.com
 b.adnxs.com
 b.ads1.msads.net
@@ -7019,6 +7021,7 @@ eu-west-1.profile-api-dev.ads.linkedin.com
 eu-west-1.profile-api.ads.linkedin.com
 eu.bingads.microsoft.com
 eu.si.bingads.microsoft.com
+example.com
 exp-zne1-ib.adnxs.com
 fastprodownloadsq.visualstudio.com
 fim.adnxs.com
