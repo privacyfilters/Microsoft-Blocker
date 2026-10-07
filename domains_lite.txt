@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 07 October 2026 00:55:46 UTC
-# Version: 1.91.0
+# Last modified: 07 October 2026 22:24:43 UTC
+# Version: 1.92.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 7116
+# Number of entries: 7363
 #
 # # Custom Allow & Blocklist # #
 #ctldl.windowsupdate.com
@@ -398,6 +398,7 @@ perf.msedge.net
 phx01.msedge.net
 phx01r3.msedge.net
 pilot5.edge.skype.com
+ping-edge.smartscreen.microsoft.com
 pr1.msedge.net
 pr1r3.msedge.net
 prar0.msedge.net
@@ -693,6 +694,15 @@ wstr1ta.msedge.net
 wstr2.msedge.net
 wstr4.msedge.net
 wstr4te.msedge.net
+www.a-0001.a-msedge.net
+www.a-0002.a-msedge.net
+www.a-0003.a-msedge.net
+www.a-0004.a-msedge.net
+www.a-0005.a-msedge.net
+www.a-0006.a-msedge.net
+www.a-0007.a-msedge.net
+www.a-0008.a-msedge.net
+www.a-0009.a-msedge.net
 www.a-cedexis.msedge.net
 www.akl30r3a.msedge.net
 www.akl30r4b.msedge.net
@@ -974,6 +984,7 @@ xboxlive.download.akamai.com
 01def5208db2426583244156f891d76b.fp.measure.office.com
 020f57732c5b416f92232a57a7c6647de.fp.measure.office.com
 0233a6b6ffdd6dd56fd2d286a2b184c5.fp.measure.office.com
+0247249a2d484d3caa88a3e0d8423620.fp.measure.office.com
 0266202f58a54b94a78d260d81f90e38.fp.measure.office.com
 029fea3590c84016a6cf5f9056e2baa8.fp.measure.office.com
 02e2612b858647378ddcc92b53a22663.fp.measure.office.com
@@ -1013,6 +1024,7 @@ xboxlive.download.akamai.com
 06c2f5cc96e9a3cd4f65250c58b858ca.fp.measure.office.com
 06cded65f27743fe87acdc44f67fd7e3.fp.measure.office.com
 06f49ef97f6c4b188b30d912b8585a1f.fp.measure.office.com
+06f81209b4e54270be29e85180093759.fp.measure.office.com
 070de6f184294d929a89ff76fff5256a.fp.measure.office.com
 0721b9149daab0fabc872b70c1810474.fp.measure.office.com
 07258605498b4b109647ee892a7054b8.fp.measure.office.com
@@ -1023,6 +1035,7 @@ xboxlive.download.akamai.com
 07ae983ca8e8433e8e0cce73d5ba1627.fp.measure.office.com
 07b67fd64ed4441094e7ba0f584ad927.fp.measure.office.com
 07c698b06e0b43f6a02e6e4f9ea7ed01.fp.measure.office.com
+07ed657abd4c420da50f118758490565.fp.measure.office.com
 080c3efb04d94c13b037465a39d88020.fp.measure.office.com
 0811b3db2905415b9199128832134259.fp.measure.office.com
 081ca86983684ab39ac631e49f707a93.fp.measure.office.com
@@ -1034,6 +1047,7 @@ xboxlive.download.akamai.com
 0917055c32e0414282a2358697fe4b51.fp.measure.office.com
 091ba4c21e9141c7a6f942b6197b8f47.fp.measure.office.com
 09503e861415427fb15e924c563a3509.fp.measure.office.com
+095efbfe491e4c71a2bde1fe02db9e42.fp.measure.office.com
 0973610b7c72451e9e71a20c09b310db.fp.measure.office.com
 097b1ac08015412cbcce61a889d8ac3b.fp.measure.office.com
 09a90c17213a8942e643204bd890b836.fp.measure.office.com
@@ -1042,6 +1056,7 @@ xboxlive.download.akamai.com
 09ccf2e93fc24d05969ed138eae77a02.fp.measure.office.com
 09f89fb3bc6d42048965a4f12308b976.fp.measure.office.com
 0a32737f79c849b6937ec042557b459c.fp.measure.office.com
+0a43c3fe503f46dbaabdb12741bf3c34.fp.measure.office.com
 0a4749855b3740e58d7fb9e80cdb19aes.fp.measure.office.com
 0a61304abec04727a2adab5885afaec6.fp.measure.office.com
 0ada2964b8b07ca7bf24f608278af489.fp.measure.office.com
@@ -1052,7 +1067,9 @@ xboxlive.download.akamai.com
 0b2d17047b134a02a52a839139e94c0c.fp.measure.office.com
 0b2e6bbd090c3b06f3b9425cae6f25d4.fp.measure.office.com
 0b33630bf7654a89b8626fd7b8b63752.fp.measure.office.com
+0b3576be2b734f15b5cae4e2c937d4e7.fp.measure.office.com
 0b829968254d4eedaf76f3ab5306680c.fp.measure.office.com
+0badc329d39448128d2bae5dc306a657.fp.measure.office.com
 0bc094ee49ed4313b925c7d891a9aa7a.fp.measure.office.com
 0c0e1aa55c377f8a20a857d9d6e0f2f0.fp.measure.office.com
 0c4e323db29a4ba4ac462cb46dbf05f1.fp.measure.office.com
@@ -1065,6 +1082,7 @@ xboxlive.download.akamai.com
 0d3d9379f91e48729e2c45fe03185121.fp.measure.office.com
 0d810322dd874daeb672ca2876eaef20.fp.measure.office.com
 0d86fb1c56fc4bc294bdd77e825bf417.fp.measure.office.com
+0da55c79a994467ea94b56edee2dab05.fp.measure.office.com
 0dc3a273669c4150ad0cbff67926854b.fp.measure.office.com
 0dd5d6c136794317b09386c28d68cd63.fp.measure.office.com
 0e1c977038394edf87768a6718e1fea0.fp.measure.office.com
@@ -1089,6 +1107,7 @@ xboxlive.download.akamai.com
 0f7c40c9385543668efb809a20c7f70c.fp.measure.office.com
 0f85e7f9428547fea22ba917b795ae74.fp.measure.office.com
 0f87a2325d7d4dfeb20fccc112a91fd4.fp.measure.office.com
+0f8b590118ca41daa529af70c1cff9b4.fp.measure.office.com
 0fc7f12485bb4677bcb241a75ad6f73f.fp.measure.office.com
 0fe98f32c2be4560be969c05757e1eea.fp.measure.office.com
 1.tlu.dl.delivery.microsoft.com
@@ -1096,7 +1115,9 @@ xboxlive.download.akamai.com
 10002011de584961b57bb76cf0254261q.fp.measure.office.com
 103f8aa26efe4d73af5f0d15b6d8256e.fp.measure.office.com
 106917e5ce224e0fab7db063bc742404.fp.measure.office.com
+1086edb010464fe18f014f9d7178d980.fp.measure.office.com
 1089d87bbb064d21ab2cedb4a354bb2cg.fp.measure.office.com
+10b569e657e84d8a8a60258553520985.fp.measure.office.com
 10caf497ee4c96189ed0c2b2422163ae.fp.measure.office.com
 10cb8716fc8c487b8a2ab42b99d74b2b.fp.measure.office.com
 11.tlu.dl.delivery.microsoft.com
@@ -1117,6 +1138,7 @@ xboxlive.download.akamai.com
 12ef34fdbd907d3a408c1427cc77857f.fp.measure.office.com
 12fd4826d4c54fe68add23d7049bdfbb.fp.measure.office.com
 134c36b6b9c14409b7d69749873c9bd2.fp.measure.office.com
+1358ef53a36a48d9ba90e6c3465771ca.fp.measure.office.com
 1387adc558b84e038a45761c70a5d38c.fp.measure.office.com
 13a1683f74ac499dba2ca2f17bc457df.fp.measure.office.com
 13e2e5ea367f47a4856e9e540cb7a30f.fp.measure.office.com
@@ -1126,9 +1148,11 @@ xboxlive.download.akamai.com
 1452fa173aa14571a257716af4282fb3.fp.measure.office.com
 145a02d6250d4e098b306024eb4e9964.fp.measure.office.com
 146bf4778c2645b2914f2ab1d21c677c.fp.measure.office.com
+147fd508d1d941b8d924e6094ed21867.fp.measure.office.com
 14cfadea88b6410bb2a74b675f0a28d8.fp.measure.office.com
 14dbf4ad33bb4ad5ba49e032af3a5cace.fp.measure.office.com
 14e0dea2f0e44fe99732f269980b6ad0.fp.measure.office.com
+14edb82cdbbc6d91f51b8e817e45f33d.fp.measure.office.com
 14fc067660296c245d2c1163b72bc129.fp.measure.office.com
 15132efac71946b7bdcd23568cb3079be.fp.measure.office.com
 152b6e0302dc4ef98631e2235d401573.fp.measure.office.com
@@ -1147,6 +1171,7 @@ xboxlive.download.akamai.com
 1669eada83a0bee9434931a88bc55740.fp.measure.office.com
 16756f697349443696722f94eb6da600.fp.measure.office.com
 1693951c73aa48dcbc0e527964780be6.fp.measure.office.com
+170c3319eee4461e9f3c2ad5d393a3f9.fp.measure.office.com
 173ed8347f4d47fa85c3a9c185f0b460.fp.measure.office.com
 17482900182e4c33a8d65b378272aab7.fp.measure.office.com
 174eba5481e04c5c9148dd8f5e7b92e7.fp.measure.office.com
@@ -1161,12 +1186,16 @@ xboxlive.download.akamai.com
 17fc6a9f4df04a66a7e78b4f5625a64es.fp.measure.office.com
 17fd66abadb74d278286237cc1b19d97.fp.measure.office.com
 181897548a6061e94423800d906e149f.fp.measure.office.com
+183302a6ba0e4eb89979b0bf050fe6d1.fp.measure.office.com
 184da9796612449aa17f7ab3f6d2145f.fp.measure.office.com
 18564bd7dd654619a974c2608b73774c.fp.measure.office.com
 1856dde2a618ef430d9c6dbd92746f7as.fp.measure.office.com
 1876f5ab9e454cf4844b05818013aa69.fp.measure.office.com
+18a0546999cf483db6954bc740ec108e.fp.measure.office.com
 18a6d51871c246a982823b7d9d7fcf0e.fp.measure.office.com
+18e5abb24545a79819a18e63ada00d89.fp.measure.office.com
 18ef0c35eff449179768af9f01454ae7s.fp.measure.office.com
+18fc549efb534a93afc529d071684741.fp.measure.office.com
 196f750e0c1647179468a02ec4285481.fp.measure.office.com
 19854f9f6b2a43e896be46e8b719e67e.fp.measure.office.com
 198d3b5091f983154799587f825cb61f.fp.measure.office.com
@@ -1179,13 +1208,16 @@ xboxlive.download.akamai.com
 1afd553ef45c40949eb54270686eacf2.fp.measure.office.com
 1b0a8fb6dd6374cf0111c37aa5e17ad3.fp.measure.office.com
 1b17a98e076f44589ee4327cac3c8a94.fp.measure.office.com
+1b1ce16da8a34882bfecd121e39f75b3.fp.measure.office.com
 1b254fff688a41eeb381b9798085ca38.fp.measure.office.com
 1b418a54333c46b7897db0d2fbbc00e9.fp.measure.office.com
 1bb4be5792934659aebf6865bca6a0fa.fp.measure.office.com
 1bdb57c7a3e805f4ac5733485d3acba7.fp.measure.office.com
 1bed02e30f6f4e7a949e5db272f9a3f1.fp.measure.office.com
+1c1cfa04ce384c5c8a51b9f2a93b4148.fp.measure.office.com
 1c304371787f40e794ebd8058fa07c3b.fp.measure.office.com
 1c3402ace35f406ba793a3caaf28d0af.fp.measure.office.com
+1c51448c79814755b4c8c53b134d4888.fp.measure.office.com
 1c546ea47cea43b28bdccb8b04c71247.fp.measure.office.com
 1c6ae2c591bc45ba813b50aac04830d7.fp.measure.office.com
 1c7177bf673b4b1298cb7fbe956b1659.fp.measure.office.com
@@ -1194,6 +1226,7 @@ xboxlive.download.akamai.com
 1ceeb00bf8ad2ced00110c01e4a699d1.fp.measure.office.com
 1d.tlu.dl.delivery.microsoft.com
 1d316495702a4bf6891b51e48a216288.fp.measure.office.com
+1d6792726542428dbf5b4dec142d8aef.fp.measure.office.com
 1db8d63517d443f6b1a404920c7ea63d.fp.measure.office.com
 1deacf8fd0884c9fae8373493dd85716.fp.measure.office.com
 1df626b764ee6bb960d0fe9c1b5621b2e.fp.measure.office.com
@@ -1205,6 +1238,7 @@ xboxlive.download.akamai.com
 1edb38e27f874985ac4e72dab256a424.fp.measure.office.com
 1ee41a3ffd594aaeadc81bbd280586e5.fp.measure.office.com
 1ef0ccc1ba4040fb89b021b83886e0a0s.fp.measure.office.com
+1f17ef4a3a474b3abbb452c9d9ae9aeb.fp.measure.office.com
 1f603adae1814e6a837d7f3b2adfe0e9.fp.measure.office.com
 1f8782cdf8c5cf3244b3c77e757ad209.fp.measure.office.com
 1f8e0df5b35f483c9203c1c50344fe7b.fp.measure.office.com
@@ -1235,6 +1269,7 @@ xboxlive.download.akamai.com
 225fb7eaad27eaed5b11a46281de63c6.fp.measure.office.com
 225fc9cee3bd4b008f0551aabbb3b0b8.fp.measure.office.com
 22be58c04b77478ab48e6644384034f9.fp.measure.office.com
+22dae1f09cc64c82ae0f9c1daf912900.fp.measure.office.com
 22eb57fc74d4446dabeee1f988de81aa.fp.measure.office.com
 22f91dcc4a5ce026cf97811e15db0c73.fp.measure.office.com
 2300bd2fc59f4bc3a499cce3173e56ad.fp.measure.office.com
@@ -1248,6 +1283,7 @@ xboxlive.download.akamai.com
 23eecdaf8178474699b895e945e96480.fp.measure.office.com
 240b3a7baf7f462da397cdccb5577188.fp.measure.office.com
 243bebe58a1542cf999eeb491a747bdc.fp.measure.office.com
+249d15ae967a14486394bed1141cc95a.fp.measure.office.com
 24bee4f580b341c7a7a7bbe38db7ca5b.fp.measure.office.com
 24d57930cf034eaea721c4e8fa318971.fp.measure.office.com
 24de0f8da057409d9fc977b1f6b00378.fp.measure.office.com
@@ -1292,6 +1328,8 @@ xboxlive.download.akamai.com
 29f4b26036aa9c27d2fd48abf65c8a81.fp.measure.office.com
 2a3a7dbea7a64829b141ab1687a09a49.fp.measure.office.com
 2a69eb6e7465482143a319c8009befc8s.fp.measure.office.com
+2a897b2ef1594c99938a582fa17ff1f6.fp.measure.office.com
+2a902e87833a56b921042261df4daa5f.fp.measure.office.com
 2a9aa1eb01934517976077b8cc7ee22d.fp.measure.office.com
 2ae6e111bdc241f7987dad3d81ef3a36.fp.measure.office.com
 2ae9869c054646fcb85b6ab931c5079e.fp.measure.office.com
@@ -1312,6 +1350,7 @@ xboxlive.download.akamai.com
 2c9053a8c4774f75bf21e97a1c06dfe2e.fp.measure.office.com
 2cbad6eb1bc3412c8b3622a8a5fd2ce2.fp.measure.office.com
 2d0760a2da7d463f83aea1629380b717.fp.measure.office.com
+2d0e4f08387948a58d63341917cedb68.fp.measure.office.com
 2d480c920e514b3da126d54cabdddfa6.fp.measure.office.com
 2d5016a5c0c6bddbaa43300e26fffa5fg.fp.measure.office.com
 2d80ce341a3945a49add660ac78cda2a.fp.measure.office.com
@@ -1328,6 +1367,7 @@ xboxlive.download.akamai.com
 2eb3f34417e94f369bec645782aa8d52.fp.measure.office.com
 2ee31624e7304c679fd98ff18f95289b.fp.measure.office.com
 2ef329bc001d41a3980dc63d7ba3a726.fp.measure.office.com
+2f08429e301a47afb1a14ff1484c6076.fp.measure.office.com
 2f2178fa56d4469bb4aadd9b474acd52.fp.measure.office.com
 2f3c45a31c6948188cd170cdd6732616.fp.measure.office.com
 2f55b615531b47188ba9b884f4e5aac7.fp.measure.office.com
@@ -1387,6 +1427,7 @@ xboxlive.download.akamai.com
 3452fdc6adff494cadba6699da443889.fp.measure.office.com
 345d4a79c317414da716f84ca00481d1.fp.measure.office.com
 34a4448d9da5436b8b7eb57644b7f86a.fp.measure.office.com
+34a99c2b00644dd4a082e93758e692c6.fp.measure.office.com
 34d808ca3beb483b959cf8299816a350.fp.measure.office.com
 34ee45dde4b64ec4aa30362824dd96bb.fp.measure.office.com
 353c3084366f42bbb0ad4f9eefae13e2.fp.measure.office.com
@@ -1397,12 +1438,14 @@ xboxlive.download.akamai.com
 35d40458ca136949dd3fb9172675874f.fp.measure.office.com
 35e6b3176edf4b3aac38f1fae7b38e2fy.fp.measure.office.com
 35f87ea5c157674fa7b323aaa8443b76.fp.measure.office.com
+36176aaf724a521cead6988b0bf21970.fp.measure.office.com
 362436ddf65f46f9927852c6d110a8e1.fp.measure.office.com
 3629619f63de4eaaa4670634934249c4.fp.measure.office.com
 362dc09a1538410e9045ef9d4961a14bu.fp.measure.office.com
 36631177663a57219c527baf72aa2769.fp.measure.office.com
 366ad3dbbb5d46729eb8517367349134.fp.measure.office.com
 3676b1ffaf7148538ed53c9ec002ecf2.fp.measure.office.com
+367f2c566d4f41649ee7672ab256853c.fp.measure.office.com
 3687a24af73f45488b2cb317ed6d8692.fp.measure.office.com
 36963973eb8243858fb345143a649ec1q.fp.measure.office.com
 36c5d78fdbee4c329d9dc5e92583b603.fp.measure.office.com
@@ -1441,6 +1484,8 @@ xboxlive.download.akamai.com
 3982d2901b62491c81a8fd87cfd37b13.fp.measure.office.com
 3988a10d9e0a49cab0ef6a2d5d01b836.fp.measure.office.com
 39a1d9ec7963099192caa354025f0808.fp.measure.office.com
+39b569e7b3ea4298b0a1f7d860307905.fp.measure.office.com
+3a0f69689f16499692b77098df7469a3.fp.measure.office.com
 3a10500dad34422388faf9bbe7df373e.fp.measure.office.com
 3a1f41d9f2a3412e9b51e75f97a35cfa.fp.measure.office.com
 3a2908e9b3fa4cafae77e2cbd1d0bca7.fp.measure.office.com
@@ -1457,6 +1502,7 @@ xboxlive.download.akamai.com
 3b09d1356de40aece9d73ab93a0001d7.fp.measure.office.com
 3b15076c7c954cbb90aed1fd4698c98f.fp.measure.office.com
 3b2b7c60d22b4a78b6807a1018b32ba9.fp.measure.office.com
+3b3f72136851429e910a430e7c11b2e2.fp.measure.office.com
 3b794868b0af1e12864e6d3a4793567f.fp.measure.office.com
 3b7953e68eb14dc585558497333c5238.fp.measure.office.com
 3b9b7510a92a405c8747627d6b815d4a.fp.measure.office.com
@@ -1474,6 +1520,7 @@ xboxlive.download.akamai.com
 3cc4920bbb9d4be88b671f95e1908a3f.fp.measure.office.com
 3ce05d564a0e45d5abbe9fba91deee5a.fp.measure.office.com
 3ce090deeaf94d2996c460bf4816a460.fp.measure.office.com
+3ce78729ea37488f810e436a37398165.fp.measure.office.com
 3cf60f93098b44cb9b6e98e79ad89fcbe.fp.measure.office.com
 3d0455c640ad414baa5ea27d749a7fe8.fp.measure.office.com
 3d23d20a42bdb58f3b4aac752df3d5e5.fp.measure.office.com
@@ -1508,6 +1555,7 @@ xboxlive.download.akamai.com
 40ceae4cb7c84713ac30131487ec1891.fp.measure.office.com
 40d448407d014c268a51099db415f854.fp.measure.office.com
 4103881528e5432cb1a1a8ecb295acf4.fp.measure.office.com
+41420f95d6944758a92ac95a31d7a41b.fp.measure.office.com
 414e57fb05d04433b02e509bdba594c7.fp.measure.office.com
 4169e92d17754977beb760812d1c3fc8.fp.measure.office.com
 4177a628ae2f40ea982894a890925c70.fp.measure.office.com
@@ -1518,22 +1566,26 @@ xboxlive.download.akamai.com
 41cd8b8a51ef46ff87182e0a12da9aef.fp.measure.office.com
 41d19f24d27045e0a677a701e18082e4.fp.measure.office.com
 41dcf006137e483b8d5932fcce72d7cf.fp.measure.office.com
+41de1a76e998497a9303b47f9de1d1c5.fp.measure.office.com
 41e48ca5f46640af83b95d89335556d1.fp.measure.office.com
 420264063249497196d08849deda1e9d.fp.measure.office.com
 4206ce196421660e22b131e9af4d311a.fp.measure.office.com
 425d9d31548646d89f64dc46a6dd6dac.fp.measure.office.com
 42610877083847419aebb4b45e2fdaa8.fp.measure.office.com
 427a0cfbb8994ec8ac4b480d6f6eae61.fp.measure.office.com
+427a4618c6071d83f190e0fef8a227a5.fp.measure.office.com
 4292493b91b708e8e2c6d5769f134329g.fp.measure.office.com
 42a773a3976e486ba9ab0d2d4dc1fe7c.fp.measure.office.com
 42cacc8baf1a46e997e2ba40d757835c.fp.measure.office.com
 42cd1fbb77bbfadbba1a9dafcdd1ede2.fp.measure.office.com
 42d7c7d86cff47f8bf05d20f8270b261.fp.measure.office.com
 430bdedeee994cc19c5a4649ed682908.fp.measure.office.com
+431b9713786e4a0e85248ae7c612645b.fp.measure.office.com
 4329400557a34f528580c6ddfe61df4d.fp.measure.office.com
 433d7df8f74472482778731f03c23317.fp.measure.office.com
 436b1aaf73b648d1a7fd1a189755c0e8.fp.measure.office.com
 43d02c3fd15740abbbe5b1b99701dc61.fp.measure.office.com
+43d7f09b65844fdaa320d78ac95bceb8.fp.measure.office.com
 43f46990435b492a954c8df9eb5fafe9.fp.measure.office.com
 4411aecbaaf4c13fd8889bb8e90a590e.fp.measure.office.com
 4461de70bc03433f84b984ea754c50d9.fp.measure.office.com
@@ -1563,6 +1615,7 @@ xboxlive.download.akamai.com
 4720e2ceb62a4a728ee0cd162619fb5e.fp.measure.office.com
 4724371979ca444ba36adf7ee79b1350.fp.measure.office.com
 476572d4f0ee4513893ac5dc1134199a.fp.measure.office.com
+477c9e54bfd7471e9d46bac99a8ed20b.fp.measure.office.com
 47811d9d1112402b8d0f5cce161f1d93.fp.measure.office.com
 47d6e835e83242f3a43ee26ee3b9fe29.fp.measure.office.com
 47d7c9afa28f454f6765287a90896201.fp.measure.office.com
@@ -1574,6 +1627,7 @@ xboxlive.download.akamai.com
 487262f14088466baee46e129c90e111c.fp.measure.office.com
 4895dc7ff8ca4c82bb356e36c53e0d56.fp.measure.office.com
 48a21caa46c04a1e9f36385e5fa44cb6.fp.measure.office.com
+48ba180cc92365fe54a23eb307a2c179.fp.measure.office.com
 48c5ec0b56f346a08b0f8453ec52a127.fp.measure.office.com
 48d49bfd366a4e47b31b015dfb0a5834.fp.measure.office.com
 48f0337397c14f36833d79bac3fc8555.fp.measure.office.com
@@ -1593,6 +1647,8 @@ xboxlive.download.akamai.com
 4ab4439c9b30481eac9b7c045199a994.fp.measure.office.com
 4ac3fb6e512449ada530efde8975d377.fp.measure.office.com
 4b2b82a2250949b1aebfc132a95c76e1.fp.measure.office.com
+4b7240c903b446d2b8fc11f0c840ea65.fp.measure.office.com
+4b8e02bae7ab44848322c930676cd3ec.fp.measure.office.com
 4bcb8c627111485cb096c37bdbc42722.fp.measure.office.com
 4bd4aef5eb5c49fda7e9063b958f2c7b.fp.measure.office.com
 4c0565edf86a4c67b1038ba9ee80911a.fp.measure.office.com
@@ -1606,27 +1662,34 @@ xboxlive.download.akamai.com
 4cf2083e644f4890aba467040e8b3c93.fp.measure.office.com
 4d18ccf18506405183076960699db700.fp.measure.office.com
 4d4f2ac2816845eb8408fa9cd31e0793.fp.measure.office.com
+4d51c4bb1bd34d00a515bf451cba309f.fp.measure.office.com
 4d521729e96441408db4e159334d0179.fp.measure.office.com
 4d65c1e7376c4db2ac48ec8e2abba0a6.fp.measure.office.com
 4d836e126ffb4e28a0f51e35c3cbdeb2.fp.measure.office.com
 4d8745db373e4ff49eb88e4b8a023afe.fp.measure.office.com
 4d9baf82aebccf8c50a1a0f044e341ca.fp.measure.office.com
 4da9383cb65e43d09da87c57f9c79d49.fp.measure.office.com
+4dc016e1bcdc4432815a4adc62aa367f.fp.measure.office.com
+4dc9ebe9c1cc5c22af2f665fea03f28b.fp.measure.office.com
 4dd3ae58432bbb9337af91493e19f955.fp.measure.office.com
 4e0ded697fb74ec691a225a0448649bd.fp.measure.office.com
 4e2c36ccf96b5983e704e4464e854bf8.fp.measure.office.com
 4e571e329cc747998e7580e8488f8c39.fp.measure.office.com
 4e76b3424292e8f9378de7900761173b.fp.measure.office.com
+4e83215548583efc70931bb7da7ddd61.fp.measure.office.com
 4eaeb7adfe9a4dcabdc7d7174209c8ba.fp.measure.office.com
+4ed9485ed9904f4ba53b19f9791015e8.fp.measure.office.com
 4ef0bbea3b9c4b58baec372a57655aa49.fp.measure.office.com
 4f7c9489353241db87a0f5756b5589e4.fp.measure.office.com
 4f7ee1d05bc249de86cc8ea7641dd948.fp.measure.office.com
+4f82633b9fc24041ae6088b39f7dbcc6.fp.measure.office.com
 4fb6b875447b4dd0a18774dd662ee02f.fp.measure.office.com
 4fbec9cd784d4e94b4c2e63f40fcfd04.fp.measure.office.com
 4fc52c4e79b84617acbe4c9f017236a7.fp.measure.office.com
 4fe25e55d79b4ae297292463d5d05a1es.fp.measure.office.com
 5.tlu.dl.delivery.microsoft.com
 5000841ffccabbfb8c93349118033775.fp.measure.office.com
+502c00ac5e594bf686fd1e9c78ab0a57.fp.measure.office.com
 502f2c9eec6f42eb9533b0bc55bddece.fp.measure.office.com
 503012efee1248c2a1c1588b1a356cb9.fp.measure.office.com
 503572f2a03d468a8f5b58ed0952cc2b.fp.measure.office.com
@@ -1645,6 +1708,7 @@ xboxlive.download.akamai.com
 51d42bf72a534cb1938f5545b1707c06.fp.measure.office.com
 51d8a69b533a488fa7cc1c0bc1263368.fp.measure.office.com
 51e81ea996854c71ae9f23bb0f9c026f.fp.measure.office.com
+520d1b392933450ea23a69a7ac5f6ac3.fp.measure.office.com
 523dc711c4220cd418b51ba0a48e1b78.fp.measure.office.com
 52648780cbb24c2a9afc6fe00ad2fce4.fp.measure.office.com
 529be77f53b94e4bb3a4605f936857f4.fp.measure.office.com
@@ -1658,6 +1722,8 @@ xboxlive.download.akamai.com
 5304a10f4f8d479ba247f9b9ed4444a1.fp.measure.office.com
 5310271a143249e7ad887ae5c8980e3f.fp.measure.office.com
 5345038ebeda4fa2bc4dbf59277cbf55.fp.measure.office.com
+53653736b47a4464ac69d83bce9d8240.fp.measure.office.com
+5385e4eeb25e6494ad77c248126f8a27.fp.measure.office.com
 53c2d8e3e8d440988b882a6842d8ad03.fp.measure.office.com
 53cd67b1622b4d828ed358887c00631b.fp.measure.office.com
 53d09f73573f49b2be8a99141dedb620.fp.measure.office.com
@@ -1686,6 +1752,7 @@ xboxlive.download.akamai.com
 5635183234c04251846b77c93a8fe8f6.fp.measure.office.com
 563fbef332db52f6255b3c7d92697f5b.fp.measure.office.com
 567d3cbecc554f178568c6acb02a00cc.fp.measure.office.com
+5681f1949b0649958eea1018be48d1e5.fp.measure.office.com
 568a53e498524216a9c43ca004386a72a.fp.measure.office.com
 5738f13bd52047e8874981fdc75b9eed.fp.measure.office.com
 57393dfe6bd44f019e344cb0585e3ccd.fp.measure.office.com
@@ -1699,6 +1766,7 @@ xboxlive.download.akamai.com
 581dc7dfcd18473c89c2453e1e5a8bfb.fp.measure.office.com
 582084281ebe81901bd3a1119c26ec57.fp.measure.office.com
 5854c7377359437693cfd86131f1162d.fp.measure.office.com
+58589bc1bbd74d658a400ce24eb91cf0.fp.measure.office.com
 5889098ac3eb293f9f9591bc3ad9028f.fp.measure.office.com
 58952397371642518cefe33d72110b2c.fp.measure.office.com
 589d60ce540b4856b856bdb0343a0223s.fp.measure.office.com
@@ -1712,12 +1780,14 @@ xboxlive.download.akamai.com
 59e6441ac4e64248a75ed5ce6943f1d9.fp.measure.office.com
 59f0d643087e48fa8960858162777921.fp.measure.office.com
 5a15cc9a9fb442af968eae008c6f0222.fp.measure.office.com
+5a2e32e1122a46b5accc5f4017dd08d8.fp.measure.office.com
 5a57675c6834481c9bf063366c396b0c.fp.measure.office.com
 5a6874cbbd9f400eaed8ad3592fec5e1.fp.measure.office.com
 5a7d339b46df795fb8c1b1a8590744ff.fp.measure.office.com
 5aa3cb71074747f79a32ddc4d3edc7a8.fp.measure.office.com
 5abd656f86b54603a6604ccaffd50048.fp.measure.office.com
 5ae0cf9dad33439eaf91251ddf734118.fp.measure.office.com
+5ae445fa92f049ad8023a715860402c1.fp.measure.office.com
 5aef955d172649858f5c0be9d2b8d86d.fp.measure.office.com
 5b00c3d5e8b44bf180f4a82839ff62f4.fp.measure.office.com
 5b5e26e56cbcff7e2c37351419e34356.fp.measure.office.com
@@ -1733,6 +1803,7 @@ xboxlive.download.akamai.com
 5c50ff27494b4f6fb7f8f9c32eed6713.fp.measure.office.com
 5c87c1b2530a45f2befe3cff0a812a52.fp.measure.office.com
 5c8f3dbbbb8540e9b76b5fab8545414e.fp.measure.office.com
+5ccbdccedd0a4dbbaebfb7b6f1186ca2.fp.measure.office.com
 5ccf04e2be9b4a57b79be5445195b804.fp.measure.office.com
 5d0edd5e7741c8a3af5375c999da40b7.fp.measure.office.com
 5d383db6e8f410764ed0e7703ed6b03b.fp.measure.office.com
@@ -1756,7 +1827,9 @@ xboxlive.download.akamai.com
 5f415d9aa372401682807d9283572480y.fp.measure.office.com
 5f843237f97d4d0ea80d2b8fe52868ee.fp.measure.office.com
 5f8fdea9551342c5951e1cfe92425b39.fp.measure.office.com
+5ff7acbdc1ab45b39775897b0600b38a.fp.measure.office.com
 6.tlu.dl.delivery.microsoft.com
+6005b6bc5cce4d4e9fb34d94968ffed9.fp.measure.office.com
 6033d30053b4d7e8ad814f5f51105cc1.fp.measure.office.com
 605460ddb1034e819392cb000c1864b7.fp.measure.office.com
 605a65c67ec90296e823ee0286bbda12e.fp.measure.office.com
@@ -1766,6 +1839,7 @@ xboxlive.download.akamai.com
 608f779f60d74f9a9b861431235d2b47.fp.measure.office.com
 60901733f525484ab2df45033e86c6e9.fp.measure.office.com
 60923165944a478c9c5d706e305799bc.fp.measure.office.com
+60cf08b2090f4fae98736eaa2895c3c5.fp.measure.office.com
 60e8639f95124c9880186e36582780c0e.fp.measure.office.com
 60ecd85f78aa424dbcb26ec799befaff.fp.measure.office.com
 60f5cc86e940486c9ed395478a6fba8e.fp.measure.office.com
@@ -1823,6 +1897,7 @@ xboxlive.download.akamai.com
 66cb99fb195b41f1a649868fc5c21b86.fp.measure.office.com
 66e3703311c1454982134b92203bf3ce.fp.measure.office.com
 66e4293879d960c384396135ce92dc21.fp.measure.office.com
+66ed06ba24d0447d99be625dc7a80b00.fp.measure.office.com
 670b63e4b8e348ea9a98a45edf9ca383.fp.measure.office.com
 671517ff2c7fb001f03c8af56527a0e8.fp.measure.office.com
 671ab6109b8e4f019525e6bb47ff6e70.fp.measure.office.com
@@ -1843,6 +1918,7 @@ xboxlive.download.akamai.com
 68747f9f580d4278917e0a37d5fe5c4e.fp.measure.office.com
 687f620a48b94b218d9eddebf510bf83.fp.measure.office.com
 6885f4fbe19140ebbb2926e32eb7e4d2.fp.measure.office.com
+689a50f350e14240881e8a6d2966b4d2.fp.measure.office.com
 68bf76cb18a84c568812b5a8ff6c4b8e.fp.measure.office.com
 68c1d2e1de174d4c84aa4047ff51b6ae.fp.measure.office.com
 68c2a33f0c91409792f988c997c10f3c.fp.measure.office.com
@@ -1893,6 +1969,8 @@ xboxlive.download.akamai.com
 6db041a32cab429692d6a3f49af0830a.fp.measure.office.com
 6de7ca0e53f448fea5734ac122679ea5.fp.measure.office.com
 6df24a00353a456abbf4d4331fc478bd.fp.measure.office.com
+6e165936fad74f32a1c1e32ae430c8ec.fp.measure.office.com
+6e2a724cad7e47acb50462911e5e8bbd.fp.measure.office.com
 6e3c3c446a7342b79ffe4607cfd04206.fp.measure.office.com
 6e561953903548d7bebcd2d735c7a51d.fp.measure.office.com
 6e658fe1d8b2427a93ac18446765f61a.fp.measure.office.com
@@ -1945,6 +2023,7 @@ xboxlive.download.akamai.com
 73eddc782d80a4e500ddec4377d8e836.fp.measure.office.com
 7402479fd5514089bec32bd598d883f2.fp.measure.office.com
 740917803540441fa5088e849b918006.fp.measure.office.com
+745c71681d5b4743a435c5158ed8b0df.fp.measure.office.com
 7485ce23ccdb49d7b430b80491fb60f0.fp.measure.office.com
 749eca16b1f44bd88ec4114b61c01e0d.fp.measure.office.com
 74aec650578f4b4b9414e13659e6fee4.fp.measure.office.com
@@ -2042,7 +2121,9 @@ xboxlive.download.akamai.com
 7de0397a4bd74bd6af00edf113b00ce3.fp.measure.office.com
 7e0a66657f6c48498ce23782298c68d9.fp.measure.office.com
 7e1ec5c915de40a0823185072c57633d.fp.measure.office.com
+7e3563a7dca745983b093039e1fd6edd.fp.measure.office.com
 7e42431baeaf5e3546356ea59e7f83ea.fp.measure.office.com
+7e4b337028c9432ea63e996b5369ac22.fp.measure.office.com
 7e4f0af61fe04a46a961a665f00d89ed.fp.measure.office.com
 7eef0940b5314c2a935aaad0fde4c920.fp.measure.office.com
 7efeda47f57640d496d8efbedd5c2dca.fp.measure.office.com
@@ -2063,6 +2144,7 @@ xboxlive.download.akamai.com
 7fc9f6d39a25883f322b2e801fe09b8d.fp.measure.office.com
 8.tlu.dl.delivery.microsoft.com
 801cf4128dcf4781a3f82eb73e773eb1.fp.measure.office.com
+805c2c45e63f4a8abcce8d1637522c41.fp.measure.office.com
 80675644c505435d235a7429434b7f7b.fp.measure.office.com
 8081960d4f474cf78711e6b7b6cbe422.fp.measure.office.com
 8083fe96a385e19f4ba2b04f11ec6412.fp.measure.office.com
@@ -2092,10 +2174,12 @@ xboxlive.download.akamai.com
 8353a63160b741c6b948e4527d1e866c.fp.measure.office.com
 835970e0508649e99ed8898ad9b1c0d9.fp.measure.office.com
 835f3d89f72ef61233deaf5060d3c502.fp.measure.office.com
+836aaf2032bf4fb08ff9ba1559816ba2.fp.measure.office.com
 837072b46bd0451b8afd65e51126bffe.fp.measure.office.com
 838114542f214c499f6d6dcab71880f6.fp.measure.office.com
 839d2519b67c43dc88c208e488b30ce8.fp.measure.office.com
 83a3beb8d5ae1d0c53cbfaab54d598f7.fp.measure.office.com
+83bf270c914449dea02e03eba882a51c.fp.measure.office.com
 83ec8035845d47b8bbe0dcffa79f7856i.fp.measure.office.com
 83f0f0a4f37c4363bb6c57449499353b.fp.measure.office.com
 84b55df3f0324c8e878d5e2910b0bcb9s.fp.measure.office.com
@@ -2129,8 +2213,11 @@ xboxlive.download.akamai.com
 8808ad270ef54ac3b7159b02b6d35a44.fp.measure.office.com
 8813b982993643119dc55966e7c198db.fp.measure.office.com
 88462d30370b465cad045271acd89bd1.fp.measure.office.com
+8858f4f0a2964b81b0a32c84e5035f80.fp.measure.office.com
+8877ed9abb2840d2b3744bed3a4e101d.fp.measure.office.com
 88a9dfe6a81a488cb19d7301a18549b2.fp.measure.office.com
 88dc226c9066849bb5b75fe1af37d39d.fp.measure.office.com
+88e271399b88a46f6634aa0bb13d72cf.fp.measure.office.com
 89227fb8ec74bced18c8aea65f89c3f4.fp.measure.office.com
 8958bfc7a05e482bb71ddb29bb60d79a.fp.measure.office.com
 895a04b5ec404b138308c2c1f0ca40e5.fp.measure.office.com
@@ -2142,6 +2229,7 @@ xboxlive.download.akamai.com
 8a0a748baa38465aa74df54a673a206b.fp.measure.office.com
 8a16ffe8fec84b29b1647c23733c0443.fp.measure.office.com
 8a2c7618c68441cca045ce78b84d27c1.fp.measure.office.com
+8a3c0e244f6b4768bc2be0d91c25d1b8.fp.measure.office.com
 8a5719a8eeea9842040bf7017bf7a625.fp.measure.office.com
 8a6254c8bffb4328b3cc5dd78818b81e.fp.measure.office.com
 8a78f31e6ce54efdad62603b3de1c194.fp.measure.office.com
@@ -2165,6 +2253,7 @@ xboxlive.download.akamai.com
 8bf4f7b5b5364c62a2e495c9c3b5e276.fp.measure.office.com
 8c32db31610d4572967a7f5a1e08379b.fp.measure.office.com
 8cb502644f334c699073073afe97c747.fp.measure.office.com
+8cf7554b821a46949cbdc2b755e3abc6.fp.measure.office.com
 8d01f93da04346fd9a947816a776f7c8.fp.measure.office.com
 8d60e466c8f84efe8d2af879fd11cd20.fp.measure.office.com
 8d7b615a9b4e4b2eb7a408a50fc3cdb7.fp.measure.office.com
@@ -2197,6 +2286,7 @@ xboxlive.download.akamai.com
 9130c87463c44a33a97199e3fe14656a.fp.measure.office.com
 9133eae342074bf7a67e6fc8a541e75b.fp.measure.office.com
 9163e81645f14f38943e349bfc66238f.fp.measure.office.com
+918b9ff977e74dbaa15b359f3f547a69.fp.measure.office.com
 91a2f47679d14661a4ec1b912533edb4.fp.measure.office.com
 91aef4e02de34940a02f63ac15a56c97.fp.measure.office.com
 91c9b1078aba4999bcd49d715573ace1.fp.measure.office.com
@@ -2239,6 +2329,7 @@ xboxlive.download.akamai.com
 95de7f3edfc84f2783201f6a76856b09.fp.measure.office.com
 95df431d5a98f0c4b4f9bda844982aa3.fp.measure.office.com
 95eb8e1e4556421980538dea86f214ab.fp.measure.office.com
+95ecc66f73184cb48e0a81aea05e9da5.fp.measure.office.com
 9602567b87d549a1a020f668584baa06.fp.measure.office.com
 961b9c5bd3d54493b6b2abd4e267b2dd.fp.measure.office.com
 962774884fbc82f666d228e0f5530658.fp.measure.office.com
@@ -2260,6 +2351,7 @@ xboxlive.download.akamai.com
 97b66acd3e07fe9c5325c4cecdb4a75a.fp.measure.office.com
 97e292d7cf8d4f24bbd2ce467970277f.fp.measure.office.com
 97e54e4198df468fa503985d464a8fef.fp.measure.office.com
+97e5e613b3b04e6284ba12b0d3dc2735.fp.measure.office.com
 97f90e1591fa4a59bbbeeca409da9c62.fp.measure.office.com
 97fc70d9c3434442a3eeca4ee967e27a.fp.measure.office.com
 9806c751aad848ae98be423a109ec092.fp.measure.office.com
@@ -2276,10 +2368,12 @@ xboxlive.download.akamai.com
 98d5a10e32bb4a71a545a74719b0535e.fp.measure.office.com
 990d7800a432bfb67a20f0a8e492a509.fp.measure.office.com
 9925b2a668024855a466ec914c0f635e.fp.measure.office.com
+9930829c4f6d46db9ce7f84510c9958c.fp.measure.office.com
 99308e82b9515a92bf75fb64a54df2bf.fp.measure.office.com
 99495559525a4ba897f1006622a2c898m.fp.measure.office.com
 994ef7db94584587af4f831c6fbe1539.fp.measure.office.com
 99649615d4ab4c39b46079f3c6f5a76e.fp.measure.office.com
+99807693f7014b4b974b78998562e967.fp.measure.office.com
 99c2e138114bd986561918a2d9a82c97.fp.measure.office.com
 99c51986d94b4e48acc1a70274e27b29.fp.measure.office.com
 99c8ceb41545c1b228b46113234ac968.fp.measure.office.com
@@ -2288,6 +2382,7 @@ xboxlive.download.akamai.com
 99f2987f21624fa281eb2a227751b48f.fp.measure.office.com
 9a21f756420ae5fdef3238fa136ad0f3.fp.measure.office.com
 9a30e7e82ce44f7689bae4b5158f9e05.fp.measure.office.com
+9a67098b0fe14191968518c95414085a.fp.measure.office.com
 9a6955e5498b44ffaa7499b733d33224.fp.measure.office.com
 9a7866c3cb194a8ba29c1dec1c846732.fp.measure.office.com
 9a78c4f3c7d9426dabb68a0c614ec4b8.fp.measure.office.com
@@ -2306,6 +2401,7 @@ xboxlive.download.akamai.com
 9bd1e840e6d24d4aba2e6f192b8d15d4.fp.measure.office.com
 9c01de583c0448918472f1ecd6a47929.fp.measure.office.com
 9c079bd53c7e431fbef59318cbec8962.fp.measure.office.com
+9c140835e80f4f8e9d344847d9349744.fp.measure.office.com
 9c18b70c93864b5b8b4c4fdb6c8bdc92.fp.measure.office.com
 9c8ad0eaa2313e3aaa64f24f8dcc48ba.fp.measure.office.com
 9c95af7ddbe84445a59ec659eee4eaaf.fp.measure.office.com
@@ -2345,6 +2441,7 @@ a0f9059cd3ea421780f2a0922710b8e4.fp.measure.office.com
 a11a664be9d14d17a998a974722c22e1.fp.measure.office.com
 a11b9001f2654fd1ae01fbbe49dae6ec.fp.measure.office.com
 a12424bf64f74efe80f149c0e16a8a2d.fp.measure.office.com
+a12ba26cec7b4af09adc358061367357.fp.measure.office.com
 a13f133579cd415491a882648a24fafc.fp.measure.office.com
 a140c0aa0d014f38ae809e3ec0ea8d29.fp.measure.office.com
 a166da45b8944eed88682f6e51d2decb.fp.measure.office.com
@@ -2398,6 +2495,7 @@ a6fc64b305b342baae2350cc9d53cebd.fp.measure.office.com
 a7021979e8f84e42aeb864dc77685969.fp.measure.office.com
 a7071812b8dc42f5ae0686c9e900183d.fp.measure.office.com
 a7088c88c4ae4b118a412019effd9458.fp.measure.office.com
+a72a033ceec53e2e93c1c4be47451232.fp.measure.office.com
 a72abe10c3234eb2915ab1af62bb2a23.fp.measure.office.com
 a73bcde7b2ba03f303444e0ee084976c.fp.measure.office.com
 a73e5cb702354b95a0b161c700785754.fp.measure.office.com
@@ -2424,6 +2522,7 @@ a9ec031b34524c1bbbb29031cca813f0.fp.measure.office.com
 a9fdd93072cc42c081b404a81fddaf06.fp.measure.office.com
 aa23e14117a542339c392db955d4a213.fp.measure.office.com
 aa25b88ca13846e297d05498fecfd370.fp.measure.office.com
+aa2b6ccea20b4fa59d5830e97ec547a4.fp.measure.office.com
 aa342747fd674aa2a5cb78bedb680049.fp.measure.office.com
 aa37bfa63dcd4b26bcadcdc999a173bc.fp.measure.office.com
 aa665d4a5dfa496391dcb9f08ba0d81d.fp.measure.office.com
@@ -2439,6 +2538,9 @@ ab7377c35e5249409c15bc5f17938689.fp.measure.office.com
 abc34b084a874a8b8db58d7ecc5d00dd.fp.measure.office.com
 abd094832e3a46ed9096247c46b5e67c.fp.measure.office.com
 abd9056280213df37d1d3bc3c38d24bc.fp.measure.office.com
+ac20468c935c4e599a36fc64de38437b.fp.measure.office.com
+ac39141e44bb4d709b7718e693d68553.fp.measure.office.com
+ac58f74623cf4be19c35f29296ca7dd2.fp.measure.office.com
 ac74cd6df85b4473b5e0ce43f8f98a67.fp.measure.office.com
 ac7cf0e5dab74cbe978f87da61d4582a.fp.measure.office.com
 ac8ae257461b4bf587150ae2c4ef39f1.fp.measure.office.com
@@ -2553,9 +2655,11 @@ b6ec219576e049788150826073fab1cb.fp.measure.office.com
 b6ef15f181c3406db73c9d36a2301802.fp.measure.office.com
 b6f498871a1d4667aba4d4c3a39edbd79.fp.measure.office.com
 b6f9b37f60fa49f582b166fbbb48d620.fp.measure.office.com
+b71786fb5d324e04808f429dbb828ca0.fp.measure.office.com
 b727d5153c7c4306a24677bc2e21b807.fp.measure.office.com
 b770e5e12dbe433da144ced4e08e1b16.fp.measure.office.com
 b77c7721708162a1ad7307f994474e36.fp.measure.office.com
+b783d52e520d426995d47c8b269d81b1.fp.measure.office.com
 b78810a81da74fd9b63d04d16c927767.fp.measure.office.com
 b7a44e7840c94977abf88e421477759e.fp.measure.office.com
 b7c13d295f864385b3ca21d2e4182625.fp.measure.office.com
@@ -2566,6 +2670,7 @@ b826eafe478d40748f903bfaa69dbcc7.fp.measure.office.com
 b835ce4190b044d887aeac2d21f48ea9.fp.measure.office.com
 b8394988faa54136bc521cfa6cbbc0d8.fp.measure.office.com
 b839a1756f742ad533753df0d00409e3.fp.measure.office.com
+b88cad5ec8318e6fc903305721b96fc3.fp.measure.office.com
 b8dd011ef07f4b3fa82618f8b11673ee.fp.measure.office.com
 b8e54a5e759846cd98192769044bbe39.fp.measure.office.com
 b8fd7f332b6a4c7b8b8d44f96959af4a.fp.measure.office.com
@@ -2598,6 +2703,7 @@ bc9c274d45a24efea387b21e142e3635.fp.measure.office.com
 bcbcdf3719c042d28b37ee9982f8bb7c.fp.measure.office.com
 bcc2367de11c4fa6baa3c92b9b77bf82.fp.measure.office.com
 bcd0c2c577890a927761fec572f40683.fp.measure.office.com
+bcdd052a201048218a970548fdcbb271.fp.measure.office.com
 bd2fea5a4e8445e0aeae147130aa3ac2.fp.measure.office.com
 bd4e5c314bff4484bfc195ec83de0d30.fp.measure.office.com
 bd978a32dcab55dc0d91c85541fcebaf.fp.measure.office.com
@@ -2616,6 +2722,7 @@ bef7a300e892a9658cf3d94e82e6176c.fp.measure.office.com
 bf130da3127449ad8bdcdfce7c9b6fd6.fp.measure.office.com
 bf24472a95f345f097443f2d3d8d3b9c.fp.measure.office.com
 bf442115f48f4e8581bc57d7671c4aed.fp.measure.office.com
+bf4827bd97e7415fab62c9b46e7bf828.fp.measure.office.com
 bf512b9ec2574d9dbc88caf3536689cc.fp.measure.office.com
 bf59bd072ca4457a8ec6515928d6af10.fp.measure.office.com
 bf5a20c318004762abeb0d1b6ebefa03e.fp.measure.office.com
@@ -2653,7 +2760,9 @@ c1h-excel-15.cdn.office.net
 c1h-onenote-15.cdn.office.net
 c1h-word-15.cdn.office.net
 c1h-word-edit-15.cdn.office.net
+c235e54023f488f00e58459d16ad0548.fp.measure.office.com
 c28ff29d90e64e3a9e8498e64b2c517b.fp.measure.office.com
+c2c157efe8454071a78bc7457a1f6767.fp.measure.office.com
 c2dfd5c4b383ef969b8e4b0e8ffb91e7.fp.measure.office.com
 c2f6932aebf1b9adb4a490e4d71cd510.fp.measure.office.com
 c354e6d8acd846f5b79fcbf263540332.fp.measure.office.com
@@ -2665,9 +2774,11 @@ c3f3cf18ac484447acb66d1c03721cbf.fp.measure.office.com
 c40478460c45449fa4264c9b6a6c0017.fp.measure.office.com
 c4190125ae5b4db4a33a8195b3aa665f.fp.measure.office.com
 c4446a3b2a734c818e3e3575ee715c34.fp.measure.office.com
+c486bd1a70a148fc96522d295e5e4b17.fp.measure.office.com
 c48bd88cce4844ef987045c8c1d16957.fp.measure.office.com
 c48f5e8e884146798bf5b7e3aff71db8e.fp.measure.office.com
 c4a2be2f94444430b7ba184046c47ee6.fp.measure.office.com
+c4ae4c8d0d394dd2bbeea400428e24f8.fp.measure.office.com
 c4f54ad090794d5c9b3114597361caf3.fp.measure.office.com
 c4fd6265da214ab2b5435bd9def1bbd7.fp.measure.office.com
 c5001ade01bf438f8bee8f6563f92458.fp.measure.office.com
@@ -2684,9 +2795,11 @@ c60f8e88972642808a358bb9d31e3782.fp.measure.office.com
 c62db46b1ecf4f5986bc4e73c52e16ee.fp.measure.office.com
 c6354bbe5b58441b86ebd46743c2ad08.fp.measure.office.com
 c63c37e82e6742dfbd6c6dd3e8239cdd.fp.measure.office.com
+c6c0121bb16b409b97b3747317e373fa.fp.measure.office.com
 c6c227ce88e54861ae4b5d2161d23106.fp.measure.office.com
 c6e08749480a4d71b67e146fe619d6af.fp.measure.office.com
 c6eb57df0bba506cedd253ee94268529.fp.measure.office.com
+c6edc4f518c44cd3a8f53536861fcc96.fp.measure.office.com
 c6ee9394bd654e46bb87b09e99f6478f.fp.measure.office.com
 c6f49550263f45c688e1273002a0f992.fp.measure.office.com
 c72072afa95241a4a5cd7b6edc14d640.fp.measure.office.com
@@ -2702,6 +2815,7 @@ c7ea4e682c62404fb55204109d1ee3ea.fp.measure.office.com
 c7ecd79ec87e44508c30426f299ae774.fp.measure.office.com
 c7faf805006343a883b89b1dfe7ac461.fp.measure.office.com
 c7fb15e6f42e4fe2b56c4cf7cdf0b70a.fp.measure.office.com
+c81e9147f87f90bf61c9ceac0580ed07.fp.measure.office.com
 c82186deb63b4265b130bc9a10f8fe78.fp.measure.office.com
 c8312e57983643ab8518e99a0eaf6f26e.fp.measure.office.com
 c833122c4f374428a93fb26e91389f50.fp.measure.office.com
@@ -2711,8 +2825,10 @@ c8b1c8114995bc7653faa2ff67961112.fp.measure.office.com
 c8cef144357042878045a42ad294af23.fp.measure.office.com
 c8d7e9f0e73917fa1fd2f1e406b915d8.fp.measure.office.com
 c908f349fdd04ac98c828419b59d04ec9.fp.measure.office.com
+c9521ce60e174c514d5da31433ad2734.fp.measure.office.com
 c963c36c2f4b45c6ace8c7f0ff4e8941.fp.measure.office.com
 c96991bc849061eceed6cd26e1df3c3d.fp.measure.office.com
+c9bb9c517ee1ccb61c0fc91cc6840001.fp.measure.office.com
 c9d198d079e94cff9f4cf94d408eb220.fp.measure.office.com
 c9d58f8f880f47d48234ff099a718227.fp.measure.office.com
 c9d65894b8be4365b2a42f9a029a8924.fp.measure.office.com
@@ -2725,6 +2841,7 @@ ca664ee36a3f647dbaf64e81aa0cca03.fp.measure.office.com
 ca7ae92a490744e2b037a3b31bdcdda9.fp.measure.office.com
 ca85d90c529f4276923a6a0d213d7fc4.fp.measure.office.com
 ca8d50b9baaa43a8bc98a3f7a938c403.fp.measure.office.com
+ca8f0cde32ba42f3974070826f5f04d7.fp.measure.office.com
 ca8f712f5d23416e993be03b5fe152e0.fp.measure.office.com
 caae6675a76143b3805f10e10272777c.fp.measure.office.com
 caf2d5de5cca476c938417040be808dd.fp.measure.office.com
@@ -2740,6 +2857,7 @@ cbf13bc3101241019455b32b3d6d4692.fp.measure.office.com
 cc1692f8f20549da9949a1c2f94d5af3.fp.measure.office.com
 cc1b24666f444aaab1073ba956c35da4.fp.measure.office.com
 cc626433039447d491c4733c4fd75621.fp.measure.office.com
+cc63775c88e1472fa2a27450851c316f.fp.measure.office.com
 cc80d2a123114ce0a30245028f23512f.fp.measure.office.com
 cccc0193412c41b38f364357dfa0c8a0.fp.measure.office.com
 ccdae15cdba9171da3f4c02bc9deebe3.fp.measure.office.com
@@ -2754,8 +2872,10 @@ cd4bb9a052f2433daf10319cdfb5d837.fp.measure.office.com
 cd78ceb7a03d4bc581c59cbff7099ada.fp.measure.office.com
 cded7f2436bd41f8ae7b6fb377f52f7e.fp.measure.office.com
 cdn.fluidpreview.office.net
+ce2617d2a3a1a6b03e6b908e5fde808f.fp.measure.office.com
 ce2c904e32828a525139bf6dc7f6d5f3.fp.measure.office.com
 ce2ec51c6d893e83de9a4cc0de95a86c.fp.measure.office.com
+ce358ac4398d47b5beaaf3ca37291ea5.fp.measure.office.com
 ce3ebb4f8406c14e9af3be1369eedc9e.fp.measure.office.com
 ce5cf47d03da4c3abc1b1f3935b4fc59.fp.measure.office.com
 ce9d5add5e144629b0e1a7d0845a34ff.fp.measure.office.com
@@ -2795,9 +2915,11 @@ d06a972787a84b448b1aa0c9be87399f.fp.measure.office.com
 d0856c1ae2264fefa5195c107fdc42a4.fp.measure.office.com
 d0a84dbcb9ce4ac68cbde3174d250636.fp.measure.office.com
 d0c0eb9a56ae4354a3232f34eee00581e.fp.measure.office.com
+d0c22df657a5dba50d3b68f6dc52aab8.fp.measure.office.com
 d13e253847cb40c6838e96f79cf0de0f.fp.measure.office.com
 d1a032267b81f34c7f16f5a58910af40.fp.measure.office.com
 d1a54e070d81422f8f9d4337da13105c.fp.measure.office.com
+d21624b6363c4338b026d71ccfbebc55.fp.measure.office.com
 d21f2765e79d4046815af50c4e8668c4.fp.measure.office.com
 d222870c689b4843be9dc3aa160676ad.fp.measure.office.com
 d232e85d679244c7a55220e55f0bc0c8.fp.measure.office.com
@@ -2884,6 +3006,7 @@ da7c6a0aa77e44b48fe735a0c828bb0d.fp.measure.office.com
 dab32656a86140028ff7406264487e56.fp.measure.office.com
 dabc71ae20594736a72050129a823878.fp.measure.office.com
 dad0ebe10e9a46a6af8a1bdbfecf89bc.fp.measure.office.com
+dad1d94c372b4817bc7389ca138926af.fp.measure.office.com
 dad7556614d04b169d98177322c5b06c.fp.measure.office.com
 daf2db69942f85d428ad309223415194.fp.measure.office.com
 daffef83817249f185931cfa77e01ea3.fp.measure.office.com
@@ -2912,9 +3035,11 @@ dd7dfcdeaf334dfcaf0030c576db0ee7.fp.measure.office.com
 dd89606bf0234455b32a2cf6a50746bb.fp.measure.office.com
 dd8c5cbaadd2450894905c5651d44e33.fp.measure.office.com
 ddadb8ec032e4115bba2c1bed99397b1.fp.measure.office.com
+ddaee865404c42948492cf2ebd9a6c17.fp.measure.office.com
 dddomaincontrol-devel78bd7c18f924c9cb9c8a890acbd1001e-client.fp.measure.office.com
 ddf27dcba6a04643845569446a757179.fp.measure.office.com
 de0cece7dbc1431487b395d255ac2324.fp.measure.office.com
+de2d66dd5ac36a2b06aa35b1f6b7398e.fp.measure.office.com
 de3a69c145a7492d83b7484864d1828f.fp.measure.office.com
 de3eae95ffeb4ff2af5d8ab76529ab07.fp.measure.office.com
 de94a7a0778b44d7a31bac267d19de0a.fp.measure.office.com
@@ -2938,6 +3063,7 @@ dual-s-0005-office.config.skype.com
 e01a7061636844ca8ecb378548842474.fp.measure.office.com
 e0516d486d4a4e1d85fd90efb1330eb6.fp.measure.office.com
 e07c74b4a40a112ea537b9d16cf82544.fp.measure.office.com
+e095a1bbf4c34292874c9346fbeb4c17.fp.measure.office.com
 e0b0683cf2434f38bcc3f8187df90c06.fp.measure.office.com
 e0d644539d9241fe82c22b7b3766a8f3.fp.measure.office.com
 e10d926f902d48c985364affa4d64910.fp.measure.office.com
@@ -2973,6 +3099,7 @@ e42a6303ddf3487a82268011d8e655f9.fp.measure.office.com
 e46f2f00ed92467db83b0e031e809cd8.fp.measure.office.com
 e48c850ed4674583bbf63721fc636ef9.fp.measure.office.com
 e49764791aad49ea87c68f60a7a0499fe.fp.measure.office.com
+e4a6cd50e0aa4990aa78247bcbd905fc.fp.measure.office.com
 e4df2b179f414f9b9248735a43cac6ad.fp.measure.office.com
 e4f7a675489540e8b1be9f1dd79037e8.fp.measure.office.com
 e50e5de0434f46f1a1f4bc43ed48ae66.fp.measure.office.com
@@ -2995,10 +3122,13 @@ e6cbd2e53837d586d3bafd13cd280101.fp.measure.office.com
 e6dc7524815f454abdb9419982f3fdb8.fp.measure.office.com
 e702243012334fceb364b36d35f6941e.fp.measure.office.com
 e70f2e77d2164ffaa5ab64bd8356dd13s.fp.measure.office.com
+e76d5908abb548d1b6848230f25b144f.fp.measure.office.com
 e76e64bc9522ea6359b21f05da97ea70.fp.measure.office.com
 e7797f6ec2bf43e0b9d6985caeb139d7.fp.measure.office.com
 e7d8a7251229fad63ec27a352e9b0351.fp.measure.office.com
 e801e74ae4b848639c9d65fe1b45e596.fp.measure.office.com
+e8031a3b9fc84a9ca486a996638623b4.fp.measure.office.com
+e838f22f9a114b6b9525601617e914c6.fp.measure.office.com
 e871c69781d94483ac769ecd2c34723ba.fp.measure.office.com
 e88570ae11364756b0cb0cb84b66d2ad.fp.measure.office.com
 e8876556f3714a65869381238d25e702.fp.measure.office.com
@@ -3030,7 +3160,9 @@ eac835a100f948fb966c47a6a864a19ae.fp.measure.office.com
 eacbb881382a48fa9d4ebe4181b7bf91.fp.measure.office.com
 eaecbadc8e8075f0336e43c8822ad5ca.fp.measure.office.com
 eafa5fa480764ec382a7f26168a82c27.fp.measure.office.com
+eb0869c7f47645688d19d068ec0ea7a7.fp.measure.office.com
 eb1b2da830d14d37e81679a671aa4c80.fp.measure.office.com
+eb37bf7da8a3457da32ea2fb1dc43c5e.fp.measure.office.com
 eb5052cab50d469a855135fd2d011d98.fp.measure.office.com
 eb5e3c8f11e015e471df25c1552a2f20.fp.measure.office.com
 eb63bfaa20da4015916735ba19a375f1.fp.measure.office.com
@@ -3043,6 +3175,7 @@ ec26b6bdf52a424586dc4f75da35df99.fp.measure.office.com
 ec5ffacbb3454646b5e5bcf430a3131aa.fp.measure.office.com
 ec9c908e64514f18aa5418d7ee4a1326.fp.measure.office.com
 ecad7f0cd9444e90bfb5bb23794913a5.fp.measure.office.com
+ecbcb911049b482e972586a6c0c5bceb.fp.measure.office.com
 eccd4537b6464c0fb02d66c2f5d0b0d3a.fp.measure.office.com
 ecd5cd42568b4c36a7f743d3f603d6d8.fp.measure.office.com
 eceb64a379f44347ad8d9ba2ec490a02.fp.measure.office.com
@@ -3067,6 +3200,7 @@ eef09275aa074ebda01ef43e927ed17a.fp.measure.office.com
 eef2b737360648f8b75c9afc96fa9a1e.fp.measure.office.com
 ef21a0c36e154c26914622436bb47ab4.fp.measure.office.com
 ef345e79c0858889cc3a8c32ec989918.fp.measure.office.com
+ef3701701d1f4731b5dc6f3992e5aed7.fp.measure.office.com
 ef3f886fd7174c78852651e1c782cbc9.fp.measure.office.com
 efbf6c50f05047f59da5c2c0f526b74d.fp.measure.office.com
 efd5a88cc85b407eb98d96b4337d81e8.fp.measure.office.com
@@ -3206,8 +3340,10 @@ fa089bbd9fe94b59ad50d6a8798da413.fp.measure.office.com
 fa274ed2762e4440b18907c4ed4551c2.fp.measure.office.com
 fa3671bbc4984ac884b58c2f7c230971.fp.measure.office.com
 fa46d012244641a9aa8105ad5564a120.fp.measure.office.com
+fa6f7864d40f41f9909329277c89b48d.fp.measure.office.com
 fa721e98c6944401888fe752ef804396.fp.measure.office.com
 fa9bc679bc964827b3c4f2b77293c702.fp.measure.office.com
+fac2ffd6867c41dfb1adf37138983588.fp.measure.office.com
 fac5e32f137e4bbc9632f5e2941e9586.fp.measure.office.com
 fadd89b0d9724c1b930f0e9f0bfe9462.fp.measure.office.com
 fb0180da6692add858b1c6987ab3df89.fp.measure.office.com
@@ -3225,8 +3361,10 @@ fba3151c538c49e3a7b3b27adbda3732.fp.measure.office.com
 fba7e9911918421e8f101f6baea1e8a1.fp.measure.office.com
 fbc045c689604f3d8de92e4f60c5f2c2.fp.measure.office.com
 fbca1e2826324c42a98d203ece675c8f.fp.measure.office.com
+fc2c7ce1e2514b3787433b488420bf83.fp.measure.office.com
 fc4b5c399cbc989b6b29983d834d86d1.fp.measure.office.com
 fc4f95a8156d4f1e8d6e174eda10208c.fp.measure.office.com
+fc53f7abe6bfaaaff37f98c4298f7030.fp.measure.office.com
 fc6ccdad3595c7ff9fb30c5e926164d1.fp.measure.office.com
 fc709e4340778c579fb5f8b08c75202b.fp.measure.office.com
 fcba7aa3694241c396ea51e5203b8027.fp.measure.office.com
@@ -3243,6 +3381,7 @@ fde8a8e6331844c4a6cf19175b89db6e.fp.measure.office.com
 fdfff1780a0f472b8668870809b535a0.fp.measure.office.com
 fe026d83c3b544da9acb47bb6a9f7500.fp.measure.office.com
 fe303c4d38c64637a00b321c59d1d40de.fp.measure.office.com
+fe39653332994916a0e6c9dbe06d9a78.fp.measure.office.com
 fe4657ea4ca1e18d303c1375ebb6369a.fp.measure.office.com
 fe4eee136e394c75bc7bc68ad11fa9b5.fp.measure.office.com
 fe522ad50b054415b4cc6b3e6420627e.fp.measure.office.com
@@ -3254,6 +3393,7 @@ fed83fb2e7564399bf8003f015c2c819.fp.measure.office.com
 fee1870a08d24024ad26b782c92548b1.fp.measure.office.com
 feffff64b46146cd98d4c9c0d2387210.fp.measure.office.com
 ff18ea1629234dbca9cc14036c5ba893.fp.measure.office.com
+ff1f40b4adb5db9618f04eadf1981106.fp.measure.office.com
 ff2230b3466d4a96adc4500a80935d2e.fp.measure.office.com
 ff359b421d054f84a6008e35f32f7295.fp.measure.office.com
 ff3d4f57d8d33901ad911be81a6b608e.fp.measure.office.com
@@ -3507,6 +3647,7 @@ analytics.live.com
 analytics.msn.com
 analytics.msn.com.nsatc.net
 analytics.msnbc.msn.com
+analyticsehnwe.privatelink.servicebus.windows.net
 analyticsehnwe.servicebus.windows.net
 analyticsiot-prod-simpad-ehn.servicebus.windows.net
 androiddev.blob.core.windows.net
@@ -3726,6 +3867,7 @@ chat2.xboxlive.com
 chat3.xboxlive.com
 chat4.xboxlive.com
 chat5.xboxlive.com
+chem4wordtelemetry.servicebus.windows.net
 china.vortex.data.microsoft.com
 choice.live.com
 circdatacdn.z33.web.core.windows.net
@@ -4013,6 +4155,7 @@ iriscoremetadataprod.blob.core.windows.net
 isgemail.blob.core.windows.net
 japaneast-qos.prod.warm.ingest.monitor.core.windows.net
 japaneast-shared.prod.warm.ingest.monitor.core.windows.net
+jetanalytics.servicebus.windows.net
 jpc-visio-telemetry.officeapps.live.com
 kg-legacy-analytics.servicebus.windows.net
 kiwi.blob.core.windows.net
@@ -4029,6 +4172,7 @@ lfghub-anonymous.xboxlive.com
 licensing.xboxlive.com
 licensingtelemetry-prod.servicebus.windows.net
 lidlplusprod.blob.core.windows.net
+live-metrics-euprod.servicebus.windows.net
 live.com
 live.msn.com
 live.rads.msn.com
@@ -5133,7 +5277,9 @@ xpaywalletcdn-prod.azureedge.net
 65014fa047741792ae0d53b0c2d4f06d.measure.microsoft.com
 71b495bf8b574c9f2d065668db73187d.measure.microsoft.com
 9dfdff8a-860b-44a1-9232-7af1f8528c14.rddiagnostics-g-us-r1.wvd.microsoft.com
+a.events.data.microsoft.com
 aad5.kas.telemetry.powerbi.com
+acs-events.trafficmanager.net
 adc-signals.urs.microsoft.com
 addtoprofile-dev.corp.linkedin.com
 addtoprofile-test.corp.linkedin.com
@@ -5171,10 +5317,14 @@ aria.events.data.trafficmanager.net
 asimov-win.vortex.data.trafficmanager.net
 asimov.events.data.trafficmanager.net
 asimov.vortex.data.trafficmanager.net
+atm.fraudeventsvc-ppe.trafficmanager.net
 au-v20.events.endpoint.security.microsoft.com
 au.events.data.trafficmanager.net
 au.vortex.data.trafficmanager.net
 audiofingerprint.ar.glbdns.microsoft.com
+avdab-p-corniche-events-relay.trafficmanager.net
+avdab-s-corniche-events-relay.trafficmanager.net
+avdab-t-corniche-events-relay.trafficmanager.net
 azcomp11.prod.microsoftmetrics.com
 azglobal-black.prod.microsoftmetrics.com
 azglobal-red.prod.microsoftmetrics.com
@@ -5182,8 +5332,10 @@ azglobal.prod.microsoftmetrics.com
 azrmonitoring.messaging.microsoft.com
 b797c241edfdb21012821f184d3ef74c.measure.microsoft.com
 beacons.trafficmanager.net
+bf-analytics-tracker-tm.trafficmanager.net
 bf95e17285ab2c03c620d0233561d860.measure.microsoft.com
 blobcollector.events.data.trafficmanager.net
+blobcollectorcommon.trafficmanager.net
 browser.events.data.microsoft.com
 browser.events.data.trafficmanager.net
 browser.pipe.aria.microsoft.com
@@ -5219,6 +5371,8 @@ data.tvdownload.microsoft.com
 data.us2.messaging.microsoft.com
 data1.us2.messaging.microsoft.com
 datatransfer.microsoft.com
+dev.acs-events.trafficmanager.net
+devicemetadataservice.prod.trafficmanager.net
 deviceprofiler.microsoft.com
 deviceprofilersit.microsoft.com
 deviceprofileruat.microsoft.com
@@ -5240,6 +5394,7 @@ eu.events.data.trafficmanager.net
 euc-excel-telemetry.wac.trafficmanager.net
 euc-powerpoint-telemetry.wac.trafficmanager.net
 euc-word-telemetry.wac.trafficmanager.net
+eudfmeventsapiprod.trafficmanager.net
 eurffc-word-telemetry.wac.trafficmanager.net
 events.corp.linkedin.com
 events.data.microsoft.com
@@ -5257,13 +5412,16 @@ eventsppe.partners.extranet.microsoft.com
 excel-telemetry.wac.trafficmanager.net
 f5bbbc845476e363a1ee9ba2f2e33124.measure.microsoft.com
 federatedprofile.skype.com
+fraudeventsvc-ppe.trafficmanager.net
 geo-analytics-data.trafficmanager.net
+geo.hub.analytics.trafficmanager.net
 glance-analytics.trafficmanager.net
 global.aria.events.data.trafficmanager.net
 global.asimov.events.data.trafficmanager.net
 global.prod.microsoftmetrics.com
 gmodatatransfer.partners.extranet.microsoft.com
 hivadataarchive.partners.extranet.microsoft.com
+hub.analytics.trafficmanager.net
 icm.kas.telemetry.powerbi.com
 in-prod-pme-eastus2-ingestion-66ddb56a.trafficmanager.net
 in-v20.events.endpoint.security.microsoft.com
@@ -5305,6 +5463,7 @@ oca.alpha.telemetry.microsoft.com
 oca.telemetry.microsoft.com
 oca7.alpha.telemetry.microsoft.com
 oms-analytics.trafficmanager.net
+partnerfraudevents.trafficmanager.net
 pf.events.data.trafficmanager.net
 ping-signals.urs.microsoft.com
 pipe.aria.microsoft.com
@@ -5330,6 +5489,7 @@ profileapi.services.microsoft.com
 profiles.live.com
 qa.profileapi.services.microsoft.com
 rddiagnostics-g-us-r1.wvd.microsoft.com
+rdm-trafficmanager-ticketscenter-metrics.trafficmanager.net
 sandbox.vortex.data.trafficmanager.net
 self-events-data.trafficmanager.net
 server.events.data.trafficmanager.net
@@ -5346,6 +5506,7 @@ smetrics.skype.com
 sqm.alpha.telemetry.microsoft.com
 sqm.telemetry.microsoft.com
 sqm7.alpha.telemetry.microsoft.com
+ssp-prod-traffic-mgr-adq-beacon-eastus.trafficmanager.net
 ssp-prod-traffic-mgr-es-beacon-eastus.trafficmanager.net
 ssp-prod-traffic-mgr-es-lp-beacon-eastus.trafficmanager.net
 stg-diagnostics.support.microsoft.com
@@ -5372,6 +5533,7 @@ telemetry_watson.live.com
 test.profileapi.services.microsoft.com
 tm-analytics-pr.trafficmanager.net
 tm-enrollment-telemetry-datacore.trafficmanager.net
+traf-fraudevents-int.trafficmanager.net
 transactionmonitoring.partners.extranet.microsoft.com
 tst.profileapi.services.microsoft.com
 uk-v20.events.endpoint.security.microsoft.com
@@ -5399,6 +5561,7 @@ watson2.alpha.telemetry.microsoft.com
 watson392.watson.microsoft.com
 watson7.alpha.telemetry.microsoft.com
 watsonstage.microsoft.com
+wees.df.telemetry.microsoft.com
 wer.alpha.telemetry.microsoft.com
 win-global-asimov-leafs-events-data.trafficmanager.net
 word-telemetry.wac.trafficmanager.net
@@ -5846,6 +6009,7 @@ groupme.skypetoken.skype.com
 groups.skype.com
 guestuser.skypetoken.skype.com
 gvcchat.conv.skype.com
+h.config.skype.com
 happybirthday.skype.com
 havana-latest.skype.com
 havana-launcher-latest.skype.com
@@ -6238,6 +6402,7 @@ trouter-azsc-ukwe-0-b.trouter.skype.com
 trouter-df.skype.com
 trouter.skype.com
 turn.skype.com
+u.config.skype.com
 ucwa.skype.com
 ui.skype.akadns.net
 ui.skype.com
@@ -6263,9 +6428,11 @@ uswe-a.translatorv2.skype.com
 uswe-b.translatorv2.skype.com
 uswe-c.translatorv2.skype.com
 uswe.translatorv2.skype.com
+v.config.skype.com
 view.email.skype.com
 vm.skype.com
 voicemail.skype.com
+w.config.skype.com
 w.skype.com
 web.skype.com
 web1.skype.com
@@ -6324,6 +6491,8 @@ x.skype.com
 xbox.skype.com
 xboxliverp.skype.com
 xgames.skype.com
+y.config.skype.com
+z.config.skype.com
 # # Xbox
 aad-xbox.s2s.onerf.xbox.com
 aad.ambassadorsadmin.xbox.com
@@ -6888,13 +7057,17 @@ a.global.msads.net
 aads.ambassadorsadmin.xbox.com
 aadsecurescoreprod012019a.office.com
 about5.ads.msft.com
+academycourses.bingads.microsoft.com
 acdn.adnxs-simple.com
 acdn.adnxs.com
 adecn-w.atdmt.com
+adinquiry.bcp.bingads.microsoft.com
 admeld.adnxs.com
 adnxs-simple.com
 adnxs.com
 adnxs.net
+ads-act-test.trafficmanager.net
+ads-act.trafficmanager.net
 ads-doubleclick.net
 ads-inmobi-comtm.trafficmanager.net
 ads.bing.com
@@ -6903,6 +7076,7 @@ ads.mcafee.com
 ads.microsoft.com
 ads.msft.com
 ads.msn.com
+ads.trafficmanager.net
 ads.visualstudio.com
 ads1.jp.msn.com
 ads1c.msads.net
@@ -6910,21 +7084,30 @@ ads3.beta2.idss.msn.com
 adsa.mp.onedrive.com
 adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net
 adscale-emea.adnxs.com
+adsdemandcatalog.trafficmanager.net
+adsdemandcatalogapi.trafficmanager.net
+adsdisplay.glbdns2.microsoft.com
 adsdk.bing.net
+adsdktelemetry-prod.servicebus.windows.net
 adserve.blob.core.windows.net
 adserver-public-cdn.afd.azureedge.net
 adserver-public-cdn.azureedge.net
 adserver.bing.com
 adsl.onedrive.com
 adsl.skype.com
+adsl.trafficmanager.net
 adsl.visualstudio.com
+adsstatic-int.microsoft.com
+adsstatic.microsoft.com
 adstore.response.gcp.eastus.trafficmanager.net
 advert.microsoft.com
+advertising.bingads.microsoft.com
 advertising.microsoft.com
 adx-emea.adnxs.com
 adx-useast.adnxs.com
 adx-uswest.adnxs.com
 adx.adnxs.com
+aisefs.adsdisplay.glbdns2.microsoft.com
 ams1-ib.adnxs.com
 ams1-mobile.adnxs.com
 ams1.ib.adnxs.com
@@ -6947,9 +7130,14 @@ ap-southeast-1.imp2-dev.ads.linkedin.com
 ap-southeast-1.imp2.ads.linkedin.com
 ap-southeast-1.profile-api-dev.ads.linkedin.com
 ap-southeast-1.profile-api.ads.linkedin.com
+api.ads-act-test.trafficmanager.net
+api.ads-act.trafficmanager.net
 api.atdmt.com
+api.clientcenter.ads-int.microsoft.com
+api.sandbox.ads.microsoft.com
 api.sandbox.bingads.microsoft.com
 api.si.bingads.microsoft.com
+api.tip.ads.microsoft.com
 app.atlassolutions.com
 appnexus.com
 asia.bingads.microsoft.com
@@ -6957,6 +7145,8 @@ asia.si.bingads.microsoft.com
 atdmt.com
 atlassolutions.com
 autodiscover.ads.visualstudio.com
+azsc-bingads-centralus.centralus.cloudapp.azure.com
+azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com
 azure.bcp.bingads.trafficmanager.net
 azure.tip.bingads.trafficmanager.net
 azureedge.net^^
@@ -6966,16 +7156,34 @@ b.ads1.msads.net
 b.ads2.msn.com
 b1.ads1.msads.net
 b7.ads2.msads.net
+bcp-ldc1.grafana.ads.trafficmanager.net
+bcp-ldc1.ingress.ads.trafficmanager.net
+bcp-ldc2.grafana.ads.trafficmanager.net
+bcp-ldc2.ingress.ads.trafficmanager.net
+bcp-wus-ldc1.grafana.ads.trafficmanager.net
+bcp-wus-ldc2.grafana.ads.trafficmanager.net
+beta-about.ads.microsoft.com
+beta.adsstatic.microsoft.com
+beta.dmc.ads-int.microsoft.com
 beta.si.bingads.microsoft.com
 bidder-sand.appnexus.com
 bimobile-coffeeandteads.msappproxy.net
 bing-ads-display-ads-cdn.afd.azureedge.net
+bingads.glbdns2.microsoft.com
+bingadseditor.microsoft.com
+bingadsresources.trafficmanager.net
 blu.mobileads.msn.com
 bts.appnexus.com
 c1.atdmt.com
 ca.iadsdk.apple.com.akadns.net
 cam.bingads.microsoft.com
 cam.si.bingads.microsoft.com
+ccmt-aks-cus-prod-ldc1.ingress.ads.trafficmanager.net
+ccmt-aks-cus-prod-ldc2.ingress.ads.trafficmanager.net
+ccmt-aks-eus-si-ldc1.ingress.ads.trafficmanager.net
+ccmt-aks-eus-si-ldc2.ingress.ads.trafficmanager.net
+ccmt-aks-wus-bcp-ldc1.ingress.ads.trafficmanager.net
+ccmt-aks-wus-bcp-ldc2.ingress.ads.trafficmanager.net
 ccpadsdevhyp994.redmond.corp.microsoft.com
 cdn.adnxs-simple.com
 cdn.adnxs.com
@@ -6983,9 +7191,19 @@ cdn.oas-c17.adnxs.com
 cdn.oas-c18.adnxs.com
 cdnads.msads.net
 cf.iadsdk.apple.com.akadns.net
+clientcenter.ads-int.microsoft.com
 clk.atdmt.com
+cmmt-aks-cus-prod-ldc1.ingress.ads.trafficmanager.net
+cmmt-aks-cus-prod-ldc2.ingress.ads.trafficmanager.net
+cmmt-aks-cus-tip-ldc3.ingress.ads.trafficmanager.net
+cmmt-aks-eus-si-ldc1.ingress.ads.trafficmanager.net
+cmmt-aks-eus-si-ldc2.ingress.ads.trafficmanager.net
+cmmt-aks-wus-bcp-ldc1.ingress.ads.trafficmanager.net
+cmmt-aks-wus-bcp-ldc2.ingress.ads.trafficmanager.net
 col.mobileads.msn.com
 console.appnexus.com
+copilot-si.ads.trafficmanager.net
+copilot.ads.trafficmanager.net
 crcdn01.adnxs-simple.com
 crcdn01.adnxs.com
 crcdn09.adnxs-simple.com
@@ -6998,12 +7216,15 @@ dcdn.adnxs-simple.com
 dcdn.adnxs.com
 default-apac.ssp.adnxs.net
 default-emea.ssp.adnxs.net
+dmc.ads-int.microsoft.com
 dmp-api-dev.ads.linkedin.com
 dmp-api.ads.linkedin.com
 downloads.channel8.msdn.com
 downloads.linkedin.com
 downloads.powerbi.com
 downloads.skype.com
+dricopilot-si.copilot-si.ads.trafficmanager.net
+dricopilot.copilot.ads.trafficmanager.net
 dub.mobileads.msn.com
 editor.ads.microsoft.com
 editorial.bingads.microsoft.com
@@ -7034,6 +7255,7 @@ gam.adnxs.com
 global.msads.net
 globalc.msads.net
 globalh.msads.net
+grafana.ads.trafficmanager.net
 graph.atlassolutions.com
 h.atdmt.com
 iact.atdmt.com
@@ -7050,6 +7272,7 @@ imp2-dev.ads.linkedin.com
 imp2.ads.linkedin.com
 improveyourads.microsoft.com
 improveyouradsstaging.microsoft.com
+ingress.ads.trafficmanager.net
 internal.bingads.microsoft.com
 iqzn-useast.adnxs.com
 iqzone-emea.adnxs.com
@@ -7097,6 +7320,7 @@ mstaadsync.dod.teams.microsoft.us
 mstaadsync.gov.teams.microsoft.us
 news.iadsdk.apple.com.akadns.net
 nine-a.p.adnxs.com
+nirvana.bingads.microsoft.com
 nym1-ib.adnxs-simple.com
 nym1-ib.adnxs.com
 nym1.b.adnxs.com
@@ -7116,6 +7340,14 @@ prebid.lax1.adnxs.com
 prebid.lax1.adnxs.net
 prebid.sin3.adnxs.com
 prebid.sin3.adnxs.net
+preview-services.bingads.microsoft.com
+prod-cus-ldc1.grafana.ads.trafficmanager.net
+prod-cus-ldc1.ingress.ads.trafficmanager.net
+prod-cus-ldc2.grafana.ads.trafficmanager.net
+prod-ldc1.grafana.ads.trafficmanager.net
+prod-ldc1.ingress.ads.trafficmanager.net
+prod-ldc2.grafana.ads.trafficmanager.net
+prod-ldc2.ingress.ads.trafficmanager.net
 prod.editor.ads.microsoft.com
 prod.editor.ads.trafficmanager.net
 profile-api-dev.ads.linkedin.com
@@ -7131,10 +7363,14 @@ r2b2-useast.adnxs.com
 r2b2-uswest.adnxs.com
 rb.adnxs-simple.com
 rb.adnxs.com
+resources.azure.bingads.trafficmanager.net
 s.update.ib.adnxs.com
 s.update.ib.adnxs.net
+sa-aks-si-eastus2.ingress.ads.trafficmanager.net
+sa-aks-si-ncus.ingress.ads.trafficmanager.net
 sact.atdmt.com
 sandbox-ui.bingads.microsoft.com
+sandbox.ads.microsoft.com
 secure-ams.adnxs.com
 secure-lax.adnxs.com
 secure-sin.adnxs.com
@@ -7146,6 +7382,13 @@ shftr-lax1.adnxs.net
 shftr-nym2.adnxs.net
 shftr-sin3.adnxs.net
 shftr.adnxs.net
+si-ldc1.grafana.ads.trafficmanager.net
+si-ldc1.ingress.ads.trafficmanager.net
+si-ldc2.grafana.ads.trafficmanager.net
+si-ldc2.ingress.ads.trafficmanager.net
+si-mock.grafana.ads.trafficmanager.net
+si-mock.ingress.ads.trafficmanager.net
+si.bingads.glbdns2.microsoft.com
 sin1-ib.adnxs.com
 sin1.g.adnxs.com
 sin3-cb.adnxs-simple.com
@@ -7172,8 +7415,12 @@ thetradedesk-ads-video-b6e6gwcmgnbcf5fg.z01.azurefd.net
 thetradedesk-ads.afd.azureedge.net
 thetradedesk-ads.azureedge.net
 thunder.adnxs.com
+tip-ldc3.grafana.ads.trafficmanager.net
+tip-ldc3.ingress.ads.trafficmanager.net
+tip.ads.microsoft.com
 tr.iadsdk.apple.com.akadns.net
 tuk2-ldt-ads-2.us.msn.net
+ui.ads-int.microsoft.com
 update.ib.adnxs.com
 update.ib.adnxs.net
 us-east-1.dc-dev.ads.linkedin.com

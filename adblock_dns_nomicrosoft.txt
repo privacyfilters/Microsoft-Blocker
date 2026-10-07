@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 07 October 2026 00:55:46 UTC
-! Version: 1.91.0
+! Last modified: 07 October 2026 22:24:43 UTC
+! Version: 1.92.0
 ! Syntax: Adblock
-! Number of entries: 954
+! Number of entries: 964
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -276,6 +276,8 @@
 ||appnexus.com^
 ||atdmt.com^
 ||atlassolutions.com^
+||azsc-bingads-centralus.centralus.cloudapp.azure.com^
+||azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com^
 ||azureedge.net^^^
 ||bing-ads-display-ads-cdn.afd.azureedge.net^
 ||example.com^
@@ -292,9 +294,13 @@
 ||thetradedesk-ads.azureedge.net^
 ! Microsoft Cloud and Azure related urls
 ||149b4.wpc.azureedge.net^
+||160c1.wpc.azureedge.net^
+||a-0019.a.dns.azurefd.net^
 ||acctcdnvzeuno.azureedge.net^
+||acctcdnvzeuno.ec.azureedge.net^
 ||action.azurecomm.net^
 ||adncdnend.azureedge.net^
+||afdxtest.z01.azurefd.net^
 ||applicationinsights.azure.cn^
 ||applicationinsights.azure.com^
 ||applicationinsights.azure.us^
@@ -312,6 +318,7 @@
 ||connext-cdn.azureedge.net^
 ||connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net^
 ||consentdeliveryfd.azurefd.net^
+||copilot-prod.azure.com^
 ||dev-vertiv-xrwidgets-enh0cfcpfmhwh0az.z01.azurefd.net^
 ||dsxc-e6gygdb9dab2auhz.z01.azurefd.net^
 ||dynamics365cdn.azureedge.net^
@@ -330,7 +337,9 @@
 ||g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net^
 ||gxp-tag-prod-cdn-ep-gphhcre2d4dzeggq.z01.azurefd.net^
 ||harleydavidson-tagging-prod.azureedge.net^
+||isracard-qp-logs-dzefafg0dncpb3bm.z01.azurefd.net^
 ||lexus-tagging-prod.azureedge.net^
+||lgincdnmsftuswe2.azureedge.net^
 ||loader-cdn.azureedge.net^
 ||loader-fd-e3c8gtakhzfgh5g4.z01.azurefd.net^
 ||lzi.azureedge.net^
@@ -853,6 +862,7 @@
 ||recent.svc.cloud.microsoft^
 ||res-4.public.onecdn.static.microsoft^
 ||res.df.onecdn.static.microsoft^
+||res.public.onecdn.static.microsoft^
 ||rkgvqhibz.mshome.net^
 ||rlbefapicrfpg.mshome.net^
 ||rtlozoseti.mshome.net^

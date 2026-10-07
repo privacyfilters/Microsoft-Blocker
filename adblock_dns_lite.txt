@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 07 October 2026 00:55:46 UTC
-! Version: 1.91.0
+! Last modified: 07 October 2026 22:24:43 UTC
+! Version: 1.92.0
 ! Syntax: Adblock
-! Number of entries: 415
+! Number of entries: 417
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||delivery.mp.microsoft.com*^
@@ -423,6 +423,8 @@
 ||appnexus.com^
 ||atdmt.com^
 ||atlassolutions.com^
+||azsc-bingads-centralus.centralus.cloudapp.azure.com^
+||azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com^
 ||azureedge.net^^^
 ||bimobile-coffeeandteads.msappproxy.net^
 ||bing-ads-display-ads-cdn.afd.azureedge.net^
