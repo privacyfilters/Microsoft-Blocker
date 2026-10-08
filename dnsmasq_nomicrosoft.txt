@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 14:42:55 UTC
-# Version: 1.92.0
+# Last modified: 08 October 2026 21:45:49 UTC
+# Version: 1.93.0
 # Syntax: DNSMasq
-# Number of entries: 11450
+# Number of entries: 11455
 #
 # # Microsoft Edge telemetry and CDN
 local=/2.msedge.net/
@@ -4775,6 +4775,7 @@ local=/bingadsedgeextension-prod.trafficmanager.net/
 local=/bingadsuet.azurewebsites.net/
 local=/bn2-ris-ap-prod-atm.trafficmanager.net/
 local=/bn2-ris-prod-atm.trafficmanager.net/
+local=/braze-click-tracking-dcckged5hzgxduh4.a03.azurefd.net/
 local=/c-msn-com-nsatc.trafficmanager.net/
 local=/canvas-cdn-prod.azureedge.net/
 local=/cd-analytics-eu.azurefd.net/
@@ -4989,6 +4990,7 @@ local=/prod-azurecdn-akamai-iris.ec.azureedge.net/
 local=/ps.azurewaf.microsoft.com/
 local=/rai-amp-telemetry-ingestion.azurewebsites.net/
 local=/secure.azure.bingads.microsoft.com/
+local=/shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net/
 local=/skype-pcs-prod-usea2-fe-b.cloudapp.net/
 local=/skypedataprdcolcus03.cloudapp.net/
 local=/skypedataprdcoleus01.cloudapp.net/
@@ -7761,6 +7763,7 @@ local=/sfcluster9.control.test.azuregaming.xboxlive.com/
 local=/sfmgt.control.int.azuregaming.xboxlive.com/
 local=/sfmgt.test.azuregaming.xboxlive.com/
 local=/sisv9bkbm7k.activedirectory-edog.windowsazure.com/
+local=/skx7ny4u92mqdtb3esieng-dyexeyh3gvebbhdv.z03.azurefd.net/
 local=/smf.windowsazure.com/
 local=/southafricanorth-0.in.applicationinsights.azure.com/
 local=/southafricanorth-1.in.applicationinsights.azure.com/
@@ -8007,6 +8010,7 @@ local=/www.dc.applicationinsights.azure.com/
 local=/www.live.applicationinsights.azure.com/
 local=/www.sfcluster.control.test.azuregaming.xboxlive.com/
 local=/wz3lfocwad.activedirectory-edog.windowsazure.com/
+local=/xd4a9mlv1p-81z4gdym-gqbqchgjanbvb3et.z01.azurefd.net/
 local=/xetoscch7gw.activedirectory-edog.windowsazure.com/
 local=/xpzxd2ijzuw.activedirectory-edog.windowsazure.com/
 local=/xvcdishebcw.activedirectory-edog.windowsazure.com/
@@ -11480,6 +11484,7 @@ local=/yualofbqvp.mshome.net/
 local=/z.windows.com/
 local=/z456df7g8hj.z13.web.core.windows.net/
 local=/zewsofpejrx.mshome.net/
+local=/zezevibo.z11.web.core.windows.net/
 local=/zhcohrhljeqkm.mshome.net/
 local=/zjgqaikvwld.mshome.net/
 local=/zoho-books-windows-app.github.io/

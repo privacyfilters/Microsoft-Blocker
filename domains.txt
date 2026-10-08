@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 14:42:55 UTC
-# Version: 1.92.0
+# Last modified: 08 October 2026 21:45:49 UTC
+# Version: 1.93.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 11160
+# Number of entries: 11165
 #
 # # Custom Allow & Blocklist # #
 #ctldl.windowsupdate.com
@@ -5144,6 +5144,7 @@ bingadsedgeextension-prod.trafficmanager.net
 bingadsuet.azurewebsites.net
 bn2-ris-ap-prod-atm.trafficmanager.net
 bn2-ris-prod-atm.trafficmanager.net
+braze-click-tracking-dcckged5hzgxduh4.a03.azurefd.net
 c-msn-com-nsatc.trafficmanager.net
 canvas-cdn-prod.azureedge.net
 cd-analytics-eu.azurefd.net
@@ -5358,6 +5359,7 @@ prod-azurecdn-akamai-iris.ec.azureedge.net
 ps.azurewaf.microsoft.com
 rai-amp-telemetry-ingestion.azurewebsites.net
 secure.azure.bingads.microsoft.com
+shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net
 skype-pcs-prod-usea2-fe-b.cloudapp.net
 skypedataprdcolcus03.cloudapp.net
 skypedataprdcoleus01.cloudapp.net
@@ -8130,6 +8132,7 @@ sfcluster9.control.test.azuregaming.xboxlive.com
 sfmgt.control.int.azuregaming.xboxlive.com
 sfmgt.test.azuregaming.xboxlive.com
 sisv9bkbm7k.activedirectory-edog.windowsazure.com
+skx7ny4u92mqdtb3esieng-dyexeyh3gvebbhdv.z03.azurefd.net
 smf.windowsazure.com
 southafricanorth-0.in.applicationinsights.azure.com
 southafricanorth-1.in.applicationinsights.azure.com
@@ -8376,6 +8379,7 @@ www.dc.applicationinsights.azure.com
 www.live.applicationinsights.azure.com
 www.sfcluster.control.test.azuregaming.xboxlive.com
 wz3lfocwad.activedirectory-edog.windowsazure.com
+xd4a9mlv1p-81z4gdym-gqbqchgjanbvb3et.z01.azurefd.net
 xetoscch7gw.activedirectory-edog.windowsazure.com
 xpzxd2ijzuw.activedirectory-edog.windowsazure.com
 xvcdishebcw.activedirectory-edog.windowsazure.com
@@ -11246,6 +11250,7 @@ yualofbqvp.mshome.net
 z.windows.com
 z456df7g8hj.z13.web.core.windows.net
 zewsofpejrx.mshome.net
+zezevibo.z11.web.core.windows.net
 zhcohrhljeqkm.mshome.net
 zjgqaikvwld.mshome.net
 zoho-books-windows-app.github.io

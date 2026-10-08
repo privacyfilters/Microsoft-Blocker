@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 14:42:54 UTC
-# Version: 1.92.0
+# Last modified: 08 October 2026 21:45:49 UTC
+# Version: 1.93.0
 # Syntax: DNSMasq
-# Number of entries: 1725
+# Number of entries: 1729
 #
 # # Custom Allow & Blocklist # #
 server=/ctldl.windowsupdate.com/
@@ -367,6 +367,7 @@ local=/bingadsedgeextension-prod.trafficmanager.net/
 local=/bingadsuet.azurewebsites.net/
 local=/bn2-ris-ap-prod-atm.trafficmanager.net/
 local=/bn2-ris-prod-atm.trafficmanager.net/
+local=/braze-click-tracking-dcckged5hzgxduh4.a03.azurefd.net/
 local=/c-msn-com-nsatc.trafficmanager.net/
 local=/canvas-cdn-prod.azureedge.net/
 local=/cd-analytics-eu.azurefd.net/
@@ -565,6 +566,7 @@ local=/prod-atm-wds-np.trafficmanager.net/
 local=/prod-azurecdn-akamai-iris.azureedge.net/
 local=/prod-azurecdn-akamai-iris.ec.azureedge.net/
 local=/rai-amp-telemetry-ingestion.azurewebsites.net/
+local=/shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net/
 local=/skype-pcs-prod-usea2-fe-b.cloudapp.net/
 local=/skypedataprdcolcus03.cloudapp.net/
 local=/skypedataprdcoleus01.cloudapp.net/
@@ -886,6 +888,7 @@ local=/retailmedia-static.azureedge.net/
 local=/rum-battle-net-b6ezg0f2g9b9f4ea.b01.azurefd.net/
 local=/sd-tagging.azurefd.net/
 local=/sdtagging.azureedge.net/
+local=/skx7ny4u92mqdtb3esieng-dyexeyh3gvebbhdv.z03.azurefd.net/
 local=/sr-cdn.azureedge.net/
 local=/stm-keyid-fb17d70d734870e919c4e8e603975e664e0e43de.microsoftaik.azure.net/
 local=/subaru-tagging-prod.azureedge.net/
@@ -899,6 +902,7 @@ local=/voduscdn.azureedge.net/
 local=/vpv-ger.azureedge.net/
 local=/wheelioapp.azureedge.net/
 local=/www.1.gungnir-midtier.azureei1.itd.azure.linkedin.com/
+local=/xd4a9mlv1p-81z4gdym-gqbqchgjanbvb3et.z01.azurefd.net/
 # # Uncategorized domains # #
 local=/51tongji.trafficmanager.net/
 local=/a-0001.a-afdentry.net.trafficmanager.net/

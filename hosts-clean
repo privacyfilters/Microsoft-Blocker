@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 14:42:55 UTC
-# Version: 1.92.0
+# Last modified: 08 October 2026 21:45:49 UTC
+# Version: 1.93.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 4145
+# Number of entries: 4146
 #
 #0.0.0.0 ctldl.windowsupdate.com
 #0.0.0.0 delivery.mp.microsoft.com
@@ -3883,6 +3883,7 @@
 0.0.0.0 z.windows.com
 0.0.0.0 z456df7g8hj.z13.web.core.windows.net
 0.0.0.0 zewsofpejrx.mshome.net
+0.0.0.0 zezevibo.z11.web.core.windows.net
 0.0.0.0 zhcohrhljeqkm.mshome.net
 0.0.0.0 zjgqaikvwld.mshome.net
 0.0.0.0 zoho-books-windows-app.github.io

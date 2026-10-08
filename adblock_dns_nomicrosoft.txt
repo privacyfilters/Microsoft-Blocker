@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 08 October 2026 14:42:53 UTC
-! Version: 1.92.0
+! Last modified: 08 October 2026 21:45:48 UTC
+! Version: 1.93.0
 ! Syntax: Adblock
-! Number of entries: 1568
+! Number of entries: 1572
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -209,6 +209,7 @@
 ||bingadsuet.azurewebsites.net^
 ||bn2-ris-ap-prod-atm.trafficmanager.net^
 ||bn2-ris-prod-atm.trafficmanager.net^
+||braze-click-tracking-dcckged5hzgxduh4.a03.azurefd.net^
 ||c-msn-com-nsatc.trafficmanager.net^
 ||canvas-cdn-prod.azureedge.net^
 ||cd-analytics-eu.azurefd.net^
@@ -407,6 +408,7 @@
 ||prod-azurecdn-akamai-iris.azureedge.net^
 ||prod-azurecdn-akamai-iris.ec.azureedge.net^
 ||rai-amp-telemetry-ingestion.azurewebsites.net^
+||shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net^
 ||skype-pcs-prod-usea2-fe-b.cloudapp.net^
 ||skypedataprdcolcus03.cloudapp.net^
 ||skypedataprdcoleus01.cloudapp.net^
@@ -712,6 +714,7 @@
 ||rum-battle-net-b6ezg0f2g9b9f4ea.b01.azurefd.net^
 ||sd-tagging.azurefd.net^
 ||sdtagging.azureedge.net^
+||skx7ny4u92mqdtb3esieng-dyexeyh3gvebbhdv.z03.azurefd.net^
 ||sr-cdn.azureedge.net^
 ||stm-keyid-fb17d70d734870e919c4e8e603975e664e0e43de.microsoftaik.azure.net^
 ||subaru-tagging-prod.azureedge.net^
@@ -724,6 +727,7 @@
 ||voduscdn.azureedge.net^
 ||vpv-ger.azureedge.net^
 ||wheelioapp.azureedge.net^
+||xd4a9mlv1p-81z4gdym-gqbqchgjanbvb3et.z01.azurefd.net^
 ! General Microsoft telemetry
 ||acs-events.trafficmanager.net*^
 ||analytics-gateway-fallguys.trafficmanager.net^
