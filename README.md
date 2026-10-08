@@ -6,9 +6,11 @@ Microsoft Blocker is a collection of filters for blocking Microsoft services, te
 
 There are three versions available depending on how much Microsoft functionality you want to keep:
 
-* 🟢 **Lite** — less aggressive, keeps some Microsoft services working
-* 🟠 **Proper** — stronger blocking while keeping essential Windows functionality
-* 🔴 **No Microsoft** — strict blocking for users who want to avoid Microsoft as much as possible
+* 🟢 **[Lite](#filter-lite)** — less aggressive, keeps some Microsoft services working
+
+* 🟠 **[Proper](#filter-proper)** — stronger blocking while keeping essential Windows functionality
+
+* 🔴 **[No Microsoft](#filter-no-microsoft)** — strict blocking for users who want to avoid Microsoft as much as possible
 
 ---
 
@@ -40,7 +42,7 @@ The GitHub repository is maintained as a mirror for additional availability and 
 
 # Which Version Should I Use?
 
-### 🟢 Microsoft Blocker Lite
+### 🟢 [Microsoft Blocker Lite](#filter-lite)
 
 **Less aggressive and more compatible.**
 
@@ -51,7 +53,7 @@ This version allows these services and domains:
 * Outlook
 * Microsoft Mail
 * Microsoft 365 / Office
-* Onedrive
+* OneDrive
 * OneNote
 * Teams
 * Microsoft Edge Extension Store
@@ -62,22 +64,22 @@ If you want to reduce Microsoft tracking without completely breaking Microsoft s
 
 ---
 
-### 🟠 Microsoft Blocker Proper
+### 🟠 [Microsoft Blocker Proper](#filter-proper)
 
-**Stronger blocking with a focus on keeping Windows usable. Blocks many Microsoft Products**
+**Stronger blocking with a focus on keeping Windows usable. Blocks many Microsoft products.**
 
-The Proper version Aims to allow minimum connections to keep windows usage functional and everything else from microsoft is blocked.
+The Proper version aims to allow minimum connections to keep Windows usage functional, while blocking most other Microsoft connections.
 
-It aims to allow only the Microsoft connections that are useful or necessary for a reasonably functional Windows installation, updates and some select vital services.
+It aims to allow only the Microsoft connections that are useful or necessary for a reasonably functional Windows installation, updates, and some select vital services.
 
 Currently, this version allows these services and domains:
 
 * Windows Updates
 * Windows Defender
-* DotNet(.Net)
+* .NET
 * Winget
-* Github
-* Linkedin
+* GitHub
+* LinkedIn
 * Minecraft
 * Visual Studio Code Extension Marketplace
 * Some Azure-related connections
@@ -95,18 +97,18 @@ This can also affect security-related functionality because some required Micros
 
 ---
 
-### 🔴 Microsoft Blocker — No Microsoft
+### 🔴 [Microsoft Blocker — No Microsoft](#filter-no-microsoft)
 
 **The strictest version.**
 
 The No Microsoft edition is intended for users who simply do not want Microsoft-related connections on their network.
 
-There are still some Microsoft owned/related services are allowed, otherwise normal internet usage will break severly.
+There are still some Microsoft-owned or Microsoft-related services that are allowed, otherwise normal internet usage can break severely.
 
-Allowed services includes:
+Allowed services include:
 
-* Github & Githubusercontent
-* Some azure Related domains many external services depends on
+* GitHub & GitHubusercontent
+* Some Azure-related domains that many external services depend on
 
 > **⚠️ Azure warning:** Some Azure domains will remain unblocked. Microsoft Azure is used by many websites and services that have nothing to do with Microsoft. Blocking Azure infrastructure too aggressively can break unrelated services.
 
@@ -289,9 +291,12 @@ For better coverage, **use Microsoft Blocker at the DNS/network level**.
 
 ---
 
+
 # 📥 Filter Lists
 
-## 🟢 Microsoft Blocker Lite
+<a id="filter-lite"></a>
+
+# 🟢 Microsoft Blocker Lite
 
 Less aggressive version. Recommended if you still need Microsoft services such as Outlook, Office, etc.
 
@@ -316,6 +321,8 @@ Less aggressive version. Recommended if you still need Microsoft services such a
 * [GitHub](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_lite)
 
 ---
+
+<a id="filter-proper"></a>
 
 # 🟠 Microsoft Blocker Proper
 
@@ -351,6 +358,8 @@ Useful if you want a cleaner hosts file and a hosts file with a different name (
 * [GitHub](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts-clean)
 
 ---
+
+<a id="filter-no-microsoft"></a>
 
 # 🔴 Microsoft Blocker — No Microsoft
 
