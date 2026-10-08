@@ -222,6 +222,8 @@ Its DNSBL feature supports domain, hosts-style, and Adblock Plus/EasyList source
 
 * **Adblock / DNS — Best Method**
 
+> Browser-level blocking only affects supported browser traffic. It cannot block Microsoft connections made directly by other applications.
+
 ---
 
 ## 📱 Android
@@ -298,7 +300,7 @@ For better coverage, **use Microsoft Blocker at the DNS/network level**.
 
 # 🟢 Microsoft Blocker Lite
 
-Less aggressive version. Recommended if you still need Microsoft services such as Outlook, Office, etc.
+Less aggressive version. Recommended if you still need Microsoft services such as Outlook, Office, Onedrive, Onenote, Teams etc.
 
 ### Adblock / DNS
 
