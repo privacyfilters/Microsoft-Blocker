@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 07 October 2026 22:24:43 UTC
+# Last modified: 08 October 2026 14:42:54 UTC
 # Version: 1.92.0
 # Syntax: DNSMasq
-# Number of entries: 1701
+# Number of entries: 1725
 #
 # # Custom Allow & Blocklist # #
 server=/ctldl.windowsupdate.com/
@@ -77,6 +77,7 @@ server=/minecraft-services.net/
 # # Microsoft Edge telemetry and CDN
 local=/api-edge.cognitive.microsofttranslator.com/
 local=/bx-msedge.net/
+local=/data-edge.smartscreen.microsoft.com/
 local=/edgecast-logs.licdn.com/
 local=/esv4-uc-edge01e.linkedin.com/
 local=/esv4-uc-edge02e.linkedin.com/
@@ -98,17 +99,33 @@ local=/nsg7-uc-edge01a.linkedin.com/
 local=/nsg7-uc-edge01b.corp.linkedin.com/
 local=/nsg7-uc-edge01b.linkedin.com/
 local=/nsg7-uc-edge01k.corp.linkedin.com/
+local=/ping-edge.smartscreen.microsoft.com/
 local=/srv-esv4-edge-exp.linkedin.com/
 local=/storecatalogrevocation.storequality.microsoft.com.edgekey.net/
 local=/storeedgefd.dsx.mp.microsoft.com.edgekey.net/
 # # Microsoft Edge extension store
 local=/edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net/
 local=/editor.svc.cloud.microsoft/
+local=/msedge.b.tlu.dl.delivery.mp.microsoft.com/
+local=/nav-edge.smartscreen.microsoft.com/
+local=/nav.smartscreen.microsoft.com/
+local=/nf.smartscreen.microsoft.com/
+local=/telem-edge.smartscreen.microsoft.com/
 # # Office 365 services
 local=/1drv.com/
 local=/1drv.ms/
-local=/onedrive.com/
 local=/sharepoint.com/
+# # OneDrive service endpoints
+local=/office365-onedrive.com/
+local=/onedrive.akadns.net/
+local=/onedrive.com/
+local=/skydrive.com/
+# # Teams service endpoints
+local=/api-aps-teams.trafficmanager.net/
+local=/installer.teams.static.microsoft/
+local=/microsoftteams.com/
+local=/teams.cloud.microsoft/
+local=/teams.microsoftonline.cn/
 # # General Microsoft telemetry
 local=/acs-events.trafficmanager.net/
 local=/addtoprofile-dev.corp.linkedin.com/
@@ -296,7 +313,6 @@ local=/officecdn-microsoft-com.akamaized.net/
 local=/officeconfig.msocdn.com/
 local=/officelivecontent.com/
 local=/officeonline.com/
-local=/onedrive.akadns.net/
 local=/outlook-1.cdn.office.net-c.edgekey.net.globalredir.akadns.net/
 local=/outlook-exo.trafficmanager.net/
 local=/outlook.com/
@@ -652,7 +668,14 @@ local=/livetileedge.dsx.mp.microsoft.com.edgekey.net/
 local=/m1-msedge.net/
 local=/microsoft.com-c-3.edgekey.net.globalredir.akadns.net/
 local=/microsoft.com.akamaized.net/
+local=/msedge.f.tlu.dl.delivery.mp.microsoft.com/
 local=/msedge.net/
+local=/msedge.sb.tlu.dl.delivery.mp.microsoft.com/
+local=/msedge.sf.tlu.dl.delivery.mp.microsoft.com/
+local=/msedgeextensions.b.tlu.dl.delivery.mp.microsoft.com/
+local=/msedgeextensions.f.tlu.dl.delivery.mp.microsoft.com/
+local=/msedgeextensions.sb.tlu.dl.delivery.mp.microsoft.com/
+local=/msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com/
 local=/nontlu.graystore.au-msedge.net/
 local=/part-0014.t-0009.t-s1-msedge.net/
 local=/partnerdelivery.microsoft.com.edgekey.net/
@@ -903,7 +926,6 @@ local=/amp.mcafee.com/
 local=/ampvstewnw.mshome.net/
 local=/analytics.pointdrive.linkedin.com/
 local=/api-akcdn.nuget.org/
-local=/api-aps-teams.trafficmanager.net/
 local=/api-mg.nuget.org/
 local=/api-mscdn-tm.nuget.org/
 local=/api-secondary.nuget.org/
@@ -995,6 +1017,7 @@ local=/diqtgvnrk.mshome.net/
 local=/dist.nuget.org/
 local=/dkluwbkdoqv.mshome.net/
 local=/dkzjvbivz.mshome.net/
+local=/dl.delivery.mp.microsoft.com/
 local=/dlmrrflimdcezl.mshome.net/
 local=/docs.nuget.org/
 local=/dpyissld.mshome.net/
@@ -1020,7 +1043,9 @@ local=/fbogpssarhqxto.mshome.net/
 local=/fcvxddsrmcwkfq.mshome.net/
 local=/fd-api-iris.trafficmanager.net/
 local=/fdvueulxkbs.mshome.net/
+local=/fe2.update.microsoft.com/
 local=/fe3.delivery.dsp.mp.microsoft.com.nsatc.net/
+local=/fe3cr.delivery.mp.microsoft.com/
 local=/feed.nuget.org/
 local=/fffwkmouvup.mshome.net/
 local=/fflgcjvguwa.mshome.net/
@@ -1065,7 +1090,6 @@ local=/inference-location-livenet.trafficmanager.net/
 local=/inkscape-windows.github.io/
 local=/insideruser.trafficmanager.net/
 local=/insights.cloud.microsoft/
-local=/installer.teams.static.microsoft/
 local=/ipvhsessjsmqdxw.mshome.net/
 local=/irreverselookuptm.trafficmanager.net/
 local=/iuyqtxagiiarinj.mshome.net/
@@ -1381,7 +1405,6 @@ local=/microsoftsupport.xyz/
 local=/microsoftsurface.com/
 local=/microsoftsurface.com.br/
 local=/microsofttalks.com/
-local=/microsoftteams.com/
 local=/microsofttechnology.com/
 local=/microsofttemplates.com/
 local=/microsofttemplates.org/
@@ -1459,6 +1482,7 @@ local=/msns.cn/
 local=/msnsports.com/
 local=/msnupdate.bz/
 local=/msnusers.com/
+local=/msocsp.ocs.microsoft.com/
 local=/mywindowsmobile.co.uk/
 local=/mywindowsmobile.com/
 local=/mywindowsmobile.de/
@@ -1478,7 +1502,6 @@ local=/nxzppwtvj.mshome.net/
 local=/nyboglexuxzvf.mshome.net/
 local=/ockngtnpjrukz.mshome.net/
 local=/office365-eu-update.com/
-local=/office365-onedrive.com/
 local=/office365-us-update.com/
 local=/offline.microsofttranslator.com/
 local=/ohlloyla.mshome.net/
@@ -1566,7 +1589,6 @@ local=/setup.cloud.microsoft/
 local=/sfsafpiuejwvfex.mshome.net/
 local=/sgsvrjsddpkfu.mshome.net/
 local=/shellprod.msocdn.com/
-local=/skydrive.com/
 local=/slecjadpqhxfhk.mshome.net/
 local=/sms.mcafee.com/
 local=/snap.licdn.com/
@@ -1586,8 +1608,12 @@ local=/static.edge.microsoftapp.net/
 local=/stats-gw-tm.trafficmanager.net/
 local=/stats-partner.trafficmanager.net/
 local=/stats.norton.com.trafficmanager.net/
+local=/stats.update.microsoft.com/
+local=/statsfe.update.microsoft.com/
 local=/statsfe.update.microsoft.com.nsatc.net/
 local=/statsfe.ws.microsoft.com.nsatc.net/
+local=/statsfe1.update.microsoft.com/
+local=/statsfe2.update.microsoft.com/
 local=/status.cloud.microsoft/
 local=/status.nuget.org/
 local=/stub.nuget.org/
@@ -1597,8 +1623,6 @@ local=/tags.mcafee.com/
 local=/tags.msnbc.com/
 local=/targetednotifications-tm.trafficmanager.net/
 local=/tdmonosilglx.mshome.net/
-local=/teams.cloud.microsoft/
-local=/teams.microsoftonline.cn/
 local=/tm-clarity-tag.trafficmanager.net/
 local=/tm-prod-wd-csp-urs.trafficmanager.net/
 local=/toeqrysiddtvs.mshome.net/
@@ -1704,8 +1728,10 @@ local=/ww.nuget.org/
 local=/wwjqmpoqjhrid.mshome.net/
 local=/www-0.nuget.org/
 local=/www-1.nuget.org/
+local=/www.catalog.update.microsoft.com/
 local=/www.linkedin.com/
 local=/www.msecn.net/
+local=/www.sls.update.microsoft.com.akadns.net/
 local=/wxesarlcqtsoum.mshome.net/
 local=/xandr-g-geo.trafficmanager.net/
 local=/xdxoikdqrf.mshome.net/
