@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 14:42:55 UTC
-# Version: 1.92.0
+# Last modified: 08 October 2026 21:45:49 UTC
+# Version: 1.93.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 12226
+# Number of entries: 12231
 #
 0.0.0.0 ctldl.windowsupdate.com
 0.0.0.0 delivery.mp.microsoft.com
@@ -5332,6 +5332,7 @@
 0.0.0.0 bingadsuet.azurewebsites.net
 0.0.0.0 bn2-ris-ap-prod-atm.trafficmanager.net
 0.0.0.0 bn2-ris-prod-atm.trafficmanager.net
+0.0.0.0 braze-click-tracking-dcckged5hzgxduh4.a03.azurefd.net
 0.0.0.0 c-msn-com-nsatc.trafficmanager.net
 0.0.0.0 canvas-cdn-prod.azureedge.net
 0.0.0.0 cd-analytics-eu.azurefd.net
@@ -5546,6 +5547,7 @@
 0.0.0.0 ps.azurewaf.microsoft.com
 0.0.0.0 rai-amp-telemetry-ingestion.azurewebsites.net
 0.0.0.0 secure.azure.bingads.microsoft.com
+0.0.0.0 shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net
 0.0.0.0 skype-pcs-prod-usea2-fe-b.cloudapp.net
 0.0.0.0 skypedataprdcolcus03.cloudapp.net
 0.0.0.0 skypedataprdcoleus01.cloudapp.net
@@ -8372,6 +8374,7 @@
 0.0.0.0 sfmgt.control.int.azuregaming.xboxlive.com
 0.0.0.0 sfmgt.test.azuregaming.xboxlive.com
 0.0.0.0 sisv9bkbm7k.activedirectory-edog.windowsazure.com
+0.0.0.0 skx7ny4u92mqdtb3esieng-dyexeyh3gvebbhdv.z03.azurefd.net
 0.0.0.0 smf.windowsazure.com
 0.0.0.0 southafricanorth-0.in.applicationinsights.azure.com
 0.0.0.0 southafricanorth-1.in.applicationinsights.azure.com
@@ -8618,6 +8621,7 @@
 0.0.0.0 www.live.applicationinsights.azure.com
 0.0.0.0 www.sfcluster.control.test.azuregaming.xboxlive.com
 0.0.0.0 wz3lfocwad.activedirectory-edog.windowsazure.com
+0.0.0.0 xd4a9mlv1p-81z4gdym-gqbqchgjanbvb3et.z01.azurefd.net
 0.0.0.0 xetoscch7gw.activedirectory-edog.windowsazure.com
 0.0.0.0 xpzxd2ijzuw.activedirectory-edog.windowsazure.com
 0.0.0.0 xvcdishebcw.activedirectory-edog.windowsazure.com
@@ -11487,6 +11491,7 @@
 0.0.0.0 z.windows.com
 0.0.0.0 z456df7g8hj.z13.web.core.windows.net
 0.0.0.0 zewsofpejrx.mshome.net
+0.0.0.0 zezevibo.z11.web.core.windows.net
 0.0.0.0 zhcohrhljeqkm.mshome.net
 0.0.0.0 zjgqaikvwld.mshome.net
 0.0.0.0 zoho-books-windows-app.github.io
