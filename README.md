@@ -32,5 +32,6 @@ Only Allows windows iso downlaod from [Massgrave.dev](https://massgrave.dev/genu
 ## Microsoft Blocker - No Microsoft Edition: Aims to Strictly block Eveything from and related to Microsoft.
 Some Azure urls may not be blocked for now as they may render external services disfunctional.Since many services other than microsoft uses azure cloud.
 ### Adblock & DNS Filter Version - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_nomicrosoft.txt)
-### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt)
+### Domains - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_nomicrosoft.txt)
+### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_nomicrosoft.txt)
 ### hosts - [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft) - [Github](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_nomicrosoft)
