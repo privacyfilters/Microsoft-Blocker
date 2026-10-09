@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 21:45:49 UTC
-# Version: 1.93.0
+# Last modified: 09 October 2026 16:36:32 UTC
+# Version: 1.94.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
 # Number of entries: 4146
 #
@@ -84,9 +84,7 @@
 #0.0.0.0 graph.microsoft.com
 #0.0.0.0 king.com
 #0.0.0.0 modpim.com
-#0.0.0.0 ocs.microsoft.com
 #0.0.0.0 ocsp.digicert.com
-#0.0.0.0 ocsp.microsoft.com
 #0.0.0.0 sdx.microsoft.com
 #0.0.0.0 software-static.download.prss.microsoft.com
 #:: fs.microsoft.com

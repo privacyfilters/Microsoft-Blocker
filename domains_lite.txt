@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 21:45:49 UTC
-# Version: 1.93.0
+# Last modified: 09 October 2026 16:36:32 UTC
+# Version: 1.94.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 7147
+# Number of entries: 7149
 #
 # # Custom Allow & Blocklist # #
 #ctldl.windowsupdate.com
@@ -68,9 +68,7 @@
 #graph.microsoft.com
 #king.com
 #modpim.com
-#ocs.microsoft.com
 #ocsp.digicert.com
-#ocsp.microsoft.com
 #sdx.microsoft.com
 #software-static.download.prss.microsoft.com
 #minecraft-services.net
@@ -3706,6 +3704,7 @@ myanalytics.cdn.office.net
 myoffice.microsoft.com
 nam.loki.delve.office.com
 nel.measure.office.net
+nelgallatin.measure.office365.cn
 nelitar.measure.office365.us
 nelsdf.measure.office.net
 nleditor.osi.office.net
@@ -5461,6 +5460,7 @@ euc-powerpoint-telemetry.wac.trafficmanager.net
 euc-word-telemetry.wac.trafficmanager.net
 eudfmeventsapiprod.trafficmanager.net
 eurffc-word-telemetry.wac.trafficmanager.net
+events.aitour.microsoft.com
 events.corp.linkedin.com
 events.data.microsoft.com
 events.data.trafficmanager.net

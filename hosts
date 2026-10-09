@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 21:45:49 UTC
-# Version: 1.93.0
+# Last modified: 09 October 2026 16:36:32 UTC
+# Version: 1.94.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 11754
+# Number of entries: 11758
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 ctldl.windowsupdate.com
@@ -85,9 +85,7 @@
 #0.0.0.0 graph.microsoft.com
 #0.0.0.0 king.com
 #0.0.0.0 modpim.com
-#0.0.0.0 ocs.microsoft.com
 #0.0.0.0 ocsp.digicert.com
-#0.0.0.0 ocsp.microsoft.com
 #0.0.0.0 sdx.microsoft.com
 #0.0.0.0 software-static.download.prss.microsoft.com
 #:: fs.microsoft.com
@@ -1165,6 +1163,7 @@
 0.0.0.0 euc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 eudfmeventsapiprod.trafficmanager.net
 0.0.0.0 eurffc-word-telemetry.wac.trafficmanager.net
+0.0.0.0 events.aitour.microsoft.com
 0.0.0.0 events.corp.linkedin.com
 0.0.0.0 events.data.microsoft.com
 0.0.0.0 events.data.trafficmanager.net
@@ -5136,6 +5135,7 @@
 0.0.0.0 myoffice.microsoft.com
 0.0.0.0 nam.loki.delve.office.com
 0.0.0.0 nel.measure.office.net
+0.0.0.0 nelgallatin.measure.office365.cn
 0.0.0.0 nelitar.measure.office365.us
 0.0.0.0 nelsdf.measure.office.net
 0.0.0.0 nleditor.osi.office.net
@@ -8022,6 +8022,8 @@
 0.0.0.0 edge-consumer-static.azureedge.net
 0.0.0.0 edge-mobile-static.azureedge.net
 0.0.0.0 endpoint1-b0ecetbuabcdg9cp.z01.azurefd.net
+0.0.0.0 ep-ae-v3g3ql87pk5y-akbxduh7hddch2dn.z01.azurefd.net
+0.0.0.0 ep-nl-xvkzm8t3nie6-bbg2dyctccgqfzdy.z01.azurefd.net
 0.0.0.0 eu.action.azurecomm.net
 0.0.0.0 eu.prodd.syncfabric.windowsazure.com
 0.0.0.0 eu.prodhr3.syncfabric.windowsazure.com
