@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 08 October 2026 21:45:48 UTC
-! Version: 1.93.0
+! Last modified: 09 October 2026 16:36:31 UTC
+! Version: 1.94.0
 ! Syntax: Adblock
-! Number of entries: 1572
+! Number of entries: 1570
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -84,7 +84,6 @@
 ||g.msn.com.nsatc.net^
 ||ic-live.com^
 ||legacywatson.trafficmanager.net^
-||live.com*^
 ||login-us.microsoftonline.com^
 ||logincert.microsoftonline.com^
 ||loginex.microsoftonline.com^
@@ -128,7 +127,6 @@
 ||windowsonecarelive.com^
 ||windowsupdate.com.br^
 ||www.microsoftonline.com^
-||xboxlive.com*^
 ||xboxlive.com-c.edgekey.net*^
 ||xboxlive.com-c.edgekey.net.globalredir.akadns.net^
 ||xboxlive.com.akadns.net*^
@@ -140,7 +138,7 @@
 ||attachment.outlook.officeppe.net^
 ||blobs.officehome.msocdn.com^
 ||ecs-office.s-0005.dual-s-msedge.net^
-||measure.office365.cn^
+||measure.office365.cn*^
 ||microsoft-office-excel.com^
 ||microsoft-office.fr^
 ||microsoftoffice.com^
@@ -544,7 +542,6 @@
 ! Bing search
 ||bing-int.com^
 ||bing.ai^
-||bing.com*^
 ||bing.net*^
 ||bingapis.com*^
 ||bingapistatistics.com^
@@ -667,6 +664,8 @@
 ||edge-consumer-static.azureedge.net^
 ||edge-mobile-static.azureedge.net^
 ||endpoint1-b0ecetbuabcdg9cp.z01.azurefd.net^
+||ep-ae-v3g3ql87pk5y-akbxduh7hddch2dn.z01.azurefd.net^
+||ep-nl-xvkzm8t3nie6-bbg2dyctccgqfzdy.z01.azurefd.net^
 ||fgeuroexpress-aqc2awhgcudcdgct.z01.azurefd.net^
 ||foluo.azureedge.net^
 ||fp-afd-nocache-ccp.azureedge.net^
@@ -808,7 +807,6 @@
 ||word-telemetry.wac.trafficmanager.net^
 ||wttwebsiteprodapi-liveevents.trafficmanager.net^
 ! Windows Update
-||msftconnecttest.com*^
 ||sls.update.microsoft.com.nsatc.net^
 ||windowsupdate.com*^
 ! Windows Defender and security

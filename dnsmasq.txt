@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 21:45:49 UTC
-# Version: 1.93.0
+# Last modified: 09 October 2026 16:36:32 UTC
+# Version: 1.94.0
 # Syntax: DNSMasq
 # Number of entries: 1729
 #
@@ -68,9 +68,7 @@ server=/go.microsoft.com/
 server=/graph.microsoft.com/
 server=/king.com/
 server=/modpim.com/
-server=/ocs.microsoft.com/
 server=/ocsp.digicert.com/
-server=/ocsp.microsoft.com/
 server=/sdx.microsoft.com/
 server=/software-static.download.prss.microsoft.com/
 server=/minecraft-services.net/
@@ -841,6 +839,8 @@ local=/edge-cloud-resource-static.azureedge.net/
 local=/edge-consumer-static.azureedge.net/
 local=/edge-mobile-static.azureedge.net/
 local=/endpoint1-b0ecetbuabcdg9cp.z01.azurefd.net/
+local=/ep-ae-v3g3ql87pk5y-akbxduh7hddch2dn.z01.azurefd.net/
+local=/ep-nl-xvkzm8t3nie6-bbg2dyctccgqfzdy.z01.azurefd.net/
 local=/fgeuroexpress-aqc2awhgcudcdgct.z01.azurefd.net/
 local=/foluo.azureedge.net/
 local=/fp-afd-nocache-ccp.azureedge.net/

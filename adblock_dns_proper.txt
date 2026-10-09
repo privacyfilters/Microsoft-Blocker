@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 08 October 2026 21:45:49 UTC
-! Version: 1.93.0
+! Last modified: 09 October 2026 16:36:32 UTC
+! Version: 1.94.0
 ! Syntax: Adblock
 ! Number of entries: 1105
 !
@@ -51,9 +51,7 @@
 @@||graph.microsoft.com^
 @@||king.com^
 @@||modpim.com^
-@@||ocs.microsoft.com^
 @@||ocsp.digicert.com^
-@@||ocsp.microsoft.com^
 @@||sdx.microsoft.com^
 @@||software-static.download.prss.microsoft.com^
 ! Official Minecraft game site
@@ -422,6 +420,8 @@
 ||dsxc-e6gygdb9dab2auhz.z01.azurefd.net^
 ||dynamics365cdn.azureedge.net^
 ||endpoint1-b0ecetbuabcdg9cp.z01.azurefd.net^
+||ep-ae-v3g3ql87pk5y-akbxduh7hddch2dn.z01.azurefd.net^
+||ep-nl-xvkzm8t3nie6-bbg2dyctccgqfzdy.z01.azurefd.net^
 ||fgeuroexpress-aqc2awhgcudcdgct.z01.azurefd.net^
 ||foluo.azureedge.net^
 ||fp-afd-nocache-ccp.azureedge.net^

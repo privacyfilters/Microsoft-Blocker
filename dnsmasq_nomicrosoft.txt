@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 21:45:49 UTC
-# Version: 1.93.0
+# Last modified: 09 October 2026 16:36:32 UTC
+# Version: 1.94.0
 # Syntax: DNSMasq
-# Number of entries: 11455
+# Number of entries: 11457
 #
 # # Microsoft Edge telemetry and CDN
 local=/2.msedge.net/
@@ -4588,6 +4588,7 @@ local=/myanalytics.cdn.office.net/
 local=/myoffice.microsoft.com/
 local=/nam.loki.delve.office.com/
 local=/nel.measure.office.net/
+local=/nelgallatin.measure.office365.cn/
 local=/nelitar.measure.office365.us/
 local=/nelsdf.measure.office.net/
 local=/nleditor.osi.office.net/
@@ -7394,6 +7395,8 @@ local=/edge-cloud-resource-static.azureedge.net/
 local=/edge-consumer-static.azureedge.net/
 local=/edge-mobile-static.azureedge.net/
 local=/endpoint1-b0ecetbuabcdg9cp.z01.azurefd.net/
+local=/ep-ae-v3g3ql87pk5y-akbxduh7hddch2dn.z01.azurefd.net/
+local=/ep-nl-xvkzm8t3nie6-bbg2dyctccgqfzdy.z01.azurefd.net/
 local=/eu.action.azurecomm.net/
 local=/eu.prodd.syncfabric.windowsazure.com/
 local=/eu.prodhr3.syncfabric.windowsazure.com/
@@ -8155,6 +8158,7 @@ local=/euc-powerpoint-telemetry.wac.trafficmanager.net/
 local=/euc-word-telemetry.wac.trafficmanager.net/
 local=/eudfmeventsapiprod.trafficmanager.net/
 local=/eurffc-word-telemetry.wac.trafficmanager.net/
+local=/events.aitour.microsoft.com/
 local=/events.corp.linkedin.com/
 local=/events.data.microsoft.com/
 local=/events.data.trafficmanager.net/
@@ -8393,9 +8397,7 @@ local=/go.microsoft.com/
 local=/graph.microsoft.com/
 local=/king.com/
 local=/modpim.com/
-local=/ocs.microsoft.com/
 local=/ocsp.digicert.com/
-local=/ocsp.microsoft.com/
 local=/sdx.microsoft.com/
 local=/software-static.download.prss.microsoft.com/
 # # Minecraft
