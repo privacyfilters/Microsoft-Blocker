@@ -191,7 +191,7 @@ Microsoft Blocker works best with **network-wide firewalls, router adblockers, a
 | **[AdAway](https://adaway.org/)** | Hosts-based adblocker | **Hosts**, Domains | ✅ | Hosts is preferred because it's designed to work directly with hosts-style lists |
 | **[AdGuard for Android](https://adguard.com/en/adguard-android/overview.html)** | System-wide blocker | **Adblock / DNS**, Domains, Hosts | ❌ | Paid app. Supports Adblock-style filtering and DNS-based blocking |
 
-## 💻 Windows (not recommended)
+## 💻 Windows (not recommended since windows can bypass blocked connections)
 
 | Tool | Type | Format | FOSS | Notes |
 | ---- | ---- | ------ | :--: | ----- |
@@ -270,7 +270,7 @@ If possible, include the exact domain and the application/service that uses it.
 If you **don't need aggressive Microsoft blocking** and only want general Microsoft tracking protection, you may be better off with established tracker lists:
 
 * [HaGeZi DNS Blocklists: Native Trackers, Microsoft](https://github.com/hagezi/dns-blocklists#native)
-* [celenity BadBlock: Microsoft](https://codeberg.org/celenity/BadBlock#individual-lists)
+* [celenity BadBlock: Individual Lists, Microsoft](https://codeberg.org/celenity/BadBlock#individual-lists)
 
 Microsoft Blocker is for users who want **much stronger Microsoft-specific blocking** than basic tracker protection.
 
