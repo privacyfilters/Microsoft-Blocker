@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 11 October 2026 22:26:07 UTC
-! Version: 1.100.0
+! Last modified: 12 October 2026 20:52:24 UTC
+! Version: 2.0.0
 ! Syntax: Adblock
 ! Number of entries: 1389
 !

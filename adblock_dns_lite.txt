@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 11 October 2026 22:26:07 UTC
-! Version: 1.100.0
+! Last modified: 12 October 2026 20:52:24 UTC
+! Version: 2.0.0
 ! Syntax: Adblock
-! Number of entries: 780
+! Number of entries: 808
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||delivery.mp.microsoft.com*^
@@ -286,10 +286,12 @@
 @@||us-prod.asyncgw.teams.microsoft.com^
 ! Microsoft Edge telemetry and CDN
 ||avedgep.visualstudio.com^
+||cn1.edge.linkedin.com^$important
 ||data-edge.smartscreen.microsoft.com^$important
 ||edgecast-logs.licdn.com^
 ||esv4-uc-edge01e.linkedin.com^$important
 ||esv4-uc-edge02e.linkedin.com^$important
+||ftp.vpn.edge.linkedin.com^$important
 ||knowledgebase.visualstudio.com^
 ||lca1-uc-edge01a.linkedin.com^$important
 ||lca1-uc-edge01b.linkedin.com^$important
@@ -441,6 +443,17 @@
 ||inc-visio-telemetry.officeapps.live.com^$important
 ||jpc-visio-telemetry.officeapps.live.com^$important
 ||kmwatsonc.events.data.microsoft.us^
+||m365d-phoenix-vrevents-ame-uks.securitycenter.windows.com^
+||m365d-phoenix-vrevents-came-canc.securitycenter.windows.com^
+||m365d-phoenix-vrevents-can-cane.securitycenter.windows.com^
+||m365d-phoenix-vrevents-prd-ins0a.securitycenter.windows.com^
+||m365d-phoenix-vrevents-prd-neu.securitycenter.windows.com^
+||m365d-phoenix-vrevents-prd-swn0a.securitycenter.windows.com^
+||m365d-phoenix-vrevents-prd-uk.securitycenter.windows.com^
+||mde-dtc-cyberprofile-can-canc.securitycenter.windows.com^
+||mde-dtc-cyberprofile-prd-sww0a.securitycenter.windows.com^
+||mde-tvm-analytics-can-cane.securitycenter.windows.com^
+||mde-tvm-analytics-prd-aen0a.securitycenter.windows.com^
 ||mrodevicemgr.officeapps.live.com^$important
 ||msdnlive.com^
 ||nexus.officeapps.live.com^$important
@@ -519,6 +532,7 @@
 ||pus8-collabhubrtc.officeapps.live.com^$important
 ||roaming-eu.officeapps.live.com^$important
 ||roaming.officeapps.live.com^$important
+||sevilletelemetrygateway-aus-prd.securitycenter.windows.com^
 ||sgtus1-excel-telemetry-vip.officeapps.live.com^$important
 ||sgtus1-powerpoint-telemetry-vip.officeapps.live.com^$important
 ||sgtus1-word-telemetry-vip.officeapps.live.com^$important
@@ -672,15 +686,19 @@
 ! General Microsoft telemetry
 ||addtoprofile-dev.corp.linkedin.com^$important
 ||addtoprofile-test.corp.linkedin.com^$important
+||addtoprofile-uat-dev.corp.linkedin.com^$important
 ||addtoprofile.linkedin.com^$important
 ||addtoprofile.stg.linkedin.com^$important
 ||ams-tracking.king.com^$important
 ||analytics.visualstudio.com^
 ||copilot-telemetry-service.githubusercontent.com^
 ||copilot-telemetry.githubusercontent.com^
+||data-sentinel-server-stgu.corp.linkedin.com^$important
 ||data-test.corp.linkedin.com^$important
 ||data.linkedin.com^$important
 ||data.stg.linkedin.com^$important
+||dev.events.teams.microsoft.com^$important
+||df.events.teams.microsoft.com^$important
 ||eat1-monitor03.corp.linkedin.com^$important
 ||eat1-monitor04.corp.linkedin.com^$important
 ||eat1-monitor10.corp.linkedin.com^$important
@@ -688,13 +706,21 @@
 ||ela4-monitor30.prod.linkedin.com^$important
 ||ela4-monitor31.prod.linkedin.com^$important
 ||events.corp.linkedin.com^$important
+||events.gcc.teams.microsoft.com^$important
 ||events.linkedin.com^$important
+||int.events.teams.microsoft.com^$important
 ||marianw.msappproxy.net^
 ||metrics.dc.ad.msft.net^
+||monitoringplatform-ppe.teams.microsoft.com^$important
+||monitoringplatform.gcc.teams.microsoft.com^$important
+||monitoringplatform.teams.microsoft.com^$important
+||msit.events.teams.microsoft.com^$important
 ||prod-collecticon.outlookmobile.com^
 ||sevilletelemetrygateway-neu-prd.securitycenter.windows.com^
 ||sevilletelemetrygateway-ukw-prd.securitycenter.windows.com^
 ||telemetry.powerbi.com^
+||www.measure.linkedin.com^$important
+||www.noam-test.voiceanalytics.teams.microsoft.com^$important
 ! Bing search
 ||bing-int.com^
 ||bing.ai^
@@ -714,6 +740,8 @@
 ! Skype
 ||dsn10.skype-dsn.akadns.net^
 ||ecstestcertificate.teams.skype.com^$important
+||m365certificateprod9.teams.skype.com^$important
+||mt.teams.skype.com^$important
 ||skype-dns.akadns.net^
 ||skype-edf.akadns.net^
 ||skype-registar.akadns.net^
