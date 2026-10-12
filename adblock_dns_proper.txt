@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2026 16:36:32 UTC
-! Version: 1.94.0
+! Last modified: 11 October 2026 22:25:33 UTC
+! Version: 1.99.0
 ! Syntax: Adblock
-! Number of entries: 1105
+! Number of entries: 1048
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 ! Windows Update related Urls
@@ -154,15 +154,12 @@
 ||adsdkprod.afd.azureedge.net^
 ||adsdkprod.azureedge.net^
 ||adsdkprprod.azureedge.net^
-||advertiseonbing.azurewebsites.net^
 ||afd.msedge.azure.us^
 ||aijscdn2.afd.azureedge.net^
 ||aijscdn2.azureedge.net^
 ||amcdnmsftuswe.afd.azureedge.net^
 ||amcdnmsftuswe.azureedge.net^
-||amd-keyid-578c545f796951421221a4a578acdb5f682f89c8.microsoftaik.azure.net^
 ||analytics-gvgjgjd0b6bjekfj.z01.azurefd.net^
-||app-bingstats-frontend-eus.azurewebsites.net^
 ||app-fnsp-matomo-analytics-prod.azurewebsites.net^
 ||app-service-diagnostics-portal.azureedge.net^
 ||applicationanalytics.azureedge.net^
@@ -170,9 +167,6 @@
 ||azsc-bingads-westus.westus.cloudapp.azure.com^
 ||azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com^
 ||azure-docu-analytics.azurewebsites.net^
-||bingadsedgeextension-prod-eastus.azurewebsites.net^
-||bingadsedgeextension-prod.azurewebsites.net^
-||bingadsuet.azurewebsites.net^
 ||braze-click-tracking-dcckged5hzgxduh4.a03.azurefd.net^
 ||canvas-cdn-prod.azureedge.net^
 ||cd-analytics-eu.azurefd.net^
@@ -195,15 +189,14 @@
 ||ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net^
 ||fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net^
 ||ideasazurefeedbackprod.powerappsportals.com^
-||impactanalytics.azurewebsites.net^
 ||intunecdnpeasd.azureedge.net^
 ||intunecdnpeasd.ec.azureedge.net^
 ||ironsight-analytics.azurewebsites.net^
 ||jabra-xpressonline-prd-analytics.azurewebsites.net^
+||lander-mw-analytics-c3bzckfcbaf9ekh2.z03.azurefd.net^
 ||lgincdnvzeuno.azureedge.net^
-||livediagnostics.monitor.azure.com^
-||livediagnostics.privatelink.monitor.azure.com^
 ||masdpanalytics.azureedge.net^
+||metrics-h9hwc2bvbqbgaueg.a02.azurefd.net^
 ||metrics.ingest.monitor.azure.com^
 ||microsoftazurelogicapps.net^
 ||microsoftazurelogicapps.us^
@@ -219,9 +212,6 @@
 ||ods-diagnostics-eudb-epb9aghjaug7adcz.z01.azurefd.net^
 ||ods-diagnostics-sdf-eqgzhdgdh2hzc3bf.z01.azurefd.net^
 ||onecs-live.azureedge.net^
-||onedsblobprdcus07.centralus.cloudapp.azure.com^
-||onedsblobprdeus15.eastus.cloudapp.azure.com^
-||onedsblobprdeus17.eastus.cloudapp.azure.com^
 ||owassets.azureedge.net^
 ||pf-loyalty-tracking-events-function-production.azurewebsites.net^
 ||pinpoll-tracking-live-windows.azurewebsites.net^
@@ -229,14 +219,9 @@
 ||prod-azurecdn-akamai-iris.azureedge.net^
 ||prod-azurecdn-akamai-iris.ec.azureedge.net^
 ||rai-amp-telemetry-ingestion.azurewebsites.net^
+||rim-analytics-ws.westeurope.cloudapp.azure.com^
 ||shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net^
 ||skype-pcs-prod-usea2-fe-b.cloudapp.net^
-||skypedataprdcolcus03.cloudapp.net^
-||skypedataprdcoleus01.cloudapp.net^
-||skypedataprdcoleus13.cloudapp.net^
-||skypedataprdcoleus16.cloudapp.net^
-||skypeecs-prod-use-0-b.cloudapp.net^
-||skypeecs-prod-usw-0.cloudapp.net^
 ||sparkcdneus2.azureedge.net^
 ||spoppe-b.azureedge.net^
 ||telecommand.azurewebsites.net^
@@ -246,7 +231,6 @@
 ||tng-analytics-api-eu.azurewebsites.net^
 ||uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com^
 ||vega-telemetry-apim-dev.azure-api.net^
-||voyadoanalytics.azurewebsites.net^
 ||vscodeexperiments.azureedge.net^
 ||wd-prod-cp-us-east-2-fe.eastus.cloudapp.azure.com^
 ||wd-prod-cp-us-west-1-fe.westus.cloudapp.azure.com^
@@ -264,7 +248,6 @@
 ||widgetservice.azurefd.net^
 ||windowsazure.com^
 ||windowsazure.org^
-||wompanalytics.azurewebsites.net^
 ||xpay-aks-int-eus.eastus.cloudapp.azure.com^
 ||xpay-edgetipping-gateway.centralus.cloudapp.azure.com^
 ! Edge telemetry
@@ -290,7 +273,6 @@
 ||bingapistatistics.com^
 ||bingforbusiness.com^
 ||binginternal.com^
-||bingo.ns.cloudflare.com^
 ||bingviz.com^
 ||dealczars.bing-shopping.microsoft-falcon.io^
 ||discoverbing.com^
@@ -323,7 +305,6 @@
 ||xboxcanada.ca^
 ||xboxrc.com^
 ||xboxservices.com^
-||xboxservices.com.akadns.net^
 ! ! Blocklist ! ! Wildcard rules
 ||*microsoft*.com*^
 ||*msedge.net^
@@ -355,9 +336,7 @@
 ||adnxs-simple.com^
 ||adnxs.com^
 ||adnxs.net^
-||ads-doubleclick.net^
 ||ads.licdn.com^
-||ads.mcafee.com^
 ||adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net^
 ||adserver-public-cdn.afd.azureedge.net^
 ||adserver-public-cdn.azureedge.net^
@@ -366,13 +345,8 @@
 ||atlassolutions.com^
 ||azsc-bingads-centralus.centralus.cloudapp.azure.com^
 ||azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com^
-||azureedge.net^^^
 ||bing-ads-display-ads-cdn.afd.azureedge.net^
 ||downloads.linkedin.com^$important
-||example.com^
-||iadsdk.apple.com.akadns.net^
-||iadsdk.apple.com.edgekey.net^
-||mnadshield-a.akamaihd.net^
 ||msads.net^
 ||msadsense.com^
 ||swfly-ads-cdn-prd-g9bzd4bgb6ddfecy.z01.azurefd.net^
@@ -418,6 +392,7 @@
 ||copilot-prod.azure.com^
 ||dev-vertiv-xrwidgets-enh0cfcpfmhwh0az.z01.azurefd.net^
 ||dsxc-e6gygdb9dab2auhz.z01.azurefd.net^
+||du9-excfe2f4hzcddfh9.z02.azurefd.net^
 ||dynamics365cdn.azureedge.net^
 ||endpoint1-b0ecetbuabcdg9cp.z01.azurefd.net^
 ||ep-ae-v3g3ql87pk5y-akbxduh7hddch2dn.z01.azurefd.net^
@@ -451,16 +426,10 @@
 ||mixpanel-proxy-agg3gufkaha9gcbw.a02.azurefd.net^
 ||mktdplp102cdn.azureedge.net^
 ||ms365insider-czdafrdzb5h6e4av.z01.azurefd.net^
-||ntc-keyid-b6eaa11f201ff74ed4f2510e15bf2e3884dc4055.microsoftaik.azure.net^
 ||octob.azureedge.net^
 ||ods-logging-dfhsbqdgd7g0bbc3.z01.azurefd.net^
 ||ods-logging-prod.eastus.cloudapp.azure.com^
-||officeaka.cloudapp.net^
-||officeci.azurewebsites.net^
-||officehomeprodprv.brazilsouth.cloudapp.azure.com^
 ||oloobe-prod-cdn-storage.azureedge.net^
-||opinsights.azure.com^
-||opinsights.azure.us^
 ||pdfsuperhero.azureedge.net^
 ||pfbx-api-logging-euw-prod-linux.azurewebsites.net^
 ||polaris-tagging-prod.azureedge.net^
@@ -470,7 +439,6 @@
 ||sdtagging.azureedge.net^
 ||skx7ny4u92mqdtb3esieng-dyexeyh3gvebbhdv.z03.azurefd.net^
 ||sr-cdn.azureedge.net^
-||stm-keyid-fb17d70d734870e919c4e8e603975e664e0e43de.microsoftaik.azure.net^
 ||subaru-tagging-prod.azureedge.net^
 ||swymv3premium-01.azureedge.net^
 ||swymv3pro-01.azureedge.net^
@@ -483,25 +451,17 @@
 ||wheelioapp.azureedge.net^
 ||www.1.gungnir-midtier.azureei1.itd.azure.linkedin.com^$important
 ||xd4a9mlv1p-81z4gdym-gqbqchgjanbvb3et.z01.azurefd.net^
+||xin8-dgbngthudkapdmeh.z02.azurefd.net^
 ! General Microsoft telemetry
 ||addtoprofile-dev.corp.linkedin.com^$important
 ||addtoprofile-test.corp.linkedin.com^$important
 ||addtoprofile.linkedin.com^$important
 ||addtoprofile.stg.linkedin.com^$important
 ||ams-tracking.king.com^$important
-||analytics.apis.mcafee.com^
-||analytics.awsmcafeeccs.mcafee.com^
-||analytics.ccs.mcafee.com^
-||analytics.qa.apis.mcafee.com^
-||analyticsdcs.ccs.mcafee.com^
-||apis.mosaic.analytics.awscommon.mcafee.com^
 ||copilot-telemetry-service.githubusercontent.com^
 ||copilot-telemetry.githubusercontent.com^
 ||data-test.corp.linkedin.com^$important
 ||data.linkedin.com^$important
-||data.mailing.mcafee.com^
-||data.qamailing.mcafee.com^
-||data.stagemailing.mcafee.com^
 ||data.stg.linkedin.com^$important
 ||eat1-monitor03.corp.linkedin.com^$important
 ||eat1-monitor04.corp.linkedin.com^$important
@@ -511,11 +471,7 @@
 ||ela4-monitor31.prod.linkedin.com^$important
 ||events.corp.linkedin.com^$important
 ||events.linkedin.com^$important
-||events.mcafee.com^
-||metrics.mcafee.com^
 ||prod-collecticon.outlookmobile.com^
-||smetrics.mcafee.com^
-||telemetry.mobile.api.mcafee.com^
 ! ! Uncategorized domains ! !
 ||a.nuget.org^$important
 ||aadrm.com^
@@ -532,7 +488,6 @@
 ||aiinfrastructure.static.microsoft^
 ||alebgnkhbz.mshome.net^
 ||amcdn.msftauth.net^
-||amp.mcafee.com^
 ||ampvstewnw.mshome.net^
 ||analytics.pointdrive.linkedin.com^$important
 ||api-akcdn.nuget.org^$important
@@ -547,7 +502,6 @@
 ||api.aadrm.de^
 ||api.msauth.net^
 ||apippe.nuget.org^$important
-||app.snssecure.mcafee.com^
 ||applicationinsights.io^
 ||apps.cloud.microsoft^
 ||arhjrfufdst.mshome.net^
@@ -659,8 +613,6 @@
 ||iglclwwbuda.mshome.net^
 ||ihczpvtnacvkobb.mshome.net^
 ||iiegvkmvaors.mshome.net^
-||images.demand.mcafee.com^
-||images.secureforms.mcafee.com^
 ||inkscape-windows.github.io^
 ||insights.cloud.microsoft^
 ||ipvhsessjsmqdxw.mshome.net^
@@ -683,7 +635,6 @@
 ||login.microsoftonline.us^
 ||logincdn.msftauth.net^
 ||loop.cloud.microsoft^
-||ltam2.secureforms.mcafee.com^
 ||lxneyrxjlnwboo.mshome.net^
 ||macrosoft.com.br^
 ||macrovision.com^
@@ -888,7 +839,6 @@
 ||msftauth.com^
 ||msftdirectorylogin.com^
 ||msftncsi.com^
-||msftncsi.com.edgesuite.net^
 ||msftoffers.com^
 ||msn.ai^
 ||msn.be^
@@ -915,7 +865,6 @@
 ||mywindowsmobile.com^
 ||mywindowsmobile.de^
 ||nbiaydhnfcxkbh.mshome.net^
-||networkprotection.mcafee.com^
 ||nhkpwuiyvnkq.mshome.net^
 ||nhuquckrshp.mshome.net^
 ||nldinhvzk.mshome.net^
@@ -936,7 +885,6 @@
 ||omreppzsvpb.mshome.net^
 ||oneclient.sfx.ms^
 ||opsjheoy.mshome.net^
-||optimize.mcafee.com^
 ||otelrules.svc.static.microsoft^
 ||outlook.cloud.microsoft^
 ||ovgefobgpidxk.mshome.net^
@@ -960,7 +908,6 @@
 ||puxrsgqtg.mshome.net^
 ||pvocqahwaylh.mshome.net^
 ||pxflwhwnqaalet.mshome.net^
-||qasms.mcafee.com^
 ||qeswuerkgnj.mshome.net^
 ||qitvzpiwglud.mshome.net^
 ||qojyphxdsgidt.mshome.net^
@@ -997,14 +944,12 @@
 ||rum6.perf.linkedin.com^$important
 ||rzdjlerdemn.mshome.net^
 ||schema.nuget.org^$important
-||sdc.mcafee.com^
 ||servicelayer.king.com^$important
 ||setup.cloud.microsoft^
 ||sfsafpiuejwvfex.mshome.net^
 ||sgsvrjsddpkfu.mshome.net^
 ||shellprod.msocdn.com^
 ||slecjadpqhxfhk.mshome.net^
-||sms.mcafee.com^
 ||snap.licdn.com^
 ||snoop.minecraft.net^
 ||soorwxgvfhmwvzd.mshome.net^
@@ -1023,7 +968,6 @@
 ||stub.nuget.org^$important
 ||sway.cloud.microsoft^
 ||symbols.nuget.org^$important
-||tags.mcafee.com^
 ||tdmonosilglx.mshome.net^
 ||toeqrysiddtvs.mshome.net^
 ||tokenscanning.nuget.org^$important
@@ -1085,7 +1029,6 @@
 ||windowsonecare.com^
 ||windowsonecare.nl^
 ||windowsonecarelive.net^
-||windowsphishingalert158.s3.amazonaws.com^
 ||windowsphone-int.com^
 ||windowsphone-int.net^
 ||windowsphone.co.uk^

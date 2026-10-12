@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 09 October 2026 16:36:32 UTC
-# Version: 1.94.0
+# Last modified: 11 October 2026 22:25:33 UTC
+# Version: 1.99.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 4146
+# Number of entries: 4134
 #
 #0.0.0.0 ctldl.windowsupdate.com
 #0.0.0.0 delivery.mp.microsoft.com
@@ -258,7 +258,6 @@
 0.0.0.0 esv4-uc-edge01e.linkedin.com
 0.0.0.0 esv4-uc-edge02e.linkedin.com
 0.0.0.0 everydaymagic-windowsservices-tasg.msedge.net
-0.0.0.0 evoke-windowsservices-tas.msedge.netevoke-windowsservices-tas.msedge.net
 0.0.0.0 ewr30.msedge.net
 0.0.0.0 exo-ring-fallback.msedge.net
 0.0.0.0 exo-ring-fallbackk.msedge.net
@@ -267,6 +266,7 @@
 0.0.0.0 fd.del01.msedge.net
 0.0.0.0 fd.lon04.msedge.net
 0.0.0.0 fdu.del01.msedge.net
+0.0.0.0 fevoke-windowsservices-tas.msedge.net
 0.0.0.0 fra23r9a.msedge.net
 0.0.0.0 fra23r9b.msedge.net
 0.0.0.0 fra31r3ag.msedge.net
@@ -1119,7 +1119,6 @@
 0.0.0.0 am3p.wns.windows.com
 0.0.0.0 amcdn.msftauth.net
 0.0.0.0 amer.rel.msn.com
-0.0.0.0 amp.mcafee.com
 0.0.0.0 ampvstewnw.mshome.net
 0.0.0.0 amupdatedl.microsoft.com
 0.0.0.0 amupdatedl2.microsoft.com
@@ -1200,7 +1199,6 @@
 0.0.0.0 app.content.microsoft.com
 0.0.0.0 app.copilot.microsoft.com
 0.0.0.0 app.microsoft.com
-0.0.0.0 app.snssecure.mcafee.com
 0.0.0.0 app.v.microsoft.com
 0.0.0.0 app.vssps.microsoft.com
 0.0.0.0 app.vssps.visualstudio.com
@@ -1521,6 +1519,7 @@
 0.0.0.0 centralus.api.cognitive.microsoft.com
 0.0.0.0 cert.microsoft.com
 0.0.0.0 cetic.blob.core.windows.net
+0.0.0.0 cewegebit.z31.web.core.windows.net
 0.0.0.0 cgbzbrapg.mshome.net
 0.0.0.0 ch-mobile.events.data.microsoft.com
 0.0.0.0 ch1-cor001.api.p001.1drv.com
@@ -2243,6 +2242,7 @@
 0.0.0.0 gamepass.microsoft.com
 0.0.0.0 games.microsoft.com
 0.0.0.0 gaming.microsoft.com
+0.0.0.0 gasevinul.z1.web.core.windows.net
 0.0.0.0 gateway.microsoft.com
 0.0.0.0 gateways.microsoft.com
 0.0.0.0 gcc-kms.cortana.ai
@@ -2424,9 +2424,7 @@
 0.0.0.0 ihczpvtnacvkobb.mshome.net
 0.0.0.0 iiegvkmvaors.mshome.net
 0.0.0.0 imagelibrary.microsoft.com
-0.0.0.0 images.demand.mcafee.com
 0.0.0.0 images.microsoft.com
-0.0.0.0 images.secureforms.mcafee.com
 0.0.0.0 images.tile.microsoft.com
 0.0.0.0 imageservice.microsoft.com
 0.0.0.0 imaging.microsoft.com
@@ -2472,7 +2470,6 @@
 0.0.0.0 ipv6.microsoft.com
 0.0.0.0 ipv6.microsoft.com.akadns.net
 0.0.0.0 ipv6.msftncsi.com
-0.0.0.0 ipv6.msftncsi.com.edgesuite.net
 0.0.0.0 ipvhsessjsmqdxw.mshome.net
 0.0.0.0 iris.microsoft.com
 0.0.0.0 irreverselookuptm.trafficmanager.net
@@ -2559,7 +2556,6 @@
 0.0.0.0 loop.cloud.microsoft
 0.0.0.0 loop.microsoft.com
 0.0.0.0 ls2web.redmond.corp.microsoft.com
-0.0.0.0 ltam2.secureforms.mcafee.com
 0.0.0.0 lva.microsoft.com
 0.0.0.0 lxneyrxjlnwboo.mshome.net
 0.0.0.0 m.adnxs.com
@@ -2975,7 +2971,6 @@
 0.0.0.0 msftauth.com
 0.0.0.0 msftdirectorylogin.com
 0.0.0.0 msftncsi.com
-0.0.0.0 msftncsi.com.edgesuite.net
 0.0.0.0 msftoffers.com
 0.0.0.0 msimages.microsoft.com
 0.0.0.0 msit.cortana.ai
@@ -3056,7 +3051,6 @@
 0.0.0.0 ne.cp.wd.microsoft.com
 0.0.0.0 nelreports.net.trafficmanager.net
 0.0.0.0 network.microsoft.com
-0.0.0.0 networkprotection.mcafee.com
 0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 0.0.0.0 new.microsoft.com
 0.0.0.0 news.microsoft.com
@@ -3119,7 +3113,6 @@
 0.0.0.0 open8video.blob.core.windows.net
 0.0.0.0 opsjheoy.mshome.net
 0.0.0.0 optc.microsoft.com
-0.0.0.0 optimize.mcafee.com
 0.0.0.0 orchestrator.microsoft.com
 0.0.0.0 order.microsoft.com
 0.0.0.0 org.microsoft.com
@@ -3156,6 +3149,7 @@
 0.0.0.0 performance.canvas.microsoft.com
 0.0.0.0 performance.microsoft.com
 0.0.0.0 personalization.microsoft.com
+0.0.0.0 pewaweyet.z1.web.core.windows.net
 0.0.0.0 pf.events.data.microsoft.com
 0.0.0.0 pf2am3-edge.actividad.windows.com.akadns.net
 0.0.0.0 pggdqwsmekbvxl.mshome.net
@@ -3221,7 +3215,6 @@
 0.0.0.0 pvocqahwaylh.mshome.net
 0.0.0.0 pxflwhwnqaalet.mshome.net
 0.0.0.0 q10storage.blob.core.windows.net
-0.0.0.0 qasms.mcafee.com
 0.0.0.0 qeswuerkgnj.mshome.net
 0.0.0.0 qitvzpiwglud.mshome.net
 0.0.0.0 qna.microsoft.com
@@ -3298,6 +3291,7 @@
 0.0.0.0 rtb.linkedin.com
 0.0.0.0 rtlozoseti.mshome.net
 0.0.0.0 rto.microsoft.com
+0.0.0.0 rubarodav.z1.web.core.windows.net
 0.0.0.0 rum10.perf.linkedin.com
 0.0.0.0 rum14.perf.linkedin.com
 0.0.0.0 rum15.perf.linkedin.com
@@ -3323,7 +3317,6 @@
 0.0.0.0 sci2-1.am.microsoft.com
 0.0.0.0 sci2-2.am.microsoft.com
 0.0.0.0 sconsentit9.trafficmanager.net
-0.0.0.0 sdc.mcafee.com
 0.0.0.0 sdc.windowsmarketplace.com
 0.0.0.0 sdf.cortana.ai
 0.0.0.0 search.microsoft.com
@@ -3389,7 +3382,6 @@
 0.0.0.0 sls.microsoft.com
 0.0.0.0 smartpartnermarketing.microsoft.com
 0.0.0.0 smetric.ads.microsoft.com
-0.0.0.0 sms.mcafee.com
 0.0.0.0 smtp.microsoft.com
 0.0.0.0 sn3301-c.1drv.com
 0.0.0.0 sn3301-e.1drv.com
@@ -3498,7 +3490,6 @@
 0.0.0.0 t.urs.microsoft.com
 0.0.0.0 t0.ssl.ak.dynamic.tiles.virtualearth.net
 0.0.0.0 t0.ssl.ak.tiles.virtualearth.net
-0.0.0.0 tags.mcafee.com
 0.0.0.0 tags.msnbc.com
 0.0.0.0 tar.microsoft.com
 0.0.0.0 target.microsoft.com
@@ -3730,7 +3721,6 @@
 0.0.0.0 windowsonecare.nl
 0.0.0.0 windowsonecarelive.net
 0.0.0.0 windowsonline.microsoft.com
-0.0.0.0 windowsphishingalert158.s3.amazonaws.com
 0.0.0.0 windowsphone-int.com
 0.0.0.0 windowsphone-int.net
 0.0.0.0 windowsphone.co.uk
@@ -3854,7 +3844,6 @@
 0.0.0.0 www.windowssearch.com
 0.0.0.0 www.windowsupdateblocker.net
 0.0.0.0 www.windowupdate.org
-0.0.0.0 www.www.msftncsi.com
 0.0.0.0 wwwbay3vip.microsoft.com
 0.0.0.0 wxesarlcqtsoum.mshome.net
 0.0.0.0 x.urs.microsoft.com
@@ -4024,7 +4013,6 @@
 :: checkappexec.microsoft.com
 :: choice.microsoft.com
 :: choice.microsoft.com.nsatc.net
-:: choice.microsoft.com.nstac.net
 :: client.wns.windows.com
 :: co2.sls.microsoft.com
 :: continuum.dds.microsoft.com
