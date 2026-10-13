@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 13 October 2026 11:57:58 UTC
-! Version: 2.1.0
+! Last modified: 13 October 2026 16:05:54 UTC
+! Version: 2.2.0
 ! Syntax: Adblock
-! Number of entries: 1389
+! Number of entries: 1370
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -47,7 +47,6 @@
 ||storeedgefd.dsx.mp.microsoft.com.edgekey.net^
 ! Microsoft Edge extension store
 ||edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net^
-||editor.svc.cloud.microsoft^
 ! Office 365 services
 ||1drv.com*^
 ||1drv.ms*^
@@ -61,7 +60,6 @@
 ||api-aps-teams.trafficmanager.net^
 ||installer.teams.static.microsoft^
 ||microsoftteams.com^
-||teams.cloud.microsoft^
 ||teams.microsoftonline.cn^
 ! Windows telemetry
 ||activity.windows.us^
@@ -78,7 +76,6 @@
 ||ceipmsn.com*^
 ||companymanager.microsoftonline.com^
 ||confiant.msn.com.edgekey.net^
-||diagnostics.windows.cloud.microsoft^
 ||dynamicslive.com^
 ||feedback.microsoftonline.com^
 ||g.msn.com.nsatc.net^
@@ -675,7 +672,6 @@
 ||acctcdn.trafficmanager.net^
 ||activity-consumer.trafficmanager.net^
 ||adl.windows.com.edgesuite.net^
-||admin.cloud.microsoft^
 ||affeijpsrlsdc.mshome.net^
 ||afrkudeoyh.mshome.net^
 ||agps-location-livenet.trafficmanager.net^
@@ -693,7 +689,6 @@
 ||apimgmttmr17ij3jt5dneg64srod9jevcuajxaoube4brtu9cq.trafficmanager.net^
 ||appexsports.trafficmanager.net^
 ||applicationinsights.io*^
-||apps.cloud.microsoft^
 ||arc.trafficmanager.net^
 ||arhjrfufdst.mshome.net^
 ||arhuaxwfbzxcg.mshome.net^
@@ -701,7 +696,6 @@
 ||atm-settingsfe-prod-geo.trafficmanager.net^
 ||atm-settingsfe-prod-geo2.trafficmanager.net^
 ||atm.trafficmanager.net^
-||augloop.svc.cloud.microsoft^
 ||auth.msauth.net^
 ||avwhubio.mshome.net^
 ||azperfmaptargets-prod.trafficmanager.net^
@@ -731,12 +725,11 @@
 ||click.email.microsoftemail.com^
 ||clientconfig.microsoftonline-p.net^
 ||cljojkbsnfv.mshome.net^
+||cloud.microsoft*^
 ||clouddrive.com^
 ||cnzz.trafficmanager.net^
 ||compatexchange1.trafficmanager.net^
-||config.svc.cloud.microsoft^
 ||contoso.com^
-||copilot.cloud.microsoft^
 ||coreldraw-windows-download.github.io^
 ||cortana-gateway.amazon.com^
 ||cortana.ai*^
@@ -773,7 +766,6 @@
 ||efivozjzike.mshome.net^
 ||egaxxmwlhnanku.mshome.net^
 ||eleawfwxbfnzvf.mshome.net^
-||engage.cloud.microsoft^
 ||enterpriseregistration.microsoftonline.us^
 ||epncduuhjknzbw.mshome.net^
 ||erdecpqtsxyqg.mshome.net^
@@ -817,7 +809,6 @@
 ||inference-location-livenet.trafficmanager.net^
 ||inkscape-windows.github.io^
 ||insideruser.trafficmanager.net^
-||insights.cloud.microsoft*^
 ||ipvhsessjsmqdxw.mshome.net^
 ||irreverselookuptm.trafficmanager.net^
 ||iuyqtxagiiarinj.mshome.net^
@@ -837,7 +828,6 @@
 ||login.microsoftonline-p.com^
 ||login.microsoftonline.us*^
 ||logincdn.msftauth.net^
-||loop.cloud.microsoft^
 ||lxneyrxjlnwboo.mshome.net^
 ||macrosoft.com.br^
 ||macrovision.com*^
@@ -847,7 +837,6 @@
 ||mcas-gov.us^
 ||mcas.ms^
 ||media-akam.licdn.com^
-||mesh.cloud.microsoft^
 ||mfrkbjukb.mshome.net^
 ||mhbzqoct.mshome.net^
 ||microsoft-antipiracy.com^
@@ -1213,7 +1202,6 @@
 ||nhuquckrshp.mshome.net^
 ||nldinhvzk.mshome.net^
 ||nltbksrgm.mshome.net^
-||notification.m365.svc.cloud.microsoft^
 ||ns1.microsoftonlines.net^
 ||ns2.microsoftonlines.net^
 ||nxzppwtvj.mshome.net^
@@ -1230,7 +1218,6 @@
 ||oneclient.sfx.ms^
 ||opsjheoy.mshome.net^
 ||otelrules.svc.static.microsoft^
-||outlook.cloud.microsoft*^
 ||ovgefobgpidxk.mshome.net^
 ||p.pfx.ms^
 ||p.sfx.ms^
@@ -1258,7 +1245,6 @@
 ||qrjaazpn.mshome.net^
 ||qwfybzuigrtluag.mshome.net^
 ||r.msftstatic.com^
-||recent.svc.cloud.microsoft^
 ||res-4.public.onecdn.static.microsoft^
 ||res.df.onecdn.static.microsoft^
 ||res.public.onecdn.static.microsoft^
@@ -1274,7 +1260,6 @@
 ||settingsfd-geo.trafficmanager.net^
 ||settingsfd-ppe.trafficmanager.net^
 ||settingsfd-sandbox.trafficmanager.net^
-||setup.cloud.microsoft^
 ||sfsafpiuejwvfex.mshome.net^
 ||sgsvrjsddpkfu.mshome.net^
 ||shellprod.msocdn.com^
@@ -1297,8 +1282,6 @@
 ||stats.norton.com.trafficmanager.net^
 ||statsfe.update.microsoft.com.nsatc.net^
 ||statsfe.ws.microsoft.com.nsatc.net^
-||status.cloud.microsoft^
-||sway.cloud.microsoft^
 ||tags.msnbc.com^
 ||targetednotifications-tm.trafficmanager.net^
 ||tdmonosilglx.mshome.net^
@@ -1322,7 +1305,6 @@
 ||virtualearth.net*^
 ||visualstudio.com*^
 ||visualstudiofactory.com*^
-||viva.cloud.microsoft^
 ||vnmxvbuyjnsef.mshome.net^
 ||voxhcgyjnml.mshome.net^
 ||vphkgvnzruhdid.mshome.net^
@@ -1336,7 +1318,6 @@
 ||webtrends-optimize.trafficmanager.net*^
 ||wfpnzwyz.mshome.net^
 ||whiteboard.cloud.dev.microsoft^
-||whiteboard.cloud.microsoft^
 ||whymicrosoft.com^
 ||win10.ipv6.microsoft.com.nsatc.net^
 ||windowphone7.com^

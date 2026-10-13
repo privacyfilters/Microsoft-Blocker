@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 13 October 2026 11:57:57 UTC
-! Version: 2.1.0
+! Last modified: 13 October 2026 16:05:54 UTC
+! Version: 2.2.0
 ! Syntax: Adblock
-! Number of entries: 809
+! Number of entries: 889
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||delivery.mp.microsoft.com*^
@@ -288,8 +288,13 @@
 @@||us-prod.asyncgw.teams.microsoft.com^
 ! Microsoft Edge telemetry and CDN
 ||avedgep.visualstudio.com^
+||cn.edge.linkedin.com^$important
 ||cn1.edge.linkedin.com^$important
 ||data-edge.smartscreen.microsoft.com^$important
+||edge-analyzer.corp.linkedin.com^$important
+||edge-analyzer.stg.linkedin.com^$important
+||edge-rules-service-staging.corp.linkedin.com^$important
+||edge-rules-service.corp.linkedin.com^$important
 ||edgecast-logs.licdn.com^
 ||esv4-uc-edge01e.linkedin.com^$important
 ||esv4-uc-edge02e.linkedin.com^$important
@@ -445,17 +450,23 @@
 ||inc-visio-telemetry.officeapps.live.com^$important
 ||jpc-visio-telemetry.officeapps.live.com^$important
 ||kmwatsonc.events.data.microsoft.us^
+||m365d-phoenix-vrevents-ame-eus.securitycenter.windows.com^
+||m365d-phoenix-vrevents-ame-ins0a.securitycenter.windows.com^
 ||m365d-phoenix-vrevents-ame-uks.securitycenter.windows.com^
+||m365d-phoenix-vrevents-ame-weu.securitycenter.windows.com^
 ||m365d-phoenix-vrevents-came-canc.securitycenter.windows.com^
 ||m365d-phoenix-vrevents-can-cane.securitycenter.windows.com^
 ||m365d-phoenix-vrevents-prd-ins0a.securitycenter.windows.com^
 ||m365d-phoenix-vrevents-prd-neu.securitycenter.windows.com^
 ||m365d-phoenix-vrevents-prd-swn0a.securitycenter.windows.com^
 ||m365d-phoenix-vrevents-prd-uk.securitycenter.windows.com^
+||machineprofile.mde.securitycenter.windows.com^
 ||mde-dtc-cyberprofile-can-canc.securitycenter.windows.com^
 ||mde-dtc-cyberprofile-prd-sww0a.securitycenter.windows.com^
+||mde-dtc-cyberprofilereader-prd-inc0a.securitycenter.windows.com^
 ||mde-tvm-analytics-can-cane.securitycenter.windows.com^
 ||mde-tvm-analytics-prd-aen0a.securitycenter.windows.com^
+||mde-tvm-analytics-prd-eus.securitycenter.windows.com^
 ||mrodevicemgr.officeapps.live.com^$important
 ||msdnlive.com^
 ||nexus.officeapps.live.com^$important
@@ -535,6 +546,8 @@
 ||roaming-eu.officeapps.live.com^$important
 ||roaming.officeapps.live.com^$important
 ||sevilletelemetrygateway-aus-prd.securitycenter.windows.com^
+||sevilletelemetrygateway-eus-prd.securitycenter.windows.com^
+||sevilletelemetrygateway-us3-prd.securitycenter.windows.com^
 ||sgtus1-excel-telemetry-vip.officeapps.live.com^$important
 ||sgtus1-powerpoint-telemetry-vip.officeapps.live.com^$important
 ||sgtus1-word-telemetry-vip.officeapps.live.com^$important
@@ -693,36 +706,99 @@
 ||addtoprofile.stg.linkedin.com^$important
 ||ams-tracking.king.com^$important
 ||analytics.visualstudio.com^
+||apac.rtmpingest.mcr.teams.cloud.microsoft^$important
+||blu-collection.location.live.net^
+||capacity-data-api.corp.linkedin.com^$important
+||capacity-metrics-api.corp.linkedin.com^$important
+||cds-int-data-encryption.aisvc-int.visualstudio.com^
 ||copilot-telemetry-service.githubusercontent.com^
 ||copilot-telemetry.githubusercontent.com^
+||data-canary.corp.linkedin.com^$important
+||data-fidelity.stg.linkedin.com^$important
+||data-lglhld-stg.corp.linkedin.com^$important
+||data-sentinel-server-stg.corp.linkedin.com^$important
 ||data-sentinel-server-stgu.corp.linkedin.com^$important
+||data-sentinel-server.corp.linkedin.com^$important
+||data-sentinel-webapp-stg.corp.linkedin.com^$important
+||data-sentinel-webapp.corp.linkedin.com^$important
 ||data-test.corp.linkedin.com^$important
+||data.corp.linkedin.com^$important
+||data.fms-test.corp.linkedin.com^$important
+||data.fms.corp.linkedin.com^$important
 ||data.linkedin.com^$important
+||data.prod.linkedin.com^$important
 ||data.stg.linkedin.com^$important
 ||dev.events.teams.microsoft.com^$important
 ||df.events.teams.microsoft.com^$important
+||dfsre-monitoring.corp.linkedin.com^$important
 ||eat1-monitor03.corp.linkedin.com^$important
 ||eat1-monitor04.corp.linkedin.com^$important
 ||eat1-monitor10.corp.linkedin.com^$important
 ||eat1-monitor15.corp.linkedin.com^$important
 ||ela4-monitor30.prod.linkedin.com^$important
 ||ela4-monitor31.prod.linkedin.com^$important
+||engmetricsautodeployable.corp.linkedin.com^$important
+||engmetricsautodeployable.stg.linkedin.com^$important
+||eurw.profile.mesh.cloud.microsoft^
+||events-stg.corp.linkedin.com^$important
 ||events.corp.linkedin.com^$important
+||events.gcc.teams.cloud.microsoft^$important
 ||events.gcc.teams.microsoft.com^$important
 ||events.linkedin.com^$important
+||events.teams.cloud.microsoft^$important
+||eventsbym-my.sharepoint.com^$important
+||flagship-infra-metrics.corp.linkedin.com^$important
+||incident-data.stg.linkedin.com^$important
+||informetrics-webapp.prod.tag.corp.atd.corp.linkedin.com^$important
+||informetrics.corp.linkedin.com^$important
 ||int.events.teams.microsoft.com^$important
+||int.ingest.edu.cloud.microsoft^
+||jobingestion.www.linkedin.com^$important
+||lva1-pometrics-fe-prod01.corp.linkedin.com^$important
 ||marianw.msappproxy.net^
+||measure.linkedin.com^$important
+||metrics-explorer.prod.linkedin.com^$important
+||metrics-quota.prod.linkedin.com^$important
 ||metrics.dc.ad.msft.net^
 ||monitoringplatform-ppe.teams.microsoft.com^$important
 ||monitoringplatform.gcc.teams.microsoft.com^$important
 ||monitoringplatform.teams.microsoft.com^$important
+||monitortest.oostest.onedrive.com^$important
+||monitortest9.oostest.onedrive.com^$important
 ||msit.events.teams.microsoft.com^$important
+||msit.rtmpingest.mcr.teams.cloud.microsoft^$important
+||pipeline-completeness-monitor-cert.prod.linkedin.com^$important
+||pipeline-completeness-monitor-ltx1.prod.linkedin.com^$important
+||pipeline-completeness-monitor-lva1.prod.linkedin.com^$important
+||pipeline-completeness-monitor.prod.linkedin.com^$important
 ||prod-collecticon.outlookmobile.com^
+||prod.profilemigration.sti.onedrive.com^$important
+||sell-collector.stg.linkedin.com^$important
 ||sevilletelemetrygateway-neu-prd.securitycenter.windows.com^
 ||sevilletelemetrygateway-ukw-prd.securitycenter.windows.com^
+||siteops-data-zoo.corp.linkedin.com^$important
+||ssr-data-service.ei-ltx1.atd.stg.linkedin.com^$important
 ||telemetry.powerbi.com^
-||www.measure.linkedin.com^$important
+||test.rtmpingest.mcr.teams.cloud.microsoft^$important
+||tipc.profilemigration.sti.onedrive.com^$important
+||tracking-hub-api.corp.linkedin.com^$important
+||tracking-hub-stg.corp.linkedin.com^$important
+||tracking-hub-stg.linkedin.com^$important
+||tracking-hub.corp.linkedin.com^$important
+||tracking-hub.stg.linkedin.com^$important
+||tracking-ui.corp.linkedin.com^$important
+||tracking-ui.stg.corp.linkedin.com^$important
+||tracking.corp.linkedin.com^$important
+||tracking.stg.corp.linkedin.com^$important
+||tracking.stg.linkedin.com^$important
+||tscp-tracking.lor1.rtb.linkedin.com^$important
+||tscp-tracking.ltx1.rtb.linkedin.com^$important
+||tscp-tracking.lva1.rtb.linkedin.com^$important
+||www.a-ukwe-prod.userprofilesvc.tac.teams.microsoft.com^$important
+||www.collection.location.live.net^
 ||www.noam-test.voiceanalytics.teams.microsoft.com^$important
+||www.sn1-collection-df.location.live.net^
+||zuora-monitor.linkedin.com^$important
 ! Bing search
 ||bing-int.com^
 ||bing.ai^
@@ -740,12 +816,14 @@
 ||nel-wus2.binguxlivesite.net^
 ||search.msn.de^
 ! Skype
+||bots9.teams.skype.com^$important
 ||dsn10.skype-dsn.akadns.net^
 ||ecstestcertificate.teams.skype.com^$important
 ||m365certificateprod9.teams.skype.com^$important
 ||skype-dns.akadns.net^
 ||skype-edf.akadns.net^
 ||skype-registar.akadns.net^
+||skype.cloud.microsoft^
 ||skype.com*^
 ||skype.edf.akadns.net^
 ||skype.net^
@@ -797,6 +875,8 @@
 ||adnxs-simple.com^
 ||adnxs.com^
 ||adnxs.net^
+||ads-investigator.prod.linkedin.com^$important
+||ads-investigator.stg.linkedin.com^$important
 ||ads.licdn.com^
 ||ads.msft.com^
 ||ads.visualstudio.com^
