@@ -4,30 +4,41 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 13 October 2026 16:05:58 UTC
-# Version: 2.2.0
+# Last modified: 13 October 2026 16:55:36 UTC
+# Version: 2.3.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 20628
+# Number of entries: 20625
 #
+#0.0.0.0 adl.windows.com
+#0.0.0.0 api.cdp.microsoft.com
 #0.0.0.0 ctldl.windowsupdate.com
 #0.0.0.0 delivery.mp.microsoft.com
+#0.0.0.0 dl.delivery.mp.microsoft.com
+#0.0.0.0 dns.msftncsi.com
+#0.0.0.0 download.microsoft.com
 #0.0.0.0 fe2.update.microsoft.com.akadns.net
 #0.0.0.0 ipv6.msftconnecttest.com
 #0.0.0.0 msftconnecttest.com
+#0.0.0.0 prod.do.dsp.mp.microsoft.com
 #0.0.0.0 sls.emea.update.microsoft.com.akadns.net
 #0.0.0.0 sls.update.microsoft.com.akadns.net
 #0.0.0.0 sls.update.microsoft.com.nsatc.net
 #0.0.0.0 slscr.update.microsoft.com
 #0.0.0.0 tlu.dl.delivery.mp.microsoft.com
+#0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
 #0.0.0.0 update.microsoft.com
 #0.0.0.0 warw.msftconnecttest.com
 #0.0.0.0 windowsupdate.com
 #0.0.0.0 www.fe2.update.microsoft.com.akadns.net
 #0.0.0.0 www.msftconnecttest.com
+#:: adl.windows.com
 #:: ctldl.windowsupdate.com
+#:: dns.msftncsi.com
+#:: download.microsoft.com
 #:: fe2.update.microsoft.com.akadns.net
 #:: slscr.update.microsoft.com
 #:: tlu.dl.delivery.mp.microsoft.com
+#:: tsfe.trafficshaping.dsp.mp.microsoft.com
 #:: windowsupdate.com
 #:: www.msftconnecttest.com
 #0.0.0.0 ars.smartscreen.microsoft.com
@@ -46,8 +57,10 @@
 #0.0.0.0 smartscreen.microsoft.com
 #0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com
 #0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
+#0.0.0.0 urs.microsoft.com
 #0.0.0.0 urs.smartscreen.microsoft.com
 #0.0.0.0 w.apprep.smartscreen.microsoft.com
+#0.0.0.0 wd.microsoft.com
 #0.0.0.0 wdcp.microsoft.com
 #0.0.0.0 wdcpalt.microsoft.com
 #:: ars.smartscreen.microsoft.com
@@ -69,7 +82,14 @@
 #0.0.0.0 www.nuget.org
 #0.0.0.0 code.visualstudio.com
 #0.0.0.0 download.visualstudio.microsoft.com
+#0.0.0.0 gallery.vsassets.io
+#0.0.0.0 gallerycdn.vsassets.io
+#0.0.0.0 marketplace.visualstudio.com
 #0.0.0.0 openvsxorg.blob.core.windows.net
+#0.0.0.0 update.code.visualstudio.com
+#0.0.0.0 vscode-cdn.net
+#0.0.0.0 vscode.download.prss.microsoft.com
+#0.0.0.0 builds.dotnet.microsoft.com
 #0.0.0.0 dotnet.microsoft.com
 #0.0.0.0 business.linkedin.com
 #0.0.0.0 lan.sdk.linkedin.com
@@ -77,6 +97,7 @@
 #0.0.0.0 platform.linkedin.com
 #0.0.0.0 ponf.linkedin.com
 #0.0.0.0 static.licdn.com
+#0.0.0.0 www.linkedin.com
 #0.0.0.0 delivery.activated.win
 #0.0.0.0 fg.microsoft.map.fastly.net
 #0.0.0.0 fs.microsoft.com
@@ -91,6 +112,8 @@
 #:: go.microsoft.com
 #:: graph.microsoft.com
 #0.0.0.0 minecraft-services.net
+#0.0.0.0 user.auth.xboxlive.com
+#0.0.0.0 xsts.auth.xboxlive.com
 0.0.0.0 2.msedge.net
 0.0.0.0 2.perf.msedge.net
 0.0.0.0 209.msedge.net
@@ -635,7 +658,6 @@
 0.0.0.0 led30r4c.msedge.net
 0.0.0.0 lis01r0.msedge.net
 0.0.0.0 lis01r9a.msedge.net
-0.0.0.0 login.microsoftonline.com
 0.0.0.0 lon04.msedge.net
 0.0.0.0 lon20.msedge.net
 0.0.0.0 lon21.msedge.net
@@ -1518,7 +1540,6 @@
 0.0.0.0 ztna1p-ring.msedge.net
 0.0.0.0 ztna3p-ring-fallback.msedge.net
 0.0.0.0 ztna3p-ring.msedge.net
-:: login.microsoftonline.com
 0.0.0.0 addons.microsoftedge.microsoft.com
 0.0.0.0 api.addons.microsoftedge.microsoft.com
 0.0.0.0 edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net
@@ -1546,14 +1567,29 @@
 :: nf.smartscreen.microsoft.com
 0.0.0.0 1drv.com
 0.0.0.0 1drv.ms
+0.0.0.0 autodiscover-s.outlook.com
+0.0.0.0 autodiscover.outlook.com
+0.0.0.0 login.microsoftonline.com
+0.0.0.0 officeclient.microsoft.com
+0.0.0.0 outlook.office.com
+0.0.0.0 outlook.office365.com
 0.0.0.0 sharepoint.com
+0.0.0.0 smtp.office365.com
+0.0.0.0 www.microsoft365.com
+:: login.microsoftonline.com
+:: officeclient.microsoft.com
+:: outlook.office.com
+:: outlook.office365.com
 0.0.0.0 admin.onedrive.com
 0.0.0.0 api.onedrive.com
 0.0.0.0 common-us.onedrive.akadns.net
+0.0.0.0 g.live.com
+0.0.0.0 login.live.com
 0.0.0.0 odc-common-us-meta.onedrive.akadns.net
 0.0.0.0 odc-web-brs.onedrive.akadns.net
 0.0.0.0 odc-web-geo.onedrive.akadns.net
 0.0.0.0 office365-onedrive.com
+0.0.0.0 oneclient.sfx.ms
 0.0.0.0 onedrive.akadns.net
 0.0.0.0 onedrive.com
 0.0.0.0 onedrive.live.com
@@ -1736,6 +1772,9 @@
 0.0.0.0 skydrivesync.policies.live.net
 0.0.0.0 www.onedrive.com
 :: api.onedrive.com
+:: g.live.com
+:: login.live.com
+:: oneclient.sfx.ms
 :: onedrive.live.com
 :: onedriveclubprodbn20051.blob.core.windows.net
 :: skydrive.wns.windows.com
@@ -1770,6 +1809,8 @@
 0.0.0.0 go.trouter.teams.microsoft.com
 0.0.0.0 img.teams.skype.com
 0.0.0.0 installer.teams.static.microsoft
+0.0.0.0 join.secure.skypeassets.com
+0.0.0.0 lync.com
 0.0.0.0 m365certificateprod.teams.skype.com
 0.0.0.0 m365fdcertificate.teams.skype.com
 0.0.0.0 meet.teams.microsoft.com
@@ -3178,7 +3219,6 @@
 0.0.0.0 adhs.events.data.microsoft.com
 0.0.0.0 adincel.live.com
 0.0.0.0 adkaulfake125.ustcms.microsoft.com
-0.0.0.0 adl.windows.com
 0.0.0.0 adl.windows.com.edgesuite.net
 0.0.0.0 adlibrary.ads.microsoft.com
 0.0.0.0 admbc.office.net
@@ -3685,7 +3725,6 @@
 0.0.0.0 api.brb.teams.cloud.microsoft
 0.0.0.0 api.cdn.microsoft.net
 0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net
-0.0.0.0 api.cdp.microsoft.com
 0.0.0.0 api.cfp.microsoft.com
 0.0.0.0 api.choice.msn.com
 0.0.0.0 api.cognitive.microsoft.com
@@ -5029,7 +5068,6 @@
 0.0.0.0 build.microsoft.com
 0.0.0.0 build.nuget.org
 0.0.0.0 build.windows.com
-0.0.0.0 builds.dotnet.microsoft.com
 0.0.0.0 buildsppec.code.visualstudio.com
 0.0.0.0 buildyourvoice.linkedin.com
 0.0.0.0 bulkconfig.corp.linkedin.com
@@ -7489,7 +7527,6 @@
 0.0.0.0 dkzjvbivz.mshome.net
 0.0.0.0 dl-proc.ds.microsoft.com
 0.0.0.0 dl.adu.microsoft.com
-0.0.0.0 dl.delivery.mp.microsoft.com
 0.0.0.0 dl.microsoft.com
 0.0.0.0 dl1.onedrive.com
 0.0.0.0 dl2y.visualstudio.com
@@ -7525,7 +7562,6 @@
 0.0.0.0 dnm.onedrive.com
 0.0.0.0 dns.corp.linkedin.com
 0.0.0.0 dns.microsoft.com
-0.0.0.0 dns.msftncsi.com
 0.0.0.0 dns.onedrive.com
 0.0.0.0 dns.prod.linkedin.com
 0.0.0.0 dns.stg.linkedin.com
@@ -7583,7 +7619,6 @@
 0.0.0.0 doudouyaoyoudoudouyangs.spaces.live.com
 0.0.0.0 download.encarta.msn.com
 0.0.0.0 download.linkedin.com
-0.0.0.0 download.microsoft.com
 0.0.0.0 download.onedrive.com
 0.0.0.0 download.visualstudio.com
 0.0.0.0 download.ws.microsoft.com
@@ -11880,7 +11915,6 @@
 0.0.0.0 marketing.partner.microsoft.com
 0.0.0.0 marketing.stg.linkedin.com
 0.0.0.0 marketplace.microsoft.com
-0.0.0.0 marketplace.visualstudio.com
 0.0.0.0 marketplacejournal.payments.cp.microsoft.com
 0.0.0.0 markets.books.microsoft.com
 0.0.0.0 marketshare.microsoft.com
@@ -13979,7 +14013,6 @@
 0.0.0.0 oncallweb-service.portal.ic3-messaging-mdcp-oncall.northeurope-msit.cosmic.office.net
 0.0.0.0 one.onedrive.com
 0.0.0.0 oneapi9.microsoft.com
-0.0.0.0 oneclient.sfx.ms
 0.0.0.0 onedrive.cloud.microsoft
 0.0.0.0 onedrive.onedrive.com
 0.0.0.0 onedrivec.onedrive.com
@@ -15004,7 +15037,6 @@
 0.0.0.0 prod.c2rsetup.microsoft.com.akadns.net
 0.0.0.0 prod.client.wosc.services.microsoft.com
 0.0.0.0 prod.cms.rt.microsoft.com
-0.0.0.0 prod.do.dsp.mp.microsoft.com
 0.0.0.0 prod.dos-airflow.kube.prod-lor1.ard.disco.linkedin.com
 0.0.0.0 prod.dos-airflow.kube.prod-lor1.ird.disco.linkedin.com
 0.0.0.0 prod.ecdn.teams.cloud.microsoft
@@ -17608,7 +17640,6 @@
 0.0.0.0 tsds-dashboard.corp.linkedin.com
 0.0.0.0 tsds-dashboard.prod.linkedin.com
 0.0.0.0 tsfe.trafficmanager.net
-0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
 0.0.0.0 tsgsinwoorcp01.corp.microsoft.com
 0.0.0.0 tsgsinwoorcp02.corp.microsoft.com
 0.0.0.0 tsgsinwoorcp03.corp.microsoft.com
@@ -17804,7 +17835,6 @@
 0.0.0.0 urlshortener.teams.cloud.microsoft
 0.0.0.0 urlshortener.teams.microsoft.com
 0.0.0.0 urltimebombingencryptioncertificate.md.mp.microsoft.com
-0.0.0.0 urs.microsoft.com
 0.0.0.0 urs.microsoft.com.nsatc.net
 0.0.0.0 us-mesh.events.data.microsoft.com
 0.0.0.0 us-mobile.events.data.microsoft.com
@@ -19621,7 +19651,6 @@
 0.0.0.0 www.li-sl.linkedin.com
 0.0.0.0 www.lifg.linkedin.com
 0.0.0.0 www.lifg.stg.linkedin.com
-0.0.0.0 www.linkedin.com
 0.0.0.0 www.linkedinforgood.linkedin.com
 0.0.0.0 www.linkedinforgood.stg.linkedin.com
 0.0.0.0 www.linkiequeen.spaces.live.com
@@ -19739,7 +19768,6 @@
 0.0.0.0 www.microsoft.com
 0.0.0.0 www.microsoft.com.microsoft.com
 0.0.0.0 www.microsoft23-uslive4.online
-0.0.0.0 www.microsoft365.com
 0.0.0.0 www.microsoftadvertising.com
 0.0.0.0 www.microsoftaistories.com
 0.0.0.0 www.microsoftcasualgames.com
@@ -20373,12 +20401,10 @@
 :: a.ads2.msads.net
 :: activation-v2.sls.microsoft.com
 :: activation.sls.microsoft.com
-:: adl.windows.com
 :: ads1.msads.net
 :: aidps.atdmt.com
 :: am3p.wns.windows.com
 :: answers.microsoft.com
-:: api.cdp.microsoft.com
 :: api.cortana.ai
 :: api.edgeoffer.microsoft.com
 :: array101-prod.do.dsp.mp.microsoft.com
@@ -20525,11 +20551,8 @@
 :: dev.virtualearth.net
 :: displaycatalog.md.mp.microsoft.com
 :: displaycatalog.mp.microsoft.com
-:: dl.delivery.mp.microsoft.com
 :: dmd.metaservices.microsoft.com
 :: dmd.metaservices.microsoft.com.akadns.net
-:: dns.msftncsi.com
-:: download.microsoft.com
 :: ec.atdmt.com
 :: ecn.dev.virtualearth.net
 :: edge.microsoft.com
@@ -20647,7 +20670,6 @@
 :: ne.cp.wd.microsoft.com
 :: neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 :: next-services.apps.microsoft.com
-:: oneclient.sfx.ms
 :: packages.dmd.metaservices.microsoft.com
 :: par02p.wns.windows.com
 :: pti.store.microsoft.com
@@ -20693,9 +20715,7 @@
 :: time.windows.com
 :: to-do.microsoft.com
 :: troubleshooting.microsoft.com
-:: tsfe.trafficshaping.dsp.mp.microsoft.com
 :: uhf.microsoft.com
-:: urs.microsoft.com
 :: us-v10.events.data.microsoft.com
 :: us-v20.events.data.microsoft.com
 :: v10.events.data.microsoft.com

@@ -4,31 +4,42 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 13 October 2026 16:05:58 UTC
-# Version: 2.2.0
+# Last modified: 13 October 2026 16:55:36 UTC
+# Version: 2.3.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 12101
+# Number of entries: 12081
 #
 # # Custom Allow & Blocklist # #
+#0.0.0.0 adl.windows.com
+#0.0.0.0 api.cdp.microsoft.com
 #0.0.0.0 ctldl.windowsupdate.com
 #0.0.0.0 delivery.mp.microsoft.com
+#0.0.0.0 dl.delivery.mp.microsoft.com
+#0.0.0.0 dns.msftncsi.com
+#0.0.0.0 download.microsoft.com
 #0.0.0.0 fe2.update.microsoft.com.akadns.net
 #0.0.0.0 ipv6.msftconnecttest.com
 #0.0.0.0 msftconnecttest.com
+#0.0.0.0 prod.do.dsp.mp.microsoft.com
 #0.0.0.0 sls.emea.update.microsoft.com.akadns.net
 #0.0.0.0 sls.update.microsoft.com.akadns.net
 #0.0.0.0 sls.update.microsoft.com.nsatc.net
 #0.0.0.0 slscr.update.microsoft.com
 #0.0.0.0 tlu.dl.delivery.mp.microsoft.com
+#0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
 #0.0.0.0 update.microsoft.com
 #0.0.0.0 warw.msftconnecttest.com
 #0.0.0.0 windowsupdate.com
 #0.0.0.0 www.fe2.update.microsoft.com.akadns.net
 #0.0.0.0 www.msftconnecttest.com
+#:: adl.windows.com
 #:: ctldl.windowsupdate.com
+#:: dns.msftncsi.com
+#:: download.microsoft.com
 #:: fe2.update.microsoft.com.akadns.net
 #:: slscr.update.microsoft.com
 #:: tlu.dl.delivery.mp.microsoft.com
+#:: tsfe.trafficshaping.dsp.mp.microsoft.com
 #:: windowsupdate.com
 #:: www.msftconnecttest.com
 #0.0.0.0 ars.smartscreen.microsoft.com
@@ -47,8 +58,10 @@
 #0.0.0.0 smartscreen.microsoft.com
 #0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com
 #0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
+#0.0.0.0 urs.microsoft.com
 #0.0.0.0 urs.smartscreen.microsoft.com
 #0.0.0.0 w.apprep.smartscreen.microsoft.com
+#0.0.0.0 wd.microsoft.com
 #0.0.0.0 wdcp.microsoft.com
 #0.0.0.0 wdcpalt.microsoft.com
 #:: ars.smartscreen.microsoft.com
@@ -70,7 +83,14 @@
 #0.0.0.0 www.nuget.org
 #0.0.0.0 code.visualstudio.com
 #0.0.0.0 download.visualstudio.microsoft.com
+#0.0.0.0 gallery.vsassets.io
+#0.0.0.0 gallerycdn.vsassets.io
+#0.0.0.0 marketplace.visualstudio.com
 #0.0.0.0 openvsxorg.blob.core.windows.net
+#0.0.0.0 update.code.visualstudio.com
+#0.0.0.0 vscode-cdn.net
+#0.0.0.0 vscode.download.prss.microsoft.com
+#0.0.0.0 builds.dotnet.microsoft.com
 #0.0.0.0 dotnet.microsoft.com
 #0.0.0.0 business.linkedin.com
 #0.0.0.0 lan.sdk.linkedin.com
@@ -78,6 +98,7 @@
 #0.0.0.0 platform.linkedin.com
 #0.0.0.0 ponf.linkedin.com
 #0.0.0.0 static.licdn.com
+#0.0.0.0 www.linkedin.com
 #0.0.0.0 delivery.activated.win
 #0.0.0.0 fg.microsoft.map.fastly.net
 #0.0.0.0 fs.microsoft.com
@@ -92,6 +113,8 @@
 #:: go.microsoft.com
 #:: graph.microsoft.com
 #0.0.0.0 minecraft-services.net
+#0.0.0.0 user.auth.xboxlive.com
+#0.0.0.0 xsts.auth.xboxlive.com
 # # Lite: Edge extension store allowed
 #0.0.0.0 addons.microsoftedge.microsoft.com
 #0.0.0.0 api.addons.microsoftedge.microsoft.com
@@ -121,15 +144,30 @@
 # # Lite: Office 365 services allowed
 #0.0.0.0 1drv.com
 #0.0.0.0 1drv.ms
+#0.0.0.0 autodiscover-s.outlook.com
+#0.0.0.0 autodiscover.outlook.com
+#0.0.0.0 login.microsoftonline.com
+#0.0.0.0 officeclient.microsoft.com
+#0.0.0.0 outlook.office.com
+#0.0.0.0 outlook.office365.com
 #0.0.0.0 sharepoint.com
+#0.0.0.0 smtp.office365.com
+#0.0.0.0 www.microsoft365.com
+#:: login.microsoftonline.com
+#:: officeclient.microsoft.com
+#:: outlook.office.com
+#:: outlook.office365.com
 # # Lite: OneDrive allowed
 #0.0.0.0 admin.onedrive.com
 #0.0.0.0 api.onedrive.com
 #0.0.0.0 common-us.onedrive.akadns.net
+#0.0.0.0 g.live.com
+#0.0.0.0 login.live.com
 #0.0.0.0 odc-common-us-meta.onedrive.akadns.net
 #0.0.0.0 odc-web-brs.onedrive.akadns.net
 #0.0.0.0 odc-web-geo.onedrive.akadns.net
 #0.0.0.0 office365-onedrive.com
+#0.0.0.0 oneclient.sfx.ms
 #0.0.0.0 onedrive.akadns.net
 #0.0.0.0 onedrive.com
 #0.0.0.0 onedrive.live.com
@@ -312,6 +350,9 @@
 #0.0.0.0 skydrivesync.policies.live.net
 #0.0.0.0 www.onedrive.com
 #:: api.onedrive.com
+#:: g.live.com
+#:: login.live.com
+#:: oneclient.sfx.ms
 #:: onedrive.live.com
 #:: onedriveclubprodbn20051.blob.core.windows.net
 #:: skydrive.wns.windows.com
@@ -348,6 +389,8 @@
 #0.0.0.0 go.trouter.teams.microsoft.com
 #0.0.0.0 img.teams.skype.com
 #0.0.0.0 installer.teams.static.microsoft
+#0.0.0.0 join.secure.skypeassets.com
+#0.0.0.0 lync.com
 #0.0.0.0 m365certificateprod.teams.skype.com
 #0.0.0.0 m365fdcertificate.teams.skype.com
 #0.0.0.0 meet.teams.microsoft.com
@@ -940,7 +983,6 @@
 0.0.0.0 led30r4c.msedge.net
 0.0.0.0 lis01r0.msedge.net
 0.0.0.0 lis01r9a.msedge.net
-0.0.0.0 login.microsoftonline.com
 0.0.0.0 lon04.msedge.net
 0.0.0.0 lon20.msedge.net
 0.0.0.0 lon21.msedge.net
@@ -1823,7 +1865,6 @@
 0.0.0.0 ztna1p-ring.msedge.net
 0.0.0.0 ztna3p-ring-fallback.msedge.net
 0.0.0.0 ztna3p-ring.msedge.net
-:: login.microsoftonline.com
 # # Edge telemetry
 0.0.0.0 1.perf.msedge.net
 0.0.0.0 36.a-msedge.net
@@ -4250,7 +4291,6 @@
 0.0.0.0 attachment.outlook.officeppe.net
 0.0.0.0 attachments.office.net
 0.0.0.0 augloop.office.com
-0.0.0.0 autodiscover-s.outlook.com
 0.0.0.0 autodiscover.outlook.office365.com
 0.0.0.0 b.c2r.ts.cdn.office.net
 0.0.0.0 b04e5ce22f8740f1a2c23ed8ade3f014.fp.measure.office.com
@@ -5342,7 +5382,6 @@
 0.0.0.0 office-c.events.data.microsoft.com
 0.0.0.0 office-events-data.trafficmanager.net
 0.0.0.0 office-g.events.data.microsoft.com
-0.0.0.0 office.com
 0.0.0.0 office.events.data.microsoft.com
 0.0.0.0 office.microsoft.com
 0.0.0.0 office.net
@@ -5355,7 +5394,6 @@
 0.0.0.0 officecdn-microsoft-com.akamaized.net
 0.0.0.0 officecdn.microsoft.com
 0.0.0.0 officecdn.microsoft.com.edgesuite.net
-0.0.0.0 officeclient.microsoft.com
 0.0.0.0 officeconfig.microsoft.com
 0.0.0.0 officeconfig.msocdn.com
 0.0.0.0 officegraph.microsoft.com
@@ -5382,10 +5420,7 @@
 0.0.0.0 outlook-ca-emeawest2.office365.com
 0.0.0.0 outlook-emeawest2.office365.com
 0.0.0.0 outlook-exo.trafficmanager.net
-0.0.0.0 outlook.com
 0.0.0.0 outlook.ha.office365.com
-0.0.0.0 outlook.office.com
-0.0.0.0 outlook.office365.com
 0.0.0.0 outlook365.com
 0.0.0.0 outlookmobile-office365-tas.msedge.net
 0.0.0.0 ow1.res.office365.com
@@ -5426,13 +5461,11 @@
 0.0.0.0 sfnam.loki.delve.office.com
 0.0.0.0 sharepoint-df.com
 0.0.0.0 sharepoint.microsoft.com
-0.0.0.0 sharepointonline.com
 0.0.0.0 shell.cdn.office.net
 0.0.0.0 shredder-eu.osi.office.net
 0.0.0.0 shredder-us.osi.office.net
 0.0.0.0 shredder.osi.office.net
 0.0.0.0 sjc-efz.ms-acdc.office.com
-0.0.0.0 smtp.office365.com
 0.0.0.0 spf.protection.outlook.com
 0.0.0.0 spo.nel.measure.office.net
 0.0.0.0 spo.nelitar.measure.office365.us
@@ -5486,12 +5519,9 @@
 :: ocos-office365-s2s.msedge.net
 :: officecdn.microsoft.com
 :: officecdn.microsoft.com.edgesuite.net
-:: officeclient.microsoft.com
 :: outlook-1.cdn.office.net
 :: outlook-ca-emeawest2.office365.com
 :: outlook-emeawest2.office365.com
-:: outlook.office.com
-:: outlook.office365.com
 :: outlookmobile-office365-tas.msedge.net
 :: substrate.office.com
 :: tfl.nel.measure.office.net
@@ -5992,7 +6022,6 @@
 0.0.0.0 friends.xboxlive.com
 0.0.0.0 frontendmetrics.blob.core.windows.net
 0.0.0.0 g.ceipmsn.com
-0.0.0.0 g.live.com
 0.0.0.0 g.msn.com
 0.0.0.0 g.msn.com.nsatc.net
 0.0.0.0 g00.msn.com
@@ -6081,7 +6110,6 @@
 0.0.0.0 logging.diagnostics-eudb.office.com
 0.0.0.0 logging.diagnostics.office.com
 0.0.0.0 login-us.microsoftonline.com
-0.0.0.0 login.live.com
 0.0.0.0 login.windows.net
 0.0.0.0 logincert.microsoftonline.com
 0.0.0.0 loginex.microsoftonline.com
@@ -6519,7 +6547,6 @@
 0.0.0.0 usc-visio-telemetry.officeapps.live.com
 0.0.0.0 user-auth1.xboxlive.com
 0.0.0.0 user-auth2.xboxlive.com
-0.0.0.0 user.auth.xboxlive.com
 0.0.0.0 user.xboxlive.com
 0.0.0.0 userpresence.xboxlive.com
 0.0.0.0 userpresence.xboxlive.com.akadns.net
@@ -6684,7 +6711,6 @@
 0.0.0.0 xmpp5.xboxlive.com
 0.0.0.0 xnotify.xboxlive.com
 0.0.0.0 xnotify.xboxlive.com.nsatc.net
-0.0.0.0 xsts.auth.xboxlive.com
 0.0.0.0 xsts.auth.xboxlive.com.akadns.net
 0.0.0.0 xvcf1.xboxlive.com
 0.0.0.0 xvcf10.xboxlive.com
@@ -6746,7 +6772,6 @@
 :: eu.vortex.data.microsoft.com
 :: flex.msn.com
 :: fr-fr.appex-rf.msn.com
-:: g.live.com
 :: geo.vortex.data.microsoft.com.akadns.net
 :: global.sam.msn.com
 :: h1.msn.com
@@ -6759,7 +6784,6 @@
 :: kmwatson.events.data.microsoft.com
 :: kmwatsonc.events.data.microsoft.com
 :: live.rads.msn.com
-:: login.live.com
 :: login.windows.net
 :: modern.watson.data.microsoft.com.akadns.net
 :: mrodevicemgr.officeapps.live.com
@@ -10139,7 +10163,6 @@
 0.0.0.0 skype-edf.akadns.net
 0.0.0.0 skype-registar.akadns.net
 0.0.0.0 skype.cloud.microsoft
-0.0.0.0 skype.com
 0.0.0.0 skype.edf.akadns.net
 0.0.0.0 skype.net
 0.0.0.0 skypeassets.com
