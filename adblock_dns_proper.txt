@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 13 October 2026 16:55:33 UTC
+! Last modified: 13 October 2026 17:53:34 UTC
 ! Version: 2.3.0
 ! Syntax: Adblock
-! Number of entries: 5201
+! Number of entries: 5205
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 ! Windows Update related Urls
@@ -69,6 +69,10 @@
 @@||ocsp.digicert.com^
 @@||sdx.microsoft.com^
 @@||software-static.download.prss.microsoft.com^
+@@||steamcloudlrsuswest.blob.core.windows.net^
+@@||steamcloudsaopaulo.blob.core.windows.net^
+@@||steamcloudtoronto2.blob.core.windows.net^
+@@||steamclouduseast2.blob.core.windows.net^
 ! Official Minecraft game site
 @@||minecraft-services.net^
 @@||user.auth.xboxlive.com^

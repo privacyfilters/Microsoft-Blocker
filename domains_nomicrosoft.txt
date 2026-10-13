@@ -4,7 +4,7 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 13 October 2026 16:55:35 UTC
+# Last modified: 13 October 2026 17:53:36 UTC
 # Version: 2.3.0
 # Syntax: domains (including possible subdomains)
 # Number of entries: 32000
@@ -94,6 +94,10 @@ modpim.com
 ocsp.digicert.com
 sdx.microsoft.com
 software-static.download.prss.microsoft.com
+steamcloudlrsuswest.blob.core.windows.net
+steamcloudsaopaulo.blob.core.windows.net
+steamcloudtoronto2.blob.core.windows.net
+steamclouduseast2.blob.core.windows.net
 # # Minecraft
 minecraft-services.net
 user.auth.xboxlive.com
@@ -3213,7 +3217,6 @@ stats-2023.xboxlive.com
 stats.xboxlive.com
 status.xboxlive.com
 stcoredevelop.blob.core.windows.net
-steamcloudsaopaulo.blob.core.windows.net
 stjjp.msn.com
 storage.live.com
 storage1.xboxlive.com
@@ -28136,9 +28139,6 @@ status.onedrive.com
 status7.onedrive.com
 stay.microsoft.com
 stde01.zone.msn.com
-steamcloudlrsuswest.blob.core.windows.net
-steamcloudtoronto2.blob.core.windows.net
-steamclouduseast2.blob.core.windows.net
 steelwire.live.com
 steinerschooldewingerd-my.sharepoint.com
 stevensoutherlandre-my.sharepoint.com

@@ -4,7 +4,7 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 13 October 2026 16:55:36 UTC
+# Last modified: 13 October 2026 17:53:36 UTC
 # Version: 2.3.0
 # Syntax: hosts (including possible subdomains)
 # Number of entries: 32771
@@ -108,6 +108,10 @@
 0.0.0.0 ocsp.digicert.com
 0.0.0.0 sdx.microsoft.com
 0.0.0.0 software-static.download.prss.microsoft.com
+0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
+0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
+0.0.0.0 steamcloudtoronto2.blob.core.windows.net
+0.0.0.0 steamclouduseast2.blob.core.windows.net
 :: fs.microsoft.com
 :: go.microsoft.com
 :: graph.microsoft.com
@@ -3256,7 +3260,6 @@
 0.0.0.0 stats.xboxlive.com
 0.0.0.0 status.xboxlive.com
 0.0.0.0 stcoredevelop.blob.core.windows.net
-0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
 0.0.0.0 stjjp.msn.com
 0.0.0.0 storage.live.com
 0.0.0.0 storage1.xboxlive.com
@@ -28374,9 +28377,6 @@
 0.0.0.0 status7.onedrive.com
 0.0.0.0 stay.microsoft.com
 0.0.0.0 stde01.zone.msn.com
-0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
-0.0.0.0 steamcloudtoronto2.blob.core.windows.net
-0.0.0.0 steamclouduseast2.blob.core.windows.net
 0.0.0.0 steelwire.live.com
 0.0.0.0 steinerschooldewingerd-my.sharepoint.com
 0.0.0.0 stevensoutherlandre-my.sharepoint.com

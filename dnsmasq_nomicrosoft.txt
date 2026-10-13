@@ -4,7 +4,7 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 13 October 2026 16:55:35 UTC
+# Last modified: 13 October 2026 17:53:36 UTC
 # Version: 2.3.0
 # Syntax: DNSMasq
 # Number of entries: 32000
@@ -2650,7 +2650,6 @@ local=/stats-2023.xboxlive.com/
 local=/stats.xboxlive.com/
 local=/status.xboxlive.com/
 local=/stcoredevelop.blob.core.windows.net/
-local=/steamcloudsaopaulo.blob.core.windows.net/
 local=/stjjp.msn.com/
 local=/storage.live.com/
 local=/storage1.xboxlive.com/
@@ -13266,6 +13265,10 @@ local=/modpim.com/
 local=/ocsp.digicert.com/
 local=/sdx.microsoft.com/
 local=/software-static.download.prss.microsoft.com/
+local=/steamcloudlrsuswest.blob.core.windows.net/
+local=/steamcloudsaopaulo.blob.core.windows.net/
+local=/steamcloudtoronto2.blob.core.windows.net/
+local=/steamclouduseast2.blob.core.windows.net/
 # # Minecraft
 local=/minecraft-services.net/
 local=/user.auth.xboxlive.com/
@@ -28360,9 +28363,6 @@ local=/status.onedrive.com/
 local=/status7.onedrive.com/
 local=/stay.microsoft.com/
 local=/stde01.zone.msn.com/
-local=/steamcloudlrsuswest.blob.core.windows.net/
-local=/steamcloudtoronto2.blob.core.windows.net/
-local=/steamclouduseast2.blob.core.windows.net/
 local=/steelwire.live.com/
 local=/steinerschooldewingerd-my.sharepoint.com/
 local=/stevensoutherlandre-my.sharepoint.com/

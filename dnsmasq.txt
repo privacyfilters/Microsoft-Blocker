@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 13 October 2026 16:55:35 UTC
+# Last modified: 13 October 2026 17:53:36 UTC
 # Version: 2.3.0
 # Syntax: DNSMasq
-# Number of entries: 5703
+# Number of entries: 5707
 #
 # # Custom Allow & Blocklist # #
 server=/adl.windows.com/
@@ -88,6 +88,10 @@ server=/modpim.com/
 server=/ocsp.digicert.com/
 server=/sdx.microsoft.com/
 server=/software-static.download.prss.microsoft.com/
+server=/steamcloudlrsuswest.blob.core.windows.net/
+server=/steamcloudsaopaulo.blob.core.windows.net/
+server=/steamcloudtoronto2.blob.core.windows.net/
+server=/steamclouduseast2.blob.core.windows.net/
 server=/minecraft-services.net/
 server=/user.auth.xboxlive.com/
 server=/xsts.auth.xboxlive.com/
