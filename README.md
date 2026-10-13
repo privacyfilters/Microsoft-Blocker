@@ -117,12 +117,12 @@ If you don't use Microsoft services and want the strongest blocking possible, th
 
 Less aggressive version. Recommended if you still need Microsoft services such as Outlook, Office, OneDrive, OneNote, Teams, etc.
 
-| Format | Works with | Codeberg | GitHub |
-| ------ | ---------- | -------- | ------ |
-| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, uBlock Origin, Brave Shields, AdGuard for Android | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_lite.txt) |
-| **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_lite.txt) |
-| **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_lite.txt) |
-| **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_lite) |
+| Format | Works with | Codeberg | GitHub | jsDelivr |
+| ------ | ---------- | -------- | ------ | -------- |
+| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, uBlock Origin, Brave Shields, AdGuard for Android | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/adblock_dns_lite.txt) |
+| **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/domains_lite.txt) |
+| **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/dnsmasq_lite.txt) |
+| **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_lite) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/hosts_lite) |
 
 ---
 
@@ -132,13 +132,13 @@ Less aggressive version. Recommended if you still need Microsoft services such a
 
 Stronger blocking while keeping selected Windows functionality working. Allows Windows ISO downloads from [Massgrave.dev](https://massgrave.dev/genuine-installation-media), Windows Updates, the Winget package manager, the VS Code Extension Marketplace, and some Azure-related URLs.
 
-| Format | Works with | Codeberg | GitHub |
-| ------ | ---------- | -------- | ------ |
-| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, uBlock Origin, Brave Shields, AdGuard for Android | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_proper.txt) |
-| **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains.txt) |
-| **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt) |
-| **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts) |
-| **Hosts-clean** | Adblock-lean. Identical to Hosts, just with a different name (use it if `hosts` causes an error) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts-clean) |
+| Format | Works with | Codeberg | GitHub | jsDelivr |
+| ------ | ---------- | -------- | ------ | -------- |
+| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, uBlock Origin, Brave Shields, AdGuard for Android | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_proper.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/adblock_dns_proper.txt) |
+| **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/domains.txt) |
+| **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/dnsmasq.txt) |
+| **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/hosts) |
+| **Hosts-clean** | Adblock-lean. Identical to Hosts, just with a different name (use it if `hosts` causes an error) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts-clean) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/hosts-clean) |
 
 ---
 
@@ -148,12 +148,12 @@ Stronger blocking while keeping selected Windows functionality working. Allows W
 
 The strictest version, for users who want to block Microsoft as much as possible. Some Azure URLs may stay unblocked for now, since they could break external services: many services other than Microsoft's use Azure cloud infrastructure.
 
-| Format | Works with | Codeberg | GitHub |
-| ------ | ---------- | -------- | ------ |
-| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, uBlock Origin, Brave Shields, AdGuard for Android | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_nomicrosoft.txt) |
-| **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_nomicrosoft.txt) |
-| **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq.txt) |
-| **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_nomicrosoft) |
+| Format | Works with | Codeberg | GitHub | jsDelivr |
+| ------ | ---------- | -------- | ------ | -------- |
+| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, uBlock Origin, Brave Shields, AdGuard for Android | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/adblock_dns_nomicrosoft.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/adblock_dns_nomicrosoft.txt) |
+| **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_nomicrosoft.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/domains_nomicrosoft.txt) |
+| **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_nomicrosoft.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/dnsmasq_nomicrosoft.txt) |
+| **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_nomicrosoft) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/hosts_nomicrosoft) |
 
 ---
 
