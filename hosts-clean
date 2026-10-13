@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 12 October 2026 20:52:26 UTC
-# Version: 2.0.0
+# Last modified: 13 October 2026 11:58:00 UTC
+# Version: 2.1.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 8830
+# Number of entries: 8832
 #
 #0.0.0.0 ctldl.windowsupdate.com
 #0.0.0.0 delivery.mp.microsoft.com
@@ -1414,6 +1414,7 @@
 0.0.0.0 api.teams.skype.com
 0.0.0.0 appsuggestions.teams.microsoft.com
 0.0.0.0 asyncgw.teams.microsoft.com
+0.0.0.0 auth.mt.teams.skype.com
 0.0.0.0 config.teams.microsoft.com
 0.0.0.0 cosmos.int.teamsorchestrator.rtcdat.skype.com
 0.0.0.0 cosmos.prod.teamsorchestrator.rtcdat.skype.com
@@ -1436,6 +1437,7 @@
 0.0.0.0 msgapi.teams.live.com
 0.0.0.0 mstaadsync.dod.teams.microsoft.us
 0.0.0.0 mstaadsync.gov.teams.microsoft.us
+0.0.0.0 mt.teams.skype.com
 0.0.0.0 ng.msg.teams.microsoft.com
 0.0.0.0 notifications.teams.microsoft.com
 0.0.0.0 policyprocessor.teams.skype.com

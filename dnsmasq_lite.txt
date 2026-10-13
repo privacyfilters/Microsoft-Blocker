@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 12 October 2026 20:52:26 UTC
-# Version: 2.0.0
+# Last modified: 13 October 2026 11:58:00 UTC
+# Version: 2.1.0
 # Syntax: DNSMasq
-# Number of entries: 1342
+# Number of entries: 1343
 #
 # # Custom Allow & Blocklist # #
 server=/ctldl.windowsupdate.com/
@@ -305,6 +305,7 @@ server=/api.teams.microsoft.com/
 server=/api.teams.skype.com/
 server=/appsuggestions.teams.microsoft.com/
 server=/asyncgw.teams.microsoft.com/
+server=/auth.mt.teams.skype.com/
 server=/config.teams.microsoft.com/
 server=/cosmos.int.teamsorchestrator.rtcdat.skype.com/
 server=/cosmos.prod.teamsorchestrator.rtcdat.skype.com/
@@ -327,6 +328,7 @@ server=/msg.teams.microsoft.com/
 server=/msgapi.teams.live.com/
 server=/mstaadsync.dod.teams.microsoft.us/
 server=/mstaadsync.gov.teams.microsoft.us/
+server=/mt.teams.skype.com/
 server=/ng.msg.teams.microsoft.com/
 server=/notifications.teams.microsoft.com/
 server=/policyprocessor.teams.skype.com/
@@ -1233,7 +1235,6 @@ local=/vstfbingext.partners.extranet.microsoft.com/
 local=/dsn10.skype-dsn.akadns.net/
 local=/ecstestcertificate.teams.skype.com/
 local=/m365certificateprod9.teams.skype.com/
-local=/mt.teams.skype.com/
 local=/skype-dns.akadns.net/
 local=/skype-edf.akadns.net/
 local=/skype-registar.akadns.net/
