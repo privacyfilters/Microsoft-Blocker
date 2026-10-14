@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 14 October 2026 13:27:35 UTC
-# Version: 2.4.0
+# Last modified: 14 October 2026 20:49:59 UTC
+# Version: 2.6.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 32028
+# Number of entries: 31971
 #
 0.0.0.0 adl.windows.com
 0.0.0.0 am3p.wns.notify.windows.com.akadns.net
@@ -25,7 +25,9 @@
 0.0.0.0 emea1.notify.windows.com.akadns.net
 0.0.0.0 fe2.update.microsoft.com.akadns.net
 0.0.0.0 ipv6.msftconnecttest.com
+0.0.0.0 ipv6.msftncsi.com
 0.0.0.0 msftconnecttest.com
+0.0.0.0 msftncsi.com
 0.0.0.0 notify.windows.com
 0.0.0.0 prod.do.dsp.mp.microsoft.com
 0.0.0.0 sls.emea.update.microsoft.com.akadns.net
@@ -42,17 +44,20 @@
 0.0.0.0 wns2-am3p.notify.windows.com
 0.0.0.0 www.fe2.update.microsoft.com.akadns.net
 0.0.0.0 www.msftconnecttest.com
+0.0.0.0 www.msftncsi.com
 :: adl.windows.com
 :: apac1.notify.windows.com.akadns.net
 :: ctldl.windowsupdate.com
 :: dns.msftncsi.com
 :: download.microsoft.com
 :: fe2.update.microsoft.com.akadns.net
+:: ipv6.msftncsi.com
 :: slscr.update.microsoft.com
 :: tlu.dl.delivery.mp.microsoft.com
 :: tsfe.trafficshaping.dsp.mp.microsoft.com
 :: windowsupdate.com
 :: www.msftconnecttest.com
+:: www.msftncsi.com
 0.0.0.0 ars.smartscreen.microsoft.com
 0.0.0.0 asia.smartscreen-prod.microsoft.com
 0.0.0.0 bf.smartscreen.microsoft.com
@@ -2712,7 +2717,6 @@
 0.0.0.0 content.assist.gameservices.xboxlive.com
 0.0.0.0 content.xboxlive.com
 0.0.0.0 copyright.xboxlive.com
-0.0.0.0 core.windows.net
 0.0.0.0 covers.xboxlive.com
 0.0.0.0 crash.xboxlive.com
 0.0.0.0 csspeechstorage.blob.core.windows.net
@@ -3493,7 +3497,6 @@
 0.0.0.0 winatpsecurityanalyticsapi.securitycenter.windows.com
 0.0.0.0 windows.handlers.live.com
 0.0.0.0 windows.msn.com
-0.0.0.0 windows.net
 0.0.0.0 windowslive.com
 0.0.0.0 windowslive.com.ph
 0.0.0.0 windowsmediaguide.com
@@ -12377,7 +12380,6 @@
 0.0.0.0 mobile.adnxs.com
 0.0.0.0 mobile.anycast.adnxs.com
 0.0.0.0 msads.net
-0.0.0.0 msadsense.com
 0.0.0.0 msadsscale.microsoft.com
 0.0.0.0 msanaccess.bingads.microsoft.com
 0.0.0.0 msft-ssp-ams3.adnxs.com
@@ -12531,7 +12533,6 @@
 0.0.0.0 www.global.msads.net
 0.0.0.0 www.help.bingads.microsoft.com
 0.0.0.0 www.itag.ads.linkedin.com
-0.0.0.0 www.msadsense.com
 0.0.0.0 www.prebid.adnxs.com
 0.0.0.0 yj-a.p.adnxs.com
 0.0.0.0 yj.p.adnxs.com
@@ -13025,7 +13026,6 @@
 0.0.0.0 mdoazureantimalwarepublisherppe.protection.outlook.com
 0.0.0.0 mdoazureappconfig.protection.outlook.com
 0.0.0.0 mdsautokey.psowaw.activedirectory-edog.windowsazure.com
-0.0.0.0 mediaservices.windows.net
 0.0.0.0 meqvwlf6nz.activedirectory-edog.windowsazure.com
 0.0.0.0 mfabbclient-arlington-ppeq.cce.windowsazure.com
 0.0.0.0 mfabbclient-arlingtonm.windowsazure.com
@@ -15149,7 +15149,6 @@
 0.0.0.0 alphauktraining.sharepoint.com
 0.0.0.0 alt.stg.linkedin.com
 0.0.0.0 altalink-davem.vssps.visualstudio.com
-0.0.0.0 alumnialliances.msnd20.com
 0.0.0.0 alvaro246.live.com
 0.0.0.0 alx.apac.rtb.linkedin.com
 0.0.0.0 alx.emea.rtb.linkedin.com
@@ -21106,7 +21105,6 @@
 0.0.0.0 ipv6.download.microsoft.com
 0.0.0.0 ipv6.microsoft.com
 0.0.0.0 ipv6.microsoft.com.akadns.net
-0.0.0.0 ipv6.msftncsi.com
 0.0.0.0 ipv6.ppe.pstnhub.microsoft.com
 0.0.0.0 ipv6.pstnhub.microsoft.com
 0.0.0.0 ipvhsessjsmqdxw.mshome.net
@@ -23679,12 +23677,10 @@
 0.0.0.0 microsoft.vc
 0.0.0.0 microsoft.vn
 0.0.0.0 microsoft.ws
-0.0.0.0 microsoft23-uslive4.online
 0.0.0.0 microsoft365.com
 0.0.0.0 microsoft365.supportconnector.microsoft.com
 0.0.0.0 microsoftacademy.com
 0.0.0.0 microsoftadvertising.microsoft.com
-0.0.0.0 microsoftaistories.com
 0.0.0.0 microsoftalumni.com
 0.0.0.0 microsoftarchive.com
 0.0.0.0 microsoftauto.com.br
@@ -23704,7 +23700,6 @@
 0.0.0.0 microsoftcrmportals.com
 0.0.0.0 microsoftdata.com
 0.0.0.0 microsoftdeveloper.com
-0.0.0.0 microsoftdriver.com
 0.0.0.0 microsoftdynamicserp.biz
 0.0.0.0 microsoftdynamicslive-int.com
 0.0.0.0 microsoftdynamicslive-ppe.com
@@ -23729,7 +23724,6 @@
 0.0.0.0 microsoftexpo.org
 0.0.0.0 microsoftfamily.com
 0.0.0.0 microsoftfeedback.microsoft.com
-0.0.0.0 microsoftfiles.live
 0.0.0.0 microsoftflight.com
 0.0.0.0 microsoftforefront.org
 0.0.0.0 microsoftfrontpage.com
@@ -23738,7 +23732,6 @@
 0.0.0.0 microsofthealth.com
 0.0.0.0 microsofthealthbeta.com
 0.0.0.0 microsofthealthsolutions.com
-0.0.0.0 microsofthelpcenter.info
 0.0.0.0 microsofthk.com
 0.0.0.0 microsofthololens.com
 0.0.0.0 microsofthome.com
@@ -23750,7 +23743,6 @@
 0.0.0.0 microsoftintune.com
 0.0.0.0 microsoftitacademy.com
 0.0.0.0 microsoftjobs.com
-0.0.0.0 microsoftkernel.com
 0.0.0.0 microsoftlawportal.net
 0.0.0.0 microsoftlegal.com
 0.0.0.0 microsoftlicense.com
@@ -23764,10 +23756,8 @@
 0.0.0.0 microsoftminecraft.com
 0.0.0.0 microsoftmusic.com
 0.0.0.0 microsoftnews.com
-0.0.0.0 microsoftonline-secure-login.com
 0.0.0.0 microsoftonline.services
 0.0.0.0 microsoftonline365.fr
-0.0.0.0 microsoftonlines.com
 0.0.0.0 microsoftpartner.com
 0.0.0.0 microsoftphone.com
 0.0.0.0 microsoftphotosynth.com.br
@@ -23777,7 +23767,6 @@
 0.0.0.0 microsoftproject.com
 0.0.0.0 microsoftresearch.com
 0.0.0.0 microsoftrewards.com
-0.0.0.0 microsofts.top
 0.0.0.0 microsoftsafety.com
 0.0.0.0 microsoftsearch.com
 0.0.0.0 microsoftsecurity.com
@@ -23792,11 +23781,9 @@
 0.0.0.0 microsoftstore.microsoft.com
 0.0.0.0 microsoftstore2.microsoft.com
 0.0.0.0 microsoftstore4.microsoft.com
-0.0.0.0 microsoftsupp.com
 0.0.0.0 microsoftsupplychain.com
 0.0.0.0 microsoftsupport.com
 0.0.0.0 microsoftsupport.fr
-0.0.0.0 microsoftsupport.xyz
 0.0.0.0 microsoftsurface.com
 0.0.0.0 microsoftsurface.com.br
 0.0.0.0 microsofttalks.com
@@ -23809,14 +23796,11 @@
 0.0.0.0 microsofttv.com
 0.0.0.0 microsoftuniversity.com
 0.0.0.0 microsoftupdate.com
-0.0.0.0 microsoftupdate.in
-0.0.0.0 microsoftupdater.info
 0.0.0.0 microsoftupdates.eu
 0.0.0.0 microsoftvirtual.com
 0.0.0.0 microsoftvirtualacademy.com
 0.0.0.0 microsoftvisio.com
 0.0.0.0 microsoftvolumelicensing.com
-0.0.0.0 microsoftweblogin.com
 0.0.0.0 microsoftwildcat.com
 0.0.0.0 microsoftwindows.com
 0.0.0.0 microsoftwindowsupdate.net
@@ -24036,7 +24020,6 @@
 0.0.0.0 msft.spoppe.com
 0.0.0.0 msft.sts.microsoft.com
 0.0.0.0 msftauth.com
-0.0.0.0 msftdirectorylogin.com
 0.0.0.0 msfterauthordr-api.corp.microsoft.com
 0.0.0.0 msftguest-virtual.partners.extranet.microsoft.com
 0.0.0.0 msftguest.corp.microsoft.com
@@ -24051,8 +24034,6 @@
 0.0.0.0 msftguestwcus-aaa.corp.microsoft.com
 0.0.0.0 msftguestweu-aaa.corp.microsoft.com
 0.0.0.0 msftguestwus2-aaa.corp.microsoft.com
-0.0.0.0 msftncsi.com
-0.0.0.0 msftoffers.com
 0.0.0.0 msftvpn-alt.ras.microsoft.com
 0.0.0.0 msftvpn.ras.microsoft.com
 0.0.0.0 msgsslclientabapsdkprimary.redmond.corp.microsoft.com
@@ -24119,9 +24100,6 @@
 0.0.0.0 msn.net
 0.0.0.0 msn.nl
 0.0.0.0 msn.se
-0.0.0.0 msn1.com
-0.0.0.0 msn5vg8em.com
-0.0.0.0 msnanty.com
 0.0.0.0 msnbot-103-25-156-18.search.msn.com
 0.0.0.0 msnbot-103-25-156-202.search.msn.com
 0.0.0.0 msnbot-103-255-141-114.search.msn.com
@@ -24363,11 +24341,7 @@
 0.0.0.0 msnbot-65-55-51-57.msn.com
 0.0.0.0 msnbot-65-55-54-207.search.msn.com
 0.0.0.0 msnbot-65-55-54-246.search.msn.com
-0.0.0.0 msncialis.com
 0.0.0.0 msncompanion.com
-0.0.0.0 msndjupvqtrhs.website
-0.0.0.0 msnenkmvzkacs.site
-0.0.0.0 msnfcixxunwrh.site
 0.0.0.0 msnhome.com
 0.0.0.0 msnhome.org
 0.0.0.0 msnhomepage.com
@@ -24377,15 +24351,8 @@
 0.0.0.0 msniadekv1.msn.com
 0.0.0.0 msniafeed.msn.com
 0.0.0.0 msniakeyvaultv1.msn.com
-0.0.0.0 msnm.com
-0.0.0.0 msnm.it
 0.0.0.0 msnmessenger.com
-0.0.0.0 msnmobile.in
-0.0.0.0 msnnetwork.com
-0.0.0.0 msns.cn
-0.0.0.0 msnsports.com
 0.0.0.0 msnupdate.bz
-0.0.0.0 msnusers.com
 0.0.0.0 msocsp.ocs.microsoft.com
 0.0.0.0 mspartner.microsoft.com
 0.0.0.0 mspartnerlp.partner.microsoft.com
@@ -24891,11 +24858,9 @@
 0.0.0.0 nq.linkedin.com
 0.0.0.0 nr.linkedin.com
 0.0.0.0 ns.helix.live.com
-0.0.0.0 ns1.microsoftonlines.net
 0.0.0.0 ns1.msft.net
 0.0.0.0 ns1.onedrive.com
 0.0.0.0 ns1w.onedrive.com
-0.0.0.0 ns2.microsoftonlines.net
 0.0.0.0 ns2.msft.net
 0.0.0.0 ns3.msft.net
 0.0.0.0 ns3.tm-4.office.com
@@ -25353,7 +25318,6 @@
 0.0.0.0 partner.microsoft.com
 0.0.0.0 partner.microsoftonline-p.cn
 0.0.0.0 partner.microsoftonline.cn
-0.0.0.0 partner.microsoftonline.net.cn
 0.0.0.0 partner.ppe.ocpcms.microsoft.com
 0.0.0.0 partner.stg.linkedin.com
 0.0.0.0 partner8.microsoft.com
@@ -28879,7 +28843,6 @@
 0.0.0.0 unvalidated.g.msn.com
 0.0.0.0 up.microsoft.com
 0.0.0.0 upbezxcnmyllvh.mshome.net
-0.0.0.0 update.microsoftonlines.net
 0.0.0.0 update.onedrive.com
 0.0.0.0 updates.teams.cloud.microsoft
 0.0.0.0 upload.onedrive.com
@@ -29504,8 +29467,6 @@
 0.0.0.0 windowsserverfeedback.com
 0.0.0.0 windowsstore.com
 0.0.0.0 windowsupdate.microsoft.com
-0.0.0.0 windowsupdateblocker.net
-0.0.0.0 windowsupdatecdn.com
 0.0.0.0 windowsvissa.com
 0.0.0.0 windowsvista.kz
 0.0.0.0 windowupdate.org
@@ -30828,17 +30789,12 @@
 0.0.0.0 www.microsoft-update.support
 0.0.0.0 www.microsoft.com
 0.0.0.0 www.microsoft.com.microsoft.com
-0.0.0.0 www.microsoft23-uslive4.online
 0.0.0.0 www.microsoftadvertising.com
-0.0.0.0 www.microsoftaistories.com
 0.0.0.0 www.microsoftcasualgames.com
 0.0.0.0 www.microsoftedge.com
 0.0.0.0 www.microsoftedgeinsider.com
-0.0.0.0 www.microsoftfiles.live
 0.0.0.0 www.microsofthk.com
 0.0.0.0 www.microsoftinternetsafety.net
-0.0.0.0 www.microsoftkernel.com
-0.0.0.0 www.microsoftsupport.xyz
 0.0.0.0 www.microsoftwindowsupdate.net
 0.0.0.0 www.mid4.linkedin.com
 0.0.0.0 www.mirahorian.spaces.live.com
@@ -30859,21 +30815,11 @@
 0.0.0.0 www.msads.net
 0.0.0.0 www.msdnupdate.com
 0.0.0.0 www.msecn.net
-0.0.0.0 www.msftncsi.com
 0.0.0.0 www.msh3-wac02.gts.linkedin.com
 0.0.0.0 www.msinvestigateuat.corp.microsoft.com
-0.0.0.0 www.msn5vg8em.com
-0.0.0.0 www.msnanty.com
 0.0.0.0 www.msnbot-65-55-108-23.search.msn.com
-0.0.0.0 www.msncialis.com
-0.0.0.0 www.msndjupvqtrhs.website
-0.0.0.0 www.msnenkmvzkacs.site
-0.0.0.0 www.msnfcixxunwrh.site
 0.0.0.0 www.msnhome.com
 0.0.0.0 www.msnhomepage.com
-0.0.0.0 www.msnnetwork.com
-0.0.0.0 www.msns.cn
-0.0.0.0 www.msnsports.com
 0.0.0.0 www.msonline.microsoft.com
 0.0.0.0 www.msstoreapiqa.microsoft.com
 0.0.0.0 www.mtview.live.com
@@ -31190,7 +31136,6 @@
 0.0.0.0 www.windows.com
 0.0.0.0 www.windows.microsoft.com
 0.0.0.0 www.windowssearch.com
-0.0.0.0 www.windowsupdateblocker.net
 0.0.0.0 www.windowupdate.org
 0.0.0.0 www.wintersweety.spaces.live.com
 0.0.0.0 www.ws.corp.linkedin.com
@@ -31605,7 +31550,6 @@
 :: manage.devcenter.microsoft.com
 :: maps.windows.com
 :: mediaredirect.microsoft.com
-:: msftncsi.com
 :: mucp.api.account.microsoft.com
 :: ne-we.cp.wd.microsoft.com
 :: ne.cp.wd.microsoft.com
@@ -31672,7 +31616,6 @@
 :: wscont.apps.microsoft.com.edgesuite.net
 :: wscont1.apps.microsoft.com
 :: wscont2.apps.microsoft.com
-:: www.msftncsi.com
 :: www.telecommandsvc.microsoft.com
 :: www.windowssearch.com
 :: x.urs.microsoft.com

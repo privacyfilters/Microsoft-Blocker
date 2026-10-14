@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 14 October 2026 13:27:35 UTC
-# Version: 2.4.0
+# Last modified: 14 October 2026 20:49:59 UTC
+# Version: 2.6.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 31381
+# Number of entries: 31324
 #
 # # Windows Update
 adl.windows.com
@@ -26,7 +26,9 @@ download.microsoft.com
 emea1.notify.windows.com.akadns.net
 fe2.update.microsoft.com.akadns.net
 ipv6.msftconnecttest.com
+ipv6.msftncsi.com
 msftconnecttest.com
+msftncsi.com
 notify.windows.com
 prod.do.dsp.mp.microsoft.com
 sls.emea.update.microsoft.com.akadns.net
@@ -43,6 +45,7 @@ wns.windows.com
 wns2-am3p.notify.windows.com
 www.fe2.update.microsoft.com.akadns.net
 www.msftconnecttest.com
+www.msftncsi.com
 # # Windows Defender
 ars.smartscreen.microsoft.com
 asia.smartscreen-prod.microsoft.com
@@ -2667,7 +2670,6 @@ contacts.msn.com
 content.assist.gameservices.xboxlive.com
 content.xboxlive.com
 copyright.xboxlive.com
-core.windows.net
 covers.xboxlive.com
 crash.xboxlive.com
 csspeechstorage.blob.core.windows.net
@@ -3448,7 +3450,6 @@ winatpsecurityanalyticsapi-us3.securitycenter.windows.com
 winatpsecurityanalyticsapi.securitycenter.windows.com
 windows.handlers.live.com
 windows.msn.com
-windows.net
 windowslive.com
 windowslive.com.ph
 windowsmediaguide.com
@@ -12139,7 +12140,6 @@ mob.adnxs.com
 mobile.adnxs.com
 mobile.anycast.adnxs.com
 msads.net
-msadsense.com
 msadsscale.microsoft.com
 msanaccess.bingads.microsoft.com
 msft-ssp-ams3.adnxs.com
@@ -12293,7 +12293,6 @@ www.eu-west-1.dc.ads.linkedin.com
 www.global.msads.net
 www.help.bingads.microsoft.com
 www.itag.ads.linkedin.com
-www.msadsense.com
 www.prebid.adnxs.com
 yj-a.p.adnxs.com
 yj.p.adnxs.com
@@ -12786,7 +12785,6 @@ mdoazureantimalwarepublisher.protection.outlook.com
 mdoazureantimalwarepublisherppe.protection.outlook.com
 mdoazureappconfig.protection.outlook.com
 mdsautokey.psowaw.activedirectory-edog.windowsazure.com
-mediaservices.windows.net
 meqvwlf6nz.activedirectory-edog.windowsazure.com
 mfabbclient-arlington-ppeq.cce.windowsazure.com
 mfabbclient-arlingtonm.windowsazure.com
@@ -14911,7 +14909,6 @@ alpha.incident.corp.linkedin.com
 alphauktraining.sharepoint.com
 alt.stg.linkedin.com
 altalink-davem.vssps.visualstudio.com
-alumnialliances.msnd20.com
 alvaro246.live.com
 alx.apac.rtb.linkedin.com
 alx.emea.rtb.linkedin.com
@@ -20868,7 +20865,6 @@ ipv6-dashboard.prod.linkedin.com
 ipv6.download.microsoft.com
 ipv6.microsoft.com
 ipv6.microsoft.com.akadns.net
-ipv6.msftncsi.com
 ipv6.ppe.pstnhub.microsoft.com
 ipv6.pstnhub.microsoft.com
 ipvhsessjsmqdxw.mshome.net
@@ -23441,12 +23437,10 @@ microsoft.uz
 microsoft.vc
 microsoft.vn
 microsoft.ws
-microsoft23-uslive4.online
 microsoft365.com
 microsoft365.supportconnector.microsoft.com
 microsoftacademy.com
 microsoftadvertising.microsoft.com
-microsoftaistories.com
 microsoftalumni.com
 microsoftarchive.com
 microsoftauto.com.br
@@ -23466,7 +23460,6 @@ microsoftcrm.com
 microsoftcrmportals.com
 microsoftdata.com
 microsoftdeveloper.com
-microsoftdriver.com
 microsoftdynamicserp.biz
 microsoftdynamicslive-int.com
 microsoftdynamicslive-ppe.com
@@ -23491,7 +23484,6 @@ microsoftexpo.net
 microsoftexpo.org
 microsoftfamily.com
 microsoftfeedback.microsoft.com
-microsoftfiles.live
 microsoftflight.com
 microsoftforefront.org
 microsoftfrontpage.com
@@ -23500,7 +23492,6 @@ microsoftgraph.com
 microsofthealth.com
 microsofthealthbeta.com
 microsofthealthsolutions.com
-microsofthelpcenter.info
 microsofthk.com
 microsofthololens.com
 microsofthome.com
@@ -23512,7 +23503,6 @@ microsoftinternetsafety.net
 microsoftintune.com
 microsoftitacademy.com
 microsoftjobs.com
-microsoftkernel.com
 microsoftlawportal.net
 microsoftlegal.com
 microsoftlicense.com
@@ -23526,10 +23516,8 @@ microsoftmediaroom.de
 microsoftminecraft.com
 microsoftmusic.com
 microsoftnews.com
-microsoftonline-secure-login.com
 microsoftonline.services
 microsoftonline365.fr
-microsoftonlines.com
 microsoftpartner.com
 microsoftphone.com
 microsoftphotosynth.com.br
@@ -23539,7 +23527,6 @@ microsoftproducts.com
 microsoftproject.com
 microsoftresearch.com
 microsoftrewards.com
-microsofts.top
 microsoftsafety.com
 microsoftsearch.com
 microsoftsecurity.com
@@ -23554,11 +23541,9 @@ microsoftstore.me
 microsoftstore.microsoft.com
 microsoftstore2.microsoft.com
 microsoftstore4.microsoft.com
-microsoftsupp.com
 microsoftsupplychain.com
 microsoftsupport.com
 microsoftsupport.fr
-microsoftsupport.xyz
 microsoftsurface.com
 microsoftsurface.com.br
 microsofttalks.com
@@ -23571,14 +23556,11 @@ microsofttravel.com
 microsofttv.com
 microsoftuniversity.com
 microsoftupdate.com
-microsoftupdate.in
-microsoftupdater.info
 microsoftupdates.eu
 microsoftvirtual.com
 microsoftvirtualacademy.com
 microsoftvisio.com
 microsoftvolumelicensing.com
-microsoftweblogin.com
 microsoftwildcat.com
 microsoftwindows.com
 microsoftwindowsupdate.net
@@ -23798,7 +23780,6 @@ msft.net
 msft.spoppe.com
 msft.sts.microsoft.com
 msftauth.com
-msftdirectorylogin.com
 msfterauthordr-api.corp.microsoft.com
 msftguest-virtual.partners.extranet.microsoft.com
 msftguest.corp.microsoft.com
@@ -23813,8 +23794,6 @@ msftguestuatwus2-aaa.corp.microsoft.com
 msftguestwcus-aaa.corp.microsoft.com
 msftguestweu-aaa.corp.microsoft.com
 msftguestwus2-aaa.corp.microsoft.com
-msftncsi.com
-msftoffers.com
 msftvpn-alt.ras.microsoft.com
 msftvpn.ras.microsoft.com
 msgsslclientabapsdkprimary.redmond.corp.microsoft.com
@@ -23881,9 +23860,6 @@ msn.mm
 msn.net
 msn.nl
 msn.se
-msn1.com
-msn5vg8em.com
-msnanty.com
 msnbot-103-25-156-18.search.msn.com
 msnbot-103-25-156-202.search.msn.com
 msnbot-103-255-141-114.search.msn.com
@@ -24125,11 +24101,7 @@ msnbot-65-55-51-46.msn.com
 msnbot-65-55-51-57.msn.com
 msnbot-65-55-54-207.search.msn.com
 msnbot-65-55-54-246.search.msn.com
-msncialis.com
 msncompanion.com
-msndjupvqtrhs.website
-msnenkmvzkacs.site
-msnfcixxunwrh.site
 msnhome.com
 msnhome.org
 msnhomepage.com
@@ -24139,15 +24111,8 @@ msniaap.msn.com
 msniadekv1.msn.com
 msniafeed.msn.com
 msniakeyvaultv1.msn.com
-msnm.com
-msnm.it
 msnmessenger.com
-msnmobile.in
-msnnetwork.com
-msns.cn
-msnsports.com
 msnupdate.bz
-msnusers.com
 msocsp.ocs.microsoft.com
 mspartner.microsoft.com
 mspartnerlp.partner.microsoft.com
@@ -24653,11 +24618,9 @@ npsservice.stg.linkedin.com
 nq.linkedin.com
 nr.linkedin.com
 ns.helix.live.com
-ns1.microsoftonlines.net
 ns1.msft.net
 ns1.onedrive.com
 ns1w.onedrive.com
-ns2.microsoftonlines.net
 ns2.msft.net
 ns3.msft.net
 ns3.tm-4.office.com
@@ -25115,7 +25078,6 @@ partner.linkedin.com
 partner.microsoft.com
 partner.microsoftonline-p.cn
 partner.microsoftonline.cn
-partner.microsoftonline.net.cn
 partner.ppe.ocpcms.microsoft.com
 partner.stg.linkedin.com
 partner8.microsoft.com
@@ -28641,7 +28603,6 @@ unsubscribe-test-25.microservice.sharepointonline.com
 unvalidated.g.msn.com
 up.microsoft.com
 upbezxcnmyllvh.mshome.net
-update.microsoftonlines.net
 update.onedrive.com
 updates.teams.cloud.microsoft
 upload.onedrive.com
@@ -29266,8 +29227,6 @@ windowssearch.com
 windowsserverfeedback.com
 windowsstore.com
 windowsupdate.microsoft.com
-windowsupdateblocker.net
-windowsupdatecdn.com
 windowsvissa.com
 windowsvista.kz
 windowupdate.org
@@ -30590,17 +30549,12 @@ www.microsoft-update.name
 www.microsoft-update.support
 www.microsoft.com
 www.microsoft.com.microsoft.com
-www.microsoft23-uslive4.online
 www.microsoftadvertising.com
-www.microsoftaistories.com
 www.microsoftcasualgames.com
 www.microsoftedge.com
 www.microsoftedgeinsider.com
-www.microsoftfiles.live
 www.microsofthk.com
 www.microsoftinternetsafety.net
-www.microsoftkernel.com
-www.microsoftsupport.xyz
 www.microsoftwindowsupdate.net
 www.mid4.linkedin.com
 www.mirahorian.spaces.live.com
@@ -30621,21 +30575,11 @@ www.ms19947017.msv1.invalid.outlook.com
 www.msads.net
 www.msdnupdate.com
 www.msecn.net
-www.msftncsi.com
 www.msh3-wac02.gts.linkedin.com
 www.msinvestigateuat.corp.microsoft.com
-www.msn5vg8em.com
-www.msnanty.com
 www.msnbot-65-55-108-23.search.msn.com
-www.msncialis.com
-www.msndjupvqtrhs.website
-www.msnenkmvzkacs.site
-www.msnfcixxunwrh.site
 www.msnhome.com
 www.msnhomepage.com
-www.msnnetwork.com
-www.msns.cn
-www.msnsports.com
 www.msonline.microsoft.com
 www.msstoreapiqa.microsoft.com
 www.mtview.live.com
@@ -30952,7 +30896,6 @@ www.winatpservicehealth.securitycenter.windows.com
 www.windows.com
 www.windows.microsoft.com
 www.windowssearch.com
-www.windowsupdateblocker.net
 www.windowupdate.org
 www.wintersweety.spaces.live.com
 www.ws.corp.linkedin.com

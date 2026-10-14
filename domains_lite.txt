@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 14 October 2026 13:27:35 UTC
-# Version: 2.4.0
+# Last modified: 14 October 2026 20:49:59 UTC
+# Version: 2.6.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 11844
+# Number of entries: 11840
 #
 # # Custom Allow & Blocklist # #
 #adl.windows.com
@@ -26,7 +26,9 @@
 #emea1.notify.windows.com.akadns.net
 #fe2.update.microsoft.com.akadns.net
 #ipv6.msftconnecttest.com
+#ipv6.msftncsi.com
 #msftconnecttest.com
+#msftncsi.com
 #notify.windows.com
 #prod.do.dsp.mp.microsoft.com
 #sls.emea.update.microsoft.com.akadns.net
@@ -43,6 +45,7 @@
 #wns2-am3p.notify.windows.com
 #www.fe2.update.microsoft.com.akadns.net
 #www.msftconnecttest.com
+#www.msftncsi.com
 #ars.smartscreen.microsoft.com
 #asia.smartscreen-prod.microsoft.com
 #bf.smartscreen.microsoft.com
@@ -5794,7 +5797,6 @@ contacts.msn.com
 content.assist.gameservices.xboxlive.com
 content.xboxlive.com
 copyright.xboxlive.com
-core.windows.net
 covers.xboxlive.com
 crash.xboxlive.com
 csspeechstorage.blob.core.windows.net
@@ -6575,7 +6577,6 @@ winatpsecurityanalyticsapi-us3.securitycenter.windows.com
 winatpsecurityanalyticsapi.securitycenter.windows.com
 windows.handlers.live.com
 windows.msn.com
-windows.net
 windowslive.com
 windowslive.com.ph
 windowsmediaguide.com
@@ -12132,7 +12133,6 @@ mob.adnxs.com
 mobile.adnxs.com
 mobile.anycast.adnxs.com
 msads.net
-msadsense.com
 msadsscale.microsoft.com
 msanaccess.bingads.microsoft.com
 msft-ssp-ams3.adnxs.com
@@ -12286,7 +12286,6 @@ www.eu-west-1.dc.ads.linkedin.com
 www.global.msads.net
 www.help.bingads.microsoft.com
 www.itag.ads.linkedin.com
-www.msadsense.com
 www.prebid.adnxs.com
 yj-a.p.adnxs.com
 yj.p.adnxs.com

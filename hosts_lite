@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 14 October 2026 13:27:35 UTC
-# Version: 2.4.0
+# Last modified: 14 October 2026 20:49:59 UTC
+# Version: 2.6.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 12059
+# Number of entries: 12055
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 adl.windows.com
@@ -26,7 +26,9 @@
 #0.0.0.0 emea1.notify.windows.com.akadns.net
 #0.0.0.0 fe2.update.microsoft.com.akadns.net
 #0.0.0.0 ipv6.msftconnecttest.com
+#0.0.0.0 ipv6.msftncsi.com
 #0.0.0.0 msftconnecttest.com
+#0.0.0.0 msftncsi.com
 #0.0.0.0 notify.windows.com
 #0.0.0.0 prod.do.dsp.mp.microsoft.com
 #0.0.0.0 sls.emea.update.microsoft.com.akadns.net
@@ -43,17 +45,20 @@
 #0.0.0.0 wns2-am3p.notify.windows.com
 #0.0.0.0 www.fe2.update.microsoft.com.akadns.net
 #0.0.0.0 www.msftconnecttest.com
+#0.0.0.0 www.msftncsi.com
 #:: adl.windows.com
 #:: apac1.notify.windows.com.akadns.net
 #:: ctldl.windowsupdate.com
 #:: dns.msftncsi.com
 #:: download.microsoft.com
 #:: fe2.update.microsoft.com.akadns.net
+#:: ipv6.msftncsi.com
 #:: slscr.update.microsoft.com
 #:: tlu.dl.delivery.mp.microsoft.com
 #:: tsfe.trafficshaping.dsp.mp.microsoft.com
 #:: windowsupdate.com
 #:: www.msftconnecttest.com
+#:: www.msftncsi.com
 #0.0.0.0 ars.smartscreen.microsoft.com
 #0.0.0.0 asia.smartscreen-prod.microsoft.com
 #0.0.0.0 bf.smartscreen.microsoft.com
@@ -5895,7 +5900,6 @@
 0.0.0.0 content.assist.gameservices.xboxlive.com
 0.0.0.0 content.xboxlive.com
 0.0.0.0 copyright.xboxlive.com
-0.0.0.0 core.windows.net
 0.0.0.0 covers.xboxlive.com
 0.0.0.0 crash.xboxlive.com
 0.0.0.0 csspeechstorage.blob.core.windows.net
@@ -6676,7 +6680,6 @@
 0.0.0.0 winatpsecurityanalyticsapi.securitycenter.windows.com
 0.0.0.0 windows.handlers.live.com
 0.0.0.0 windows.msn.com
-0.0.0.0 windows.net
 0.0.0.0 windowslive.com
 0.0.0.0 windowslive.com.ph
 0.0.0.0 windowsmediaguide.com
@@ -12393,7 +12396,6 @@
 0.0.0.0 mobile.adnxs.com
 0.0.0.0 mobile.anycast.adnxs.com
 0.0.0.0 msads.net
-0.0.0.0 msadsense.com
 0.0.0.0 msadsscale.microsoft.com
 0.0.0.0 msanaccess.bingads.microsoft.com
 0.0.0.0 msft-ssp-ams3.adnxs.com
@@ -12547,7 +12549,6 @@
 0.0.0.0 www.global.msads.net
 0.0.0.0 www.help.bingads.microsoft.com
 0.0.0.0 www.itag.ads.linkedin.com
-0.0.0.0 www.msadsense.com
 0.0.0.0 www.prebid.adnxs.com
 0.0.0.0 yj-a.p.adnxs.com
 0.0.0.0 yj.p.adnxs.com
