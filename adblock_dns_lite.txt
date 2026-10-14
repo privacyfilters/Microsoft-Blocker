@@ -4,20 +4,26 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 13 October 2026 17:53:27 UTC
-! Version: 2.3.0
+! Last modified: 14 October 2026 13:27:25 UTC
+! Version: 2.4.0
 ! Syntax: Adblock
-! Number of entries: 1467
+! Number of entries: 1511
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||adl.windows.com^
+@@||americas1.notify.windows.com.akadns.net^
+@@||americas2.notify.windows.com.akadns.net^
+@@||apac1.notify.windows.com.akadns.net^
 @@||api.cdp.microsoft.com*^
+@@||db5p.notify.windows.com^
 @@||delivery.mp.microsoft.com^
 @@||dl.delivery.mp.microsoft.com*^
 @@||dns.msftncsi.com^
 @@||download.microsoft.com^
+@@||emea1.notify.windows.com.akadns.net^
 @@||fe2.update.microsoft.com.akadns.net*^
 @@||msftconnecttest.com*^
+@@||notify.windows.com*^
 @@||prod.do.dsp.mp.microsoft.com*^
 @@||sls.emea.update.microsoft.com.akadns.net^
 @@||sls.update.microsoft.com.akadns.net^
@@ -26,6 +32,9 @@
 @@||tsfe.trafficshaping.dsp.mp.microsoft.com^
 @@||update.microsoft.com*^
 @@||windowsupdate.com*^
+@@||wns.notify.windows.com.akadns.net*^
+@@||wns.windows.com*^
+@@||wns2-am3p.notify.windows.com^
 ! Windows Update related Urls
 @@||crl.microsoft.com^
 @@||definitionupdates.microsoft.com^
@@ -68,13 +77,43 @@
 @@||ocsp.digicert.com^
 @@||sdx.microsoft.com^
 @@||software-static.download.prss.microsoft.com^
+@@||steamcloud*.blob.core.windows.net^
+@@||steamugc*.blob.core.windows.net^
+@@||account-public-service-prod03.ol.epicgames.com^
+@@||api.epicgames.dev^
+@@||api.gog.com^
+@@||app.github.dev*^
+@@||content-system.gog.com^
+@@||ghcr.io*^
+@@||github.dev*^
+@@||githubcopilot.com*^
+@@||login.gog.com^
+@@||maven.pkg.github.com^
+@@||mavenregistryv2prod.blob.core.windows.net^
+@@||npm.pkg.github.com^
+@@||npmregistryv2prod.blob.core.windows.net^
+@@||nuget.pkg.github.com^
+@@||nugetregistryv2prod.blob.core.windows.net^
+@@||pc.realms.minecraft.net^
+@@||pocket.realms.minecraft.net^
+@@||rubygems.pkg.github.com^
+@@||rubygemsregistryv2prod.blob.core.windows.net^
 @@||steamcloudlrsuswest.blob.core.windows.net^
 @@||steamcloudsaopaulo.blob.core.windows.net^
+@@||steamcloudsweden.blob.core.windows.net^
 @@||steamcloudtoronto2.blob.core.windows.net^
 @@||steamclouduseast2.blob.core.windows.net^
+@@||www.gog.com^
 ! Official Minecraft game site
-@@||minecraft-services.net^
+@@||device.auth.xboxlive.com^
+@@||device.auth.xboxlive.com.akadns.net^
+@@||minecraft-services.net*^
+@@||sessiondirectory.xboxlive.com^
+@@||title.auth.xboxlive.com^
+@@||titlestorage.xboxlive.com^
 @@||user.auth.xboxlive.com^
+@@||userpresence.xboxlive.com^
+@@||userpresence.xboxlive.com.akadns.net^
 @@||xsts.auth.xboxlive.com^
 ! Lite: Edge extension store allowed
 @@||api.addons.microsoftedge.microsoft.com^
@@ -94,12 +133,20 @@
 ! Lite: Office 365 services allowed
 @@||1drv.com^
 @@||1drv.ms^
+@@||2faccount.live.com^
+@@||account.live.com^
 @@||autodiscover-s.outlook.com^
 @@||autodiscover.outlook.com^
+@@||enterpriseregistration.windows.net^
+@@||graph.windows.net^
+@@||login.microsoft.com*^
 @@||login.microsoftonline.com^
+@@||msauth.net*^
+@@||msftauth.net*^
 @@||officeclient.microsoft.com^
 @@||outlook.office.com^
 @@||outlook.office365.com^
+@@||phonefactor.net*^
 @@||sharepoint.com^
 @@||smtp.office365.com^
 @@||www.microsoft365.com^
@@ -485,10 +532,8 @@
 ! Windows telemetry
 ||activity.windows.com^
 ||activity.windows.us^
-||americas1.notify.windows.com.akadns.net^
-||americas2.notify.windows.com.akadns.net^
-||apac1.notify.windows.com.akadns.net^
 ||auc-visio-telemetry.officeapps.live.com^$important
+||bl2p.wns.notify.windows.com.akadns.net^$important
 ||brc-visio-telemetry.officeapps.live.com^$important
 ||cac-visio-telemetry.officeapps.live.com^$important
 ||ccs.login.microsoftonline.com^$important
@@ -529,6 +574,7 @@
 ||daascompappus-monitor.securitycenter.windows.com^
 ||daascompappus-monitor.windows.com^
 ||datamart.windows.com^
+||db5p.wns.notify.windows.com.akadns.net^$important
 ||dec-visio-telemetry.officeapps.live.com^$important
 ||device.login.microsoftonline.com^$important
 ||diagnostics-eudb.office.com^
@@ -539,7 +585,6 @@
 ||edge-emeu1.activity.windows.com.akadns.net^
 ||edge-global.activity.windows.com.akadns.net^
 ||edge.activity.windows.com.akadns.net^
-||emea1.notify.windows.com.akadns.net^
 ||euc-excel-telemetry.officeapps.live.com^$important
 ||euc-onenote-telemetry.officeapps.live.com^$important
 ||euc-powerpoint-telemetry.officeapps.live.com^$important
@@ -583,7 +628,6 @@
 ||nexus.officeapps.live.com^$important
 ||nexusrules.officeapps.live.com^$important
 ||noc-visio-telemetry.officeapps.live.com^$important
-||notify.windows.com^
 ||ocws.officeapps.live.com^$important
 ||odc.officeapps.live.com^$important
 ||officelive.com^
@@ -696,7 +740,6 @@
 ||windowsmediaguide.com^
 ||windowsonecarelive.com^
 ||windowsupdate.com.br^$important
-||wns.notify.windows.com.akadns.net^
 ||word-telemetry.officeapps.live.com^$important
 ||word.officeapps.live.com^$important
 ||xml.login.live.com^$important
@@ -1416,6 +1459,7 @@
 ||xboxab.com^
 ||xboxapi.com^
 ||xboxcanada.ca^
+||xboxlive.wns.windows.com^$important
 ||xboxrc.com^
 ||xboxservices.com^
 ! ! Blocklist ! ! Wildcard rules

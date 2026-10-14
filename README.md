@@ -59,6 +59,7 @@ Lite blocks many Microsoft service, telemetry and tracking domains while allowin
 * OneNote
 * Teams
 * Microsoft Edge Extension Store
+* External services on shared infrastructure (e.g. Steam Cloud Sync)
 * Some other Microsoft online services
 * Things that are allowed in Proper version
 
@@ -82,6 +83,7 @@ Proper allows the minimum connections needed to keep Windows functional, and blo
 * LinkedIn
 * Minecraft
 * Visual Studio Code Extension Marketplace
+* External services on shared infrastructure (e.g. Steam Cloud Sync)
 * Some Azure-related connections
 * Windows ISO downloads from [Massgrave.dev](https://massgrave.dev/genuine-installation-media)
 
@@ -101,6 +103,7 @@ No Microsoft is for users who simply don't want Microsoft-related connections on
 **Allowed services:**
 
 * GitHub and githubusercontent
+* External services on shared infrastructure (e.g. Steam Cloud Sync)
 * Some Azure-related domains that many external services depend on
 
 > **⚠️ Azure warning:** Some Azure domains stay unblocked. Microsoft Azure is used by many websites and services that have nothing to do with Microsoft, and blocking Azure infrastructure too aggressively can break unrelated services.

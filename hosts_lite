@@ -4,22 +4,30 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 13 October 2026 17:53:36 UTC
-# Version: 2.3.0
+# Last modified: 14 October 2026 13:27:35 UTC
+# Version: 2.4.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 12080
+# Number of entries: 12059
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 adl.windows.com
+#0.0.0.0 am3p.wns.notify.windows.com.akadns.net
+#0.0.0.0 americas1.notify.windows.com.akadns.net
+#0.0.0.0 americas2.notify.windows.com.akadns.net
+#0.0.0.0 apac1.notify.windows.com.akadns.net
 #0.0.0.0 api.cdp.microsoft.com
 #0.0.0.0 ctldl.windowsupdate.com
+#0.0.0.0 db5p.notify.windows.com
 #0.0.0.0 delivery.mp.microsoft.com
 #0.0.0.0 dl.delivery.mp.microsoft.com
+#0.0.0.0 dm3p.wns.notify.windows.com.akadns.net
 #0.0.0.0 dns.msftncsi.com
 #0.0.0.0 download.microsoft.com
+#0.0.0.0 emea1.notify.windows.com.akadns.net
 #0.0.0.0 fe2.update.microsoft.com.akadns.net
 #0.0.0.0 ipv6.msftconnecttest.com
 #0.0.0.0 msftconnecttest.com
+#0.0.0.0 notify.windows.com
 #0.0.0.0 prod.do.dsp.mp.microsoft.com
 #0.0.0.0 sls.emea.update.microsoft.com.akadns.net
 #0.0.0.0 sls.update.microsoft.com.akadns.net
@@ -30,9 +38,13 @@
 #0.0.0.0 update.microsoft.com
 #0.0.0.0 warw.msftconnecttest.com
 #0.0.0.0 windowsupdate.com
+#0.0.0.0 wns.notify.windows.com.akadns.net
+#0.0.0.0 wns.windows.com
+#0.0.0.0 wns2-am3p.notify.windows.com
 #0.0.0.0 www.fe2.update.microsoft.com.akadns.net
 #0.0.0.0 www.msftconnecttest.com
 #:: adl.windows.com
+#:: apac1.notify.windows.com.akadns.net
 #:: ctldl.windowsupdate.com
 #:: dns.msftncsi.com
 #:: download.microsoft.com
@@ -109,16 +121,49 @@
 #0.0.0.0 ocsp.digicert.com
 #0.0.0.0 sdx.microsoft.com
 #0.0.0.0 software-static.download.prss.microsoft.com
-#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
-#0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
-#0.0.0.0 steamcloudtoronto2.blob.core.windows.net
-#0.0.0.0 steamclouduseast2.blob.core.windows.net
 #:: fs.microsoft.com
 #:: go.microsoft.com
 #:: graph.microsoft.com
+#0.0.0.0 account-public-service-prod03.ol.epicgames.com
+#0.0.0.0 api.epicgames.dev
+#0.0.0.0 api.gog.com
+#0.0.0.0 app.github.dev
+#0.0.0.0 authorization.franchise.minecraft-services.net
+#0.0.0.0 bedrock.frontend.realms.minecraft-services.net
+#0.0.0.0 client.discovery.minecraft-services.net
+#0.0.0.0 content-system.gog.com
+#0.0.0.0 ghcr.io
+#0.0.0.0 github.dev
+#0.0.0.0 githubcopilot.com
+#0.0.0.0 login.gog.com
+#0.0.0.0 maven.pkg.github.com
+#0.0.0.0 mavenregistryv2prod.blob.core.windows.net
+#0.0.0.0 npm.pkg.github.com
+#0.0.0.0 npmregistryv2prod.blob.core.windows.net
+#0.0.0.0 nuget.pkg.github.com
+#0.0.0.0 nugetregistryv2prod.blob.core.windows.net
+#0.0.0.0 pc.realms.minecraft.net
+#0.0.0.0 pocket.realms.minecraft.net
+#0.0.0.0 rubygems.pkg.github.com
+#0.0.0.0 rubygemsregistryv2prod.blob.core.windows.net
+#0.0.0.0 signal.franchise.minecraft-services.net
+#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
+#0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
+#0.0.0.0 steamcloudsweden.blob.core.windows.net
+#0.0.0.0 steamcloudtoronto2.blob.core.windows.net
+#0.0.0.0 steamclouduseast2.blob.core.windows.net
+#0.0.0.0 www.gog.com
+#0.0.0.0 device.auth.xboxlive.com
+#0.0.0.0 device.auth.xboxlive.com.akadns.net
 #0.0.0.0 minecraft-services.net
+#0.0.0.0 sessiondirectory.xboxlive.com
+#0.0.0.0 title.auth.xboxlive.com
+#0.0.0.0 titlestorage.xboxlive.com
 #0.0.0.0 user.auth.xboxlive.com
+#0.0.0.0 userpresence.xboxlive.com
+#0.0.0.0 userpresence.xboxlive.com.akadns.net
 #0.0.0.0 xsts.auth.xboxlive.com
+#:: device.auth.xboxlive.com
 # # Lite: Edge extension store allowed
 #0.0.0.0 addons.microsoftedge.microsoft.com
 #0.0.0.0 api.addons.microsoftedge.microsoft.com
@@ -148,12 +193,22 @@
 # # Lite: Office 365 services allowed
 #0.0.0.0 1drv.com
 #0.0.0.0 1drv.ms
+#0.0.0.0 2faccount.live.com
+#0.0.0.0 account.live.com
+#0.0.0.0 autoconfig.login.microsoft.com
 #0.0.0.0 autodiscover-s.outlook.com
+#0.0.0.0 autodiscover.login.microsoft.com
 #0.0.0.0 autodiscover.outlook.com
+#0.0.0.0 enterpriseregistration.windows.net
+#0.0.0.0 graph.windows.net
+#0.0.0.0 login.microsoft.com
 #0.0.0.0 login.microsoftonline.com
+#0.0.0.0 msauth.net
+#0.0.0.0 msftauth.net
 #0.0.0.0 officeclient.microsoft.com
 #0.0.0.0 outlook.office.com
 #0.0.0.0 outlook.office365.com
+#0.0.0.0 phonefactor.net
 #0.0.0.0 sharepoint.com
 #0.0.0.0 smtp.office365.com
 #0.0.0.0 www.microsoft365.com
@@ -5540,7 +5595,6 @@
 0.0.0.0 ac2.msn.com
 0.0.0.0 ac3.msn.com
 0.0.0.0 accesscontrol.windows.net
-0.0.0.0 account.live.com
 0.0.0.0 accounts.accesscontrol.windows.net
 0.0.0.0 accounts.xboxlive.com
 0.0.0.0 acer17win10.msn.com
@@ -5567,11 +5621,8 @@
 0.0.0.0 aea.machineprofile.mde.securitycenter.windows.com
 0.0.0.0 agfstorage.blob.core.windows.net
 0.0.0.0 alpha.telemetry.microsoft.com
-0.0.0.0 am3p.wns.notify.windows.com.akadns.net
 0.0.0.0 am3pap002.storage.live.com
 0.0.0.0 am3pap004.storage.live.com
-0.0.0.0 americas1.notify.windows.com.akadns.net
-0.0.0.0 americas2.notify.windows.com.akadns.net
 0.0.0.0 ampconfigprod.blob.core.windows.net
 0.0.0.0 ams03pap005.storage.live.com
 0.0.0.0 analytics-dev-lleap-events.servicebus.windows.net
@@ -5584,7 +5635,6 @@
 0.0.0.0 analyticsehnwe.servicebus.windows.net
 0.0.0.0 analyticsiot-prod-simpad-ehn.servicebus.windows.net
 0.0.0.0 androiddev.blob.core.windows.net
-0.0.0.0 apac1.notify.windows.com.akadns.net
 0.0.0.0 api.diagnostics-eudb.office.com
 0.0.0.0 api.diagnostics.office.com
 0.0.0.0 api.msa.diagnostics.office.com
@@ -5910,7 +5960,6 @@
 0.0.0.0 db3pap004.storage.live.com
 0.0.0.0 db3pap006files.storage.live.com
 0.0.0.0 db5.vortex.data.microsoft.com.akadns.net
-0.0.0.0 db5p.notify.windows.com
 0.0.0.0 db5p.wns.notify.windows.com.akadns.net
 0.0.0.0 de.vortex-win.data.microsoft.com
 0.0.0.0 dec-visio-telemetry.officeapps.live.com
@@ -5920,8 +5969,6 @@
 0.0.0.0 dell15.msn.com
 0.0.0.0 developer.xboxlive.com
 0.0.0.0 developerportalprod.blob.core.windows.net
-0.0.0.0 device.auth.xboxlive.com
-0.0.0.0 device.auth.xboxlive.com.akadns.net
 0.0.0.0 device.login.microsoftonline.com
 0.0.0.0 df.telemetry.microsoft.com
 0.0.0.0 diagnostics-eudb.office.com
@@ -5943,7 +5990,6 @@
 0.0.0.0 dlassets4.xboxlive.com
 0.0.0.0 dlassets5.xboxlive.com
 0.0.0.0 dlwnextsetting.blob.core.windows.net
-0.0.0.0 dm3p.wns.notify.windows.com.akadns.net
 0.0.0.0 dmca.xboxlive.com
 0.0.0.0 dmp100dmpprodstorage.table.core.windows.net
 0.0.0.0 download.xboxlive.com
@@ -5974,13 +6020,11 @@
 0.0.0.0 eds.xboxlive.com
 0.0.0.0 efrcmsstoragep.blob.core.windows.net
 0.0.0.0 ehtelemetrystaging-alias.servicebus.windows.net
-0.0.0.0 emea1.notify.windows.com.akadns.net
 0.0.0.0 en-us.appex-rf.msn.com
 0.0.0.0 encartaupdate.msn.com
 0.0.0.0 enforcement.xboxlive.com
 0.0.0.0 enterprise-eudb.activity.windows.com
 0.0.0.0 enterprise.activity.windows.com
-0.0.0.0 enterpriseregistration.windows.net
 0.0.0.0 entitlement.diagnostics-eudb.office.com
 0.0.0.0 entitlement.diagnostics.office.com
 0.0.0.0 errorreporting.xboxlive.com
@@ -6216,7 +6260,6 @@
 0.0.0.0 notifications3.xboxlive.com
 0.0.0.0 notifications4.xboxlive.com
 0.0.0.0 notifications5.xboxlive.com
-0.0.0.0 notify.windows.com
 0.0.0.0 notify.xboxlive.com
 0.0.0.0 ntp.msn.com
 0.0.0.0 nw-umwatson.events.data.microsoft.com
@@ -6402,7 +6445,6 @@
 0.0.0.0 server7.pipe.aria.microsoft.com
 0.0.0.0 server8.pipe.aria.microsoft.com
 0.0.0.0 services.wes.df.telemetry.microsoft.com
-0.0.0.0 sessiondirectory.xboxlive.com
 0.0.0.0 settings-ssl.xboxlive.com
 0.0.0.0 settings-ssl.xboxlive.com-c.edgekey.net
 0.0.0.0 settings-ssl.xboxlive.com.edgekey.net
@@ -6506,10 +6548,8 @@
 0.0.0.0 tgtus1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 tgtus1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 thestreamstaging.blob.core.windows.net
-0.0.0.0 title.auth.xboxlive.com
 0.0.0.0 title.mgt.xboxlive.com
 0.0.0.0 title.mgt.xboxlive.com.akadns.net
-0.0.0.0 titlestorage.xboxlive.com
 0.0.0.0 tk2.plt.msn.com
 0.0.0.0 toolbar.msn.com
 0.0.0.0 toshiba13.msn.com
@@ -6551,8 +6591,6 @@
 0.0.0.0 user-auth1.xboxlive.com
 0.0.0.0 user-auth2.xboxlive.com
 0.0.0.0 user.xboxlive.com
-0.0.0.0 userpresence.xboxlive.com
-0.0.0.0 userpresence.xboxlive.com.akadns.net
 0.0.0.0 users.storage.live.com
 0.0.0.0 usseu1northprod.blob.core.windows.net
 0.0.0.0 ussus3westprod.blob.core.windows.net
@@ -6644,8 +6682,6 @@
 0.0.0.0 windowsmediaguide.com
 0.0.0.0 windowsonecarelive.com
 0.0.0.0 windowsupdate.com.br
-0.0.0.0 wns.notify.windows.com.akadns.net
-0.0.0.0 wns2-am3p.notify.windows.com
 0.0.0.0 word-telemetry.officeapps.live.com
 0.0.0.0 word.officeapps.live.com
 0.0.0.0 wpcdn.blob.core.windows.net
@@ -6737,7 +6773,6 @@
 :: alpha.telemetry.microsoft.com
 :: am3pap002.storage.live.com
 :: am3pap004.storage.live.com
-:: apac1.notify.windows.com.akadns.net
 :: api.msn.com
 :: appex-rf.msn.com
 :: arc-apac.msn.com
@@ -6764,7 +6799,6 @@
 :: db5p.wns.notify.windows.com.akadns.net
 :: decsitefinitycdn.blob.core.windows.net
 :: developerportalprod.blob.core.windows.net
-:: device.auth.xboxlive.com
 :: df.telemetry.microsoft.com
 :: diagnostics.support.microsoft.com
 :: dlassets-ssl.xboxlive.com
