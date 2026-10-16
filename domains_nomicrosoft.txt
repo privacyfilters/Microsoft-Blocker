@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 21:05:55 UTC
-# Version: 2.8.5
+# Last modified: 16 October 2026 23:18:17 UTC
+# Version: 2.9.3
 # Syntax: domains (including possible subdomains)
-# Number of entries: 32166
+# Number of entries: 32169
 #
 # # Windows Update
 adl.windows.com
@@ -1706,6 +1706,7 @@ nf.smartscreen.microsoft.com
 ratingsedge.rnr.microsoft.com
 reportabuse.int.microsoftedge.microsoft.com
 reportabuse3.int.microsoftedge.microsoft.com
+store-images.s-microsoft.com
 telem-edge.smartscreen.microsoft.com
 www.addons.microsoftedge.microsoft.com
 www.api.addons.microsoftedge.microsoft.com
@@ -7513,6 +7514,7 @@ microsoftazuread-sso.com
 microsoftazurelogicapps.net
 microsoftazurelogicapps.us
 microsoftazuremanagement.com
+mr-z01.tm-azurefd.net
 msadsscale.azureedge.net
 msedgedl.azureedge.net
 msftspeechmodelsprod.azureedge.net
@@ -28782,6 +28784,7 @@ test1certc.officeapps.live.net
 test1s.linkedin.com
 test2-orc3140-digi.prod.linkedin.com
 test2-orc3140-licam.stg.linkedin.com
+test2.example.org
 test2.sg.linkedin.com
 test22.sg.corp.linkedin.com
 test22.sg.grid.linkedin.com

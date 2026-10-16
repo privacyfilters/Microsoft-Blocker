@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 21:05:54 UTC
-# Version: 2.8.5
+# Last modified: 16 October 2026 23:18:17 UTC
+# Version: 2.9.3
 # Syntax: DNSMasq
-# Number of entries: 6542
+# Number of entries: 6544
 #
 # # Custom Allow & Blocklist # #
 server=/adl.windows.com/
@@ -288,6 +288,7 @@ local=/msedge.b.tlu.dl.delivery.mp.microsoft.com/
 local=/nav-edge.smartscreen.microsoft.com/
 local=/nav.smartscreen.microsoft.com/
 local=/nf.smartscreen.microsoft.com/
+local=/store-images.s-microsoft.com/
 local=/telem-edge.smartscreen.microsoft.com/
 # # Office 365 services
 local=/1drv.com/
@@ -5906,6 +5907,7 @@ local=/test.www.linkedin.com/
 local=/test1.linkedin.com/
 local=/test1234.linkedin.com/
 local=/test1s.linkedin.com/
+local=/test2.example.org/
 local=/test4.jbrooker.linkedin.com/
 local=/test4.linkedin.com/
 local=/test4.test5.test6.office.com/

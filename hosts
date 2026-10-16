@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 21:05:55 UTC
-# Version: 2.8.5
+# Last modified: 16 October 2026 23:18:17 UTC
+# Version: 2.9.3
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 32172
+# Number of entries: 32175
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 adl.windows.com
@@ -1727,6 +1727,7 @@
 0.0.0.0 ratingsedge.rnr.microsoft.com
 0.0.0.0 reportabuse.int.microsoftedge.microsoft.com
 0.0.0.0 reportabuse3.int.microsoftedge.microsoft.com
+0.0.0.0 store-images.s-microsoft.com
 0.0.0.0 telem-edge.smartscreen.microsoft.com
 0.0.0.0 www.addons.microsoftedge.microsoft.com
 0.0.0.0 www.api.addons.microsoftedge.microsoft.com
@@ -7711,6 +7712,7 @@
 0.0.0.0 microsoftazurelogicapps.net
 0.0.0.0 microsoftazurelogicapps.us
 0.0.0.0 microsoftazuremanagement.com
+0.0.0.0 mr-z01.tm-azurefd.net
 0.0.0.0 msadsscale.azureedge.net
 0.0.0.0 msedgedl.azureedge.net
 0.0.0.0 msftspeechmodelsprod.azureedge.net
@@ -29040,6 +29042,7 @@
 0.0.0.0 test1s.linkedin.com
 0.0.0.0 test2-orc3140-digi.prod.linkedin.com
 0.0.0.0 test2-orc3140-licam.stg.linkedin.com
+0.0.0.0 test2.example.org
 0.0.0.0 test2.sg.linkedin.com
 0.0.0.0 test22.sg.corp.linkedin.com
 0.0.0.0 test22.sg.grid.linkedin.com

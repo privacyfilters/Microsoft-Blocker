@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 21:05:55 UTC
-# Version: 2.8.5
+# Last modified: 16 October 2026 23:18:17 UTC
+# Version: 2.9.3
 # Syntax: DNSMasq
-# Number of entries: 32195
+# Number of entries: 32198
 #
 # # Microsoft Edge telemetry and CDN
 local=/2.msedge.net/
@@ -1452,6 +1452,7 @@ local=/nf.smartscreen.microsoft.com/
 local=/ratingsedge.rnr.microsoft.com/
 local=/reportabuse.int.microsoftedge.microsoft.com/
 local=/reportabuse3.int.microsoftedge.microsoft.com/
+local=/store-images.s-microsoft.com/
 local=/telem-edge.smartscreen.microsoft.com/
 local=/www.addons.microsoftedge.microsoft.com/
 local=/www.api.addons.microsoftedge.microsoft.com/
@@ -6775,6 +6776,7 @@ local=/microsoftazuread-sso.com/
 local=/microsoftazurelogicapps.net/
 local=/microsoftazurelogicapps.us/
 local=/microsoftazuremanagement.com/
+local=/mr-z01.tm-azurefd.net/
 local=/msadsscale.azureedge.net/
 local=/msedgedl.azureedge.net/
 local=/msftspeechmodelsprod.azureedge.net/
@@ -29217,6 +29219,7 @@ local=/test1certc.officeapps.live.net/
 local=/test1s.linkedin.com/
 local=/test2-orc3140-digi.prod.linkedin.com/
 local=/test2-orc3140-licam.stg.linkedin.com/
+local=/test2.example.org/
 local=/test2.sg.linkedin.com/
 local=/test22.sg.corp.linkedin.com/
 local=/test22.sg.grid.linkedin.com/
