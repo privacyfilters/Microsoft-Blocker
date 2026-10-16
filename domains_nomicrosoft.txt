@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 19:16:29 UTC
-# Version: 2.8.2
+# Last modified: 16 October 2026 21:05:55 UTC
+# Version: 2.8.5
 # Syntax: domains (including possible subdomains)
 # Number of entries: 32166
 #
@@ -7554,6 +7554,7 @@ telecommand.azurewebsites.net
 telemetry-afd-aks-prod-eun-gfdegnebgmg9evhe.b02.azurefd.net
 telemetry-api-prod-g8awdeamdbgvfzg8.westeurope-01.azurewebsites.net
 telemetry.westeurope.cloudapp.azure.com
+tm-azurefd.net
 tm-bingstats-frontend.trafficmanager.net
 tng-analytics-api-eu.azurewebsites.net
 uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com
@@ -28194,7 +28195,6 @@ storage.proxyservice.ediscovery.gcc.svc.cloud.microsoft
 storagetos.datamart.windows.com
 store-images-origin.microsoft.com
 store-images.microsoft.com
-store-images.s-microsoft.com
 store-services-int.microsoft.com
 store-services.microsoft.com
 store.microsoft.com
