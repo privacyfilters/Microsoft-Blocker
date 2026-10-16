@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 14:53:59 UTC
-# Version: 2.8.0
+# Last modified: 16 October 2026 19:16:29 UTC
+# Version: 2.8.2
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 32169
+# Number of entries: 32172
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 adl.windows.com
@@ -7833,6 +7833,7 @@
 0.0.0.0 b-0005.b-msedge.net
 0.0.0.0 b-0008.b-msedge.net
 0.0.0.0 b-0016.b-msedge.net
+0.0.0.0 b-0048.b-msedge.net
 0.0.0.0 b-9999.b-dc-msedge.net
 0.0.0.0 b-9999.b-msedge.net
 0.0.0.0 b-msedge.net
@@ -20258,6 +20259,7 @@
 0.0.0.0 experiencey.visualstudio.com
 0.0.0.0 experiment.visualstudio.com
 0.0.0.0 expertzone.microsoft.com
+0.0.0.0 explore.microsoft.com
 0.0.0.0 explorer.stg.linkedin.com
 0.0.0.0 expmgmt-int.mp.dse.microsoft.com
 0.0.0.0 export.microsoft.com
@@ -28450,6 +28452,7 @@
 0.0.0.0 storagetos.datamart.windows.com
 0.0.0.0 store-images-origin.microsoft.com
 0.0.0.0 store-images.microsoft.com
+0.0.0.0 store-images.s-microsoft.com
 0.0.0.0 store-services-int.microsoft.com
 0.0.0.0 store-services.microsoft.com
 0.0.0.0 store.microsoft.com

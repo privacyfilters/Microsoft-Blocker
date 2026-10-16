@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 14:53:59 UTC
-# Version: 2.8.0
+# Last modified: 16 October 2026 19:16:29 UTC
+# Version: 2.8.2
 # Syntax: DNSMasq
-# Number of entries: 32192
+# Number of entries: 32195
 #
 # # Microsoft Edge telemetry and CDN
 local=/2.msedge.net/
@@ -6894,6 +6894,7 @@ local=/b-0004.b-msedge.net/
 local=/b-0005.b-msedge.net/
 local=/b-0008.b-msedge.net/
 local=/b-0016.b-msedge.net/
+local=/b-0048.b-msedge.net/
 local=/b-9999.b-dc-msedge.net/
 local=/b-9999.b-msedge.net/
 local=/b-msedge.net/
@@ -20435,6 +20436,7 @@ local=/experiences.microsoft.com/
 local=/experiencey.visualstudio.com/
 local=/experiment.visualstudio.com/
 local=/expertzone.microsoft.com/
+local=/explore.microsoft.com/
 local=/explorer.stg.linkedin.com/
 local=/expmgmt-int.mp.dse.microsoft.com/
 local=/export.microsoft.com/
@@ -28627,6 +28629,7 @@ local=/storage.proxyservice.ediscovery.gcc.svc.cloud.microsoft/
 local=/storagetos.datamart.windows.com/
 local=/store-images-origin.microsoft.com/
 local=/store-images.microsoft.com/
+local=/store-images.s-microsoft.com/
 local=/store-services-int.microsoft.com/
 local=/store-services.microsoft.com/
 local=/store.microsoft.com/

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 14:53:59 UTC
-# Version: 2.8.0
+# Last modified: 16 October 2026 19:16:29 UTC
+# Version: 2.8.2
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 20239
+# Number of entries: 20241
 #
 #0.0.0.0 adl.windows.com
 #0.0.0.0 am3p.wns.notify.windows.com.akadns.net
@@ -8310,6 +8310,7 @@
 0.0.0.0 experiencey.visualstudio.com
 0.0.0.0 experiment.visualstudio.com
 0.0.0.0 expertzone.microsoft.com
+0.0.0.0 explore.microsoft.com
 0.0.0.0 explorer.stg.linkedin.com
 0.0.0.0 expmgmt-int.mp.dse.microsoft.com
 0.0.0.0 export.microsoft.com
@@ -16502,6 +16503,7 @@
 0.0.0.0 storagetos.datamart.windows.com
 0.0.0.0 store-images-origin.microsoft.com
 0.0.0.0 store-images.microsoft.com
+0.0.0.0 store-images.s-microsoft.com
 0.0.0.0 store-services-int.microsoft.com
 0.0.0.0 store-services.microsoft.com
 0.0.0.0 store.microsoft.com

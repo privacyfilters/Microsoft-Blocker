@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 October 2026 14:53:59 UTC
-# Version: 2.8.0
+# Last modified: 16 October 2026 19:16:29 UTC
+# Version: 2.8.2
 # Syntax: DNSMasq
 # Number of entries: 2768
 #

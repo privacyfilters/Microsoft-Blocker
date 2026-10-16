@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 16 October 2026 14:53:47 UTC
-! Version: 2.8.0
+! Last modified: 16 October 2026 19:16:28 UTC
+! Version: 2.8.2
 ! Syntax: Adblock
-! Number of entries: 3726
+! Number of entries: 3727
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -3499,6 +3499,7 @@
 ||stickynotesapi-tdf.outlook.com^
 ||stickynotesapi.outlook.com^
 ||sticlientsecurescoreprod102020.office.com^
+||store-images.s-microsoft.com^
 ||stores.office.com^
 ||substratecontentenrichmentservice.outlook.com^
 ||substratedatastore.outlook.com^
