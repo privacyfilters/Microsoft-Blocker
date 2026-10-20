@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 16:02:42 UTC
-# Version: 2.11.0
+# Last modified: 20 October 2026 21:46:08 UTC
+# Version: 2.12.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 43019
+# Number of entries: 43034
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -4806,6 +4806,10 @@ wdcp.microsoft.com
 wdcpalt.microsoft.com
 winatp-gw-cus.microsoft.com
 # # Microsoft Store
+afd-bxxea57natk6k-b3arhwd4gve9dac0.b02.azurefd.net
+blob.dz6prdstr08a.store.core.windows.net
+consumer-bigcatalog-prod-afd-endpoint-abhkbye3b0fgftc8.b02.azurefd.net
+consumer-prod-bcfd-v7-afd.trafficmanager.net
 displaycatalog.mp.microsoft.com
 livetileedge.dsx.mp.microsoft.com
 livetileedge.dsx.mp.microsoft.com.edgekey.net
@@ -8155,6 +8159,7 @@ mechanical.corp.linkedin.com
 mechanical.stg.linkedin.com
 media-akam.licdn.com
 media-src.linkedin.com
+media.licdn.com
 meeseeks-legacy-stg.corp.linkedin.com
 meeseeks-legacy.corp.linkedin.com
 meeseeks-stg.corp.linkedin.com
@@ -9201,6 +9206,7 @@ statedb04.prod.linkedin.com
 statedbcanary.prod.linkedin.com
 static-src.linkedin.com
 static.licdn.com
+static.licdn.com.cdn.cloudflare.net
 status-page.corp.linkedin.com
 status-page.stg.linkedin.com
 status-pages.corp.linkedin.com
@@ -10122,6 +10128,7 @@ www.li-sl.linkedin.com
 www.lifg.linkedin.com
 www.lifg.stg.linkedin.com
 www.linkedin.com
+www.linkedin.com.cdn.cloudflare.net
 www.linkedinforgood.linkedin.com
 www.linkedinforgood.stg.linkedin.com
 www.linpoauat.fin.linkedin.com
@@ -10408,16 +10415,21 @@ software-static.download.prss.microsoft.com
 #steamcloudtoronto2.blob.core.windows.net
 #steamclouduseast2.blob.core.windows.net
 # # GitHub services
+#api.individual.githubcopilot.com
+#api.mcp.github.com
 #app.github.dev
+#copilot-proxy.githubusercontent.com
 #ghcr.io
 #github.dev
 #githubcopilot.com
+#glb-db52c2cf8be544.github.com
 #maven.pkg.github.com
 #mavenregistryv2prod.blob.core.windows.net
 #npm.pkg.github.com
 #npmregistryv2prod.blob.core.windows.net
 #nuget.pkg.github.com
 #nugetregistryv2prod.blob.core.windows.net
+#origin-tracker.githubusercontent.com
 #rubygems.pkg.github.com
 #rubygemsregistryv2prod.blob.core.windows.net
 # # Minecraft
@@ -10426,6 +10438,7 @@ bedrock.frontend.realms.minecraft-services.net
 client.discovery.minecraft-services.net
 device.auth.xboxlive.com
 device.auth.xboxlive.com.akadns.net
+edusupport.minecraft.net
 minecraft-services.net
 pc.realms.minecraft.net
 pocket.realms.minecraft.net
@@ -10924,6 +10937,7 @@ edge.microsoft.com
 edge.ppe.activity.windows.com
 edge.services.microsoft.com
 edgecast-logs.licdn.com
+edgestatic.azureedge.net
 edgesync-enterprise.activity.windows.com
 edgesync-s2s.activity.windows.com
 edgesyncservice-service.pdtnorthce120255.substrate-edge-sync.northcentralus-test.cosmic-int.office.net
@@ -12462,6 +12476,7 @@ amilink.sharepoint.com
 ampleon-admin.sharepoint.com
 amritavishwavidyapeetham.sharepoint.com
 amsbookkeeping.sharepoint.com
+amsweb.trafficmanager.net
 amxdbx-content-004.sharepointonline.com
 amxdbx-content-005.sharepointonline.com
 amxdbx-content-008.sharepointonline.com
@@ -12951,6 +12966,7 @@ empfid.sharepoint.com
 emplicity-my1.sharepoint.com
 endiio-my.sharepoint.com
 endpoint3-g01prdeascompsvc.prd.bmc.cdn.office.net
+endpoints.office.com
 endpoints7.m365.cloud.microsoft
 enelcom-my.sharepoint.com
 energeocs-public.sharepoint.com
@@ -13027,6 +13043,7 @@ fast-usrm-ma-us.sharepointonline.com
 fast-usrm-ma-us1.sharepointonline.com
 fcbsl-my.sharepoint.com
 fdpllci.sharepoint.com
+fe-by01p-msa.trafficmanager.net
 fedustria-my.sharepoint.com
 felizcomvoce-my.sharepoint.com
 femi2012.sharepoint.com
@@ -13305,6 +13322,7 @@ kentedutr.sharepoint.com
 keous2-my.sharepoint.com
 kernowenvirowise-my.sharepoint.com
 kgaisol-my.sharepoint.com
+killbittrafficmanager.trafficmanager.net
 kiminholdingssrilanka-my.sharepoint.com
 kingwoodpipe-my.sharepoint.com
 kinrossfarm-my.sharepoint.com
@@ -13419,6 +13437,7 @@ mormakequipmentinc-my.sharepoint.com
 mountunion-my.sharepoint.com
 mpequity.sharepoint.com
 mruni-my.sharepoint.com
+msa.trafficmanager.net
 msauth.net
 msft.net.sharepointonline.com
 msftauth.net
@@ -21827,6 +21846,7 @@ b-0016.b-msedge.net
 b-0048.b-msedge.net
 b-9999.b-dc-msedge.net
 b-9999.b-msedge.net
+b-default.b-msedge.net
 b-msedge.net
 b-ring-fallback.msedge.net
 b-ring.b-9999.b-msedge.net

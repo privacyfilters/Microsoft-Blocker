@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 16:02:41 UTC
-# Version: 2.11.0
+# Last modified: 20 October 2026 21:46:07 UTC
+# Version: 2.12.0
 # Syntax: DNSMasq
-# Number of entries: 13483
+# Number of entries: 13499
 #
 # # Custom Allow & Blocklist # #
 server=/000001-1y.l.windowsupdate.com/
@@ -4806,20 +4806,24 @@ server=/wdcp.microsoft.com/
 server=/wdcpalt.microsoft.com/
 server=/winatp-gw-cus.microsoft.com/
 # # Microsoft Store
-server=/displaycatalog.mp.microsoft.com/
-server=/livetileedge.dsx.mp.microsoft.com/
-server=/livetileedge.dsx.mp.microsoft.com.edgekey.net/
-server=/mr-b02.tm-azurefd.net/
-server=/share.microsoft.com/
-server=/share.microsoft.com.edgekey.net/
-server=/store-images.s-microsoft.com/
-server=/store-images.s-microsoft.com-c.edgekey.net/
-server=/storecatalogrevocation.storequality.microsoft.com/
-server=/storecatalogrevocation.storequality.microsoft.com.edgekey.net/
-server=/storeedgefd.dsx.mp.microsoft.com/
-server=/storeedgefd.dsx.mp.microsoft.com.edgekey.net/
-server=/storesdk.dsx.mp.microsoft.com/
-server=/storesdk.dsx.mp.microsoft.com.edgekey.net/
+local=/afd-bxxea57natk6k-b3arhwd4gve9dac0.b02.azurefd.net/
+local=/blob.dz6prdstr08a.store.core.windows.net/
+local=/consumer-bigcatalog-prod-afd-endpoint-abhkbye3b0fgftc8.b02.azurefd.net/
+local=/consumer-prod-bcfd-v7-afd.trafficmanager.net/
+local=/displaycatalog.mp.microsoft.com/
+local=/livetileedge.dsx.mp.microsoft.com/
+local=/livetileedge.dsx.mp.microsoft.com.edgekey.net/
+local=/mr-b02.tm-azurefd.net/
+local=/share.microsoft.com/
+local=/share.microsoft.com.edgekey.net/
+local=/store-images.s-microsoft.com/
+local=/store-images.s-microsoft.com-c.edgekey.net/
+local=/storecatalogrevocation.storequality.microsoft.com/
+local=/storecatalogrevocation.storequality.microsoft.com.edgekey.net/
+local=/storeedgefd.dsx.mp.microsoft.com/
+local=/storeedgefd.dsx.mp.microsoft.com.edgekey.net/
+local=/storesdk.dsx.mp.microsoft.com/
+local=/storesdk.dsx.mp.microsoft.com.edgekey.net/
 # # Winget / NuGet
 server=/api.nuget.org/
 server=/cdn.winget.microsoft.com/
@@ -8155,6 +8159,7 @@ server=/mechanical.corp.linkedin.com/
 server=/mechanical.stg.linkedin.com/
 server=/media-akam.licdn.com/
 server=/media-src.linkedin.com/
+server=/media.licdn.com/
 server=/meeseeks-legacy-stg.corp.linkedin.com/
 server=/meeseeks-legacy.corp.linkedin.com/
 server=/meeseeks-stg.corp.linkedin.com/
@@ -9201,6 +9206,7 @@ server=/statedb04.prod.linkedin.com/
 server=/statedbcanary.prod.linkedin.com/
 server=/static-src.linkedin.com/
 server=/static.licdn.com/
+server=/static.licdn.com.cdn.cloudflare.net/
 server=/status-page.corp.linkedin.com/
 server=/status-page.stg.linkedin.com/
 server=/status-pages.corp.linkedin.com/
@@ -10122,6 +10128,7 @@ server=/www.li-sl.linkedin.com/
 server=/www.lifg.linkedin.com/
 server=/www.lifg.stg.linkedin.com/
 server=/www.linkedin.com/
+server=/www.linkedin.com.cdn.cloudflare.net/
 server=/www.linkedinforgood.linkedin.com/
 server=/www.linkedinforgood.stg.linkedin.com/
 server=/www.linpoauat.fin.linkedin.com/
@@ -10408,16 +10415,21 @@ server=/steamcloudsweden.blob.core.windows.net/
 server=/steamcloudtoronto2.blob.core.windows.net/
 server=/steamclouduseast2.blob.core.windows.net/
 # # GitHub services
+server=/api.individual.githubcopilot.com/
+server=/api.mcp.github.com/
 server=/app.github.dev/
+server=/copilot-proxy.githubusercontent.com/
 server=/ghcr.io/
 server=/github.dev/
 server=/githubcopilot.com/
+server=/glb-db52c2cf8be544.github.com/
 server=/maven.pkg.github.com/
 server=/mavenregistryv2prod.blob.core.windows.net/
 server=/npm.pkg.github.com/
 server=/npmregistryv2prod.blob.core.windows.net/
 server=/nuget.pkg.github.com/
 server=/nugetregistryv2prod.blob.core.windows.net/
+server=/origin-tracker.githubusercontent.com/
 server=/rubygems.pkg.github.com/
 server=/rubygemsregistryv2prod.blob.core.windows.net/
 # # Minecraft
@@ -10426,6 +10438,7 @@ server=/bedrock.frontend.realms.minecraft-services.net/
 server=/client.discovery.minecraft-services.net/
 server=/device.auth.xboxlive.com/
 server=/device.auth.xboxlive.com.akadns.net/
+server=/edusupport.minecraft.net/
 server=/minecraft-services.net/
 server=/pc.realms.minecraft.net/
 server=/pocket.realms.minecraft.net/
@@ -10442,7 +10455,6 @@ server=/xsts.auth.xboxlive.com/
 local=/api-edge.cognitive.microsofttranslator.com/
 local=/avedgep.visualstudio.com/
 local=/bx-msedge.net/
-local=/cdn.storeedgefd.dsx.mp.microsoft.com/
 local=/cn.edge.linkedin.com/
 local=/cn1.edge.linkedin.com/
 local=/data-edge.smartscreen.microsoft.com/
@@ -10451,6 +10463,7 @@ local=/edge-analyzer.stg.linkedin.com/
 local=/edge-rules-service-staging.corp.linkedin.com/
 local=/edge-rules-service.corp.linkedin.com/
 local=/edgecast-logs.licdn.com/
+local=/edgestatic.azureedge.net/
 local=/esv4-uc-edge01e.linkedin.com/
 local=/esv4-uc-edge02e.linkedin.com/
 local=/fb-t-msedge.net/
@@ -10489,14 +10502,17 @@ local=/nav.smartscreen.microsoft.com/
 local=/nf.smartscreen.microsoft.com/
 local=/telem-edge.smartscreen.microsoft.com/
 # # Office 365 services
+local=/amsweb.trafficmanager.net/
 local=/autodiscover-s.outlook.com/
 local=/autodiscover.outlook.com/
 local=/cloud.microsoft/
 local=/enterpriseregistration.windows.net/
+local=/fe-by01p-msa.trafficmanager.net/
 local=/graph.windows.net/
-local=/lgin.msa.trafficmanager.net/
+local=/killbittrafficmanager.trafficmanager.net/
 local=/login.microsoftonline.com/
 local=/login.msa-int.msidentity.com/
+local=/msa.trafficmanager.net/
 local=/msauth.net/
 local=/msftauth.net/
 local=/phonefactor.net/

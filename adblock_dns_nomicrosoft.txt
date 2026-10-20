@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 October 2026 16:02:39 UTC
-! Version: 2.11.0
+! Last modified: 20 October 2026 21:46:05 UTC
+! Version: 2.12.0
 ! Syntax: Adblock
-! Number of entries: 2943
+! Number of entries: 2960
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -39,6 +39,7 @@
 ||avedgep.visualstudio.com^
 ||bx-msedge.net^
 ||edgecast-logs.licdn.com^
+||edgestatic.azureedge.net^
 ||fb-t-msedge.net*^
 ||knowledgebase.visualstudio.com^
 ||microsoftedge.com*^
@@ -51,12 +52,15 @@
 ! Microsoft Edge extension store
 ||edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net^
 ! Office 365 services
+||amsweb.trafficmanager.net^
 ||cloud.microsoft*^
 ||enterpriseregistration.windows.net^
+||fe-by01p-msa.trafficmanager.net^
 ||graph.windows.net^
-||lgin.msa.trafficmanager.net*^
+||killbittrafficmanager.trafficmanager.net^
 ||login.microsoftonline.com*^
 ||login.msa-int.msidentity.com^
+||msa.trafficmanager.net*^
 ||msauth.net*^
 ||msftauth.net*^
 ||phonefactor.net^
@@ -1181,6 +1185,10 @@
 ||wd.microsoft.com*^
 ||wdcpalt.microsoft.com*^
 ! Microsoft Store
+||afd-bxxea57natk6k-b3arhwd4gve9dac0.b02.azurefd.net^
+||blob.dz6prdstr08a.store.core.windows.net^
+||consumer-bigcatalog-prod-afd-endpoint-abhkbye3b0fgftc8.b02.azurefd.net^
+||consumer-prod-bcfd-v7-afd.trafficmanager.net^
 ||livetileedge.dsx.mp.microsoft.com.edgekey.net^
 ||share.microsoft.com.edgekey.net^
 ||store-images.s-microsoft.com^
@@ -1200,8 +1208,11 @@
 ! LinkedIn
 ||linkedin.com*^
 ||media-akam.licdn.com^
+||media.licdn.com^
 ||snap.licdn.com^
 ||static.licdn.com^
+||static.licdn.com.cdn.cloudflare.net^
+||www.linkedin.com.cdn.cloudflare.net^
 ! Misc Microsoft
 ||delivery.activated.win^
 ||fg.microsoft.map.fastly.net^
@@ -1217,19 +1228,25 @@
 @@||steamcloudtoronto2.blob.core.windows.net^
 @@||steamclouduseast2.blob.core.windows.net^
 ! GitHub services
+@@||api.individual.githubcopilot.com^
+@@||api.mcp.github.com^
 @@||app.github.dev*^
+@@||copilot-proxy.githubusercontent.com^
 @@||ghcr.io*^
 @@||github.dev*^
 @@||githubcopilot.com*^
+@@||glb-db52c2cf8be544.github.com^
 @@||maven.pkg.github.com^
 @@||mavenregistryv2prod.blob.core.windows.net^
 @@||npm.pkg.github.com^
 @@||npmregistryv2prod.blob.core.windows.net^
 @@||nuget.pkg.github.com^
 @@||nugetregistryv2prod.blob.core.windows.net^
+@@||origin-tracker.githubusercontent.com^
 @@||rubygems.pkg.github.com^
 @@||rubygemsregistryv2prod.blob.core.windows.net^
 ! Minecraft
+||edusupport.minecraft.net^
 ||minecraft-services.net*^
 ||pc.realms.minecraft.net^
 ||pocket.realms.minecraft.net^

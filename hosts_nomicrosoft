@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 16:02:42 UTC
-# Version: 2.11.0
+# Last modified: 20 October 2026 21:46:08 UTC
+# Version: 2.12.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 43290
+# Number of entries: 43305
 #
 # # Custom Allow & Blocklist # #
 0.0.0.0 000001-1y.l.windowsupdate.com
@@ -4902,6 +4902,10 @@
 :: wdcp.microsoft.com
 :: wdcpalt.microsoft.com
 # # Microsoft Store
+0.0.0.0 afd-bxxea57natk6k-b3arhwd4gve9dac0.b02.azurefd.net
+0.0.0.0 blob.dz6prdstr08a.store.core.windows.net
+0.0.0.0 consumer-bigcatalog-prod-afd-endpoint-abhkbye3b0fgftc8.b02.azurefd.net
+0.0.0.0 consumer-prod-bcfd-v7-afd.trafficmanager.net
 0.0.0.0 displaycatalog.mp.microsoft.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com.edgekey.net
@@ -8256,6 +8260,7 @@
 0.0.0.0 mechanical.stg.linkedin.com
 0.0.0.0 media-akam.licdn.com
 0.0.0.0 media-src.linkedin.com
+0.0.0.0 media.licdn.com
 0.0.0.0 meeseeks-legacy-stg.corp.linkedin.com
 0.0.0.0 meeseeks-legacy.corp.linkedin.com
 0.0.0.0 meeseeks-stg.corp.linkedin.com
@@ -9302,6 +9307,7 @@
 0.0.0.0 statedbcanary.prod.linkedin.com
 0.0.0.0 static-src.linkedin.com
 0.0.0.0 static.licdn.com
+0.0.0.0 static.licdn.com.cdn.cloudflare.net
 0.0.0.0 status-page.corp.linkedin.com
 0.0.0.0 status-page.stg.linkedin.com
 0.0.0.0 status-pages.corp.linkedin.com
@@ -10223,6 +10229,7 @@
 0.0.0.0 www.lifg.linkedin.com
 0.0.0.0 www.lifg.stg.linkedin.com
 0.0.0.0 www.linkedin.com
+0.0.0.0 www.linkedin.com.cdn.cloudflare.net
 0.0.0.0 www.linkedinforgood.linkedin.com
 0.0.0.0 www.linkedinforgood.stg.linkedin.com
 0.0.0.0 www.linpoauat.fin.linkedin.com
@@ -10513,16 +10520,21 @@
 #0.0.0.0 steamcloudtoronto2.blob.core.windows.net
 #0.0.0.0 steamclouduseast2.blob.core.windows.net
 # # GitHub services
+#0.0.0.0 api.individual.githubcopilot.com
+#0.0.0.0 api.mcp.github.com
 #0.0.0.0 app.github.dev
+#0.0.0.0 copilot-proxy.githubusercontent.com
 #0.0.0.0 ghcr.io
 #0.0.0.0 github.dev
 #0.0.0.0 githubcopilot.com
+#0.0.0.0 glb-db52c2cf8be544.github.com
 #0.0.0.0 maven.pkg.github.com
 #0.0.0.0 mavenregistryv2prod.blob.core.windows.net
 #0.0.0.0 npm.pkg.github.com
 #0.0.0.0 npmregistryv2prod.blob.core.windows.net
 #0.0.0.0 nuget.pkg.github.com
 #0.0.0.0 nugetregistryv2prod.blob.core.windows.net
+#0.0.0.0 origin-tracker.githubusercontent.com
 #0.0.0.0 rubygems.pkg.github.com
 #0.0.0.0 rubygemsregistryv2prod.blob.core.windows.net
 # # Minecraft
@@ -10531,6 +10543,7 @@
 0.0.0.0 client.discovery.minecraft-services.net
 0.0.0.0 device.auth.xboxlive.com
 0.0.0.0 device.auth.xboxlive.com.akadns.net
+0.0.0.0 edusupport.minecraft.net
 0.0.0.0 minecraft-services.net
 0.0.0.0 pc.realms.minecraft.net
 0.0.0.0 pocket.realms.minecraft.net
@@ -11030,6 +11043,7 @@
 0.0.0.0 edge.ppe.activity.windows.com
 0.0.0.0 edge.services.microsoft.com
 0.0.0.0 edgecast-logs.licdn.com
+0.0.0.0 edgestatic.azureedge.net
 0.0.0.0 edgesync-enterprise.activity.windows.com
 0.0.0.0 edgesync-s2s.activity.windows.com
 0.0.0.0 edgesyncservice-service.pdtnorthce120255.substrate-edge-sync.northcentralus-test.cosmic-int.office.net
@@ -12569,6 +12583,7 @@
 0.0.0.0 ampleon-admin.sharepoint.com
 0.0.0.0 amritavishwavidyapeetham.sharepoint.com
 0.0.0.0 amsbookkeeping.sharepoint.com
+0.0.0.0 amsweb.trafficmanager.net
 0.0.0.0 amxdbx-content-004.sharepointonline.com
 0.0.0.0 amxdbx-content-005.sharepointonline.com
 0.0.0.0 amxdbx-content-008.sharepointonline.com
@@ -13058,6 +13073,7 @@
 0.0.0.0 emplicity-my1.sharepoint.com
 0.0.0.0 endiio-my.sharepoint.com
 0.0.0.0 endpoint3-g01prdeascompsvc.prd.bmc.cdn.office.net
+0.0.0.0 endpoints.office.com
 0.0.0.0 endpoints7.m365.cloud.microsoft
 0.0.0.0 enelcom-my.sharepoint.com
 0.0.0.0 energeocs-public.sharepoint.com
@@ -13134,6 +13150,7 @@
 0.0.0.0 fast-usrm-ma-us1.sharepointonline.com
 0.0.0.0 fcbsl-my.sharepoint.com
 0.0.0.0 fdpllci.sharepoint.com
+0.0.0.0 fe-by01p-msa.trafficmanager.net
 0.0.0.0 fedustria-my.sharepoint.com
 0.0.0.0 felizcomvoce-my.sharepoint.com
 0.0.0.0 femi2012.sharepoint.com
@@ -13412,6 +13429,7 @@
 0.0.0.0 keous2-my.sharepoint.com
 0.0.0.0 kernowenvirowise-my.sharepoint.com
 0.0.0.0 kgaisol-my.sharepoint.com
+0.0.0.0 killbittrafficmanager.trafficmanager.net
 0.0.0.0 kiminholdingssrilanka-my.sharepoint.com
 0.0.0.0 kingwoodpipe-my.sharepoint.com
 0.0.0.0 kinrossfarm-my.sharepoint.com
@@ -13526,6 +13544,7 @@
 0.0.0.0 mountunion-my.sharepoint.com
 0.0.0.0 mpequity.sharepoint.com
 0.0.0.0 mruni-my.sharepoint.com
+0.0.0.0 msa.trafficmanager.net
 0.0.0.0 msauth.net
 0.0.0.0 msft.net.sharepointonline.com
 0.0.0.0 msftauth.net
@@ -21966,6 +21985,7 @@
 0.0.0.0 b-0048.b-msedge.net
 0.0.0.0 b-9999.b-dc-msedge.net
 0.0.0.0 b-9999.b-msedge.net
+0.0.0.0 b-default.b-msedge.net
 0.0.0.0 b-msedge.net
 0.0.0.0 b-ring-fallback.msedge.net
 0.0.0.0 b-ring.b-9999.b-msedge.net

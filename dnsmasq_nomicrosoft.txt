@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 16:02:42 UTC
-# Version: 2.11.0
+# Last modified: 20 October 2026 21:46:08 UTC
+# Version: 2.12.0
 # Syntax: DNSMasq
-# Number of entries: 43036
+# Number of entries: 43056
 #
 # # Microsoft Edge telemetry and CDN
 local=/119.msedge.net/
@@ -495,6 +495,7 @@ local=/edge.microsoft.com/
 local=/edge.ppe.activity.windows.com/
 local=/edge.services.microsoft.com/
 local=/edgecast-logs.licdn.com/
+local=/edgestatic.azureedge.net/
 local=/edgesync-enterprise.activity.windows.com/
 local=/edgesync-s2s.activity.windows.com/
 local=/edgesyncservice-service.pdtnorthce120255.substrate-edge-sync.northcentralus-test.cosmic-int.office.net/
@@ -2033,6 +2034,7 @@ local=/amilink.sharepoint.com/
 local=/ampleon-admin.sharepoint.com/
 local=/amritavishwavidyapeetham.sharepoint.com/
 local=/amsbookkeeping.sharepoint.com/
+local=/amsweb.trafficmanager.net/
 local=/amxdbx-content-004.sharepointonline.com/
 local=/amxdbx-content-005.sharepointonline.com/
 local=/amxdbx-content-008.sharepointonline.com/
@@ -2522,6 +2524,7 @@ local=/empfid.sharepoint.com/
 local=/emplicity-my1.sharepoint.com/
 local=/endiio-my.sharepoint.com/
 local=/endpoint3-g01prdeascompsvc.prd.bmc.cdn.office.net/
+local=/endpoints.office.com/
 local=/endpoints7.m365.cloud.microsoft/
 local=/enelcom-my.sharepoint.com/
 local=/energeocs-public.sharepoint.com/
@@ -2598,6 +2601,7 @@ local=/fast-usrm-ma-us.sharepointonline.com/
 local=/fast-usrm-ma-us1.sharepointonline.com/
 local=/fcbsl-my.sharepoint.com/
 local=/fdpllci.sharepoint.com/
+local=/fe-by01p-msa.trafficmanager.net/
 local=/fedustria-my.sharepoint.com/
 local=/felizcomvoce-my.sharepoint.com/
 local=/femi2012.sharepoint.com/
@@ -2876,6 +2880,7 @@ local=/kentedutr.sharepoint.com/
 local=/keous2-my.sharepoint.com/
 local=/kernowenvirowise-my.sharepoint.com/
 local=/kgaisol-my.sharepoint.com/
+local=/killbittrafficmanager.trafficmanager.net/
 local=/kiminholdingssrilanka-my.sharepoint.com/
 local=/kingwoodpipe-my.sharepoint.com/
 local=/kinrossfarm-my.sharepoint.com/
@@ -2990,6 +2995,7 @@ local=/mormakequipmentinc-my.sharepoint.com/
 local=/mountunion-my.sharepoint.com/
 local=/mpequity.sharepoint.com/
 local=/mruni-my.sharepoint.com/
+local=/msa.trafficmanager.net/
 local=/msauth.net/
 local=/msft.net.sharepointonline.com/
 local=/msftauth.net/
@@ -10752,6 +10758,7 @@ local=/b-0016.b-msedge.net/
 local=/b-0048.b-msedge.net/
 local=/b-9999.b-dc-msedge.net/
 local=/b-9999.b-msedge.net/
+local=/b-default.b-msedge.net/
 local=/b-msedge.net/
 local=/b-ring-fallback.msedge.net/
 local=/b-ring.b-9999.b-msedge.net/
@@ -26332,6 +26339,10 @@ local=/wdcp.microsoft.com/
 local=/wdcpalt.microsoft.com/
 local=/winatp-gw-cus.microsoft.com/
 # # Microsoft Store
+local=/afd-bxxea57natk6k-b3arhwd4gve9dac0.b02.azurefd.net/
+local=/blob.dz6prdstr08a.store.core.windows.net/
+local=/consumer-bigcatalog-prod-afd-endpoint-abhkbye3b0fgftc8.b02.azurefd.net/
+local=/consumer-prod-bcfd-v7-afd.trafficmanager.net/
 local=/displaycatalog.mp.microsoft.com/
 local=/livetileedge.dsx.mp.microsoft.com/
 local=/livetileedge.dsx.mp.microsoft.com.edgekey.net/
@@ -29681,6 +29692,7 @@ local=/mechanical.corp.linkedin.com/
 local=/mechanical.stg.linkedin.com/
 local=/media-akam.licdn.com/
 local=/media-src.linkedin.com/
+local=/media.licdn.com/
 local=/meeseeks-legacy-stg.corp.linkedin.com/
 local=/meeseeks-legacy.corp.linkedin.com/
 local=/meeseeks-stg.corp.linkedin.com/
@@ -30727,6 +30739,7 @@ local=/statedb04.prod.linkedin.com/
 local=/statedbcanary.prod.linkedin.com/
 local=/static-src.linkedin.com/
 local=/static.licdn.com/
+local=/static.licdn.com.cdn.cloudflare.net/
 local=/status-page.corp.linkedin.com/
 local=/status-page.stg.linkedin.com/
 local=/status-pages.corp.linkedin.com/
@@ -31648,6 +31661,7 @@ local=/www.li-sl.linkedin.com/
 local=/www.lifg.linkedin.com/
 local=/www.lifg.stg.linkedin.com/
 local=/www.linkedin.com/
+local=/www.linkedin.com.cdn.cloudflare.net/
 local=/www.linkedinforgood.linkedin.com/
 local=/www.linkedinforgood.stg.linkedin.com/
 local=/www.linpoauat.fin.linkedin.com/
@@ -31934,16 +31948,21 @@ server=/steamcloudsweden.blob.core.windows.net/
 server=/steamcloudtoronto2.blob.core.windows.net/
 server=/steamclouduseast2.blob.core.windows.net/
 # # GitHub services
+server=/api.individual.githubcopilot.com/
+server=/api.mcp.github.com/
 server=/app.github.dev/
+server=/copilot-proxy.githubusercontent.com/
 server=/ghcr.io/
 server=/github.dev/
 server=/githubcopilot.com/
+server=/glb-db52c2cf8be544.github.com/
 server=/maven.pkg.github.com/
 server=/mavenregistryv2prod.blob.core.windows.net/
 server=/npm.pkg.github.com/
 server=/npmregistryv2prod.blob.core.windows.net/
 server=/nuget.pkg.github.com/
 server=/nugetregistryv2prod.blob.core.windows.net/
+server=/origin-tracker.githubusercontent.com/
 server=/rubygems.pkg.github.com/
 server=/rubygemsregistryv2prod.blob.core.windows.net/
 # # Minecraft
@@ -31952,6 +31971,7 @@ local=/bedrock.frontend.realms.minecraft-services.net/
 local=/client.discovery.minecraft-services.net/
 local=/device.auth.xboxlive.com/
 local=/device.auth.xboxlive.com.akadns.net/
+local=/edusupport.minecraft.net/
 local=/minecraft-services.net/
 local=/pc.realms.minecraft.net/
 local=/pocket.realms.minecraft.net/
