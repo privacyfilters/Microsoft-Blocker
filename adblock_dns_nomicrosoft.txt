@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 October 2026 02:14:56 UTC
-! Version: 2.10.0
+! Last modified: 20 October 2026 16:02:39 UTC
+! Version: 2.11.0
 ! Syntax: Adblock
-! Number of entries: 2900
+! Number of entries: 2943
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -56,6 +56,7 @@
 ||graph.windows.net^
 ||lgin.msa.trafficmanager.net*^
 ||login.microsoftonline.com*^
+||login.msa-int.msidentity.com^
 ||msauth.net*^
 ||msftauth.net*^
 ||phonefactor.net^
@@ -438,7 +439,6 @@
 ||v10.events.data.microsoft.com.aria.akadns.net^
 ||v20.events.data.microsoft.com.aria.akadns.net^
 ||videomd.blob.core.windows.net^
-||vortex-win.data.metron.live.com.nsatc.net*^
 ||vortex.data.microsoft.com.edgekey.net^
 ||wayfinderanalytics.servicebus.windows.net^
 ||weathermapdata.blob.core.windows.net^
@@ -466,12 +466,15 @@
 ||attachment.outlook.officeppe.net^
 ||blobs.officehome.msocdn.com^
 ||ecs-office.s-0005.dual-s-msedge.net^
+||measure.office.com.akamaized.net*^
+||measure.office.net.edgesuite.net*^
 ||measure.office365.cn*^
 ||microsoft-office-excel.com^
 ||microsoft-office.fr^
 ||microsoftoffice.com^
 ||microsoftoffice365.com^
 ||microsoftoffice365now.com^
+||o365weve.com^
 ||office-events-data.trafficmanager.net^
 ||office.net*^
 ||office365.com*^
@@ -573,7 +576,6 @@
 ||lgincdnvzeuno.azureedge.net^
 ||masdpanalytics.azureedge.net^
 ||metrics-h9hwc2bvbqbgaueg.a02.azurefd.net^
-||metrics.ingest.monitor.azure.com^
 ||microsoftazure.com*^
 ||microsoftazuread-sso.com*^
 ||microsoftazurelogicapps.net^
@@ -616,7 +618,6 @@
 ||tm-azurefd.net*^
 ||tm-bingstats-frontend.trafficmanager.net^
 ||tng-analytics-api-eu.azurewebsites.net^
-||uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com^
 ||vega-telemetry-apim-dev.azure-api.net^
 ||vscodeexperiments.azureedge.net^
 ||wd-prod-cp-us-east-2-fe.eastus.cloudapp.azure.com^
@@ -701,6 +702,7 @@
 ||microsoft.com-c-3.edgekey.net.globalredir.akadns.net*^
 ||microsoft.com.akamaized.net^
 ||msedge.net*^
+||nelreports.net*^
 ||nontlu.graystore.au-msedge.net^
 ||part-0014.t-0009.t-s1-msedge.net^
 ||partnerdelivery.microsoft.com.edgekey.net^
@@ -729,7 +731,7 @@
 ||xboxlive.akamaized.net^
 ||xboxlive.download.akamai.com^
 ! Bing search
-||bing-int.com^
+||bing-int.com*^
 ||bing.ai^
 ||bing.net*^
 ||bingapis.com*^
@@ -797,7 +799,9 @@
 ||azsc-bingads-centralus.centralus.cloudapp.azure.com^
 ||azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com^
 ||bing-ads-display-ads-cdn.afd.azureedge.net^
+||bingadsedgeextension-prod-eastus.azurewebsites.net^
 ||bingadsresources.trafficmanager.net^
+||bingadsuet.azurewebsites.net^
 ||fastprodownloadsq.visualstudio.com^
 ||hk-tracker.trafficmanager.net^
 ||microsoft-ads.com*^
@@ -879,12 +883,21 @@
 ||mbusa-tagging-prod.azureedge.net^
 ||mixpanel-proxy-agg3gufkaha9gcbw.a02.azurefd.net^
 ||mktdplp102cdn.azureedge.net^
+||monitor.azure.com*^
 ||ms365insider-czdafrdzb5h6e4av.z01.azurefd.net^
 ||msazurebb.visualstudio.com^
+||ntc-keyid-b6eaa11f201ff74ed4f2510e15bf2e3884dc4055.microsoftaik.azure.net^
 ||octob.azureedge.net^
 ||ods-logging-dfhsbqdgd7g0bbc3.z01.azurefd.net^
 ||ods-logging-prod.eastus.cloudapp.azure.com^
+||officeaka.cloudapp.net^
+||officeci.azurewebsites.net^
+||officehomeprodprv.westeurope.cloudapp.azure.com^
 ||oloobe-prod-cdn-storage.azureedge.net^
+||onedsblobprdcus07.centralus.cloudapp.azure.com^
+||onedsblobprdeus17.eastus.cloudapp.azure.com^
+||onedscolprdcus18.centralus.cloudapp.azure.com^
+||opinsights.azure.com^
 ||pdfsuperhero.azureedge.net^
 ||pfbx-api-logging-euw-prod-linux.azurewebsites.net^
 ||playfabapi.com*^
@@ -896,6 +909,7 @@
 ||sd-tagging.azurefd.net^
 ||sdtagging.azureedge.net^
 ||sr-cdn.azureedge.net^
+||stm-keyid-fb17d70d734870e919c4e8e603975e664e0e43de.microsoftaik.azure.net^
 ||subaru-tagging-prod.azureedge.net^
 ||swymv3premium-01.azureedge.net^
 ||swymv3pro-01.azureedge.net^
@@ -905,6 +919,7 @@
 ||virtualearth.net*^
 ||voduscdn.azureedge.net^
 ||vpv-ger.azureedge.net^
+||vscodeupdater.azurewebsites.net^
 ||waws-prod-am2-026d3541.api.p.azurewebsites.windows.net^
 ||waws-prod-am2-101d03d1.ftp.p.azurewebsites.windows.net^
 ||waws-prod-am2-10229042.publish.p.azurewebsites.windows.net^
@@ -1029,6 +1044,7 @@
 ||acs-events.trafficmanager.net*^
 ||analytics-gateway-fallguys.trafficmanager.net^
 ||analytics-listener.trafficmanager.net^
+||analytics.live.com.nsatc.net^
 ||analytics.msnbc.com^
 ||analytics.trafficmanager.net*^
 ||analytics.visualstudio.com*^
@@ -1042,6 +1058,7 @@
 ||cas-telemetry.trafficmanager.net^
 ||cds-int-data-encryption.aisvc-int.visualstudio.com^
 ||ch-asimov-leafs-events-data.trafficmanager.net^
+||clarity.ms*^
 ||collection-location-livenet.trafficmanager.net^
 ||collector-main.trafficmanager.net^
 ||collector.trafficmanager.net^
@@ -1692,6 +1709,7 @@
 ||curtisx.visualstudio.com^
 ||custom.visualstudio.com^
 ||customerss.visualstudio.com^
+||customervoice-prod.forms.office.com.akadns.net^
 ||cute.visualstudio.com^
 ||cw01host1.visualstudio.com^
 ||cw01host6.visualstudio.com^
@@ -2048,6 +2066,7 @@
 ||insightsportal-prod2-asiae-cdn.aisvc.visualstudio.com^
 ||insightsportal-prod2-cdn.aisvc.visualstudio.com^
 ||instance.visualstudio.com^
+||ipv6.msftncsi.com.edgesuite.net^
 ||ipvhsessjsmqdxw.mshome.net^
 ||irreverselookuptm.trafficmanager.net^
 ||isatis-health.visualstudio.com^
@@ -2096,10 +2115,11 @@
 ||mblwinkkn.mshome.net^
 ||mcas-gov.ms*^
 ||mcas-gov.us*^
-||mcas.ms^
+||mcas.ms*^
 ||medumo.visualstudio.com^
 ||mega.visualstudio.com^
 ||merak.visualstudio.com^
+||metron.live.com.nsatc.net*^
 ||mfrkbjukb.mshome.net^
 ||mhbzqoct.mshome.net^
 ||microsoft-antipiracy.com^
@@ -2433,7 +2453,9 @@
 ||nebo.visualstudio.com^
 ||nelreports.net.trafficmanager.net^
 ||newprodownloads.visualstudio.com^
+||nexus.live.com.akadns.net^
 ||nexus.microsoftonline-p.com^
+||nexusrules.live.com.akadns.net^
 ||nhkpwuiyvnkq.mshome.net^
 ||nhuquckrshp.mshome.net^
 ||nldinhvzk.mshome.net^
@@ -2454,6 +2476,7 @@
 ||ohmwzinemubg.mshome.net^
 ||ojyguhsai.mshome.net^
 ||olive.visualstudio.com^
+||ols.live.com.akadns.net^
 ||olvefflwpbdymup.mshome.net^
 ||omreppzsvpb.mshome.net^
 ||online-email-appsuite-secured-access-portal.powerappsportals.com^
@@ -2485,6 +2508,7 @@
 ||prod-client-logs.trafficmanager.net^
 ||prod.almsearch.visualstudio.com*^
 ||prod.msocdn.com^
+||prod.omexcosubretailer.live.com.akadns.net^
 ||proyectos.visualstudio.com^
 ||puxrsgqtg.mshome.net^
 ||pvocqahwaylh.mshome.net^
@@ -2563,6 +2587,7 @@
 ||srubwrfbfjad.mshome.net^
 ||ssp-prod-eastus-nonmutt.trafficmanager.net^
 ||sstovall.visualstudio.com^
+||ssw.live.com.nsatc.net^
 ||stamp2.app.insightsportal.visualstudio.com^
 ||starticket.visualstudio.com^
 ||stats-gw-tm.trafficmanager.net^
@@ -2610,6 +2635,7 @@
 ||tvxecbogcsjtpq.mshome.net^
 ||tyumen.visualstudio.com^
 ||ucellar.visualstudio.com^
+||uci.live.com.akadns.net^
 ||ugzxfjbri.mshome.net^
 ||uks.b.prd.ags.trafficmanager.net^
 ||um6f0ru069.blob.core.windows.net^
@@ -2800,6 +2826,10 @@
 ||zjgqaikvwld.mshome.net^
 ||zoho-books-windows-app.github.io^
 ||zypvqguclue.mshome.net^
+||fixtures.onet.pl^$badfilter
+||linksprf.com^$badfilter
+||pl.ua^$badfilter
+||tn.porngo.xxx^$badfilter
 ! ! Scam and malware ! !
 ||0nline-aws-microsoft-s.s3.eu-west-3.amazonaws.com^
 ||0nline-microsoft-docs.s3.eu-west-3.amazonaws.com^
@@ -2811,6 +2841,7 @@
 ||aoffice365parapterum.blob.core.windows.net^
 ||arubawebmailsession82.blob.core.windows.net^
 ||auth-outlook-microsoft-account-com-000000000000-redi.s3.ap-northeast-2.amazonaws.com^
+||authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net^
 ||bachmann.blob.core.windows.net^
 ||banking.azurefd.net^
 ||bankteam.azurefd.net^
@@ -2921,7 +2952,19 @@
 ||office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net^
 ||office365privately-owned1rmospe8lumq0c2.azurewebsites.net^
 ||officedoc-scanner.azurefd.net^
+||officehome.australiaeast.cloudapp.azure.com^
+||officehome.brazilsouth.cloudapp.azure.com^
+||officehome.eastasia.cloudapp.azure.com^
+||officehome.northeurope.cloudapp.azure.com^
+||officehomeprodprv.brazilsouth.cloudapp.azure.com^
+||officehomeprodprv.japaneast.cloudapp.azure.com^
+||officehomeprodprv.northcentralus.cloudapp.azure.com^
+||officehomeprodprv.northeurope.cloudapp.azure.com^
+||officehomeprodprv.westus.cloudapp.azure.com^
+||onedriveforbusiness.azurewebsites.net^
+||onedrives-live.azurewebsites.net^
 ||onedrivespumes395868.blob.core.windows.net^
+||outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net^
 ||owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com^
 ||produbancoenlinea.blob.core.windows.net^
 ||sanilbank.azurefd.net^

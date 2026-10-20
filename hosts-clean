@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 02:14:59 UTC
-# Version: 2.10.0
+# Last modified: 20 October 2026 16:02:42 UTC
+# Version: 2.11.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 16261
+# Number of entries: 16285
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 000001-1y.l.windowsupdate.com
@@ -13456,6 +13456,7 @@
 0.0.0.0 location.windows.cloud.microsoft
 0.0.0.0 login.microsoft.com
 0.0.0.0 login.microsoftonline.com
+0.0.0.0 login.msa-int.msidentity.com
 0.0.0.0 lomonoxopeduvn.sharepoint.com
 0.0.0.0 lonsdaleinsurancebrok.sharepoint.com
 0.0.0.0 loop.cloud.microsoft
@@ -17948,6 +17949,7 @@
 0.0.0.0 customersfeedback.microsoft.com
 0.0.0.0 customerss.visualstudio.com
 0.0.0.0 customerstest.microsoft.com
+0.0.0.0 customervoice-prod.forms.office.com.akadns.net
 0.0.0.0 customervoice.microsoft.com
 0.0.0.0 cute.visualstudio.com
 0.0.0.0 cw01host1.visualstudio.com
@@ -19671,6 +19673,7 @@
 0.0.0.0 ip.microsoft.com
 0.0.0.0 ip1.live.net
 0.0.0.0 ipv6.microsoft.com.akadns.net
+0.0.0.0 ipv6.msftncsi.com.edgesuite.net
 0.0.0.0 ipvhsessjsmqdxw.mshome.net
 0.0.0.0 iris.microsoft.com
 0.0.0.0 irism.osikevlartorus.office.com
@@ -21718,6 +21721,7 @@
 0.0.0.0 metadata.microsoft.com
 0.0.0.0 metadata.template.cdn.frme.office.net
 0.0.0.0 metaservices.microsoft.com
+0.0.0.0 metron.live.com.nsatc.net
 0.0.0.0 mexnxqe.docs.live.net
 0.0.0.0 mfrkbjukb.mshome.net
 0.0.0.0 mgblon2kian501.network.microsoft.com
@@ -22741,7 +22745,9 @@
 0.0.0.0 newsfeed.visualstudio.microsoft.com
 0.0.0.0 next-services.apps.microsoft.com
 0.0.0.0 next.microsoft.com
+0.0.0.0 nexus.live.com.akadns.net
 0.0.0.0 nexus.microsoftonline-p.com
+0.0.0.0 nexusrules.live.com.akadns.net
 0.0.0.0 nguyenthaibinh.live.com
 0.0.0.0 nhkpwuiyvnkq.mshome.net
 0.0.0.0 nhuquckrshp.mshome.net
@@ -22900,6 +22906,7 @@
 0.0.0.0 olive.visualstudio.com
 0.0.0.0 oliveandgoose-com.partner.fttoolingapi.microsoft.com
 0.0.0.0 oloobesigningcertkey.office.com
+0.0.0.0 ols.live.com.akadns.net
 0.0.0.0 olvefflwpbdymup.mshome.net
 0.0.0.0 olympia.windows.com
 0.0.0.0 omap.microsoft.com
@@ -23275,6 +23282,7 @@
 0.0.0.0 prod.msocdn.com
 0.0.0.0 prod.ocpcms.microsoft.com
 0.0.0.0 prod.odsp-syntex-esign-gateway.westus2-prod.cosmic.office.net
+0.0.0.0 prod.omexcosubretailer.live.com.akadns.net
 0.0.0.0 prod.rewardsplatform.microsoft.com
 0.0.0.0 prod.streaming.video.msn.com
 0.0.0.0 prod.substrate-inference-llmapi.eastus2-prod.cosmic.office.net
@@ -24326,6 +24334,7 @@
 0.0.0.0 sstovall.visualstudio.com
 0.0.0.0 ssu.omex.office.net
 0.0.0.0 ssue.omex.office.net
+0.0.0.0 ssw.live.com.nsatc.net
 0.0.0.0 st-sdk.ecdn.gcc.teams.microsoft.com
 0.0.0.0 staffhub.office.com
 0.0.0.0 stage.academicverification.microsoft.com
@@ -24503,6 +24512,7 @@
 0.0.0.0 symbols.nuget.org
 0.0.0.0 sync.live.net
 0.0.0.0 sync.microsoft.com
+0.0.0.0 syneoshealthlondon.co.uk.mcas.ms
 0.0.0.0 synergyadvisors-biz.partner.fttoolingapi.microsoft.com
 0.0.0.0 synthetic9.monitoring.vsdth.visualstudio.com
 0.0.0.0 syslogw.gtm.corp.microsoft.com
@@ -24923,6 +24933,7 @@
 0.0.0.0 uavalejandrav.spaces.live.com
 0.0.0.0 uccac.msn.com
 0.0.0.0 ucellar.visualstudio.com
+0.0.0.0 uci.live.com.akadns.net
 0.0.0.0 ucis.msdxcdn.microsoft.com
 0.0.0.0 uds-lb.usea-xl-3.ic3-auth-userdiscovery.eastus-prod.cosmic.office.net
 0.0.0.0 ueba-investigation-prd-eus.securitycenter.windows.com
@@ -26622,6 +26633,7 @@
 0.0.0.0 ardenttechnologies-my.sharepoint.com
 0.0.0.0 arubawebmailsession82.blob.core.windows.net
 0.0.0.0 auth-outlook-microsoft-account-com-000000000000-redi.s3.ap-northeast-2.amazonaws.com
+0.0.0.0 authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net
 0.0.0.0 bachmann.blob.core.windows.net
 0.0.0.0 bancaenlineaempresa.z13.web.core.windows.net
 0.0.0.0 bankfaxmsg-secondary.z13.web.core.windows.net
@@ -26760,8 +26772,20 @@
 0.0.0.0 office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net
 0.0.0.0 office365privately-owned1rmospe8lumq0c2.azurewebsites.net
 0.0.0.0 officedoc-scanner.azurefd.net
+0.0.0.0 officehome.australiaeast.cloudapp.azure.com
+0.0.0.0 officehome.brazilsouth.cloudapp.azure.com
+0.0.0.0 officehome.eastasia.cloudapp.azure.com
+0.0.0.0 officehome.northeurope.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.brazilsouth.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.japaneast.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.northcentralus.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.northeurope.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.westus.cloudapp.azure.com
 0.0.0.0 officemail18xomunjbtsf6.z19.web.core.windows.net
+0.0.0.0 onedriveforbusiness.azurewebsites.net
+0.0.0.0 onedrives-live.azurewebsites.net
 0.0.0.0 onedrivespumes395868.blob.core.windows.net
+0.0.0.0 outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net
 0.0.0.0 owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com
 0.0.0.0 pegacure.z33.web.core.windows.net
 0.0.0.0 pewaweyet.z1.web.core.windows.net

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 02:14:59 UTC
-# Version: 2.10.0
+# Last modified: 20 October 2026 16:02:42 UTC
+# Version: 2.11.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 43055
+# Number of entries: 43290
 #
 # # Custom Allow & Blocklist # #
 0.0.0.0 000001-1y.l.windowsupdate.com
@@ -13456,6 +13456,7 @@
 0.0.0.0 location.windows.cloud.microsoft
 0.0.0.0 login.microsoft.com
 0.0.0.0 login.microsoftonline.com
+0.0.0.0 login.msa-int.msidentity.com
 0.0.0.0 lomonoxopeduvn.sharepoint.com
 0.0.0.0 lonsdaleinsurancebrok.sharepoint.com
 0.0.0.0 loop.cloud.microsoft
@@ -15662,6 +15663,7 @@
 0.0.0.0 71574faf-e7ba-460a-b3bf-b885b9abbe9e.rddiagnostics-g-us-r1.wvd.microsoft.com
 0.0.0.0 71b495bf8b574c9f2d065668db73187d.measure.microsoft.com
 0.0.0.0 9dfdff8a-860b-44a1-9232-7af1f8528c14.rddiagnostics-g-us-r1.wvd.microsoft.com
+0.0.0.0 a.clarity.ms
 0.0.0.0 a.events.data.microsoft.com
 0.0.0.0 aad5.kas.telemetry.powerbi.com
 0.0.0.0 account.analytics.visualstudio.com
@@ -15683,6 +15685,7 @@
 0.0.0.0 analytics-gateway-fallguys.trafficmanager.net
 0.0.0.0 analytics-listener.trafficmanager.net
 0.0.0.0 analytics.ads.microsoft.com
+0.0.0.0 analytics.live.com.nsatc.net
 0.0.0.0 analytics.live.net
 0.0.0.0 analytics.messaging.microsoft.com
 0.0.0.0 analytics.microsoft.com
@@ -15706,6 +15709,7 @@
 0.0.0.0 api.pstnmonitoring.skype.com
 0.0.0.0 app.analytics.microsoft.com
 0.0.0.0 applicationinsights.microsoft.com
+0.0.0.0 apps.report.clarity.ms
 0.0.0.0 appservice-diagnostics.trafficmanager.net
 0.0.0.0 aria.events.data.trafficmanager.net
 0.0.0.0 asimov-sandbox.vortex.data.microsoft.com.akadns.net
@@ -15734,6 +15738,7 @@
 0.0.0.0 azglobal-red.prod.microsoftmetrics.com
 0.0.0.0 azglobal.prod.microsoftmetrics.com
 0.0.0.0 azrmonitoring.messaging.microsoft.com
+0.0.0.0 b.clarity.ms
 0.0.0.0 b797c241edfdb21012821f184d3ef74c.measure.microsoft.com
 0.0.0.0 bd045e81-c6a2-42e6-9d6a-c1757884b245.rddiagnostics-g-us-r1.wvd.microsoft.com
 0.0.0.0 beacons.trafficmanager.net
@@ -15749,6 +15754,7 @@
 0.0.0.0 browser.events.data.trafficmanager.net
 0.0.0.0 browser.pipe.aria.microsoft.com
 0.0.0.0 btgpactual.analytics.visualstudio.com
+0.0.0.0 c.clarity.ms
 0.0.0.0 c52ea4498ff05be02de7c38c4ecdea09.measure.microsoft.com
 0.0.0.0 c5fc1376-a0fb-409b-bdf3-5978a80d2444.rddiagnostics-g-eu-r1.wvd.microsoft.com
 0.0.0.0 campaigntracking-int.mp.dps.microsoft.com
@@ -15784,6 +15790,7 @@
 0.0.0.0 cid-f86f78f87d4224caa.profile.live.com
 0.0.0.0 cid-fabf820405bab8ef.profile.live.com
 0.0.0.0 clarity.microsoft.com
+0.0.0.0 clarity.ms
 0.0.0.0 click.email.microsoftemail.com
 0.0.0.0 click.engage.windows.com
 0.0.0.0 click.microsoft.com
@@ -15804,6 +15811,7 @@
 0.0.0.0 cs01-sqlmi-chub-sqm-t54-uks.011bd613e818.database.windows.net
 0.0.0.0 cssprofile.partners.extranet.microsoft.com
 0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
+0.0.0.0 d.clarity.ms
 0.0.0.0 d3038db538b2016fbce0eaf83e47dd71.measure.microsoft.com
 0.0.0.0 daf7cefa0ae7c5a9320aa036ce35d3c6.measure.microsoft.com
 0.0.0.0 data-beta.broadcast.skype.com
@@ -15874,6 +15882,7 @@
 0.0.0.0 domaindata.ecx-dit2.parttest.extranettest.microsoft.com
 0.0.0.0 dspbeacons-error.trafficmanager.net
 0.0.0.0 dxt.lake.data.microsoft.com
+0.0.0.0 e.clarity.ms
 0.0.0.0 eat1-monitor03.corp.linkedin.com
 0.0.0.0 eat1-monitor04.corp.linkedin.com
 0.0.0.0 eat1-monitor10.corp.linkedin.com
@@ -15929,6 +15938,7 @@
 0.0.0.0 eventsppe.partners.extranet.microsoft.com
 0.0.0.0 excel-telemetry.wac.trafficmanager.net
 0.0.0.0 eyglobaltaxplatformk.analytics.visualstudio.com
+0.0.0.0 f.clarity.ms
 0.0.0.0 f5bbbc845476e363a1ee9ba2f2e33124.measure.microsoft.com
 0.0.0.0 federatedprofile.skype.com
 0.0.0.0 flagship-infra-metrics.corp.linkedin.com
@@ -15936,6 +15946,7 @@
 0.0.0.0 forumanalytics.int2.xbox.com
 0.0.0.0 fraudeventsvc-ppe.trafficmanager.net
 0.0.0.0 functional.events.data.microsoft.com
+0.0.0.0 g.clarity.ms
 0.0.0.0 gaming-data-sslk.xboxlive.com
 0.0.0.0 geo-analytics-data.trafficmanager.net
 0.0.0.0 geo.hub.analytics.trafficmanager.net
@@ -15946,10 +15957,12 @@
 0.0.0.0 global.asimov.events.data.trafficmanager.net
 0.0.0.0 global.prod.microsoftmetrics.com
 0.0.0.0 gmodatatransfer.partners.extranet.microsoft.com
+0.0.0.0 h.clarity.ms
 0.0.0.0 hccm1.analytics.visualstudio.com
 0.0.0.0 hivadataarchive.partners.extranet.microsoft.com
 0.0.0.0 hk2.settings.data.microsoft.com.akadns.net
 0.0.0.0 hub.analytics.trafficmanager.net
+0.0.0.0 i.clarity.ms
 0.0.0.0 ic3.events.data.microsoft.com
 0.0.0.0 icm.kas.telemetry.powerbi.com
 0.0.0.0 in-mobile.events.data.microsoft.com
@@ -15975,18 +15988,23 @@
 0.0.0.0 int.profileapi.services.microsoft.com
 0.0.0.0 ir-tracking.trafficmanager.net
 0.0.0.0 ism-telemetry.trafficmanager.net
+0.0.0.0 j.clarity.ms
 0.0.0.0 jobingestion.www.linkedin.com
 0.0.0.0 jp-mobile.events.data.microsoft.com
 0.0.0.0 jp-v10.events.data.microsoft.com
 0.0.0.0 jp-v10c.events.data.microsoft.com
 0.0.0.0 jp-v20.events.data.microsoft.com
 0.0.0.0 jp.events.data.trafficmanager.net
+0.0.0.0 k.clarity.ms
 0.0.0.0 kas.telemetry.powerbi.com
+0.0.0.0 l.clarity.ms
 0.0.0.0 l4.tb.events.data.trafficmanager.net
 0.0.0.0 l5.pf.events.data.trafficmanager.net
 0.0.0.0 lamarianxuensevilla.spaces.live.com
 0.0.0.0 lodgingeconometrics-my.sharepoint.com
+0.0.0.0 log.clarity.ms
 0.0.0.0 lva1-pometrics-fe-prod01.corp.linkedin.com
+0.0.0.0 m.clarity.ms
 0.0.0.0 marialuisa19-04-90.spaces.live.com
 0.0.0.0 marianw.msappproxy.net
 0.0.0.0 mars-objectstore-sparkingestion-nam.dlis.bing.microsoft.com
@@ -16030,8 +16048,10 @@
 0.0.0.0 msybidata.adcenter.microsoft.com
 0.0.0.0 myanalytics.gcc.microsoft.com
 0.0.0.0 myanalytics.microsoft.com
+0.0.0.0 n.clarity.ms
 0.0.0.0 noam.events.data.microsoft.com
 0.0.0.0 noam.events.data.trafficmanager.net
+0.0.0.0 o.clarity.ms
 0.0.0.0 oca.alpha.telemetry.microsoft.com
 0.0.0.0 oca.microsoft.com
 0.0.0.0 oca.telemetry.microsoft.com
@@ -16039,6 +16059,7 @@
 0.0.0.0 ocelocator.dev.telemetry.sharepointonline.com
 0.0.0.0 ocelocator.prod.telemetry.sharepointonline.com
 0.0.0.0 oms-analytics.trafficmanager.net
+0.0.0.0 p.clarity.ms
 0.0.0.0 partnerfraudevents.trafficmanager.net
 0.0.0.0 pb-api-logging.trafficmanager.net
 0.0.0.0 pf.events.data.microsoft.com
@@ -16072,22 +16093,28 @@
 0.0.0.0 profilea.rol.mesh.microsoft.com
 0.0.0.0 profileapi.services.microsoft.com
 0.0.0.0 profiles.live.com
+0.0.0.0 q.clarity.ms
 0.0.0.0 qa.profileapi.services.microsoft.com
+0.0.0.0 r.clarity.ms
 0.0.0.0 rddiagnostics-g-us-r1.wvd.microsoft.com
 0.0.0.0 rdm-trafficmanager-ticketscenter-metrics.trafficmanager.net
 0.0.0.0 relying-party-encryption-vortex-win.data.microsoft.com
+0.0.0.0 report.clarity.ms
 0.0.0.0 rps-cek-collector-sbx.events-sandbox.data.microsoft.com
 0.0.0.0 rps-cek-collector.events.data.microsoft.com
 0.0.0.0 rps-dek-collector-sbx.events-sandbox.data.microsoft.com
 0.0.0.0 rps-dek-collector.events.data.microsoft.com
 0.0.0.0 rt.applicationinsights.microsoft.com
+0.0.0.0 s.clarity.ms
 0.0.0.0 sandbox.settings.data.microsoft.com.akadns.net
 0.0.0.0 sandbox.vortex.data.trafficmanager.net
+0.0.0.0 scripts.clarity.ms
 0.0.0.0 sec-logging.stg.linkedin.com
 0.0.0.0 securitysignals-siphonclient.outlook.com
 0.0.0.0 self-events-data.trafficmanager.net
 0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 self.events.data.microsoft.us
+0.0.0.0 self.pipe.aria.microsoft.com
 0.0.0.0 sell-collector.stg.linkedin.com
 0.0.0.0 server.events.data.microsoft.com
 0.0.0.0 server.events.data.trafficmanager.net
@@ -16103,6 +16130,7 @@
 0.0.0.0 shoebox2-black.prod.microsoftmetrics.com
 0.0.0.0 shoebox2-red.prod.microsoftmetrics.com
 0.0.0.0 shoebox2.prod.microsoftmetrics.com
+0.0.0.0 shop-integration.clarity.microsoft.com
 0.0.0.0 signals.urs.microsoft.com
 0.0.0.0 signalstoreclient.outlook.com
 0.0.0.0 siteops-data-zoo.corp.linkedin.com
@@ -16118,6 +16146,7 @@
 0.0.0.0 stg-supportdiagnostics.partners.extranet.microsoft.com
 0.0.0.0 sti.profileconnector.outlook.com
 0.0.0.0 supportdiagnostics.partners.extranet.microsoft.com
+0.0.0.0 t.clarity.ms
 0.0.0.0 tb.events.data.microsoft.com
 0.0.0.0 tb.events.data.trafficmanager.net
 0.0.0.0 teams-events-data.trafficmanager.net
@@ -16162,6 +16191,7 @@
 0.0.0.0 tscp-tracking.ltx1.rtb.linkedin.com
 0.0.0.0 tscp-tracking.lva1.rtb.linkedin.com
 0.0.0.0 tst.profileapi.services.microsoft.com
+0.0.0.0 u.clarity.ms
 0.0.0.0 uk-mobile.events.data.microsoft.com
 0.0.0.0 uk-v20.events.data.microsoft.com
 0.0.0.0 uk-v20.events.endpoint.security.microsoft.com
@@ -16184,6 +16214,7 @@
 0.0.0.0 us5-v20.events.data.microsoft.com
 0.0.0.0 userprofile.partners.extranet.microsoft.com
 0.0.0.0 userprofilestaging.partners.extranet.microsoft.com
+0.0.0.0 v.clarity.ms
 0.0.0.0 v10-win.vortex.data.trafficmanager.net
 0.0.0.0 v10.events.data.microsoft.com
 0.0.0.0 v10.events.data.microsoft.us
@@ -16192,11 +16223,14 @@
 0.0.0.0 v20.events.data.microsoft.com
 0.0.0.0 v20.events.data.microsoft.us
 0.0.0.0 v21.events.data.microsoft.com
+0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
+0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
 0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 vortex.data.msn.com
 0.0.0.0 vortex.data.trafficmanager.net
 0.0.0.0 vstelemetry.trafficmanager.net
+0.0.0.0 w.clarity.ms
 0.0.0.0 watson.telemetry.microsoft.com
 0.0.0.0 watson01.watsonstage.microsoft.com
 0.0.0.0 watson02.watsonstage.microsoft.com
@@ -16222,6 +16256,7 @@
 0.0.0.0 www.cid-27dde4ef8dca6e5b.profile.live.com
 0.0.0.0 www.cid-4daf19ff91c31475.profile.live.com
 0.0.0.0 www.cid-952b59b3a5f873b0.profile.live.com
+0.0.0.0 www.clarity.ms
 0.0.0.0 www.clubprofile-partner.xboxlive.com
 0.0.0.0 www.collection.location.live.net
 0.0.0.0 www.data.assist.gameservices.xboxlive.com
@@ -16249,7 +16284,10 @@
 0.0.0.0 www.sqmtest.microsoft.com
 0.0.0.0 www.tracking-hub.stg.linkedin.com
 0.0.0.0 www.xb1ingestionv2.xboxlive.com
+0.0.0.0 x.clarity.ms
 0.0.0.0 xb1ingestionv2g.xboxlive.com
+0.0.0.0 y.clarity.ms
+0.0.0.0 z.clarity.ms
 0.0.0.0 z1.kusto.data.microsoft.com
 0.0.0.0 zuora-monitor.linkedin.com
 # # GitHub telemetry
@@ -21325,6 +21363,7 @@
 0.0.0.0 fileserverg.fp.measure.office.com
 0.0.0.0 fluidpreview.office.net
 0.0.0.0 fp.measure.office.com
+0.0.0.0 fp.measure.office.com.akamaized.net
 0.0.0.0 fpastorage.cdn.office.net
 0.0.0.0 fra-efz.ms-acdc.office.com
 0.0.0.0 fs2016o.fp.measure.office.com
@@ -21362,7 +21401,9 @@
 0.0.0.0 mail.protection.outlook.com
 0.0.0.0 manage.office365.us
 0.0.0.0 measure.office.com
+0.0.0.0 measure.office.com.akamaized.net
 0.0.0.0 measure.office.net
+0.0.0.0 measure.office.net.edgesuite.net
 0.0.0.0 measure.office365.cn
 0.0.0.0 measure.office365.us
 0.0.0.0 messaging.engagement.office.com
@@ -21382,15 +21423,18 @@
 0.0.0.0 nam.loki.delve.office.com
 0.0.0.0 nam.unifiedfeedback.office.net
 0.0.0.0 nel.measure.office.net
+0.0.0.0 nel.measure.office.net.edgesuite.net
 0.0.0.0 nelgallatin.measure.office365.cn
 0.0.0.0 nelitar.measure.office365.us
 0.0.0.0 nelsdf.measure.office.net
+0.0.0.0 nelsdf.measure.office.net.edgesuite.net
 0.0.0.0 nleditor.osi.office.net
 0.0.0.0 ns1.fp.measure.office.com
 0.0.0.0 ns2.fp.measure.office.com
 0.0.0.0 o15.officeredir.microsoft.com
 0.0.0.0 o365auditrealtimeingestionm.manage.test.office.com
 0.0.0.0 o365auditrealtimeingestionppe.manage.office.com
+0.0.0.0 o365weve.com
 0.0.0.0 oauth.online.office.com
 0.0.0.0 ocos-office365-s2s.msedge.net
 0.0.0.0 office-c.events.data.microsoft.com
@@ -21506,6 +21550,7 @@
 0.0.0.0 uci.edog.cdn.office.net
 0.0.0.0 upload.fp.measure.office.com
 0.0.0.0 upload2.fp.measure.office.com
+0.0.0.0 upload2.fp.measure.office.com.akamaized.net
 0.0.0.0 vcanalyticssigningcertkeyc.office.com
 0.0.0.0 videoplayercdn.osi.office.net
 0.0.0.0 visioonline.nel.measure.office.net
@@ -21627,6 +21672,7 @@
 0.0.0.0 centralus-2.in.applicationinsights.azure.com
 0.0.0.0 centralus-3.in.applicationinsights.azure.com
 0.0.0.0 centralus.in.applicationinsights.azure.com
+0.0.0.0 centralus.livediagnostics.monitor.azure.com
 0.0.0.0 chinaeast2-0.in.applicationinsights.azure.cn
 0.0.0.0 chinaeast3-global.in.applicationinsights.azure.cn
 0.0.0.0 chinanorth3-0.in.applicationinsights.azure.cn
@@ -21654,9 +21700,13 @@
 0.0.0.0 eastus-6.in.applicationinsights.azure.com
 0.0.0.0 eastus-8.in.applicationinsights.azure.com
 0.0.0.0 eastus-global.in.applicationinsights.azure.com
+0.0.0.0 eastus.livediagnostics.monitor.azure.com
+0.0.0.0 eastus.livediagnostics.privatelink.monitor.azure.com
 0.0.0.0 eastus2-0.in.applicationinsights.azure.com
 0.0.0.0 eastus2-3.in.applicationinsights.azure.com
 0.0.0.0 eastus2-4.in.applicationinsights.azure.com
+0.0.0.0 eastus2.livediagnostics.monitor.azure.com
+0.0.0.0 eastus2.livediagnostics.privatelink.monitor.azure.com
 0.0.0.0 edge-management-azure-com.arm-0001.arm-msedge.net
 0.0.0.0 edge.skype.com.trafficmanager.net
 0.0.0.0 edgeassetservice.afd.azureedge.net
@@ -21681,6 +21731,8 @@
 0.0.0.0 gateway.azureserviceprofiler.net
 0.0.0.0 germanywestcentral-0.in.applicationinsights.azure.com
 0.0.0.0 germanywestcentral-1.in.applicationinsights.azure.com
+0.0.0.0 global.livediagnostics.monitor.azure.com
+0.0.0.0 global.livediagnostics.privatelink.monitor.azure.com
 0.0.0.0 hosts.driver-analytics-web-service.azurewebsites.net
 0.0.0.0 hosts.ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 0.0.0.0 ideasazurefeedbackprod.powerappsportals.com
@@ -21712,6 +21764,8 @@
 0.0.0.0 lgincdnvzeuno.azureedge.net
 0.0.0.0 live.applicationinsights.azure.cn
 0.0.0.0 live.applicationinsights.azure.com
+0.0.0.0 livediagnostics.monitor.azure.com
+0.0.0.0 livediagnostics.privatelink.monitor.azure.com
 0.0.0.0 manage.windowsazure.com
 0.0.0.0 masdpanalytics.azureedge.net
 0.0.0.0 metrics-h9hwc2bvbqbgaueg.a02.azurefd.net
@@ -21736,6 +21790,7 @@
 0.0.0.0 northeurope-4.in.applicationinsights.azure.com
 0.0.0.0 northeurope-5.in.applicationinsights.azure.com
 0.0.0.0 northeurope-global.in.applicationinsights.azure.com
+0.0.0.0 northeurope.livediagnostics.monitor.azure.com
 0.0.0.0 norwayeast-0.in.applicationinsights.azure.com
 0.0.0.0 odinvzc.azureedge.net
 0.0.0.0 odinvzc.ec.azureedge.net
@@ -21765,6 +21820,7 @@
 0.0.0.0 southafricanorth-1.in.applicationinsights.azure.com
 0.0.0.0 southcentralus-0.in.applicationinsights.azure.com
 0.0.0.0 southcentralus-3.in.applicationinsights.azure.com
+0.0.0.0 southcentralus.livediagnostics.monitor.azure.com
 0.0.0.0 southeastasia-0.in.applicationinsights.azure.com
 0.0.0.0 southeastasia-1.in.applicationinsights.azure.com
 0.0.0.0 southindia-0.in.applicationinsights.azure.com
@@ -21795,6 +21851,7 @@
 0.0.0.0 uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com
 0.0.0.0 uksouth-0.in.applicationinsights.azure.com
 0.0.0.0 uksouth-1.in.applicationinsights.azure.com
+0.0.0.0 uksouth.livediagnostics.monitor.azure.com
 0.0.0.0 ukwest-0.in.applicationinsights.azure.com
 0.0.0.0 usgovarizona-0.in.applicationinsights.azure.us
 0.0.0.0 usgovarizona-global.in.applicationinsights.azure.us
@@ -21825,6 +21882,8 @@
 0.0.0.0 westeurope-5.in.applicationinsights.azure.com
 0.0.0.0 westeurope-global.in.applicationinsights.azure.com
 0.0.0.0 westeurope.in.applicationinsights.azure.com
+0.0.0.0 westeurope.livediagnostics.monitor.azure.com
+0.0.0.0 westeurope.livediagnostics.privatelink.monitor.azure.com
 0.0.0.0 westus-0.in.applicationinsights.azure.com
 0.0.0.0 westus2-0.in.applicationinsights.azure.com
 0.0.0.0 westus2-1.in.applicationinsights.azure.com
@@ -21832,6 +21891,7 @@
 0.0.0.0 westus2-4.in.applicationinsights.azure.com
 0.0.0.0 westus2-5.in.applicationinsights.azure.com
 0.0.0.0 westus2-global.in.applicationinsights.azure.com
+0.0.0.0 westus2.livediagnostics.monitor.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 westus3.in.applicationinsights.azure.com
 0.0.0.0 wh-api-analytics.azurewebsites.net
@@ -21883,6 +21943,7 @@
 0.0.0.0 a0001.a-msedge.net
 0.0.0.0 account.microsoft.com.edgekey.net
 0.0.0.0 account.xbox.com.edgekey.net
+0.0.0.0 aefd.nelreports.net
 0.0.0.0 afdap.au.au-msedge.net
 0.0.0.0 api-msn-com.a-0003.a-msedge.net
 0.0.0.0 arc-ring.arc-9999.arc-msedge.net
@@ -21932,6 +21993,7 @@
 0.0.0.0 data.edge.messenger.live.com
 0.0.0.0 dc-msedge.net
 0.0.0.0 deault-exp-tas-com.e-0014.e-msedge.net
+0.0.0.0 deff.nelreports.net
 0.0.0.0 developer.microsoft.com-c.edgekey.net.globalredir.akadns.net
 0.0.0.0 docs.microsoft.com-c.edgekey.net
 0.0.0.0 dual-a-0036.a-msedge.net
@@ -21940,7 +22002,9 @@
 0.0.0.0 e-0012.e-msedge.net
 0.0.0.0 e-0014.e-msedge.net
 0.0.0.0 e-msedge.net
+0.0.0.0 eafc.nelreports.net
 0.0.0.0 edge-microsoft-com.dual-a-0036.a-msedge.net
+0.0.0.0 egde.nelreports.net
 0.0.0.0 evocor-windowsservices-tas.msedge.net
 0.0.0.0 evoke-windowsservices-tas-msedge-net.e-0009.e-msedge.net
 0.0.0.0 evoke-windowsservices-tas.msedge.net
@@ -21949,6 +22013,7 @@
 0.0.0.0 f-msedge.net
 0.0.0.0 fbs1-t-msedge.net
 0.0.0.0 fdv2-t-msedge.net
+0.0.0.0 ffde.nelreports.net
 0.0.0.0 fp.msedge.net
 0.0.0.0 fs-wildcard.microsoft.com.edgekey.net
 0.0.0.0 fs-wildcard.microsoft.com.edgekey.net.globalredir.akadns.net
@@ -21987,8 +22052,10 @@
 0.0.0.0 ln-ring.msedge.net
 0.0.0.0 location-microsoft-com.b-0005.b-msedge.net
 0.0.0.0 m1-msedge.net
+0.0.0.0 mdec.nelreports.net
 0.0.0.0 microsoft.com-c-3.edgekey.net.globalredir.akadns.net
 0.0.0.0 microsoft.com.akamaized.net
+0.0.0.0 mmay.nelreports.net
 0.0.0.0 msedge.api.cdn.microsoft.net
 0.0.0.0 msedge.api.cdp.microsoft.com
 0.0.0.0 msedge.f.dl.delivery.mp.microsoft.com
@@ -22008,6 +22075,7 @@
 0.0.0.0 msedgeextensions.sf.dl.delivery.mp.microsoft.com
 0.0.0.0 msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 muser2.relay.data.edge.messenger.live.com
+0.0.0.0 nelreports.net
 0.0.0.0 nontlu.graystore.au-msedge.net
 0.0.0.0 ns1.a-msedge.net
 0.0.0.0 ns1.b-msedge.net
@@ -22072,6 +22140,7 @@
 0.0.0.0 www.bing.com.edgekey.net
 0.0.0.0 www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net
 0.0.0.0 www.msedge.net
+0.0.0.0 www.nelreports.net
 0.0.0.0 xbox-mbr.akamaized.net
 0.0.0.0 xboxlive.akamaized.net
 0.0.0.0 xboxlive.download.akamai.com
@@ -22620,6 +22689,7 @@
 0.0.0.0 azu.bing.com
 0.0.0.0 bab.bing.com
 0.0.0.0 basic-nodejs-devp.bing.com
+0.0.0.0 bat.bing-int.com
 0.0.0.0 bat.bing.com
 0.0.0.0 bat.bing.net
 0.0.0.0 bba.bing.com
@@ -23283,6 +23353,8 @@
 0.0.0.0 msnbot-40-77-164-67.search.msn.com
 0.0.0.0 msnbot-40-77-165-244.search.msn.com
 0.0.0.0 msnbot-40-77-166-112.search.msn.com
+0.0.0.0 msnbot-40-77-167-57.search.msn.com
+0.0.0.0 msnbot-40-77-167-58.search.msn.com
 0.0.0.0 msnbot-40-77-168-227.search.msn.com
 0.0.0.0 msnbot-40-77-169-127.search.msn.com
 0.0.0.0 msnbot-40-77-170-15.search.msn.com
@@ -23394,6 +23466,7 @@
 0.0.0.0 msnbot-40-90-158-172.search.msn.com
 0.0.0.0 msnbot-40-90-159-8.search.msn.com
 0.0.0.0 msnbot-52-167-144-116.search.msn.com
+0.0.0.0 msnbot-52-167-144-188.search.msn.com
 0.0.0.0 msnbot-64-4-22-223.search.msn.com
 0.0.0.0 msnbot-65-52-104-25.search.msn.com
 0.0.0.0 msnbot-65-52-109-18.search.msn.com
@@ -30137,6 +30210,7 @@
 0.0.0.0 ads-inmobi-comtm.trafficmanager.net
 0.0.0.0 ads-investigator.prod.linkedin.com
 0.0.0.0 ads-investigator.stg.linkedin.com
+0.0.0.0 ads.adnxs.com
 0.0.0.0 ads.arcctrps.msn.com
 0.0.0.0 ads.bing.com
 0.0.0.0 ads.licdn.com
@@ -30275,8 +30349,10 @@
 0.0.0.0 bind-gateway.corp.appnexus.com
 0.0.0.0 bing-ads-display-ads-cdn.afd.azureedge.net
 0.0.0.0 bingads.glbdns2.microsoft.com
+0.0.0.0 bingadsedgeextension-prod-eastus.azurewebsites.net
 0.0.0.0 bingadseditor.microsoft.com
 0.0.0.0 bingadsresources.trafficmanager.net
+0.0.0.0 bingadsuet.azurewebsites.net
 0.0.0.0 blu.mobileads.msn.com
 0.0.0.0 bm203430.nym2.appnexus.com
 0.0.0.0 bm203440.nym2.appnexus.com
@@ -30868,7 +30944,13 @@
 0.0.0.0 afdxtest.z01.azurefd.net
 0.0.0.0 agzar24tppw.activedirectory-edog.windowsazure.com
 0.0.0.0 ah1nqyy17q.activedirectory-edog.windowsazure.com
+0.0.0.0 ai.aimon.monitor.azure.com
+0.0.0.0 ai.monitor.azure.com
+0.0.0.0 ai.privatelink.monitor.azure.com
+0.0.0.0 aimon.monitor.azure.com
+0.0.0.0 api.monitor.azure.com
 0.0.0.0 api.powerbi.com
+0.0.0.0 api.privatelink.monitor.azure.com
 0.0.0.0 apim-int.azure.microsoft.com
 0.0.0.0 appcert.pso.activedirectory-edog.windowsazure.com
 0.0.0.0 approvalmanagement.activedirectory-ppe.windowsazure.com
@@ -30890,6 +30972,9 @@
 0.0.0.0 ause.prod.migration.windowsazure.com
 0.0.0.0 auste7.asm.privatelink.test.migration.windowsazure.com
 0.0.0.0 austeg.test.migration.windowsazure.com
+0.0.0.0 australiaeast-1.in.ai.monitor.azure.com
+0.0.0.0 australiaeast-1.in.ai.privatelink.monitor.azure.com
+0.0.0.0 australiaeast.handler.control.monitor.azure.com
 0.0.0.0 australiaeastu.dpp.speech.microsoft.com
 0.0.0.0 auto-auseap-pbi-kv-httpszone10.z10.w.api.fabric.microsoft.com
 0.0.0.0 auto-ausebp-pbi-kv-httpszone24.z24.w.api.fabric.microsoft.com
@@ -30992,6 +31077,7 @@
 0.0.0.0 auto-wusep-pbi-kv-httpszone18.z18.w.api.fabric.microsoft.com
 0.0.0.0 auto-zeanorab-pbi-kv-httpszone7b.z7b.w.api.fabric.microsoft.com
 0.0.0.0 auto-zeanorap-pbi-kv-httpszone16.z16.w.api.fabric.microsoft.com
+0.0.0.0 az-prd-weu-custinvwrkplc-dce-001-gopt.westeurope-1.ingest.monitor.azure.com
 0.0.0.0 azmgmt.approvalmanagement.activedirectory-edog.windowsazure.com
 0.0.0.0 azmgmt.approvalmanagement.activedirectory-ppe.windowsazure.com
 0.0.0.0 azr-commserv-mca-01-appedekade.eu.action.azurecomm.net
@@ -31082,11 +31168,22 @@
 0.0.0.0 c48lo8x5nuw.activedirectory-edog.windowsazure.com
 0.0.0.0 c96phyajxqw.activedirectory-edog.windowsazure.com
 0.0.0.0 can01-oras1.sea.backup.windowsazure.com
+0.0.0.0 canadacentral-1.ingest.monitor.azure.com
+0.0.0.0 canadacentral.handler.control.monitor.azure.com
 0.0.0.0 cbwif2fmep.activedirectory-edog.windowsazure.com
 0.0.0.0 cce-edog.windowsazure.com
 0.0.0.0 cce-edogz.windowsazure.com
 0.0.0.0 ccy.keyderivationcertificate.backup.windowsazure.com
 0.0.0.0 ccy.privatelink.siterecovery.windowsazure.com
+0.0.0.0 cdn.monitor.azure.com
+0.0.0.0 centralindia-0.in.ai.monitor.azure.com
+0.0.0.0 centralindia-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 centralus-0.in.ai.monitor.azure.com
+0.0.0.0 centralus-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 centralus-1.ingest.monitor.azure.com
+0.0.0.0 centralus-2.in.ai.monitor.azure.com
+0.0.0.0 centralus-2.in.ai.privatelink.monitor.azure.com
+0.0.0.0 centralus.handler.control.monitor.azure.com
 0.0.0.0 certwithenhancedrsa.pso.activedirectory-edog.windowsazure.com
 0.0.0.0 cgfl6ewtbvw.activedirectory-edog.windowsazure.com
 0.0.0.0 chainedupdatevalidity.pso.activedirectory-edog.windowsazure.com
@@ -31121,6 +31218,8 @@
 0.0.0.0 consentdeliveryfd.azurefd.net
 0.0.0.0 container-image-registry.lit-zeus-1.cmd.azure.linkedin.com
 0.0.0.0 control.int.azuregaming.xboxlive.com
+0.0.0.0 control.monitor.azure.com
+0.0.0.0 control.privatelink.monitor.azure.com
 0.0.0.0 copilot-prod.azure.com
 0.0.0.0 copilot.prod.migration.windowsazure.com
 0.0.0.0 copilot.swc.dev.migration.windowsazure.com
@@ -31138,6 +31237,10 @@
 0.0.0.0 d8emqnkbfa.activedirectory-edog.windowsazure.com
 0.0.0.0 dataencrypta.adnotifications-ppe.windowsazure.com
 0.0.0.0 dcaasedogu.aadc.activedirectory-ppe.windowsazure.com
+0.0.0.0 dce-client-solution-log-analytics-hm5h.westeurope-1.ingest.monitor.azure.com
+0.0.0.0 dce-intune-laws-prd-szj3.germanywestcentral-1.ingest.monitor.azure.com
+0.0.0.0 dce-intuneenhancedinventory-tscw.westus2-1.ingest.monitor.azure.com
+0.0.0.0 dce01-epm01-obserability-01-icqj.centralus-1.ingest.monitor.azure.com
 0.0.0.0 dchkihyrz2.activedirectory-edog.windowsazure.com
 0.0.0.0 dcoxgxswc8.activedirectory-edog.windowsazure.com
 0.0.0.0 dev-vertiv-xrwidgets-enh0cfcpfmhwh0az.z01.azurefd.net
@@ -31157,16 +31260,42 @@
 0.0.0.0 dnwmzuyclt.activedirectory-edog.windowsazure.com
 0.0.0.0 dozi92migsw.activedirectory-edog.windowsazure.com
 0.0.0.0 dpkz5agj1aw.activedirectory-edog.windowsazure.com
+0.0.0.0 driver-inventory-k3xi.eastus-1.ingest.monitor.azure.com
 0.0.0.0 dsnnejunmzw.activedirectory-edog.windowsazure.com
 0.0.0.0 du9-excfe2f4hzcddfh9.z02.azurefd.net
 0.0.0.0 dynamics.com
 0.0.0.0 dynamics365.com
 0.0.0.0 dynamics365cdn.azureedge.net
 0.0.0.0 easia.test.migration.windowsazure.com
+0.0.0.0 eastus-0.in.ai.monitor.azure.com
+0.0.0.0 eastus-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus-1.handler.control.monitor.azure.com
+0.0.0.0 eastus-1.in.ai.monitor.azure.com
+0.0.0.0 eastus-1.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus-1.ingest.monitor.azure.com
+0.0.0.0 eastus-2.in.ai.monitor.azure.com
+0.0.0.0 eastus-2.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus-3.in.ai.monitor.azure.com
+0.0.0.0 eastus-3.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus-5.in.ai.monitor.azure.com
+0.0.0.0 eastus-5.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus-6.in.ai.monitor.azure.com
+0.0.0.0 eastus-6.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus-8.in.ai.monitor.azure.com
+0.0.0.0 eastus-8.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus.handler.control.monitor.azure.com
+0.0.0.0 eastus.prometheus.monitor.azure.com
+0.0.0.0 eastus2-0.in.ai.monitor.azure.com
+0.0.0.0 eastus2-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus2-1.ingest.monitor.azure.com
+0.0.0.0 eastus2-3.in.ai.monitor.azure.com
+0.0.0.0 eastus2-3.in.ai.privatelink.monitor.azure.com
+0.0.0.0 eastus2.handler.control.monitor.azure.com
 0.0.0.0 ecy.azurearcprivatecloud.windowsazure.com
 0.0.0.0 edge-cloud-resource-static.azureedge.net
 0.0.0.0 edge-consumer-static.azureedge.net
 0.0.0.0 edge-mobile-static.azureedge.net
+0.0.0.0 edm-datacollector-dce-b5fj.eastus-1.ingest.monitor.azure.com
 0.0.0.0 endpoint1-b0ecetbuabcdg9cp.z01.azurefd.net
 0.0.0.0 ep-ae-v3g3ql87pk5y-akbxduh7hddch2dn.z01.azurefd.net
 0.0.0.0 ep-nl-xvkzm8t3nie6-bbg2dyctccgqfzdy.z01.azurefd.net
@@ -31209,6 +31338,7 @@
 0.0.0.0 fps-prod-na-frontdoor.z01.azurefd.net
 0.0.0.0 fpt.windowsazure.com
 0.0.0.0 fptdm.windowsazure.com
+0.0.0.0 francecentral-1.ingest.monitor.azure.com
 0.0.0.0 functionaltests.cn.int.azuregaming.xboxlive.com
 0.0.0.0 g2i-mng-fd-g2e2bzd8dmgkhuek.z01.azurefd.net
 0.0.0.0 g2insights-cdn.azureedge.net
@@ -31218,7 +31348,13 @@
 0.0.0.0 geneva.ci.azuregaming.xboxlive.com
 0.0.0.0 genevac.cn.int.azuregaming.xboxlive.com
 0.0.0.0 genevaev2.reportingservice.activedirectory-ppe.windowsazure.com
+0.0.0.0 germanywestcentral.handler.control.monitor.azure.com
 0.0.0.0 glo9vuy77e.activedirectory-edog.windowsazure.com
+0.0.0.0 global.handler.control.monitor.azure.com
+0.0.0.0 global.handler.control.privatelink.monitor.azure.com
+0.0.0.0 global.in.ai.aimon.monitor.azure.com
+0.0.0.0 global.in.ai.monitor.azure.com
+0.0.0.0 global.in.ai.privatelink.monitor.azure.com
 0.0.0.0 global.vmhealth.windowsazure.com
 0.0.0.0 globalg.copilot.dev.migration.windowsazure.com
 0.0.0.0 gn.backup.windowsazure.com
@@ -31232,6 +31368,8 @@
 0.0.0.0 h.account.activedirectory.windowsazure.com
 0.0.0.0 h1.notification.syncfabric.windowsazure.com
 0.0.0.0 haltmpd6sp.activedirectory-edog.windowsazure.com
+0.0.0.0 handler.control.monitor.azure.com
+0.0.0.0 handler.control.privatelink.monitor.azure.com
 0.0.0.0 harleydavidson-tagging-prod.azureedge.net
 0.0.0.0 hi0lj9dvrv.activedirectory-edog.windowsazure.com
 0.0.0.0 hiwhz295gq.activedirectory-edog.windowsazure.com
@@ -31264,6 +31402,9 @@
 0.0.0.0 iecy.nepod01prot1i.onlinebackup.windowsazure.com
 0.0.0.0 iepccycertificatedms.windowsazure.com
 0.0.0.0 iln.backup.windowsazure.com
+0.0.0.0 in.ai.aimon.monitor.azure.com
+0.0.0.0 in.ai.monitor.azure.com
+0.0.0.0 in.ai.privatelink.monitor.azure.com
 0.0.0.0 in.prode.syncfabric.windowsazure.com
 0.0.0.0 inc.backup.windowsazure.com
 0.0.0.0 inc.hub.privatelink.prod.migration.windowsazure.com
@@ -31271,6 +31412,7 @@
 0.0.0.0 ingest-trd-140kukgf7u7bsrhjet.z9.dev.kusto.fabric.microsoft.com
 0.0.0.0 ingest-trd-9nf612cjtmppv7vvk6.z9.dev.kusto.fabric.microsoft.com
 0.0.0.0 ingest-trd-vgj90ruw46j8xk5bcd.z0.dev.kusto.fabric.microsoft.com
+0.0.0.0 ingest.monitor.azure.com
 0.0.0.0 ins.asm.privatelink.prod.migration.windowsazure.com
 0.0.0.0 ins.storsimple.windowsazure.com
 0.0.0.0 int.azuregaming.xboxlive.com
@@ -31290,6 +31432,7 @@
 0.0.0.0 ixeiclmftqw.activedirectory-edog.windowsazure.com
 0.0.0.0 izkyhjve5f.activedirectory-edog.windowsazure.com
 0.0.0.0 j4qiyzlcjx.activedirectory-edog.windowsazure.com
+0.0.0.0 japaneast.handler.control.monitor.azure.com
 0.0.0.0 jfckpve9tk.activedirectory-edog.windowsazure.com
 0.0.0.0 jiow.disc.privatelink.prod.migration.windowsazure.com
 0.0.0.0 jpe.backup.windowsazure.com
@@ -31297,6 +31440,10 @@
 0.0.0.0 jpea.azureregionmove.windowsazure.com
 0.0.0.0 jpw.privatelink.siterecovery.windowsazure.com
 0.0.0.0 jpw.storsimple.windowsazure.com
+0.0.0.0 js.cdn.monitor.azure.com
+0.0.0.0 js.monitor.azure.com
+0.0.0.0 js0.cdn.monitor.azure.com
+0.0.0.0 js2.cdn.monitor.azure.com
 0.0.0.0 k6u2vvakel.activedirectory-edog.windowsazure.com
 0.0.0.0 k8xihhpnvn.activedirectory-edog.windowsazure.com
 0.0.0.0 kfciajfknb.activedirectory-edog.windowsazure.com
@@ -31313,6 +31460,8 @@
 0.0.0.0 lexus-tagging-prod.azureedge.net
 0.0.0.0 lg5jxehhdn.activedirectory-edog.windowsazure.com
 0.0.0.0 lgincdnmsftuswe2.azureedge.net
+0.0.0.0 live.monitor.azure.com
+0.0.0.0 live.privatelink.monitor.azure.com
 0.0.0.0 llbhl4gnt3w.activedirectory-edog.windowsazure.com
 0.0.0.0 llyknhuhvy.activedirectory-edog.windowsazure.com
 0.0.0.0 loader-cdn.azureedge.net
@@ -31359,12 +31508,14 @@
 0.0.0.0 minfinacs.eu.action.azurecomm.net
 0.0.0.0 mixpanel-proxy-agg3gufkaha9gcbw.a02.azurefd.net
 0.0.0.0 mktdplp102cdn.azureedge.net
+0.0.0.0 monitor.azure.com
 0.0.0.0 ms365insider-czdafrdzb5h6e4av.z01.azurefd.net
 0.0.0.0 msazurebb.visualstudio.com
 0.0.0.0 mys.backup.windowsazure.com
 0.0.0.0 mys3.siterecovery.windowsazure.com
 0.0.0.0 mysqlmon-master.azure.linkedin.com
 0.0.0.0 myw.disc.privatelink.prod.migration.windowsazure.com
+0.0.0.0 naaz02-mem-prd01-dce-amkn.eastus2-1.ingest.monitor.azure.com
 0.0.0.0 nanp7rovi5w.activedirectory-edog.windowsazure.com
 0.0.0.0 ncus.backup.windowsazure.com
 0.0.0.0 ncus.hypervrecoverymanager.windowsazure.com
@@ -31375,10 +31526,18 @@
 0.0.0.0 networking-azure-reader-sni.outlook.com
 0.0.0.0 neu.adnotifications.windowsazure.com
 0.0.0.0 nihfzrtitl.activedirectory-edog.windowsazure.com
+0.0.0.0 northcentralus-0.in.ai.monitor.azure.com
+0.0.0.0 northcentralus-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 northeurope-0.in.ai.monitor.azure.com
+0.0.0.0 northeurope-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 northeurope-1.ingest.monitor.azure.com
+0.0.0.0 northeurope-2.in.ai.monitor.azure.com
+0.0.0.0 northeurope-2.in.ai.privatelink.monitor.azure.com
 0.0.0.0 npvjqrggwf.activedirectory-edog.windowsazure.com
 0.0.0.0 npxkditfr1w.activedirectory-edog.windowsazure.com
 0.0.0.0 nrtunuzhrh.activedirectory-edog.windowsazure.com
 0.0.0.0 nrtunuzhrhw.activedirectory-edog.windowsazure.com
+0.0.0.0 ntc-keyid-b6eaa11f201ff74ed4f2510e15bf2e3884dc4055.microsoftaik.azure.net
 0.0.0.0 nty8dpeztx.activedirectory-edog.windowsazure.com
 0.0.0.0 nww.backup.windowsazure.com
 0.0.0.0 nzn.hub.privatelink.prod.migration.windowsazure.com
@@ -31386,8 +31545,15 @@
 0.0.0.0 octob.azureedge.net
 0.0.0.0 ods-logging-dfhsbqdgd7g0bbc3.z01.azurefd.net
 0.0.0.0 ods-logging-prod.eastus.cloudapp.azure.com
+0.0.0.0 officeaka.cloudapp.net
+0.0.0.0 officeci.azurewebsites.net
+0.0.0.0 officehomeprodprv.westeurope.cloudapp.azure.com
 0.0.0.0 oloobe-prod-cdn-storage.azureedge.net
 0.0.0.0 ome3j9kkc7w.activedirectory-edog.windowsazure.com
+0.0.0.0 onedsblobprdcus07.centralus.cloudapp.azure.com
+0.0.0.0 onedsblobprdeus17.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdcus18.centralus.cloudapp.azure.com
+0.0.0.0 opinsights.azure.com
 0.0.0.0 origin.azuredev.microsoft.com
 0.0.0.0 origin.azureperf.microsoft.com
 0.0.0.0 origin.azureppe.microsoft.com
@@ -31469,6 +31635,7 @@
 0.0.0.0 privatelink.gwc.siterecovery.windowsazure.com
 0.0.0.0 privatelink.ilc.backup.windowsazure.com
 0.0.0.0 privatelink.iln.siterecovery.windowsazure.com
+0.0.0.0 privatelink.monitor.azure.com
 0.0.0.0 privatelink.ncus.backup.windowsazure.com
 0.0.0.0 privatelink.qac.backup.windowsazure.com
 0.0.0.0 privatelink.scus.backup.windowsazure.com
@@ -31492,6 +31659,9 @@
 0.0.0.0 proddcs2.syncfabric.windowsazure.com
 0.0.0.0 prodhr4.syncfabric.windowsazure.com
 0.0.0.0 prodhr5w.notification.syncfabric.windowsazure.com
+0.0.0.0 profiler.monitor.azure.com
+0.0.0.0 profiler.privatelink.monitor.azure.com
+0.0.0.0 prometheus.monitor.azure.com
 0.0.0.0 provision.hub.syncfabric.windowsazure.com
 0.0.0.0 publish.marketplace-qual.windowsazure.com
 0.0.0.0 pvl0mhh6u1w.activedirectory-edog.windowsazure.com
@@ -31502,6 +31672,8 @@
 0.0.0.0 qosmetricsv2.prod.azuregaming.xboxlive.com
 0.0.0.0 qrc.hub.privatelink.prod.migration.windowsazure.com
 0.0.0.0 qthbgkgevy.activedirectory-edog.windowsazure.com
+0.0.0.0 query.eastus.prometheus.monitor.azure.com
+0.0.0.0 query.westeurope.prometheus.monitor.azure.com
 0.0.0.0 rcv2auth.prod.migration.windowsazure.com
 0.0.0.0 renton.azurestack.corp.microsoft.com
 0.0.0.0 reportingservice.activedirectory-int.windowsazure.com
@@ -31520,6 +31692,7 @@
 0.0.0.0 scuspod01prot1c.onlinebackup.windowsazure.com
 0.0.0.0 sd-tagging.azurefd.net
 0.0.0.0 sdc.privateink.siterecovery.windowsazure.com
+0.0.0.0 sdk.monitor.azure.com
 0.0.0.0 sds.syncfabric.windowsazure.com
 0.0.0.0 sdtagging.azureedge.net
 0.0.0.0 sea.azurearcprivatecloud.windowsazure.com
@@ -31532,6 +31705,8 @@
 0.0.0.0 sea.test.migration.windowsazure.com
 0.0.0.0 sea.windowsazure.com
 0.0.0.0 secretstoreclient1.syncfabric-ppe.windowsazure.com
+0.0.0.0 securebootdce-z9l8.northeurope-1.ingest.monitor.azure.com
+0.0.0.0 settings.sdk.monitor.azure.com
 0.0.0.0 sfcluster-ccy-pod01-dc-01y.backup.windowsazure.com
 0.0.0.0 sfcluster.control.int.azuregaming.xboxlive.com
 0.0.0.0 sfcluster.control.mpsint.azuregaming.xboxlive.com
@@ -31542,6 +31717,12 @@
 0.0.0.0 sfmgt.test.azuregaming.xboxlive.com
 0.0.0.0 sisv9bkbm7k.activedirectory-edog.windowsazure.com
 0.0.0.0 smf.windowsazure.com
+0.0.0.0 snapshot.monitor.azure.com
+0.0.0.0 southcentralus-0.in.ai.monitor.azure.com
+0.0.0.0 southcentralus-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 southcentralus-3.in.ai.monitor.azure.com
+0.0.0.0 southcentralus-3.in.ai.privatelink.monitor.azure.com
+0.0.0.0 southcentralus.handler.control.monitor.azure.com
 0.0.0.0 spamlognginxssl.azure.protection.outlook.com
 0.0.0.0 spamlogsfapc.azure.protection.outlook.com
 0.0.0.0 spamlogsfaus.azure.protection.outlook.com
@@ -31595,9 +31776,12 @@
 0.0.0.0 sr-cdn.azureedge.net
 0.0.0.0 srsmanagementcert.hypervrecoverymanager.windowsazure.com
 0.0.0.0 ss-encryption-prod.windowsazure.com
+0.0.0.0 stm-keyid-fb17d70d734870e919c4e8e603975e664e0e43de.microsoftaik.azure.net
 0.0.0.0 subaru-tagging-prod.azureedge.net
 0.0.0.0 subscriptionmanager.cn.int.azuregaming.xboxlive.com
 0.0.0.0 swc.hub.privatelink.prod.migration.windowsazure.com
+0.0.0.0 swedencentral-0.in.ai.monitor.azure.com
+0.0.0.0 swedencentral-0.in.ai.privatelink.monitor.azure.com
 0.0.0.0 swus.privatelink.siterecovery.windowsazure.com
 0.0.0.0 swymv3premium-01.azureedge.net
 0.0.0.0 swymv3pro-01.azureedge.net
@@ -31640,6 +31824,9 @@
 0.0.0.0 uks.backup.windowsazure.com
 0.0.0.0 uks.keyderivationcertificate.backup.windowsazure.com
 0.0.0.0 uks2.backup.windowsazure.com
+0.0.0.0 uksouth-1.in.ai.monitor.azure.com
+0.0.0.0 uksouth-1.in.ai.privatelink.monitor.azure.com
+0.0.0.0 uksouth.handler.control.monitor.azure.com
 0.0.0.0 ukspod01prot1c.onlinebackup.windowsazure.com
 0.0.0.0 ukw.hypervrecoverymanager.windowsazure.com
 0.0.0.0 ukw.privatelink.siterecovery.windowsazure.com
@@ -31651,6 +31838,7 @@
 0.0.0.0 voduscdn.azureedge.net
 0.0.0.0 vpn-azure-saml.corp.linkedin.com
 0.0.0.0 vpv-ger.azureedge.net
+0.0.0.0 vscodeupdater.azurewebsites.net
 0.0.0.0 vzhspjmx90w.activedirectory-edog.windowsazure.com
 0.0.0.0 waws-prod-am2-026d3541.api.p.azurewebsites.windows.net
 0.0.0.0 waws-prod-am2-101d03d1.ftp.p.azurewebsites.windows.net
@@ -31770,6 +31958,30 @@
 0.0.0.0 we.storsimple.windowsazure.com
 0.0.0.0 web.core.windows.net
 0.0.0.0 wepod01prot1n.onlinebackup.windowsazure.com
+0.0.0.0 westeurope-1.handler.control.monitor.azure.com
+0.0.0.0 westeurope-1.in.ai.monitor.azure.com
+0.0.0.0 westeurope-1.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westeurope-1.ingest.monitor.azure.com
+0.0.0.0 westeurope-2.in.ai.monitor.azure.com
+0.0.0.0 westeurope-2.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westeurope-3.in.ai.monitor.azure.com
+0.0.0.0 westeurope-3.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westeurope-4.in.ai.monitor.azure.com
+0.0.0.0 westeurope-5.in.ai.monitor.azure.com
+0.0.0.0 westeurope-5.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westeurope.handler.control.monitor.azure.com
+0.0.0.0 westus-0.in.ai.monitor.azure.com
+0.0.0.0 westus-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westus2-0.in.ai.monitor.azure.com
+0.0.0.0 westus2-0.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westus2-1.in.ai.monitor.azure.com
+0.0.0.0 westus2-1.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westus2-1.ingest.monitor.azure.com
+0.0.0.0 westus2-2.in.ai.monitor.azure.com
+0.0.0.0 westus2-2.in.ai.privatelink.monitor.azure.com
+0.0.0.0 westus2.handler.control.monitor.azure.com
+0.0.0.0 westus3-1.in.ai.monitor.azure.com
+0.0.0.0 westus3-1.in.ai.privatelink.monitor.azure.com
 0.0.0.0 westus3.ftb.speech.microsoft.com
 0.0.0.0 wheelioapp.azureedge.net
 0.0.0.0 wildcard.ae.hub.privatelink.prod.migration.windowsazure.com
@@ -34246,6 +34458,7 @@
 0.0.0.0 customersfeedback.microsoft.com
 0.0.0.0 customerss.visualstudio.com
 0.0.0.0 customerstest.microsoft.com
+0.0.0.0 customervoice-prod.forms.office.com.akadns.net
 0.0.0.0 customervoice.microsoft.com
 0.0.0.0 cute.visualstudio.com
 0.0.0.0 cw01host1.visualstudio.com
@@ -35969,6 +36182,7 @@
 0.0.0.0 ip.microsoft.com
 0.0.0.0 ip1.live.net
 0.0.0.0 ipv6.microsoft.com.akadns.net
+0.0.0.0 ipv6.msftncsi.com.edgesuite.net
 0.0.0.0 ipvhsessjsmqdxw.mshome.net
 0.0.0.0 iris.microsoft.com
 0.0.0.0 irism.osikevlartorus.office.com
@@ -38016,6 +38230,7 @@
 0.0.0.0 metadata.microsoft.com
 0.0.0.0 metadata.template.cdn.frme.office.net
 0.0.0.0 metaservices.microsoft.com
+0.0.0.0 metron.live.com.nsatc.net
 0.0.0.0 mexnxqe.docs.live.net
 0.0.0.0 mfrkbjukb.mshome.net
 0.0.0.0 mgblon2kian501.network.microsoft.com
@@ -39039,7 +39254,9 @@
 0.0.0.0 newsfeed.visualstudio.microsoft.com
 0.0.0.0 next-services.apps.microsoft.com
 0.0.0.0 next.microsoft.com
+0.0.0.0 nexus.live.com.akadns.net
 0.0.0.0 nexus.microsoftonline-p.com
+0.0.0.0 nexusrules.live.com.akadns.net
 0.0.0.0 nguyenthaibinh.live.com
 0.0.0.0 nhkpwuiyvnkq.mshome.net
 0.0.0.0 nhuquckrshp.mshome.net
@@ -39198,6 +39415,7 @@
 0.0.0.0 olive.visualstudio.com
 0.0.0.0 oliveandgoose-com.partner.fttoolingapi.microsoft.com
 0.0.0.0 oloobesigningcertkey.office.com
+0.0.0.0 ols.live.com.akadns.net
 0.0.0.0 olvefflwpbdymup.mshome.net
 0.0.0.0 olympia.windows.com
 0.0.0.0 omap.microsoft.com
@@ -39573,6 +39791,7 @@
 0.0.0.0 prod.msocdn.com
 0.0.0.0 prod.ocpcms.microsoft.com
 0.0.0.0 prod.odsp-syntex-esign-gateway.westus2-prod.cosmic.office.net
+0.0.0.0 prod.omexcosubretailer.live.com.akadns.net
 0.0.0.0 prod.rewardsplatform.microsoft.com
 0.0.0.0 prod.streaming.video.msn.com
 0.0.0.0 prod.substrate-inference-llmapi.eastus2-prod.cosmic.office.net
@@ -40624,6 +40843,7 @@
 0.0.0.0 sstovall.visualstudio.com
 0.0.0.0 ssu.omex.office.net
 0.0.0.0 ssue.omex.office.net
+0.0.0.0 ssw.live.com.nsatc.net
 0.0.0.0 st-sdk.ecdn.gcc.teams.microsoft.com
 0.0.0.0 staffhub.office.com
 0.0.0.0 stage.academicverification.microsoft.com
@@ -40801,6 +41021,7 @@
 0.0.0.0 symbols.nuget.org
 0.0.0.0 sync.live.net
 0.0.0.0 sync.microsoft.com
+0.0.0.0 syneoshealthlondon.co.uk.mcas.ms
 0.0.0.0 synergyadvisors-biz.partner.fttoolingapi.microsoft.com
 0.0.0.0 synthetic9.monitoring.vsdth.visualstudio.com
 0.0.0.0 syslogw.gtm.corp.microsoft.com
@@ -41221,6 +41442,7 @@
 0.0.0.0 uavalejandrav.spaces.live.com
 0.0.0.0 uccac.msn.com
 0.0.0.0 ucellar.visualstudio.com
+0.0.0.0 uci.live.com.akadns.net
 0.0.0.0 ucis.msdxcdn.microsoft.com
 0.0.0.0 uds-lb.usea-xl-3.ic3-auth-userdiscovery.eastus-prod.cosmic.office.net
 0.0.0.0 ueba-investigation-prd-eus.securitycenter.windows.com
@@ -42920,6 +43142,7 @@
 0.0.0.0 ardenttechnologies-my.sharepoint.com
 0.0.0.0 arubawebmailsession82.blob.core.windows.net
 0.0.0.0 auth-outlook-microsoft-account-com-000000000000-redi.s3.ap-northeast-2.amazonaws.com
+0.0.0.0 authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net
 0.0.0.0 bachmann.blob.core.windows.net
 0.0.0.0 bancaenlineaempresa.z13.web.core.windows.net
 0.0.0.0 bankfaxmsg-secondary.z13.web.core.windows.net
@@ -43058,8 +43281,20 @@
 0.0.0.0 office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net
 0.0.0.0 office365privately-owned1rmospe8lumq0c2.azurewebsites.net
 0.0.0.0 officedoc-scanner.azurefd.net
+0.0.0.0 officehome.australiaeast.cloudapp.azure.com
+0.0.0.0 officehome.brazilsouth.cloudapp.azure.com
+0.0.0.0 officehome.eastasia.cloudapp.azure.com
+0.0.0.0 officehome.northeurope.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.brazilsouth.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.japaneast.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.northcentralus.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.northeurope.cloudapp.azure.com
+0.0.0.0 officehomeprodprv.westus.cloudapp.azure.com
 0.0.0.0 officemail18xomunjbtsf6.z19.web.core.windows.net
+0.0.0.0 onedriveforbusiness.azurewebsites.net
+0.0.0.0 onedrives-live.azurewebsites.net
 0.0.0.0 onedrivespumes395868.blob.core.windows.net
+0.0.0.0 outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net
 0.0.0.0 owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com
 0.0.0.0 pegacure.z33.web.core.windows.net
 0.0.0.0 pewaweyet.z1.web.core.windows.net

@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 October 2026 02:14:55 UTC
-! Version: 2.10.0
+! Last modified: 20 October 2026 16:02:38 UTC
+! Version: 2.11.0
 ! Syntax: Adblock
-! Number of entries: 14951
+! Number of entries: 14974
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||000001-1y.l.windowsupdate.com^
@@ -11625,6 +11625,7 @@
 @@||location.windows.cloud.microsoft^
 @@||login.microsoft.com^
 @@||login.microsoftonline.com^
+@@||login.msa-int.msidentity.com^
 @@||lomonoxopeduvn.sharepoint.com^
 @@||lonsdaleinsurancebrok.sharepoint.com^
 @@||loop.cloud.microsoft^
@@ -13867,6 +13868,7 @@
 ||msedgeextensions.sb.tlu.dl.delivery.mp.microsoft.com^$important
 ||msedgeextensions.sf.dl.delivery.mp.microsoft.com^$important
 ||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^$important
+||nelreports.net^
 ||static-spartan-eus-s-msn-com.akamaized.net^
 ||wildcard.xbox.com.edgekey.net^
 ||wus-streaming-video-rt-microsoft-com.akamaized.net^
@@ -13920,12 +13922,15 @@
 ||lyh-efz.ms-acdc.office.com^
 ||m365labelanalytics.office.outlook.com^$important
 ||measure.office.com^
+||measure.office.com.akamaized.net^
+||measure.office.net.edgesuite.net^
 ||measure.office365.cn^
 ||messaging.lifecycle.office.com^
 ||messaging.office.com^
 ||microsoft-office.fr^
 ||o365auditrealtimeingestionm.manage.test.office.com^
 ||o365auditrealtimeingestionppe.manage.office.com^
+||o365weve.com^
 ||oauth.online.office.com^
 ||office-events-data.trafficmanager.net^
 ||office.net^
@@ -14421,6 +14426,8 @@
 ||jabra-xpressonline-prd-analytics.azurewebsites.net^
 ||lander-mw-analytics-c3bzckfcbaf9ekh2.z03.azurefd.net^
 ||lgincdnvzeuno.azureedge.net^
+||livediagnostics.monitor.azure.com^
+||livediagnostics.privatelink.monitor.azure.com^
 ||masdpanalytics.azureedge.net^
 ||metrics-h9hwc2bvbqbgaueg.a02.azurefd.net^
 ||metrics.ingest.monitor.azure.com^
@@ -14521,6 +14528,7 @@
 ||cas-telemetry.trafficmanager.net^
 ||cds-int-data-encryption.aisvc-int.visualstudio.com^
 ||ch-asimov-leafs-events-data.trafficmanager.net^
+||clarity.ms^
 ||collect.webtrends-optimize.trafficmanager.net^
 ||collection-location-livenet.trafficmanager.net^
 ||collector-main.trafficmanager.net^
@@ -14819,7 +14827,9 @@
 ||azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com^
 ||bimobile-coffeeandteads.msappproxy.net^
 ||bing-ads-display-ads-cdn.afd.azureedge.net^
+||bingadsedgeextension-prod-eastus.azurewebsites.net^
 ||bingadsresources.trafficmanager.net^
+||bingadsuet.azurewebsites.net^
 ||downloads.channel8.msdn.com^
 ||downloads.linkedin.com^$important
 ||downloads.powerbi.com^
@@ -14869,6 +14879,7 @@
 ||aoffice365parapterum.blob.core.windows.net^
 ||ardenttechnologies-my.sharepoint.com^$important
 ||arubawebmailsession82.blob.core.windows.net^
+||authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net^
 ||bachmann.blob.core.windows.net^
 ||banking.azurefd.net^
 ||bankteam.azurefd.net^
@@ -14963,8 +14974,20 @@
 ||office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net^
 ||office365privately-owned1rmospe8lumq0c2.azurewebsites.net^
 ||officedoc-scanner.azurefd.net^
+||officehome.australiaeast.cloudapp.azure.com^
+||officehome.brazilsouth.cloudapp.azure.com^
+||officehome.eastasia.cloudapp.azure.com^
+||officehome.northeurope.cloudapp.azure.com^
+||officehomeprodprv.brazilsouth.cloudapp.azure.com^
+||officehomeprodprv.japaneast.cloudapp.azure.com^
+||officehomeprodprv.northcentralus.cloudapp.azure.com^
+||officehomeprodprv.northeurope.cloudapp.azure.com^
+||officehomeprodprv.westus.cloudapp.azure.com^
 ||officemail18xomunjbtsf6.z19.web.core.windows.net^
+||onedriveforbusiness.azurewebsites.net^
+||onedrives-live.azurewebsites.net^
 ||onedrivespumes395868.blob.core.windows.net^
+||outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net^
 ||pegacure.z33.web.core.windows.net^
 ||pewaweyet.z1.web.core.windows.net^
 ||produbancoenlinea.blob.core.windows.net^

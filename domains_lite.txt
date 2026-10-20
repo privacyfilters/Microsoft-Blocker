@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 02:14:59 UTC
-# Version: 2.10.0
+# Last modified: 20 October 2026 16:02:42 UTC
+# Version: 2.11.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 16993
+# Number of entries: 17081
 #
 # # Custom Allow & Blocklist # #
 #000001-1y.l.windowsupdate.com
@@ -11622,6 +11622,7 @@
 #location.windows.cloud.microsoft
 #login.microsoft.com
 #login.microsoftonline.com
+#login.msa-int.msidentity.com
 #lomonoxopeduvn.sharepoint.com
 #lonsdaleinsurancebrok.sharepoint.com
 #loop.cloud.microsoft
@@ -15561,6 +15562,7 @@ a-ring.msedge.net
 a0001.a-msedge.net
 account.microsoft.com.edgekey.net
 account.xbox.com.edgekey.net
+aefd.nelreports.net
 afdap.au.au-msedge.net
 api-msn-com.a-0003.a-msedge.net
 arc-ring.arc-9999.arc-msedge.net
@@ -15610,6 +15612,7 @@ cp701-prod.do.dsp.mp.microsoft.com.edgekey.net
 data.edge.messenger.live.com
 dc-msedge.net
 deault-exp-tas-com.e-0014.e-msedge.net
+deff.nelreports.net
 developer.microsoft.com-c.edgekey.net.globalredir.akadns.net
 docs.microsoft.com-c.edgekey.net
 dual-a-0036.a-msedge.net
@@ -15618,7 +15621,9 @@ e-0009.e-msedge.net
 e-0012.e-msedge.net
 e-0014.e-msedge.net
 e-msedge.net
+eafc.nelreports.net
 edge-microsoft-com.dual-a-0036.a-msedge.net
+egde.nelreports.net
 evocor-windowsservices-tas.msedge.net
 evoke-windowsservices-tas-msedge-net.e-0009.e-msedge.net
 evoke-windowsservices-tas.msedge.net
@@ -15627,6 +15632,7 @@ f-0001.f-msedge.net
 f-msedge.net
 fbs1-t-msedge.net
 fdv2-t-msedge.net
+ffde.nelreports.net
 fp.msedge.net
 fs-wildcard.microsoft.com.edgekey.net
 fs-wildcard.microsoft.com.edgekey.net.globalredir.akadns.net
@@ -15665,8 +15671,10 @@ ln-ring-fallback.msedge.net
 ln-ring.msedge.net
 location-microsoft-com.b-0005.b-msedge.net
 m1-msedge.net
+mdec.nelreports.net
 microsoft.com-c-3.edgekey.net.globalredir.akadns.net
 microsoft.com.akamaized.net
+mmay.nelreports.net
 msedge.api.cdn.microsoft.net
 msedge.api.cdp.microsoft.com
 msedge.f.dl.delivery.mp.microsoft.com
@@ -15686,6 +15694,7 @@ msedgeextensions.sb.tlu.dl.delivery.mp.microsoft.com
 msedgeextensions.sf.dl.delivery.mp.microsoft.com
 msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 muser2.relay.data.edge.messenger.live.com
+nelreports.net
 nontlu.graystore.au-msedge.net
 ns1.a-msedge.net
 ns1.b-msedge.net
@@ -15750,6 +15759,7 @@ www.a-msedge.net
 www.bing.com.edgekey.net
 www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net
 www.msedge.net
+www.nelreports.net
 xbox-mbr.akamaized.net
 xboxlive.akamaized.net
 xboxlive.download.akamai.com
@@ -19393,6 +19403,7 @@ fgteu1-word-telemetry-vip.officeapps.live.com
 fileserverg.fp.measure.office.com
 fluidpreview.office.net
 fp.measure.office.com
+fp.measure.office.com.akamaized.net
 fpastorage.cdn.office.net
 fra-efz.ms-acdc.office.com
 fs2016o.fp.measure.office.com
@@ -19430,7 +19441,9 @@ m365labelanalytics.office.outlook.com
 mail.protection.outlook.com
 manage.office365.us
 measure.office.com
+measure.office.com.akamaized.net
 measure.office.net
+measure.office.net.edgesuite.net
 measure.office365.cn
 measure.office365.us
 messaging.engagement.office.com
@@ -19450,15 +19463,18 @@ myoffice.microsoft.com
 nam.loki.delve.office.com
 nam.unifiedfeedback.office.net
 nel.measure.office.net
+nel.measure.office.net.edgesuite.net
 nelgallatin.measure.office365.cn
 nelitar.measure.office365.us
 nelsdf.measure.office.net
+nelsdf.measure.office.net.edgesuite.net
 nleditor.osi.office.net
 ns1.fp.measure.office.com
 ns2.fp.measure.office.com
 o15.officeredir.microsoft.com
 o365auditrealtimeingestionm.manage.test.office.com
 o365auditrealtimeingestionppe.manage.office.com
+o365weve.com
 oauth.online.office.com
 ocos-office365-s2s.msedge.net
 office-c.events.data.microsoft.com
@@ -19574,6 +19590,7 @@ uci.cdn.office.net
 uci.edog.cdn.office.net
 upload.fp.measure.office.com
 upload2.fp.measure.office.com
+upload2.fp.measure.office.com.akamaized.net
 vcanalyticssigningcertkeyc.office.com
 videoplayercdn.osi.office.net
 visioonline.nel.measure.office.net
@@ -21106,6 +21123,7 @@ centralus-0.in.applicationinsights.azure.com
 centralus-2.in.applicationinsights.azure.com
 centralus-3.in.applicationinsights.azure.com
 centralus.in.applicationinsights.azure.com
+centralus.livediagnostics.monitor.azure.com
 chinaeast2-0.in.applicationinsights.azure.cn
 chinaeast3-global.in.applicationinsights.azure.cn
 chinanorth3-0.in.applicationinsights.azure.cn
@@ -21133,9 +21151,13 @@ eastus-5.in.applicationinsights.azure.com
 eastus-6.in.applicationinsights.azure.com
 eastus-8.in.applicationinsights.azure.com
 eastus-global.in.applicationinsights.azure.com
+eastus.livediagnostics.monitor.azure.com
+eastus.livediagnostics.privatelink.monitor.azure.com
 eastus2-0.in.applicationinsights.azure.com
 eastus2-3.in.applicationinsights.azure.com
 eastus2-4.in.applicationinsights.azure.com
+eastus2.livediagnostics.monitor.azure.com
+eastus2.livediagnostics.privatelink.monitor.azure.com
 edge-management-azure-com.arm-0001.arm-msedge.net
 edge.skype.com.trafficmanager.net
 edgeassetservice.afd.azureedge.net
@@ -21160,6 +21182,8 @@ g-msn-com-nsatc.trafficmanager.net
 gateway.azureserviceprofiler.net
 germanywestcentral-0.in.applicationinsights.azure.com
 germanywestcentral-1.in.applicationinsights.azure.com
+global.livediagnostics.monitor.azure.com
+global.livediagnostics.privatelink.monitor.azure.com
 hosts.driver-analytics-web-service.azurewebsites.net
 hosts.ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 ideasazurefeedbackprod.powerappsportals.com
@@ -21191,6 +21215,8 @@ lander-mw-analytics-c3bzckfcbaf9ekh2.z03.azurefd.net
 lgincdnvzeuno.azureedge.net
 live.applicationinsights.azure.cn
 live.applicationinsights.azure.com
+livediagnostics.monitor.azure.com
+livediagnostics.privatelink.monitor.azure.com
 manage.windowsazure.com
 masdpanalytics.azureedge.net
 metrics-h9hwc2bvbqbgaueg.a02.azurefd.net
@@ -21215,6 +21241,7 @@ northeurope-3.in.applicationinsights.azure.com
 northeurope-4.in.applicationinsights.azure.com
 northeurope-5.in.applicationinsights.azure.com
 northeurope-global.in.applicationinsights.azure.com
+northeurope.livediagnostics.monitor.azure.com
 norwayeast-0.in.applicationinsights.azure.com
 odinvzc.azureedge.net
 odinvzc.ec.azureedge.net
@@ -21244,6 +21271,7 @@ southafricanorth-0.in.applicationinsights.azure.com
 southafricanorth-1.in.applicationinsights.azure.com
 southcentralus-0.in.applicationinsights.azure.com
 southcentralus-3.in.applicationinsights.azure.com
+southcentralus.livediagnostics.monitor.azure.com
 southeastasia-0.in.applicationinsights.azure.com
 southeastasia-1.in.applicationinsights.azure.com
 southindia-0.in.applicationinsights.azure.com
@@ -21274,6 +21302,7 @@ uaenorth-0.in.applicationinsights.azure.com
 uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com
 uksouth-0.in.applicationinsights.azure.com
 uksouth-1.in.applicationinsights.azure.com
+uksouth.livediagnostics.monitor.azure.com
 ukwest-0.in.applicationinsights.azure.com
 usgovarizona-0.in.applicationinsights.azure.us
 usgovarizona-global.in.applicationinsights.azure.us
@@ -21304,6 +21333,8 @@ westeurope-4.in.applicationinsights.azure.com
 westeurope-5.in.applicationinsights.azure.com
 westeurope-global.in.applicationinsights.azure.com
 westeurope.in.applicationinsights.azure.com
+westeurope.livediagnostics.monitor.azure.com
+westeurope.livediagnostics.privatelink.monitor.azure.com
 westus-0.in.applicationinsights.azure.com
 westus2-0.in.applicationinsights.azure.com
 westus2-1.in.applicationinsights.azure.com
@@ -21311,6 +21342,7 @@ westus2-2.in.applicationinsights.azure.com
 westus2-4.in.applicationinsights.azure.com
 westus2-5.in.applicationinsights.azure.com
 westus2-global.in.applicationinsights.azure.com
+westus2.livediagnostics.monitor.azure.com
 westus3-1.in.applicationinsights.azure.com
 westus3.in.applicationinsights.azure.com
 wh-api-analytics.azurewebsites.net
@@ -21341,6 +21373,7 @@ xpaywalletcdn-prod.azureedge.net
 71574faf-e7ba-460a-b3bf-b885b9abbe9e.rddiagnostics-g-us-r1.wvd.microsoft.com
 71b495bf8b574c9f2d065668db73187d.measure.microsoft.com
 9dfdff8a-860b-44a1-9232-7af1f8528c14.rddiagnostics-g-us-r1.wvd.microsoft.com
+a.clarity.ms
 a.events.data.microsoft.com
 aad5.kas.telemetry.powerbi.com
 account.analytics.visualstudio.com
@@ -21362,6 +21395,7 @@ ams-tracking.king.com
 analytics-gateway-fallguys.trafficmanager.net
 analytics-listener.trafficmanager.net
 analytics.ads.microsoft.com
+analytics.live.com.nsatc.net
 analytics.live.net
 analytics.messaging.microsoft.com
 analytics.microsoft.com
@@ -21385,6 +21419,7 @@ api-uswe2.pstnmonitoring.skype.com
 api.pstnmonitoring.skype.com
 app.analytics.microsoft.com
 applicationinsights.microsoft.com
+apps.report.clarity.ms
 appservice-diagnostics.trafficmanager.net
 aria.events.data.trafficmanager.net
 asimov-sandbox.vortex.data.microsoft.com.akadns.net
@@ -21413,6 +21448,7 @@ azglobal-black.prod.microsoftmetrics.com
 azglobal-red.prod.microsoftmetrics.com
 azglobal.prod.microsoftmetrics.com
 azrmonitoring.messaging.microsoft.com
+b.clarity.ms
 b797c241edfdb21012821f184d3ef74c.measure.microsoft.com
 bd045e81-c6a2-42e6-9d6a-c1757884b245.rddiagnostics-g-us-r1.wvd.microsoft.com
 beacons.trafficmanager.net
@@ -21428,6 +21464,7 @@ browser.events.data.microsoft.us
 browser.events.data.trafficmanager.net
 browser.pipe.aria.microsoft.com
 btgpactual.analytics.visualstudio.com
+c.clarity.ms
 c52ea4498ff05be02de7c38c4ecdea09.measure.microsoft.com
 c5fc1376-a0fb-409b-bdf3-5978a80d2444.rddiagnostics-g-eu-r1.wvd.microsoft.com
 campaigntracking-int.mp.dps.microsoft.com
@@ -21463,6 +21500,7 @@ cid-decaddc006c945f8.profile.live.com
 cid-f86f78f87d4224caa.profile.live.com
 cid-fabf820405bab8ef.profile.live.com
 clarity.microsoft.com
+clarity.ms
 click.email.microsoftemail.com
 click.engage.windows.com
 click.microsoft.com
@@ -21483,6 +21521,7 @@ cosmic.msit.events.teams.cloud.microsoft
 cs01-sqlmi-chub-sqm-t54-uks.011bd613e818.database.windows.net
 cssprofile.partners.extranet.microsoft.com
 cy2.settings.data.microsoft.com.akadns.net
+d.clarity.ms
 d3038db538b2016fbce0eaf83e47dd71.measure.microsoft.com
 daf7cefa0ae7c5a9320aa036ce35d3c6.measure.microsoft.com
 data-beta.broadcast.skype.com
@@ -21553,6 +21592,7 @@ domaindata-a.parttest.extranettest.microsoft.com
 domaindata.ecx-dit2.parttest.extranettest.microsoft.com
 dspbeacons-error.trafficmanager.net
 dxt.lake.data.microsoft.com
+e.clarity.ms
 eat1-monitor03.corp.linkedin.com
 eat1-monitor04.corp.linkedin.com
 eat1-monitor10.corp.linkedin.com
@@ -21608,6 +21648,7 @@ eventservice.trafficmanager.net
 eventsppe.partners.extranet.microsoft.com
 excel-telemetry.wac.trafficmanager.net
 eyglobaltaxplatformk.analytics.visualstudio.com
+f.clarity.ms
 f5bbbc845476e363a1ee9ba2f2e33124.measure.microsoft.com
 federatedprofile.skype.com
 flagship-infra-metrics.corp.linkedin.com
@@ -21615,6 +21656,7 @@ flightsmonitoring.sharepointonline.com
 forumanalytics.int2.xbox.com
 fraudeventsvc-ppe.trafficmanager.net
 functional.events.data.microsoft.com
+g.clarity.ms
 gaming-data-sslk.xboxlive.com
 geo-analytics-data.trafficmanager.net
 geo.hub.analytics.trafficmanager.net
@@ -21625,10 +21667,12 @@ global.aria.events.data.trafficmanager.net
 global.asimov.events.data.trafficmanager.net
 global.prod.microsoftmetrics.com
 gmodatatransfer.partners.extranet.microsoft.com
+h.clarity.ms
 hccm1.analytics.visualstudio.com
 hivadataarchive.partners.extranet.microsoft.com
 hk2.settings.data.microsoft.com.akadns.net
 hub.analytics.trafficmanager.net
+i.clarity.ms
 ic3.events.data.microsoft.com
 icm.kas.telemetry.powerbi.com
 in-mobile.events.data.microsoft.com
@@ -21654,18 +21698,23 @@ int.ingest.edu.cloud.microsoft
 int.profileapi.services.microsoft.com
 ir-tracking.trafficmanager.net
 ism-telemetry.trafficmanager.net
+j.clarity.ms
 jobingestion.www.linkedin.com
 jp-mobile.events.data.microsoft.com
 jp-v10.events.data.microsoft.com
 jp-v10c.events.data.microsoft.com
 jp-v20.events.data.microsoft.com
 jp.events.data.trafficmanager.net
+k.clarity.ms
 kas.telemetry.powerbi.com
+l.clarity.ms
 l4.tb.events.data.trafficmanager.net
 l5.pf.events.data.trafficmanager.net
 lamarianxuensevilla.spaces.live.com
 lodgingeconometrics-my.sharepoint.com
+log.clarity.ms
 lva1-pometrics-fe-prod01.corp.linkedin.com
+m.clarity.ms
 marialuisa19-04-90.spaces.live.com
 marianw.msappproxy.net
 mars-objectstore-sparkingestion-nam.dlis.bing.microsoft.com
@@ -21709,8 +21758,10 @@ msit.rtmpingest.mcr.teams.cloud.microsoft
 msybidata.adcenter.microsoft.com
 myanalytics.gcc.microsoft.com
 myanalytics.microsoft.com
+n.clarity.ms
 noam.events.data.microsoft.com
 noam.events.data.trafficmanager.net
+o.clarity.ms
 oca.alpha.telemetry.microsoft.com
 oca.microsoft.com
 oca.telemetry.microsoft.com
@@ -21718,6 +21769,7 @@ oca7.alpha.telemetry.microsoft.com
 ocelocator.dev.telemetry.sharepointonline.com
 ocelocator.prod.telemetry.sharepointonline.com
 oms-analytics.trafficmanager.net
+p.clarity.ms
 partnerfraudevents.trafficmanager.net
 pb-api-logging.trafficmanager.net
 pf.events.data.microsoft.com
@@ -21751,22 +21803,28 @@ profile.skype.com
 profilea.rol.mesh.microsoft.com
 profileapi.services.microsoft.com
 profiles.live.com
+q.clarity.ms
 qa.profileapi.services.microsoft.com
+r.clarity.ms
 rddiagnostics-g-us-r1.wvd.microsoft.com
 rdm-trafficmanager-ticketscenter-metrics.trafficmanager.net
 relying-party-encryption-vortex-win.data.microsoft.com
+report.clarity.ms
 rps-cek-collector-sbx.events-sandbox.data.microsoft.com
 rps-cek-collector.events.data.microsoft.com
 rps-dek-collector-sbx.events-sandbox.data.microsoft.com
 rps-dek-collector.events.data.microsoft.com
 rt.applicationinsights.microsoft.com
+s.clarity.ms
 sandbox.settings.data.microsoft.com.akadns.net
 sandbox.vortex.data.trafficmanager.net
+scripts.clarity.ms
 sec-logging.stg.linkedin.com
 securitysignals-siphonclient.outlook.com
 self-events-data.trafficmanager.net
 self.events.data.microsoft.com
 self.events.data.microsoft.us
+self.pipe.aria.microsoft.com
 sell-collector.stg.linkedin.com
 server.events.data.microsoft.com
 server.events.data.trafficmanager.net
@@ -21782,6 +21840,7 @@ sf9.kas.telemetry.powerbi.com
 shoebox2-black.prod.microsoftmetrics.com
 shoebox2-red.prod.microsoftmetrics.com
 shoebox2.prod.microsoftmetrics.com
+shop-integration.clarity.microsoft.com
 signals.urs.microsoft.com
 signalstoreclient.outlook.com
 siteops-data-zoo.corp.linkedin.com
@@ -21797,6 +21856,7 @@ stg-diagnostics.support.microsoft.com
 stg-supportdiagnostics.partners.extranet.microsoft.com
 sti.profileconnector.outlook.com
 supportdiagnostics.partners.extranet.microsoft.com
+t.clarity.ms
 tb.events.data.microsoft.com
 tb.events.data.trafficmanager.net
 teams-events-data.trafficmanager.net
@@ -21841,6 +21901,7 @@ tscp-tracking.lor1.rtb.linkedin.com
 tscp-tracking.ltx1.rtb.linkedin.com
 tscp-tracking.lva1.rtb.linkedin.com
 tst.profileapi.services.microsoft.com
+u.clarity.ms
 uk-mobile.events.data.microsoft.com
 uk-v20.events.data.microsoft.com
 uk-v20.events.endpoint.security.microsoft.com
@@ -21863,6 +21924,7 @@ us4-v20.events.data.microsoft.com
 us5-v20.events.data.microsoft.com
 userprofile.partners.extranet.microsoft.com
 userprofilestaging.partners.extranet.microsoft.com
+v.clarity.ms
 v10-win.vortex.data.trafficmanager.net
 v10.events.data.microsoft.com
 v10.events.data.microsoft.us
@@ -21871,11 +21933,14 @@ v20-asimov-win.vortex.data.trafficmanager.net
 v20.events.data.microsoft.com
 v20.events.data.microsoft.us
 v21.events.data.microsoft.com
+vortex-bn2.metron.live.com.nsatc.net
+vortex-cy2.metron.live.com.nsatc.net
 vortex-win.data.microsoft.com
 vortex.data.microsoft.com
 vortex.data.msn.com
 vortex.data.trafficmanager.net
 vstelemetry.trafficmanager.net
+w.clarity.ms
 watson.telemetry.microsoft.com
 watson01.watsonstage.microsoft.com
 watson02.watsonstage.microsoft.com
@@ -21901,6 +21966,7 @@ www.cid-247e4f9dad015780.profile.live.com
 www.cid-27dde4ef8dca6e5b.profile.live.com
 www.cid-4daf19ff91c31475.profile.live.com
 www.cid-952b59b3a5f873b0.profile.live.com
+www.clarity.ms
 www.clubprofile-partner.xboxlive.com
 www.collection.location.live.net
 www.data.assist.gameservices.xboxlive.com
@@ -21928,7 +21994,10 @@ www.sn1-collection-df.location.live.net
 www.sqmtest.microsoft.com
 www.tracking-hub.stg.linkedin.com
 www.xb1ingestionv2.xboxlive.com
+x.clarity.ms
 xb1ingestionv2g.xboxlive.com
+y.clarity.ms
+z.clarity.ms
 z1.kusto.data.microsoft.com
 zuora-monitor.linkedin.com
 # # GitHub telemetry
@@ -22445,6 +22514,7 @@ azk.bing.com
 azu.bing.com
 bab.bing.com
 basic-nodejs-devp.bing.com
+bat.bing-int.com
 bat.bing.com
 bat.bing.net
 bba.bing.com
@@ -23108,6 +23178,8 @@ msnbot-40-77-164-61.search.msn.com
 msnbot-40-77-164-67.search.msn.com
 msnbot-40-77-165-244.search.msn.com
 msnbot-40-77-166-112.search.msn.com
+msnbot-40-77-167-57.search.msn.com
+msnbot-40-77-167-58.search.msn.com
 msnbot-40-77-168-227.search.msn.com
 msnbot-40-77-169-127.search.msn.com
 msnbot-40-77-170-15.search.msn.com
@@ -23219,6 +23291,7 @@ msnbot-40-90-158-130.search.msn.com
 msnbot-40-90-158-172.search.msn.com
 msnbot-40-90-159-8.search.msn.com
 msnbot-52-167-144-116.search.msn.com
+msnbot-52-167-144-188.search.msn.com
 msnbot-64-4-22-223.search.msn.com
 msnbot-65-52-104-25.search.msn.com
 msnbot-65-52-109-18.search.msn.com
@@ -29943,6 +30016,7 @@ ads-act.trafficmanager.net
 ads-inmobi-comtm.trafficmanager.net
 ads-investigator.prod.linkedin.com
 ads-investigator.stg.linkedin.com
+ads.adnxs.com
 ads.arcctrps.msn.com
 ads.bing.com
 ads.licdn.com
@@ -30081,8 +30155,10 @@ bimobile-coffeeandteads.msappproxy.net
 bind-gateway.corp.appnexus.com
 bing-ads-display-ads-cdn.afd.azureedge.net
 bingads.glbdns2.microsoft.com
+bingadsedgeextension-prod-eastus.azurewebsites.net
 bingadseditor.microsoft.com
 bingadsresources.trafficmanager.net
+bingadsuet.azurewebsites.net
 blu.mobileads.msn.com
 bm203430.nym2.appnexus.com
 bm203440.nym2.appnexus.com
@@ -30617,6 +30693,7 @@ aoffice365parapterum.blob.core.windows.net
 ardenttechnologies-my.sharepoint.com
 arubawebmailsession82.blob.core.windows.net
 auth-outlook-microsoft-account-com-000000000000-redi.s3.ap-northeast-2.amazonaws.com
+authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net
 bachmann.blob.core.windows.net
 bancaenlineaempresa.z13.web.core.windows.net
 bankfaxmsg-secondary.z13.web.core.windows.net
@@ -30755,8 +30832,20 @@ office365.cx
 office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net
 office365privately-owned1rmospe8lumq0c2.azurewebsites.net
 officedoc-scanner.azurefd.net
+officehome.australiaeast.cloudapp.azure.com
+officehome.brazilsouth.cloudapp.azure.com
+officehome.eastasia.cloudapp.azure.com
+officehome.northeurope.cloudapp.azure.com
+officehomeprodprv.brazilsouth.cloudapp.azure.com
+officehomeprodprv.japaneast.cloudapp.azure.com
+officehomeprodprv.northcentralus.cloudapp.azure.com
+officehomeprodprv.northeurope.cloudapp.azure.com
+officehomeprodprv.westus.cloudapp.azure.com
 officemail18xomunjbtsf6.z19.web.core.windows.net
+onedriveforbusiness.azurewebsites.net
+onedrives-live.azurewebsites.net
 onedrivespumes395868.blob.core.windows.net
+outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net
 owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com
 pegacure.z33.web.core.windows.net
 pewaweyet.z1.web.core.windows.net

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 October 2026 02:14:59 UTC
-# Version: 2.10.0
+# Last modified: 20 October 2026 16:02:42 UTC
+# Version: 2.11.0
 # Syntax: DNSMasq
-# Number of entries: 15354
+# Number of entries: 15380
 #
 # # Custom Allow & Blocklist # #
 server=/000001-1y.l.windowsupdate.com/
@@ -11622,6 +11622,7 @@ server=/local.local.nonprod.ml.cdn.office.net/
 server=/location.windows.cloud.microsoft/
 server=/login.microsoft.com/
 server=/login.microsoftonline.com/
+server=/login.msa-int.msidentity.com/
 server=/lomonoxopeduvn.sharepoint.com/
 server=/lonsdaleinsurancebrok.sharepoint.com/
 server=/loop.cloud.microsoft/
@@ -13947,6 +13948,7 @@ local=/msedgeextensions.sb.dl.delivery.mp.microsoft.com/
 local=/msedgeextensions.sb.tlu.dl.delivery.mp.microsoft.com/
 local=/msedgeextensions.sf.dl.delivery.mp.microsoft.com/
 local=/msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com/
+local=/nelreports.net/
 local=/nontlu.graystore.au-msedge.net/
 local=/part-0014.t-0009.t-s1-msedge.net/
 local=/partnerdelivery.microsoft.com.edgekey.net/
@@ -14027,6 +14029,8 @@ local=/lpcres.delve.office.com/
 local=/lyh-efz.ms-acdc.office.com/
 local=/m365labelanalytics.office.outlook.com/
 local=/measure.office.com/
+local=/measure.office.com.akamaized.net/
+local=/measure.office.net.edgesuite.net/
 local=/measure.office365.cn/
 local=/messaging.lifecycle.office.com/
 local=/messaging.office.com/
@@ -14038,6 +14042,7 @@ local=/microsoftoffice365now.com/
 local=/myoffice.microsoft.com/
 local=/o365auditrealtimeingestionm.manage.test.office.com/
 local=/o365auditrealtimeingestionppe.manage.office.com/
+local=/o365weve.com/
 local=/oauth.online.office.com/
 local=/office-events-data.trafficmanager.net/
 local=/office.microsoft.com/
@@ -14635,6 +14640,8 @@ local=/ironsight-analytics.azurewebsites.net/
 local=/jabra-xpressonline-prd-analytics.azurewebsites.net/
 local=/lander-mw-analytics-c3bzckfcbaf9ekh2.z03.azurefd.net/
 local=/lgincdnvzeuno.azureedge.net/
+local=/livediagnostics.monitor.azure.com/
+local=/livediagnostics.privatelink.monitor.azure.com/
 local=/masdpanalytics.azureedge.net/
 local=/metrics-h9hwc2bvbqbgaueg.a02.azurefd.net/
 local=/metrics.ingest.monitor.azure.com/
@@ -14727,6 +14734,7 @@ local=/adtracking.microsoft.com/
 local=/ams-tracking.king.com/
 local=/analytics-gateway-fallguys.trafficmanager.net/
 local=/analytics-listener.trafficmanager.net/
+local=/analytics.live.com.nsatc.net/
 local=/analytics.live.net/
 local=/analytics.messaging.microsoft.com/
 local=/analytics.microsoft.com/
@@ -14758,6 +14766,7 @@ local=/cds-int-data-encryption.aisvc-int.visualstudio.com/
 local=/ch-asimov-leafs-events-data.trafficmanager.net/
 local=/ch1.monitoring.aeos.microsoft.com/
 local=/clarity.microsoft.com/
+local=/clarity.ms/
 local=/click.email.microsoftemail.com/
 local=/click.microsoft.com/
 local=/collect.microsoft.com/
@@ -14980,6 +14989,8 @@ local=/transportsubstratebusmonitoringapp.outlook.com/
 local=/us-mesh-events-data-leafs.trafficmanager.net/
 local=/userprofile.partners.extranet.microsoft.com/
 local=/userprofilestaging.partners.extranet.microsoft.com/
+local=/vortex-bn2.metron.live.com.nsatc.net/
+local=/vortex-cy2.metron.live.com.nsatc.net/
 local=/vstelemetry.trafficmanager.net/
 local=/watson9.microsoft.com/
 local=/watsonstage.microsoft.com/
@@ -15156,8 +15167,10 @@ local=/azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com/
 local=/bimobile-coffeeandteads.msappproxy.net/
 local=/bing-ads-display-ads-cdn.afd.azureedge.net/
 local=/bingads.glbdns2.microsoft.com/
+local=/bingadsedgeextension-prod-eastus.azurewebsites.net/
 local=/bingadseditor.microsoft.com/
 local=/bingadsresources.trafficmanager.net/
+local=/bingadsuet.azurewebsites.net/
 local=/ccpadsdevhyp994.redmond.corp.microsoft.com/
 local=/clientcenter.ads-int.microsoft.com/
 local=/consumermarketing.microsoft.com/
@@ -15236,6 +15249,7 @@ local=/aoffice365parapterum.blob.core.windows.net/
 local=/ardenttechnologies-my.sharepoint.com/
 local=/arubawebmailsession82.blob.core.windows.net/
 local=/auth-outlook-microsoft-account-com-000000000000-redi.s3.ap-northeast-2.amazonaws.com/
+local=/authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net/
 local=/bachmann.blob.core.windows.net/
 local=/banking.azurefd.net/
 local=/bankteam.azurefd.net/
@@ -15362,8 +15376,20 @@ local=/office365.cx/
 local=/office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net/
 local=/office365privately-owned1rmospe8lumq0c2.azurewebsites.net/
 local=/officedoc-scanner.azurefd.net/
+local=/officehome.australiaeast.cloudapp.azure.com/
+local=/officehome.brazilsouth.cloudapp.azure.com/
+local=/officehome.eastasia.cloudapp.azure.com/
+local=/officehome.northeurope.cloudapp.azure.com/
+local=/officehomeprodprv.brazilsouth.cloudapp.azure.com/
+local=/officehomeprodprv.japaneast.cloudapp.azure.com/
+local=/officehomeprodprv.northcentralus.cloudapp.azure.com/
+local=/officehomeprodprv.northeurope.cloudapp.azure.com/
+local=/officehomeprodprv.westus.cloudapp.azure.com/
 local=/officemail18xomunjbtsf6.z19.web.core.windows.net/
+local=/onedriveforbusiness.azurewebsites.net/
+local=/onedrives-live.azurewebsites.net/
 local=/onedrivespumes395868.blob.core.windows.net/
+local=/outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net/
 local=/owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com/
 local=/pegacure.z33.web.core.windows.net/
 local=/pewaweyet.z1.web.core.windows.net/
