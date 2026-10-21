@@ -1,0 +1,35 @@
+# Title: Microsoft Blocker - Block all Microsoft Spying
+# Description: Microsoft blocklist intended to block all connection to Microsoft excluding iso download, updates and security related calls.
+# Homepage: https://codeberg.org/privacyfilters/Microsoft-Blocker
+# Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_nomicrosoft.txt
+# License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
+# Expires: 1 day
+# Last modified: 21 October 2026 13:16:13 UTC
+# Version: 2.13.0
+# Syntax: plain domains (whitelist)
+# Number of entries: 22
+#
+# # External services on shared infrastructure
+steamcloudlrsuswest.blob.core.windows.net
+steamcloudsaopaulo.blob.core.windows.net
+steamcloudsweden.blob.core.windows.net
+steamcloudtoronto2.blob.core.windows.net
+steamclouduseast2.blob.core.windows.net
+# # GitHub services
+api.individual.githubcopilot.com
+api.mcp.github.com
+app.github.dev
+copilot-proxy.githubusercontent.com
+ghcr.io
+github.dev
+githubcopilot.com
+glb-db52c2cf8be544.github.com
+maven.pkg.github.com
+mavenregistryv2prod.blob.core.windows.net
+npm.pkg.github.com
+npmregistryv2prod.blob.core.windows.net
+nuget.pkg.github.com
+nugetregistryv2prod.blob.core.windows.net
+origin-tracker.githubusercontent.com
+rubygems.pkg.github.com
+rubygemsregistryv2prod.blob.core.windows.net
