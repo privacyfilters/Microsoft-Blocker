@@ -126,7 +126,16 @@ Less aggressive version. Recommended if you still need Microsoft services such a
 | **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/domains_lite.txt) |
 | **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/dnsmasq_lite.txt) |
 | **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_lite) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/hosts_lite) |
-| **Whitelist Domains** | Firewall allow-lists, proxy bypass, split-tunnel VPN | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/whitelist_domains_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/whitelist_domains_lite.txt) |
+
+---
+
+### ✅ Whitelist
+
+For tools where you have to allow domains manually (like Adblock-lean, and likely other tools using the plain Domains format such as Pi-hole and OPNsense), use this list. It contains the domains the Lite version keeps unblocked: Windows Update, Defender, Winget, VSCode, .NET, LinkedIn, Minecraft, and external services like Steam Cloud Sync and GitHub. The file is generated from the same allow categories as the filter lists above, so any future whitelist addition is picked up automatically:
+
+* [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_lite.txt)
+* [GitHub](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/whitelist_domains_lite.txt)
+* [jsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/whitelist_domains_lite.txt)
 
 ---
 
@@ -146,6 +155,16 @@ Stronger blocking while keeping selected Windows functionality working. Allows W
 
 ---
 
+### ✅ Whitelist
+
+For tools where you have to allow domains manually (like Adblock-lean, and likely other tools using the plain Domains format such as Pi-hole and OPNsense), use this list. It contains the domains the Proper version keeps unblocked: Windows Update, Defender, Winget, VSCode, .NET, LinkedIn, Minecraft, and external services like Steam Cloud Sync and GitHub. The file is generated from the same allow categories as the filter lists above, so any future whitelist addition is picked up automatically:
+
+* [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_proper.txt)
+* [GitHub](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/whitelist_domains_proper.txt)
+* [jsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/whitelist_domains_proper.txt)
+
+---
+
 <a id="filter-no-microsoft"></a>
 
 ## 🔴 No Microsoft
@@ -161,23 +180,13 @@ The strictest version, for users who want to block Microsoft as much as possible
 
 ---
 
-## 📋 Whitelist Domain Lists
+### ✅ Whitelist
 
-Each variant also generates a **whitelist domain list** (`whitelist_domains_*.txt`)
-containing only the domains from the allow categories for that variant.
-These are plain domain lists (one per line) under commented section headers,
-suitable for firewall allow-lists, proxy bypass lists, and split-tunnel VPN configs.
+For tools where you have to allow domains manually (like Adblock-lean, and likely other tools using the plain Domains format such as Pi-hole and OPNsense), use this list. It contains the domains the No-Microsoft version keeps unblocked: external services like Steam Cloud Sync and GitHub. The file is generated from the same allow categories as the filter lists above, so any future whitelist addition is picked up automatically:
 
-| Whitelist file | Allow categories included |
-| --- | --- |
-| `whitelist_domains_proper.txt` | Windows Update, Defender, Winget, VSCode, .NET, LinkedIn, misc, external_services, GitHub, Minecraft |
-| `whitelist_domains_lite.txt` | Proper + Microsoft Store, Edge services, Office 365, OneDrive, OneNote, Teams |
-| `whitelist_domains_nomicrosoft.txt` | external_services, GitHub |
-
-These whitelist files are plain domain lists (syntax: `domain.example.com` per
-line) with commented section headers. They carry no version line and their
-specs set `skip_unchanged: true` — the build leaves them untouched unless
-the allow-list entries themselves change.
+* [Codeberg](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_nomicrosoft.txt)
+* [GitHub](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/whitelist_domains_nomicrosoft.txt)
+* [jsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/whitelist_domains_nomicrosoft.txt)
 
 ---
 
