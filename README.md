@@ -126,6 +126,7 @@ Less aggressive version. Recommended if you still need Microsoft services such a
 | **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/domains_lite.txt) |
 | **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/dnsmasq_lite.txt) |
 | **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_lite) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/hosts_lite) |
+| **Whitelist Domains** | Firewall allow-lists, proxy bypass, split-tunnel VPN | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_lite.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/whitelist_domains_lite.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/whitelist_domains_lite.txt) |
 
 ---
 
@@ -157,6 +158,26 @@ The strictest version, for users who want to block Microsoft as much as possible
 | **Domains** | Pi-hole, OPNsense, Adblock-lean, AdAway | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/domains_nomicrosoft.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/domains_nomicrosoft.txt) |
 | **DNSMasq** | DNSMasq, Adblock-lean (OpenWrt) | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/dnsmasq_nomicrosoft.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/dnsmasq_nomicrosoft.txt) |
 | **Hosts** | personalDNSfilter, AdAway, hosts-file-based blockers | [Link](https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_nomicrosoft) | [Link](https://raw.githubusercontent.com/privacyfilters/Microsoft-Blocker/main/hosts_nomicrosoft) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Microsoft-Blocker@main/hosts_nomicrosoft) |
+
+---
+
+## 📋 Whitelist Domain Lists
+
+Each variant also generates a **whitelist domain list** (`whitelist_domains_*.txt`)
+containing only the domains from the allow categories for that variant.
+These are plain domain lists (one per line) under commented section headers,
+suitable for firewall allow-lists, proxy bypass lists, and split-tunnel VPN configs.
+
+| Whitelist file | Allow categories included |
+| --- | --- |
+| `whitelist_domains_proper.txt` | Windows Update, Defender, Winget, VSCode, .NET, LinkedIn, misc, external_services, GitHub, Minecraft |
+| `whitelist_domains_lite.txt` | Proper + Microsoft Store, Edge services, Office 365, OneDrive, OneNote, Teams |
+| `whitelist_domains_nomicrosoft.txt` | external_services, GitHub |
+
+These whitelist files are plain domain lists (syntax: `domain.example.com` per
+line) with commented section headers. They carry no version line and their
+specs set `skip_unchanged: true` — the build leaves them untouched unless
+the allow-list entries themselves change.
 
 ---
 
