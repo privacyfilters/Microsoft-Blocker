@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 21 October 2026 13:16:12 UTC
+# Last modified: 22 October 2026 02:52:31 UTC
 # Version: 2.13.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 32642
+# Number of entries: 32593
 #
 # # Custom Allow & Blocklist # #
 #000001-1y.l.windowsupdate.com
@@ -13161,7 +13161,6 @@ gpandp-my.sharepoint.com
 grangermedical.sharepointonline.com
 granvillecsdorg-myi.sharepoint.com
 graph.edu.cloud.microsoft
-graph.windows.net
 graphapi.mcr.teams.cloud.microsoft
 graphapi3.mcr.teams.cloud.microsoft
 grecojlt.sharepoint.com
@@ -16204,7 +16203,6 @@ a.ads2.msn.com
 a.rad.msn.com
 ac2.msn.com
 ac3.msn.com
-accesscontrol.windows.net
 accounts.accesscontrol.windows.net
 accounts.xboxlive.com
 acer17win10.msn.com
@@ -16259,7 +16257,6 @@ appexeusprodweather.blob.core.windows.net
 appexfinanceappupdate.blob.core.windows.net
 appexnewsappupdate.blob.core.windows.net
 appexwusprodweather.blob.core.windows.net
-appservice.windows.net
 arc-apac.msn.com
 arc-emea.msn.com
 arc.msn.com
@@ -16332,7 +16329,6 @@ becws.microsoftonline.com
 beta.gateway.messenger.live.com
 beta.toolbar.msn.com
 billing.xboxlive.com
-biztalk.windows.net
 bl2p.wns.notify.windows.com.akadns.net
 bl3302.storage.live.com
 blob.am5prdstr10a.store.core.windows.net
@@ -16951,7 +16947,6 @@ help.ui.xboxlive.com
 help.xboxlive.com
 hme-live-loganalytics-namespace.servicebus.windows.net
 hme-uat-loganalytics-namespace.servicebus.windows.net
-hot.ingest.monitor.core.windows.net
 hp13.us.msn.com
 hp17win10.msn.com
 hubstordev3sstor1.blob.core.windows.net
@@ -16974,7 +16969,6 @@ inc-visio-telemetry.officeapps.live.com
 incident.xboxlive.com
 incidents.diagnostics-eudb.office.com
 incidents.diagnostics.office.com
-ingest.monitor.core.windows.net
 insitez.blob.core.windows.net
 install.toolbar.msn.com
 int1.msn.com
@@ -16994,7 +16988,6 @@ kmwatson.events.data.microsoft.com
 kmwatsonc.events.data.microsoft.com
 kmwatsonc.events.data.microsoft.us
 kmwatsonc.telemetry.microsoft.com
-la.ingest.monitor.core.windows.net
 leaderboards.xboxlive.com
 legacywatson.trafficmanager.net
 legal.xboxlive.com
@@ -17068,7 +17061,6 @@ mobileads.msn.com
 mobileleads.msn.com
 moderation.xboxlive.com
 modern.watson.data.microsoft.com.akadns.net
-monitor.core.windows.net
 mrodevicemgr.officeapps.live.com
 ms.analytics.live.com
 msa.diagnostics.office.com
@@ -17231,9 +17223,6 @@ privacy.xboxlive.com.akadns.net
 prod-eh-v1-analytics.servicebus.windows.net
 prod-eventhub-analytics.servicebus.windows.net
 prod.blob.core.windows.net
-prod.hot.ingest.monitor.core.windows.net
-prod.la.ingest.monitor.core.windows.net
-prod.warm.ingest.monitor.core.windows.net
 prodmg2.blob.core.windows.net
 production-jobactivity-analytics.servicebus.windows.net
 profile.xboxlive.com
@@ -17246,7 +17235,6 @@ pus5-collabhubrtc.officeapps.live.com
 pus6-collabhubrtc.officeapps.live.com
 pus7-collabhubrtc.officeapps.live.com
 pus8-collabhubrtc.officeapps.live.com
-qos.prod.warm.ingest.monitor.core.windows.net
 query.prod.cms.msn.com
 r.msn.com
 r.msn.com.nsatc.net
@@ -17476,7 +17464,6 @@ vortex.data.microsoft.us
 vortex.microsoft.com
 w.g.msn.com
 waconatm.officeapps.live.com
-warm.ingest.monitor.core.windows.net
 wat8.ppe.telemetry.microsoft.com
 watson.alpha.telemetry.microsoft.com
 watson.bing.com
@@ -21327,7 +21314,6 @@ nel.measure.office.net.edgesuite.net
 nelgallatin.measure.office365.cn
 nelitar.measure.office365.us
 nelsdf.measure.office.net
-nelsdf.measure.office.net.edgesuite.net
 nleditor.osi.office.net
 ns1.fp.measure.office.com
 ns2.fp.measure.office.com
@@ -30175,10 +30161,8 @@ bimobile-coffeeandteads.msappproxy.net
 bind-gateway.corp.appnexus.com
 bing-ads-display-ads-cdn.afd.azureedge.net
 bingads.glbdns2.microsoft.com
-bingadsedgeextension-prod-eastus.azurewebsites.net
 bingadseditor.microsoft.com
 bingadsresources.trafficmanager.net
-bingadsuet.azurewebsites.net
 blu.mobileads.msn.com
 bm203430.nym2.appnexus.com
 bm203440.nym2.appnexus.com
@@ -31363,7 +31347,6 @@ npvjqrggwf.activedirectory-edog.windowsazure.com
 npxkditfr1w.activedirectory-edog.windowsazure.com
 nrtunuzhrh.activedirectory-edog.windowsazure.com
 nrtunuzhrhw.activedirectory-edog.windowsazure.com
-ntc-keyid-b6eaa11f201ff74ed4f2510e15bf2e3884dc4055.microsoftaik.azure.net
 nty8dpeztx.activedirectory-edog.windowsazure.com
 nww.backup.windowsazure.com
 nzn.hub.privatelink.prod.migration.windowsazure.com
@@ -31371,14 +31354,8 @@ o2kyipv6mc.activedirectory-edog.windowsazure.com
 octob.azureedge.net
 ods-logging-dfhsbqdgd7g0bbc3.z01.azurefd.net
 ods-logging-prod.eastus.cloudapp.azure.com
-officeaka.cloudapp.net
-officeci.azurewebsites.net
-officehomeprodprv.westeurope.cloudapp.azure.com
 oloobe-prod-cdn-storage.azureedge.net
 ome3j9kkc7w.activedirectory-edog.windowsazure.com
-onedsblobprdcus07.centralus.cloudapp.azure.com
-onedsblobprdeus17.eastus.cloudapp.azure.com
-onedscolprdcus18.centralus.cloudapp.azure.com
 opinsights.azure.com
 origin.azuredev.microsoft.com
 origin.azureperf.microsoft.com
@@ -31602,7 +31579,6 @@ sqlazurecertzrh20.sharepointonline.com
 sr-cdn.azureedge.net
 srsmanagementcert.hypervrecoverymanager.windowsazure.com
 ss-encryption-prod.windowsazure.com
-stm-keyid-fb17d70d734870e919c4e8e603975e664e0e43de.microsoftaik.azure.net
 subaru-tagging-prod.azureedge.net
 subscriptionmanager.cn.int.azuregaming.xboxlive.com
 swc.hub.privatelink.prod.migration.windowsazure.com
@@ -31664,7 +31640,6 @@ virtualearth.net
 voduscdn.azureedge.net
 vpn-azure-saml.corp.linkedin.com
 vpv-ger.azureedge.net
-vscodeupdater.azurewebsites.net
 vzhspjmx90w.activedirectory-edog.windowsazure.com
 waws-prod-am2-026d3541.api.p.azurewebsites.windows.net
 waws-prod-am2-101d03d1.ftp.p.azurewebsites.windows.net
@@ -31782,7 +31757,6 @@ waws-prod-yt1-25ec504e.publish.p.azurewebsites.windows.net
 waws-prod-zrh-34cf199b.publish.p.azurewebsites.windows.net
 wcus.backup.windowsazure.com
 we.storsimple.windowsazure.com
-web.core.windows.net
 wepod01prot1n.onlinebackup.windowsazure.com
 westeurope-1.handler.control.monitor.azure.com
 westeurope-1.in.ai.monitor.azure.com
@@ -34285,7 +34259,6 @@ customers.microsoft.com
 customersfeedback.microsoft.com
 customerss.visualstudio.com
 customerstest.microsoft.com
-customervoice-prod.forms.office.com.akadns.net
 customervoice.microsoft.com
 cute.visualstudio.com
 cw01host1.visualstudio.com
@@ -36009,7 +35982,6 @@ invstage.redmond.corp.microsoft.com
 ip.microsoft.com
 ip1.live.net
 ipv6.microsoft.com.akadns.net
-ipv6.msftncsi.com.edgesuite.net
 ipvhsessjsmqdxw.mshome.net
 iris.microsoft.com
 irism.osikevlartorus.office.com
@@ -38057,7 +38029,6 @@ mestre-splinter-bh.spaces.live.com
 metadata.microsoft.com
 metadata.template.cdn.frme.office.net
 metaservices.microsoft.com
-metron.live.com.nsatc.net
 mexnxqe.docs.live.net
 mfrkbjukb.mshome.net
 mgblon2kian501.network.microsoft.com
@@ -39081,9 +39052,7 @@ news.microsoft.com
 newsfeed.visualstudio.microsoft.com
 next-services.apps.microsoft.com
 next.microsoft.com
-nexus.live.com.akadns.net
 nexus.microsoftonline-p.com
-nexusrules.live.com.akadns.net
 nguyenthaibinh.live.com
 nhkpwuiyvnkq.mshome.net
 nhuquckrshp.mshome.net
@@ -39242,7 +39211,6 @@ ojyguhsai.mshome.net
 olive.visualstudio.com
 oliveandgoose-com.partner.fttoolingapi.microsoft.com
 oloobesigningcertkey.office.com
-ols.live.com.akadns.net
 olvefflwpbdymup.mshome.net
 olympia.windows.com
 omap.microsoft.com
@@ -39618,7 +39586,6 @@ prod.live.net
 prod.msocdn.com
 prod.ocpcms.microsoft.com
 prod.odsp-syntex-esign-gateway.westus2-prod.cosmic.office.net
-prod.omexcosubretailer.live.com.akadns.net
 prod.rewardsplatform.microsoft.com
 prod.streaming.video.msn.com
 prod.substrate-inference-llmapi.eastus2-prod.cosmic.office.net
@@ -40670,7 +40637,6 @@ sssc.live.com
 sstovall.visualstudio.com
 ssu.omex.office.net
 ssue.omex.office.net
-ssw.live.com.nsatc.net
 st-sdk.ecdn.gcc.teams.microsoft.com
 staffhub.office.com
 stage.academicverification.microsoft.com
@@ -40848,7 +40814,6 @@ syddrxravm02.ra.live.com
 symbols.nuget.org
 sync.live.net
 sync.microsoft.com
-syneoshealthlondon.co.uk.mcas.ms
 synergyadvisors-biz.partner.fttoolingapi.microsoft.com
 synthetic9.monitoring.vsdth.visualstudio.com
 syslogw.gtm.corp.microsoft.com
@@ -41269,7 +41234,6 @@ uatwindchill.microsoft.com
 uavalejandrav.spaces.live.com
 uccac.msn.com
 ucellar.visualstudio.com
-uci.live.com.akadns.net
 ucis.msdxcdn.microsoft.com
 uds-lb.usea-xl-3.ic3-auth-userdiscovery.eastus-prod.cosmic.office.net
 ueba-investigation-prd-eus.securitycenter.windows.com
@@ -42891,7 +42855,6 @@ aoffice365parapterum.blob.core.windows.net
 ardenttechnologies-my.sharepoint.com
 arubawebmailsession82.blob.core.windows.net
 auth-outlook-microsoft-account-com-000000000000-redi.s3.ap-northeast-2.amazonaws.com
-authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net
 bachmann.blob.core.windows.net
 bancaenlineaempresa.z13.web.core.windows.net
 bankfaxmsg-secondary.z13.web.core.windows.net
@@ -43030,20 +42993,8 @@ office365.cx
 office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net
 office365privately-owned1rmospe8lumq0c2.azurewebsites.net
 officedoc-scanner.azurefd.net
-officehome.australiaeast.cloudapp.azure.com
-officehome.brazilsouth.cloudapp.azure.com
-officehome.eastasia.cloudapp.azure.com
-officehome.northeurope.cloudapp.azure.com
-officehomeprodprv.brazilsouth.cloudapp.azure.com
-officehomeprodprv.japaneast.cloudapp.azure.com
-officehomeprodprv.northcentralus.cloudapp.azure.com
-officehomeprodprv.northeurope.cloudapp.azure.com
-officehomeprodprv.westus.cloudapp.azure.com
 officemail18xomunjbtsf6.z19.web.core.windows.net
-onedriveforbusiness.azurewebsites.net
-onedrives-live.azurewebsites.net
 onedrivespumes395868.blob.core.windows.net
-outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net
 owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com
 pegacure.z33.web.core.windows.net
 pewaweyet.z1.web.core.windows.net

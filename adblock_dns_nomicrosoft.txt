@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 21 October 2026 13:16:09 UTC
+! Last modified: 22 October 2026 02:52:28 UTC
 ! Version: 2.13.0
 ! Syntax: Adblock
-! Number of entries: 2960
+! Number of entries: 2992
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -56,7 +56,6 @@
 ||cloud.microsoft*^
 ||enterpriseregistration.windows.net^
 ||fe-by01p-msa.trafficmanager.net^
-||graph.windows.net^
 ||killbittrafficmanager.trafficmanager.net^
 ||login.microsoftonline.com*^
 ||login.msa-int.msidentity.com^
@@ -255,7 +254,7 @@
 ! Windows telemetry
 ||1oavsblobprodcus350.blob.core.windows.net^
 ||37bvsblobprodcus311.blob.core.windows.net^
-||accesscontrol.windows.net*^
+||accounts.accesscontrol.windows.net^
 ||activity.windows.us^
 ||adminwebservice.microsoftonline.com^
 ||adsyndication.msn.com.nsatc.net^
@@ -272,17 +271,18 @@
 ||appexfinanceappupdate.blob.core.windows.net^
 ||appexnewsappupdate.blob.core.windows.net^
 ||appexwusprodweather.blob.core.windows.net^
-||appservice.windows.net^
 ||arc.msn.com.nsatc.net^
 ||assets.msn.com.edgekey.net^
 ||assuritystorage.blob.core.windows.net^
+||australiaeast-qos.prod.warm.ingest.monitor.core.windows.net^
+||australiaeast-shared.prod.warm.ingest.monitor.core.windows.net^
 ||automatedirstrprdeus.blob.core.windows.net^
 ||azpglspamprwduateus2.blob.core.windows.net^
+||azrstposb3ib2cwebp.z15.web.core.windows.net^
 ||balancer.servicebus.windows.net^
 ||bba800-anchor.microsoftonline.com^
 ||bba900-anchor.microsoftonline.com^
 ||becws.microsoftonline.com^
-||biztalk.windows.net^
 ||blob.am5prdstr10a.store.core.windows.net^
 ||blob.ams06prdstr12a.store.core.windows.net^
 ||blob.bl2prdstr03a.store.core.windows.net^
@@ -306,8 +306,14 @@
 ||btv-du-dev-eventhub-streamanalytics.servicebus.windows.net^
 ||btv-du-prod-eventhub-streamanalytics.servicebus.windows.net^
 ||c.msn.com.nsatc.net^
+||canadacentral-qos.prod.warm.ingest.monitor.core.windows.net^
+||canadacentral-shared.prod.warm.ingest.monitor.core.windows.net^
 ||cdf-anon.xboxlive.com.edgekey.net^
 ||ceipmsn.com*^
+||centralindia-qos.prod.warm.ingest.monitor.core.windows.net^
+||centralindia-shared.prod.warm.ingest.monitor.core.windows.net^
+||centralus-qos.prod.warm.ingest.monitor.core.windows.net^
+||centralus-shared.prod.warm.ingest.monitor.core.windows.net^
 ||ceuswatcab01.blob.core.windows.net^
 ||ceuswatcab02.blob.core.windows.net^
 ||ceuswatcab03.blob.core.windows.net^
@@ -315,6 +321,7 @@
 ||ceuswatcab05.blob.core.windows.net^
 ||ceuswatcab06.blob.core.windows.net^
 ||chem4wordtelemetry.servicebus.windows.net^
+||circdatacdn.z33.web.core.windows.net^
 ||citrixanalyticseh-alias.servicebus.windows.net^
 ||citrixanalyticseh.servicebus.windows.net^
 ||citrixanalyticseh2-alias.servicebus.windows.net^
@@ -340,6 +347,12 @@
 ||dlwnextsetting.blob.core.windows.net^
 ||dmp100dmpprodstorage.table.core.windows.net^
 ||dynamicslive.com^
+||eastus-dcr.prod.hot.ingest.monitor.core.windows.net^
+||eastus-qos.prod.warm.ingest.monitor.core.windows.net^
+||eastus-shared.prod.warm.ingest.monitor.core.windows.net^
+||eastus.prod.la.ingest.monitor.core.windows.net^
+||eastus2-qos.prod.warm.ingest.monitor.core.windows.net^
+||eastus2-shared.prod.warm.ingest.monitor.core.windows.net^
 ||eaus2watcab01.blob.core.windows.net^
 ||eaus2watcab02.blob.core.windows.net^
 ||efrcmsstoragep.blob.core.windows.net^
@@ -351,6 +364,7 @@
 ||frontendmetrics.blob.core.windows.net^
 ||g.msn.com.nsatc.net^
 ||gateway.windows.net^
+||germanywestcentral-dcr.prod.hot.ingest.monitor.core.windows.net^
 ||hme-live-loganalytics-namespace.servicebus.windows.net^
 ||hme-uat-loganalytics-namespace.servicebus.windows.net^
 ||hubstordev3sstor1.blob.core.windows.net^
@@ -358,6 +372,8 @@
 ||insitez.blob.core.windows.net^
 ||iriscoremetadataprod.blob.core.windows.net^
 ||isgemail.blob.core.windows.net^
+||japaneast-qos.prod.warm.ingest.monitor.core.windows.net^
+||japaneast-shared.prod.warm.ingest.monitor.core.windows.net^
 ||jetanalytics.servicebus.windows.net^
 ||kg-legacy-analytics.servicebus.windows.net^
 ||kiwi.blob.core.windows.net^
@@ -372,7 +388,6 @@
 ||metrics.servicebus.windows.net^
 ||microsoftdynamicslive.com^
 ||microsoftlive.com.br^
-||monitor.core.windows.net*^
 ||msdnlive.com^
 ||msdnshared.blob.core.windows.net^
 ||msegceporticoprodassets.blob.core.windows.net^
@@ -384,10 +399,15 @@
 ||msn.com.ph^
 ||msn.com.sg^
 ||msn.com.tw^
+||msoftdatastore.z22.web.core.windows.net^
 ||msportal.blob.core.windows.net^
 ||musicart.xboxlive.com.edgekey.net^
 ||musicimage.xboxlive.com.edgekey.net^
 ||nexxtv-events.servicebus.windows.net^
+||northcentralus-qos.prod.warm.ingest.monitor.core.windows.net^
+||northcentralus-shared.prod.warm.ingest.monitor.core.windows.net^
+||northeurope-qos.prod.warm.ingest.monitor.core.windows.net^
+||northeurope-shared.prod.warm.ingest.monitor.core.windows.net^
 ||o365diagtelemetry.trafficmanager.net^
 ||offerservicefallback.blob.core.windows.net^
 ||officehomeblobs.blob.core.windows.net^
@@ -419,6 +439,10 @@
 ||secure-a.windows.net^
 ||settings-ssl.xboxlive.com.edgekey.net^
 ||sonfiles.blob.core.windows.net^
+||southcentralus-qos.prod.warm.ingest.monitor.core.windows.net^
+||southcentralus-shared.prod.warm.ingest.monitor.core.windows.net^
+||southeastasia-qos.prod.warm.ingest.monitor.core.windows.net^
+||southeastasia-shared.prod.warm.ingest.monitor.core.windows.net^
 ||ss-telemetry.servicebus.windows.net^
 ||statesfe1.update.microsoft.com.nsatc.net^$important
 ||statesfe1.ws.microsoft.com.nsatc.net^$important
@@ -434,6 +458,8 @@
 ||thestreamstaging.blob.core.windows.net^
 ||trustwave.blob.core.windows.net^
 ||uasprod.blob.core.windows.net^
+||uksouth-qos.prod.warm.ingest.monitor.core.windows.net^
+||uksouth-shared.prod.warm.ingest.monitor.core.windows.net^
 ||umwatson.trafficmanager.net^
 ||umwatsonrouting.trafficmanager.net^
 ||universalstore.streaming.mediaservices.windows.net^
@@ -443,9 +469,20 @@
 ||v10.events.data.microsoft.com.aria.akadns.net^
 ||v20.events.data.microsoft.com.aria.akadns.net^
 ||videomd.blob.core.windows.net^
+||vortex-win.data.metron.live.com.nsatc.net*^
 ||vortex.data.microsoft.com.edgekey.net^
 ||wayfinderanalytics.servicebus.windows.net^
 ||weathermapdata.blob.core.windows.net^
+||westeurope-qos.prod.warm.ingest.monitor.core.windows.net^
+||westeurope-shared.prod.warm.ingest.monitor.core.windows.net^
+||westus-mdm.prod.hot.ingest.monitor.core.windows.net^
+||westus-qos.prod.warm.ingest.monitor.core.windows.net^
+||westus-shared.prod.warm.ingest.monitor.core.windows.net^
+||westus2-mdm.prod.hot.ingest.monitor.core.windows.net^
+||westus2-qos.prod.warm.ingest.monitor.core.windows.net^
+||westus2-shared.prod.warm.ingest.monitor.core.windows.net^
+||westus3-qos.prod.warm.ingest.monitor.core.windows.net^
+||westus3-shared.prod.warm.ingest.monitor.core.windows.net^
 ||weus2watcab01.blob.core.windows.net^
 ||weus2watcab02.blob.core.windows.net^
 ||wildcard.xboxlive.com.edgekey.net^
@@ -465,6 +502,7 @@
 ||xboxlive.com.akamaized.net*^
 ||xboxlive.com.edgesuite.net*^
 ||xboxlive.com.nsatc.net*^
+||z13.web.core.windows.net*^
 ! Office telemetry
 ||appsforoffice.microsoft.com.edgekey.net^
 ||attachment.outlook.officeppe.net^
@@ -803,9 +841,7 @@
 ||azsc-bingads-centralus.centralus.cloudapp.azure.com^
 ||azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com^
 ||bing-ads-display-ads-cdn.afd.azureedge.net^
-||bingadsedgeextension-prod-eastus.azurewebsites.net^
 ||bingadsresources.trafficmanager.net^
-||bingadsuet.azurewebsites.net^
 ||fastprodownloadsq.visualstudio.com^
 ||hk-tracker.trafficmanager.net^
 ||microsoft-ads.com*^
@@ -890,17 +926,10 @@
 ||monitor.azure.com*^
 ||ms365insider-czdafrdzb5h6e4av.z01.azurefd.net^
 ||msazurebb.visualstudio.com^
-||ntc-keyid-b6eaa11f201ff74ed4f2510e15bf2e3884dc4055.microsoftaik.azure.net^
 ||octob.azureedge.net^
 ||ods-logging-dfhsbqdgd7g0bbc3.z01.azurefd.net^
 ||ods-logging-prod.eastus.cloudapp.azure.com^
-||officeaka.cloudapp.net^
-||officeci.azurewebsites.net^
-||officehomeprodprv.westeurope.cloudapp.azure.com^
 ||oloobe-prod-cdn-storage.azureedge.net^
-||onedsblobprdcus07.centralus.cloudapp.azure.com^
-||onedsblobprdeus17.eastus.cloudapp.azure.com^
-||onedscolprdcus18.centralus.cloudapp.azure.com^
 ||opinsights.azure.com^
 ||pdfsuperhero.azureedge.net^
 ||pfbx-api-logging-euw-prod-linux.azurewebsites.net^
@@ -913,7 +942,6 @@
 ||sd-tagging.azurefd.net^
 ||sdtagging.azureedge.net^
 ||sr-cdn.azureedge.net^
-||stm-keyid-fb17d70d734870e919c4e8e603975e664e0e43de.microsoftaik.azure.net^
 ||subaru-tagging-prod.azureedge.net^
 ||swymv3premium-01.azureedge.net^
 ||swymv3pro-01.azureedge.net^
@@ -923,7 +951,6 @@
 ||virtualearth.net*^
 ||voduscdn.azureedge.net^
 ||vpv-ger.azureedge.net^
-||vscodeupdater.azurewebsites.net^
 ||waws-prod-am2-026d3541.api.p.azurewebsites.windows.net^
 ||waws-prod-am2-101d03d1.ftp.p.azurewebsites.windows.net^
 ||waws-prod-am2-10229042.publish.p.azurewebsites.windows.net^
@@ -1038,7 +1065,6 @@
 ||waws-prod-yt1-0969d7ea.publish.p.azurewebsites.windows.net^
 ||waws-prod-yt1-25ec504e.publish.p.azurewebsites.windows.net^
 ||waws-prod-zrh-34cf199b.publish.p.azurewebsites.windows.net^
-||web.core.windows.net*^
 ||wheelioapp.azureedge.net^
 ||ws-p-msftintdm3-e56d1fab.publish.p.azurewebsites.windows.net^
 ||ws-p-msftinthk1-78988311.api.p.azurewebsites.windows.net^
@@ -1114,6 +1140,8 @@
 ||tm-enrollment-telemetry-datacore.trafficmanager.net^
 ||traf-fraudevents-int.trafficmanager.net^
 ||us-mesh-events-data-leafs.trafficmanager.net^
+||vortex-bn2.metron.live.com.nsatc.net^
+||vortex-cy2.metron.live.com.nsatc.net^
 ||vstelemetry.trafficmanager.net^
 ||win-global-asimov-leafs-events-data.trafficmanager.net^
 ||word-telemetry.wac.trafficmanager.net^
@@ -1726,7 +1754,6 @@
 ||curtisx.visualstudio.com^
 ||custom.visualstudio.com^
 ||customerss.visualstudio.com^
-||customervoice-prod.forms.office.com.akadns.net^
 ||cute.visualstudio.com^
 ||cw01host1.visualstudio.com^
 ||cw01host6.visualstudio.com^
@@ -2083,7 +2110,6 @@
 ||insightsportal-prod2-asiae-cdn.aisvc.visualstudio.com^
 ||insightsportal-prod2-cdn.aisvc.visualstudio.com^
 ||instance.visualstudio.com^
-||ipv6.msftncsi.com.edgesuite.net^
 ||ipvhsessjsmqdxw.mshome.net^
 ||irreverselookuptm.trafficmanager.net^
 ||isatis-health.visualstudio.com^
@@ -2132,11 +2158,10 @@
 ||mblwinkkn.mshome.net^
 ||mcas-gov.ms*^
 ||mcas-gov.us*^
-||mcas.ms*^
+||mcas.ms^
 ||medumo.visualstudio.com^
 ||mega.visualstudio.com^
 ||merak.visualstudio.com^
-||metron.live.com.nsatc.net*^
 ||mfrkbjukb.mshome.net^
 ||mhbzqoct.mshome.net^
 ||microsoft-antipiracy.com^
@@ -2470,9 +2495,7 @@
 ||nebo.visualstudio.com^
 ||nelreports.net.trafficmanager.net^
 ||newprodownloads.visualstudio.com^
-||nexus.live.com.akadns.net^
 ||nexus.microsoftonline-p.com^
-||nexusrules.live.com.akadns.net^
 ||nhkpwuiyvnkq.mshome.net^
 ||nhuquckrshp.mshome.net^
 ||nldinhvzk.mshome.net^
@@ -2493,7 +2516,6 @@
 ||ohmwzinemubg.mshome.net^
 ||ojyguhsai.mshome.net^
 ||olive.visualstudio.com^
-||ols.live.com.akadns.net^
 ||olvefflwpbdymup.mshome.net^
 ||omreppzsvpb.mshome.net^
 ||online-email-appsuite-secured-access-portal.powerappsportals.com^
@@ -2525,7 +2547,6 @@
 ||prod-client-logs.trafficmanager.net^
 ||prod.almsearch.visualstudio.com*^
 ||prod.msocdn.com^
-||prod.omexcosubretailer.live.com.akadns.net^
 ||proyectos.visualstudio.com^
 ||puxrsgqtg.mshome.net^
 ||pvocqahwaylh.mshome.net^
@@ -2604,7 +2625,6 @@
 ||srubwrfbfjad.mshome.net^
 ||ssp-prod-eastus-nonmutt.trafficmanager.net^
 ||sstovall.visualstudio.com^
-||ssw.live.com.nsatc.net^
 ||stamp2.app.insightsportal.visualstudio.com^
 ||starticket.visualstudio.com^
 ||stats-gw-tm.trafficmanager.net^
@@ -2652,7 +2672,6 @@
 ||tvxecbogcsjtpq.mshome.net^
 ||tyumen.visualstudio.com^
 ||ucellar.visualstudio.com^
-||uci.live.com.akadns.net^
 ||ugzxfjbri.mshome.net^
 ||uks.b.prd.ags.trafficmanager.net^
 ||um6f0ru069.blob.core.windows.net^
@@ -2855,10 +2874,10 @@
 ||accountsloginreview.blob.core.windows.net^
 ||admin-owa-outlook-microsoftoline-login-notification.s3.ap-northeast-2.amazonaws.com^
 ||agentratewww.blob.core.windows.net^
+||almanexac.z5.web.core.windows.net^
 ||aoffice365parapterum.blob.core.windows.net^
 ||arubawebmailsession82.blob.core.windows.net^
 ||auth-outlook-microsoft-account-com-000000000000-redi.s3.ap-northeast-2.amazonaws.com^
-||authorizeoffice365sqpwdvd4hnmgbru3.azurewebsites.net^
 ||bachmann.blob.core.windows.net^
 ||banking.azurefd.net^
 ||bankteam.azurefd.net^
@@ -2870,26 +2889,40 @@
 ||billingtwilio.azurefd.net^
 ||blackhawk.msft-365.com^
 ||blueness2polyodontal.blob.core.windows.net^
+||bozitudis.z11.web.core.windows.net^
+||bozuculo.z12.web.core.windows.net^
 ||bremse-ejeqc2btebc9dmee.z01.azurefd.net^
 ||britanniafishandchips.blob.core.windows.net^
 ||c1ientebrada.blob.core.windows.net^
+||cewegebit.z31.web.core.windows.net^
+||cheezwhiz.z9.web.core.windows.net^
+||cnsistemingreso.z1.web.core.windows.net^
+||cuentanexoenlineaus.z5.web.core.windows.net^
 ||dashboard-proxy-sc-seas-z918z.falcon-core.microsoft-falcon.net^
 ||device.microsoft-voicemail-edriveonline.com^
 ||docsigninapp.azurefd.net^
 ||docsigninauth1.azurefd.net^
 ||dsxc-e6gygdb9dab2auhz.z01.azurefd.net^
 ||egestorusms2026.blob.core.windows.net^
+||faduciwup.z4.web.core.windows.net*^
+||fefipuzumi.z32.web.core.windows.net^
 ||fgeuroexpress-aqc2awhgcudcdgct.z01.azurefd.net^
+||ficpromericaenlineahngt.z5.web.core.windows.net^
 ||fileupdates.blob.core.windows.net^
 ||firstone3443.blob.core.windows.net^
+||gasevinul.z1.web.core.windows.net^
+||gtconligt.z38.web.core.windows.net^
 ||hennesseyllchabina677.blob.core.windows.net*^
 ||hotelembuguacu.blob.core.windows.net^
+||inicianexowebus.z5.web.core.windows.net^
 ||inkscape-windows.github.io^
 ||khanmarine.blob.core.windows.net^
+||klportmainjokecaseport.z14.web.core.windows.net^
 ||konimpex.blob.core.windows.net^
 ||leasecom.blob.core.windows.net^
 ||login.microsoft-login.live^
 ||login.microsoft-office.live^
+||mailcurrentlylogin.z20.web.core.windows.net^
 ||microsoft-0r.github.io^
 ||microsoft-360es.com^
 ||microsoft-admln.com^
@@ -2957,6 +2990,7 @@
 ||msn.org^
 ||msnhotmail.fr^
 ||navigal.microsoft-teams.pl^
+||nbtbankcomtest.z20.web.core.windows.net^
 ||notifications.microsoft-ssl.com^
 ||office-1010-online.azurewebsites.net^
 ||office365-microsoft-online.com^
@@ -2969,27 +3003,24 @@
 ||office365authboxfszazgqj0q1v8mgbfd4k9yrftvb11.azurewebsites.net^
 ||office365privately-owned1rmospe8lumq0c2.azurewebsites.net^
 ||officedoc-scanner.azurefd.net^
-||officehome.australiaeast.cloudapp.azure.com^
-||officehome.brazilsouth.cloudapp.azure.com^
-||officehome.eastasia.cloudapp.azure.com^
-||officehome.northeurope.cloudapp.azure.com^
-||officehomeprodprv.brazilsouth.cloudapp.azure.com^
-||officehomeprodprv.japaneast.cloudapp.azure.com^
-||officehomeprodprv.northcentralus.cloudapp.azure.com^
-||officehomeprodprv.northeurope.cloudapp.azure.com^
-||officehomeprodprv.westus.cloudapp.azure.com^
-||onedriveforbusiness.azurewebsites.net^
-||onedrives-live.azurewebsites.net^
+||officemail18xomunjbtsf6.z19.web.core.windows.net^
 ||onedrivespumes395868.blob.core.windows.net^
-||outlooknvm-bscghqa4affuc8b4.canadacentral-01.azurewebsites.net^
 ||owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com^
+||pegacure.z33.web.core.windows.net^
+||pewaweyet.z1.web.core.windows.net^
 ||produbancoenlinea.blob.core.windows.net^
+||promotion2025.z7.web.core.windows.net^
+||retunanet.z27.web.core.windows.net^
+||rubarodav.z1.web.core.windows.net^
 ||sanilbank.azurefd.net^
 ||skx7ny4u92mqdtb3esieng-dyexeyh3gvebbhdv.z03.azurefd.net^
+||sucursalgytport.z44.web.core.windows.net^
+||sumalegapa.z16.web.core.windows.net^
 ||suport.office365-update.org^
 ||teams.microsoft-en.live^
 ||transmittedbankrecord.blob.core.windows.net^
 ||truexxnqeflq3-a6a0ewdpg9gfguad.z03.azurefd.net^
+||turadozub.z23.web.core.windows.net^
 ||update.microsoft-setting.com^
 ||usfintech.office365-live.com^
 ||verificacioninediata1.blob.core.windows.net^
@@ -2998,3 +3029,4 @@
 ||vvetransferfile72836.blob.core.windows.net^
 ||web-login.azureedge.net^
 ||windowsonecare.com^
+||zezevibo.z11.web.core.windows.net*^
