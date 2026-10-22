@@ -14,13 +14,33 @@ There are three versions, depending on how much Microsoft functionality you want
 
 ## ⚠️ Before You Use It
 
-Microsoft uses many of the same domains and services for both **legitimate functionality and telemetry/tracking**. Because of this, blocking Microsoft domains can sometimes break things you actually need. The more aggressive the filter, the more likely it is that some Microsoft services will stop working.
+Microsoft uses many of the same domains for **both legitimate functionality and telemetry/tracking**. Blocking Microsoft domains *will* break some Microsoft services — the more aggressive the filter, the more breakage.
 
-I don't use Microsoft products anymore except for **Visual Studio Code**, so I can't personally test every Microsoft service and Windows feature.
+I don't use Microsoft products anymore except for **Visual Studio Code**, so I can't personally test every service. If something breaks or you find a missing telemetry domain, **open an issue** with the blocked domain, filter version, and affected service.
 
-If a filter blocks something important, or you find a Microsoft tracking/telemetry domain that's missing, please open an issue and let me know (see [Possible Breakage](#️-possible-breakage)).
+These filters work best with **network-wide DNS blockers** (AdGuard Home, Pi-hole, router adblockers). See [Recommended Blocking Methods](#️-recommended-blocking-methods) below.
 
-These filters work best with **network-wide firewalls, router adblockers, and DNS sinkholes**. See [Recommended Blocking Methods](#️-recommended-blocking-methods) below.
+> ## ⚠️ Security tradeoff
+>
+> These filters block Microsoft connections — which includes the hosts Windows
+> uses to fetch **Windows Updates**, **Windows Defender definitions**, and
+> **Microsoft 365/Office authentication**. Deliberate tradeoff, not a bug.
+>
+> When those hosts are blocked, Windows Update may fail, Defender definitions
+> may go stale, and Office/Microsoft 365 sign-in may break. The more aggressive
+> the variant, the more services are affected.
+>
+> **To restore service functionality, allowlist the required hosts in your DNS
+> (AdGuard Home, Pi-hole, etc.) or use a less aggressive variant:**
+>
+> | Variant | Windows Update | Defender | M365/Office | Edge/Store |
+> |---------|----------------|----------|-------------|------------|
+> | 🟢 **Lite** | ✅ Allowed | ✅ Allowed | ✅ Allowed | ✅ Allowed |
+> | 🟠 **Proper** | ✅ Allowed | ✅ Allowed | ✅ Allowed | ❌ Blocked |
+> | 🔴 **No Microsoft** | ❌ Blocked | ❌ Blocked | ❌ Blocked | ❌ Blocked |
+>
+>
+> (Third-party services on shared Azure infrastructure are **not** blocked.)
 
 ---
 
@@ -295,6 +315,29 @@ Issues and testing reports are welcome. Please let me know if you find:
 * Important Windows functionality that stops working
 
 If possible, include the exact domain and the application/service that uses it.
+
+---
+
+# 📜 Liability
+
+These filter lists are provided **as-is**, for privacy-conscious users who
+understand the tradeoff. The author is not responsible for any security incident,
+data loss, service outage, or other consequence arising from using, misusing,
+or failing to update these filters. **You are responsible for your own security
+posture** — these filters block Microsoft connections, which may include
+domains used for Windows Updates, Windows Defender, Microsoft 365/Office
+authentication, Azure cloud services, and third-party services hosted on
+Microsoft infrastructure (especially Azure). When those domains are blocked,
+the associated services may stop working.
+
+**If you need Windows Updates, Defender definitions, Microsoft 365, or Azure
+services to work, use the Lite or Proper variant and check your DNS/adblock
+logs for blocked domains.** Add any required domains to your allowlist in
+AdGuard Home, Pi-hole, or your DNS resolver. Keep a threat-intelligence
+filterlist (e.g. HaGeZi TIF) alongside this one — it covers bad domains, not
+just Microsoft tracking. Keep your OS and browser package updates current, and
+run system-wide malware prevention. Nothing here is warranted to be error-free
+or fit for any particular purpose.
 
 ---
 
