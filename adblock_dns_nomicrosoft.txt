@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 22 October 2026 02:52:28 UTC
-! Version: 2.13.0
+! Last modified: 22 October 2026 19:23:32 UTC
+! Version: 2.14.0
 ! Syntax: Adblock
-! Number of entries: 2992
+! Number of entries: 2966
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -274,8 +274,6 @@
 ||arc.msn.com.nsatc.net^
 ||assets.msn.com.edgekey.net^
 ||assuritystorage.blob.core.windows.net^
-||australiaeast-qos.prod.warm.ingest.monitor.core.windows.net^
-||australiaeast-shared.prod.warm.ingest.monitor.core.windows.net^
 ||automatedirstrprdeus.blob.core.windows.net^
 ||azpglspamprwduateus2.blob.core.windows.net^
 ||azrstposb3ib2cwebp.z15.web.core.windows.net^
@@ -306,14 +304,8 @@
 ||btv-du-dev-eventhub-streamanalytics.servicebus.windows.net^
 ||btv-du-prod-eventhub-streamanalytics.servicebus.windows.net^
 ||c.msn.com.nsatc.net^
-||canadacentral-qos.prod.warm.ingest.monitor.core.windows.net^
-||canadacentral-shared.prod.warm.ingest.monitor.core.windows.net^
 ||cdf-anon.xboxlive.com.edgekey.net^
 ||ceipmsn.com*^
-||centralindia-qos.prod.warm.ingest.monitor.core.windows.net^
-||centralindia-shared.prod.warm.ingest.monitor.core.windows.net^
-||centralus-qos.prod.warm.ingest.monitor.core.windows.net^
-||centralus-shared.prod.warm.ingest.monitor.core.windows.net^
 ||ceuswatcab01.blob.core.windows.net^
 ||ceuswatcab02.blob.core.windows.net^
 ||ceuswatcab03.blob.core.windows.net^
@@ -347,12 +339,6 @@
 ||dlwnextsetting.blob.core.windows.net^
 ||dmp100dmpprodstorage.table.core.windows.net^
 ||dynamicslive.com^
-||eastus-dcr.prod.hot.ingest.monitor.core.windows.net^
-||eastus-qos.prod.warm.ingest.monitor.core.windows.net^
-||eastus-shared.prod.warm.ingest.monitor.core.windows.net^
-||eastus.prod.la.ingest.monitor.core.windows.net^
-||eastus2-qos.prod.warm.ingest.monitor.core.windows.net^
-||eastus2-shared.prod.warm.ingest.monitor.core.windows.net^
 ||eaus2watcab01.blob.core.windows.net^
 ||eaus2watcab02.blob.core.windows.net^
 ||efrcmsstoragep.blob.core.windows.net^
@@ -364,7 +350,6 @@
 ||frontendmetrics.blob.core.windows.net^
 ||g.msn.com.nsatc.net^
 ||gateway.windows.net^
-||germanywestcentral-dcr.prod.hot.ingest.monitor.core.windows.net^
 ||hme-live-loganalytics-namespace.servicebus.windows.net^
 ||hme-uat-loganalytics-namespace.servicebus.windows.net^
 ||hubstordev3sstor1.blob.core.windows.net^
@@ -372,8 +357,6 @@
 ||insitez.blob.core.windows.net^
 ||iriscoremetadataprod.blob.core.windows.net^
 ||isgemail.blob.core.windows.net^
-||japaneast-qos.prod.warm.ingest.monitor.core.windows.net^
-||japaneast-shared.prod.warm.ingest.monitor.core.windows.net^
 ||jetanalytics.servicebus.windows.net^
 ||kg-legacy-analytics.servicebus.windows.net^
 ||kiwi.blob.core.windows.net^
@@ -404,10 +387,6 @@
 ||musicart.xboxlive.com.edgekey.net^
 ||musicimage.xboxlive.com.edgekey.net^
 ||nexxtv-events.servicebus.windows.net^
-||northcentralus-qos.prod.warm.ingest.monitor.core.windows.net^
-||northcentralus-shared.prod.warm.ingest.monitor.core.windows.net^
-||northeurope-qos.prod.warm.ingest.monitor.core.windows.net^
-||northeurope-shared.prod.warm.ingest.monitor.core.windows.net^
 ||o365diagtelemetry.trafficmanager.net^
 ||offerservicefallback.blob.core.windows.net^
 ||officehomeblobs.blob.core.windows.net^
@@ -439,10 +418,6 @@
 ||secure-a.windows.net^
 ||settings-ssl.xboxlive.com.edgekey.net^
 ||sonfiles.blob.core.windows.net^
-||southcentralus-qos.prod.warm.ingest.monitor.core.windows.net^
-||southcentralus-shared.prod.warm.ingest.monitor.core.windows.net^
-||southeastasia-qos.prod.warm.ingest.monitor.core.windows.net^
-||southeastasia-shared.prod.warm.ingest.monitor.core.windows.net^
 ||ss-telemetry.servicebus.windows.net^
 ||statesfe1.update.microsoft.com.nsatc.net^$important
 ||statesfe1.ws.microsoft.com.nsatc.net^$important
@@ -458,8 +433,6 @@
 ||thestreamstaging.blob.core.windows.net^
 ||trustwave.blob.core.windows.net^
 ||uasprod.blob.core.windows.net^
-||uksouth-qos.prod.warm.ingest.monitor.core.windows.net^
-||uksouth-shared.prod.warm.ingest.monitor.core.windows.net^
 ||umwatson.trafficmanager.net^
 ||umwatsonrouting.trafficmanager.net^
 ||universalstore.streaming.mediaservices.windows.net^
@@ -473,16 +446,6 @@
 ||vortex.data.microsoft.com.edgekey.net^
 ||wayfinderanalytics.servicebus.windows.net^
 ||weathermapdata.blob.core.windows.net^
-||westeurope-qos.prod.warm.ingest.monitor.core.windows.net^
-||westeurope-shared.prod.warm.ingest.monitor.core.windows.net^
-||westus-mdm.prod.hot.ingest.monitor.core.windows.net^
-||westus-qos.prod.warm.ingest.monitor.core.windows.net^
-||westus-shared.prod.warm.ingest.monitor.core.windows.net^
-||westus2-mdm.prod.hot.ingest.monitor.core.windows.net^
-||westus2-qos.prod.warm.ingest.monitor.core.windows.net^
-||westus2-shared.prod.warm.ingest.monitor.core.windows.net^
-||westus3-qos.prod.warm.ingest.monitor.core.windows.net^
-||westus3-shared.prod.warm.ingest.monitor.core.windows.net^
 ||weus2watcab01.blob.core.windows.net^
 ||weus2watcab02.blob.core.windows.net^
 ||wildcard.xboxlive.com.edgekey.net^
@@ -554,9 +517,15 @@
 ||afd.msedge.azure.us^
 ||aijscdn2.afd.azureedge.net^
 ||aijscdn2.azureedge.net^
+||aimon.applicationinsights.io*^
 ||amcdnmsftuswe.afd.azureedge.net^
 ||amcdnmsftuswe.azureedge.net^
 ||analytics-gvgjgjd0b6bjekfj.z01.azurefd.net^
+||api1.applicationinsights.io^
+||api2.applicationinsights.io^
+||api3.applicationinsights.io^
+||api4.applicationinsights.io^
+||api5.applicationinsights.io^
 ||app-fnsp-matomo-analytics-prod.azurewebsites.net^
 ||app-service-diagnostics-portal.azureedge.net^
 ||appexbingfinance.trafficmanager.net^
@@ -566,7 +535,6 @@
 ||applicationinsights.azure.cn*^
 ||applicationinsights.azure.com*^
 ||applicationinsights.azure.us*^
-||applicationinsights.io*^
 ||asm-api-prod-version-skype.trafficmanager.net^
 ||azsc-bingads-westus.westus.cloudapp.azure.com^
 ||azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com^
@@ -580,6 +548,7 @@
 ||canvas-cdn-prod.azureedge.net^
 ||cd-analytics-eu.azurefd.net^
 ||cdata-driver-telemetry.azurewebsites.net^
+||cdn.applicationinsights.io*^
 ||cic-analytics-prod-func.azurewebsites.net^
 ||cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net^
 ||clgs-prodmus-analytics.azurewebsites.net^
@@ -588,6 +557,7 @@
 ||cookiemon-analytics.azurewebsites.net^
 ||copilot-copilot-msft-com.trafficmanager.net^
 ||copilotpromptlibrary-ccm-prod-b5bxarg0bca5hngp.z01.azurefd.net^
+||dev.applicationinsights.io^
 ||df-prod-analytics.azurewebsites.net^
 ||driver-analytics-web-service.azurewebsites.net*^
 ||edge-management-azure-com.arm-0001.arm-msedge.net^
@@ -610,10 +580,14 @@
 ||fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net^
 ||g-msn-com-nsatc.trafficmanager.net^
 ||ideasazurefeedbackprod.powerappsportals.com^
+||insightsportal-cdn-aimon.applicationinsights.io^
 ||intunecdnpeasd.azureedge.net^
 ||intunecdnpeasd.ec.azureedge.net^
 ||ironsight-analytics.azurewebsites.net^
 ||jabra-xpressonline-prd-analytics.azurewebsites.net^
+||js0.tst.applicationinsights.io^
+||js1.tst.applicationinsights.io^
+||js2.tst.applicationinsights.io^
 ||lander-mw-analytics-c3bzckfcbaf9ekh2.z03.azurefd.net^
 ||lgincdnvzeuno.azureedge.net^
 ||masdpanalytics.azureedge.net^
@@ -679,6 +653,7 @@
 ||widgetservice.azurefd.net^
 ||windowsazure.com*^
 ||windowsazure.org^
+||www.applicationinsights.io^
 ||xpay-aks-int-eus.eastus.cloudapp.azure.com^
 ||xpay-edgetipping-api-atm-prod.trafficmanager.net^
 ||xpay-edgetipping-gateway.centralus.cloudapp.azure.com^
@@ -930,7 +905,6 @@
 ||ods-logging-dfhsbqdgd7g0bbc3.z01.azurefd.net^
 ||ods-logging-prod.eastus.cloudapp.azure.com^
 ||oloobe-prod-cdn-storage.azureedge.net^
-||opinsights.azure.com^
 ||pdfsuperhero.azureedge.net^
 ||pfbx-api-logging-euw-prod-linux.azurewebsites.net^
 ||playfabapi.com*^
@@ -1095,7 +1069,6 @@
 ||cs01-sqlmi-chub-sqm-t54-uks.011bd613e818.database.windows.net^
 ||data-migration-dolcegabbana.powerappsportals.com^
 ||data.trafficmanager.net*^
-||dc.services.visualstudio.com^
 ||devicemetadataservice.prod.trafficmanager.net^
 ||dspbeacons-error.trafficmanager.net^
 ||euc-excel-telemetry.wac.trafficmanager.net^
@@ -2440,6 +2413,7 @@
 ||mluddnxqvtspfcr.mshome.net^
 ||modulsystem.visualstudio.com^
 ||mofos.visualstudio.com^
+||monitor.core.windows.net*^
 ||ms.visualstudio.com^
 ||msappproxy.net*^
 ||msc.visualstudio.com^
