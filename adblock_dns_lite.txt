@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 22 October 2026 19:23:31 UTC
+! Last modified: 24 October 2026 02:52:51 UTC
 ! Version: 2.14.0
 ! Syntax: Adblock
-! Number of entries: 15022
+! Number of entries: 15043
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||000001-1y.l.windowsupdate.com^
@@ -13854,6 +13854,7 @@
 ||msedge.b.tlu.dl.delivery.mp.microsoft.com^$important
 ||msedge.vg^
 ||msedgepackageinfo.com^
+||msedges.s.download.windowsupdate.com^$important
 ||nsg7-uc-edge01.linkedin.com^$important
 ||nsg7-uc-edge01a.corp.linkedin.com^$important
 ||nsg7-uc-edge01a.linkedin.com^$important
@@ -13971,6 +13972,7 @@
 ||pages.store.office.com^
 ||partner.office365.cn^
 ||pcd.office.com^
+||pillarppediagnostics.outlook.com^$important
 ||places.events.office.com^
 ||portal.office.com^
 ||powerpoint.office.com^
@@ -14522,11 +14524,14 @@
 ||sparkcdneus2.azureedge.net^
 ||spoppe-b.azureedge.net^
 ||sqlazuretelemetry.apacrm.sharepointonline.com^$important
+||sqlazuretelemetry.dprodmgd301.sharepointonline.com^$important
+||sqlazuretelemetry.edog.sharepointonline.com^$important
 ||sqlazuretelemetry.emearm.sharepointonline.com^$important
 ||sqlazuretelemetry.pathfinder.sharepointonline.com^$important
 ||sqlazuretelemetry.prod.sharepointonline.com^$important
 ||sqlazuretelemetry.prodbubble.sharepointonline.com^$important
 ||sqlazuretelemetry.usrm.sharepointonline.com^$important
+||sqlazuretelemetry9.pathfinder.sharepointonline.com^$important
 ||sqlazuretelemetrya.dprodmgd301.sharepointonline.com^$important
 ||sqlazuretelemetryi.apacrm.sharepointonline.com^$important
 ||sqlazuretelemetryi.trailblazer.sharepointonline.com^$important
@@ -14618,8 +14623,8 @@
 ||data.stg.linkedin.com^$important
 ||data.trafficmanager.net^
 ||dev.events.teams.microsoft.com^$important
-||dev.telemetry.sharepointonline.com^$important
 ||devicemetadataservice.prod.trafficmanager.net^
+||df.a365analytics.cloud.microsoft^$important
 ||df.events.teams.microsoft.com^$important
 ||dfsre-monitoring.corp.linkedin.com^$important
 ||diag-ddog.sharepointonline.com^$important
@@ -14687,6 +14692,7 @@
 ||monitoringplatform.teams.microsoft.com^$important
 ||monitortest.oostest.onedrive.com^$important
 ||monitortest9.oostest.onedrive.com^$important
+||msit.a365analytics.cloud.microsoft^$important
 ||msit.events.teams.microsoft.com^$important
 ||msit.rtmpingest.mcr.teams.cloud.microsoft^$important
 ||oms-analytics.trafficmanager.net^
@@ -14703,7 +14709,6 @@
 ||ppc-word-telemetry.wac.trafficmanager.net^
 ||prod-collecticon.outlookmobile.com^
 ||prod.profilemigration.sti.onedrive.com^$important
-||prod.telemetry.sharepointonline.com^$important
 ||rdm-trafficmanager-ticketscenter-metrics.trafficmanager.net^
 ||sec-logging.stg.linkedin.com^$important
 ||securitysignals-siphonclient.outlook.com^$important
@@ -14718,6 +14723,7 @@
 ||ssp-prod-traffic-mgr-es-beacon-eastus.trafficmanager.net^
 ||ssp-prod-traffic-mgr-es-lp-beacon-eastus.trafficmanager.net^
 ||ssr-data-service.ei-ltx1.atd.stg.linkedin.com^$important
+||stg.a365analytics.cloud.microsoft^$important
 ||sti.profileconnector.outlook.com^$important
 ||teams-events-data.trafficmanager.net^
 ||telemetry-geo.wac.trafficmanager.net^
@@ -14727,6 +14733,7 @@
 ||telemetry.eastus.trafficmanager.net^
 ||telemetry.eastus2.ame.arcdataservices.trafficmanager.net^
 ||telemetry.powerbi.com^
+||telemetry.sharepointonline.com^$important
 ||telemetry.southcentralus.ame.arcdataservices.trafficmanager.net^
 ||telemetry.westeurope.ame.arcdataservices.trafficmanager.net^
 ||test.rtmpingest.mcr.teams.cloud.microsoft^$important
@@ -14775,19 +14782,30 @@
 ||bingviz.com^
 ||ch1.coreuxab.search.live.net^
 ||co1e.quasisfserve.search.live.net^
-||cosmos.cosmos02-prod-co1.search.live.net^
+||cosmos.cosmosblu.search.live.net^
+||cosmos01-prod-co1.search.live.net^
+||cosmos02-prod-co1.search.live.net^
+||cotest1.cosmos.search.live.net^
+||db2g.iscache.search.live.net^
+||db2s.coreuxab.search.live.net^
 ||dealczars.bing-shopping.microsoft-falcon.io^
 ||discoverbing.com^
 ||gateway.bingviz.microsoftapp.net^
+||iereader.search.live.net^
+||indexserve2.search.live.net^
 ||nel-lb.bing-coreux.ingress.wus2.microsoft-falcon.net^
 ||nel-lb.bing-coreux.sc-wus2-0oic2.slb.wus2.microsoft-falcon.net^
 ||nel-wus2.binguxlivesite.net^
 ||search.msn.de^
+||sql.cosmos.search.live.net^
+||sqle.cosmos.search.live.net^
 ||test-co1.search.live.net^
+||ux-rt-test.search.live.net^
 ||www.bay.coreuxab.search.live.net^
 ||www.bay.realtimeux.search.live.net^
 ||www.indexserve.search.live.net^
 ||www.kaw.coreuxb.search.live.net^
+||www.search.live.net^
 ! Skype
 ||apic.teams.skype.com^$important
 ||bots9.teams.skype.com^$important
@@ -14807,6 +14825,7 @@
 ||skypeforbusiness.com^
 ||toruse.test.appgroup.westus.teams.skype.com^$important
 ||ui.skype.akadns.net^
+||usce7.policyprocessor.teams.skype.com^$important
 ! Xbox
 ||account.xbox.com.akadns.net^
 ||int.titlestorage.xboxlive.com^$important
@@ -14850,6 +14869,7 @@
 ! Advertising and external domains
 ||aadsecurescoreprod012019a.office.com^
 ||ad.linkedin.com^$important
+||ad.live.net^
 ||ad.sharepointonline.com^$important
 ||adnxs-simple.com^
 ||adnxs.com^
@@ -14859,7 +14879,6 @@
 ||ads-inmobi-comtm.trafficmanager.net^
 ||ads-investigator.prod.linkedin.com^$important
 ||ads-investigator.stg.linkedin.com^$important
-||ads.brody.outlook.com^$important
 ||ads.licdn.com^
 ||ads.linkedin.com^$important
 ||ads.msft.com^
@@ -14867,6 +14886,7 @@
 ||ads.sharepointonline.com^$important
 ||ads.trafficmanager.net^
 ||ads.visualstudio.com^
+||ads1.visualstudio.com^
 ||ads9.onedrive.com^$important
 ||adsa.mp.onedrive.com^$important
 ||adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net^
@@ -14876,6 +14896,7 @@
 ||adserve.blob.core.windows.net^
 ||adserver-public-cdn.afd.azureedge.net^
 ||adserver-public-cdn.azureedge.net^
+||adserver2o.visualstudio.com^
 ||adsl.onedrive.com^$important
 ||adsl.trafficmanager.net^
 ||adsl.visualstudio.com^
