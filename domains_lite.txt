@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 24 October 2026 02:52:55 UTC
-# Version: 2.14.0
+# Last modified: 26 October 2026 21:57:25 UTC
+# Version: 2.15.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 19038
+# Number of entries: 19045
 #
 # # Custom Allow & Blocklist # #
 #000001-1y.l.windowsupdate.com
@@ -19780,6 +19780,7 @@ eu-office.events.data.microsoft.com
 eu-office.events.data.microsoft.net
 excel.office.com
 excelonline.nel.measure.office.net
+excelonline.nelsdf.measure.office.net
 exo.nel.measure.office.net
 exo.nelitar.measure.office365.us
 exo.nelsdf.measure.office.net
@@ -24274,7 +24275,9 @@ msnbot-157-55-23-101.search.msn.com
 msnbot-157-55-23-117.search.msn.com
 msnbot-157-55-23-24.search.msn.com
 msnbot-157-55-32-205.search.msn.com
+msnbot-157-55-39-13.search.msn.com
 msnbot-157-55-39-132.search.msn.com
+msnbot-157-55-39-52.search.msn.com
 msnbot-157-55-39-81.search.msn.com
 msnbot-157-55-50-5.search.msn.com
 msnbot-157-55-7-170.search.msn.com
@@ -24363,6 +24366,7 @@ msnbot-207-46-12-79.search.msn.com
 msnbot-207-46-126-125.search.msn.com
 msnbot-207-46-126-240.search.msn.com
 msnbot-207-46-13-115.search.msn.com
+msnbot-207-46-13-151.search.msn.com
 msnbot-207-46-13-153.search.msn.com
 msnbot-207-46-13-192.search.msn.com
 msnbot-207-46-13-206.search.msn.com
@@ -24599,6 +24603,7 @@ msnbot-40-90-158-172.search.msn.com
 msnbot-40-90-159-32.search.msn.com
 msnbot-40-90-159-8.search.msn.com
 msnbot-52-167-144-116.search.msn.com
+msnbot-52-167-144-172.search.msn.com
 msnbot-52-167-144-188.search.msn.com
 msnbot-52-167-144-247.search.msn.com
 msnbot-64-4-22-223.search.msn.com
@@ -31998,6 +32003,7 @@ ads.msn-int.com
 ads.msn-ppe.com
 ads.msn.com
 ads.onedrive.com
+ads.outlook.com
 ads.sharepointonline.com
 ads.trafficmanager.net
 ads.visualstudio.com
@@ -32614,6 +32620,7 @@ www.adnxs.com
 www.adnxs.net
 www.ads.licdn.com
 www.ads.linkedin.com
+www.ads.microsoft.com
 www.ads1.msads.net
 www.ads2.msads.net
 www.appnexus.com
