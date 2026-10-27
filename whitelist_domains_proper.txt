@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_proper.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 26 October 2026 21:57:26 UTC
-# Version: 2.15.0
+# Last modified: 27 October 2026 22:12:29 UTC
+# Version: 2.16.0
 # Syntax: plain domains (whitelist)
-# Number of entries: 10414
+# Number of entries: 10421
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -4794,17 +4794,19 @@ mscrl.microsoft.com
 ocs.microsoft.com
 ocsp.microsoft.com
 oneocsp.microsoft.com
-smartscreen-prod.microsoft.com
+settings-win.data.microsoft.com
 smartscreen.microsoft.com
 unitedkingdom.smartscreen-prod.microsoft.com
 unitedstates.smartscreen-prod.microsoft.com
 urs.microsoft.com
 urs.smartscreen.microsoft.com
+vortex-win.data.microsoft.com
 w.apprep.smartscreen.microsoft.com
 wd.microsoft.com
 wdcp.microsoft.com
 wdcpalt.microsoft.com
 winatp-gw-cus.microsoft.com
+www.microsoft.com
 # # Winget / NuGet
 api.nuget.org
 cdn.winget.microsoft.com
@@ -10397,14 +10399,19 @@ steamcloudsweden.blob.core.windows.net
 steamcloudtoronto2.blob.core.windows.net
 steamclouduseast2.blob.core.windows.net
 # # GitHub services
+ai.azure.com
+api.catalog.azureml.ms
 api.individual.githubcopilot.com
 api.mcp.github.com
 app.github.dev
+business.githubcopilot.com
 copilot-proxy.githubusercontent.com
+enterprise.githubcopilot.com
 ghcr.io
 github.dev
 githubcopilot.com
 glb-db52c2cf8be544.github.com
+individual.githubcopilot.com
 maven.pkg.github.com
 mavenregistryv2prod.blob.core.windows.net
 npm.pkg.github.com

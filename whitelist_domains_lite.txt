@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 26 October 2026 21:57:26 UTC
-# Version: 2.15.0
+# Last modified: 27 October 2026 22:12:29 UTC
+# Version: 2.16.0
 # Syntax: plain domains (whitelist)
-# Number of entries: 13796
+# Number of entries: 13812
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -4794,17 +4794,19 @@ mscrl.microsoft.com
 ocs.microsoft.com
 ocsp.microsoft.com
 oneocsp.microsoft.com
-smartscreen-prod.microsoft.com
+settings-win.data.microsoft.com
 smartscreen.microsoft.com
 unitedkingdom.smartscreen-prod.microsoft.com
 unitedstates.smartscreen-prod.microsoft.com
 urs.microsoft.com
 urs.smartscreen.microsoft.com
+vortex-win.data.microsoft.com
 w.apprep.smartscreen.microsoft.com
 wd.microsoft.com
 wdcp.microsoft.com
 wdcpalt.microsoft.com
 winatp-gw-cus.microsoft.com
+www.microsoft.com
 # # Microsoft Store
 afd-bxxea57natk6k-b3arhwd4gve9dac0.b02.azurefd.net
 blob.dz6prdstr08a.store.core.windows.net
@@ -4814,7 +4816,6 @@ displaycatalog.mp.microsoft.com
 livetileedge.dsx.mp.microsoft.com
 livetileedge.dsx.mp.microsoft.com.edgekey.net
 mr-b02.tm-azurefd.net
-share.microsoft.com
 share.microsoft.com.edgekey.net
 store-images.s-microsoft.com
 store-images.s-microsoft.com-c.edgekey.net
@@ -10416,14 +10417,19 @@ steamcloudsweden.blob.core.windows.net
 steamcloudtoronto2.blob.core.windows.net
 steamclouduseast2.blob.core.windows.net
 # # GitHub services
+ai.azure.com
+api.catalog.azureml.ms
 api.individual.githubcopilot.com
 api.mcp.github.com
 app.github.dev
+business.githubcopilot.com
 copilot-proxy.githubusercontent.com
+enterprise.githubcopilot.com
 ghcr.io
 github.dev
 githubcopilot.com
 glb-db52c2cf8be544.github.com
+individual.githubcopilot.com
 maven.pkg.github.com
 mavenregistryv2prod.blob.core.windows.net
 npm.pkg.github.com
@@ -10455,6 +10461,7 @@ xsts.auth.xboxlive.com
 # # Edge extension store
 addons.microsoftedge.microsoft.com
 api.addons.microsoftedge.microsoft.com
+data-edge.smartscreen.microsoft.com
 edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net
 editor.svc.cloud.microsoft
 extensionsecurity.microsoftedge.microsoft.com
@@ -10464,9 +10471,11 @@ microsoftedge.microsoft.com
 nav-edge.smartscreen.microsoft.com
 nav.smartscreen.microsoft.com
 nf.smartscreen.microsoft.com
+ping-edge.smartscreen.microsoft.com
 ratingsedge.rnr.microsoft.com
 reportabuse.int.microsoftedge.microsoft.com
 reportabuse3.int.microsoftedge.microsoft.com
+smartscreen-prod.microsoft.com
 telem-edge.smartscreen.microsoft.com
 www.addons.microsoftedge.microsoft.com
 www.api.addons.microsoftedge.microsoft.com
@@ -11050,6 +11059,7 @@ compassholdings-my.sharepoint.com
 completeconstruction-my.sharepoint.com
 conceptbooks-my.sharepoint.com
 conferencetechinc-my.sharepoint.com
+config.teams.microsoft.com
 connect.sharepointonline.com
 connectivity-ppe.m365.cloud.microsoft
 connectivity-test.cloud.microsoft
@@ -11832,6 +11842,7 @@ oceans14.sharepoint.com
 octoberpharma.sharepoint.com
 ocwen365-my.sharepoint.com
 odc.edog.officeapps.live.com
+odc.officeapps.live.com
 odspfilescan.sharepointonline.com
 odspfilescan2020.apacrm.sharepointonline.com
 odspfilescan2020.edog.sharepointonline.com
@@ -11857,6 +11868,7 @@ officeapps.live.com
 officeapps.live.net
 officechoiceau-my.sharepoint.com
 officeclient.microsoft.com
+officehomeblobs.blob.core.windows.net
 offlinee.officeapps.live.net
 ohlna-my.sharepoint.com
 omrch-my.sharepoint.com
@@ -12265,6 +12277,7 @@ st-sdk.weu.eur.msit.ecdn.teams.cloud.microsoft
 st-sdk.weu.eur.prod.ecdn.teams.cloud.microsoft
 stage.sharepointonline.com
 staging.sharepointonline.com
+staging.to-do.microsoft.com
 stakks-my.sharepoint.com
 standishwineco-my.sharepoint.com
 statewaste-my.sharepoint.com
@@ -12276,6 +12289,7 @@ static2df.sharepointonline.com
 static2e.excel.officeapps.live.net
 staticppe.sharepointonline.com
 statics-afdk.teams.cdn.office.net
+statics.teams.cdn.live.net
 staticsint.teams.cdn.office.net
 statnett.sharepoint.com
 status.cloud.microsoft
@@ -12320,6 +12334,8 @@ tabstop.sharepointonline.com
 talofinancial-my.sharepoint.com
 tata365.sharepoint.com
 teaminc-my.sharepoint.com
+teams.events.data.microsoft.com
+teams.live.com
 teamsapp.learning.cloud.microsoft
 teaom-my.sharepoint.com
 tecequipment-my.sharepoint.com
@@ -12382,6 +12398,7 @@ tippsouthvec.sharepoint.com
 tjeksproget.sharepoint.com
 tltvn.sharepoint.com
 tmleasingllc.sharepoint.com
+to-do.microsoft.com
 todaysgroup-my.sharepoint.com
 todo.cloud.microsoft
 tomsarroscomau-my.sharepoint.com
@@ -12743,6 +12760,7 @@ cci.onedrive.com
 cci3.onedrive.com
 cdckda.docs.live.net
 cdn.onedrive.com
+cdn.onenote.net
 cdn1.onedrive.com
 ch.onedrive.com
 ch3301-c.1drv.com
@@ -13447,6 +13465,7 @@ server.onedrive.com
 server1.onedrive.com
 server1a.onedrive.com
 sg924fe.docs.live.net
+share.microsoft.com
 share365cloud.onedrive.com
 sharedocument.onedrive.com
 sharedocumentn.onedrive.com
@@ -13761,7 +13780,6 @@ asyncgw.teams.microsoft.com
 audience.gcc.teams.usgovtrafficmanager.net06-az.audience.gcc.teams.microsoft.com
 auth.mt.teams.skype.com
 cachewriter-il.teams.microsoft.com
-config.teams.microsoft.com
 cosmos.int.teamsorchestrator.rtcdat.skype.com
 cosmos.prod.teamsorchestrator.rtcdat.skype.com
 devicemgmt.teams.microsoft.com
@@ -13795,13 +13813,11 @@ presence.teams.microsoft.com
 pub-ent-usea2-15-t.trouter.teams.microsoft.com
 sdk.tx.usa.gcc.tha.gcc.teams.microsoft.com
 settings.teams.skype.com
-statics.teams.cdn.live.net
 statics.teams.cdn.office.net
 statics.teams.skype.com
 teams.cdn.live.net
 teams.cdn.office.net
 teams.cloud.microsoft
-teams.live.com
 teams.microsoft.com
 teams.microsoft.us
 teams.microsoftonline.cn

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 26 October 2026 21:57:26 UTC
-# Version: 2.15.0
+# Last modified: 27 October 2026 22:12:29 UTC
+# Version: 2.16.0
 # Syntax: plain domains (whitelist)
-# Number of entries: 22
+# Number of entries: 27
 #
 # # External services on shared infrastructure
 steamcloudlrsuswest.blob.core.windows.net
@@ -16,14 +16,19 @@ steamcloudsweden.blob.core.windows.net
 steamcloudtoronto2.blob.core.windows.net
 steamclouduseast2.blob.core.windows.net
 # # GitHub services
+ai.azure.com
+api.catalog.azureml.ms
 api.individual.githubcopilot.com
 api.mcp.github.com
 app.github.dev
+business.githubcopilot.com
 copilot-proxy.githubusercontent.com
+enterprise.githubcopilot.com
 ghcr.io
 github.dev
 githubcopilot.com
 glb-db52c2cf8be544.github.com
+individual.githubcopilot.com
 maven.pkg.github.com
 mavenregistryv2prod.blob.core.windows.net
 npm.pkg.github.com
