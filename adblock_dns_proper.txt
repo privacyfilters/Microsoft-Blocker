@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 29 October 2026 20:39:30 UTC
-! Version: 2.16.0
+! Last modified: 29 October 2026 21:28:18 UTC
+! Version: 2.16.1
 ! Syntax: Adblock
-! Number of entries: 13281
+! Number of entries: 13285
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 ! Windows Update related Urls
@@ -10516,6 +10516,9 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||userpresence.xboxlive.com.akadns.net^
 @@||xsts.auth.xboxlive.com^
 # # Microsoft subsidiaries (King, Yammer)
+@@||api.swiftkey.com^
+@@||assets.swiftkey.com^
+@@||blog.swiftkey.com^
 @@||bubblewitch3mobile.king.com^
 @@||candycrush.king.com^
 @@||candycrushsoda.king.com^
@@ -10523,6 +10526,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||ccss.play.king.com^
 @@||king.com^
 @@||servicelayer.king.com^
+@@||support.swiftkey.com^
 @@||yammer.com^
 @@||yammerusercontent.com^
 ! Microsoft Edge telemetry and CDN
@@ -11700,7 +11704,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||data.swiftkey.com^
 ||telemetry-internal.services.production.swiftkey.com^
 ||telemetry-internal.services.staging.swiftkey.com^
-||telemetry.api.swiftkey.com^
+||telemetry.api.swiftkey.com^$important
 ||telemetry.services.staging.swiftkey.com^
 ||telemetry.swiftkey.com^
 ||touchtype-fluency.com^

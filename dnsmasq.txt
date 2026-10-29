@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 20:39:32 UTC
-# Version: 2.16.0
+# Last modified: 29 October 2026 21:28:21 UTC
+# Version: 2.16.1
 # Syntax: DNSMasq
-# Number of entries: 13612
+# Number of entries: 13616
 #
 # # Custom Allow & Blocklist # #
 server=/000001-1y.l.windowsupdate.com/
@@ -10512,6 +10512,9 @@ server=/userpresence.xboxlive.com/
 server=/userpresence.xboxlive.com.akadns.net/
 server=/xsts.auth.xboxlive.com/
 # # Microsoft subsidiaries (King, Yammer)
+server=/api.swiftkey.com/
+server=/assets.swiftkey.com/
+server=/blog.swiftkey.com/
 server=/bubblewitch3mobile.king.com/
 server=/candycrush.king.com/
 server=/candycrushsoda.king.com/
@@ -10519,6 +10522,7 @@ server=/ccs.play.king.com/
 server=/ccss.play.king.com/
 server=/king.com/
 server=/servicelayer.king.com/
+server=/support.swiftkey.com/
 server=/yammer.com/
 server=/yammerusercontent.com/
 # # Microsoft Edge telemetry and CDN

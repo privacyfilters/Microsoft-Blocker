@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_proper.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 20:39:33 UTC
-# Version: 2.16.0
+# Last modified: 29 October 2026 21:28:22 UTC
+# Version: 2.16.1
 # Syntax: plain domains (whitelist)
-# Number of entries: 10483
+# Number of entries: 10487
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -10494,6 +10494,9 @@ userpresence.xboxlive.com
 userpresence.xboxlive.com.akadns.net
 xsts.auth.xboxlive.com
 # # Microsoft subsidiaries (King, Yammer)
+api.swiftkey.com
+assets.swiftkey.com
+blog.swiftkey.com
 bubblewitch3mobile.king.com
 candycrush.king.com
 candycrushsoda.king.com
@@ -10501,5 +10504,6 @@ ccs.play.king.com
 ccss.play.king.com
 king.com
 servicelayer.king.com
+support.swiftkey.com
 yammer.com
 yammerusercontent.com

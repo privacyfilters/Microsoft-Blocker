@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 20:39:33 UTC
-# Version: 2.16.0
+# Last modified: 29 October 2026 21:28:22 UTC
+# Version: 2.16.1
 # Syntax: plain domains (whitelist)
 # Number of entries: 27
 #

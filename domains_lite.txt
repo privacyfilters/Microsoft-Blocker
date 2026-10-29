@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 20:39:32 UTC
-# Version: 2.16.0
+# Last modified: 29 October 2026 21:28:21 UTC
+# Version: 2.16.1
 # Syntax: domains (including possible subdomains)
 # Number of entries: 19052
 #
@@ -10512,6 +10512,9 @@
 #userpresence.xboxlive.com.akadns.net
 #xsts.auth.xboxlive.com
 # # Microsoft subsidiaries (King, Yammer)
+#api.swiftkey.com
+#assets.swiftkey.com
+#blog.swiftkey.com
 #bubblewitch3mobile.king.com
 #candycrush.king.com
 #candycrushsoda.king.com
@@ -10519,6 +10522,7 @@
 #ccss.play.king.com
 #king.com
 #servicelayer.king.com
+#support.swiftkey.com
 #yammer.com
 #yammerusercontent.com
 # # Lite: Edge extension store allowed
