@@ -4,7 +4,7 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 27 October 2026 22:12:29 UTC
+# Last modified: 29 October 2026 20:39:32 UTC
 # Version: 2.16.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
 # Number of entries: 16556
@@ -1189,6 +1189,7 @@
 #0.0.0.0 aaao.visualstudio.com
 #0.0.0.0 aaauat-wlan-aaa.corp.microsoft.com
 #0.0.0.0 aadapp.chaosagent.outlook.com
+#0.0.0.0 aam-content-cdn.manage.microsoft.com
 #0.0.0.0 account-status-checker.prod.linkedin.com
 #0.0.0.0 account-status-checker.stg.linkedin.com
 #0.0.0.0 account.microsoft.com
@@ -2051,6 +2052,7 @@
 #0.0.0.0 centralus-pd013.augloop.svc.cloud.microsoft
 #0.0.0.0 centralus-pd02i.augloop.svc.cloud.microsoft
 #0.0.0.0 centralus.api.cognitive.microsoft.com
+#0.0.0.0 certauth.enterpriseregistration.windows.net
 #0.0.0.0 certauth.msft.sts.microsoft.com
 #0.0.0.0 certnoti.kusto.connector.m365.outlook.com
 #0.0.0.0 cfr.ncss.wwprod.officeshell.svc.cloud.microsoft
@@ -2430,6 +2432,7 @@
 #0.0.0.0 ciicluster-prods.southeastasia.portal.office.com
 #0.0.0.0 click.mail.onedrive.com
 #0.0.0.0 client.planner.svc.cloud.microsoft
+#0.0.0.0 client.wns.windows.com
 #0.0.0.0 clientlog.portal.office.com
 #0.0.0.0 cloud.mail.onedrive.com
 #0.0.0.0 cluster-d.playfabapi.com
@@ -2683,6 +2686,7 @@
 #0.0.0.0 eds.geneva.keyvault.prdtrs01.prod.outlook.com
 #0.0.0.0 edu.svc.cloud.microsoft
 #0.0.0.0 ejp.css.cprod.officeshell.svc.cloud.microsoft
+#0.0.0.0 ekcert.spserv.microsoft.com
 #0.0.0.0 elcdeletion.outlook.com
 #0.0.0.0 emdl.ws.microsoft.com
 #0.0.0.0 emea.mail.microsoft.com
@@ -2697,6 +2701,7 @@
 #0.0.0.0 enterprise-canaryg.activity.windows.com
 #0.0.0.0 enterprise-ppe.activity.windows.com
 #0.0.0.0 enterprisee.activity.windows.com
+#0.0.0.0 enterpriseenrollment.manage.microsoft.com
 #0.0.0.0 enterprisevoice.svc.cloud.microsoft
 #0.0.0.0 eop-apc01.prod.protection.outlook.com
 #0.0.0.0 eop-are01.prod.protection.outlook.com
@@ -2835,6 +2840,7 @@
 #0.0.0.0 fb.smartscreen.microsoft.com
 #0.0.0.0 fc.prod.help.svc.cloud.microsoft
 #0.0.0.0 fd.api.iris.microsoft.com
+#0.0.0.0 fd.api.orgmsg.microsoft.com
 #0.0.0.0 fe2.update.microsoft.com
 #0.0.0.0 fe2.update.microsoft.com.akadns.net
 #0.0.0.0 fe2.wq.microsoft.com
@@ -2846,6 +2852,8 @@
 #0.0.0.0 fe3.update.microsoft.com
 #0.0.0.0 fe3cr.delivery.mp.microsoft.com
 #0.0.0.0 feaadcertclients.amsua0801.manage.microsoft.com
+#0.0.0.0 fef.fxpasu01.manage.microsoft.us
+#0.0.0.0 fef.msuc03.manage.microsoft.com
 #0.0.0.0 fei.damsub01.manage-dogfood.microsoft.com
 #0.0.0.0 fetransportcafeosauth.outlook.com
 #0.0.0.0 fetransportglsauth.outlook.com
@@ -2875,6 +2883,8 @@
 #0.0.0.0 gcc.activity.windows.com
 #0.0.0.0 gcc.cheshire.outlook.office.com
 #0.0.0.0 gcc.contactsupportrelays.svc.cloud.microsoft
+#0.0.0.0 gcc.relay.remotehelp.microsoft.com
+#0.0.0.0 gcc.remotehelp.microsoft.com
 #0.0.0.0 gcc.shredder.svc.cloud.microsoft
 #0.0.0.0 gcc.updates.teams.cloud.microsoft
 #0.0.0.0 gcccompliancepolicya.outlook.office.com
@@ -3045,6 +3055,15 @@
 #0.0.0.0 image.mail.onedrive.com
 #0.0.0.0 imap.onedrive.com
 #0.0.0.0 imap4a.outlook.com
+#0.0.0.0 imeswda-afd-hotfix.manage.microsoft.com
+#0.0.0.0 imeswda-afd-primary.manage.microsoft.com
+#0.0.0.0 imeswda-afd-secondary.manage.microsoft.com
+#0.0.0.0 imeswdb-afd-hotfix.manage.microsoft.com
+#0.0.0.0 imeswdb-afd-primary.manage.microsoft.com
+#0.0.0.0 imeswdb-afd-secondary.manage.microsoft.com
+#0.0.0.0 imeswdc-afd-hotfix.manage.microsoft.com
+#0.0.0.0 imeswdc-afd-primary.manage.microsoft.com
+#0.0.0.0 imeswdc-afd-secondary.manage.microsoft.com
 #0.0.0.0 immersivereader.edu.svc.cloud.microsoft
 #0.0.0.0 inc.messagebroker.mobile.m365.svc.cloud.microsoft
 #0.0.0.0 inc.userstore.mobile.m365.svc.cloud.microsoft
@@ -3061,6 +3080,7 @@
 #0.0.0.0 int.surface.managementservices.microsoft.com
 #0.0.0.0 internal.outlook.com
 #0.0.0.0 internal.protection.outlook.com
+#0.0.0.0 intunecdnpeasd.manage.microsoft.com
 #0.0.0.0 intuneupdatesaadsp.manage-selfhost.microsoft.com
 #0.0.0.0 iprbacpamauth.protection.outlook.com
 #0.0.0.0 ipv6.download.microsoft.com
@@ -3119,6 +3139,8 @@
 #0.0.0.0 m.accountemail.microsoft.com
 #0.0.0.0 m.accountmail.microsoft.com
 #0.0.0.0 m.hotmail.com
+#0.0.0.0 m.manage.microsoft.com
+#0.0.0.0 m.manage.microsoft.us
 #0.0.0.0 m365.admin.cloud.microsoft
 #0.0.0.0 m365.svc.cloud.microsoft
 #0.0.0.0 m365copilotchat.svc.cloud.microsoft
@@ -3126,6 +3148,9 @@
 #0.0.0.0 m365torusdatauploaderservice.prdtrseop.prod.outlook.com
 #0.0.0.0 m365torusdatauploaderservice.prdtsb01.prod.outlook.com
 #0.0.0.0 maa01.mail.sharepointonline.com
+#0.0.0.0 macsidecar.manage.microsoft.com
+#0.0.0.0 macsidecarap.manage.microsoft.com
+#0.0.0.0 macsidecareu.manage.microsoft.com
 #0.0.0.0 mail-dm8nam00olkn2095.outbound.protection.outlook.com
 #0.0.0.0 mail-dx2are01olkn2104.outbound.protection.outlook.com
 #0.0.0.0 mail-eopbgr1550138.outbound.protection.outlook.com
@@ -3142,6 +3167,8 @@
 #0.0.0.0 mail.sharepointonline.com
 #0.0.0.0 mail.windows.com
 #0.0.0.0 mailboxencryptioncache-gcc.prod.outlook.com
+#0.0.0.0 mam.manage.microsoft.com
+#0.0.0.0 mam.manage.microsoft.us
 #0.0.0.0 mamservice.manage.microsoft.com
 #0.0.0.0 manage.devcenter.microsoft.com
 #0.0.0.0 manage.microsoft.com
@@ -3707,6 +3734,7 @@
 #0.0.0.0 portal.manage-dogfood.microsoft.com
 #0.0.0.0 portal.manage-selfhost.microsoft.com
 #0.0.0.0 portal.manage.microsoft.com
+#0.0.0.0 portal.manage.microsoft.us
 #0.0.0.0 portal.microsoft.com
 #0.0.0.0 portal.onedrive.com
 #0.0.0.0 portal.partner.microsoftonline.cn
@@ -3925,6 +3953,7 @@
 #0.0.0.0 sin.notify.windows.com
 #0.0.0.0 sins.admin.config.office.net
 #0.0.0.0 sinwns1011114.wns.windows.com
+#0.0.0.0 sinwns1011421.wns.windows.com
 #0.0.0.0 sinwns1011515.wns.windows.com
 #0.0.0.0 sinwns1011603.wns.windows.com
 #0.0.0.0 sinwns1011615.wns.windows.com
@@ -4012,6 +4041,15 @@
 #0.0.0.0 surface.downloads.prss.microsoft.com
 #0.0.0.0 surfer.olc.protection.outlook.com
 #0.0.0.0 svc.cloud.microsoft
+#0.0.0.0 swda01-mscdn.manage.microsoft.com
+#0.0.0.0 swda02-mscdn.manage.microsoft.com
+#0.0.0.0 swdb01-mscdn.manage.microsoft.com
+#0.0.0.0 swdb02-mscdn.manage.microsoft.com
+#0.0.0.0 swdc01-mscdn.manage.microsoft.com
+#0.0.0.0 swdd01-mscdn.manage.microsoft.com
+#0.0.0.0 swdd02-mscdn.manage.microsoft.com
+#0.0.0.0 swdin01-mscdn.manage.microsoft.com
+#0.0.0.0 swdin02-mscdn.manage.microsoft.com
 #0.0.0.0 swm-df.outlook.com
 #0.0.0.0 swm-tdf.outlook.com
 #0.0.0.0 swn0a.prd.authapi.cnc.nxs.mde.securitycenter.windows.com
@@ -4139,6 +4177,7 @@
 #0.0.0.0 winget.microsoft.com
 #0.0.0.0 winy.admin.config.office.com
 #0.0.0.0 wip.mam.manage.microsoft.com
+#0.0.0.0 wip.mam.manage.microsoft.us
 #0.0.0.0 wjp.ncss.wwprod.officeshell.svc.cloud.microsoft
 #0.0.0.0 wjp.op.cprod.officeshell.svc.cloud.microsoft
 #0.0.0.0 wlan.onedrive.com
@@ -4890,7 +4929,20 @@
 #0.0.0.0 wd.microsoft.com
 #0.0.0.0 wdcp.microsoft.com
 #0.0.0.0 wdcpalt.microsoft.com
+#0.0.0.0 winatp-gw-aec0a.microsoft.com
+#0.0.0.0 winatp-gw-aen0a.microsoft.com
+#0.0.0.0 winatp-gw-aue.microsoft.com
+#0.0.0.0 winatp-gw-aus.microsoft.com
 #0.0.0.0 winatp-gw-cus.microsoft.com
+#0.0.0.0 winatp-gw-cus3.microsoft.com
+#0.0.0.0 winatp-gw-eus.microsoft.com
+#0.0.0.0 winatp-gw-eus3.microsoft.com
+#0.0.0.0 winatp-gw-neu.microsoft.com
+#0.0.0.0 winatp-gw-neu3.microsoft.com
+#0.0.0.0 winatp-gw-uks.microsoft.com
+#0.0.0.0 winatp-gw-ukw.microsoft.com
+#0.0.0.0 winatp-gw-weu.microsoft.com
+#0.0.0.0 winatp-gw-weu3.microsoft.com
 #0.0.0.0 www.microsoft.com
 #:: ars.smartscreen.microsoft.com
 #:: crl.microsoft.com
@@ -4914,6 +4966,7 @@
 0.0.0.0 share.microsoft.com.edgekey.net
 0.0.0.0 store-images.s-microsoft.com
 0.0.0.0 store-images.s-microsoft.com-c.edgekey.net
+0.0.0.0 store.office.com
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com.edgekey.net
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com
@@ -4939,8 +4992,10 @@
 #0.0.0.0 marketplace.visualstudio.com
 #0.0.0.0 openvsxorg.blob.core.windows.net
 #0.0.0.0 update.code.visualstudio.com
+#0.0.0.0 vs-ssh.visualstudio.com
 #0.0.0.0 vscode-cdn.net
 #0.0.0.0 vscode.download.prss.microsoft.com
+#0.0.0.0 vscommerce.visualstudio.com
 # # .NET
 #0.0.0.0 builds.dotnet.microsoft.com
 #0.0.0.0 dotnet.microsoft.com
@@ -10504,7 +10559,6 @@
 #0.0.0.0 fs.microsoft.com
 #0.0.0.0 go.microsoft.com
 #0.0.0.0 graph.microsoft.com
-#0.0.0.0 king.com
 #0.0.0.0 modpim.com
 #0.0.0.0 ocsp.digicert.com
 #0.0.0.0 sdx.microsoft.com
@@ -10561,6 +10615,17 @@
 #0.0.0.0 userpresence.xboxlive.com.akadns.net
 #0.0.0.0 xsts.auth.xboxlive.com
 #:: device.auth.xboxlive.com
+# # Microsoft subsidiaries (King, Yammer)
+#0.0.0.0 bubblewitch3mobile.king.com
+#0.0.0.0 candycrush.king.com
+#0.0.0.0 candycrushsoda.king.com
+#0.0.0.0 ccs.play.king.com
+#0.0.0.0 ccss.play.king.com
+#0.0.0.0 king.com
+#0.0.0.0 servicelayer.king.com
+#0.0.0.0 yammer.com
+#0.0.0.0 yammerusercontent.com
+#:: candycrushsoda.king.com
 # # Microsoft Edge telemetry and CDN
 0.0.0.0 119.msedge.net
 0.0.0.0 2.msedge.net
@@ -11028,6 +11093,7 @@
 0.0.0.0 cpt21r9a.msedge.net
 0.0.0.0 cpt30r3ai.msedge.net
 0.0.0.0 cpt30r9a.msedge.net
+0.0.0.0 cr.m365copilotapp.svc.cloud.microsoft
 0.0.0.0 cs.msedge.net
 0.0.0.0 cvg30r4a.msedge.net
 0.0.0.0 cys01r5b.msedge.net
@@ -11127,6 +11193,7 @@
 0.0.0.0 edge.services.microsoft.com
 0.0.0.0 edgeassetservice.azureedge.net
 0.0.0.0 edgecast-logs.licdn.com
+0.0.0.0 edgepasskeysenclave.microsoft.com
 0.0.0.0 edgestatic.azureedge.net
 0.0.0.0 edgesync-enterprise.activity.windows.com
 0.0.0.0 edgesync-s2s.activity.windows.com
@@ -11529,6 +11596,7 @@
 0.0.0.0 phx31r9a.msedge.net
 0.0.0.0 pilot5.edge.skype.com
 0.0.0.0 plat.maps.sla.msedge.net
+0.0.0.0 playwright.download.prss.microsoft.com
 0.0.0.0 pnq30r4b.msedge.net
 0.0.0.0 portal-azure-s2s.msedge.net
 0.0.0.0 pr1.msedge.net
@@ -17106,7 +17174,6 @@
 0.0.0.0 btmosal5.live.com
 0.0.0.0 btpdjqwivqhtbgy.mshome.net
 0.0.0.0 bubblebuzz.spaces.live.com
-0.0.0.0 bubblewitch3mobile.king.com
 0.0.0.0 bubua.visualstudio.com
 0.0.0.0 bugsq.visualstudio.com
 0.0.0.0 bui-co-za.partner.fttoolingapi.microsoft.com
@@ -17222,8 +17289,6 @@
 0.0.0.0 canc.can.streamingapi.dt.nxs.mde.securitycenter.windows.com
 0.0.0.0 canc.securitycenter.windows.com
 0.0.0.0 candleq.visualstudio.com
-0.0.0.0 candycrush.king.com
-0.0.0.0 candycrushsoda.king.com
 0.0.0.0 cane.can.cyberdataapi.dtc.mde.securitycenter.windows.com
 0.0.0.0 cane.can.streamingapi.dt.nxs.mde.securitycenter.windows.com
 0.0.0.0 canjump.corp.microsoft.com
@@ -17325,10 +17390,8 @@
 0.0.0.0 cci1.visualstudio.com
 0.0.0.0 ccnbeihonrcp01.corp.microsoft.com
 0.0.0.0 ccnbeihonrcp02.corp.microsoft.com
-0.0.0.0 ccs.play.king.com
 0.0.0.0 ccsg.corp.microsoft.com
 0.0.0.0 ccsg02.corp.microsoft.com
-0.0.0.0 ccss.play.king.com
 0.0.0.0 ccvossel.visualstudio.com
 0.0.0.0 ccxopsuat1.redmond.corp.microsoft.com
 0.0.0.0 cd.ppe.ocpcms.microsoft.com
@@ -18500,9 +18563,11 @@
 0.0.0.0 debug-community.windows.com
 0.0.0.0 dede.dq.windows.com
 0.0.0.0 dedgeu.dvt.keyvaulttest.microsoft.com
+0.0.0.0 dedup.microsoft.com
 0.0.0.0 deep.visualstudio.com
 0.0.0.0 deepidea.spaces.msn.com
 0.0.0.0 deeptec.live.com
+0.0.0.0 default.exp-tas.com
 0.0.0.0 default.substrate-msai-pkg.southindia-prod.cosmic.office.net
 0.0.0.0 defecto-perfecto.spaces.live.com
 0.0.0.0 defender.microsoft.com
@@ -18658,6 +18723,7 @@
 0.0.0.0 dls-prod.geneva.keyvault.office.net
 0.0.0.0 dm.microsoft.com
 0.0.0.0 dm1.visualstudio.com
+0.0.0.0 dm2302.settings.live.net
 0.0.0.0 dmd.metaservices.microsoft.com
 0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
 0.0.0.0 dms.microsoft.com
@@ -23775,12 +23841,14 @@
 0.0.0.0 rawusbg06.gateway.office.net
 0.0.0.0 rcabrahao.msn.com
 0.0.0.0 rdbroker-r0.wvdexci5.microsoft.com
+0.0.0.0 rdbroker.wvd.microsoft.com
 0.0.0.0 rdg.microsoft.com
 0.0.0.0 rdgateway-host-green-c220-cin-r0.wvd.microsoft.com
 0.0.0.0 rdm-netem-1.corp.microsoft.com
 0.0.0.0 rdm-netem-2.corp.microsoft.com
 0.0.0.0 rdm-netem-3.corp.microsoft.com
 0.0.0.0 rdm-netem-4.corp.microsoft.com
+0.0.0.0 rdweb.wvd.microsoft.com
 0.0.0.0 rea2-wlan-aaa.corp.microsoft.com
 0.0.0.0 ready.osi.office.net
 0.0.0.0 readytodeploy-ppe-eastus.microsoft.com
@@ -24399,7 +24467,6 @@
 0.0.0.0 service.p01.taos-platsvcs-test-testinfraapp.westus-test.cosmic-int.office.net
 0.0.0.0 service.thechannel.microsoft.com
 0.0.0.0 service.weather.microsoft.com
-0.0.0.0 servicelayer.king.com
 0.0.0.0 services.live.net
 0.0.0.0 services.microsoft.com
 0.0.0.0 services.msn.com
@@ -26725,9 +26792,7 @@
 0.0.0.0 xyz5.ddd5.ggg5.eee5.fff5.zzz5.office.com
 0.0.0.0 y3gphhe.docs.live.net
 0.0.0.0 yakamoz1957.spaces.live.com
-0.0.0.0 yammer.com
 0.0.0.0 yammerdeasigningcertkeyq.office.com
-0.0.0.0 yammerusercontent.com
 0.0.0.0 yaneshtyagi.mobile.spaces.live.com
 0.0.0.0 yangsongyu.msn.com
 0.0.0.0 yinywzcvgct.mshome.net
@@ -26827,7 +26892,6 @@
 :: blob.weather.microsoft.com
 :: c1.microsoft.com
 :: cache.datamart.windows.com
-:: candycrushsoda.king.com
 :: cds26.ams9.msecn.net
 :: checkappexec.microsoft.com
 :: choice.microsoft.com

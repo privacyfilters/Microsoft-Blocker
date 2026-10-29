@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 27 October 2026 22:12:26 UTC
+! Last modified: 29 October 2026 20:39:29 UTC
 ! Version: 2.16.0
 ! Syntax: Adblock
-! Number of entries: 2980
+! Number of entries: 2989
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -57,7 +57,7 @@
 ! Office 365 services
 ||amsweb.trafficmanager.net^
 ||cloud.microsoft*^
-||enterpriseregistration.windows.net^
+||enterpriseregistration.windows.net*^
 ||fe-by01p-msa.trafficmanager.net^
 ||killbittrafficmanager.trafficmanager.net^
 ||login.microsoftonline.com*^
@@ -1131,6 +1131,14 @@
 ||copilot-reports.github.com^
 ||copilot-telemetry-service.githubusercontent.com^
 ||copilot-telemetry.githubusercontent.com^
+# # Subsidiary telemetry and tracking
+||data.swiftkey.com^
+||telemetry-internal.services.production.swiftkey.com^
+||telemetry-internal.services.staging.swiftkey.com^
+||telemetry.api.swiftkey.com^
+||telemetry.services.staging.swiftkey.com^
+||telemetry.swiftkey.com^
+||touchtype-fluency.com^
 ! Windows Update
 ||_ldap._tcp.dc._msdcs.mshome.net^
 ||aaaaaao.visualstudio.com^
@@ -1212,7 +1220,9 @@
 ||gallerycdn.vsassets.io*^
 ||marketplace.visualstudio.com^
 ||openvsxorg.blob.core.windows.net^
+||vs-ssh.visualstudio.com^
 ||vscode-cdn.net*^
+||vscommerce.visualstudio.com*^
 ! LinkedIn
 ||linkedin.com*^
 ||media-akam.licdn.com^
@@ -1224,7 +1234,6 @@
 ! Misc Microsoft
 ||delivery.activated.win^
 ||fg.microsoft.map.fastly.net^
-||king.com*^
 ||modpim.com^
 ||ocsp.digicert.com^
 ! External services
@@ -1266,6 +1275,10 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||pc.realms.minecraft.net^
 ||pocket.realms.minecraft.net^
 ||snoop.minecraft.net^
+# # Microsoft subsidiaries (King, Yammer)
+||king.com*^
+||yammer.com^
+||yammerusercontent.com^
 ! ! Uncategorized domains ! !
 ||105.visualstudio.com^
 ||105i.visualstudio.com^
@@ -1790,6 +1803,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||ddi.visualstudio.com^
 ||deank.visualstudio.com^
 ||deep.visualstudio.com^
+||default.exp-tas.com^
 ||deimosyd.visualstudio.com^
 ||deliciousyf.visualstudio.com^
 ||dellygn.visualstudio.com^
@@ -2759,7 +2773,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||wildcard.artifacts.visualstudio.com^
 ||wildcard.azents.visualstudio.com^
 ||wildcard.pipelines.visualstudio.com^
-||wildcard.vscommerce.visualstudio.com^
 ||wildcard.vsoss.visualstudio.com^
 ||windowphone7.com^
 ||windows.com*^
@@ -2841,8 +2854,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||xnet.visualstudio.com^
 ||xnorscvnjujaw.mshome.net^
 ||xwnwqjtync.mshome.net^
-||yammer.com^
-||yammerusercontent.com^
 ||yinywzcvgct.mshome.net^
 ||yualofbqvp.mshome.net^
 ||zewsofpejrx.mshome.net^

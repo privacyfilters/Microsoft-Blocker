@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 27 October 2026 22:12:25 UTC
+! Last modified: 29 October 2026 20:39:28 UTC
 ! Version: 2.16.0
 ! Syntax: Adblock
-! Number of entries: 15071
+! Number of entries: 15143
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||000001-1y.l.windowsupdate.com^
@@ -1189,6 +1189,7 @@
 @@||aaao.visualstudio.com^
 @@||aaauat-wlan-aaa.corp.microsoft.com^
 @@||aadapp.chaosagent.outlook.com^
+@@||aam-content-cdn.manage.microsoft.com^
 @@||account-status-checker.prod.linkedin.com^
 @@||account-status-checker.stg.linkedin.com^
 @@||account.microsoft.com^
@@ -2051,6 +2052,7 @@
 @@||centralus-pd013.augloop.svc.cloud.microsoft^
 @@||centralus-pd02i.augloop.svc.cloud.microsoft^
 @@||centralus.api.cognitive.microsoft.com^
+@@||certauth.enterpriseregistration.windows.net^
 @@||certauth.msft.sts.microsoft.com^
 @@||certnoti.kusto.connector.m365.outlook.com^
 @@||cfr.ncss.wwprod.officeshell.svc.cloud.microsoft^
@@ -2430,6 +2432,7 @@
 @@||ciicluster-prods.southeastasia.portal.office.com^
 @@||click.mail.onedrive.com^
 @@||client.planner.svc.cloud.microsoft^
+@@||client.wns.windows.com^
 @@||clientlog.portal.office.com^
 @@||cloud.mail.onedrive.com^
 @@||cluster-d.playfabapi.com^
@@ -2683,6 +2686,7 @@
 @@||eds.geneva.keyvault.prdtrs01.prod.outlook.com^
 @@||edu.svc.cloud.microsoft^
 @@||ejp.css.cprod.officeshell.svc.cloud.microsoft^
+@@||ekcert.spserv.microsoft.com^
 @@||elcdeletion.outlook.com^
 @@||emdl.ws.microsoft.com^
 @@||emea.mail.microsoft.com^
@@ -2697,6 +2701,7 @@
 @@||enterprise-canaryg.activity.windows.com^
 @@||enterprise-ppe.activity.windows.com^
 @@||enterprisee.activity.windows.com^
+@@||enterpriseenrollment.manage.microsoft.com^
 @@||enterprisevoice.svc.cloud.microsoft^
 @@||eop-apc01.prod.protection.outlook.com^
 @@||eop-are01.prod.protection.outlook.com^
@@ -2835,6 +2840,7 @@
 @@||fb.smartscreen.microsoft.com^
 @@||fc.prod.help.svc.cloud.microsoft^
 @@||fd.api.iris.microsoft.com^
+@@||fd.api.orgmsg.microsoft.com^
 @@||fe2.update.microsoft.com^
 @@||fe2.update.microsoft.com.akadns.net^
 @@||fe2.wq.microsoft.com^
@@ -2846,6 +2852,8 @@
 @@||fe3.update.microsoft.com^
 @@||fe3cr.delivery.mp.microsoft.com^
 @@||feaadcertclients.amsua0801.manage.microsoft.com^
+@@||fef.fxpasu01.manage.microsoft.us^
+@@||fef.msuc03.manage.microsoft.com^
 @@||fei.damsub01.manage-dogfood.microsoft.com^
 @@||fetransportcafeosauth.outlook.com^
 @@||fetransportglsauth.outlook.com^
@@ -2875,6 +2883,8 @@
 @@||gcc.activity.windows.com^
 @@||gcc.cheshire.outlook.office.com^
 @@||gcc.contactsupportrelays.svc.cloud.microsoft^
+@@||gcc.relay.remotehelp.microsoft.com^
+@@||gcc.remotehelp.microsoft.com^
 @@||gcc.shredder.svc.cloud.microsoft^
 @@||gcc.updates.teams.cloud.microsoft^
 @@||gcccompliancepolicya.outlook.office.com^
@@ -3045,6 +3055,15 @@
 @@||image.mail.onedrive.com^
 @@||imap.onedrive.com^
 @@||imap4a.outlook.com^
+@@||imeswda-afd-hotfix.manage.microsoft.com^
+@@||imeswda-afd-primary.manage.microsoft.com^
+@@||imeswda-afd-secondary.manage.microsoft.com^
+@@||imeswdb-afd-hotfix.manage.microsoft.com^
+@@||imeswdb-afd-primary.manage.microsoft.com^
+@@||imeswdb-afd-secondary.manage.microsoft.com^
+@@||imeswdc-afd-hotfix.manage.microsoft.com^
+@@||imeswdc-afd-primary.manage.microsoft.com^
+@@||imeswdc-afd-secondary.manage.microsoft.com^
 @@||immersivereader.edu.svc.cloud.microsoft^
 @@||inc.messagebroker.mobile.m365.svc.cloud.microsoft^
 @@||inc.userstore.mobile.m365.svc.cloud.microsoft^
@@ -3061,6 +3080,7 @@
 @@||int.surface.managementservices.microsoft.com^
 @@||internal.outlook.com^
 @@||internal.protection.outlook.com^
+@@||intunecdnpeasd.manage.microsoft.com^
 @@||intuneupdatesaadsp.manage-selfhost.microsoft.com^
 @@||iprbacpamauth.protection.outlook.com^
 @@||ipv6.download.microsoft.com^
@@ -3119,6 +3139,8 @@
 @@||m.accountemail.microsoft.com^
 @@||m.accountmail.microsoft.com^
 @@||m.hotmail.com^
+@@||m.manage.microsoft.com^
+@@||m.manage.microsoft.us^
 @@||m365.admin.cloud.microsoft^
 @@||m365.svc.cloud.microsoft^
 @@||m365copilotchat.svc.cloud.microsoft^
@@ -3126,6 +3148,9 @@
 @@||m365torusdatauploaderservice.prdtrseop.prod.outlook.com^
 @@||m365torusdatauploaderservice.prdtsb01.prod.outlook.com^
 @@||maa01.mail.sharepointonline.com^
+@@||macsidecar.manage.microsoft.com^
+@@||macsidecarap.manage.microsoft.com^
+@@||macsidecareu.manage.microsoft.com^
 @@||mail-dm8nam00olkn2095.outbound.protection.outlook.com^
 @@||mail-dx2are01olkn2104.outbound.protection.outlook.com^
 @@||mail-eopbgr1550138.outbound.protection.outlook.com^
@@ -3142,6 +3167,8 @@
 @@||mail.sharepointonline.com^
 @@||mail.windows.com^
 @@||mailboxencryptioncache-gcc.prod.outlook.com^
+@@||mam.manage.microsoft.com^
+@@||mam.manage.microsoft.us^
 @@||mamservice.manage.microsoft.com^
 @@||manage.devcenter.microsoft.com^
 @@||manage.microsoft.com^
@@ -3707,6 +3734,7 @@
 @@||portal.manage-dogfood.microsoft.com^
 @@||portal.manage-selfhost.microsoft.com^
 @@||portal.manage.microsoft.com^
+@@||portal.manage.microsoft.us^
 @@||portal.microsoft.com^
 @@||portal.onedrive.com^
 @@||portal.partner.microsoftonline.cn^
@@ -3925,6 +3953,7 @@
 @@||sin.notify.windows.com^
 @@||sins.admin.config.office.net^
 @@||sinwns1011114.wns.windows.com^
+@@||sinwns1011421.wns.windows.com^
 @@||sinwns1011515.wns.windows.com^
 @@||sinwns1011603.wns.windows.com^
 @@||sinwns1011615.wns.windows.com^
@@ -4012,6 +4041,15 @@
 @@||surface.downloads.prss.microsoft.com^
 @@||surfer.olc.protection.outlook.com^
 @@||svc.cloud.microsoft^
+@@||swda01-mscdn.manage.microsoft.com^
+@@||swda02-mscdn.manage.microsoft.com^
+@@||swdb01-mscdn.manage.microsoft.com^
+@@||swdb02-mscdn.manage.microsoft.com^
+@@||swdc01-mscdn.manage.microsoft.com^
+@@||swdd01-mscdn.manage.microsoft.com^
+@@||swdd02-mscdn.manage.microsoft.com^
+@@||swdin01-mscdn.manage.microsoft.com^
+@@||swdin02-mscdn.manage.microsoft.com^
 @@||swm-df.outlook.com^
 @@||swm-tdf.outlook.com^
 @@||swn0a.prd.authapi.cnc.nxs.mde.securitycenter.windows.com^
@@ -4139,6 +4177,7 @@
 @@||winget.microsoft.com^
 @@||winy.admin.config.office.com^
 @@||wip.mam.manage.microsoft.com^
+@@||wip.mam.manage.microsoft.us^
 @@||wjp.ncss.wwprod.officeshell.svc.cloud.microsoft^
 @@||wjp.op.cprod.officeshell.svc.cloud.microsoft^
 @@||wlan.onedrive.com^
@@ -4805,7 +4844,20 @@
 @@||wd.microsoft.com*^
 @@||wdcp.microsoft.com^
 @@||wdcpalt.microsoft.com*^
+@@||winatp-gw-aec0a.microsoft.com^
+@@||winatp-gw-aen0a.microsoft.com^
+@@||winatp-gw-aue.microsoft.com^
+@@||winatp-gw-aus.microsoft.com^
 @@||winatp-gw-cus.microsoft.com^
+@@||winatp-gw-cus3.microsoft.com^
+@@||winatp-gw-eus.microsoft.com^
+@@||winatp-gw-eus3.microsoft.com^
+@@||winatp-gw-neu.microsoft.com^
+@@||winatp-gw-neu3.microsoft.com^
+@@||winatp-gw-uks.microsoft.com^
+@@||winatp-gw-ukw.microsoft.com^
+@@||winatp-gw-weu.microsoft.com^
+@@||winatp-gw-weu3.microsoft.com^
 @@||www.microsoft.com^
 ! Microsoft Store
 @@||afd-bxxea57natk6k-b3arhwd4gve9dac0.b02.azurefd.net^
@@ -4819,6 +4871,7 @@
 @@||share.microsoft.com.edgekey.net^
 @@||store-images.s-microsoft.com^
 @@||store-images.s-microsoft.com-c.edgekey.net^
+@@||store.office.com^
 @@||storecatalogrevocation.storequality.microsoft.com^
 @@||storecatalogrevocation.storequality.microsoft.com.edgekey.net^
 @@||storeedgefd.dsx.mp.microsoft.com^
@@ -4840,8 +4893,10 @@
 @@||marketplace.visualstudio.com^
 @@||openvsxorg.blob.core.windows.net^
 @@||update.code.visualstudio.com^
+@@||vs-ssh.visualstudio.com^
 @@||vscode-cdn.net*^
 @@||vscode.download.prss.microsoft.com^
+@@||vscommerce.visualstudio.com^
 ! windows Runtime
 @@||builds.dotnet.microsoft.com^
 @@||dotnet.microsoft.com^
@@ -10405,7 +10460,6 @@
 @@||fs.microsoft.com^
 @@||go.microsoft.com^
 @@||graph.microsoft.com^
-@@||king.com^
 @@||modpim.com^
 @@||ocsp.digicert.com^
 @@||sdx.microsoft.com^
@@ -10462,6 +10516,16 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||userpresence.xboxlive.com^
 @@||userpresence.xboxlive.com.akadns.net^
 @@||xsts.auth.xboxlive.com^
+# # Microsoft subsidiaries (King, Yammer)
+@@||bubblewitch3mobile.king.com^
+@@||candycrush.king.com^
+@@||candycrushsoda.king.com^
+@@||ccs.play.king.com^
+@@||ccss.play.king.com^
+@@||king.com^
+@@||servicelayer.king.com^
+@@||yammer.com^
+@@||yammerusercontent.com^
 ! Lite: Edge extension store allowed
 @@||addons.microsoftedge.microsoft.com^
 @@||api.addons.microsoftedge.microsoft.com^
@@ -13846,6 +13910,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||cdn.storeedgefd.dsx.mp.microsoft.com^$important
 ||cn.edge.linkedin.com^$important
 ||cn1.edge.linkedin.com^$important
+||cr.m365copilotapp.svc.cloud.microsoft^$important
 ||edge-analyzer.corp.linkedin.com^$important
 ||edge-analyzer.stg.linkedin.com^$important
 ||edge-emeu1.actividad.windows.com.akadns.net^
@@ -13881,6 +13946,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||nsg7-uc-edge01b.linkedin.com^$important
 ||nsg7-uc-edge01k.corp.linkedin.com^$important
 ||pf2am3-edge.actividad.windows.com.akadns.net^
+||playwright.download.prss.microsoft.com^$important
 ||prod-azurecdn-akamai-iris.azureedge.net^
 ||srv-esv4-edge-exp.linkedin.com^$important
 ||static.edge.microsoftapp.net^
@@ -13986,7 +14052,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||outlook365.com^
 ||ow1.res.office365.com.edgekey.net^
 ||ow2.res.office365.com.edgekey.net^
-||pages.store.office.com^
+||pages.store.office.com^$important
 ||partner.office365.cn^
 ||pcd.office.com^
 ||pillarppediagnostics.outlook.com^$important
@@ -14600,7 +14666,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||addtoprofile-uat-dev.corp.linkedin.com^$important
 ||addtoprofile.linkedin.com^$important
 ||addtoprofile.stg.linkedin.com^$important
-||ams-tracking.king.com^$important
 ||analytics-gateway-fallguys.trafficmanager.net^
 ||analytics-listener.trafficmanager.net^
 ||analytics.live.net^
@@ -14795,6 +14860,16 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||copilot-reports.github.com^
 ||copilot-telemetry-service.githubusercontent.com^
 ||copilot-telemetry.githubusercontent.com^
+# # Subsidiary telemetry and tracking
+||adtrack.king.com^$important
+||ams-tracking.king.com^$important
+||data.swiftkey.com^
+||telemetry-internal.services.production.swiftkey.com^
+||telemetry-internal.services.staging.swiftkey.com^
+||telemetry.api.swiftkey.com^
+||telemetry.services.staging.swiftkey.com^
+||telemetry.swiftkey.com^
+||touchtype-fluency.com^
 ! Bing search
 ||bing-int.com^
 ||bing.ai^
@@ -14930,7 +15005,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||adsl.visualstudio.com^
 ||adsobjectstore.outlook.com^$important
 ||adstore.response.gcp.eastus.trafficmanager.net^
-||adtrack.king.com^$important
 ||advertise.linkedin.com^$important
 ||advertisementshared.blob.core.windows.net^
 ||advertising.linkedin.com^$important
