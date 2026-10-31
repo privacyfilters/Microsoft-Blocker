@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 21:28:21 UTC
-# Version: 2.16.1
+# Last modified: 31 October 2026 21:48:00 UTC
+# Version: 2.17.0
 # Syntax: DNSMasq
-# Number of entries: 45396
+# Number of entries: 45411
 #
 # # Microsoft Edge telemetry and CDN
 local=/119.msedge.net/
@@ -3863,6 +3863,7 @@ local=/sus1-onenote.officeapps.live.com/
 local=/svsss.sharepoint.com/
 local=/svxosx-content-001a.sharepointonline.com/
 local=/sway.cloud.microsoft/
+local=/sway.com/
 local=/swedencentral.sessions.prod.mesh.cloud.microsoft/
 local=/swimmaccarolina-my.sharepoint.com/
 local=/swlsb-my.sharepoint.com/
@@ -4170,6 +4171,7 @@ local=/www.static2.sharepointonline.com/
 local=/www.static2df.sharepointonline.com/
 local=/www.staticppe.sharepointonline.com/
 local=/www.sway.cloud.microsoft/
+local=/www.sway.com/
 local=/www.u002fcdn.sharepointonline.com/
 local=/www.u002fstatic.sharepointonline.com/
 local=/www.unsubscribe-gov1.microservice.sharepointonline.com/
@@ -11391,6 +11393,7 @@ local=/telemetry.westeurope.cloudapp.azure.com/
 local=/tm-azurefd.net/
 local=/tm-bingstats-frontend.trafficmanager.net/
 local=/tng-analytics-api-eu.azurewebsites.net/
+local=/tracking-planorama.azurefd.net/
 local=/uaecentral-0.in.applicationinsights.azure.com/
 local=/uaenorth-0.in.applicationinsights.azure.com/
 local=/uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com/
@@ -13514,7 +13517,9 @@ local=/msnbot-40-90-159-32.search.msn.com/
 local=/msnbot-40-90-159-8.search.msn.com/
 local=/msnbot-52-167-144-116.search.msn.com/
 local=/msnbot-52-167-144-172.search.msn.com/
+local=/msnbot-52-167-144-184.search.msn.com/
 local=/msnbot-52-167-144-188.search.msn.com/
+local=/msnbot-52-167-144-190.search.msn.com/
 local=/msnbot-52-167-144-247.search.msn.com/
 local=/msnbot-64-4-22-223.search.msn.com/
 local=/msnbot-64-4-22-242.search.msn.com/
@@ -23682,6 +23687,7 @@ local=/tb.events.data.trafficmanager.net/
 local=/teams-events-data.trafficmanager.net/
 local=/telecommand.alpha.telemetry.microsoft.com/
 local=/telecommand.df.telemetry.microsoft.com/
+local=/telemetry-appgw-pub-prod-eun.infra.northeurope.production.swiftkey.com/
 local=/telemetry-geo.wac.trafficmanager.net/
 local=/telemetry-lcp.trafficmanager.net/
 local=/telemetry-sdk-inmobi-comtm.trafficmanager.net/
@@ -28712,15 +28718,19 @@ local=/nuget.org/
 local=/packages.nuget.org/
 local=/www.nuget.org/
 # # VSCode
+local=/ci.dot.net/
 local=/code.visualstudio.com/
+local=/dot.net/
 local=/download.visualstudio.microsoft.com/
 local=/gallery.vsassets.io/
 local=/gallerycdn.vsassets.io/
 local=/marketplace.visualstudio.com/
 local=/openvsxorg.blob.core.windows.net/
 local=/update.code.visualstudio.com/
+local=/visualstudio.com/
 local=/vs-ssh.visualstudio.com/
 local=/vscode-cdn.net/
+local=/vscode.dev/
 local=/vscode.download.prss.microsoft.com/
 local=/vscommerce.visualstudio.com/
 # # .NET
@@ -34338,6 +34348,7 @@ local=/userpresence.xboxlive.com/
 local=/userpresence.xboxlive.com.akadns.net/
 local=/xsts.auth.xboxlive.com/
 # # Microsoft subsidiaries (King, Yammer)
+local=/ams.king.com/
 local=/api.swiftkey.com/
 local=/assets.swiftkey.com/
 local=/blog.swiftkey.com/
@@ -34348,6 +34359,7 @@ local=/ccs.play.king.com/
 local=/ccss.play.king.com/
 local=/king.com/
 local=/servicelayer.king.com/
+local=/snippetdata.api.swiftkey.com/
 local=/support.swiftkey.com/
 local=/yammer.com/
 local=/yammerusercontent.com/
@@ -34912,6 +34924,7 @@ local=/arc-west.msn.com/
 local=/arc.trafficmanager.net/
 local=/arccmb.mfg-gov.selfhost.corp.microsoft.com/
 local=/arcproxy.microsoft.com/
+local=/arctb53wmig1gagbqjqgolj2ig.msn.com/
 local=/ardasevinc1.live.com/
 local=/arftron.spaces.live.com/
 local=/argocache.microsoft.com/
@@ -37777,6 +37790,7 @@ local=/gcc01.aksrouting.ccreportinggov.office.com/
 local=/gcch-mtis.cortana.ai/
 local=/gcm.visualstudio.com/
 local=/gcprd.redmond.corp.microsoft.com/
+local=/gcs.prod.monitoring.core.windows.net/
 local=/gcs.pstnhub.microsoft.com/
 local=/gcscucluster.office.com/
 local=/gctsslclientstandard.redmond.corp.microsoft.com/
@@ -43482,6 +43496,7 @@ local=/tiedubgrarcp01.corp.microsoft.com/
 local=/tiedubgrarcp02.corp.microsoft.com/
 local=/tiedubgrarcp03.corp.microsoft.com/
 local=/tiens.visualstudio.com/
+local=/tigger-citadel.touchtype-fluency.com/
 local=/tile-service.weather.microsoft.com/
 local=/tile.location.live.net/
 local=/tiles.microsoft.com/

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_proper.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 21:28:22 UTC
-# Version: 2.16.1
+# Last modified: 31 October 2026 21:48:01 UTC
+# Version: 2.17.0
 # Syntax: plain domains (whitelist)
-# Number of entries: 10487
+# Number of entries: 10493
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -4867,15 +4867,19 @@ nuget.org
 packages.nuget.org
 www.nuget.org
 # # VSCode and extensions
+ci.dot.net
 code.visualstudio.com
+dot.net
 download.visualstudio.microsoft.com
 gallery.vsassets.io
 gallerycdn.vsassets.io
 marketplace.visualstudio.com
 openvsxorg.blob.core.windows.net
 update.code.visualstudio.com
+visualstudio.com
 vs-ssh.visualstudio.com
 vscode-cdn.net
+vscode.dev
 vscode.download.prss.microsoft.com
 vscommerce.visualstudio.com
 # # .NET runtime
@@ -10494,6 +10498,7 @@ userpresence.xboxlive.com
 userpresence.xboxlive.com.akadns.net
 xsts.auth.xboxlive.com
 # # Microsoft subsidiaries (King, Yammer)
+ams.king.com
 api.swiftkey.com
 assets.swiftkey.com
 blog.swiftkey.com
@@ -10504,6 +10509,7 @@ ccs.play.king.com
 ccss.play.king.com
 king.com
 servicelayer.king.com
+snippetdata.api.swiftkey.com
 support.swiftkey.com
 yammer.com
 yammerusercontent.com

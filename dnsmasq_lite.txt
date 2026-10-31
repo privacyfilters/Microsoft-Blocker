@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 21:28:21 UTC
-# Version: 2.16.1
+# Last modified: 31 October 2026 21:48:00 UTC
+# Version: 2.17.0
 # Syntax: DNSMasq
-# Number of entries: 15561
+# Number of entries: 15571
 #
 # # Custom Allow & Blocklist # #
 server=/000001-1y.l.windowsupdate.com/
@@ -4886,15 +4886,19 @@ server=/nuget.org/
 server=/packages.nuget.org/
 server=/www.nuget.org/
 # # VSCode
+server=/ci.dot.net/
 server=/code.visualstudio.com/
+server=/dot.net/
 server=/download.visualstudio.microsoft.com/
 server=/gallery.vsassets.io/
 server=/gallerycdn.vsassets.io/
 server=/marketplace.visualstudio.com/
 server=/openvsxorg.blob.core.windows.net/
 server=/update.code.visualstudio.com/
+server=/visualstudio.com/
 server=/vs-ssh.visualstudio.com/
 server=/vscode-cdn.net/
+server=/vscode.dev/
 server=/vscode.download.prss.microsoft.com/
 server=/vscommerce.visualstudio.com/
 # # .NET
@@ -10512,6 +10516,7 @@ server=/userpresence.xboxlive.com/
 server=/userpresence.xboxlive.com.akadns.net/
 server=/xsts.auth.xboxlive.com/
 # # Microsoft subsidiaries (King, Yammer)
+server=/ams.king.com/
 server=/api.swiftkey.com/
 server=/assets.swiftkey.com/
 server=/blog.swiftkey.com/
@@ -10522,6 +10527,7 @@ server=/ccs.play.king.com/
 server=/ccss.play.king.com/
 server=/king.com/
 server=/servicelayer.king.com/
+server=/snippetdata.api.swiftkey.com/
 server=/support.swiftkey.com/
 server=/yammer.com/
 server=/yammerusercontent.com/
@@ -12389,6 +12395,7 @@ server=/sus1-onenote.officeapps.live.com/
 server=/svsss.sharepoint.com/
 server=/svxosx-content-001a.sharepointonline.com/
 server=/sway.cloud.microsoft/
+server=/sway.com/
 server=/swedencentral.sessions.prod.mesh.cloud.microsoft/
 server=/swimmaccarolina-my.sharepoint.com/
 server=/swlsb-my.sharepoint.com/
@@ -12696,6 +12703,7 @@ server=/www.static2.sharepointonline.com/
 server=/www.static2df.sharepointonline.com/
 server=/www.staticppe.sharepointonline.com/
 server=/www.sway.cloud.microsoft/
+server=/www.sway.com/
 server=/www.u002fcdn.sharepointonline.com/
 server=/www.u002fstatic.sharepointonline.com/
 server=/www.unsubscribe-gov1.microservice.sharepointonline.com/
@@ -14860,6 +14868,7 @@ local=/telemetry.westeurope.cloudapp.azure.com/
 local=/tm-azurefd.net/
 local=/tm-bingstats-frontend.trafficmanager.net/
 local=/tng-analytics-api-eu.azurewebsites.net/
+local=/tracking-planorama.azurefd.net/
 local=/uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com/
 local=/vega-telemetry-apim-dev.azure-api.net/
 local=/vscodeexperiments.azureedge.net/
@@ -15124,6 +15133,7 @@ local=/stg.a365analytics.cloud.microsoft/
 local=/sti.profileconnector.outlook.com/
 local=/supportdiagnostics.partners.extranet.microsoft.com/
 local=/teams-events-data.trafficmanager.net/
+local=/telemetry-appgw-pub-prod-eun.infra.northeurope.production.swiftkey.com/
 local=/telemetry-geo.wac.trafficmanager.net/
 local=/telemetry-lcp.trafficmanager.net/
 local=/telemetry-sdk-inmobi-comtm.trafficmanager.net/

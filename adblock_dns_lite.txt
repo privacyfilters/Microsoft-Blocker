@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_lite.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 29 October 2026 21:28:17 UTC
-! Version: 2.16.1
+! Last modified: 31 October 2026 21:47:56 UTC
+! Version: 2.17.0
 ! Syntax: Adblock
-! Number of entries: 15147
+! Number of entries: 15157
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 @@||000001-1y.l.windowsupdate.com^
@@ -4886,15 +4886,19 @@
 @@||packages.nuget.org^
 @@||www.nuget.org^
 ! vscode and extensions
+@@||ci.dot.net^
 @@||code.visualstudio.com^
+@@||dot.net^
 @@||download.visualstudio.microsoft.com^
 @@||gallery.vsassets.io*^
 @@||gallerycdn.vsassets.io*^
 @@||marketplace.visualstudio.com^
 @@||openvsxorg.blob.core.windows.net^
 @@||update.code.visualstudio.com^
+@@||visualstudio.com^
 @@||vs-ssh.visualstudio.com^
 @@||vscode-cdn.net*^
+@@||vscode.dev^
 @@||vscode.download.prss.microsoft.com^
 @@||vscommerce.visualstudio.com^
 ! windows Runtime
@@ -10517,6 +10521,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||userpresence.xboxlive.com.akadns.net^
 @@||xsts.auth.xboxlive.com^
 # # Microsoft subsidiaries (King, Yammer)
+@@||ams.king.com^
 @@||api.swiftkey.com^
 @@||assets.swiftkey.com^
 @@||blog.swiftkey.com^
@@ -10527,6 +10532,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||ccss.play.king.com^
 @@||king.com^
 @@||servicelayer.king.com^
+@@||snippetdata.api.swiftkey.com^
 @@||support.swiftkey.com^
 @@||yammer.com^
 @@||yammerusercontent.com^
@@ -12394,6 +12400,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||svsss.sharepoint.com^
 @@||svxosx-content-001a.sharepointonline.com^
 @@||sway.cloud.microsoft^
+@@||sway.com^
 @@||swedencentral.sessions.prod.mesh.cloud.microsoft^
 @@||swimmaccarolina-my.sharepoint.com^
 @@||swlsb-my.sharepoint.com^
@@ -12701,6 +12708,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||www.static2df.sharepointonline.com^
 @@||www.staticppe.sharepointonline.com^
 @@||www.sway.cloud.microsoft^
+@@||www.sway.com^
 @@||www.u002fcdn.sharepointonline.com^
 @@||www.u002fstatic.sharepointonline.com^
 @@||www.unsubscribe-gov1.microservice.sharepointonline.com^
@@ -13910,7 +13918,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||www.auea.sbcobmgmt.sdg.teams.microsoft.com^
 @@||www.dtr-signing.preview.ml.teams.microsoft.com^
 ! Microsoft Edge telemetry and CDN
-||avedgep.visualstudio.com^
+||avedgep.visualstudio.com^$important
 ||cdn.storeedgefd.dsx.mp.microsoft.com^$important
 ||cn.edge.linkedin.com^$important
 ||cn1.edge.linkedin.com^$important
@@ -13925,7 +13933,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||esv4-uc-edge02e.linkedin.com^$important
 ||fp-afd-nocache-ccp.azureedge.net^
 ||ftp.vpn.edge.linkedin.com^$important
-||knowledgebase.visualstudio.com^
+||knowledgebase.visualstudio.com^$important
 ||lca1-uc-edge01a.linkedin.com^$important
 ||lca1-uc-edge01b.linkedin.com^$important
 ||ltx1-uc-edge02.corp.linkedin.com^$important
@@ -14613,7 +14621,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||prod-azurecdn-akamai-iris.ec.azureedge.net^
 ||rai-amp-telemetry-ingestion.azurewebsites.net^
 ||rim-analytics-ws.westeurope.cloudapp.azure.com^
-||rt.services.visualstudio.com^
+||rt.services.visualstudio.com^$important
 ||shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net^
 ||skype-pcs-prod-usea2-fe-b.cloudapp.net^
 ||sparkcdneus2.azureedge.net^
@@ -14638,6 +14646,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||tm-azurefd.net^
 ||tm-bingstats-frontend.trafficmanager.net^
 ||tng-analytics-api-eu.azurewebsites.net^
+||tracking-planorama.azurefd.net^
 ||uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com^
 ||vega-telemetry-apim-dev.azure-api.net^
 ||vscodeexperiments.azureedge.net^
@@ -14675,7 +14684,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||analytics.live.net^
 ||analytics.pointdrive.linkedin.com^$important
 ||analytics.trafficmanager.net^
-||analytics.visualstudio.com^
+||analytics.visualstudio.com^$important
 ||apac.rtmpingest.mcr.teams.cloud.microsoft^$important
 ||appservice-diagnostics.trafficmanager.net^
 ||avdab-p-corniche-events-relay.trafficmanager.net^
@@ -14688,7 +14697,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||capacity-data-api.corp.linkedin.com^$important
 ||capacity-metrics-api.corp.linkedin.com^$important
 ||cas-telemetry.trafficmanager.net^
-||cds-int-data-encryption.aisvc-int.visualstudio.com^
+||cds-int-data-encryption.aisvc-int.visualstudio.com^$important
 ||ch-asimov-leafs-events-data.trafficmanager.net^
 ||clarity.ms^
 ||collect.webtrends-optimize.trafficmanager.net^
@@ -14820,6 +14829,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||stg.a365analytics.cloud.microsoft^$important
 ||sti.profileconnector.outlook.com^$important
 ||teams-events-data.trafficmanager.net^
+||telemetry-appgw-pub-prod-eun.infra.northeurope.production.swiftkey.com^
 ||telemetry-geo.wac.trafficmanager.net^
 ||telemetry-lcp.trafficmanager.net^
 ||telemetry-sdk-inmobi-comtm.trafficmanager.net^
@@ -14992,8 +15002,8 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||ads.outlook.com^$important
 ||ads.sharepointonline.com^$important
 ||ads.trafficmanager.net^
-||ads.visualstudio.com^
-||ads1.visualstudio.com^
+||ads.visualstudio.com^$important
+||ads1.visualstudio.com^$important
 ||ads9.onedrive.com^$important
 ||adsa.mp.onedrive.com^$important
 ||adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net^
@@ -15003,10 +15013,10 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||adserve.blob.core.windows.net^
 ||adserver-public-cdn.afd.azureedge.net^
 ||adserver-public-cdn.azureedge.net^
-||adserver2o.visualstudio.com^
+||adserver2o.visualstudio.com^$important
 ||adsl.onedrive.com^$important
 ||adsl.trafficmanager.net^
-||adsl.visualstudio.com^
+||adsl.visualstudio.com^$important
 ||adsobjectstore.outlook.com^$important
 ||adstore.response.gcp.eastus.trafficmanager.net^
 ||advertise.linkedin.com^$important
@@ -15022,7 +15032,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||downloads.linkedin.com^$important
 ||downloads.powerbi.com^
 ||engage.windows.com^
-||fastprodownloadsq.visualstudio.com^
+||fastprodownloadsq.visualstudio.com^$important
 ||hk-tracker.trafficmanager.net^
 ||marketing-hub.prod.linkedin.com^$important
 ||marketing-hub.stg.linkedin.com^$important

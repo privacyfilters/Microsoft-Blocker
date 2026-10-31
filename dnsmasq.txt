@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 21:28:21 UTC
-# Version: 2.16.1
+# Last modified: 31 October 2026 21:48:00 UTC
+# Version: 2.17.0
 # Syntax: DNSMasq
-# Number of entries: 13616
+# Number of entries: 13627
 #
 # # Custom Allow & Blocklist # #
 server=/000001-1y.l.windowsupdate.com/
@@ -4886,15 +4886,19 @@ server=/nuget.org/
 server=/packages.nuget.org/
 server=/www.nuget.org/
 # # VSCode
+server=/ci.dot.net/
 server=/code.visualstudio.com/
+server=/dot.net/
 server=/download.visualstudio.microsoft.com/
 server=/gallery.vsassets.io/
 server=/gallerycdn.vsassets.io/
 server=/marketplace.visualstudio.com/
 server=/openvsxorg.blob.core.windows.net/
 server=/update.code.visualstudio.com/
+server=/visualstudio.com/
 server=/vs-ssh.visualstudio.com/
 server=/vscode-cdn.net/
+server=/vscode.dev/
 server=/vscode.download.prss.microsoft.com/
 server=/vscommerce.visualstudio.com/
 # # .NET
@@ -10512,6 +10516,7 @@ server=/userpresence.xboxlive.com/
 server=/userpresence.xboxlive.com.akadns.net/
 server=/xsts.auth.xboxlive.com/
 # # Microsoft subsidiaries (King, Yammer)
+server=/ams.king.com/
 server=/api.swiftkey.com/
 server=/assets.swiftkey.com/
 server=/blog.swiftkey.com/
@@ -10522,6 +10527,7 @@ server=/ccs.play.king.com/
 server=/ccss.play.king.com/
 server=/king.com/
 server=/servicelayer.king.com/
+server=/snippetdata.api.swiftkey.com/
 server=/support.swiftkey.com/
 server=/yammer.com/
 server=/yammerusercontent.com/
@@ -10603,9 +10609,11 @@ local=/sharepoint.com/
 local=/sharepointonline.com/
 local=/staging.to-do.microsoft.com/
 local=/statics.teams.cdn.live.net/
+local=/sway.com/
 local=/teams.events.data.microsoft.com/
 local=/teams.live.com/
 local=/to-do.microsoft.com/
+local=/www.sway.com/
 # # OneDrive service endpoints
 local=/1drv.com/
 local=/1drv.ms/
@@ -10918,6 +10926,7 @@ local=/ssp-prod-traffic-mgr-es-lp-beacon-eastus.trafficmanager.net/
 local=/ssr-data-service.ei-ltx1.atd.stg.linkedin.com/
 local=/sti.profileconnector.outlook.com/
 local=/teams-events-data.trafficmanager.net/
+local=/telemetry-appgw-pub-prod-eun.infra.northeurope.production.swiftkey.com/
 local=/telemetry-geo.wac.trafficmanager.net/
 local=/telemetry-lcp.trafficmanager.net/
 local=/telemetry-sdk-inmobi-comtm.trafficmanager.net/
@@ -11368,6 +11377,7 @@ local=/telemetry.westeurope.cloudapp.azure.com/
 local=/tm-azurefd.net/
 local=/tm-bingstats-frontend.trafficmanager.net/
 local=/tng-analytics-api-eu.azurewebsites.net/
+local=/tracking-planorama.azurefd.net/
 local=/vega-telemetry-apim-dev.azure-api.net/
 local=/vscodeexperiments.azureedge.net/
 local=/wd-prod-cp-us-east-2-fe.eastus.cloudapp.azure.com/
@@ -12616,6 +12626,7 @@ local=/gautam.visualstudio.com/
 local=/gb.itt.wd.microsoft.com/
 local=/gb.ppe.wd.microsoft.com/
 local=/gcm.visualstudio.com/
+local=/gcs.prod.monitoring.core.windows.net/
 local=/gd.visualstudio.com/
 local=/geark.visualstudio.com/
 local=/gebavs.visualstudio.com/

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 21:28:21 UTC
-# Version: 2.16.1
+# Last modified: 31 October 2026 21:48:00 UTC
+# Version: 2.17.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 16556
+# Number of entries: 16561
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 000001-1y.l.windowsupdate.com
@@ -4985,15 +4985,19 @@
 #0.0.0.0 packages.nuget.org
 #0.0.0.0 www.nuget.org
 # # VSCode
+#0.0.0.0 ci.dot.net
 #0.0.0.0 code.visualstudio.com
+#0.0.0.0 dot.net
 #0.0.0.0 download.visualstudio.microsoft.com
 #0.0.0.0 gallery.vsassets.io
 #0.0.0.0 gallerycdn.vsassets.io
 #0.0.0.0 marketplace.visualstudio.com
 #0.0.0.0 openvsxorg.blob.core.windows.net
 #0.0.0.0 update.code.visualstudio.com
+#0.0.0.0 visualstudio.com
 #0.0.0.0 vs-ssh.visualstudio.com
 #0.0.0.0 vscode-cdn.net
+#0.0.0.0 vscode.dev
 #0.0.0.0 vscode.download.prss.microsoft.com
 #0.0.0.0 vscommerce.visualstudio.com
 # # .NET
@@ -10616,6 +10620,7 @@
 #0.0.0.0 xsts.auth.xboxlive.com
 #:: device.auth.xboxlive.com
 # # Microsoft subsidiaries (King, Yammer)
+#0.0.0.0 ams.king.com
 #0.0.0.0 api.swiftkey.com
 #0.0.0.0 assets.swiftkey.com
 #0.0.0.0 blog.swiftkey.com
@@ -10626,6 +10631,7 @@
 #0.0.0.0 ccss.play.king.com
 #0.0.0.0 king.com
 #0.0.0.0 servicelayer.king.com
+#0.0.0.0 snippetdata.api.swiftkey.com
 #0.0.0.0 support.swiftkey.com
 #0.0.0.0 yammer.com
 #0.0.0.0 yammerusercontent.com
@@ -14485,6 +14491,7 @@
 0.0.0.0 svsss.sharepoint.com
 0.0.0.0 svxosx-content-001a.sharepointonline.com
 0.0.0.0 sway.cloud.microsoft
+0.0.0.0 sway.com
 0.0.0.0 swedencentral.sessions.prod.mesh.cloud.microsoft
 0.0.0.0 swimmaccarolina-my.sharepoint.com
 0.0.0.0 swlsb-my.sharepoint.com
@@ -14792,6 +14799,7 @@
 0.0.0.0 www.static2df.sharepointonline.com
 0.0.0.0 www.staticppe.sharepointonline.com
 0.0.0.0 www.sway.cloud.microsoft
+0.0.0.0 www.sway.com
 0.0.0.0 www.u002fcdn.sharepointonline.com
 0.0.0.0 www.u002fstatic.sharepointonline.com
 0.0.0.0 www.unsubscribe-gov1.microservice.sharepointonline.com
@@ -16572,6 +16580,7 @@
 0.0.0.0 arc.trafficmanager.net
 0.0.0.0 arccmb.mfg-gov.selfhost.corp.microsoft.com
 0.0.0.0 arcproxy.microsoft.com
+0.0.0.0 arctb53wmig1gagbqjqgolj2ig.msn.com
 0.0.0.0 ardasevinc1.live.com
 0.0.0.0 arftron.spaces.live.com
 0.0.0.0 argocache.microsoft.com
@@ -19437,6 +19446,7 @@
 0.0.0.0 gcch-mtis.cortana.ai
 0.0.0.0 gcm.visualstudio.com
 0.0.0.0 gcprd.redmond.corp.microsoft.com
+0.0.0.0 gcs.prod.monitoring.core.windows.net
 0.0.0.0 gcs.pstnhub.microsoft.com
 0.0.0.0 gcscucluster.office.com
 0.0.0.0 gctsslclientstandard.redmond.corp.microsoft.com
@@ -25142,6 +25152,7 @@
 0.0.0.0 tiedubgrarcp02.corp.microsoft.com
 0.0.0.0 tiedubgrarcp03.corp.microsoft.com
 0.0.0.0 tiens.visualstudio.com
+0.0.0.0 tigger-citadel.touchtype-fluency.com
 0.0.0.0 tile-service.weather.microsoft.com
 0.0.0.0 tile.location.live.net
 0.0.0.0 tiles.microsoft.com

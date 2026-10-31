@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 21:28:21 UTC
-# Version: 2.16.1
+# Last modified: 31 October 2026 21:48:00 UTC
+# Version: 2.17.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 19052
+# Number of entries: 19056
 #
 # # Custom Allow & Blocklist # #
 #000001-1y.l.windowsupdate.com
@@ -4886,15 +4886,19 @@
 #packages.nuget.org
 #www.nuget.org
 # # VSCode
+#ci.dot.net
 #code.visualstudio.com
+#dot.net
 #download.visualstudio.microsoft.com
 #gallery.vsassets.io
 #gallerycdn.vsassets.io
 #marketplace.visualstudio.com
 #openvsxorg.blob.core.windows.net
 #update.code.visualstudio.com
+#visualstudio.com
 #vs-ssh.visualstudio.com
 #vscode-cdn.net
+#vscode.dev
 #vscode.download.prss.microsoft.com
 #vscommerce.visualstudio.com
 # # .NET
@@ -10512,6 +10516,7 @@
 #userpresence.xboxlive.com.akadns.net
 #xsts.auth.xboxlive.com
 # # Microsoft subsidiaries (King, Yammer)
+#ams.king.com
 #api.swiftkey.com
 #assets.swiftkey.com
 #blog.swiftkey.com
@@ -10522,6 +10527,7 @@
 #ccss.play.king.com
 #king.com
 #servicelayer.king.com
+#snippetdata.api.swiftkey.com
 #support.swiftkey.com
 #yammer.com
 #yammerusercontent.com
@@ -12389,6 +12395,7 @@
 #svsss.sharepoint.com
 #svxosx-content-001a.sharepointonline.com
 #sway.cloud.microsoft
+#sway.com
 #swedencentral.sessions.prod.mesh.cloud.microsoft
 #swimmaccarolina-my.sharepoint.com
 #swlsb-my.sharepoint.com
@@ -12696,6 +12703,7 @@
 #www.static2df.sharepointonline.com
 #www.staticppe.sharepointonline.com
 #www.sway.cloud.microsoft
+#www.sway.com
 #www.u002fcdn.sharepointonline.com
 #www.u002fstatic.sharepointonline.com
 #www.unsubscribe-gov1.microservice.sharepointonline.com
@@ -22132,6 +22140,7 @@ telemetry.westeurope.cloudapp.azure.com
 tm-azurefd.net
 tm-bingstats-frontend.trafficmanager.net
 tng-analytics-api-eu.azurewebsites.net
+tracking-planorama.azurefd.net
 uaecentral-0.in.applicationinsights.azure.com
 uaenorth-0.in.applicationinsights.azure.com
 uem-analytics-dce-24nb.westeurope-1.ingest.monitor.azure.com
@@ -22705,6 +22714,7 @@ tb.events.data.trafficmanager.net
 teams-events-data.trafficmanager.net
 telecommand.alpha.telemetry.microsoft.com
 telecommand.df.telemetry.microsoft.com
+telemetry-appgw-pub-prod-eun.infra.northeurope.production.swiftkey.com
 telemetry-geo.wac.trafficmanager.net
 telemetry-lcp.trafficmanager.net
 telemetry-sdk-inmobi-comtm.trafficmanager.net
@@ -24694,7 +24704,9 @@ msnbot-40-90-159-32.search.msn.com
 msnbot-40-90-159-8.search.msn.com
 msnbot-52-167-144-116.search.msn.com
 msnbot-52-167-144-172.search.msn.com
+msnbot-52-167-144-184.search.msn.com
 msnbot-52-167-144-188.search.msn.com
+msnbot-52-167-144-190.search.msn.com
 msnbot-52-167-144-247.search.msn.com
 msnbot-64-4-22-223.search.msn.com
 msnbot-64-4-22-242.search.msn.com
