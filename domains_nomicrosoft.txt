@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 November 2026 09:01:26 UTC
-# Version: 2.17.0
+# Last modified: 05 November 2026 01:09:23 UTC
+# Version: 2.17.1
 # Syntax: domains (including possible subdomains)
-# Number of entries: 45384
+# Number of entries: 45386
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -24498,6 +24498,7 @@ msnbot-40-77-166-112.search.msn.com
 msnbot-40-77-167-174.search.msn.com
 msnbot-40-77-167-57.search.msn.com
 msnbot-40-77-167-58.search.msn.com
+msnbot-40-77-167-79.search.msn.com
 msnbot-40-77-168-205.search.msn.com
 msnbot-40-77-168-227.search.msn.com
 msnbot-40-77-168-79.search.msn.com
@@ -32157,6 +32158,7 @@ advertiser-si.adcenter.microsoft.com
 advertising.bingads.microsoft.com
 advertising.linkedin.com
 advertising.microsoft.com
+advertising.msn.es
 adx-emea.adnxs.com
 adx-useast.adnxs.com
 adx-uswest.adnxs.com

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 November 2026 09:01:26 UTC
-# Version: 2.17.0
+# Last modified: 05 November 2026 01:09:22 UTC
+# Version: 2.17.1
 # Syntax: DNSMasq
-# Number of entries: 15571
+# Number of entries: 15572
 #
 # # Custom Allow & Blocklist # #
 server=/000001-1y.l.windowsupdate.com/
@@ -15369,6 +15369,7 @@ local=/advertiser-rep1.adcenter.microsoft.com/
 local=/advertiser-si.adcenter.microsoft.com/
 local=/advertising.linkedin.com/
 local=/advertising.microsoft.com/
+local=/advertising.msn.es/
 local=/appnexus.com/
 local=/azsc-bingads-centralus.centralus.cloudapp.azure.com/
 local=/azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com/
