@@ -79,9 +79,14 @@ Lite blocks many Microsoft service, telemetry and tracking domains while allowin
 * OneNote
 * Teams
 * Microsoft Edge Extension Store
+* Xbox services (Xbox Live sign-in, profiles, achievements, game stats, matchmaking, etc.)
 * External services on shared infrastructure (e.g. Steam Cloud Sync)
 * Some other Microsoft online services
 * Things that are allowed in Proper version
+
+> Xbox telemetry (analytics, usage/metrics/metrics events, OneCollector/Vortex
+> diagnostics) is **always blocked**, even in Lite — only the functional Xbox
+> services are allowed.
 
 If you want to reduce Microsoft tracking without completely breaking Microsoft services, **start with Lite**.
 

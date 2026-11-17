@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/whitelist_domains_proper.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 17 November 2026 21:00:22 UTC
-# Version: 2.18.0
+# Last modified: 17 November 2026 23:10:09 UTC
+# Version: 2.19.0
 # Syntax: plain domains (whitelist)
-# Number of entries: 10497
+# Number of entries: 10426
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -4835,13 +4835,11 @@ mscrl.microsoft.com
 ocs.microsoft.com
 ocsp.microsoft.com
 oneocsp.microsoft.com
-settings-win.data.microsoft.com
 smartscreen.microsoft.com
 unitedkingdom.smartscreen-prod.microsoft.com
 unitedstates.smartscreen-prod.microsoft.com
 urs.microsoft.com
 urs.smartscreen.microsoft.com
-vortex-win.data.microsoft.com
 w.apprep.smartscreen.microsoft.com
 wd.microsoft.com
 wdcp.microsoft.com
@@ -5493,7 +5491,6 @@ about.linkedin.com
 about.stg.linkedin.com
 ac.corp.linkedin.com
 ac.linkedin.com
-ac.perf.linkedin.com
 accessanywheredev.linkedin.com
 accesshelp.corp.linkedin.com
 accesshelperng.corp.linkedin.com
@@ -5510,18 +5507,15 @@ aclin.nuage.prod.linkedin.com
 aclin.nuage.stg.linkedin.com
 aclin.nuagev2.prod.linkedin.com
 aclin.nuagev2.stg.linkedin.com
-acpc.perf.linkedin.com
 adept.prod.linkedin.com
 adept.stg.linkedin.com
 ae.linkedin.com
 af.linkedin.com
 afd-l-anycast.linkedin.com
 afd-microsites.linkedin.com
-afd-test.perf.linkedin.com
 afd-wcs.www.linkedin.com
 afd.microsites-ei.linkedin.com
 afd.microsites.linkedin.com
-afd.perf.linkedin.com
 afdverifym.customersuccess.linkedin.com
 ag.linkedin.com
 agn2-wac01.gts.linkedin.com
@@ -5603,8 +5597,6 @@ annotation-mt.corp.linkedin.com
 annotation-mt.stg.linkedin.com
 anti-abuse-tool.corp.linkedin.com
 anti-abuse-toolu.corp.linkedin.com
-any-ap-test.perf.linkedin.com
-any-ap.perf.linkedin.com
 any-ap.www.linkedin.com
 any-ape.linkedin.com
 any-eu.media-src.linkedin.com
@@ -5858,7 +5850,6 @@ certinlitest11-prod-internal.www.linkedin.com
 certinlitest11.www.linkedin.com
 cf.grpc.linkedin.com
 cf.linkedin.com
-cf.perf.linkedin.com
 cflr.platform.linkedin.com
 cftool.prod.linkedin.com
 cftool.stg.linkedin.com
@@ -7979,7 +7970,6 @@ lva1-jiradr-vip-1.corp.linkedin.com
 lva1-kms.corp.linkedin.com
 lva1-ldap-vip.corp.linkedin.com
 lva1-ldap.grid.linkedin.com
-lva1-lx.perf.linkedin.com
 lva1-mail-gwc.prod.linkedin.com
 lva1-mail-vip-gw.prod.linkedin.com
 lva1-mailbox-vip.corp.linkedin.com
@@ -8715,48 +8705,34 @@ pop-az-sh-lva1.www.linkedin.com
 pop-az-sh.www.linkedin.com
 pop-azbe1-ltx1a.www.linkedin.com
 pop-ech2-alpha.www.linkedin.com
-pop-ech2.perf.linkedin.com
 pop-ech2e.cdn-src.linkedin.com
 pop-eda6-alpha.www.linkedin.com
-pop-eda6.perf.linkedin.com
 pop-eda6.www.linkedin.com
 pop-eda6u.static-src.linkedin.com
 pop-edc2-alpha.www.linkedin.com
 pop-edc2.mix.linkedin.com
-pop-edc2.perf.linkedin.com
 pop-edc2.www.linkedin.com
-pop-efr5.perf.linkedin.com
 pop-efr5.www.linkedin.com
-pop-ehk1.perf.linkedin.com
 pop-ehk2-alpha.media-src.linkedin.com
 pop-ehk2-alpha.mix.linkedin.com
 pop-ehk2-alpha.platform-src.linkedin.com
 pop-ehk2-alpha.static-src.linkedin.com
 pop-ehk2-alpha.tablet.www.linkedin.com
 pop-ehk2-alpha.touch.www.linkedin.com
-pop-ehk2.perf.linkedin.com
 pop-ehk2.tablet.www.linkedin.com
 pop-ehk2.touch.www.linkedin.com
 pop-ehk2.www.linkedin.com
 pop-ela1-alpha.media-src.linkedin.com
-pop-ela1.perf.linkedin.com
 pop-ela4-alpha.www.linkedin.com
 pop-ela4-alpha9.www.linkedin.com
-pop-ela4.perf.linkedin.com
-pop-ese2.perf.linkedin.com
-pop-esg3.perf.linkedin.com
 pop-esp2-alpha.media-src.linkedin.com
 pop-esp2-alpha.mix.linkedin.com
 pop-esp2-alpha.static-src.linkedin.com
 pop-esp2-alpha.tablet.www.linkedin.com
 pop-esp2-alpha.touch.www.linkedin.com
 pop-esp2-alpha.www.linkedin.com
-pop-esp2.perf.linkedin.com
-pop-esv5.perf.linkedin.com
 pop-esv5.www.linkedin.com
 pop-esy1-alphae.mix.linkedin.com
-pop-esy1.perf.linkedin.com
-pop-ety2.perf.linkedin.com
 pop-idb2-alpha.media-src.linkedin.com
 pop-idb2-alpha.mix.linkedin.com
 pop-idb2-alpha.platform-src.linkedin.com
@@ -8764,13 +8740,10 @@ pop-idb2-alpha.static-src.linkedin.com
 pop-idb2-alpha.tablet.www.linkedin.com
 pop-idb2-alpha.touch.www.linkedin.com
 pop-idb2-alpha.www.linkedin.com
-pop-idb2.perf.linkedin.com
 pop-lor1-e.www.linkedin.com
 pop-lor1-lx.www.linkedin.com
 pop-lor1-tg.www.linkedin.com
-pop-lor1.perf.linkedin.com
 pop-lor1.www.linkedin.com
-pop-lsg1.perf.linkedin.com
 pop-ltx1-alpha.media-src.linkedin.com
 pop-ltx1-alpha.platform-src.linkedin.com
 pop-ltx1-alpha.static-src.linkedin.com
@@ -8782,7 +8755,6 @@ pop-ltx1-e.www.linkedin.com
 pop-ltx1-lx.www.linkedin.com
 pop-ltx1-tg.mix.linkedin.com
 pop-ltx1-tg.www.linkedin.com
-pop-ltx1.perf.linkedin.com
 pop-ltx1.www.linkedin.com
 pop-lva1-alpha.media-src.linkedin.com
 pop-lva1-alpha.mix.linkedin.com
@@ -8795,7 +8767,6 @@ pop-lva1-e.www.linkedin.com
 pop-lva1-lx.www.linkedin.com
 pop-lva1-tg.mix.linkedin.com
 pop-lva1-tg.www.linkedin.com
-pop-lva1.perf.linkedin.com
 pop-lva1.www.linkedin.com
 pop-nsg7-alpha.media-src.linkedin.com
 pop-nsg7-alpha.mix.linkedin.com
@@ -8804,9 +8775,6 @@ pop-nsg7-alpha.static-src.linkedin.com
 pop-nsg7-alpha.tablet.www.linkedin.com
 pop-nsg7-alpha.touch.www.linkedin.com
 pop-nsg7-alpha.www.linkedin.com
-pop-nsg7.perf.linkedin.com
-pop-nsg7w.perf.linkedin.com
-pop-tch1.perf.linkedin.com
 pop-tln1-alpha.media-src.linkedin.com
 pop-tln1-alpha.mix.linkedin.com
 pop-tln1-alpha.platform-src.linkedin.com
@@ -8814,14 +8782,8 @@ pop-tln1-alpha.static-src.linkedin.com
 pop-tln1-alpha.tablet.www.linkedin.com
 pop-tln1-alpha.touch.www.linkedin.com
 pop-tln1-alpha.www.linkedin.com
-pop-tln1.perf.linkedin.com
-pop-tmu1.perf.linkedin.com
-pop-tnd1.perf.linkedin.com
 pop-tnd1.www.linkedin.com
-pop-vbe1.perf.linkedin.com
 pop-vbe1.www.linkedin.com
-pop-vmi1.perf.linkedin.com
-pop-vsh1.perf.linkedin.com
 pop-vsh1.www.linkedin.com
 postcard.prod.linkedin.com
 postcard.stg.linkedin.com
@@ -9020,35 +8982,6 @@ rubiks-svc.corp.linkedin.com
 rubiks-svc.stg.linkedin.com
 rubiks.corp.linkedin.com
 rubiks.stg.linkedin.com
-rum1.perf.linkedin.com
-rum10.perf.linkedin.com
-rum11.perf.linkedin.com
-rum12.perf.linkedin.com
-rum13.perf.linkedin.com
-rum14.perf.linkedin.com
-rum15.perf.linkedin.com
-rum16.perf.linkedin.com
-rum17.perf.linkedin.com
-rum18.perf.linkedin.com
-rum19.perf.linkedin.com
-rum2.perf.linkedin.com
-rum20.perf.linkedin.com
-rum21.perf.linkedin.com
-rum22.perf.linkedin.com
-rum23.perf.linkedin.com
-rum24.perf.linkedin.com
-rum26.perf.linkedin.com
-rum27.perf.linkedin.com
-rum2q.perf.linkedin.com
-rum3.perf.linkedin.com
-rum4.perf.linkedin.com
-rum5.perf.linkedin.com
-rum5a.perf.linkedin.com
-rum6.perf.linkedin.com
-rum7.perf.linkedin.com
-rum8.perf.linkedin.com
-rum9.linkedin.com
-rum9.perf.linkedin.com
 rumble.prod.linkedin.com
 rw.linkedin.com
 sa.linkedin.com
@@ -9639,7 +9572,6 @@ uk.help.linkedin.com
 uk.linkedin.com
 uk.press.linkedin.com
 um.linkedin.com
-um6.perf.linkedin.com
 ump-console.corp.linkedin.com
 ump-console.stg.linkedin.com
 ump-flow-watcher.ei-ltx1.atd.disco.linkedin.com
@@ -10032,7 +9964,6 @@ www.about.linkedin.com
 www.about.stg.linkedin.com
 www.acid-server.corp.linkedin.com
 www.adept.prod.linkedin.com
-www.afd-test.perf.linkedin.com
 www.alerts.prod.linkedin.com
 www.amb4-wac01.gts.linkedin.com
 www.ambry.stg.linkedin.com
@@ -10305,7 +10236,6 @@ www.pop-ltx1-alpha.touch.www.linkedin.com
 www.pop-ltx1.www.linkedin.com
 www.pop-tln1-alpha.www.linkedin.com
 www.pop-vbe1.www.linkedin.com
-www.pop-vsh1.perf.linkedin.com
 www.premium.linkedin.com
 www.premium.stg.linkedin.com
 www.press.linkedin.com
@@ -10326,7 +10256,6 @@ www.rb.corp.linkedin.com
 www.routing.stg.linkedin.com
 www.rpalindev02.fin.linkedin.com
 www.rubiks-svc.stg.linkedin.com
-www.rum2.perf.linkedin.com
 www.rumble.prod.linkedin.com
 www.safety.linkedin.com
 www.safety.stg.linkedin.com

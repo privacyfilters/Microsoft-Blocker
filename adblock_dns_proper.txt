@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 17 November 2026 21:00:18 UTC
-! Version: 2.18.0
+! Last modified: 17 November 2026 23:10:06 UTC
+! Version: 2.19.0
 ! Syntax: Adblock
-! Number of entries: 13311
+! Number of entries: 13302
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 ! Windows Update related Urls
@@ -4836,13 +4836,11 @@
 @@||ocs.microsoft.com^
 @@||ocsp.microsoft.com^
 @@||oneocsp.microsoft.com^
-@@||settings-win.data.microsoft.com^
 @@||smartscreen.microsoft.com^
 @@||unitedkingdom.smartscreen-prod.microsoft.com^
 @@||unitedstates.smartscreen-prod.microsoft.com^
 @@||urs.microsoft.com*^
 @@||urs.smartscreen.microsoft.com^
-@@||vortex-win.data.microsoft.com^
 @@||w.apprep.smartscreen.microsoft.com^
 @@||wd.microsoft.com*^
 @@||wdcp.microsoft.com^
@@ -5511,7 +5509,6 @@
 @@||about.stg.linkedin.com^
 @@||ac.corp.linkedin.com^
 @@||ac.linkedin.com^
-@@||ac.perf.linkedin.com^
 @@||accessanywheredev.linkedin.com^
 @@||accesshelp.corp.linkedin.com^
 @@||accesshelperng.corp.linkedin.com^
@@ -5528,18 +5525,15 @@
 @@||aclin.nuage.stg.linkedin.com^
 @@||aclin.nuagev2.prod.linkedin.com^
 @@||aclin.nuagev2.stg.linkedin.com^
-@@||acpc.perf.linkedin.com^
 @@||adept.prod.linkedin.com^
 @@||adept.stg.linkedin.com^
 @@||ae.linkedin.com^
 @@||af.linkedin.com^
 @@||afd-l-anycast.linkedin.com^
 @@||afd-microsites.linkedin.com^
-@@||afd-test.perf.linkedin.com^
 @@||afd-wcs.www.linkedin.com^
 @@||afd.microsites-ei.linkedin.com^
 @@||afd.microsites.linkedin.com^
-@@||afd.perf.linkedin.com^
 @@||afdverifym.customersuccess.linkedin.com^
 @@||ag.linkedin.com^
 @@||agn2-wac01.gts.linkedin.com^
@@ -5621,8 +5615,6 @@
 @@||annotation-mt.stg.linkedin.com^
 @@||anti-abuse-tool.corp.linkedin.com^
 @@||anti-abuse-toolu.corp.linkedin.com^
-@@||any-ap-test.perf.linkedin.com^
-@@||any-ap.perf.linkedin.com^
 @@||any-ap.www.linkedin.com^
 @@||any-ape.linkedin.com^
 @@||any-eu.media-src.linkedin.com^
@@ -5876,7 +5868,6 @@
 @@||certinlitest11.www.linkedin.com^
 @@||cf.grpc.linkedin.com^
 @@||cf.linkedin.com^
-@@||cf.perf.linkedin.com^
 @@||cflr.platform.linkedin.com^
 @@||cftool.prod.linkedin.com^
 @@||cftool.stg.linkedin.com^
@@ -7997,7 +7988,6 @@
 @@||lva1-kms.corp.linkedin.com^
 @@||lva1-ldap-vip.corp.linkedin.com^
 @@||lva1-ldap.grid.linkedin.com^
-@@||lva1-lx.perf.linkedin.com^
 @@||lva1-mail-gwc.prod.linkedin.com^
 @@||lva1-mail-vip-gw.prod.linkedin.com^
 @@||lva1-mailbox-vip.corp.linkedin.com^
@@ -8733,48 +8723,34 @@
 @@||pop-az-sh.www.linkedin.com^
 @@||pop-azbe1-ltx1a.www.linkedin.com^
 @@||pop-ech2-alpha.www.linkedin.com^
-@@||pop-ech2.perf.linkedin.com^
 @@||pop-ech2e.cdn-src.linkedin.com^
 @@||pop-eda6-alpha.www.linkedin.com^
-@@||pop-eda6.perf.linkedin.com^
 @@||pop-eda6.www.linkedin.com^
 @@||pop-eda6u.static-src.linkedin.com^
 @@||pop-edc2-alpha.www.linkedin.com^
 @@||pop-edc2.mix.linkedin.com^
-@@||pop-edc2.perf.linkedin.com^
 @@||pop-edc2.www.linkedin.com^
-@@||pop-efr5.perf.linkedin.com^
 @@||pop-efr5.www.linkedin.com^
-@@||pop-ehk1.perf.linkedin.com^
 @@||pop-ehk2-alpha.media-src.linkedin.com^
 @@||pop-ehk2-alpha.mix.linkedin.com^
 @@||pop-ehk2-alpha.platform-src.linkedin.com^
 @@||pop-ehk2-alpha.static-src.linkedin.com^
 @@||pop-ehk2-alpha.tablet.www.linkedin.com^
 @@||pop-ehk2-alpha.touch.www.linkedin.com^
-@@||pop-ehk2.perf.linkedin.com^
 @@||pop-ehk2.tablet.www.linkedin.com^
 @@||pop-ehk2.touch.www.linkedin.com^
 @@||pop-ehk2.www.linkedin.com^
 @@||pop-ela1-alpha.media-src.linkedin.com^
-@@||pop-ela1.perf.linkedin.com^
 @@||pop-ela4-alpha.www.linkedin.com^
 @@||pop-ela4-alpha9.www.linkedin.com^
-@@||pop-ela4.perf.linkedin.com^
-@@||pop-ese2.perf.linkedin.com^
-@@||pop-esg3.perf.linkedin.com^
 @@||pop-esp2-alpha.media-src.linkedin.com^
 @@||pop-esp2-alpha.mix.linkedin.com^
 @@||pop-esp2-alpha.static-src.linkedin.com^
 @@||pop-esp2-alpha.tablet.www.linkedin.com^
 @@||pop-esp2-alpha.touch.www.linkedin.com^
 @@||pop-esp2-alpha.www.linkedin.com^
-@@||pop-esp2.perf.linkedin.com^
-@@||pop-esv5.perf.linkedin.com^
 @@||pop-esv5.www.linkedin.com^
 @@||pop-esy1-alphae.mix.linkedin.com^
-@@||pop-esy1.perf.linkedin.com^
-@@||pop-ety2.perf.linkedin.com^
 @@||pop-idb2-alpha.media-src.linkedin.com^
 @@||pop-idb2-alpha.mix.linkedin.com^
 @@||pop-idb2-alpha.platform-src.linkedin.com^
@@ -8782,13 +8758,10 @@
 @@||pop-idb2-alpha.tablet.www.linkedin.com^
 @@||pop-idb2-alpha.touch.www.linkedin.com^
 @@||pop-idb2-alpha.www.linkedin.com^
-@@||pop-idb2.perf.linkedin.com^
 @@||pop-lor1-e.www.linkedin.com^
 @@||pop-lor1-lx.www.linkedin.com^
 @@||pop-lor1-tg.www.linkedin.com^
-@@||pop-lor1.perf.linkedin.com^
 @@||pop-lor1.www.linkedin.com^
-@@||pop-lsg1.perf.linkedin.com^
 @@||pop-ltx1-alpha.media-src.linkedin.com^
 @@||pop-ltx1-alpha.platform-src.linkedin.com^
 @@||pop-ltx1-alpha.static-src.linkedin.com^
@@ -8800,7 +8773,6 @@
 @@||pop-ltx1-lx.www.linkedin.com^
 @@||pop-ltx1-tg.mix.linkedin.com^
 @@||pop-ltx1-tg.www.linkedin.com^
-@@||pop-ltx1.perf.linkedin.com^
 @@||pop-ltx1.www.linkedin.com^
 @@||pop-lva1-alpha.media-src.linkedin.com^
 @@||pop-lva1-alpha.mix.linkedin.com^
@@ -8813,7 +8785,6 @@
 @@||pop-lva1-lx.www.linkedin.com^
 @@||pop-lva1-tg.mix.linkedin.com^
 @@||pop-lva1-tg.www.linkedin.com^
-@@||pop-lva1.perf.linkedin.com^
 @@||pop-lva1.www.linkedin.com^
 @@||pop-nsg7-alpha.media-src.linkedin.com^
 @@||pop-nsg7-alpha.mix.linkedin.com^
@@ -8822,9 +8793,6 @@
 @@||pop-nsg7-alpha.tablet.www.linkedin.com^
 @@||pop-nsg7-alpha.touch.www.linkedin.com^
 @@||pop-nsg7-alpha.www.linkedin.com^
-@@||pop-nsg7.perf.linkedin.com^
-@@||pop-nsg7w.perf.linkedin.com^
-@@||pop-tch1.perf.linkedin.com^
 @@||pop-tln1-alpha.media-src.linkedin.com^
 @@||pop-tln1-alpha.mix.linkedin.com^
 @@||pop-tln1-alpha.platform-src.linkedin.com^
@@ -8832,14 +8800,8 @@
 @@||pop-tln1-alpha.tablet.www.linkedin.com^
 @@||pop-tln1-alpha.touch.www.linkedin.com^
 @@||pop-tln1-alpha.www.linkedin.com^
-@@||pop-tln1.perf.linkedin.com^
-@@||pop-tmu1.perf.linkedin.com^
-@@||pop-tnd1.perf.linkedin.com^
 @@||pop-tnd1.www.linkedin.com^
-@@||pop-vbe1.perf.linkedin.com^
 @@||pop-vbe1.www.linkedin.com^
-@@||pop-vmi1.perf.linkedin.com^
-@@||pop-vsh1.perf.linkedin.com^
 @@||pop-vsh1.www.linkedin.com^
 @@||postcard.prod.linkedin.com^
 @@||postcard.stg.linkedin.com^
@@ -9038,35 +9000,6 @@
 @@||rubiks-svc.stg.linkedin.com^
 @@||rubiks.corp.linkedin.com^
 @@||rubiks.stg.linkedin.com^
-@@||rum1.perf.linkedin.com^
-@@||rum10.perf.linkedin.com^
-@@||rum11.perf.linkedin.com^
-@@||rum12.perf.linkedin.com^
-@@||rum13.perf.linkedin.com^
-@@||rum14.perf.linkedin.com^
-@@||rum15.perf.linkedin.com^
-@@||rum16.perf.linkedin.com^
-@@||rum17.perf.linkedin.com^
-@@||rum18.perf.linkedin.com^
-@@||rum19.perf.linkedin.com^
-@@||rum2.perf.linkedin.com^
-@@||rum20.perf.linkedin.com^
-@@||rum21.perf.linkedin.com^
-@@||rum22.perf.linkedin.com^
-@@||rum23.perf.linkedin.com^
-@@||rum24.perf.linkedin.com^
-@@||rum26.perf.linkedin.com^
-@@||rum27.perf.linkedin.com^
-@@||rum2q.perf.linkedin.com^
-@@||rum3.perf.linkedin.com^
-@@||rum4.perf.linkedin.com^
-@@||rum5.perf.linkedin.com^
-@@||rum5a.perf.linkedin.com^
-@@||rum6.perf.linkedin.com^
-@@||rum7.perf.linkedin.com^
-@@||rum8.perf.linkedin.com^
-@@||rum9.linkedin.com^
-@@||rum9.perf.linkedin.com^
 @@||rumble.prod.linkedin.com^
 @@||rw.linkedin.com^
 @@||sa.linkedin.com^
@@ -9657,7 +9590,6 @@
 @@||uk.linkedin.com^
 @@||uk.press.linkedin.com^
 @@||um.linkedin.com^
-@@||um6.perf.linkedin.com^
 @@||ump-console.corp.linkedin.com^
 @@||ump-console.stg.linkedin.com^
 @@||ump-flow-watcher.ei-ltx1.atd.disco.linkedin.com^
@@ -10050,7 +9982,6 @@
 @@||www.about.stg.linkedin.com^
 @@||www.acid-server.corp.linkedin.com^
 @@||www.adept.prod.linkedin.com^
-@@||www.afd-test.perf.linkedin.com^
 @@||www.alerts.prod.linkedin.com^
 @@||www.amb4-wac01.gts.linkedin.com^
 @@||www.ambry.stg.linkedin.com^
@@ -10323,7 +10254,6 @@
 @@||www.pop-ltx1.www.linkedin.com^
 @@||www.pop-tln1-alpha.www.linkedin.com^
 @@||www.pop-vbe1.www.linkedin.com^
-@@||www.pop-vsh1.perf.linkedin.com^
 @@||www.premium.linkedin.com^
 @@||www.premium.stg.linkedin.com^
 @@||www.press.linkedin.com^
@@ -10344,7 +10274,6 @@
 @@||www.routing.stg.linkedin.com^
 @@||www.rpalindev02.fin.linkedin.com^
 @@||www.rubiks-svc.stg.linkedin.com^
-@@||www.rum2.perf.linkedin.com^
 @@||www.rumble.prod.linkedin.com^
 @@||www.safety.linkedin.com^
 @@||www.safety.stg.linkedin.com^
@@ -10578,7 +10507,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||srv-esv4-edge-exp.linkedin.com^$important
 ||static.edge.microsoftapp.net^
 ! Microsoft Edge extension store
-||data-edge.smartscreen.microsoft.com^$important
 ||edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net^
 ||editor.svc.cloud.microsoft^$important
 ||nav-edge.smartscreen.microsoft.com^$important
@@ -10606,7 +10534,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||sharepoint.com^
 ||sharepointonline.com^
 ||sway.com*^
-||teams.events.data.microsoft.com^
 ||teams.live.com^
 ||to-do.microsoft.com*^
 ! OneDrive service endpoints
@@ -10810,13 +10737,11 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||analyticsehnwe.servicebus.windows.net^
 ||analyticsiot-prod-simpad-ehn.servicebus.windows.net^
 ||androiddev.blob.core.windows.net^
-||api.vortex-win.data.microsoft.com^$important
 ||appexeusprodweather.blob.core.windows.net^
 ||appexfinanceappupdate.blob.core.windows.net^
 ||appexnewsappupdate.blob.core.windows.net^
 ||appexwusprodweather.blob.core.windows.net^
 ||assuritystorage.blob.core.windows.net^
-||au.vortex-win.data.microsoft.com^$important
 ||automatedirstrprdeus.blob.core.windows.net^
 ||azpglspamprwduateus2.blob.core.windows.net^
 ||azrstposb3ib2cwebp.z15.web.core.windows.net^
@@ -10844,7 +10769,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||blob.sn4prdstr03a.store.core.windows.net^
 ||btv-du-dev-eventhub-streamanalytics.servicebus.windows.net^
 ||btv-du-prod-eventhub-streamanalytics.servicebus.windows.net^
-||caput.vortex-win.data.microsoft.com^$important
 ||ceuswatcab01.blob.core.windows.net^
 ||ceuswatcab02.blob.core.windows.net^
 ||ceuswatcab03.blob.core.windows.net^
@@ -10872,7 +10796,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||cu1pehnswad01.servicebus.windows.net^
 ||cu1pehnswss01.servicebus.windows.net^
 ||db5p.wns.notify.windows.com.akadns.net^$important
-||de.vortex-win.data.microsoft.com^$important
 ||decsitefinitycdn.blob.core.windows.net^
 ||developerportalprod.blob.core.windows.net^
 ||dlwnextsetting.blob.core.windows.net^
@@ -10882,7 +10805,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||eaus2watcab02.blob.core.windows.net^
 ||efrcmsstoragep.blob.core.windows.net^
 ||ehtelemetrystaging-alias.servicebus.windows.net^
-||eu.vortex-win.data.microsoft.com^$important
 ||ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net^
 ||firstparty.monitoring.windows.net^
 ||frontendmetrics.blob.core.windows.net^
@@ -10950,20 +10872,14 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||thestreamstaging.blob.core.windows.net^
 ||trustwave.blob.core.windows.net^
 ||uasprod.blob.core.windows.net^
-||uk.vortex-win.data.microsoft.com^$important
 ||umwatson.trafficmanager.net^
 ||umwatsonrouting.trafficmanager.net^
-||us.vortex-win.data.microsoft.com^$important
 ||usseu1northprod.blob.core.windows.net^
 ||ussus3westprod.blob.core.windows.net^
-||v10.vortex-win.data.microsoft.com^$important
-||v20.vortex-win.data.microsoft.com^$important
-||v21.vortex-win.data.microsoft.com^$important
 ||videomd.blob.core.windows.net^
 ||watsoncab.trafficmanager.net^
 ||wayfinderanalytics.servicebus.windows.net^
 ||weathermapdata.blob.core.windows.net^
-||web.vortex-win.data.microsoft.com^$important
 ||weus2watcab01.blob.core.windows.net^
 ||weus2watcab02.blob.core.windows.net^
 ||windowslive.com^
@@ -11100,6 +11016,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||metrics.ingest.monitor.azure.us^
 ||microsoftazurelogicapps.net^
 ||microsoftazurelogicapps.us^
+||monitor.azure.com^
 ||msadsscale.azureedge.net^
 ||msedgedl.azureedge.net^
 ||msftspeechmodelsprod.azureedge.net^
@@ -11408,7 +11325,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||mbusa-tagging-prod.azureedge.net^
 ||mixpanel-proxy-agg3gufkaha9gcbw.a02.azurefd.net^
 ||mktdplp102cdn.azureedge.net^
-||monitor.azure.com^
 ||ms365insider-czdafrdzb5h6e4av.z01.azurefd.net^
 ||msazurebb.visualstudio.com^$important
 ||mysqlmon-master.azure.linkedin.com^$important
@@ -11565,6 +11481,8 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||zookeeper-healthchecker.azureprod2.linkedin.com^$important
 ||zscus-100372.azure.linkedin.com^$important
 ! General Microsoft telemetry
+||ac.perf.linkedin.com^$important
+||acpc.perf.linkedin.com^$important
 ||acs-events.trafficmanager.net^
 ||adc-signals.urs.microsoft.com^$important
 ||addtoprofile-dev.corp.linkedin.com^$important
@@ -11572,11 +11490,16 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||addtoprofile-uat-dev.corp.linkedin.com^$important
 ||addtoprofile.linkedin.com^$important
 ||addtoprofile.stg.linkedin.com^$important
+||afd-test.perf.linkedin.com^$important
+||afd.perf.linkedin.com^$important
 ||analytics-gateway-fallguys.trafficmanager.net^
 ||analytics-listener.trafficmanager.net^
+||analytics.neuron.teams.core.microsoft^
 ||analytics.pointdrive.linkedin.com^$important
 ||analytics.trafficmanager.net^
 ||analytics.visualstudio.com^$important
+||any-ap-test.perf.linkedin.com^$important
+||any-ap.perf.linkedin.com^$important
 ||appservice-diagnostics.trafficmanager.net^
 ||avdab-p-corniche-events-relay.trafficmanager.net^
 ||avdab-s-corniche-events-relay.trafficmanager.net^
@@ -11588,6 +11511,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||capacity-metrics-api.corp.linkedin.com^$important
 ||cas-telemetry.trafficmanager.net^
 ||cds-int-data-encryption.aisvc-int.visualstudio.com^$important
+||cf.perf.linkedin.com^$important
 ||ch-asimov-leafs-events-data.trafficmanager.net^
 ||clarity.ms^
 ||collection-location-livenet.trafficmanager.net^
@@ -11595,6 +11519,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||collector.trafficmanager.net^
 ||cs01-sqlmi-chub-sqm-t54-uks.011bd613e818.database.windows.net^
 ||data-canary.corp.linkedin.com^$important
+||data-edge.smartscreen.microsoft.com^$important
 ||data-fidelity.stg.linkedin.com^$important
 ||data-lglhld-stg.corp.linkedin.com^$important
 ||data-migration-dolcegabbana.powerappsportals.com^
@@ -11650,28 +11575,90 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||ir-tracking.trafficmanager.net^
 ||ism-telemetry.trafficmanager.net^
 ||jobingestion.www.linkedin.com^$important
+||lva1-lx.perf.linkedin.com^$important
 ||lva1-pometrics-fe-prod01.corp.linkedin.com^$important
 ||measure.linkedin.com^$important
 ||measure.trafficmanager.net^
 ||metrics-explorer.prod.linkedin.com^$important
 ||metrics-quota.prod.linkedin.com^$important
+||monitor.core.windows.net^
 ||monitoring.int.sls.microsoft.com^$important
+||monitoring.licdn.com^
 ||monitoring.ppe.sls.microsoft.com^$important
 ||monitoring.sls.microsoft.com^$important
 ||oms-analytics.trafficmanager.net^
 ||partnerfraudevents.trafficmanager.net^
 ||pb-api-logging.trafficmanager.net^
+||perf.nuget.org^$important
 ||ping-signals.urs.microsoft.com^$important
 ||pipeline-completeness-monitor-cert.prod.linkedin.com^$important
 ||pipeline-completeness-monitor-ltx1.prod.linkedin.com^$important
 ||pipeline-completeness-monitor-lva1.prod.linkedin.com^$important
 ||pipeline-completeness-monitor.prod.linkedin.com^$important
+||pop-ech2.perf.linkedin.com^$important
+||pop-eda6.perf.linkedin.com^$important
+||pop-edc2.perf.linkedin.com^$important
+||pop-efr5.perf.linkedin.com^$important
+||pop-ehk1.perf.linkedin.com^$important
+||pop-ehk2.perf.linkedin.com^$important
+||pop-ela1.perf.linkedin.com^$important
+||pop-ela4.perf.linkedin.com^$important
+||pop-ese2.perf.linkedin.com^$important
+||pop-esg3.perf.linkedin.com^$important
+||pop-esp2.perf.linkedin.com^$important
+||pop-esv5.perf.linkedin.com^$important
+||pop-esy1.perf.linkedin.com^$important
+||pop-ety2.perf.linkedin.com^$important
+||pop-idb2.perf.linkedin.com^$important
+||pop-lor1.perf.linkedin.com^$important
+||pop-lsg1.perf.linkedin.com^$important
+||pop-ltx1.perf.linkedin.com^$important
+||pop-lva1.perf.linkedin.com^$important
+||pop-nsg7.perf.linkedin.com^$important
+||pop-nsg7w.perf.linkedin.com^$important
+||pop-tch1.perf.linkedin.com^$important
+||pop-tln1.perf.linkedin.com^$important
+||pop-tmu1.perf.linkedin.com^$important
+||pop-tnd1.perf.linkedin.com^$important
+||pop-vbe1.perf.linkedin.com^$important
+||pop-vmi1.perf.linkedin.com^$important
+||pop-vsh1.perf.linkedin.com^$important
 ||powerpoint-telemetry.wac.trafficmanager.net^
 ||ppc-excel-telemetry.wac.trafficmanager.net^
 ||ppc-powerpoint-telemetry.wac.trafficmanager.net^
 ||ppc-word-telemetry.wac.trafficmanager.net^
 ||prod-collecticon.outlookmobile.com^
 ||rdm-trafficmanager-ticketscenter-metrics.trafficmanager.net^
+||rum1.perf.linkedin.com^$important
+||rum10.perf.linkedin.com^$important
+||rum11.perf.linkedin.com^$important
+||rum12.perf.linkedin.com^$important
+||rum13.perf.linkedin.com^$important
+||rum14.perf.linkedin.com^$important
+||rum15.perf.linkedin.com^$important
+||rum16.perf.linkedin.com^$important
+||rum17.perf.linkedin.com^$important
+||rum18.perf.linkedin.com^$important
+||rum19.perf.linkedin.com^$important
+||rum2.perf.linkedin.com^$important
+||rum20.perf.linkedin.com^$important
+||rum21.perf.linkedin.com^$important
+||rum22.perf.linkedin.com^$important
+||rum23.perf.linkedin.com^$important
+||rum24.perf.linkedin.com^$important
+||rum26.perf.linkedin.com^$important
+||rum27.perf.linkedin.com^$important
+||rum28.perf.linkedin.com^$important
+||rum2q.perf.linkedin.com^$important
+||rum3.perf.linkedin.com^$important
+||rum4.perf.linkedin.com^$important
+||rum5.perf.linkedin.com^$important
+||rum5a.perf.linkedin.com^$important
+||rum6.perf.linkedin.com^$important
+||rum7.perf.linkedin.com^$important
+||rum8.perf.linkedin.com^$important
+||rum9.linkedin.com^$important
+||rum9.perf.linkedin.com^$important
 ||sec-logging.stg.linkedin.com^$important
 ||securitysignals-siphonclient.outlook.com^$important
 ||self-events-data.trafficmanager.net^
@@ -11705,11 +11692,13 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||tracking-ui.corp.linkedin.com^$important
 ||tracking-ui.stg.corp.linkedin.com^$important
 ||tracking.corp.linkedin.com^$important
+||tracking.king.com^$important
 ||tracking.stg.corp.linkedin.com^$important
 ||tracking.stg.linkedin.com^$important
 ||traf-fraudevents-int.trafficmanager.net^
 ||transportsubstratebusmonitoringapp-tdf.outlook.com^$important
 ||transportsubstratebusmonitoringapp.outlook.com^$important
+||um6.perf.linkedin.com^$important
 ||us-mesh-events-data-leafs.trafficmanager.net^
 ||vstelemetry.trafficmanager.net^
 ||win-global-asimov-leafs-events-data.trafficmanager.net^
@@ -11824,6 +11813,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||amura.visualstudio.com^$important
 ||amy.visualstudio.com^$important
 ||analytic-signal.gallerycdn.vsassets.io^$important
+||analytics-eval.neuron.teams.core.microsoft^
 ||anand.visualstudio.com^$important
 ||andp8p.visualstudio.com^$important
 ||andreip5.visualstudio.com^$important
@@ -12793,7 +12783,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||mluddnxqvtspfcr.mshome.net^
 ||modulsystem.visualstudio.com^$important
 ||mofos.visualstudio.com^$important
-||monitor.core.windows.net^
 ||ms.visualstudio.com^$important
 ||msappproxy.net^
 ||msc.visualstudio.com^$important
@@ -12889,7 +12878,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||pbjqqkhkjljpg.mshome.net^
 ||pcgk.visualstudio.com^$important
 ||pdfviewer66e4ba98-ddbf-e08e-9c4a-11427e98c548.powerappsportals.com^
-||perf.nuget.org^$important
 ||pggdqwsmekbvxl.mshome.net^
 ||pgskdksrqvznxoc.mshome.net^
 ||pns.visualstudio.com^$important
@@ -13268,6 +13256,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||firstone3443.blob.core.windows.net^
 ||gasevinul.z1.web.core.windows.net^
 ||gtconligt.z38.web.core.windows.net^
+||hawkinsinc.microsoft-alerts.org^
 ||hennesseyllchabina677.blob.core.windows.net^
 ||hotelembuguacu.blob.core.windows.net^
 ||inicianexowebus.z5.web.core.windows.net^
@@ -13296,6 +13285,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||microsoft-support.es^
 ||microsoft-support.net^
 ||microsoft-surface.ru^
+||microsoft-telemetry.at^
 ||microsoft-update.name^
 ||microsoft-update.support^
 ||microsoft-verify.live^
@@ -13330,6 +13320,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||officedoc-scanner.azurefd.net^
 ||officemail18xomunjbtsf6.z19.web.core.windows.net^
 ||onedrivespumes395868.blob.core.windows.net^
+||outlook-live365.github.io^
 ||pegacure.z33.web.core.windows.net^
 ||pewaweyet.z1.web.core.windows.net^
 ||produbancoenlinea.blob.core.windows.net^

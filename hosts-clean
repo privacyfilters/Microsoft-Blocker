@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 17 November 2026 21:00:21 UTC
-# Version: 2.18.0
+# Last modified: 17 November 2026 23:10:09 UTC
+# Version: 2.19.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 16564
+# Number of entries: 16566
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 000001-1y.l.windowsupdate.com
@@ -4920,13 +4920,11 @@
 #0.0.0.0 ocs.microsoft.com
 #0.0.0.0 ocsp.microsoft.com
 #0.0.0.0 oneocsp.microsoft.com
-#0.0.0.0 settings-win.data.microsoft.com
 #0.0.0.0 smartscreen.microsoft.com
 #0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com
 #0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
 #0.0.0.0 urs.microsoft.com
 #0.0.0.0 urs.smartscreen.microsoft.com
-#0.0.0.0 vortex-win.data.microsoft.com
 #0.0.0.0 w.apprep.smartscreen.microsoft.com
 #0.0.0.0 wd.microsoft.com
 #0.0.0.0 wdcp.microsoft.com
@@ -5611,7 +5609,6 @@
 #0.0.0.0 about.stg.linkedin.com
 #0.0.0.0 ac.corp.linkedin.com
 #0.0.0.0 ac.linkedin.com
-#0.0.0.0 ac.perf.linkedin.com
 #0.0.0.0 accessanywheredev.linkedin.com
 #0.0.0.0 accesshelp.corp.linkedin.com
 #0.0.0.0 accesshelperng.corp.linkedin.com
@@ -5628,18 +5625,15 @@
 #0.0.0.0 aclin.nuage.stg.linkedin.com
 #0.0.0.0 aclin.nuagev2.prod.linkedin.com
 #0.0.0.0 aclin.nuagev2.stg.linkedin.com
-#0.0.0.0 acpc.perf.linkedin.com
 #0.0.0.0 adept.prod.linkedin.com
 #0.0.0.0 adept.stg.linkedin.com
 #0.0.0.0 ae.linkedin.com
 #0.0.0.0 af.linkedin.com
 #0.0.0.0 afd-l-anycast.linkedin.com
 #0.0.0.0 afd-microsites.linkedin.com
-#0.0.0.0 afd-test.perf.linkedin.com
 #0.0.0.0 afd-wcs.www.linkedin.com
 #0.0.0.0 afd.microsites-ei.linkedin.com
 #0.0.0.0 afd.microsites.linkedin.com
-#0.0.0.0 afd.perf.linkedin.com
 #0.0.0.0 afdverifym.customersuccess.linkedin.com
 #0.0.0.0 ag.linkedin.com
 #0.0.0.0 agn2-wac01.gts.linkedin.com
@@ -5721,8 +5715,6 @@
 #0.0.0.0 annotation-mt.stg.linkedin.com
 #0.0.0.0 anti-abuse-tool.corp.linkedin.com
 #0.0.0.0 anti-abuse-toolu.corp.linkedin.com
-#0.0.0.0 any-ap-test.perf.linkedin.com
-#0.0.0.0 any-ap.perf.linkedin.com
 #0.0.0.0 any-ap.www.linkedin.com
 #0.0.0.0 any-ape.linkedin.com
 #0.0.0.0 any-eu.media-src.linkedin.com
@@ -5976,7 +5968,6 @@
 #0.0.0.0 certinlitest11.www.linkedin.com
 #0.0.0.0 cf.grpc.linkedin.com
 #0.0.0.0 cf.linkedin.com
-#0.0.0.0 cf.perf.linkedin.com
 #0.0.0.0 cflr.platform.linkedin.com
 #0.0.0.0 cftool.prod.linkedin.com
 #0.0.0.0 cftool.stg.linkedin.com
@@ -8097,7 +8088,6 @@
 #0.0.0.0 lva1-kms.corp.linkedin.com
 #0.0.0.0 lva1-ldap-vip.corp.linkedin.com
 #0.0.0.0 lva1-ldap.grid.linkedin.com
-#0.0.0.0 lva1-lx.perf.linkedin.com
 #0.0.0.0 lva1-mail-gwc.prod.linkedin.com
 #0.0.0.0 lva1-mail-vip-gw.prod.linkedin.com
 #0.0.0.0 lva1-mailbox-vip.corp.linkedin.com
@@ -8833,48 +8823,34 @@
 #0.0.0.0 pop-az-sh.www.linkedin.com
 #0.0.0.0 pop-azbe1-ltx1a.www.linkedin.com
 #0.0.0.0 pop-ech2-alpha.www.linkedin.com
-#0.0.0.0 pop-ech2.perf.linkedin.com
 #0.0.0.0 pop-ech2e.cdn-src.linkedin.com
 #0.0.0.0 pop-eda6-alpha.www.linkedin.com
-#0.0.0.0 pop-eda6.perf.linkedin.com
 #0.0.0.0 pop-eda6.www.linkedin.com
 #0.0.0.0 pop-eda6u.static-src.linkedin.com
 #0.0.0.0 pop-edc2-alpha.www.linkedin.com
 #0.0.0.0 pop-edc2.mix.linkedin.com
-#0.0.0.0 pop-edc2.perf.linkedin.com
 #0.0.0.0 pop-edc2.www.linkedin.com
-#0.0.0.0 pop-efr5.perf.linkedin.com
 #0.0.0.0 pop-efr5.www.linkedin.com
-#0.0.0.0 pop-ehk1.perf.linkedin.com
 #0.0.0.0 pop-ehk2-alpha.media-src.linkedin.com
 #0.0.0.0 pop-ehk2-alpha.mix.linkedin.com
 #0.0.0.0 pop-ehk2-alpha.platform-src.linkedin.com
 #0.0.0.0 pop-ehk2-alpha.static-src.linkedin.com
 #0.0.0.0 pop-ehk2-alpha.tablet.www.linkedin.com
 #0.0.0.0 pop-ehk2-alpha.touch.www.linkedin.com
-#0.0.0.0 pop-ehk2.perf.linkedin.com
 #0.0.0.0 pop-ehk2.tablet.www.linkedin.com
 #0.0.0.0 pop-ehk2.touch.www.linkedin.com
 #0.0.0.0 pop-ehk2.www.linkedin.com
 #0.0.0.0 pop-ela1-alpha.media-src.linkedin.com
-#0.0.0.0 pop-ela1.perf.linkedin.com
 #0.0.0.0 pop-ela4-alpha.www.linkedin.com
 #0.0.0.0 pop-ela4-alpha9.www.linkedin.com
-#0.0.0.0 pop-ela4.perf.linkedin.com
-#0.0.0.0 pop-ese2.perf.linkedin.com
-#0.0.0.0 pop-esg3.perf.linkedin.com
 #0.0.0.0 pop-esp2-alpha.media-src.linkedin.com
 #0.0.0.0 pop-esp2-alpha.mix.linkedin.com
 #0.0.0.0 pop-esp2-alpha.static-src.linkedin.com
 #0.0.0.0 pop-esp2-alpha.tablet.www.linkedin.com
 #0.0.0.0 pop-esp2-alpha.touch.www.linkedin.com
 #0.0.0.0 pop-esp2-alpha.www.linkedin.com
-#0.0.0.0 pop-esp2.perf.linkedin.com
-#0.0.0.0 pop-esv5.perf.linkedin.com
 #0.0.0.0 pop-esv5.www.linkedin.com
 #0.0.0.0 pop-esy1-alphae.mix.linkedin.com
-#0.0.0.0 pop-esy1.perf.linkedin.com
-#0.0.0.0 pop-ety2.perf.linkedin.com
 #0.0.0.0 pop-idb2-alpha.media-src.linkedin.com
 #0.0.0.0 pop-idb2-alpha.mix.linkedin.com
 #0.0.0.0 pop-idb2-alpha.platform-src.linkedin.com
@@ -8882,13 +8858,10 @@
 #0.0.0.0 pop-idb2-alpha.tablet.www.linkedin.com
 #0.0.0.0 pop-idb2-alpha.touch.www.linkedin.com
 #0.0.0.0 pop-idb2-alpha.www.linkedin.com
-#0.0.0.0 pop-idb2.perf.linkedin.com
 #0.0.0.0 pop-lor1-e.www.linkedin.com
 #0.0.0.0 pop-lor1-lx.www.linkedin.com
 #0.0.0.0 pop-lor1-tg.www.linkedin.com
-#0.0.0.0 pop-lor1.perf.linkedin.com
 #0.0.0.0 pop-lor1.www.linkedin.com
-#0.0.0.0 pop-lsg1.perf.linkedin.com
 #0.0.0.0 pop-ltx1-alpha.media-src.linkedin.com
 #0.0.0.0 pop-ltx1-alpha.platform-src.linkedin.com
 #0.0.0.0 pop-ltx1-alpha.static-src.linkedin.com
@@ -8900,7 +8873,6 @@
 #0.0.0.0 pop-ltx1-lx.www.linkedin.com
 #0.0.0.0 pop-ltx1-tg.mix.linkedin.com
 #0.0.0.0 pop-ltx1-tg.www.linkedin.com
-#0.0.0.0 pop-ltx1.perf.linkedin.com
 #0.0.0.0 pop-ltx1.www.linkedin.com
 #0.0.0.0 pop-lva1-alpha.media-src.linkedin.com
 #0.0.0.0 pop-lva1-alpha.mix.linkedin.com
@@ -8913,7 +8885,6 @@
 #0.0.0.0 pop-lva1-lx.www.linkedin.com
 #0.0.0.0 pop-lva1-tg.mix.linkedin.com
 #0.0.0.0 pop-lva1-tg.www.linkedin.com
-#0.0.0.0 pop-lva1.perf.linkedin.com
 #0.0.0.0 pop-lva1.www.linkedin.com
 #0.0.0.0 pop-nsg7-alpha.media-src.linkedin.com
 #0.0.0.0 pop-nsg7-alpha.mix.linkedin.com
@@ -8922,9 +8893,6 @@
 #0.0.0.0 pop-nsg7-alpha.tablet.www.linkedin.com
 #0.0.0.0 pop-nsg7-alpha.touch.www.linkedin.com
 #0.0.0.0 pop-nsg7-alpha.www.linkedin.com
-#0.0.0.0 pop-nsg7.perf.linkedin.com
-#0.0.0.0 pop-nsg7w.perf.linkedin.com
-#0.0.0.0 pop-tch1.perf.linkedin.com
 #0.0.0.0 pop-tln1-alpha.media-src.linkedin.com
 #0.0.0.0 pop-tln1-alpha.mix.linkedin.com
 #0.0.0.0 pop-tln1-alpha.platform-src.linkedin.com
@@ -8932,14 +8900,8 @@
 #0.0.0.0 pop-tln1-alpha.tablet.www.linkedin.com
 #0.0.0.0 pop-tln1-alpha.touch.www.linkedin.com
 #0.0.0.0 pop-tln1-alpha.www.linkedin.com
-#0.0.0.0 pop-tln1.perf.linkedin.com
-#0.0.0.0 pop-tmu1.perf.linkedin.com
-#0.0.0.0 pop-tnd1.perf.linkedin.com
 #0.0.0.0 pop-tnd1.www.linkedin.com
-#0.0.0.0 pop-vbe1.perf.linkedin.com
 #0.0.0.0 pop-vbe1.www.linkedin.com
-#0.0.0.0 pop-vmi1.perf.linkedin.com
-#0.0.0.0 pop-vsh1.perf.linkedin.com
 #0.0.0.0 pop-vsh1.www.linkedin.com
 #0.0.0.0 postcard.prod.linkedin.com
 #0.0.0.0 postcard.stg.linkedin.com
@@ -9138,35 +9100,6 @@
 #0.0.0.0 rubiks-svc.stg.linkedin.com
 #0.0.0.0 rubiks.corp.linkedin.com
 #0.0.0.0 rubiks.stg.linkedin.com
-#0.0.0.0 rum1.perf.linkedin.com
-#0.0.0.0 rum10.perf.linkedin.com
-#0.0.0.0 rum11.perf.linkedin.com
-#0.0.0.0 rum12.perf.linkedin.com
-#0.0.0.0 rum13.perf.linkedin.com
-#0.0.0.0 rum14.perf.linkedin.com
-#0.0.0.0 rum15.perf.linkedin.com
-#0.0.0.0 rum16.perf.linkedin.com
-#0.0.0.0 rum17.perf.linkedin.com
-#0.0.0.0 rum18.perf.linkedin.com
-#0.0.0.0 rum19.perf.linkedin.com
-#0.0.0.0 rum2.perf.linkedin.com
-#0.0.0.0 rum20.perf.linkedin.com
-#0.0.0.0 rum21.perf.linkedin.com
-#0.0.0.0 rum22.perf.linkedin.com
-#0.0.0.0 rum23.perf.linkedin.com
-#0.0.0.0 rum24.perf.linkedin.com
-#0.0.0.0 rum26.perf.linkedin.com
-#0.0.0.0 rum27.perf.linkedin.com
-#0.0.0.0 rum2q.perf.linkedin.com
-#0.0.0.0 rum3.perf.linkedin.com
-#0.0.0.0 rum4.perf.linkedin.com
-#0.0.0.0 rum5.perf.linkedin.com
-#0.0.0.0 rum5a.perf.linkedin.com
-#0.0.0.0 rum6.perf.linkedin.com
-#0.0.0.0 rum7.perf.linkedin.com
-#0.0.0.0 rum8.perf.linkedin.com
-#0.0.0.0 rum9.linkedin.com
-#0.0.0.0 rum9.perf.linkedin.com
 #0.0.0.0 rumble.prod.linkedin.com
 #0.0.0.0 rw.linkedin.com
 #0.0.0.0 sa.linkedin.com
@@ -9757,7 +9690,6 @@
 #0.0.0.0 uk.linkedin.com
 #0.0.0.0 uk.press.linkedin.com
 #0.0.0.0 um.linkedin.com
-#0.0.0.0 um6.perf.linkedin.com
 #0.0.0.0 ump-console.corp.linkedin.com
 #0.0.0.0 ump-console.stg.linkedin.com
 #0.0.0.0 ump-flow-watcher.ei-ltx1.atd.disco.linkedin.com
@@ -10150,7 +10082,6 @@
 #0.0.0.0 www.about.stg.linkedin.com
 #0.0.0.0 www.acid-server.corp.linkedin.com
 #0.0.0.0 www.adept.prod.linkedin.com
-#0.0.0.0 www.afd-test.perf.linkedin.com
 #0.0.0.0 www.alerts.prod.linkedin.com
 #0.0.0.0 www.amb4-wac01.gts.linkedin.com
 #0.0.0.0 www.ambry.stg.linkedin.com
@@ -10423,7 +10354,6 @@
 #0.0.0.0 www.pop-ltx1.www.linkedin.com
 #0.0.0.0 www.pop-tln1-alpha.www.linkedin.com
 #0.0.0.0 www.pop-vbe1.www.linkedin.com
-#0.0.0.0 www.pop-vsh1.perf.linkedin.com
 #0.0.0.0 www.premium.linkedin.com
 #0.0.0.0 www.premium.stg.linkedin.com
 #0.0.0.0 www.press.linkedin.com
@@ -10444,7 +10374,6 @@
 #0.0.0.0 www.routing.stg.linkedin.com
 #0.0.0.0 www.rpalindev02.fin.linkedin.com
 #0.0.0.0 www.rubiks-svc.stg.linkedin.com
-#0.0.0.0 www.rum2.perf.linkedin.com
 #0.0.0.0 www.rumble.prod.linkedin.com
 #0.0.0.0 www.safety.linkedin.com
 #0.0.0.0 www.safety.stg.linkedin.com
@@ -12634,7 +12563,6 @@
 # # Microsoft Edge extension store
 0.0.0.0 addons.microsoftedge.microsoft.com
 0.0.0.0 api.addons.microsoftedge.microsoft.com
-0.0.0.0 data-edge.smartscreen.microsoft.com
 0.0.0.0 edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net
 0.0.0.0 editor.svc.cloud.microsoft
 0.0.0.0 extensionsecurity.microsoftedge.microsoft.com
@@ -14509,7 +14437,6 @@
 0.0.0.0 talofinancial-my.sharepoint.com
 0.0.0.0 tata365.sharepoint.com
 0.0.0.0 teaminc-my.sharepoint.com
-0.0.0.0 teams.events.data.microsoft.com
 0.0.0.0 teams.live.com
 0.0.0.0 teamsapp.learning.cloud.microsoft
 0.0.0.0 teaom-my.sharepoint.com
@@ -15209,7 +15136,6 @@
 0.0.0.0 es.onedrive.com
 0.0.0.0 esxi02.onedrive.com
 0.0.0.0 esxi02e.onedrive.com
-0.0.0.0 events.onedrive.com
 0.0.0.0 ext.onedrive.com
 0.0.0.0 external.onedrive.com
 0.0.0.0 extranet.onedrive.com
@@ -16494,6 +16420,7 @@
 0.0.0.0 amura.visualstudio.com
 0.0.0.0 amy.visualstudio.com
 0.0.0.0 analytic-signal.gallerycdn.vsassets.io
+0.0.0.0 analytics-eval.neuron.teams.core.microsoft
 0.0.0.0 anand.visualstudio.com
 0.0.0.0 andp8p.visualstudio.com
 0.0.0.0 andre2410a.live.com
@@ -21024,6 +20951,7 @@
 0.0.0.0 master.ic3-media-mcr-rtmpin.eastus-test.cosmic-int.office.net
 0.0.0.0 masteraad.approvalservicebf.windows.com
 0.0.0.0 matomo-dansklaegemiddelinformation.msappproxy.net
+0.0.0.0 matomo-ing.msappproxy.net
 0.0.0.0 matrixcloudtest1.office.net
 0.0.0.0 max.groups.msn.com
 0.0.0.0 max.storage.msn.com
@@ -22540,7 +22468,6 @@
 0.0.0.0 monet.teams.microsoft.com
 0.0.0.0 moneyjun.spaces.msn.com
 0.0.0.0 monicamonicu.spaces.live.com
-0.0.0.0 monitor.core.windows.net
 0.0.0.0 moosdk.partners.extranet.microsoft.com
 0.0.0.0 moxin1234567.spaces.msn.com
 0.0.0.0 mp.microsoft.com
@@ -23506,7 +23433,6 @@
 0.0.0.0 peperodrigues.msn.com
 0.0.0.0 peppemasca.spaces.live.com
 0.0.0.0 peprah71.live.com
-0.0.0.0 perf.nuget.org
 0.0.0.0 performance.canvas.microsoft.com
 0.0.0.0 performance.microsoft.com
 0.0.0.0 personala.inventory.office.com
@@ -27045,6 +26971,7 @@
 0.0.0.0 firstone3443.blob.core.windows.net
 0.0.0.0 gasevinul.z1.web.core.windows.net
 0.0.0.0 gtconligt.z38.web.core.windows.net
+0.0.0.0 hawkinsinc.microsoft-alerts.org
 0.0.0.0 hennesseyllchabina677.blob.core.windows.net
 0.0.0.0 hotelembuguacu.blob.core.windows.net
 0.0.0.0 inicianexowebus.z5.web.core.windows.net
@@ -27096,6 +27023,7 @@
 0.0.0.0 microsoft-surface.ru
 0.0.0.0 microsoft-teams-app.com
 0.0.0.0 microsoft-teams-meets.com
+0.0.0.0 microsoft-telemetry.at
 0.0.0.0 microsoft-tools.com
 0.0.0.0 microsoft-update.name
 0.0.0.0 microsoft-update.support
@@ -27139,6 +27067,7 @@
 0.0.0.0 officedoc-scanner.azurefd.net
 0.0.0.0 officemail18xomunjbtsf6.z19.web.core.windows.net
 0.0.0.0 onedrivespumes395868.blob.core.windows.net
+0.0.0.0 outlook-live365.github.io
 0.0.0.0 owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com
 0.0.0.0 pegacure.z33.web.core.windows.net
 0.0.0.0 pewaweyet.z1.web.core.windows.net
@@ -27170,6 +27099,7 @@
 0.0.0.0 visualstudiofactory.com
 0.0.0.0 vmlpl.blob.core.windows.net
 0.0.0.0 vvetransferfile72836.blob.core.windows.net
+0.0.0.0 watco.microsoft-notifcation.com
 0.0.0.0 web-login.azureedge.net
 0.0.0.0 windowsonecare.com
 0.0.0.0 www.faduciwup.z4.web.core.windows.net
@@ -27177,6 +27107,7 @@
 0.0.0.0 www.microsoft-nav-upgrade.com
 0.0.0.0 www.microsoft-notifcation.com
 0.0.0.0 www.microsoft-support.net
+0.0.0.0 www.microsoft-telemetry.at
 0.0.0.0 www.microsoft-update.name
 0.0.0.0 www.microsoft-update.support
 0.0.0.0 www.microsoft.tl

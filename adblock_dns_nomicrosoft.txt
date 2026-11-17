@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 17 November 2026 21:00:18 UTC
-! Version: 2.18.0
+! Last modified: 17 November 2026 23:10:06 UTC
+! Version: 2.19.0
 ! Syntax: Adblock
-! Number of entries: 2058
+! Number of entries: 2064
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -605,6 +605,7 @@
 ||microsoftazurelogicapps.net^
 ||microsoftazurelogicapps.us^
 ||microsoftazuremanagement.com^
+||monitor.azure.com*^
 ||msadsscale.azureedge.net^
 ||msedgedl.azureedge.net^
 ||msftspeechmodelsprod.azureedge.net^
@@ -903,7 +904,6 @@
 ||mbusa-tagging-prod.azureedge.net^
 ||mixpanel-proxy-agg3gufkaha9gcbw.a02.azurefd.net^
 ||mktdplp102cdn.azureedge.net^
-||monitor.azure.com*^
 ||ms365insider-czdafrdzb5h6e4av.z01.azurefd.net^
 ||octob.azureedge.net^
 ||ods-logging-dfhsbqdgd7g0bbc3.z01.azurefd.net^
@@ -1055,6 +1055,7 @@
 ||analytics-listener.trafficmanager.net^
 ||analytics.live.com.nsatc.net^
 ||analytics.msnbc.com^
+||analytics.neuron.teams.core.microsoft^
 ||analytics.trafficmanager.net*^
 ||appservice-diagnostics.trafficmanager.net^
 ||avdab-p-corniche-events-relay.trafficmanager.net^
@@ -1089,6 +1090,8 @@
 ||ism-telemetry.trafficmanager.net^
 ||measure.trafficmanager.net^
 ||microsoftmetrics.com*^
+||monitor.core.windows.net*^
+||monitoring.licdn.com^
 ||oms-analytics.trafficmanager.net^
 ||partnerfraudevents.trafficmanager.net^
 ||pb-api-logging.trafficmanager.net^
@@ -1263,6 +1266,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||aiinfrastructure.static.microsoft^
 ||alebgnkhbz.mshome.net^
 ||ampvstewnw.mshome.net^
+||analytics-eval.neuron.teams.core.microsoft^
 ||api.aadrm.cn^
 ||api.aadrm.de^
 ||apimgmttmr17ij3jt5dneg64srod9jevcuajxaoube4brtu9cq.trafficmanager.net^
@@ -1698,7 +1702,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||mlccdn.blob.core.windows.net^
 ||mlliafyytc.mshome.net^
 ||mluddnxqvtspfcr.mshome.net^
-||monitor.core.windows.net*^
 ||msappproxy.net*^
 ||msdn.com*^
 ||msdnevents.com^
@@ -1981,6 +1984,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||firstone3443.blob.core.windows.net^
 ||gasevinul.z1.web.core.windows.net^
 ||gtconligt.z38.web.core.windows.net^
+||hawkinsinc.microsoft-alerts.org^
 ||hennesseyllchabina677.blob.core.windows.net*^
 ||hotelembuguacu.blob.core.windows.net^
 ||inicianexowebus.z5.web.core.windows.net^
@@ -2032,6 +2036,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||microsoft-surface.ru*^
 ||microsoft-teams-app.com^
 ||microsoft-teams-meets.com^
+||microsoft-telemetry.at*^
 ||microsoft-tools.com^
 ||microsoft-update.name*^
 ||microsoft-update.support*^
@@ -2073,6 +2078,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||officedoc-scanner.azurefd.net^
 ||officemail18xomunjbtsf6.z19.web.core.windows.net^
 ||onedrivespumes395868.blob.core.windows.net^
+||outlook-live365.github.io^
 ||owa-login-microsoftonline-userportal-outlook-notification.s3-ap-southeast-2.amazonaws.com^
 ||pegacure.z33.web.core.windows.net^
 ||pewaweyet.z1.web.core.windows.net^
