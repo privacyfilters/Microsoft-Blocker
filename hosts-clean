@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 05 November 2026 01:09:23 UTC
-# Version: 2.17.1
+# Last modified: 17 November 2026 20:58:11 UTC
+# Version: 2.18.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 16561
+# Number of entries: 16564
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 000001-1y.l.windowsupdate.com
@@ -4046,6 +4046,7 @@
 #0.0.0.0 swdb01-mscdn.manage.microsoft.com
 #0.0.0.0 swdb02-mscdn.manage.microsoft.com
 #0.0.0.0 swdc01-mscdn.manage.microsoft.com
+#0.0.0.0 swdc02-mscdn.manage.microsoft.com
 #0.0.0.0 swdd01-mscdn.manage.microsoft.com
 #0.0.0.0 swdd02-mscdn.manage.microsoft.com
 #0.0.0.0 swdin01-mscdn.manage.microsoft.com
@@ -4913,6 +4914,7 @@
 #0.0.0.0 crl.microsoft.com
 #0.0.0.0 definitionupdates.microsoft.com
 #0.0.0.0 definitionupdates.microsoft.com.edgekey.net
+#0.0.0.0 endpoint.security.microsoft.com
 #0.0.0.0 europe.smartscreen-prod.microsoft.com
 #0.0.0.0 mscrl.microsoft.com
 #0.0.0.0 ocs.microsoft.com
@@ -10571,6 +10573,7 @@
 #:: go.microsoft.com
 #:: graph.microsoft.com
 # # External Services
+#0.0.0.0 inkscape-windows.github.io
 #0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
 #0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
 #0.0.0.0 steamcloudsweden.blob.core.windows.net
@@ -10629,6 +10632,7 @@
 #0.0.0.0 candycrushsoda.king.com
 #0.0.0.0 ccs.play.king.com
 #0.0.0.0 ccss.play.king.com
+#0.0.0.0 cdn.ams.king.com
 #0.0.0.0 king.com
 #0.0.0.0 servicelayer.king.com
 #0.0.0.0 snippetdata.api.swiftkey.com
@@ -13831,6 +13835,7 @@
 0.0.0.0 lvmgt0-my.sharepoint.com
 0.0.0.0 lynnpublicschools-my.sharepoint.com
 0.0.0.0 m365.cloud.microsoft
+0.0.0.0 m365copilotapp.svc.cloud.microsoft
 0.0.0.0 m365lti-ci.edu.cloud.microsoft
 0.0.0.0 m365lti.edu.cloud.microsoft
 0.0.0.0 m365w.cloud.microsoft
@@ -16488,6 +16493,7 @@
 0.0.0.0 amupdatedl8.microsoft.com
 0.0.0.0 amura.visualstudio.com
 0.0.0.0 amy.visualstudio.com
+0.0.0.0 analytic-signal.gallerycdn.vsassets.io
 0.0.0.0 anand.visualstudio.com
 0.0.0.0 andp8p.visualstudio.com
 0.0.0.0 andre2410a.live.com
@@ -21017,6 +21023,7 @@
 0.0.0.0 mashiachthereal1.spaces.msn.com
 0.0.0.0 master.ic3-media-mcr-rtmpin.eastus-test.cosmic-int.office.net
 0.0.0.0 masteraad.approvalservicebf.windows.com
+0.0.0.0 matomo-dansklaegemiddelinformation.msappproxy.net
 0.0.0.0 matrixcloudtest1.office.net
 0.0.0.0 max.groups.msn.com
 0.0.0.0 max.storage.msn.com
@@ -26324,6 +26331,7 @@
 0.0.0.0 www.htbudine.spaces.live.com
 0.0.0.0 www.huh-uh.spaces.live.com
 0.0.0.0 www.ialiyev.live.com
+0.0.0.0 www.ic-live.com
 0.0.0.0 www.idc1maclab.kaptaanbastion.microsoft.com
 0.0.0.0 www.ieb-mr-ppe-eastus.cms.microsoft.com
 0.0.0.0 www.ignaziopalermo.spaces.live.com
@@ -27040,7 +27048,6 @@
 0.0.0.0 hennesseyllchabina677.blob.core.windows.net
 0.0.0.0 hotelembuguacu.blob.core.windows.net
 0.0.0.0 inicianexowebus.z5.web.core.windows.net
-0.0.0.0 inkscape-windows.github.io
 0.0.0.0 khanmarine.blob.core.windows.net
 0.0.0.0 klportmainjokecaseport.z14.web.core.windows.net
 0.0.0.0 konimpex.blob.core.windows.net

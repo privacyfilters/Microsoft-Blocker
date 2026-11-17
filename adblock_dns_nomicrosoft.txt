@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_nomicrosoft.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 05 November 2026 01:09:20 UTC
-! Version: 2.17.1
+! Last modified: 17 November 2026 20:58:09 UTC
+! Version: 2.18.0
 ! Syntax: Adblock
-! Number of entries: 2048
+! Number of entries: 2058
 !
 !!! Wildcard rules !!!
 ||*microsoft*.com*^
@@ -357,7 +357,7 @@
 ||hme-live-loganalytics-namespace.servicebus.windows.net^
 ||hme-uat-loganalytics-namespace.servicebus.windows.net^
 ||hubstordev3sstor1.blob.core.windows.net^
-||ic-live.com^
+||ic-live.com*^
 ||insitez.blob.core.windows.net^
 ||iriscoremetadataprod.blob.core.windows.net^
 ||isgemail.blob.core.windows.net^
@@ -438,7 +438,6 @@
 ||uasprod.blob.core.windows.net^
 ||umwatson.trafficmanager.net^
 ||umwatsonrouting.trafficmanager.net^
-||universalstore.streaming.mediaservices.windows.net^
 ||update.microsoftonline.com^
 ||usseu1northprod.blob.core.windows.net^
 ||ussus3westprod.blob.core.windows.net^
@@ -447,6 +446,7 @@
 ||videomd.blob.core.windows.net^
 ||vortex-win.data.metron.live.com.nsatc.net*^
 ||vortex.data.microsoft.com.edgekey.net^
+||watsoncab.trafficmanager.net^
 ||wayfinderanalytics.servicebus.windows.net^
 ||weathermapdata.blob.core.windows.net^
 ||weus2watcab01.blob.core.windows.net^
@@ -524,6 +524,8 @@
 ||amcdnmsftuswe.afd.azureedge.net^
 ||amcdnmsftuswe.azureedge.net^
 ||analytics-gvgjgjd0b6bjekfj.z01.azurefd.net^
+||analytics-hqduftc4bvafgxes.z01.azurefd.net^
+||analytics-onrimi-net-chg5cvc2dgfkbubk.a01.azurefd.net^
 ||api1.applicationinsights.io^
 ||api2.applicationinsights.io^
 ||api3.applicationinsights.io^
@@ -561,6 +563,7 @@
 ||copilot-copilot-msft-com.trafficmanager.net^
 ||copilotpromptlibrary-ccm-prod-b5bxarg0bca5hngp.z01.azurefd.net^
 ||dev.applicationinsights.io^
+||devicie-fde-prod-aue-telemetry-azc9fyg7ejhydddm.z01.azurefd.net^
 ||df-prod-analytics.azurewebsites.net^
 ||driver-analytics-web-service.azurewebsites.net*^
 ||edge-management-azure-com.arm-0001.arm-msedge.net^
@@ -580,6 +583,7 @@
 ||eventcollector.azureedge.net^
 ||ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net*^
 ||fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net^
+||fitnexa-analytics-prod-aye3c3bagadthvgx.z01.azurefd.net^
 ||g-msn-com-nsatc.trafficmanager.net^
 ||ideasazurefeedbackprod.powerappsportals.com^
 ||insightsportal-cdn-aimon.applicationinsights.io^
@@ -594,6 +598,8 @@
 ||lgincdnvzeuno.azureedge.net^
 ||masdpanalytics.azureedge.net^
 ||metrics-h9hwc2bvbqbgaueg.a02.azurefd.net^
+||metrics-prod-hdghbzhtavgcb6gu.z01.azurefd.net^
+||metrics.ingest.monitor.azure.us^
 ||microsoftazure.com*^
 ||microsoftazuread-sso.com*^
 ||microsoftazurelogicapps.net^
@@ -611,6 +617,7 @@
 ||ods-diagnostics-czfea5h2ghapdxdc.z01.azurefd.net^
 ||ods-diagnostics-eudb-epb9aghjaug7adcz.z01.azurefd.net^
 ||ods-diagnostics-sdf-eqgzhdgdh2hzc3bf.z01.azurefd.net^
+||ods-logging-eudb-gqgjbmgga8fjhkgp.z01.azurefd.net^
 ||onecs-live.azureedge.net^
 ||owassets.azureedge.net^
 ||pf-loyalty-tracking-events-function-production.azurewebsites.net^
@@ -622,6 +629,7 @@
 ||prod-azurecdn-akamai-iris.ec.azureedge.net^
 ||rai-amp-telemetry-ingestion.azurewebsites.net^
 ||rim-analytics-ws.westeurope.cloudapp.azure.com^
+||sd-telemetry-prd-dwfhgqe7bbc8csbk.z01.azurefd.net^
 ||shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net^
 ||skype-pcs-prod-usea2-fe-b.cloudapp.net^
 ||sparkcdneus2.azureedge.net^
@@ -881,6 +889,7 @@
 ||gxp-tag-prod-cdn-ep-gphhcre2d4dzeggq.z01.azurefd.net^
 ||harleydavidson-tagging-prod.azureedge.net^
 ||isracard-qp-logs-dzefafg0dncpb3bm.z01.azurefd.net^
+||keydelivery.mediaservices.windows.net^
 ||lexus-tagging-prod.azureedge.net^
 ||lgincdnmsftuswe2.azureedge.net^
 ||loader-cdn.azureedge.net^
@@ -911,6 +920,7 @@
 ||sd-tagging.azurefd.net^
 ||sdtagging.azureedge.net^
 ||sr-cdn.azureedge.net^
+||streaming.mediaservices.windows.net*^
 ||subaru-tagging-prod.azureedge.net^
 ||swymv3premium-01.azureedge.net^
 ||swymv3pro-01.azureedge.net^
@@ -1190,6 +1200,7 @@
 ! External services
 @@||steamcloud*.blob.core.windows.net^
 @@||steamugc*.blob.core.windows.net^
+@@||inkscape-windows.github.io^
 steamcloud*.blob.core.windows.net
 steamcloud*.cdn.akamai.steamstatic.com
 @@||steamcloudlrsuswest.blob.core.windows.net^
@@ -1973,7 +1984,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||hennesseyllchabina677.blob.core.windows.net*^
 ||hotelembuguacu.blob.core.windows.net^
 ||inicianexowebus.z5.web.core.windows.net^
-||inkscape-windows.github.io^
 ||khanmarine.blob.core.windows.net^
 ||klportmainjokecaseport.z14.web.core.windows.net^
 ||konimpex.blob.core.windows.net^

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/domains_nomicrosoft.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 05 November 2026 01:09:23 UTC
-# Version: 2.17.1
+# Last modified: 17 November 2026 20:58:11 UTC
+# Version: 2.18.0
 # Syntax: domains (including possible subdomains)
-# Number of entries: 45386
+# Number of entries: 45439
 #
 # # Windows Update
 000001-1y.l.windowsupdate.com
@@ -4046,6 +4046,7 @@ swda02-mscdn.manage.microsoft.com
 swdb01-mscdn.manage.microsoft.com
 swdb02-mscdn.manage.microsoft.com
 swdc01-mscdn.manage.microsoft.com
+swdc02-mscdn.manage.microsoft.com
 swdd01-mscdn.manage.microsoft.com
 swdd02-mscdn.manage.microsoft.com
 swdin01-mscdn.manage.microsoft.com
@@ -4828,6 +4829,7 @@ brazil.smartscreen-prod.microsoft.com
 crl.microsoft.com
 definitionupdates.microsoft.com
 definitionupdates.microsoft.com.edgekey.net
+endpoint.security.microsoft.com
 europe.smartscreen-prod.microsoft.com
 mscrl.microsoft.com
 ocs.microsoft.com
@@ -10468,6 +10470,7 @@ modpim.com
 ocsp.digicert.com
 sdx.microsoft.com
 software-static.download.prss.microsoft.com
+#inkscape-windows.github.io
 #steamcloudlrsuswest.blob.core.windows.net
 #steamcloudsaopaulo.blob.core.windows.net
 #steamcloudsweden.blob.core.windows.net
@@ -10525,6 +10528,7 @@ candycrush.king.com
 candycrushsoda.king.com
 ccs.play.king.com
 ccss.play.king.com
+cdn.ams.king.com
 king.com
 servicelayer.king.com
 snippetdata.api.swiftkey.com
@@ -13725,6 +13729,7 @@ lvaindices3.sharepoint.com
 lvmgt0-my.sharepoint.com
 lynnpublicschools-my.sharepoint.com
 m365.cloud.microsoft
+m365copilotapp.svc.cloud.microsoft
 m365lti-ci.edu.cloud.microsoft
 m365lti.edu.cloud.microsoft
 m365w.cloud.microsoft
@@ -17971,6 +17976,7 @@ watson111.watson.microsoft.com
 watson112.watson.microsoft.com
 watson115.watson.microsoft.com
 watsonc.events.data.microsoft.com
+watsoncab.trafficmanager.net
 wayfinderanalytics.servicebus.windows.net
 weathermapdata.blob.core.windows.net
 web.vortex-extended.data.microsoft.com
@@ -18208,6 +18214,7 @@ zmetrics.msn.com
 0213a26bb8cf4da8b6ef95675f8dd67bw.fp.measure.office.com
 021e0e44a7564cde9d9526811e49528b.fp.measure.office.com
 0233a6b6ffdd6dd56fd2d286a2b184c5.fp.measure.office.com
+02352075382746c7ae331db7765b1ea3.fp.measure.office.com
 023862533eb4485cb7e43ff987e8cba6.fp.measure.office.com
 023d3448829345fab14977dae50ec738.fp.measure.office.com
 0247249a2d484d3caa88a3e0d8423620.fp.measure.office.com
@@ -18634,6 +18641,7 @@ zmetrics.msn.com
 1ee41a3ffd594aaeadc81bbd280586e5.fp.measure.office.com
 1eef4b29353443b9bc6e0c65f64b9b35.fp.measure.office.com
 1ef0ccc1ba4040fb89b021b83886e0a0s.fp.measure.office.com
+1ef2a80d47cf4f1f818421516fe596a9.fp.measure.office.com
 1f17ef4a3a474b3abbb452c9d9ae9aeb.fp.measure.office.com
 1f20e9cf065446d9b63674de4d3003f8.fp.measure.office.com
 1f603adae1814e6a837d7f3b2adfe0e9.fp.measure.office.com
@@ -18726,6 +18734,7 @@ zmetrics.msn.com
 24fbf8ba6d1140459ab3051f62105bffs.fp.measure.office.com
 24fcb0c4d3d74575a0112d5ac55d47a4g.fp.measure.office.com
 25352c3fb514e9f5a4094a4251a2ea05.fp.measure.office.com
+25374810afc44640848969b822f0e2a6.fp.measure.office.com
 254e65dad0874c1a99cf4382e09e220a.fp.measure.office.com
 25766311658146f6a959e56b9c3de7a2.fp.measure.office.com
 25834e62ed5f4c31b1ba73b9262beeac.fp.measure.office.com
@@ -18864,6 +18873,7 @@ zmetrics.msn.com
 2f8b3881e2e8487c9358bbe05356fba2.fp.measure.office.com
 2f9a9d75f395421380147836c0953b90e.fp.measure.office.com
 2fab7ef1b918498186e8472f5e97bd22e.fp.measure.office.com
+2fb1711ee9da4a91a580510c8822601e.fp.measure.office.com
 2fb85fe848714ab7a74901fa152e03d9.fp.measure.office.com
 2fc7674a08604be09c7338bdeecfc750k.fp.measure.office.com
 2ff0e41f765e40de884e77e3d6cb7adb.fp.measure.office.com
@@ -18939,6 +18949,7 @@ zmetrics.msn.com
 34a4448d9da5436b8b7eb57644b7f86a.fp.measure.office.com
 34a99c2b00644dd4a082e93758e692c6.fp.measure.office.com
 34ad1a664ca89f8fa2e1c8004fad349f9.fp.measure.office.com
+34b306c73509490f8d4256f67433e470.fp.measure.office.com
 34c45c4c98c678a4861a65f4e574f69f.fp.measure.office.com
 34d808ca3beb483b959cf8299816a350.fp.measure.office.com
 34d9672628d9af83ba2408ad2c9999db.fp.measure.office.com
@@ -19252,6 +19263,7 @@ zmetrics.msn.com
 48f0337397c14f36833d79bac3fc8555.fp.measure.office.com
 48fdfc4558bc48d784a6e17d1e91bd7b.fp.measure.office.com
 4913a5c972d842ca87c366b32c9bc1f8s.fp.measure.office.com
+492069f85e2855ea2f71e006ed33a057.fp.measure.office.com
 494c030f756f40df80b4acd43dac99db.fp.measure.office.com
 49752c76ed8cca645cfde37564fdd763.fp.measure.office.com
 497b31d593c54dd1851a374925892fbd.fp.measure.office.com
@@ -19329,6 +19341,7 @@ zmetrics.msn.com
 4ef0bbea3b9c4b58baec372a57655aa49.fp.measure.office.com
 4f26402d7ac845ec8956748d1724b3c9o.fp.measure.office.com
 4f2eb3f67ecd45fb8e9c2976148a98fba.fp.measure.office.com
+4f33f415fef54df2ab8d580c8bde53d1.fp.measure.office.com
 4f4f956bf4714a5a922c9438a7273525.fp.measure.office.com
 4f7491b858884db5854ce7f4d153e83as.fp.measure.office.com
 4f7c9489353241db87a0f5756b5589e4.fp.measure.office.com
@@ -19357,6 +19370,7 @@ zmetrics.msn.com
 51433aa8d1cf406fa9d5415a7b969235.fp.measure.office.com
 515ff24ddcf640c58e6f830d121e77c8.fp.measure.office.com
 516bd8dc10884bcd91568957e2aec0e4.fp.measure.office.com
+5178a30e887246858fddf2d8a503ea38.fp.measure.office.com
 5178df2fb71f45ee8ca17a8ee6289bff.fp.measure.office.com
 51835da14525cd952e3fbe820e093ffd.fp.measure.office.com
 51936b2c643d40c19b2250c3084f6ee2.fp.measure.office.com
@@ -19642,6 +19656,7 @@ zmetrics.msn.com
 654f29f7adf84b1388dd8e31d31526f7.fp.measure.office.com
 6552204ce1b14f85bfc012fc925232e7.fp.measure.office.com
 659dcab9371a4d459488beeae8b870d7.fp.measure.office.com
+65b850b691af44329fdc6cc3e99326a3.fp.measure.office.com
 65e2a3a83ff94c909af7d642635170f5.fp.measure.office.com
 65e851861c6c42a4b454dbcb81bdd9b0.fp.measure.office.com
 65ee594293e94e2ca74b229fad18bc94.fp.measure.office.com
@@ -19745,6 +19760,7 @@ zmetrics.msn.com
 6bcb0c805be0448cacb40349fe674f96.fp.measure.office.com
 6bd6af072b0348549f8f5c2c8eb67482a.fp.measure.office.com
 6be0f62777eb793a4208ed7a2c6e4926.fp.measure.office.com
+6be24a998f13464280c789bb20561717.fp.measure.office.com
 6bf5879cbdd449b997cd32dbc76b55e1.fp.measure.office.com
 6bf781127c1b49f1a718e89e2290be6a.fp.measure.office.com
 6c17afce06b04e66b034c7b67d65ede3e.fp.measure.office.com
@@ -20283,6 +20299,7 @@ zmetrics.msn.com
 8f86e8e6ad2f4bd18cc506c9590f1472.fp.measure.office.com
 8f890dd675edeb4f2f3956b72c479064.fp.measure.office.com
 8f9f24fe913042749c8c0c9a86ee2e08a.fp.measure.office.com
+8fa330950f88457f87d1ce6887538803.fp.measure.office.com
 8fb05d6d64cd4d948a69e63d120e55e6.fp.measure.office.com
 8fb12153891dbb5532aac9983940afee.fp.measure.office.com
 8fc16f9debed4b9ba6c279294df5a179.fp.measure.office.com
@@ -20548,6 +20565,7 @@ a0b5e3135ff948bf8a28450593af9740.fp.measure.office.com
 a0bdc7af7c8b48f0b6e903a31651dcc3.fp.measure.office.com
 a0dd707b653a497b8b51628ff30b6923.fp.measure.office.com
 a0f9059cd3ea421780f2a0922710b8e4.fp.measure.office.com
+a11663f3a9f64e5fb06e2db51a3059d7.fp.measure.office.com
 a11a664be9d14d17a998a974722c22e1.fp.measure.office.com
 a11b9001f2654fd1ae01fbbe49dae6ec.fp.measure.office.com
 a11da7a094344d5c8874a54a852a2fc3y.fp.measure.office.com
@@ -20624,6 +20642,7 @@ a518068760424d57bf005906904a51fd.fp.measure.office.com
 a55f1d00c5a4441fb59ff5e42237073e.fp.measure.office.com
 a567b6f4e80546c6a64d3777a1a0e3bc.fp.measure.office.com
 a56b422f42894181b7de467b015c6d2b.fp.measure.office.com
+a56fa8708072481991b7f7ba3f530540.fp.measure.office.com
 a596344f59a941d2b38b2ad5c61acc4cs.fp.measure.office.com
 a5d27fd02c114f6fa3ff7d223a07cb31.fp.measure.office.com
 a5f6d66e19b24678a669ced92d6f283f.fp.measure.office.com
@@ -20825,6 +20844,7 @@ b.c2r.ts.cdn.office.net
 b03573bdbb13452287e8137ff8ae3dc7.fp.measure.office.com
 b04e5ce22f8740f1a2c23ed8ade3f014.fp.measure.office.com
 b063277d87d1420ab70a9f7286181d4e.fp.measure.office.com
+b08cde64b42d4752b85696c530282a9f.fp.measure.office.com
 b0946506da654587ab2eb644dd6bff08.fp.measure.office.com
 b0d4c0d29b0ec4dfc10a455419a1d06a.fp.measure.office.com
 b0dc9b2a8d4b4279a12911ba00335cfe.fp.measure.office.com
@@ -21124,6 +21144,7 @@ c4a2be2f94444430b7ba184046c47ee6.fp.measure.office.com
 c4ae4c8d0d394dd2bbeea400428e24f8.fp.measure.office.com
 c4bc20211d06eb178d350b2d1c48593b5.fp.measure.office.com
 c4f54ad090794d5c9b3114597361caf3.fp.measure.office.com
+c4f86885a9c24eae8799e16877a33d78.fp.measure.office.com
 c4fd6265da214ab2b5435bd9def1bbd7.fp.measure.office.com
 c5001ade01bf438f8bee8f6563f92458.fp.measure.office.com
 c5112ca500e84e278647fbc1c64a87a3.fp.measure.office.com
@@ -21200,6 +21221,7 @@ c8d7e9f0e73917fa1fd2f1e406b915d8.fp.measure.office.com
 c8dd1d77dbb84b3bbb051f1684878225.fp.measure.office.com
 c902e90b9d9040f8a58f8323542ab3ae.fp.measure.office.com
 c904151564d6412cbd23b7c9397b6e1e9.fp.measure.office.com
+c907632d1214464eb1acdb0f291b94a6.fp.measure.office.com
 c908f349fdd04ac98c828419b59d04ec9.fp.measure.office.com
 c909c60a0af69aba2e5ddb47f3a9e04a.fp.measure.office.com
 c92ef181d0ec480ea16155ebe6aae3e3c.fp.measure.office.com
@@ -21516,6 +21538,7 @@ dc12214adb6f44ed842f78da0e1902883.fp.measure.office.com
 dc1be01b22384253aa172c2218fb2a4f.fp.measure.office.com
 dc22965a3be74bd295a036ce0552698bo.fp.measure.office.com
 dc2b15893c42458aaf4ac03e1e9f3b1e.fp.measure.office.com
+dc2b192009724899a62f04bd58bf94bb.fp.measure.office.com
 dc5d8527a2bd492bb907b630b82ea498.fp.measure.office.com
 dc66f26b5f794e34bc01bef8baf0b99f.fp.measure.office.com
 dc71ac3f9f7b4b5db5854083f87ca455y.fp.measure.office.com
@@ -21524,6 +21547,7 @@ dc88150ed601436aaf7aca83972f6ed5m.fp.measure.office.com
 dc9f0f9b6ad5461d81dbb01ad568774d.fp.measure.office.com
 dcd7634bea1f4bbcb3be8f05b71469f0.fp.measure.office.com
 dcf275cf3031464aa8056df9b54ed1bbo.fp.measure.office.com
+dcf3946062b3ba99e6da145a869616ed.fp.measure.office.com
 dcfbd376e9d04ef9bd4f492206ccc5ff.fp.measure.office.com
 dd-domaincontrol-devel78bd7c18f924c9cb9c8a890acbd1001e-clienti.fp.measure.office.com
 dd0df46b7f4d47e084e3970876110a63.fp.measure.office.com
@@ -21806,6 +21830,7 @@ ed425a959787f2e562061b2eaa5c789e.fp.measure.office.com
 ed4e9aeb76ff256fca249ed97d964ec1.fp.measure.office.com
 ed5f1665d5e4791d972635997d85ddb8.fp.measure.office.com
 ed86ecdcf18547f5b61e1680e4b45053.fp.measure.office.com
+ed91bd8f7cea44eba47d4af4c60666f9.fp.measure.office.com
 edb49658153f409eab184c501ae1d1a6.fp.measure.office.com
 edd6af5b204848f0a8a9a48885498b48.fp.measure.office.com
 ede2a737cf68467db0601a14f7911528m.fp.measure.office.com
@@ -21940,6 +21965,7 @@ f5f55aaab1914428bd7881e6c04e27be.fp.measure.office.com
 f5fe1dbac7dd4db3beeeb88190045644e.fp.measure.office.com
 f5fe2842a4694883a70a2b5e3786f428.fp.measure.office.com
 f62e337807ae4587aba182e4049542f0s.fp.measure.office.com
+f68115915d3245fda707c1b31fa102f0.fp.measure.office.com
 f68c6db667e6468d8872453db9e5b1d1.fp.measure.office.com
 f6a929c8b2a048c3b8391684b38c7611.fp.measure.office.com
 f6a9f81cd2b5e0af322e0dd7dc73b6a6.fp.measure.office.com
@@ -22051,6 +22077,7 @@ fbdcb2341a8f4470a48219d704d762bc9.fp.measure.office.com
 fbfb32f8871c4c2dbc1e9fd2e82f2027.fp.measure.office.com
 fc0498b47934477d83a94e4a685ab4d7.fp.measure.office.com
 fc2c7ce1e2514b3787433b488420bf83.fp.measure.office.com
+fc3be4ba8eeb4351a73319ce28a9ee07.fp.measure.office.com
 fc4b5c399cbc989b6b29983d834d86d1.fp.measure.office.com
 fc4f95a8156d4f1e8d6e174eda10208c.fp.measure.office.com
 fc53f7abe6bfaaaff37f98c4298f7030.fp.measure.office.com
@@ -22355,6 +22382,8 @@ aimon.applicationinsights.io
 amcdnmsftuswe.afd.azureedge.net
 amcdnmsftuswe.azureedge.net
 analytics-gvgjgjd0b6bjekfj.z01.azurefd.net
+analytics-hqduftc4bvafgxes.z01.azurefd.net
+analytics-onrimi-net-chg5cvc2dgfkbubk.a01.azurefd.net
 api.applicationinsights.azure.com
 api1.applicationinsights.io
 api2.applicationinsights.io
@@ -22422,6 +22451,7 @@ copilotpromptlibrary-ccm-prod-b5bxarg0bca5hngp.z01.azurefd.net
 dc.applicationinsights.azure.cn
 dc.applicationinsights.azure.us
 dev.applicationinsights.io
+devicie-fde-prod-aue-telemetry-azc9fyg7ejhydddm.z01.azurefd.net
 df-prod-analytics.azurewebsites.net
 driver-analytics-web-service.azurewebsites.net
 eastasia-0.in.applicationinsights.azure.com
@@ -22458,6 +22488,7 @@ eus1-api-skype.cloudapp.net
 eventcollector.azureedge.net
 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net
+fitnexa-analytics-prod-aye3c3bagadthvgx.z01.azurefd.net
 francecentral-0.in.applicationinsights.azure.com
 francecentral-1.in.applicationinsights.azure.com
 g-msn-com-nsatc.trafficmanager.net
@@ -22501,7 +22532,9 @@ livediagnostics.privatelink.monitor.azure.com
 manage.windowsazure.com
 masdpanalytics.azureedge.net
 metrics-h9hwc2bvbqbgaueg.a02.azurefd.net
+metrics-prod-hdghbzhtavgcb6gu.z01.azurefd.net
 metrics.ingest.monitor.azure.com
+metrics.ingest.monitor.azure.us
 microsoftazure.com
 microsoftazuread-sso.com
 microsoftazurelogicapps.net
@@ -22529,6 +22562,7 @@ odinvzc.ec.azureedge.net
 ods-diagnostics-czfea5h2ghapdxdc.z01.azurefd.net
 ods-diagnostics-eudb-epb9aghjaug7adcz.z01.azurefd.net
 ods-diagnostics-sdf-eqgzhdgdh2hzc3bf.z01.azurefd.net
+ods-logging-eudb-gqgjbmgga8fjhkgp.z01.azurefd.net
 onecs-live.azureedge.net
 owassets.azureedge.net
 pf-loyalty-tracking-events-function-production.azurewebsites.net
@@ -22544,6 +22578,7 @@ qatarcentral-0.in.applicationinsights.azure.com
 rai-amp-telemetry-ingestion.azurewebsites.net
 rim-analytics-ws.westeurope.cloudapp.azure.com
 rt.services.visualstudio.com
+sd-telemetry-prd-dwfhgqe7bbc8csbk.z01.azurefd.net
 secure.azure.bingads.microsoft.com
 shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net
 skype-pcs-prod-usea2-fe-b.cloudapp.net
@@ -24379,6 +24414,7 @@ msnbot-157-55-39-13.search.msn.com
 msnbot-157-55-39-132.search.msn.com
 msnbot-157-55-39-52.search.msn.com
 msnbot-157-55-39-81.search.msn.com
+msnbot-157-55-39-9.search.msn.com
 msnbot-157-55-50-5.search.msn.com
 msnbot-157-55-7-170.search.msn.com
 msnbot-157-55-7-187.search.msn.com
@@ -24496,6 +24532,7 @@ msnbot-40-77-165-231.search.msn.com
 msnbot-40-77-165-244.search.msn.com
 msnbot-40-77-166-112.search.msn.com
 msnbot-40-77-167-174.search.msn.com
+msnbot-40-77-167-4.search.msn.com
 msnbot-40-77-167-57.search.msn.com
 msnbot-40-77-167-58.search.msn.com
 msnbot-40-77-167-79.search.msn.com
@@ -31983,6 +32020,7 @@ zyp-ssl.dnet.xboxlive.com
 02.xmpp.nym2.appnexus.com
 03.corpidp.nym2.appnexus.com
 03.corpwiki.nym2.appnexus.com
+03.docs-redirect.nym2.appnexus.com
 03.obs-worker.lax1.appnexus.com
 03.zimbra.nym2.appnexus.com
 04-dc-lax1.ad.corp.appnexus.com
@@ -32308,6 +32346,7 @@ dcdn.adnxs.com
 de-cix.nyc.appnexus.com
 default-apac.ssp.adnxs.net
 default-emea.ssp.adnxs.net
+default-useast.ssp.adnxs.net
 developers.ads.microsoft.com
 displayads.microsoft.com
 dm3.track.mp.microsoft.com
@@ -32399,6 +32438,8 @@ know.appnexus.com
 lax1-ib.adnxs-simple.com
 lax1-ib.adnxs.com
 lax1-mobile.adnxs.com
+lax1-test0-ib.adnxs-simple.com
+lax1-test0-ib.adnxs.com
 lax1.adnxs.com
 lax1.adnxs.net
 lbip1170.nym2.appnexus.com
@@ -32623,6 +32664,7 @@ secure-lax.adnxs.com
 secure-sin.adnxs.com
 secure.adnxs.com
 secure.api.bingads.microsoft.com
+secure.si.bingads.microsoft.com
 share.advertising.microsoft.com
 sharedservices.api.bingads.microsoft.com
 sharethrough.adnxs.com
@@ -32773,6 +32815,8 @@ zne2-ib.adnxs-simple.com
 zne2-ib.adnxs.com
 zne2-test0-ib.adnxs-simple.com
 zne2-test0-ib.adnxs.com
+zuw1-test0-ib.adnxs-simple.com
+zuw1-test0-ib.adnxs.com
 # # Azure services
 083r2gyovl.activedirectory-edog.windowsazure.com
 0eu0dtybf9.activedirectory-edog.windowsazure.com
@@ -33276,7 +33320,10 @@ cusc.mface.windowsazure.com
 cuseuap.discoveryrp.windowsazure.com
 cuso.hub.privatelink.prod.migration.windowsazure.com
 d8emqnkbfa.activedirectory-edog.windowsazure.com
+database.fabric.microsoft.com
 dataencrypta.adnotifications-ppe.windowsazure.com
+datamart.fabric.microsoft.com
+datawarehouse.fabric.microsoft.com
 dcaasedogu.aadc.activedirectory-ppe.windowsazure.com
 dce-client-solution-log-analytics-hm5h.westeurope-1.ingest.monitor.azure.com
 dce-intune-laws-prd-szj3.germanywestcentral-1.ingest.monitor.azure.com
@@ -33365,6 +33412,7 @@ eventhub.windows.net
 evla9yyrot.activedirectory-edog.windowsazure.com
 ewkje4rdqe.activedirectory-edog.windowsazure.com
 extendedelivery.action.azurecomm.net
+fabric.microsoft.com
 fd7d05a075ea4dda9392be3c42fb1527.svc.dynamics.com
 feedsdevazure.microsoft.com
 feedsppeazure.microsoft.com
@@ -33512,6 +33560,7 @@ js0.cdn.monitor.azure.com
 js2.cdn.monitor.azure.com
 k6u2vvakel.activedirectory-edog.windowsazure.com
 k8xihhpnvn.activedirectory-edog.windowsazure.com
+keydelivery.mediaservices.windows.net
 kfciajfknb.activedirectory-edog.windowsazure.com
 kopjsjxtdi.activedirectory-edog.windowsazure.com
 kos.asm.privatelink.prod.migration.windowsazure.com
@@ -33626,7 +33675,9 @@ origin.azureppe.microsoft.com
 origin.azureprod.microsoft.com
 origin.azurestg.microsoft.com
 orion-int.azureencryption.location.live.net
+osi.office.net
 p3dq0p5spjw.activedirectory-edog.windowsazure.com
+pbidedicated.microsoft.com
 pbides.powerbi.com
 pbilhe.powerbi.com
 pdfsuperhero.azureedge.net
@@ -33868,6 +33919,7 @@ srsmanagementcert.hypervrecoverymanager.windowsazure.com
 ss-encryption-prod.windowsazure.com
 star.azuregaming.xboxlive.com
 star.prod.azuregaming.xboxlive.com
+streaming.mediaservices.windows.net
 subaru-tagging-prod.azureedge.net
 subscriptionmanager.cn.int.azuregaming.xboxlive.com
 support.powerbi.com
@@ -34834,6 +34886,7 @@ amupdatedl7.microsoft.com
 amupdatedl8.microsoft.com
 amura.visualstudio.com
 amy.visualstudio.com
+analytic-signal.gallerycdn.vsassets.io
 anand.visualstudio.com
 andp8p.visualstudio.com
 andre2410a.live.com
@@ -39363,6 +39416,7 @@ marveldataengsigningcertkeys.office.com
 mashiachthereal1.spaces.msn.com
 master.ic3-media-mcr-rtmpin.eastus-test.cosmic-int.office.net
 masteraad.approvalservicebf.windows.com
+matomo-dansklaegemiddelinformation.msappproxy.net
 matrixcloudtest1.office.net
 max.groups.msn.com
 max.storage.msn.com
@@ -44670,6 +44724,7 @@ www.hospitality.live.com
 www.htbudine.spaces.live.com
 www.huh-uh.spaces.live.com
 www.ialiyev.live.com
+www.ic-live.com
 www.idc1maclab.kaptaanbastion.microsoft.com
 www.ieb-mr-ppe-eastus.cms.microsoft.com
 www.ignaziopalermo.spaces.live.com
@@ -45311,7 +45366,6 @@ gtconligt.z38.web.core.windows.net
 hennesseyllchabina677.blob.core.windows.net
 hotelembuguacu.blob.core.windows.net
 inicianexowebus.z5.web.core.windows.net
-inkscape-windows.github.io
 khanmarine.blob.core.windows.net
 klportmainjokecaseport.z14.web.core.windows.net
 konimpex.blob.core.windows.net

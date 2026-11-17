@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 05 November 2026 01:09:20 UTC
-! Version: 2.17.1
+! Last modified: 17 November 2026 20:58:09 UTC
+! Version: 2.18.0
 ! Syntax: Adblock
-! Number of entries: 13295
+! Number of entries: 13311
 !
 ! ! Custom Allow & Blocklist: windows update, defender, security, winget and vscode ! !
 ! Windows Update related Urls
@@ -4047,6 +4047,7 @@
 @@||swdb01-mscdn.manage.microsoft.com^
 @@||swdb02-mscdn.manage.microsoft.com^
 @@||swdc01-mscdn.manage.microsoft.com^
+@@||swdc02-mscdn.manage.microsoft.com^
 @@||swdd01-mscdn.manage.microsoft.com^
 @@||swdd02-mscdn.manage.microsoft.com^
 @@||swdin01-mscdn.manage.microsoft.com^
@@ -4829,6 +4830,7 @@
 @@||crl.microsoft.com^
 @@||definitionupdates.microsoft.com^
 @@||definitionupdates.microsoft.com.edgekey.net^
+@@||endpoint.security.microsoft.com^
 @@||europe.smartscreen-prod.microsoft.com^
 @@||mscrl.microsoft.com^
 @@||ocs.microsoft.com^
@@ -10470,6 +10472,7 @@
 ! External services
 @@||steamcloud*.blob.core.windows.net^
 @@||steamugc*.blob.core.windows.net^
+@@||inkscape-windows.github.io^
 steamcloud*.blob.core.windows.net
 steamcloud*.cdn.akamai.steamstatic.com
 @@||steamcloudlrsuswest.blob.core.windows.net^
@@ -10529,6 +10532,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 @@||candycrushsoda.king.com^
 @@||ccs.play.king.com^
 @@||ccss.play.king.com^
+@@||cdn.ams.king.com^
 @@||king.com^
 @@||servicelayer.king.com^
 @@||snippetdata.api.swiftkey.com^
@@ -10539,7 +10543,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||avedgep.visualstudio.com^$important
 ||cn.edge.linkedin.com^$important
 ||cn1.edge.linkedin.com^$important
-||cr.m365copilotapp.svc.cloud.microsoft^$important
 ||edge-analyzer.corp.linkedin.com^$important
 ||edge-analyzer.stg.linkedin.com^$important
 ||edge-rules-service-staging.corp.linkedin.com^$important
@@ -10593,6 +10596,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||fe-by01p-msa.trafficmanager.net^
 ||killbittrafficmanager.trafficmanager.net^
 ||login.msa-int.msidentity.com^
+||m365copilotapp.svc.cloud.microsoft^$important
 ||msa.trafficmanager.net^
 ||msauth.net^
 ||msftauth.net^
@@ -10949,7 +10953,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||uk.vortex-win.data.microsoft.com^$important
 ||umwatson.trafficmanager.net^
 ||umwatsonrouting.trafficmanager.net^
-||universalstore.streaming.mediaservices.windows.net^
 ||us.vortex-win.data.microsoft.com^$important
 ||usseu1northprod.blob.core.windows.net^
 ||ussus3westprod.blob.core.windows.net^
@@ -10957,6 +10960,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||v20.vortex-win.data.microsoft.com^$important
 ||v21.vortex-win.data.microsoft.com^$important
 ||videomd.blob.core.windows.net^
+||watsoncab.trafficmanager.net^
 ||wayfinderanalytics.servicebus.windows.net^
 ||weathermapdata.blob.core.windows.net^
 ||web.vortex-win.data.microsoft.com^$important
@@ -11025,6 +11029,8 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||amcdnmsftuswe.afd.azureedge.net^
 ||amcdnmsftuswe.azureedge.net^
 ||analytics-gvgjgjd0b6bjekfj.z01.azurefd.net^
+||analytics-hqduftc4bvafgxes.z01.azurefd.net^
+||analytics-onrimi-net-chg5cvc2dgfkbubk.a01.azurefd.net^
 ||api1.applicationinsights.io^
 ||api2.applicationinsights.io^
 ||api3.applicationinsights.io^
@@ -11062,6 +11068,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||copilot-copilot-msft-com.trafficmanager.net^
 ||copilotpromptlibrary-ccm-prod-b5bxarg0bca5hngp.z01.azurefd.net^
 ||dev.applicationinsights.io^
+||devicie-fde-prod-aue-telemetry-azc9fyg7ejhydddm.z01.azurefd.net^
 ||df-prod-analytics.azurewebsites.net^
 ||driver-analytics-web-service.azurewebsites.net^
 ||edge.skype.com.trafficmanager.net^
@@ -11074,6 +11081,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||eventcollector.azureedge.net^
 ||ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net^
 ||fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net^
+||fitnexa-analytics-prod-aye3c3bagadthvgx.z01.azurefd.net^
 ||g-msn-com-nsatc.trafficmanager.net^
 ||ideasazurefeedbackprod.powerappsportals.com^
 ||insightsportal-cdn-aimon.applicationinsights.io^
@@ -11088,6 +11096,8 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||lgincdnvzeuno.azureedge.net^
 ||masdpanalytics.azureedge.net^
 ||metrics-h9hwc2bvbqbgaueg.a02.azurefd.net^
+||metrics-prod-hdghbzhtavgcb6gu.z01.azurefd.net^
+||metrics.ingest.monitor.azure.us^
 ||microsoftazurelogicapps.net^
 ||microsoftazurelogicapps.us^
 ||msadsscale.azureedge.net^
@@ -11102,6 +11112,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||ods-diagnostics-czfea5h2ghapdxdc.z01.azurefd.net^
 ||ods-diagnostics-eudb-epb9aghjaug7adcz.z01.azurefd.net^
 ||ods-diagnostics-sdf-eqgzhdgdh2hzc3bf.z01.azurefd.net^
+||ods-logging-eudb-gqgjbmgga8fjhkgp.z01.azurefd.net^
 ||onecs-live.azureedge.net^
 ||owassets.azureedge.net^
 ||pf-loyalty-tracking-events-function-production.azurewebsites.net^
@@ -11111,6 +11122,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||rai-amp-telemetry-ingestion.azurewebsites.net^
 ||rim-analytics-ws.westeurope.cloudapp.azure.com^
 ||rt.services.visualstudio.com^$important
+||sd-telemetry-prd-dwfhgqe7bbc8csbk.z01.azurefd.net^
 ||shcprd-st-tracking-mt-api-ep-deedbsbpg7e7c4dn.z01.azurefd.net^
 ||skype-pcs-prod-usea2-fe-b.cloudapp.net^
 ||sparkcdneus2.azureedge.net^
@@ -11377,6 +11389,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||gxp-tag-prod-cdn-ep-gphhcre2d4dzeggq.z01.azurefd.net^
 ||harleydavidson-tagging-prod.azureedge.net^
 ||isracard-qp-logs-dzefafg0dncpb3bm.z01.azurefd.net^
+||keydelivery.mediaservices.windows.net^
 ||lexus-tagging-prod.azureedge.net^
 ||lgincdnmsftuswe2.azureedge.net^
 ||linuxazuresecpack.developercommunity.visualstudio.com^$important
@@ -11415,6 +11428,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||sd-tagging.azurefd.net^
 ||sdtagging.azureedge.net^
 ||sr-cdn.azureedge.net^
+||streaming.mediaservices.windows.net^
 ||subaru-tagging-prod.azureedge.net^
 ||swymv3premium-01.azureedge.net^
 ||swymv3pro-01.azureedge.net^
@@ -11621,6 +11635,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||eurffc-word-telemetry.wac.trafficmanager.net^
 ||events-stg.corp.linkedin.com^$important
 ||events.corp.linkedin.com^$important
+||events.endpoint.security.microsoft.com^$important
 ||events.linkedin.com^$important
 ||eventservice.trafficmanager.net^
 ||excel-telemetry.wac.trafficmanager.net^
@@ -11808,6 +11823,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||ampvstewnw.mshome.net^
 ||amura.visualstudio.com^$important
 ||amy.visualstudio.com^$important
+||analytic-signal.gallerycdn.vsassets.io^$important
 ||anand.visualstudio.com^$important
 ||andp8p.visualstudio.com^$important
 ||andreip5.visualstudio.com^$important
@@ -12336,6 +12352,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||ecs.office.trafficmanager.net^
 ||ecuador.visualstudio.com^$important
 ||eddie5.visualstudio.com^$important
+||edr-eusy.us.endpoint.security.microsoft.com^$important
 ||eds.visualstudio.com^$important
 ||edu1.visualstudio.com^$important
 ||educause-co.pkgs.visualstudio.com^$important
@@ -13254,7 +13271,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||hennesseyllchabina677.blob.core.windows.net^
 ||hotelembuguacu.blob.core.windows.net^
 ||inicianexowebus.z5.web.core.windows.net^
-||inkscape-windows.github.io^
 ||khanmarine.blob.core.windows.net^
 ||klportmainjokecaseport.z14.web.core.windows.net^
 ||konimpex.blob.core.windows.net^
