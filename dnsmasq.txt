@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 17 November 2026 23:10:08 UTC
-# Version: 2.19.0
+# Last modified: 17 November 2026 23:36:51 UTC
+# Version: 2.20.0
 # Syntax: DNSMasq
 # Number of entries: 13634
 #
@@ -11541,7 +11541,6 @@ local=/skypeforbusiness.com/
 local=/ui.skype.akadns.net/
 # # Xbox
 local=/account.xbox.com.akadns.net/
-local=/int.titlestorage.xboxlive.com/
 local=/live.xbox.com.akadns.net/
 local=/microsoftxbox.com/
 local=/notice.xbox.com.nsatc.net/
@@ -12731,6 +12730,7 @@ local=/insideruser.trafficmanager.net/
 local=/insightsportal-prod2-asiae-cdn.aisvc.visualstudio.com/
 local=/insightsportal-prod2-cdn.aisvc.visualstudio.com/
 local=/instance.visualstudio.com/
+local=/int.titlestorage.xboxlive.com/
 local=/ipvhsessjsmqdxw.mshome.net/
 local=/irreverselookuptm.trafficmanager.net/
 local=/isatis-health.visualstudio.com/

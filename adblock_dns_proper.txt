@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/adblock_dns_proper.txt
 ! License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 17 November 2026 23:10:06 UTC
-! Version: 2.19.0
+! Last modified: 17 November 2026 23:36:49 UTC
+! Version: 2.20.0
 ! Syntax: Adblock
 ! Number of entries: 13302
 !
@@ -11130,7 +11130,6 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||ui.skype.akadns.net^
 ! Xbox
 ||account.xbox.com.akadns.net^
-||int.titlestorage.xboxlive.com^$important
 ||live.xbox.com.akadns.net^
 ||notice.xbox.com.nsatc.net^
 ||xbox.com^
@@ -12570,6 +12569,7 @@ steamcloud*.cdn.akamai.steamstatic.com
 ||insightsportal-prod2-asiae-cdn.aisvc.visualstudio.com^$important
 ||insightsportal-prod2-cdn.aisvc.visualstudio.com^$important
 ||instance.visualstudio.com^$important
+||int.titlestorage.xboxlive.com^$important
 ||ipvhsessjsmqdxw.mshome.net^
 ||irreverselookuptm.trafficmanager.net^
 ||isatis-health.visualstudio.com^$important
