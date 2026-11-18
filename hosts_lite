@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts_lite
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 17 November 2026 23:36:51 UTC
-# Version: 2.20.0
+# Last modified: 18 November 2026 11:59:43 UTC
+# Version: 2.21.0
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 15661
+# Number of entries: 15693
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 000001-1y.l.windowsupdate.com
@@ -22622,6 +22622,7 @@
 0.0.0.0 cosmic.msit.events.teams.cloud.microsoft
 0.0.0.0 cs01-sqlmi-chub-sqm-t54-uks.011bd613e818.database.windows.net
 0.0.0.0 cssprofile.partners.extranet.microsoft.com
+0.0.0.0 customersfeedback.microsoft.com
 0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
 0.0.0.0 d.clarity.ms
 0.0.0.0 d3038db538b2016fbce0eaf83e47dd71.measure.microsoft.com
@@ -22698,6 +22699,7 @@
 0.0.0.0 eat1-monitor10.corp.linkedin.com
 0.0.0.0 eat1-monitor15.corp.linkedin.com
 0.0.0.0 edge.analytics.microsoft.com
+0.0.0.0 eduinsights.microsoft.com
 0.0.0.0 ela4-monitor30.prod.linkedin.com
 0.0.0.0 ela4-monitor31.prod.linkedin.com
 0.0.0.0 email.events.microsoft.com
@@ -22752,6 +22754,10 @@
 0.0.0.0 f.clarity.ms
 0.0.0.0 f5bbbc845476e363a1ee9ba2f2e33124.measure.microsoft.com
 0.0.0.0 federatedprofile.skype.com
+0.0.0.0 feedback.microsoft.com
+0.0.0.0 feedback.microsoft.org
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 feedback.windows.com
 0.0.0.0 flagship-infra-metrics.corp.linkedin.com
 0.0.0.0 flightsmonitoring.sharepointonline.com
 0.0.0.0 fraudeventsvc-ppe.trafficmanager.net
@@ -22793,6 +22799,7 @@
 0.0.0.0 ingestion.groups-admin.data.microsoft.com
 0.0.0.0 ingestionapiv3.ingestion.marketplace.microsoft.com
 0.0.0.0 ingestiondeveloperapi-ints.dse.mp.microsoft.com
+0.0.0.0 insights.microsoft.com
 0.0.0.0 int.events.teams.microsoft.com
 0.0.0.0 int.ingest.edu.cloud.microsoft
 0.0.0.0 int.profileapi.services.microsoft.com
@@ -22816,6 +22823,12 @@
 0.0.0.0 lva1-lx.perf.linkedin.com
 0.0.0.0 lva1-pometrics-fe-prod01.corp.linkedin.com
 0.0.0.0 m.clarity.ms
+0.0.0.0 m.customersfeedback.microsoft.com
+0.0.0.0 m.microsoftfeedback.microsoft.com
+0.0.0.0 m132.customersfeedback.microsoft.com
+0.0.0.0 m132.microsoftfeedback.microsoft.com
+0.0.0.0 m135.customersfeedback.microsoft.com
+0.0.0.0 m135.microsoftfeedback.microsoft.com
 0.0.0.0 marialuisa19-04-90.spaces.live.com
 0.0.0.0 marianw.msappproxy.net
 0.0.0.0 mars-objectstore-sparkingestion-nam.dlis.bing.microsoft.com
@@ -22826,6 +22839,7 @@
 0.0.0.0 metrics-quota.prod.linkedin.com
 0.0.0.0 metrics.dc.ad.msft.net
 0.0.0.0 metrics.skype.com
+0.0.0.0 microsoftfeedback.microsoft.com
 0.0.0.0 microsoftmetrics.com
 0.0.0.0 mobile.events-sandbox.data.microsoft.com
 0.0.0.0 mobile.events.data.microsoft.com
@@ -22977,6 +22991,12 @@
 0.0.0.0 rdm-trafficmanager-ticketscenter-metrics.trafficmanager.net
 0.0.0.0 relying-party-encryption-vortex-win.data.microsoft.com
 0.0.0.0 report.clarity.ms
+0.0.0.0 res.customersfeedback.microsoft.com
+0.0.0.0 res.microsoftfeedback.microsoft.com
+0.0.0.0 res132.customersfeedback.microsoft.com
+0.0.0.0 res132.microsoftfeedback.microsoft.com
+0.0.0.0 res135.customersfeedback.microsoft.com
+0.0.0.0 res135.microsoftfeedback.microsoft.com
 0.0.0.0 ris.prod.api.personalization.ideas.microsoft.com
 0.0.0.0 rps-cek-collector-sbx.events-sandbox.data.microsoft.com
 0.0.0.0 rps-cek-collector.events.data.microsoft.com
@@ -23054,7 +23074,16 @@
 0.0.0.0 stg.a365analytics.cloud.microsoft
 0.0.0.0 sti.profileconnector.outlook.com
 0.0.0.0 supportdiagnostics.partners.extranet.microsoft.com
+0.0.0.0 survey.microsoft.com
+0.0.0.0 survey.support.services.microsoft.com
 0.0.0.0 t.clarity.ms
+0.0.0.0 t.customersfeedback.microsoft.com
+0.0.0.0 t.microsoftfeedback.microsoft.com
+0.0.0.0 t132.customersfeedback.microsoft.com
+0.0.0.0 t132.microsoftfeedback.microsoft.com
+0.0.0.0 t135.customersfeedback.microsoft.com
+0.0.0.0 t135.microsoftfeedback.microsoft.com
+0.0.0.0 targetingservice.windowsnps.insights.office.com
 0.0.0.0 tb.events.data.microsoft.com
 0.0.0.0 tb.events.data.trafficmanager.net
 0.0.0.0 teams-events-data.trafficmanager.net
@@ -23124,6 +23153,7 @@
 0.0.0.0 us.events.data.trafficmanager.net
 0.0.0.0 us4-v20.events.data.microsoft.com
 0.0.0.0 us5-v20.events.data.microsoft.com
+0.0.0.0 userfeedback.microsoft.com
 0.0.0.0 userprofile.partners.extranet.microsoft.com
 0.0.0.0 userprofilestaging.partners.extranet.microsoft.com
 0.0.0.0 v.clarity.ms
@@ -23156,6 +23186,7 @@
 0.0.0.0 win-global-asimov-leafs-events-data.trafficmanager.net
 0.0.0.0 win.data.microsoft.com
 0.0.0.0 windowsanalytics.microsoft.com
+0.0.0.0 windowsfeedback.microsoft.com
 0.0.0.0 word-telemetry.wac.trafficmanager.net
 0.0.0.0 wttwebsiteprodapi-liveevents.trafficmanager.net
 0.0.0.0 wweventstest.one.microsoft.com
@@ -23179,6 +23210,7 @@
 0.0.0.0 www.engmetricsautodeployable.corp.linkedin.com
 0.0.0.0 www.events-ppe.gtm.xboxlive.com
 0.0.0.0 www.events.corp.linkedin.com
+0.0.0.0 www.feedback.windows.com
 0.0.0.0 www.ingest-kutridentppeeustrihst.z0.kusto.fabric.microsoft.com
 0.0.0.0 www.ingest-trd-4dkbtsfahagh2gwcsv.z2.kusto.fabric.microsoft.com
 0.0.0.0 www.ingest-trd-901yw0b6anmrmy4k8f.z8.kusto.fabric.microsoft.com

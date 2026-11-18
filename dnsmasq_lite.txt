@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/dnsmasq_lite.txt
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 17 November 2026 23:36:51 UTC
-# Version: 2.20.0
+# Last modified: 18 November 2026 11:59:42 UTC
+# Version: 2.21.0
 # Syntax: DNSMasq
-# Number of entries: 18678
+# Number of entries: 18691
 #
 # # Custom Allow & Blocklist # #
 server=/000001-1y.l.windowsupdate.com/
@@ -14853,6 +14853,7 @@ local=/collector.microsoft.com/
 local=/collector.trafficmanager.net/
 local=/cs01-sqlmi-chub-sqm-t54-uks.011bd613e818.database.windows.net/
 local=/cssprofile.partners.extranet.microsoft.com/
+local=/customersfeedback.microsoft.com/
 local=/data-canary.corp.linkedin.com/
 local=/data-edge.smartscreen.microsoft.com/
 local=/data-fidelity.stg.linkedin.com/
@@ -14910,6 +14911,7 @@ local=/eat1-monitor03.corp.linkedin.com/
 local=/eat1-monitor04.corp.linkedin.com/
 local=/eat1-monitor10.corp.linkedin.com/
 local=/eat1-monitor15.corp.linkedin.com/
+local=/eduinsights.microsoft.com/
 local=/ela4-monitor30.prod.linkedin.com/
 local=/ela4-monitor31.prod.linkedin.com/
 local=/engmetricsautodeployable.corp.linkedin.com/
@@ -14937,6 +14939,10 @@ local=/eventsbym-my.sharepoint.com/
 local=/eventservice.trafficmanager.net/
 local=/eventsppe.partners.extranet.microsoft.com/
 local=/excel-telemetry.wac.trafficmanager.net/
+local=/feedback.microsoft.com/
+local=/feedback.microsoft.org/
+local=/feedback.search.microsoft.com/
+local=/feedback.windows.com/
 local=/flagship-infra-metrics.corp.linkedin.com/
 local=/flightsmonitoring.sharepointonline.com/
 local=/fraudeventsvc-ppe.trafficmanager.net/
@@ -14960,6 +14966,7 @@ local=/ingest-trd-xwadbszwa50kukc9xe.z5.dev.kusto.fabric.microsoft.com/
 local=/ingest-trd-yvyfg0theea68d84t3.z8.dev.kusto.fabric.microsoft.com/
 local=/ingestionapiv3.ingestion.marketplace.microsoft.com/
 local=/ingestiondeveloperapi-ints.dse.mp.microsoft.com/
+local=/insights.microsoft.com/
 local=/int.events.teams.microsoft.com/
 local=/int.ingest.edu.cloud.microsoft/
 local=/ir-tracking.trafficmanager.net/
@@ -14975,6 +14982,7 @@ local=/measure.trafficmanager.net/
 local=/metrics-explorer.prod.linkedin.com/
 local=/metrics-quota.prod.linkedin.com/
 local=/metrics.dc.ad.msft.net/
+local=/microsoftfeedback.microsoft.com/
 local=/microsoftmetrics.com/
 local=/monitor.core.windows.net/
 local=/monitoring.int.sls.microsoft.com/
@@ -15133,6 +15141,9 @@ local=/stg-supportdiagnostics.partners.extranet.microsoft.com/
 local=/stg.a365analytics.cloud.microsoft/
 local=/sti.profileconnector.outlook.com/
 local=/supportdiagnostics.partners.extranet.microsoft.com/
+local=/survey.microsoft.com/
+local=/survey.support.services.microsoft.com/
+local=/targetingservice.windowsnps.insights.office.com/
 local=/teams-events-data.trafficmanager.net/
 local=/telemetry-appgw-pub-prod-eun.infra.northeurope.production.swiftkey.com/
 local=/telemetry-geo.wac.trafficmanager.net/
@@ -15168,6 +15179,7 @@ local=/transportsubstratebusmonitoringapp-tdf.outlook.com/
 local=/transportsubstratebusmonitoringapp.outlook.com/
 local=/um6.perf.linkedin.com/
 local=/us-mesh-events-data-leafs.trafficmanager.net/
+local=/userfeedback.microsoft.com/
 local=/userprofile.partners.extranet.microsoft.com/
 local=/userprofilestaging.partners.extranet.microsoft.com/
 local=/vortex-bn2.metron.live.com.nsatc.net/
@@ -15177,6 +15189,7 @@ local=/watson9.microsoft.com/
 local=/watsonstage.microsoft.com/
 local=/win-global-asimov-leafs-events-data.trafficmanager.net/
 local=/windowsanalytics.microsoft.com/
+local=/windowsfeedback.microsoft.com/
 local=/word-telemetry.wac.trafficmanager.net/
 local=/wttwebsiteprodapi-liveevents.trafficmanager.net/
 local=/wweventstest.one.microsoft.com/

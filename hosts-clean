@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Microsoft-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Microsoft-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 17 November 2026 23:36:51 UTC
-# Version: 2.20.0
+# Last modified: 18 November 2026 11:59:43 UTC
+# Version: 2.21.0
 # Syntax: hosts (identical cleaner host with a different name without extra comments, if 'hosts' gives an error)
-# Number of entries: 17199
+# Number of entries: 17165
 #
 # # Custom Allow & Blocklist # #
 #0.0.0.0 000001-1y.l.windowsupdate.com
@@ -18502,7 +18502,6 @@
 0.0.0.0 customerexperience.microsoft.com
 0.0.0.0 customermail.microsoft.com
 0.0.0.0 customers.microsoft.com
-0.0.0.0 customersfeedback.microsoft.com
 0.0.0.0 customerss.visualstudio.com
 0.0.0.0 customerstest.microsoft.com
 0.0.0.0 customervoice.microsoft.com
@@ -19150,7 +19149,6 @@
 0.0.0.0 educ.microsoft.com
 0.0.0.0 education.microsoft.com
 0.0.0.0 educause-co.pkgs.visualstudio.com
-0.0.0.0 eduinsights.microsoft.com
 0.0.0.0 eduservicessigningcertkeyi.office.com
 0.0.0.0 edwebuatk.parttest.extranettest.microsoft.com
 0.0.0.0 eea-p02.ic3-mms-core.switzerlandnorth-prod.cosmic.office.net
@@ -19541,10 +19539,6 @@
 0.0.0.0 feed.nuget.org
 0.0.0.0 feedback-hub.traffic.microsoft.com
 0.0.0.0 feedback.microsoft-hohm.com
-0.0.0.0 feedback.microsoft.com
-0.0.0.0 feedback.microsoft.org
-0.0.0.0 feedback.search.microsoft.com
-0.0.0.0 feedback.windows.com
 0.0.0.0 feedbackcopilotpython-lb.nameastus2059418.copilot-feedback-fcpythonservice.eastus2-msit.cosmic.office.net
 0.0.0.0 feedbackhub.microsoft.com
 0.0.0.0 feedbackportal.microsoft.com
@@ -20299,7 +20293,6 @@
 0.0.0.0 insideruser.trafficmanager.net
 0.0.0.0 insight-com.partner.fttoolingapi.microsoft.com
 0.0.0.0 insight.partner.fttoolingapi.microsoft.com
-0.0.0.0 insights.microsoft.com
 0.0.0.0 insightsportal-prod2-asiae-cdn.aisvc.visualstudio.com
 0.0.0.0 insightsportal-prod2-cdn.aisvc.visualstudio.com
 0.0.0.0 inspark-nl.partner.fttoolingapi.microsoft.com
@@ -20672,7 +20665,6 @@
 0.0.0.0 m.customeremail.microsoft.com
 0.0.0.0 m.customerexperience.microsoft.com
 0.0.0.0 m.customermail.microsoft.com
-0.0.0.0 m.customersfeedback.microsoft.com
 0.0.0.0 m.e-mails.microsoft.com
 0.0.0.0 m.email.edu.microsoft.com
 0.0.0.0 m.emailinform.microsoft.com
@@ -20691,7 +20683,6 @@
 0.0.0.0 m.mails.microsoft.com
 0.0.0.0 m.mails2.microsoft.com
 0.0.0.0 m.microsoft.com
-0.0.0.0 m.microsoftfeedback.microsoft.com
 0.0.0.0 m.microsoftstore.microsoft.com
 0.0.0.0 m.microsoftstore2.microsoft.com
 0.0.0.0 m.microsoftstore4.microsoft.com
@@ -20720,17 +20711,13 @@
 0.0.0.0 m127.storeemail.microsoft.com
 0.0.0.0 m127.storemail.microsoft.com
 0.0.0.0 m132.customerexperience.microsoft.com
-0.0.0.0 m132.customersfeedback.microsoft.com
 0.0.0.0 m132.e-mails.microsoft.com
 0.0.0.0 m132.email.edu.microsoft.com
 0.0.0.0 m132.information2.microsoft.com
-0.0.0.0 m132.microsoftfeedback.microsoft.com
 0.0.0.0 m132.msemail.microsoft.com
-0.0.0.0 m135.customersfeedback.microsoft.com
 0.0.0.0 m135.e-mails.microsoft.com
 0.0.0.0 m135.email.edu.microsoft.com
 0.0.0.0 m135.information2.microsoft.com
-0.0.0.0 m135.microsoftfeedback.microsoft.com
 0.0.0.0 m135.msemail.microsoft.com
 0.0.0.0 m136.microsoftstore.microsoft.com
 0.0.0.0 m136.notice.microsoft.com
@@ -22762,7 +22749,6 @@
 0.0.0.0 microsoftexpo.net
 0.0.0.0 microsoftexpo.org
 0.0.0.0 microsoftfamily.com
-0.0.0.0 microsoftfeedback.microsoft.com
 0.0.0.0 microsoftflight.com
 0.0.0.0 microsoftforefront.org
 0.0.0.0 microsoftfrontpage.com
@@ -24339,7 +24325,6 @@
 0.0.0.0 res.customeremail.microsoft.com
 0.0.0.0 res.customerexperience.microsoft.com
 0.0.0.0 res.customermail.microsoft.com
-0.0.0.0 res.customersfeedback.microsoft.com
 0.0.0.0 res.df.onecdn.static.microsoft
 0.0.0.0 res.e-mails.microsoft.com
 0.0.0.0 res.email.edu.microsoft.com
@@ -24358,7 +24343,6 @@
 0.0.0.0 res.information2.microsoft.com
 0.0.0.0 res.mails.microsoft.com
 0.0.0.0 res.mails2.microsoft.com
-0.0.0.0 res.microsoftfeedback.microsoft.com
 0.0.0.0 res.microsoftstore.microsoft.com
 0.0.0.0 res.microsoftstore2.microsoft.com
 0.0.0.0 res.microsoftstore4.microsoft.com
@@ -24388,17 +24372,13 @@
 0.0.0.0 res127.storeemail.microsoft.com
 0.0.0.0 res127.storemail.microsoft.com
 0.0.0.0 res132.customerexperience.microsoft.com
-0.0.0.0 res132.customersfeedback.microsoft.com
 0.0.0.0 res132.e-mails.microsoft.com
 0.0.0.0 res132.email.edu.microsoft.com
 0.0.0.0 res132.information2.microsoft.com
-0.0.0.0 res132.microsoftfeedback.microsoft.com
 0.0.0.0 res132.msemail.microsoft.com
-0.0.0.0 res135.customersfeedback.microsoft.com
 0.0.0.0 res135.e-mails.microsoft.com
 0.0.0.0 res135.email.edu.microsoft.com
 0.0.0.0 res135.information2.microsoft.com
-0.0.0.0 res135.microsoftfeedback.microsoft.com
 0.0.0.0 res135.msemail.microsoft.com
 0.0.0.0 res136.microsoftstore.microsoft.com
 0.0.0.0 res136.notice.microsoft.com
@@ -25291,8 +25271,6 @@
 0.0.0.0 support.staging.xbox.com
 0.0.0.0 support2.microsoft.com
 0.0.0.0 surface.microsoft.com
-0.0.0.0 survey.microsoft.com
-0.0.0.0 survey.support.services.microsoft.com
 0.0.0.0 susanfantasy.spaces.live.com
 0.0.0.0 sv-se.appex-rf.msn.com
 0.0.0.0 swa.packages.mde.securitycenter.windows.com
@@ -25325,7 +25303,6 @@
 0.0.0.0 t.customeremail.microsoft.com
 0.0.0.0 t.customerexperience.microsoft.com
 0.0.0.0 t.customermail.microsoft.com
-0.0.0.0 t.customersfeedback.microsoft.com
 0.0.0.0 t.e-mails.microsoft.com
 0.0.0.0 t.email.edu.microsoft.com
 0.0.0.0 t.emailinform.microsoft.com
@@ -25344,7 +25321,6 @@
 0.0.0.0 t.mails.microsoft.com
 0.0.0.0 t.mails2.microsoft.com
 0.0.0.0 t.microsoft.com
-0.0.0.0 t.microsoftfeedback.microsoft.com
 0.0.0.0 t.microsoftstore.microsoft.com
 0.0.0.0 t.microsoftstore2.microsoft.com
 0.0.0.0 t.microsoftstore4.microsoft.com
@@ -25381,17 +25357,13 @@
 0.0.0.0 t127.storeemail.microsoft.com
 0.0.0.0 t127.storemail.microsoft.com
 0.0.0.0 t132.customerexperience.microsoft.com
-0.0.0.0 t132.customersfeedback.microsoft.com
 0.0.0.0 t132.e-mails.microsoft.com
 0.0.0.0 t132.email.edu.microsoft.com
 0.0.0.0 t132.information2.microsoft.com
-0.0.0.0 t132.microsoftfeedback.microsoft.com
 0.0.0.0 t132.msemail.microsoft.com
-0.0.0.0 t135.customersfeedback.microsoft.com
 0.0.0.0 t135.e-mails.microsoft.com
 0.0.0.0 t135.email.edu.microsoft.com
 0.0.0.0 t135.information2.microsoft.com
-0.0.0.0 t135.microsoftfeedback.microsoft.com
 0.0.0.0 t135.msemail.microsoft.com
 0.0.0.0 t136.microsoftstore.microsoft.com
 0.0.0.0 t136.notice.microsoft.com
@@ -25450,7 +25422,6 @@
 0.0.0.0 tar.microsoft.com
 0.0.0.0 target.microsoft.com
 0.0.0.0 targetednotifications-tm.trafficmanager.net
-0.0.0.0 targetingservice.windowsnps.insights.office.com
 0.0.0.0 targetnotificationsu1.vssubscription.visualstudio.com
 0.0.0.0 tas.gcc.teams.microsoft.com
 0.0.0.0 tas.teams.microsoft.com
@@ -25836,7 +25807,6 @@
 0.0.0.0 useast2-02.ic3-audioconference-cva.eastus2-test.cosmic-int.office.net
 0.0.0.0 user.microsoft.com
 0.0.0.0 userattributes-int.mp.dps.microsoft.com
-0.0.0.0 userfeedback.microsoft.com
 0.0.0.0 userrequests-ca.securitycenter.windows.com
 0.0.0.0 userrequests-df.securitycenter.windows.com
 0.0.0.0 userrequests-dfo.securitycenter.windows.com
@@ -26310,7 +26280,6 @@
 0.0.0.0 windowsembeddedpartners.com
 0.0.0.0 windowsembeddedpartners.net
 0.0.0.0 windowsembeddedpartners.org
-0.0.0.0 windowsfeedback.microsoft.com
 0.0.0.0 windowslive.de
 0.0.0.0 windowslive.fr
 0.0.0.0 windowslive.la
@@ -26790,7 +26759,6 @@
 0.0.0.0 www.faysky.spaces.live.com
 0.0.0.0 www.fcl.dapi.microsoft.com
 0.0.0.0 www.feedback.microsoft-hohm.com
-0.0.0.0 www.feedback.windows.com
 0.0.0.0 www.fifi-club.spaces.live.com
 0.0.0.0 www.fiorileberry.spaces.live.com
 0.0.0.0 www.firstpartyapp.dogfood.online.core.vsengsaas.visualstudio.com
@@ -27489,8 +27457,6 @@
 :: edgetipscdn.microsoft.com
 :: europe.cp.wd.microsoft.com
 :: feedback.microsoft-hohm.com
-:: feedback.search.microsoft.com
-:: feedback.windows.com
 :: i1.services.social.microsoft.com
 :: i1.services.social.microsoft.com.nsatc.net
 :: iecvlist.microsoft.com
